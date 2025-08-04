@@ -1,9 +1,12 @@
 # ----------------- 基本処理 -----------------
 import os
 import json
+import glob
+import re
 import random
 import numpy as np
 from collections import defaultdict
+import traceback
 
 # ----------------- Word2Vec & BERT -----------------
 from gensim.models import Word2Vec, KeyedVectors
@@ -26,6 +29,10 @@ from pytorch_lightning.callbacks import EarlyStopping
 
 # ----------------- 遺伝的アルゴリズム（GA） -----------------
 from deap import base, creator, tools, algorithms
+
+def load_json(path):
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 
 def generate_individual(min_layers=2, max_layers=4, min_clusters=2, max_clusters=20):
@@ -65,7 +72,14 @@ def balanced_kmeans_clustering(vectors, num_clusters=10, max_iter=100, random_st
     centers.append(vectors[np.random.choice(n_samples)])  # First center randomly chosen
     for _ in range(1, num_clusters):
         distances = np.min(euclidean_distances(vectors, np.array(centers)), axis=1)
-        probabilities = distances**2 / np.sum(distances**2)
+        squared_distances = distances ** 2
+        total = np.sum(squared_distances)
+
+        if total == 0 or np.isnan(total):
+            probabilities = np.ones(n_samples) / n_samples
+        else:
+            probabilities = squared_distances / total
+
         next_center_idx = np.random.choice(n_samples, p=probabilities)
         centers.append(vectors[next_center_idx])
     centers = np.array(centers)
@@ -108,77 +122,47 @@ def balanced_kmeans_clustering(vectors, num_clusters=10, max_iter=100, random_st
 
     return labels
 
-def hierarchical_clustering_by_layers(categories, individual, vectorizer, seed=42):
-    from collections import defaultdict
-
-    current_categories = categories
-    full_structure = {}
-    parent_paths = ['']  # 初期は全体を1つのグループとする
-
-    for depth, num_clusters in enumerate(individual):
-        layer_name = f"layer{depth + 1}"
-        full_structure[layer_name] = {}
-        next_parent_paths = []
-
-        for path in parent_paths:
-            # クラスタリング対象のカテゴリ
-            if path == '':
-                subcategories = current_categories
-            else:
-                subcategories = full_structure[f"layer{depth}"][path]
-
-            if len(subcategories) < num_clusters:
-                print(f"[警告] {path}のカテゴリ数がクラスタ数{num_clusters}未満のためスキップ")
-                continue
-
-            vectors = vectorizer(subcategories)
-            labels = balanced_kmeans_clustering(vectors, num_clusters, random_state=seed)
-
-            for i, label in enumerate(labels):
-                new_path = f"{path}-{label}" if path != '' else str(label)
-                full_structure[layer_name].setdefault(new_path, []).append(subcategories[i])
-                next_parent_paths.append(new_path)
-
-        parent_paths = next_parent_paths
-
-    return full_structure
-
 
 def perform_hierarchical_clustering(categories, num_layers, cluster_counts, vector_model):
     """
-    階層的にBalanced KMeansでクラスタリングする。
+    階層的にBalanced KMeansでクラスタリングする。各層のクラスタIDは親クラスタIDを継承（例: 3 → 3-2 → 3-2-4）。
 
     Args:
         categories (list): smallカテゴリ（全カテゴリ）のリスト
-        num_layers (int): 層の数（例: 2なら layer1, layer2）
-        cluster_counts (list): 各層でのクラスタ数（例: [12, 6]）
+        num_layers (int): 層の数（例: 3なら layer1, layer2, layer3）
+        cluster_counts (list): 各層のクラスタ数（例: [12, 6, 3]）
         vector_model: Word2VecモデルやGoogleNewsベクトル
 
     Returns:
-        dict: 各layerの {クラスタID: [カテゴリ名]} の辞書
+        dict: 各layerの {クラスタID（階層表現）: [カテゴリ名]} の辞書
     """
-    current_categories = categories
+    from collections import defaultdict
+
+    # 初期状態（最上位層）では全カテゴリが1つの親クラスタに所属
+    current_clusters = {"": categories}
     all_layer_clusters = {}
 
     for layer_idx in range(num_layers):
-        vectors = get_category_vectors(current_categories, vector_model)
-        labels = balanced_kmeans_clustering(vectors, num_clusters=cluster_counts[layer_idx], random_state=42)
+        next_clusters = defaultdict(list)
+        layer_result = {}
 
-        # クラスタごとにカテゴリをまとめる
-        clusters = defaultdict(list)
-        for cat, label in zip(current_categories, labels):
-            clusters[f"{layer_idx}-{label}"].append(cat)
+        for parent_id, cat_list in current_clusters.items():
+            if len(cat_list) == 0:
+                continue
 
-        all_layer_clusters[layer_idx] = clusters
+            vectors = get_category_vectors(cat_list, vector_model)
+            num_clusters = min(cluster_counts[layer_idx], len(cat_list))  # 安全策：カテゴリ数より多くクラスタしない
+            labels = balanced_kmeans_clustering(vectors, num_clusters=num_clusters, random_state=42)
 
-        # 次のレイヤーの入力として使うカテゴリを更新
-        current_categories = []
-        for cluster in clusters.values():
-            current_categories.extend(cluster)
+            for cat, label in zip(cat_list, labels):
+                # 新しいクラスタIDは親に"-N"を加えた形式
+                new_cluster_id = f"{parent_id}-{label}" if parent_id else f"{label}"
+                next_clusters[new_cluster_id].append(cat)
 
-    layer_clusters_strkey = {f"layer{idx+1}": clusters for idx, clusters in all_layer_clusters.items()}
-    return layer_clusters_strkey
+        all_layer_clusters[f"layer{layer_idx+1}"] = dict(next_clusters)
+        current_clusters = next_clusters
 
+    return all_layer_clusters
 
 def assign_layer_labels(original_data, layer_clusters):
     """
@@ -193,12 +177,12 @@ def assign_layer_labels(original_data, layer_clusters):
     """
     # カテゴリ名から各レイヤーのクラスタを引くための辞書
     category_to_layer = {}
-    for layer_idx, clusters in layer_clusters.items():
+    for layer_name, clusters in layer_clusters.items():
         for cluster_id, cat_list in clusters.items():
             for cat in cat_list:
                 if cat not in category_to_layer:
                     category_to_layer[cat] = {}
-                category_to_layer[cat][f"layer{layer_idx + 1}"] = cluster_id
+                category_to_layer[cat][layer_name] = cluster_id
 
     updated_data = []
     for item in original_data:
@@ -217,25 +201,54 @@ def assign_layer_labels(original_data, layer_clusters):
 def split_dataset_by_clusters(data, layer_key, output_dir, test_ratio=0.2):
     """
     指定したレイヤーのクラスタごとにデータをファイルに分割し、学習・テストデータを保存。
-
-    Args:
-        data (list of dict): 各レイヤー付きのサービスデータ
-        layer_key (str): "layer1" や "layer2" など
-        output_dir (str): 出力先ディレクトリ
-        test_ratio (float): テストデータの割合
+    同じ name を持つデータはマージされる。
 
     Returns:
         list: 各クラスタに対応する (train_data, test_data) のリスト
     """
     os.makedirs(output_dir, exist_ok=True)
+    layer_field = layer_key
+
+    # ----------- 🔽 追加: nameベースのマージ処理 ----------
+    merged_data = {}
+    for item in data:
+        name = item["name"]
+        if name not in merged_data:
+            merged_data[name] = item.copy()
+
+            # category → list化
+            if isinstance(item["category"], str):
+                merged_data[name]["category"] = [item["category"]]
+            for k in item:
+                if k.startswith("layer") and k.endswith("categories"):
+                    merged_data[name][k] = list(item[k]) if isinstance(item[k], list) else [item[k]]
+
+        else:
+            # category を追加
+            if item["category"] not in merged_data[name]["category"]:
+                merged_data[name]["category"].append(item["category"])
+
+            # layerXcategories をマージ
+            for k in item:
+                if k.startswith("layer") and k.endswith("categories"):
+                    if k not in merged_data[name]:
+                        merged_data[name][k] = []
+                    for val in item[k]:
+                        if val not in merged_data[name][k]:
+                            merged_data[name][k].append(val)
+
+    # マージ後のリストに変換
+    data = list(merged_data.values())
+    # -----------------------------------------------------
 
     grouped = defaultdict(list)
     for item in data:
-        if layer_key in item:
-            cluster_id = item[layer_key][0]
+        if layer_field in item:
+            cluster_id = item[layer_field][0]
             grouped[cluster_id].append(item)
         else:
             print(f"[警告] {layer_key} が存在しない項目: {item['name']}")
+            print("eeeeeeeeeee")
 
     split_data = []
 
@@ -253,7 +266,7 @@ def split_dataset_by_clusters(data, layer_key, output_dir, test_ratio=0.2):
         with open(test_path, 'w', encoding='utf-8') as f:
             json.dump(test_data, f, ensure_ascii=False, indent=2)
 
-        split_data.append((train_data, test_data))
+        split_data.append((cluster_id, train_data, test_data))
 
     return split_data
 
@@ -293,64 +306,6 @@ def generate_data_with_layer_labels(original_data, layer_cluster_maps):
             updated_data.append(base)
 
     return updated_data
-
-
-def split_data_by_layer_category(data, layer_name, output_dir):
-    """
-    data: ラベル付与済みデータ
-    layer_name: "layer1", "layer2" など
-    output_dir: 保存ディレクトリ
-    """
-    os.makedirs(output_dir, exist_ok=True)
-
-    grouped = defaultdict(list)
-    key = f"{layer_name}categories"
-
-    for item in data:
-        if key not in item:
-            print(f"[警告] {key} が存在しないデータ: {item.get('name', '')}")
-            continue
-        cluster_id = item[key][0]  # 1カテゴリだけなので0番目だけ
-        grouped[cluster_id].append(item)
-
-    for cluster_id, items in grouped.items():
-        filename = os.path.join(output_dir, f"{layer_name}_{cluster_id}.json")
-        with open(filename, "w", encoding="utf-8") as f:
-            json.dump(items, f, indent=2, ensure_ascii=False)
-        print(f"[出力] {filename} ({len(items)} 件)")
-
-
-def split_train_test_data_per_file(input_dir, output_dir, test_ratio=0.2):
-    os.makedirs(output_dir, exist_ok=True)
-
-    for filename in os.listdir(input_dir):
-        if not filename.endswith(".json"):
-            continue
-
-        input_path = os.path.join(input_dir, filename)
-        with open(input_path, 'r', encoding='utf-8') as f:
-            all_data = json.load(f)
-
-        total_count = len(all_data)
-        test_size = int(total_count * test_ratio)
-
-        all_names = [item["name"] for item in all_data]
-        test_names = set(random.sample(all_names, test_size))
-
-        test_data = [item for item in all_data if item["name"] in test_names]
-        train_data = [item for item in all_data if item["name"] not in test_names]
-
-        base_name = filename.replace(".json", "")
-        test_path = os.path.join(output_dir, f"{base_name}_test_data.json")
-        train_path = os.path.join(output_dir, f"{base_name}_study_data.json")
-
-        with open(test_path, 'w', encoding='utf-8') as f:
-            json.dump(test_data, f, indent=2, ensure_ascii=False)
-
-        with open(train_path, 'w', encoding='utf-8') as f:
-            json.dump(train_data, f, indent=2, ensure_ascii=False)
-
-        print(f"[分割完了] {filename} → 学習: {len(train_data)} 件, テスト: {len(test_data)} 件")
 
 
 # データセットクラスの定義
@@ -426,55 +381,35 @@ class BertForMultilabelClassification(pl.LightningModule):
     def configure_optimizers(self):
         return {"optimizer": AdamW(self.parameters(), lr=self.lr)}
 
+def build_index_maps(save_dir):
+    """
+    save_dir 内の label_map ファイルを読み込み、index_maps を構築する。
+    ファイル名は以下の形式を想定：
+      e.g., layer1_0_label_map.json
+    """
+    index_maps = {}
 
+    # すべての label_map ファイルを取得
+    for filepath in glob.glob(os.path.join(save_dir, "layer*_*_label_map.json")):
+        filename = os.path.basename(filepath)
+        
+        # 正規表現で layerX, cluster_id を抽出
+        match = re.match(r"layer(\d+)_([^_]+)_label_map\.json", filename)
+        if not match:
+            continue
+        
+        layer_num = int(match.group(1))
+        cluster_id = match.group(2)
+        layer_key = f"layer{layer_num}"
 
-def train_model_per_cluster(train_file, model_save_path, catlist_save_path, model_name="bert-base-uncased"):
+        with open(filepath, "r", encoding="utf-8") as f:
+            label_map = json.load(f)
 
-    with open(train_file, "r", encoding="utf-8") as f:
-        data = json.load(f)
+        if layer_key not in index_maps:
+            index_maps[layer_key] = {}
+        index_maps[layer_key][cluster_id] = label_map
 
-    texts = [item["description"] for item in data]
-    raw_labels = [item["middlecategories"] for item in data]
-
-    all_categories = sorted(set(cat for cats in raw_labels for cat in cats))
-    category_to_index = {cat: i for i, cat in enumerate(all_categories)}
-
-    labels = []
-    for cats in raw_labels:
-        vector = [0] * len(all_categories)
-        for cat in cats:
-            vector[category_to_index[cat]] = 1
-        labels.append(vector)
-
-    pos_counts = torch.tensor([sum(l[i] for l in labels) for i in range(len(all_categories))])
-    neg_counts = torch.tensor([len(labels) - p for p in pos_counts])
-    pos_weight = neg_counts / (pos_counts + 1e-6)
-
-    tokenizer = BertTokenizer.from_pretrained(model_name)
-    dataset = TextDataset(texts, labels, tokenizer)
-    split = int(0.8 * len(dataset))
-    train_set, val_set = torch.utils.data.random_split(dataset, [split, len(dataset) - split])
-
-    train_loader = DataLoader(train_set, batch_size=8, shuffle=True)
-    val_loader = DataLoader(val_set, batch_size=8)
-
-    model = BertForMultilabelClassification(model_name, len(all_categories), pos_weight)
-
-    trainer = pl.Trainer(
-        max_epochs=50,
-        accelerator="gpu",
-        devices=1,
-        callbacks=[EarlyStopping(monitor="val_loss", patience=3, mode="min")]
-    )
-    trainer.fit(model, train_loader, val_loader)
-
-    torch.save(model.state_dict(), model_save_path)
-
-    with open(catlist_save_path, "w", encoding="utf-8") as f:
-        json.dump(all_categories, f, ensure_ascii=False, indent=2)
-
-    print(f"[モデル学習完了] 保存: {model_save_path}")
-
+    return index_maps
 
 def calculate_metrics(true_set, predicted_set):
     """
@@ -502,129 +437,166 @@ def average_metrics(metrics_list):
 
 
 
-def evaluate_model_per_cluster(cluster_id, model_class, tokenizer, model_name, train_data, test_data, layer_label_key):
-    """
-    指定されたクラスタのモデルを訓練し、テストデータで精度を評価する。
-    Args:
-        cluster_id (int): クラスタ番号
-        model_class: BertForMultilabelClassification クラス
-        tokenizer: BERTトークナイザ
-        model_name (str): 事前学習モデル名
-        train_data (list): 学習データ（dict形式）
-        test_data (list): テストデータ（dict形式）
-        layer_label_key (str): ラベルキー（例: "layer2categories"）
-    Returns:
-        tuple: (avg_precision, avg_recall, avg_f1)
-    """
-    # ラベルリストの抽出とインデックス化
-    raw_labels = [item[layer_label_key] for item in train_data]
+def train_model_per_cluster(train_file, model_save_path, catlist_save_path, model_name="bert-base-uncased"):
+
+    with open(train_file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    texts = [item["description"] for item in data]
+    raw_labels = [item["middlecategories"] for item in data]
+
+    # ラベル辞書の作成
     all_categories = sorted(set(cat for cats in raw_labels for cat in cats))
     category_to_index = {cat: i for i, cat in enumerate(all_categories)}
-    index_to_category = {i: cat for cat, i in category_to_index.items()}
+    index_to_category = {i: cat for cat, i in category_to_index.items()}  # ← 🔧 ここで定義
 
-    # ラベルベクトル化
-    def encode_labels(data):
-        encoded = []
-        for item in data:
-            vec = [0] * len(all_categories)
-            for cat in item[layer_label_key]:
-                if cat in category_to_index:
-                    vec[category_to_index[cat]] = 1
-            encoded.append(vec)
-        return encoded
-
-    train_texts = [item["description"] for item in train_data]
-    train_labels = encode_labels(train_data)
-
-    test_texts = [item["description"] for item in test_data]
-    test_labels = encode_labels(test_data)
+    # ラベルのベクトル化
+    labels = []
+    for cats in raw_labels:
+        vector = [0] * len(all_categories)
+        for cat in cats:
+            vector[category_to_index[cat]] = 1
+        labels.append(vector)
 
     # pos_weight の計算
-    label_tensor = torch.tensor(train_labels)
-    pos_count = label_tensor.sum(dim=0)
-    neg_count = len(train_labels) - pos_count
-    pos_weight = neg_count / (pos_count + 1e-6)
+    pos_counts = torch.tensor([sum(l[i] for l in labels) for i in range(len(all_categories))])
+    neg_counts = torch.tensor([len(labels) - p for p in pos_counts])
+    pos_weight = neg_counts / (pos_counts + 1e-6)
 
-    # データローダー作成
-    train_dataset = TextDataset(train_texts, train_labels, tokenizer)
-    val_dataset = TextDataset(test_texts, test_labels, tokenizer)
+    # データ分割
+    tokenizer = BertTokenizer.from_pretrained(model_name)
+    dataset = TextDataset(texts, labels, tokenizer)
+    split = int(0.8 * len(dataset))
+    train_set, val_set = torch.utils.data.random_split(dataset, [split, len(dataset) - split])
 
-    train_loader = DataLoader(train_dataset, batch_size=8, shuffle=True, num_workers=2)
-    val_loader = DataLoader(val_dataset, batch_size=8, shuffle=False, num_workers=2)
+    train_loader = DataLoader(train_set, batch_size=8, shuffle=True)
+    val_loader = DataLoader(val_set, batch_size=8)
 
     # モデル構築と学習
-    model = model_class(model_name, len(all_categories), pos_weight)
-
+    model = BertForMultilabelClassification(model_name, len(all_categories), pos_weight)
     trainer = pl.Trainer(
         max_epochs=50,
         accelerator="gpu",
         devices=1,
         callbacks=[EarlyStopping(monitor="val_loss", patience=3, mode="min")],
-        enable_progress_bar=False,
+        default_root_dir="/tmp" ,
         logger=False
     )
-
     trainer.fit(model, train_loader, val_loader)
 
-    # 推論と評価
-    metrics_list = []
+    # モデル保存
+    torch.save(model.state_dict(), model_save_path)
+
+    # 🔽 index_maps 用のラベルマップ保存
+    label_map = {
+        "index_to_category": {str(k): v for k, v in index_to_category.items()},
+        "category_to_index": category_to_index
+    }
+    with open(catlist_save_path, "w", encoding="utf-8") as f:
+        json.dump(label_map, f, ensure_ascii=False, indent=2)
+
+    print(f"[モデル学習完了] モデル保存: {model_save_path}")
+    print(f"[ラベルマップ保存] {catlist_save_path}")
+
+
+
+def predict_labels(model, tokenizer, text, threshold=0.5, device="cuda"):
+    """
+    description に対するマルチラベル予測（インデックス形式）
+    """
+    inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True).to(device)
+    with torch.no_grad():
+        logits = model(**inputs).squeeze()
+        probs = torch.sigmoid(logits)
+    if probs.ndim == 0:
+        return [0] if probs > threshold else []
+    return (probs > threshold).nonzero(as_tuple=True)[0].tolist()
+
+
+def load_model(model_class, model_name, num_labels, path, device="cuda"):
+    """
+    モデルのロード（保存されたstate_dictから）
+    """
+    model = model_class(model_name, num_labels, pos_weight=torch.ones(num_labels)).to(device)
+    state_dict = torch.load(path, map_location="cpu")
+    model.load_state_dict(state_dict)
+    model.eval()
+    return model
+
+
+def evaluate_solution_hierarchical(
+    test_data,
+    model_class,
+    tokenizer,
+    model_name,
+    index_maps,
+    save_dir,
+    max_layer=3,
+    threshold=0.5
+):
+    """
+    階層的にsmallカテゴリを予測し、true categoriesと比較してF1を評価。
+
+    Args:
+        test_data: [{"description": ..., "categories": [...]}]
+        model_class: BertForMultilabelClassificationなど
+        tokenizer: トークナイザ
+        model_name: モデル名
+        index_maps: 各レイヤー/クラスタIDごとの index_to_category / category_to_index を持つ辞書
+        save_dir: 保存されたモデルのディレクトリ
+        max_layer: 階層の最大数（GAで個体から決まる）
+    Returns:
+        avg_precision, avg_recall, avg_f1
+    """
+    results = []
 
     for item in test_data:
         text = item["description"]
-        true_labels = item[layer_label_key]
+        true_labels = item["categories"]
 
-        inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True)
-        with torch.no_grad():
-            logits = model(**inputs).squeeze()
-            probs = torch.sigmoid(logits)
+        # 初期状態（layer1のルートクラスタは "root" というキーと仮定）
+        current_cluster_ids = ["root"]
+        final_predicted_labels = []
 
-        predicted_indices = (probs > 0.5).nonzero(as_tuple=True)[0].tolist()
-        predicted_labels = [index_to_category[i] for i in predicted_indices]
+        for layer in range(1, max_layer + 1):
+            next_cluster_ids = []
+            layer_key = f"layer{layer}"
 
-        precision, recall, f1 = calculate_metrics(true_labels, predicted_labels)
-        metrics_list.append((precision, recall, f1))
+            for cluster_id in current_cluster_ids:
+                # 対応するモデル・マップの読み込み
+                if cluster_id not in index_maps[layer_key]:
+                    continue
 
-    avg_precision, avg_recall, avg_f1 = average_metrics(metrics_list)
-    return avg_precision, avg_recall, avg_f1
+                label_map = index_maps[layer_key][cluster_id]
+                index_to_category = label_map["index_to_category"]
+                category_to_index = label_map["category_to_index"]
 
+                model_path = os.path.join(save_dir, f"{layer_key}_{cluster_id}_model_weights.pth")
+                if not os.path.exists(model_path):
+                    continue
 
-def evaluate_solution(clustered_datasets, model_class, tokenizer, model_name, layer_label_key):
-    """
-    すべてのクラスタ（モデル）に対してモデルを訓練し評価する。
-    Args:
-        clustered_datasets (dict): { cluster_id: {"train": [...], "test": [...]} } の形式
-        model_class: BertForMultilabelClassification クラス
-        tokenizer: BERTトークナイザ
-        model_name (str): 事前学習モデル名
-        layer_label_key (str): 評価対象ラベルキー（例: "layer2categories"）
-    Returns:
-        tuple: 全体の (avg_precision, avg_recall, avg_f1)
-    """
-    all_metrics = []
+                model = load_model(model_class, model_name, len(index_to_category), model_path)
 
-    for cluster_id, datasets in clustered_datasets.items():
-        print(f"Evaluating cluster {cluster_id}...")
-        train_data = datasets["train"]
-        test_data = datasets["test"]
+                pred_indices = predict_labels(model, tokenizer, text, threshold)
+                pred_categories = [index_to_category[i] for i in pred_indices]
 
-        if not train_data or not test_data:
-            print(f"  [警告] cluster {cluster_id} のデータが不足しています。スキップします。")
-            continue
+                if layer == max_layer:
+                    # 最終レイヤー：smallカテゴリを収集
+                    final_predicted_labels = pred_categories
+                else:
+                    # 中間レイヤー：次のクラスタIDとして使用
+                    next_cluster_ids.extend(pred_categories)
 
-        precision, recall, f1 = evaluate_model_per_cluster(
-            cluster_id,
-            model_class,
-            tokenizer,
-            model_name,
-            train_data,
-            test_data,
-            layer_label_key
-        )
-        all_metrics.append((precision, recall, f1))
+            current_cluster_ids = next_cluster_ids
 
-    # 全体の平均を集計
-    avg_precision, avg_recall, avg_f1 = average_metrics(all_metrics)
-    return avg_precision, avg_recall, avg_f1
+        # 最終予測結果がなければスキップ
+        if not final_predicted_labels:
+            results.append((0, 0, 0))
+        else:
+            precision, recall, f1 = calculate_metrics(true_labels, final_predicted_labels)
+            results.append((precision, recall, f1))
+
+    return average_metrics(results)
 
 
 vector_model = KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)
@@ -646,6 +618,8 @@ def fitness_function(individual, categories, all_data, model_class, tokenizer, m
     """
     num_layers = individual[0]
     cluster_counts = individual[1:num_layers + 1]  # 各レイヤのクラスタ数（例: [12, 6, 2]）
+    save_dir = f"./ga_saved_models/{'-'.join(map(str, individual))}"
+    os.makedirs(save_dir, exist_ok=True)
     
 
     try:
@@ -677,17 +651,48 @@ def fitness_function(individual, categories, all_data, model_class, tokenizer, m
             }
             for i, (train_data, test_data) in enumerate(split_data)
         }
+        
+        # ステップ 3.5: 各クラスタのモデルを学習・保存（評価は後で行う）
+        for cluster_id, dataset in clustered_datasets.items():
+            layer_id = num_layers  # 最終層
+            train_data = dataset["train"]
 
+            # ファイル名の定義
+            model_save_path = os.path.join(save_dir, f"{cluster_id}_model.pth")
+            label_map_path = os.path.join(save_dir, f"{cluster_id}_label_map.json")
+
+            # temp trainファイル保存（train_model_per_clusterがファイルから読む前提なら）
+            temp_train_file = os.path.join(output_dir, f"{cluster_id}_train_temp.json")
+            with open(temp_train_file, "w", encoding="utf-8") as f:
+                json.dump(train_data, f, ensure_ascii=False, indent=2)
+
+            # 学習と保存（既に定義済みの関数）
+            train_model_per_cluster(
+                train_file=temp_train_file,
+                model_save_path=model_save_path,
+                catlist_save_path=label_map_path,
+                model_name=model_name
+            )
+                
         # ステップ 4: モデル学習・評価（評価対象は最終層）
-        final_layer_key = f"layer{num_layers}categories"
-        avg_precision, avg_recall, avg_f1 = evaluate_solution(
-            clustered_datasets, model_class, tokenizer, model_name, final_layer_key
-        )
+        test_data = load_json("/home/nakagawa/collaboration_test_data.json")  # あなたの検証データ
 
-        return avg_f1  # 適応度として F1 スコアを返す
+        index_maps = build_index_maps(save_dir)  # モデル保存先にある label_map から自動構築
+
+        avg_precision, avg_recall, avg_f1 = evaluate_solution_hierarchical(
+            test_data=test_data,
+            model_class=model_class,
+            tokenizer=tokenizer,
+            model_name=model_name,
+            index_maps=index_maps,
+            save_dir=save_dir,
+            max_layer=num_layers  # 例：3
+        )
+        return avg_f1 
 
     except Exception as e:
         print(f"[エラー] 個体 {individual} の評価中に例外が発生: {e}")
+        traceback.print_exc()
         return 0.0  # 失敗した個体の適応度は 0
 
 
@@ -719,8 +724,27 @@ creator.create("Individual", list, fitness=creator.FitnessMax)
 toolbox = base.Toolbox()
 
 def generate_individual():
+    total_categories = len(categories)  # 例: 152
     num_layers = random.randint(MIN_LAYERS, MAX_LAYERS)
-    return [num_layers] + [random.randint(MIN_CLUSTERS, MAX_CLUSTERS) for _ in range(num_layers)]
+    remaining = total_categories
+    min_per_cluster = 2
+    clusters = []
+
+    for i in range(num_layers):
+        # 最大でも「カテゴリ数 // 2」、最小でも 2クラスタ
+        max_clusters = max(2, remaining // min_per_cluster)
+        # ただし現在のレイヤ数 - i で割り切れるような余地を残す
+        remaining_layers = num_layers - (i + 1)
+        if remaining_layers > 0:
+            # 最低限、次層でもクラスタ数2以上を保証するカテゴリ数が残るようにする
+            max_clusters = min(max_clusters, remaining // (2 ** (remaining_layers)))
+
+        # この層のクラスタ数（必ず2以上）
+        k = random.randint(2, max_clusters)
+        clusters.append(k)
+        remaining = max(1, remaining // k)
+
+    return [num_layers] + clusters
 
 toolbox.register("individual", tools.initIterate, creator.Individual, generate_individual)
 toolbox.register("population", tools.initRepeat, list, toolbox.individual)
@@ -736,10 +760,25 @@ toolbox.register("select", tools.selTournament, tournsize=3)
 toolbox.register("mate", tools.cxTwoPoint)
 
 def mutate_individual(individual):
+    total_categories = len(categories)  # smallカテゴリの総数（例: 152）
     num_layers = random.randint(MIN_LAYERS, MAX_LAYERS)
-    new_clusters = [random.randint(MIN_CLUSTERS, MAX_CLUSTERS) for _ in range(num_layers)]
-    individual[:] = [num_layers] + new_clusters
+    remaining = total_categories
+    min_per_cluster = 2
+    clusters = []
+
+    for i in range(num_layers):
+        max_clusters = max(2, remaining // min_per_cluster)
+        remaining_layers = num_layers - (i + 1)
+        if remaining_layers > 0:
+            max_clusters = min(max_clusters, remaining // (2 ** remaining_layers))
+
+        k = random.randint(2, max_clusters)
+        clusters.append(k)
+        remaining = max(1, remaining // k)
+
+    individual[:] = [num_layers] + clusters
     return individual,
+
 
 toolbox.register("mutate", mutate_individual)
 
