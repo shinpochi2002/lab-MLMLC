@@ -209,38 +209,6 @@ def split_dataset_by_clusters(data, layer_key, output_dir, test_ratio=0.2):
     os.makedirs(output_dir, exist_ok=True)
     layer_field = layer_key
 
-    # ----------- 🔽 追加: nameベースのマージ処理 ----------
-    merged_data = {}
-    for item in data:
-        name = item["name"]
-        if name not in merged_data:
-            merged_data[name] = item.copy()
-
-            # category → list化
-            if isinstance(item["category"], str):
-                merged_data[name]["category"] = [item["category"]]
-            for k in item:
-                if k.startswith("layer") and k.endswith("categories"):
-                    merged_data[name][k] = list(item[k]) if isinstance(item[k], list) else [item[k]]
-
-        else:
-            # category を追加
-            if item["category"] not in merged_data[name]["category"]:
-                merged_data[name]["category"].append(item["category"])
-
-            # layerXcategories をマージ
-            for k in item:
-                if k.startswith("layer") and k.endswith("categories"):
-                    if k not in merged_data[name]:
-                        merged_data[name][k] = []
-                    for val in item[k]:
-                        if val not in merged_data[name][k]:
-                            merged_data[name][k].append(val)
-
-    # マージ後のリストに変換
-    data = list(merged_data.values())
-    # -----------------------------------------------------
-
     grouped = defaultdict(list)
     for item in data:
         if layer_field in item:
@@ -267,9 +235,34 @@ def split_dataset_by_clusters(data, layer_key, output_dir, test_ratio=0.2):
             json.dump(test_data, f, ensure_ascii=False, indent=2)
 
         split_data.append((cluster_id, train_data, test_data))
-
+        
+    print(f"[確認] split_dataの件数: {len(split_data)}")
+    for cid, train, test in split_data:
+        print(f"[クラスタID: {cid}] train={len(train)}, test={len(test)}")
     return split_data
 
+def merge_by_name(data):
+    merged_data = {}
+    for item in data:
+        name = item["name"]
+        if name not in merged_data:
+            merged_data[name] = item.copy()
+            if isinstance(item["category"], str):
+                merged_data[name]["category"] = [item["category"]]
+            for k in item:
+                if k.startswith("layer") and k.endswith("categories"):
+                    merged_data[name][k] = list(item[k]) if isinstance(item[k], list) else [item[k]]
+        else:
+            if item["category"] not in merged_data[name]["category"]:
+                merged_data[name]["category"].append(item["category"])
+            for k in item:
+                if k.startswith("layer") and k.endswith("categories"):
+                    if k not in merged_data[name]:
+                        merged_data[name][k] = []
+                    for val in item[k]:
+                        if val not in merged_data[name][k]:
+                            merged_data[name][k].append(val)
+    return list(merged_data.values())
 
 def generate_data_with_layer_labels(original_data, layer_cluster_maps):
     """
@@ -437,13 +430,13 @@ def average_metrics(metrics_list):
 
 
 
-def train_model_per_cluster(train_file, model_save_path, catlist_save_path, model_name="bert-base-uncased"):
+def train_model_per_cluster(train_file, model_save_path, catlist_save_path, model_name="bert-base-uncased",label_key="categories"):
 
     with open(train_file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     texts = [item["description"] for item in data]
-    raw_labels = [item["categories"] for item in data]
+    raw_labels = [item[label_key] for item in data]
 
     # ラベル辞書の作成
     all_categories = sorted(set(cat for cats in raw_labels for cat in cats))
@@ -555,7 +548,7 @@ def evaluate_solution_hierarchical(
         true_labels = item["categories"]
 
         # 初期状態（layer1のルートクラスタは "root" というキーと仮定）
-        current_cluster_ids = ["root"]
+        current_cluster_ids = list(index_maps.get("layer1", {}).keys())
         final_predicted_labels = []
 
         for layer in range(1, max_layer + 1):
@@ -628,6 +621,9 @@ def fitness_function(individual, categories, all_data, model_class, tokenizer, m
 
         # ステップ 2: データに階層カテゴリ（layer1, layer2, ...）を付与
         labeled_data = assign_layer_labels(all_data, layer_cluster_map)
+        
+        # ステップ 2.5: nameベースで統合（クラスタ数に関係なく必ず実施）
+        labeled_data = merge_by_name(labeled_data)
 
         # ステップ 3: 最終層のlayerキー（例：layer3）
         final_layer_key = f"layer{num_layers}"
@@ -648,7 +644,21 @@ def fitness_function(individual, categories, all_data, model_class, tokenizer, m
             if layer_id == 1:
                 # layer1 は全体データ（分割なし）
                 os.makedirs(output_dir, exist_ok=True)  # これを追加
-                split_data = [("all",labeled_data, None)]  # ダミーで1クラスタ扱い
+                random.shuffle(labeled_data)
+                test_size = int(len(labeled_data) * 0.2)
+                test_data = labeled_data[:test_size]
+                train_data = labeled_data[test_size:]
+
+                # 保存（オプション）
+                train_path = os.path.join(output_dir, f"{final_layer_key}_all_train.json")
+                test_path = os.path.join(output_dir, f"{final_layer_key}_all_test.json")
+                with open(train_path, "w", encoding="utf-8") as f:
+                    json.dump(train_data, f, ensure_ascii=False, indent=2)
+                with open(test_path, "w", encoding="utf-8") as f:
+                    json.dump(test_data, f, ensure_ascii=False, indent=2)
+
+                split_data = [("all", train_data, test_data)]
+                print(f"[INFO] 層数1のためクラスタ分割なしで train/test 分割: train={len(train_data)}, test={len(test_data)}")
             else:
                 prev_layer_key = f"layer{layer_id - 1}categories"
                 split_data = split_dataset_by_clusters(
