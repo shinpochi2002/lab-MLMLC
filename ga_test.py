@@ -658,7 +658,7 @@ def fitness_function(individual, categories, all_data, model_class, tokenizer, m
                     test_ratio=0.2
                 )
 
-            for cluster_id, train_data, _ in enumerate(split_data):
+            for cluster_id, train_data, test_data in split_data:
                 model_save_path = os.path.join(save_dir, f"{layer_key}_{cluster_id}_model.pth")
                 label_map_path = os.path.join(save_dir, f"{layer_key}_{cluster_id}_label_map.json")
                 temp_train_file = os.path.join(output_dir, f"{layer_key}_{cluster_id}_train_temp.json")
