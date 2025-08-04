@@ -443,7 +443,7 @@ def train_model_per_cluster(train_file, model_save_path, catlist_save_path, mode
         data = json.load(f)
 
     texts = [item["description"] for item in data]
-    raw_labels = [item["middlecategories"] for item in data]
+    raw_labels = [item["categories"] for item in data]
 
     # ラベル辞書の作成
     all_categories = sorted(set(cat for cats in raw_labels for cat in cats))
@@ -635,44 +635,45 @@ def fitness_function(individual, categories, all_data, model_class, tokenizer, m
         # テンポラリ保存用ディレクトリ（個体IDで区別）
         output_dir = f"./temp_split_{'-'.join(map(str, individual))}"
 
-        # クラスタごとに分割（train/test）して保存し、リストで受け取る
-        split_data = split_dataset_by_clusters(
-            labeled_data,
-            layer_key=final_layer_key,
-            output_dir=output_dir,
-            test_ratio=0.2
-        )
+        for layer_id in range(1, num_layers + 1):  # 1, 2, ..., num_layers
+            layer_key = f"layer{layer_id}"
+            output_dir = f"./temp_split_{'-'.join(map(str, individual))}_{layer_key}"
+            
+            if layer_id == num_layers:
+                label_key = "category"  # ← 最終層はカテゴリそのもの
+            else:
+                label_key = f"{layer_key}categories"
 
-        # clustered_datasets形式に変換（evaluate_solution用）
-        clustered_datasets = {
-            f"{final_layer_key}_{i}": {
-                "train": train_data,
-                "test": test_data
-            }
-            for i, (train_data, test_data) in enumerate(split_data)
-        }
-        
-        # ステップ 3.5: 各クラスタのモデルを学習・保存（評価は後で行う）
-        for cluster_id, dataset in clustered_datasets.items():
-            layer_id = num_layers  # 最終層
-            train_data = dataset["train"]
+             # === 分割対象の設定 ===
+            if layer_id == 1:
+                # layer1 は全体データ（分割なし）
+                os.makedirs(output_dir, exist_ok=True)  # これを追加
+                split_data = [("all",labeled_data, None)]  # ダミーで1クラスタ扱い
+            else:
+                prev_layer_key = f"layer{layer_id - 1}categories"
+                split_data = split_dataset_by_clusters(
+                    labeled_data,
+                    layer_key=prev_layer_key,  # 一つ前の層のクラスタで分割
+                    output_dir=output_dir,
+                    test_ratio=0.2
+                )
 
-            # ファイル名の定義
-            model_save_path = os.path.join(save_dir, f"{cluster_id}_model.pth")
-            label_map_path = os.path.join(save_dir, f"{cluster_id}_label_map.json")
+            for cluster_id, train_data, _ in enumerate(split_data):
+                model_save_path = os.path.join(save_dir, f"{layer_key}_{cluster_id}_model.pth")
+                label_map_path = os.path.join(save_dir, f"{layer_key}_{cluster_id}_label_map.json")
+                temp_train_file = os.path.join(output_dir, f"{layer_key}_{cluster_id}_train_temp.json")
 
-            # temp trainファイル保存（train_model_per_clusterがファイルから読む前提なら）
-            temp_train_file = os.path.join(output_dir, f"{cluster_id}_train_temp.json")
-            with open(temp_train_file, "w", encoding="utf-8") as f:
-                json.dump(train_data, f, ensure_ascii=False, indent=2)
+                with open(temp_train_file, "w", encoding="utf-8") as f:
+                    json.dump(train_data, f, ensure_ascii=False, indent=2)
 
-            # 学習と保存（既に定義済みの関数）
-            train_model_per_cluster(
-                train_file=temp_train_file,
-                model_save_path=model_save_path,
-                catlist_save_path=label_map_path,
-                model_name=model_name
-            )
+                train_model_per_cluster(
+                    train_file=temp_train_file,
+                    model_save_path=model_save_path,
+                    catlist_save_path=label_map_path,
+                    model_name=model_name,
+                    label_key=label_key
+                )
+
                 
         # ステップ 4: モデル学習・評価（評価対象は最終層）
         test_data = load_json("/home/nakagawa/collaboration_test_data.json")  # あなたの検証データ
