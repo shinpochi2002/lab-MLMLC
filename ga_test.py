@@ -208,24 +208,52 @@ def split_dataset_by_clusters(data, layer_key, output_dir, test_ratio=0.2):
     """
     os.makedirs(output_dir, exist_ok=True)
     layer_field = layer_key
-
+    
+   # クラスタごとにデータを分ける（複数クラスタ対応）
     grouped = defaultdict(list)
     for item in data:
-        if layer_field in item:
-            cluster_id = item[layer_field][0]
-            grouped[cluster_id].append(item)
+        if layer_field in item and item[layer_field]:
+            for cluster_id in item[layer_field]:  # 複数クラスタ対応
+                grouped[cluster_id].append(item)
         else:
-            print(f"[警告] {layer_key} が存在しない項目: {item['name']}")
-            print("eeeeeeeeeee")
+            print(f"[警告] {layer_key} が存在しない or 空: {item['name']}")
 
     split_data = []
 
+    # 各クラスタごとに処理
     for cluster_id, items in grouped.items():
-        random.shuffle(items)
-        test_size = int(len(items) * test_ratio)
-        test_data = items[:test_size]
-        train_data = items[test_size:]
+        # 🔁 name ベースでマージ
+        merged_data = {}
+        for item in items:
+            name = item["name"]
+            if name not in merged_data:
+                merged_data[name] = item.copy()
+                # category list化
+                if isinstance(item["category"], str):
+                    merged_data[name]["category"] = [item["category"]]
+                for k in item:
+                    if k.startswith("layer") and k.endswith("categories"):
+                        merged_data[name][k] = list(item[k]) if isinstance(item[k], list) else [item[k]]
+            else:
+                if item["category"] not in merged_data[name]["category"]:
+                    merged_data[name]["category"].append(item["category"])
+                for k in item:
+                    if k.startswith("layer") and k.endswith("categories"):
+                        if k not in merged_data[name]:
+                            merged_data[name][k] = []
+                        for val in item[k]:
+                            if val not in merged_data[name][k]:
+                                merged_data[name][k].append(val)
 
+        merged_list = list(merged_data.values())
+
+        # 🔁 train/test 分割
+        random.shuffle(merged_list)
+        test_size = int(len(merged_list) * test_ratio)
+        test_data = merged_list[:test_size]
+        train_data = merged_list[test_size:]
+
+        # 保存
         train_path = os.path.join(output_dir, f"{layer_key}_{cluster_id}_train.json")
         test_path = os.path.join(output_dir, f"{layer_key}_{cluster_id}_test.json")
 
@@ -235,11 +263,13 @@ def split_dataset_by_clusters(data, layer_key, output_dir, test_ratio=0.2):
             json.dump(test_data, f, ensure_ascii=False, indent=2)
 
         split_data.append((cluster_id, train_data, test_data))
-        
+
     print(f"[確認] split_dataの件数: {len(split_data)}")
     for cid, train, test in split_data:
         print(f"[クラスタID: {cid}] train={len(train)}, test={len(test)}")
+
     return split_data
+
 
 def merge_by_name(data):
     merged_data = {}
@@ -621,9 +651,6 @@ def fitness_function(individual, categories, all_data, model_class, tokenizer, m
 
         # ステップ 2: データに階層カテゴリ（layer1, layer2, ...）を付与
         labeled_data = assign_layer_labels(all_data, layer_cluster_map)
-        
-        # ステップ 2.5: nameベースで統合（クラスタ数に関係なく必ず実施）
-        labeled_data = merge_by_name(labeled_data)
 
         # ステップ 3: 最終層のlayerキー（例：layer3）
         final_layer_key = f"layer{num_layers}"
@@ -644,10 +671,11 @@ def fitness_function(individual, categories, all_data, model_class, tokenizer, m
             if layer_id == 1:
                 # layer1 は全体データ（分割なし）
                 os.makedirs(output_dir, exist_ok=True)  # これを追加
-                random.shuffle(labeled_data)
-                test_size = int(len(labeled_data) * 0.2)
-                test_data = labeled_data[:test_size]
-                train_data = labeled_data[test_size:]
+                merge_labeled_data = merge_by_name(labeled_data)
+                random.shuffle(merge_labeled_data)
+                test_size = int(len(merge_labeled_data) * 0.2)
+                test_data = merge_labeled_data[:test_size]
+                train_data = merge_labeled_data[test_size:]
 
                 # 保存（オプション）
                 train_path = os.path.join(output_dir, f"{final_layer_key}_all_train.json")
