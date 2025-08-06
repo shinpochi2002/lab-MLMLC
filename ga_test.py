@@ -372,8 +372,8 @@ class BertForMultilabelClassification(pl.LightningModule):
         self.train_losses = []
         self.val_losses = []
 
-    def forward(self, input_ids, attention_mask):
-        outputs = self.bert(input_ids=input_ids, attention_mask=attention_mask)
+    def forward(self, input_ids, attention_mask,token_type_ids=None):
+        outputs = self.bert(input_ids=input_ids, attention_mask=attention_mask, token_type_ids=token_type_ids)
         pooled_output = outputs.pooler_output
         return self.classifier(pooled_output)
 
@@ -502,7 +502,7 @@ def train_model_per_cluster(train_file, model_save_path, catlist_save_path, mode
         accelerator="gpu",
         devices=1,
         callbacks=[EarlyStopping(monitor="val_loss", patience=3, mode="min")],
-        default_root_dir="/tmp" ,
+        enable_checkpointing=False, 
         logger=False
     )
     trainer.fit(model, train_loader, val_loader)
@@ -572,22 +572,50 @@ def evaluate_solution_hierarchical(
         avg_precision, avg_recall, avg_f1
     """
     results = []
+    
+    print(index_maps['layer1'].keys())
 
-    for item in test_data:
+    for idx,item in enumerate(test_data):
         text = item["description"]
         true_labels = item["categories"]
+        print(f"Processing text {idx + 1}/{len(test_data)}")
+        print(text[:100])
 
-        # 初期状態（layer1のルートクラスタは "root" というキーと仮定）
-        current_cluster_ids = list(index_maps.get("layer1", {}).keys())
+        current_cluster_ids = []
         final_predicted_labels = []
 
         for layer in range(1, max_layer + 1):
-            next_cluster_ids = []
+            next_cluster_ids = []           
             layer_key = f"layer{layer}"
+            
+             # クラスタIDの初期化
+            if layer == 1:
+                # layer1だけはクラスタ分岐なしの特別処理
+                model_path = os.path.join(save_dir, f"{layer_key}_all_model.pth")
+                label_map_path = os.path.join(save_dir, f"{layer_key}_all_label_map.json")
+
+                if not os.path.exists(model_path) or not os.path.exists(label_map_path):
+                    print(f"[SKIP] layer1 model or map missing")
+                    break
+
+                with open(label_map_path, "r", encoding="utf-8") as f:
+                    label_map = json.load(f)
+
+                index_to_category = label_map["index_to_category"]
+                category_to_index = label_map["category_to_index"]
+
+                model = load_model(model_class, model_name, len(index_to_category), model_path)
+                pred_indices = predict_labels(model, tokenizer, text, threshold)
+                pred_categories = [index_to_category[str(i)] for i in pred_indices]
+
+                print(f"[Layer1 Predict] {pred_categories}")
+                current_cluster_ids = pred_categories  # layer2以降のクラスタ候補に使う
+                continue
 
             for cluster_id in current_cluster_ids:
                 # 対応するモデル・マップの読み込み
-                if cluster_id not in index_maps[layer_key]:
+                if cluster_id not in index_maps.get(layer_key,{}):
+                    print(f"[SKIP] {layer_key} に cluster_id {cluster_id} が存在しません")
                     continue
 
                 label_map = index_maps[layer_key][cluster_id]
@@ -596,16 +624,20 @@ def evaluate_solution_hierarchical(
 
                 model_path = os.path.join(save_dir, f"{layer_key}_{cluster_id}_model_weights.pth")
                 if not os.path.exists(model_path):
+                    print(f"[SKIP] モデルファイルが存在しません: {model_path}")
                     continue
 
                 model = load_model(model_class, model_name, len(index_to_category), model_path)
 
                 pred_indices = predict_labels(model, tokenizer, text, threshold)
-                pred_categories = [index_to_category[i] for i in pred_indices]
+                key_type = type(next(iter(index_to_category.keys())))
+                pred_categories = [index_to_category[key_type(i)] for i in pred_indices]
+                print(f"[{layer_key}_{cluster_id} Predict] {pred_categories}")
 
                 if layer == max_layer:
                     # 最終レイヤー：smallカテゴリを収集
                     final_predicted_labels = pred_categories
+                    print(final_predicted_labels)
                 else:
                     # 中間レイヤー：次のクラスタIDとして使用
                     next_cluster_ids.extend(pred_categories)
@@ -615,6 +647,7 @@ def evaluate_solution_hierarchical(
         # 最終予測結果がなければスキップ
         if not final_predicted_labels:
             results.append((0, 0, 0))
+            print("NO Result")
         else:
             precision, recall, f1 = calculate_metrics(true_labels, final_predicted_labels)
             results.append((precision, recall, f1))
