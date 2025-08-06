@@ -622,7 +622,7 @@ def evaluate_solution_hierarchical(
                 index_to_category = label_map["index_to_category"]
                 category_to_index = label_map["category_to_index"]
 
-                model_path = os.path.join(save_dir, f"{layer_key}_{cluster_id}_model_weights.pth")
+                model_path = os.path.join(save_dir, f"{layer_key}_{cluster_id}_model.pth")
                 if not os.path.exists(model_path):
                     print(f"[SKIP] モデルファイルが存在しません: {model_path}")
                     continue
