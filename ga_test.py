@@ -30,6 +30,11 @@ from pytorch_lightning.callbacks import EarlyStopping
 # ----------------- 遺伝的アルゴリズム（GA） -----------------
 from deap import base, creator, tools, algorithms
 
+# ===== ディスク予算マネージャ =====
+import os, json, shutil, fcntl
+from pathlib import Path
+
+
 def load_json(path):
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -768,6 +773,88 @@ def fitness_function(individual, categories, all_data, model_class, tokenizer, m
         return 0.0  # 失敗した個体の適応度は 0
 
 
+class DiskBudgetManager:
+    """
+    ga_saved_models/ 以下のフォルダを、F1の低い順（同点はサイズ大きい順）で削除して
+    予算GB以内に収める。F1は meta.json の f1 または best_f1 を見る。
+    もし meta が無ければ F1=-1 として優先的に削除対象にする。
+    """
+    def __init__(self, ga_root: str, budget_gb: float, lockfile: str = ".budget.lock"):
+        self.root = Path(ga_root)
+        self.budget_bytes = int(budget_gb * (1024**3))
+        self.lockfile = self.root / lockfile
+
+    def _dir_size_bytes(self, p: Path) -> int:
+        total = 0
+        for dp, _, files in os.walk(p):
+            for f in files:
+                fp = Path(dp) / f
+                try:
+                    total += fp.stat().st_size
+                except FileNotFoundError:
+                    pass
+        return total
+
+    def _human(self, n: int) -> str:
+        for unit in ["B","KB","MB","GB","TB"]:
+            if n < 1024 or unit == "TB":
+                return f"{n:.1f}{unit}" if unit!="B" else f"{n}B"
+            n /= 1024
+        return f"{n:.1f}TB"
+
+    def _load_entries(self):
+        entries = []
+        self.root.mkdir(parents=True, exist_ok=True)
+        for d in self.root.iterdir():
+            if not d.is_dir():
+                continue
+            size = self._dir_size_bytes(d)
+            f1 = -1.0
+            meta = d / "meta.json"
+            if meta.exists():
+                try:
+                    m = json.loads(meta.read_text())
+                    if "f1" in m: f1 = float(m["f1"])
+                    elif "best_f1" in m: f1 = float(m["best_f1"])
+                except Exception:
+                    pass
+            entries.append({"path": d, "size": size, "f1": f1})
+        return entries
+
+    def enforce(self, dry_run: bool = True, verbose: bool = True):
+        # 多重起動防止ロック
+        self.lockfile.parent.mkdir(parents=True, exist_ok=True)
+        self.lockfile.touch(exist_ok=True)
+        with open(self.lockfile, "r+") as lf:
+            fcntl.flock(lf, fcntl.LOCK_EX)
+            try:
+                entries = self._load_entries()
+                total = sum(e["size"] for e in entries)
+                if verbose:
+                    print(f"[Budget] total={self._human(total)} / budget={self._human(self.budget_bytes)} (dirs={len(entries)})")
+                if total <= self.budget_bytes:
+                    return total, total
+
+                # F1低い順 → サイズ大きい順で削除候補に
+                entries.sort(key=lambda e: (e["f1"], -e["size"]))
+
+                freed = 0
+                for e in entries:
+                    if total - freed <= self.budget_bytes:
+                        break
+                    if verbose:
+                        print(f"[Delete] {e['path'].name} size={self._human(e['size'])} f1={e['f1']:.3f}{' (dry-run)' if dry_run else ''}")
+                    if not dry_run:
+                        shutil.rmtree(e["path"], ignore_errors=True)
+                    freed += e["size"]
+
+                after = total - freed
+                if verbose:
+                    print(f"[Budget] freed={self._human(freed)} -> now={self._human(after)}")
+                return total, after
+            finally:
+                fcntl.flock(lf, fcntl.LOCK_UN)
+
 with open("/home/nakagawa/studydata/original/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data.json", "r", encoding="utf-8") as f:
     all_data = json.load(f)
 
@@ -868,43 +955,139 @@ def save_log(best_solution, log_history):
 
     print("✅ GAのログを ga_logs/ に保存しました。")
 
-# -----------------------------
-# GA 実行部分
-# -----------------------------
-def run_ga():
-    population = toolbox.population(n=POP_SIZE)
-    log_history = []  # 世代ごとの記録を保持
+# ========= 追加ユーティリティ =========
+def normalize_seed(seed_f1):
+    """
+    seed_f1: dict {tuple/list genes: f1} か、list [(genes, f1), ...] を受け取り
+             dict[tuple(genes) -> float(f1)] に正規化
+    """
+    if seed_f1 is None:
+        return {}
+    if isinstance(seed_f1, dict):
+        return {tuple(k): float(v) for k, v in seed_f1.items()}
+    return {tuple(genes): float(f1) for genes, f1 in seed_f1}
 
+def make_cached_evaluator(base_evaluate, cache_init=None):
+    """
+    base_evaluate: 既存の toolbox.evaluate (ind -> f1)
+    cache_init: dict[tuple(genes)->f1]
+    """
+    cache = dict(cache_init or {})
+    def eval_with_cache(ind):
+        key = tuple(ind)
+        if key in cache:
+            return cache[key]
+        f1 = base_evaluate(ind)
+        cache[key] = f1
+        return f1
+    eval_with_cache.cache = cache
+    return eval_with_cache
+
+def seed_population(population, seed_dict):
+    """
+    初期集団にシードを注入。上位F1から詰め、重複はスキップ。
+    既存個体の先頭から置き換え、fitness も同時に設定。
+    """
+    if not seed_dict:
+        return population
+
+    # F1降順
+    seeds = sorted(seed_dict.items(), key=lambda kv: kv[1], reverse=True)
+
+    seen = set()
+    i = 0
+    for genes_t, f1 in seeds:
+        if i >= len(population):
+            break
+        if genes_t in seen:
+            continue
+        seen.add(genes_t)
+        genes = list(genes_t)
+        population[i][:] = genes
+        population[i].fitness.values = (float(f1),)
+        i += 1
+
+    return population
+
+# ========= run_ga を置き換え =========
+def run_ga(seed_f1=None, elitism=1):
+    """
+    seed_f1: dict {genes(tuple/list) -> f1} または list[(genes, f1)]
+    elitism: 各世代で保持するエリート数（0で無効）
+    """
+    # 1) 事前F1をキャッシュ化
+    seed_dict = normalize_seed(seed_f1)
+
+    # 2) 評価関数にキャッシュを噛ませる（toolbox.evaluate はそのまま）
+    cached_evaluate = make_cached_evaluator(toolbox.evaluate, cache_init=seed_dict)
+
+    # 3) 初期集団生成 + シード注入
+    population = toolbox.population(n=POP_SIZE)
+    population = seed_population(population, seed_dict)
+
+    log_history = []
     print("Start evolution...")
+
     for gen in range(NGEN):
         print(f"\n--- Generation {gen + 1} ---")
         generation_log = {"generation": gen + 1, "individuals": []}
 
+        # エリート保持（任意）
+        elites = tools.selBest(population, k=elitism) if elitism > 0 else []
+
+        # 交叉・突然変異で子個体生成
         offspring = algorithms.varAnd(population, toolbox, cxpb=CXPB, mutpb=MUTPB)
-        fitnesses = list(map(toolbox.evaluate, offspring))
-        for ind, fit in zip(offspring, fitnesses):
-            ind.fitness.values = (fit,)
+
+        # エリート差し戻し（先頭を上書き）
+        if elitism > 0:
+            # fitness の妥当性を維持
+            for i in range(min(elitism, len(offspring))):
+                offspring[i][:] = elites[i][:]
+                offspring[i].fitness.values = elites[i].fitness.values
+
+        # 評価（キャッシュ優先）
+        for ind in offspring:
+            if not ind.fitness.valid:
+                fit = cached_evaluate(ind)
+                ind.fitness.values = (fit,)
             generation_log["individuals"].append({
                 "genes": ind[:],
-                "f1_score": fit
+                "f1_score": ind.fitness.values[0]
             })
 
+        # 選択
         population = toolbox.select(offspring, k=len(population))
+
         best_ind = tools.selBest(population, k=1)[0]
         print(f"Best individual: {best_ind}, Fitness (F1): {best_ind.fitness.values[0]}")
         generation_log["best_individual"] = best_ind[:]
         generation_log["best_f1"] = best_ind.fitness.values[0]
         log_history.append(generation_log)
 
-    # 最終ベスト個体
+    # 最終ベスト
     best_solution = tools.selBest(population, k=1)[0]
     print(f"\n=== 最終ベスト個体: {best_solution} ===")
 
-    # 保存処理
     save_log(best_solution, log_history)
-
     return best_solution
 
+precomputed = {
+    (2, 6, 25): 0.632,
+    (2, 12, 13): 0.8,
+    (2, 15, 10): 0.629,
+    (2, 24, 7): 0.629,
+    (2, 33, 4): 0.609,
+    (2, 51, 3): 0.619,
+    (3, 16, 4, 2): 0.644,
+    (3, 12, 4, 3): 0.802,
+    (3, 12, 2, 6): 0.754,
+    (3, 12, 6, 2): 0.755,
+    (3, 8, 4, 5): 0.658,
+    (3, 4, 4, 8): 0.640,
+    (4, 12, 2, 2, 3): 0.746
+}
+
+
 # 実行
-best_solution = run_ga()
+best_solution = run_ga(seed_f1=precomputed, elitism=1)
 print(f"\n=== 最終ベスト個体: {best_solution} ===")

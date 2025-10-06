@@ -8,7 +8,7 @@ max_b = 2
 max_c = 2
 
 # テストデータの比率
-test_ratio = 0.20
+test_ratio = 0.10
 
 base_path = '/home/nakagawa/studydata/layer4/12a2a2a3/'
 

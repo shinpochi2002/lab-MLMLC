@@ -5,31 +5,31 @@ import torch.nn as nn
 import numpy as np
 import pytorch_lightning as pl
 
-API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_allsmall.json'
-EVALUATION_DATA_PATH = '/home/nakagawa/collaboration_test_data_layer1_15.json'
-MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer2_15_model_weights.pth"
+API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/all_api_recommendation.json'
+EVALUATION_DATA_PATH = '/home/nakagawa/test_data_mashup_apis.json'
+MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_1layer_api_rec_model_weights.pth"
 
 
-# # Load class list from 'apilist.json' (API names list)
-# with open(API_CATEGORY_LIST_PATH, 'r', encoding='utf-8') as f:
-#     all_categories_list = json.load(f)  # The JSON file contains the list of 1538 API names
-all_categories_list=[
-    7,
-    1,
-    13,
-    0,
-    11,
-    3,
-    14,
-    6,
-    10,
-    12,
-    8,
-    4,
-    9,
-    2,
-    5
-]
+# Load class list from 'apilist.json' (API names list)
+with open(API_CATEGORY_LIST_PATH, 'r', encoding='utf-8') as f:
+    all_categories_list = json.load(f)  # The JSON file contains the list of 1538 API names
+# all_categories_list=[
+#     7,
+#     1,
+#     13,
+#     0,
+#     11,
+#     3,
+#     14,
+#     6,
+#     10,
+#     12,
+#     8,
+#     4,
+#     9,
+#     2,
+#     5
+# ]
 
 
 
@@ -49,22 +49,22 @@ evaluation_texts = []
 evaluation_labels = []
 
 # Extract categories and descriptions for evaluation
-for api_info in mashup_data:
-    categories = api_info["bigcategory"]  # Extract categories as labels
-    description = api_info["description"]  # Extract description as the text
+for api_name,api_info in mashup_data.items():
+    categories = api_info[2]  # Extract categories as labels
+    description = api_info[1]  # Extract description as the text
     evaluation_texts.append(description)
     evaluation_labels.append(categories)
 
-# Convert evaluation labels to binary vectors (1538-dimensional)
-evaluation_label_indices = []
-for label in evaluation_labels:
-    # 単一カテゴリの場合の処理
-    indices = [category_to_index[category] for category in label]
-    # 単一カテゴリの場合の処理
-    label_vector = [0] * number_of_labels
-    for idx in indices:
-        label_vector[idx] = 1
-    evaluation_label_indices.append(label_vector)
+# # Convert evaluation labels to binary vectors (1538-dimensional)
+# evaluation_label_indices = []
+# for label in evaluation_labels:
+#     # 単一カテゴリの場合の処理
+#     indices = [category_to_index[category] for category in label]
+#     # 単一カテゴリの場合の処理
+#     label_vector = [0] * number_of_labels
+#     for idx in indices:
+#         label_vector[idx] = 1
+#     evaluation_label_indices.append(label_vector)
 
 
 # Define the BERT model for multilabel classification

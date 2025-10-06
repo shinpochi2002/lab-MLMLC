@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader, Dataset
 
 
 
-with open('/home/nakagawa/studydata/layer3/layer3_12a6a2/softfill_mashup_data_new_api_category_inclu_nomash_study_data_3layer_12a6a2_study_data.json', 'r', encoding='utf-8') as f:
+with open('/home/nakagawa/study_data_mashup_apis.json', 'r', encoding='utf-8') as f:
     api_data = json.load(f)
 
 # テキストとラベルの抽出
@@ -20,9 +20,9 @@ labels = []
 all_categories = set()
 
 # api_dataの処理
-for api_info in api_data:
-    category = api_info["bigcategories"]  # カテゴリ情報を取得
-    description = api_info["description"]
+for api_name,api_info in api_data.items():
+    category = api_info[2]  # カテゴリ情報を取得
+    description = api_info[1]
     texts.append(description)
     labels.append(category)
     all_categories.update(category)
@@ -34,7 +34,7 @@ print(f"Number of labels after extraction: {len(labels)}")
 print(all_categories)
 
 # APIリストをJSON形式で保存
-with open("/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_12a6a2.json", 'w', encoding='utf-8') as file:
+with open("/home/nakagawa/api_category_list/all_api_recommendation.json", 'w', encoding='utf-8') as file:
     json.dump(list(all_categories), file, ensure_ascii=False, indent=4)
 
 # カテゴリをインデックスにマッピング
@@ -167,7 +167,7 @@ class BertForMultilabelClassification(pl.LightningModule):
         return {"optimizer": optimizer}
 
 
-def save_model(model, path="mashup_softfill_api_all_layer3_12a6a2_model_weights.pth"):
+def save_model(model, path="mashup_softfill_api_all_1layer_api_rec_model_weights.pth"):
     
     # state_dict を取得
     state_dict = model.state_dict()
