@@ -1,6 +1,7 @@
 import os
 import json
 import re
+import random
 import torch
 import pytorch_lightning as pl
 from pytorch_lightning.callbacks import EarlyStopping
@@ -13,6 +14,8 @@ LABEL_OUT_DIR = "/home/nakagawa/api_category_list/nomashup_category_inc_negative
 MODEL_OUT_DIR = "/home/nakagawa/study_category_nomashup_inc_negative_model"            # 学習済みモデルの出力先
 os.makedirs(LABEL_OUT_DIR, exist_ok=True)
 os.makedirs(MODEL_OUT_DIR, exist_ok=True)
+
+RANDOM_SEED = 42
 
 # ====== ユーティリティ ======
 def slugify(name: str) -> str:
@@ -93,6 +96,58 @@ def save_model(model: pl.LightningModule, out_path: str):
     state_dict = model.state_dict()
     state_dict = {k: v for k, v in state_dict.items() if "loss_fn" not in k}
     torch.save(state_dict, out_path)
+# ====== 8:2 split（trainに全ラベルを含める） ======
+def split_with_all_labels(texts, label_indices, api_list, train_ratio=0.8, seed=42):
+    """
+    学習データにすべてのラベル(API)を含めるように分割する
+    """
+    random.seed(seed)
+    n = len(texts)
+    indices = list(range(n))
+    random.shuffle(indices)
+
+    # まず通常の8:2分割を試みる
+    split = int(train_ratio * n)
+    train_idx = set(indices[:split])
+    val_idx = set(indices[split:])
+
+    # 各ラベルがtrain側に出ているか確認
+    num_labels = len(api_list)
+    label_in_train = [False] * num_labels
+
+    for i in train_idx:
+        for j, v in enumerate(label_indices[i]):
+            if v == 1:
+                label_in_train[j] = True
+
+    # trainに出ていないラベルを確認
+    missing_labels = [j for j, present in enumerate(label_in_train) if not present]
+
+    if missing_labels:
+        print(f"[INFO] {len(missing_labels)} ラベルがtrainに未出現。valから移動します。")
+
+        for j in missing_labels:
+            # val側でこのラベルを含むサンプルを探す
+            candidates = [i for i in val_idx if label_indices[i][j] == 1]
+            if not candidates:
+                continue
+            # 1件をtrainへ移動
+            move_idx = random.choice(candidates)
+            train_idx.add(move_idx)
+            val_idx.remove(move_idx)
+
+    # リスト再構成
+    train_texts = [texts[i] for i in train_idx]
+    val_texts   = [texts[i] for i in val_idx]
+    train_labels = [label_indices[i] for i in train_idx]
+    val_labels   = [label_indices[i] for i in val_idx]
+    
+    # --- NEW: val最低1件ガード（EarlyStopping対策）
+    if len(val_texts) == 0 and len(train_texts) >= 2:
+        val_texts.append(train_texts[-1]); val_labels.append(train_labels[-1])
+        train_texts = train_texts[:-1];     train_labels = train_labels[:-1]
+
+    return train_texts, val_texts, train_labels, val_labels    
 
 # ====== 1カテゴリ分を学習 ======
 def train_one_category(cat_json_path: str, tokenizer_name="bert-base-uncased"):

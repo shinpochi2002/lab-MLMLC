@@ -996,11 +996,14 @@ def calculate_metrics(true_set, predicted_set):
     true_set = set(true_set)
     predicted_set = set(predicted_set)
     true_positive = len(true_set.intersection(predicted_set))
+    false_positive = len(predicted_set - true_set)
+    false_negative = len(true_set - predicted_set)
     precision = true_positive / len(predicted_set) if predicted_set else 0
     recall = true_positive / len(true_set) if true_set else 0
     f_score = (2 * precision * recall) / (precision + recall) if (precision + recall) else 0
     print(f"Precision: {precision}, Recall: {recall}, F-Score: {f_score}")
-    return precision, recall, f_score
+    print(f"False Positive: {false_positive}, False Negative: {false_negative}")
+    return precision, recall, f_score, false_positive, false_negative
 
 def average_metrics(metrics_list):
     
@@ -1010,8 +1013,11 @@ def average_metrics(metrics_list):
     avg_precision = sum(m[0] for m in metrics_list) / len(metrics_list) if metrics_list else 0
     avg_recall = sum(m[1] for m in metrics_list) / len(metrics_list) if metrics_list else 0
     avg_f_score = sum(m[2] for m in metrics_list) / len(metrics_list) if metrics_list else 0
+    avg_false_positive = sum(m[3] for m in metrics_list) / len(metrics_list)
+    avg_false_negative = sum(m[4] for m in metrics_list) / len(metrics_list)
     print(f"Precision: {avg_precision}, Recall: {avg_recall}, F-Score: {avg_f_score}")
-    return avg_precision, avg_recall, avg_f_score
+    print(f"Average False Positive: {avg_false_positive}, False Negative: {avg_false_negative}")
+    return avg_precision, avg_recall, avg_f_score, avg_false_positive, avg_false_negative
 
 
 
@@ -2043,8 +2049,8 @@ def main2():
         for cat in allrecommended:
             # パス規則（あなたの指定どおり）
             print(cat+"のAPI推薦")
-            model_path   = f"/home/nakagawa/study_category_nomashup_inc_negative_model/bert_multilabel_{cat}_model_weights.pth"
-            apilist_path = f"/home/nakagawa/api_category_list/nomashup_category_inc_negative/{cat}_api_labels.json"
+            model_path   = f"/home/nakagawa/study_category_inc_nomashup_negative_1_3model_new/bert_multilabel_{cat}_model_weights.pth"
+            apilist_path = f"/home/nakagawa/api_category_list/category_inc_nomashup_negative_1_3_new/{cat}_api_labels.json"
             # apilist 読み込み
             try:
                 with open(apilist_path, "r", encoding="utf-8") as f:
@@ -2085,8 +2091,8 @@ def main2():
         print(evaluation_labels[idx])
         
         
-        precision,recall,f1 = calculate_metrics(evaluation_labels[idx],allapirec)
-        metricslist.append((precision,recall,f1))
+        precision,recall,f1,fp,fn = calculate_metrics(evaluation_labels[idx],allapirec)
+        metricslist.append((precision,recall,f1,fp,fn))
         # allrecommended_binary = convert_labels_to_binary_vectors(allrecommended,allsmall_category_to_index,allsmall_number_of_labels)
         # evaluate_label_binary = convert_labels_to_binary_vectors(evaluation_labels[idx],allsmall_category_to_index,allsmall_number_of_labels)
         # resultbinary = []
