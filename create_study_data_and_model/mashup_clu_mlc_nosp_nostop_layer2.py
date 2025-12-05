@@ -79,12 +79,19 @@ class BertForMultilabelClassification(pl.LightningModule):
     def configure_optimizers(self):
         return {"optimizer": AdamW(self.parameters(), lr=self.lr)}
 
+# ====== モデル保存（ファイル名にカテゴリ名を含める） ======
+def save_model(model: pl.LightningModule, out_path: str):
+    state_dict = model.state_dict()
+    state_dict = {k: v for k, v in state_dict.items() if "loss_fn" not in k}
+    torch.save(state_dict, out_path)
 
 def process_file(index):
-    base_path = "/home/nakagawa/studydata/layer3/layer3_12a6a2/"
-    input_file = os.path.join(base_path, f"softfill_mashup_data_new_api_category_inclu_nomash_study_data_3layer_12a6a2_{index}_study_data.json")
-    output_model = f"mashup_softfill_api_all_layer3_12a6a2_{index}_model_weights.pth"
-    category_list_output = f"/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_12a6a2_{index}.json"
+    categorynum = "24"
+    base_path = f"/home/nakagawa/studydata/layer2/layer1_{categorynum}/"
+    input_file = os.path.join(base_path, f"softfill_mashup_data_new_api_category_inclu_nomash_study_data_2layer_{categorynum}_{index}_study_data.json")
+    output_model = os.makedirs(f"/home/nakagawa/layer2_{categorynum}", exist_ok=True) or f"/home/nakagawa/layer2_{categorynum}/mashup_softfill_api_all_layer2_{categorynum}_{index}_model_weights.pth"
+    category_list_output = os.makedirs(f"/home/nakagawa/api_category_list/layer2_{categorynum}", exist_ok=True) or f"/home/nakagawa/api_category_list/layer2_{categorynum}/softfill_inc_categorylist_layer2_{categorynum}_{index}.json"
+    target = "categories"
 
     if not os.path.exists(input_file):
         print(f"[{index}] ファイルが存在しません。スキップします。")
@@ -94,7 +101,7 @@ def process_file(index):
         api_data = json.load(f)
 
     texts = [item["description"] for item in api_data]
-    raw_labels = [item["middlecategories"] for item in api_data]
+    raw_labels = [item[target] for item in api_data]
 
     all_categories = sorted(set(cat for sublist in raw_labels for cat in sublist))
     category_to_index = {cat: i for i, cat in enumerate(all_categories)}
@@ -129,7 +136,7 @@ def process_file(index):
     )
 
     trainer.fit(model, train_loader, val_loader)
-    torch.save(model.state_dict(), output_model)
+    save_model(model, output_model)
 
     with open(category_list_output, "w", encoding="utf-8") as f:
         json.dump(all_categories, f, ensure_ascii=False, indent=4)
@@ -139,5 +146,5 @@ def process_file(index):
 
 if __name__ == "__main__":
     tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
-    for idx in range(0, 12):  
+    for idx in range(0, 25):  
         process_file(idx)

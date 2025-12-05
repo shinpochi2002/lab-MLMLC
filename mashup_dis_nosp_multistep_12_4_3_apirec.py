@@ -1015,11 +1015,67 @@ def average_metrics(metrics_list):
     avg_f_score = sum(m[2] for m in metrics_list) / len(metrics_list) if metrics_list else 0
     avg_false_positive = sum(m[3] for m in metrics_list) / len(metrics_list)
     avg_false_negative = sum(m[4] for m in metrics_list) / len(metrics_list)
+    print("テストごと平均")
     print(f"Precision: {avg_precision}, Recall: {avg_recall}, F-Score: {avg_f_score}")
     print(f"Average False Positive: {avg_false_positive}, False Negative: {avg_false_negative}")
     return avg_precision, avg_recall, avg_f_score, avg_false_positive, avg_false_negative
 
+def per_label_metrics(true_labels_list, pred_labels_list, all_labels):
+    """
+    各ラベルに対して Precision, Recall, F1 を計算する。
+    """
+    # ラベルごとの TP / FP / FN を初期化
+    label_tp = {label: 0 for label in all_labels}
+    label_fp = {label: 0 for label in all_labels}
+    label_fn = {label: 0 for label in all_labels}
 
+    # 全サンプルを走査して TP / FP / FN をカウント
+    for true_set, pred_set in zip(true_labels_list, pred_labels_list):
+        for label in all_labels:
+            if label in true_set and label in pred_set:
+                label_tp[label] += 1
+            elif label not in true_set and label in pred_set:
+                label_fp[label] += 1
+            elif label in true_set and label not in pred_set:
+                label_fn[label] += 1
+            # 両方に含まれない場合は何もしない
+
+    # ラベルごとの Precision / Recall / F1 を計算
+    metrics = {}
+    precision_list = []
+    recall_list = []
+    f1_list = []
+    for label in all_labels:
+        tp = label_tp[label]
+        fp = label_fp[label]
+        fn = label_fn[label]
+
+        precision = tp / (tp + fp) if (tp + fp) > 0 else 0
+        recall = tp / (tp + fn) if (tp + fn) > 0 else 0
+        f1 = (2 * precision * recall / (precision + recall)) if (precision + recall) > 0 else 0
+
+        metrics[label] = {
+            "precision": precision,
+            "recall": recall,
+            "f1": f1,
+            "TP": tp,
+            "FP": fp,
+            "FN": fn,
+        }
+        
+        # 平均用リストに追加
+        precision_list.append(precision)
+        recall_list.append(recall)
+        f1_list.append(f1)
+
+        # ラベルごとの平均値
+        average_metrics = {
+        "precision": sum(precision_list) / len(precision_list) if precision_list else 0,
+        "recall": sum(recall_list) / len(recall_list) if recall_list else 0,
+        "f1": sum(f1_list) / len(f1_list) if f1_list else 0,
+        }
+
+    return metrics, average_metrics
 
 model_name = "/home/nakagawa/models/bert-base-uncased/"
 tokenizer = BertTokenizer.from_pretrained(model_name)
@@ -1084,10 +1140,9 @@ m11model = load_model(BertForMultilabelClassification, model_name, m11_number_of
 # Main evaluation function (modified version of main2)
 def main2():
     # 実行
-    precisions=[]
-    recalls=[]
-    f1scores=[]
     metricslist = []
+    true_labels_list = []
+    pred_labels_list = []
     for idx, text in enumerate(evaluation_texts):
         allrecommended = []
         allapirec = []
@@ -2049,7 +2104,7 @@ def main2():
         for cat in allrecommended:
             # パス規則（あなたの指定どおり）
             print(cat+"のAPI推薦")
-            model_path   = f"/home/nakagawa/study_category_inc_nomashup_negative_1_3model_new/bert_multilabel_{cat}_model_weights.pth"
+            model_path   = f"/home/nakagawa/study_category_inc_nomashup_negative_1_3_model_new/bert_multilabel_{cat}_model_weights.pth"
             apilist_path = f"/home/nakagawa/api_category_list/category_inc_nomashup_negative_1_3_new/{cat}_api_labels.json"
             # apilist 読み込み
             try:
@@ -2093,31 +2148,17 @@ def main2():
         
         precision,recall,f1,fp,fn = calculate_metrics(evaluation_labels[idx],allapirec)
         metricslist.append((precision,recall,f1,fp,fn))
-        # allrecommended_binary = convert_labels_to_binary_vectors(allrecommended,allsmall_category_to_index,allsmall_number_of_labels)
-        # evaluate_label_binary = convert_labels_to_binary_vectors(evaluation_labels[idx],allsmall_category_to_index,allsmall_number_of_labels)
-        # resultbinary = []
-        # truebinary = []
-        # resultbinary.append(allrecommended_binary)
-        # truebinary.append(evaluate_label_binary)
-        #print(resultbinary)
-        #print(truebinary)
-    
+        true_labels_list.append(evaluation_labels[idx])
+        pred_labels_list.append(allapirec)
+
 
     average_metrics(metricslist)
-    # array_resultbinary=np.array(resultbinary)
-    # array_truebinary=np.array(truebinary)
-
-    # print(classification_report(array_truebinary,array_resultbinary,target_names=list(allsmall_index_to_category.values())))
-    # report_dict = classification_report(
-    # array_truebinary,
-    # array_resultbinary,
-    # target_names=list(allsmall_index_to_category.values()),
-    # output_dict=True
-    # )
-
-    # # DataFrame に変換して CSV 出力
-    # df = pd.DataFrame(report_dict).transpose()
-    # df.to_csv("multistep_8_4_small_ver2.csv", encoding="utf-8")
+    all_labels = set().union(*true_labels_list, *pred_labels_list)
+    label_metrics,average_label_metrics= per_label_metrics(true_labels_list, pred_labels_list, all_labels)
+    for label, m in label_metrics.items():
+        print(label, m)
+    print("ラベルごと平均")
+    print(average_label_metrics)
 
 
 if __name__ == "__main__":

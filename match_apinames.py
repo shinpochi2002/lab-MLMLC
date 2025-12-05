@@ -6,10 +6,10 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, Tuple, Set, Generator
 
 # ====== EDIT HERE: specify your file paths ======
-FILE1 = Path("/home/nakagawa/softfill_mashup_data_new_api_inclu_nomash/nocategory/softfill_mashup_data_new_api_category_inclu_nomash_test_data.json")
+FILE1 = Path("/home/nakagawa/softfill_mashup_data_new_api/nocategory/softfill_mashup_new_data.json")
 FILE2 = Path("/home/nakagawa/mashup_api_merged_softfill.json")
-OUT_FOUND = Path("test_data_mashup_nomashup_apis.json")
-OUT_MISSING = Path("study_data_mashup_nomashup_apis.json")
+OUT_FOUND = Path("study_data_mashup_apis2.json")
+OUT_MISSING = Path("test_data_mashup_apis2.json")
 # ================================================
 
 def normalize_name(s: str) -> str:

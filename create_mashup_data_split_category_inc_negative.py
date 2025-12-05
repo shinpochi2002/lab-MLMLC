@@ -3,12 +3,12 @@ from collections import defaultdict
 from typing import Any, Dict, List, Tuple
 
 # ====== 設定（ここを書き換える） =========================================
-MASHUPS_JSON = "/home/nakagawa/study_data_mashup_apis.json"  # 複合サービス（マッシュアップ）JSON
+MASHUPS_JSON = "/home/nakagawa/study_data_mashup_nomashup_apis.json"  # 複合サービス（マッシュアップ）JSON
 API2CAT_JSON  = "/home/nakagawa/api_category_pairs.json"              # API→カテゴリ対応表JSON
-OUTDIR        = "./out_by_category_inc_negative"                          # 出力ディレクトリ
+OUTDIR        = "./out_by_category_inc_nomashup_negative_1_20"                          # 出力ディレクトリ
 
 MIN_APIS_PER_ITEM = 1     # 正例: そのカテゴリに属するAPIがこの数未満の項目は除外
-NEG_PER_POS       = 3     # 負例: 正例1に対して追加する負例の数（比率 1:NEG_PER_POS）
+NEG_PER_POS       = 20     # 負例: 正例1に対して追加する負例の数（比率 1:NEG_PER_POS）
 PRETTY_JSON       = True  # 出力をインデント整形するか
 RANDOM_SEED       = 42    # サンプリングの再現性用シード
 # =======================================================================

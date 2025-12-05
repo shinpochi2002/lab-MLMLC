@@ -1,3 +1,4 @@
+import os
 import json
 from transformers import BertTokenizer, BertModel
 import torch
@@ -5,66 +6,66 @@ import torch.nn as nn
 import numpy as np
 import pytorch_lightning as pl
 
-API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/all_api_recommendation.json'
-EVALUATION_DATA_PATH = '/home/nakagawa/test_data_mashup_apis.json'
-MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_1layer_api_rec_model_weights.pth"
+# API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/all_api_recommendation.json'
+# EVALUATION_DATA_PATH = '/home/nakagawa/test_data_mashup_apis.json'
+# MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_1layer_api_rec_model_weights.pth"
 
 
-# Load class list from 'apilist.json' (API names list)
-with open(API_CATEGORY_LIST_PATH, 'r', encoding='utf-8') as f:
-    all_categories_list = json.load(f)  # The JSON file contains the list of 1538 API names
-# all_categories_list=[
-#     7,
-#     1,
-#     13,
-#     0,
-#     11,
-#     3,
-#     14,
-#     6,
-#     10,
-#     12,
-#     8,
-#     4,
-#     9,
-#     2,
-#     5
-# ]
+# # Load class list from 'apilist.json' (API names list)
+# with open(API_CATEGORY_LIST_PATH, 'r', encoding='utf-8') as f:
+#     all_categories_list = json.load(f)  # The JSON file contains the list of 1538 API names
+# # all_categories_list=[
+# #     7,
+# #     1,
+# #     13,
+# #     0,
+# #     11,
+# #     3,
+# #     14,
+# #     6,
+# #     10,
+# #     12,
+# #     8,
+# #     4,
+# #     9,
+# #     2,
+# #     5
+# # ]
 
 
 
-# Create mappings for the categories
-category_to_index = {category: idx for idx, category in enumerate(all_categories_list)}
-index_to_category = {idx: category for category, idx in category_to_index.items()}
+# # Create mappings for the categories
+# category_to_index = {category: idx for idx, category in enumerate(all_categories_list)}
+# index_to_category = {idx: category for category, idx in category_to_index.items()}
 
-# Total number of labels
-number_of_labels = len(all_categories_list)  
+# # Total number of labels
+# number_of_labels = len(all_categories_list)  
 
-# Load evaluation data from 'mashup_data_new_test_data.json'
-with open(EVALUATION_DATA_PATH, 'r', encoding='utf-8') as f:
-    mashup_data = json.load(f)
+# # Load evaluation data from 'mashup_data_new_test_data.json'
+# with open(EVALUATION_DATA_PATH, 'r', encoding='utf-8') as f:
+#     mashup_data = json.load(f)
 
-# Extract evaluation texts and labels from mashup_data_new_test_data.json
-evaluation_texts = []
-evaluation_labels = []
+# # Extract evaluation texts and labels from mashup_data_new_test_data.json
+# evaluation_texts = []
+# evaluation_labels = []
 
-# Extract categories and descriptions for evaluation
-for api_name,api_info in mashup_data.items():
-    categories = api_info[2]  # Extract categories as labels
-    description = api_info[1]  # Extract description as the text
-    evaluation_texts.append(description)
-    evaluation_labels.append(categories)
+# # Extract categories and descriptions for evaluation
+# for api_name,api_info in mashup_data.items():
+#     categories = api_info[2]  # Extract categories as labels
+#     description = api_info[1]  # Extract description as the text
+#     evaluation_texts.append(description)
+#     evaluation_labels.append(categories)
 
-# # Convert evaluation labels to binary vectors (1538-dimensional)
-# evaluation_label_indices = []
-# for label in evaluation_labels:
-#     # 単一カテゴリの場合の処理
-#     indices = [category_to_index[category] for category in label]
-#     # 単一カテゴリの場合の処理
-#     label_vector = [0] * number_of_labels
-#     for idx in indices:
-#         label_vector[idx] = 1
-#     evaluation_label_indices.append(label_vector)
+# # # Convert evaluation labels to binary vectors (1538-dimensional)
+# # evaluation_label_indices = []
+# # for label in evaluation_labels:
+# #     # 単一カテゴリの場合の処理
+# #     indices = [category_to_index[category] for category in label]
+# #     # 単一カテゴリの場合の処理
+# #     label_vector = [0] * number_of_labels
+# #     for idx in indices:
+# #         label_vector[idx] = 1
+# #     evaluation_label_indices.append(label_vector)
 
 
 # Define the BERT model for multilabel classification
@@ -158,53 +159,87 @@ def average_metrics(metrics_list):
     print(f"Precision: {avg_precision}, Recall: {avg_recall}, F-Score: {avg_f_score}")
     return avg_precision, avg_recall, avg_f_score
 
+MODEL_DIR = "/home/nakagawa/study_category_inc_negative_1_10model_only_train"
+TEST_DIR = "/home/nakagawa/test_by_category_inc_negative_1_10"
+API_CATEGORY_DIR = "/home/nakagawa/api_category_list/category_inc_negative_1_10_only_train"
 
-def main2():
-    # Load the tokenizer
-    model_name = "/home/nakagawa/models/bert-base-uncased/"
-    tokenizer = BertTokenizer.from_pretrained(model_name)
+def main():
+    for model_file in sorted(os.listdir(MODEL_DIR)):
+        category_name = model_file.replace("bert_multilabel_", "").replace("_model_weights.pth", "")
+        test_file = os.path.join(TEST_DIR, f"study_mashup_data_category_split_inc_negative_{category_name}.json")
+        label_file = os.path.join(API_CATEGORY_DIR, f"{category_name}_api_labels.json")
+        print(category_name)
+        with open(label_file, 'r', encoding='utf-8') as f:
+            all_categories_list = json.load(f)
+        
+        # Create mappings for the categories
+        category_to_index = {category: idx for idx, category in enumerate(all_categories_list)}
+        index_to_category = {idx: category for category, idx in category_to_index.items()}
 
-    # Load the saved model
-    model = load_model(BertForMultilabelClassification, model_name, number_of_labels,path=MODEL_WEIGHTS_PATH)
+        # Total number of labels
+        number_of_labels = len(all_categories_list)  
 
-    # Prepare the list to store detailed prediction results
-    # detailed_predictions = []
-    # all_true_labels = []
-    # all_pred_labels = []  # 予測ラベルのバイナリベクトルを保持
-    # all_pred_probs = []
+        # Load evaluation data from 'mashup_data_new_test_data.json'
+        with open(test_file, 'r', encoding='utf-8') as f:
+            mashup_data = json.load(f)
 
-    metricslist = []
+        # Extract evaluation texts and labels from mashup_data_new_test_data.json
+        evaluation_texts = []
+        evaluation_labels = []
 
-    # Iterate over each text and save prediction results
-    for idx, text in enumerate(evaluation_texts):
-        print(f"Processing text {idx + 1}/{len(evaluation_texts)}")
-        print(text[:100])
-        allrecommended = []
-        results = run_model_and_get_results(
-                        text=text,
-                        model=model,
-                        tokenizer=tokenizer,
-                        index_to_category=index_to_category,
-                        )
-        recommended_indices = [category[0] for category in results]  # インデックスを抽出
-        allrecommended+=recommended_indices
-        print(evaluation_labels[idx])
+        # Extract categories and descriptions for evaluation
+        for api_name,api_info in mashup_data.items():
+            categories = api_info[2]  # Extract categories as labels
+            description = api_info[1]  # Extract description as the text
+            evaluation_texts.append(description)
+            evaluation_labels.append(categories)
+                
+        
+        # Load the tokenizer
+        model_name = "/home/nakagawa/models/bert-base-uncased/"
+        tokenizer = BertTokenizer.from_pretrained(model_name)
+
+        # Load the saved model
+        model = load_model(BertForMultilabelClassification, model_name, number_of_labels,path=MODEL_WEIGHTS_PATH)
+
+        # Prepare the list to store detailed prediction results
+        # detailed_predictions = []
+        # all_true_labels = []
+        # all_pred_labels = []  # 予測ラベルのバイナリベクトルを保持
+        # all_pred_probs = []
+
+        metricslist = []
+
+        # Iterate over each text and save prediction results
+        for idx, text in enumerate(evaluation_texts):
+            print(f"Processing text {idx + 1}/{len(evaluation_texts)}")
+            print(text[:100])
+            allrecommended = []
+            results = run_model_and_get_results(
+                            text=text,
+                            model=model,
+                            tokenizer=tokenizer,
+                            index_to_category=index_to_category,
+                            )
+            recommended_indices = [category[0] for category in results]  # インデックスを抽出
+            allrecommended+=recommended_indices
+            print(evaluation_labels[idx])
 
 
-        precision,recall,f1 = calculate_metrics(evaluation_labels[idx],allrecommended)
-        metricslist.append((precision,recall,f1))
-    
-    
-    # Missing categories check
-    missing_categories = []
-    for label_list in evaluation_labels:
-        for category in label_list:
-            if category not in category_to_index:
-                missing_categories.append(category)
+            precision,recall,f1 = calculate_metrics(evaluation_labels[idx],allrecommended)
+            metricslist.append((precision,recall,f1))
+        
+        
+        # Missing categories check
+        missing_categories = []
+        for label_list in evaluation_labels:
+            for category in label_list:
+                if category not in category_to_index:
+                    missing_categories.append(category)
 
-    print("Missing categories:", set(missing_categories))
+        print("Missing categories:", set(missing_categories))
 
-    average_metrics(metricslist)
+        average_metrics(metricslist)
 
 if __name__ == "__main__":
-    main2()
+    main()

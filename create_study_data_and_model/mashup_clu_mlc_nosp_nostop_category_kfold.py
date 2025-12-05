@@ -11,10 +11,13 @@ import hashlib
 import numpy as np 
 from iterstrat.ml_stratifiers import MultilabelStratifiedKFold
 
+
 # ====== パス設定（必要に応じて変更） ======
 ROOT_DIR = "/home/nakagawa/out_by_category_inc_nomashup_negative_1_3"  # カテゴリ別のstudydataが入っているディレクトリ
-LABEL_OUT_DIR = "/home/nakagawa/api_category_list/category_inc_nomashup_negative_1_3_new"  # APIラベル一覧の出力先
-MODEL_OUT_DIR = "/home/nakagawa/study_category_inc_nomashup_negative_1_3model_new"            # 学習済みモデルの出力先
+LABEL_OUT_DIR = "/home/nakagawa/api_category_list/category_inc_nomashup_negative_1_3_new_kfold"  # APIラベル一覧の出力先
+MODEL_OUT_DIR = "/home/nakagawa/study_category_inc_nomashup_negative_1_3_model_new_kfold"            # 学習済みモデルの出力先
+CV_OUT_DIR = "/home/nakagawa/study_category_inc_nomashup_negative_1_3_cv"
+os.makedirs(CV_OUT_DIR, exist_ok=True)
 os.makedirs(LABEL_OUT_DIR, exist_ok=True)
 os.makedirs(MODEL_OUT_DIR, exist_ok=True)
 
@@ -109,7 +112,8 @@ def save_model(model: pl.LightningModule, out_path: str):
     state_dict = model.state_dict()
     state_dict = {k: v for k, v in state_dict.items() if "loss_fn" not in k}
     torch.save(state_dict, out_path)
- 
+
+
 # ====== 前処理：JSON → (category, texts, labels(one-hot), api_list) ======  # --- NEW ---
 def load_category(cat_json_path: str):
     with open(cat_json_path, "r", encoding="utf-8") as f:
@@ -143,8 +147,8 @@ def load_category(cat_json_path: str):
         labels.append(vec)
 
     return category, count, items, texts, labels, api_list 
- 
- 
+
+
 # ====== 8:2 split（trainに全ラベルを含める） ======
 def split_with_all_labels(texts, label_indices, api_list, train_ratio=0.8, seed=42):
     """
@@ -230,16 +234,34 @@ def train_holdout(category, texts, labels, api_list, tokenizer_name="bert-base-u
         model_name=tokenizer_name, num_labels=num_labels,
         pos_weight=pos_weight, lr=2e-5
     )
-    early_stop = EarlyStopping(monitor="val_loss", patience=ES_PATIENCE, mode="min", verbose=True)
+    
+    if len(val_ds) == 0:
+        # 検証データがない場合：EarlyStoppingなし・val_loaderなしで学習
+        print(f"[WARN] {category}: val dataset is empty. Training without validation / early stopping.")
+        trainer = pl.Trainer(
+            max_epochs=3,
+            accelerator="gpu",
+            devices=1,
+            logger=False,
+            enable_checkpointing=False,
+            log_every_n_steps=10,
+        )
+        trainer.fit(model, train_loader)  # val_loader を渡さない
+    else:
+        # 検証データがある場合：今まで通り EarlyStopping を使う
+        early_stop = EarlyStopping(monitor="val_loss", patience=ES_PATIENCE, mode="min", verbose=True)
+        trainer = pl.Trainer(
+            max_epochs=50,
+            accelerator="gpu",
+            devices=1,
+            callbacks=[early_stop],
+            log_every_n_steps=10,
+            logger=False,
+            enable_checkpointing=False
+        )
+        trainer.fit(model, train_loader, val_loader)
 
-    trainer = pl.Trainer(
-        max_epochs=50, accelerator="gpu", devices=1,
-        callbacks=[early_stop], log_every_n_steps=10,
-        logger=False, enable_checkpointing=False
-    )
-    trainer.fit(model, train_loader, val_loader)
     return model
-
 # ====== K-Fold → ベスト設定選択 → 全データ最終学習 ======  # --- NEW ---
 def train_kfold_then_final(cat_json_path, category, texts, labels, api_list, tokenizer_name="bert-base-uncased"):
     uid = category_uid(cat_json_path)
@@ -333,7 +355,7 @@ def train_kfold_then_final(cat_json_path, category, texts, labels, api_list, tok
             "mean_micro_f1": best_mean_f1
         }
     }
-    cv_path = os.path.join(MODEL_OUT_DIR, f"cv_{slugify(category)}_{uid}.json")
+    cv_path = os.path.join(CV_OUT_DIR, f"cv_{slugify(category)}_{uid}.json")
     with open(cv_path, "w", encoding="utf-8") as f:
         json.dump(cv_out, f, ensure_ascii=False, indent=2)
     print(f"[CV SAVED] {cv_path}")
@@ -359,8 +381,8 @@ def train_kfold_then_final(cat_json_path, category, texts, labels, api_list, tok
 
     # 保存（uid付きで衝突回避）
     cat_slug = slugify(category)
-    label_path = os.path.join(LABEL_OUT_DIR, f"{cat_slug}_{uid}_api_labels.json")
-    model_path = os.path.join(MODEL_OUT_DIR, f"bert_multilabel_{cat_slug}_{uid}_final.pth")
+    label_path = os.path.join(LABEL_OUT_DIR, f"{cat_slug}_api_labels.json")
+    model_path = os.path.join(MODEL_OUT_DIR, f"bert_multilabel_{cat_slug}_model_weights.pth")
     with open(label_path, "w", encoding="utf-8") as f:
         json.dump(api_list, f, ensure_ascii=False, indent=2)
     save_model(model, model_path)
@@ -382,8 +404,10 @@ def train_one_category_auto(cat_json_path: str, tokenizer_name="bert-base-uncase
     if len(texts) == 0 or len(api_list) == 0:
         print(f"[SKIP] {category}: 有効データ不足 texts={len(texts)} apis={len(api_list)}")
         return
-
-    if len(texts) < K_FOLD_TRIGGER_N:
+    
+    num_labels = len(api_list)
+    
+    if len(texts) < K_FOLD_TRIGGER_N and num_labels > 1:
         # 少データ：KFold評価→全データ最終学習（配布用）
         train_kfold_then_final(cat_json_path, category, texts, labels, api_list, tokenizer_name)
     else:
@@ -435,7 +459,7 @@ def train_one_category(cat_json_path: str, tokenizer_name="bert-base-uncased"):
     if len(items) == 0:
         print(f"[SKIP] {category}: count={count}")
         label_path = os.path.join(LABEL_OUT_DIR, f"{cat_slug}_api_labels.json")
-         # ラベルマップ保存（API名一覧）
+        # ラベルマップ保存（API名一覧）
         with open(label_path, "w", encoding="utf-8") as f:
             json.dump(api_list, f, ensure_ascii=False, indent=2)
         return
