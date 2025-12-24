@@ -79,15 +79,22 @@ class BertForMultilabelClassification(pl.LightningModule):
     def configure_optimizers(self):
         return {"optimizer": AdamW(self.parameters(), lr=self.lr)}
 
+# ====== モデル保存（ファイル名にカテゴリ名を含める） ======
+def save_model(model: pl.LightningModule, out_path: str):
+    state_dict = model.state_dict()
+    state_dict = {k: v for k, v in state_dict.items() if "loss_fn" not in k}
+    torch.save(state_dict, out_path)
 
+targetfolder = "12_2_2_3"
+layer1num = "12"
 def process_file(a, b, c):
-    base_path = "/home/nakagawa/studydata/layer4/12a2a2a3"
-    filename = f"softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_12a2a2a3_{a}_{b}_{c}_study_data.json"
+    base_path = f"/home/nakagawa/studydata/layer4/layer4_{targetfolder}"
+    filename = f"softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_{targetfolder.replace("_","-")}_{layer1num}_{a}_{b}_study_data.json"
     input_file = os.path.join(base_path, filename)
-
-    model_output = f"mashup_softfill_api_all_layer4_12a2a2a3_{a}_{b}_{c}_model_weights.pth"
-    category_list_output = f"/home/nakagawa/api_category_list/softfill_inc_categorylist_layer4_12a2a2a3_{a}_{b}_{c}.json"
-
+    output_model = os.makedirs(f"/home/nakagawa/layer4_{targetfolder}", exist_ok=True) or f"/home/nakagawa/layer4_{targetfolder}/mashup_softfill_api_all_layer4_{layer1num}_{a}_{a}_{b}_{c}_model_weights.pth"
+    category_list_output = os.makedirs(f"/home/nakagawa/api_category_list/layer4_{targetfolder}", exist_ok=True) or f"/home/nakagawa/api_category_list/layer4_{targetfolder}/softfill_inc_categorylist_layer4_{layer1num}_{a}_{a}_{b}_{c}.json"
+    
+    
     if not os.path.exists(input_file):
         print(f"[{a}-{b}] ファイルが存在しません。スキップします。")
         return
@@ -125,24 +132,26 @@ def process_file(a, b, c):
         max_epochs=50,
         accelerator="gpu",
         devices=1,
-        callbacks=[EarlyStopping(monitor="val_loss", patience=3, mode="min")]
+        callbacks=[EarlyStopping(monitor="val_loss", patience=3, mode="min")],
+        logger=False,
+        enable_checkpointing=False
     )
 
     trainer.fit(model, train_loader, val_loader)
-    torch.save(model.state_dict(), model_output)
+    save_model(model, output_model)
 
     with open(category_list_output, "w", encoding="utf-8") as f:
         json.dump(all_categories, f, ensure_ascii=False, indent=4)
 
-    print(f"[{a}-{b}] モデル学習と保存完了: {model_output}")
+    print(f"[{a}-{b}] モデル学習と保存完了: {output_model}")
 
 
 if __name__ == "__main__":
     tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
     
-    max_a = 12
-    max_b = 2
-    max_c = 2
+    max_a = 13
+    max_b = 3
+    max_c = 3
 
     for a in range(max_a + 1):
         for b in range(max_b + 1):

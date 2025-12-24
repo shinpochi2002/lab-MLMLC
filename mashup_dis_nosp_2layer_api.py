@@ -197,7 +197,7 @@ def per_label_metrics(true_labels_list, pred_labels_list, all_labels):
 
 model_name = "/home/nakagawa/models/bert-base-uncased/"
 tokenizer = BertTokenizer.from_pretrained(model_name)
-layer1_category_num = "15"
+layer1_category_num = "8"
 
 def main2():
     # 実行

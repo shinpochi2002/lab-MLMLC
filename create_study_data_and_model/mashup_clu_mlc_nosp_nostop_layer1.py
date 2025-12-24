@@ -86,11 +86,12 @@ def save_model(model: pl.LightningModule, out_path: str):
     torch.save(state_dict, out_path)
 
 def process_file(index):
-    categorynum = "24"
-    base_path = f"/home/nakagawa/studydata/layer2/layer1_{categorynum}/"
-    input_file = os.path.join(base_path, f"softfill_mashup_data_new_api_category_inclu_nomash_study_data_2layer_{categorynum}_study_data.json")
-    output_model = os.makedirs(f"/home/nakagawa/layer2_{categorynum}", exist_ok=True) or f"/home/nakagawa/layer2_{categorynum}/mashup_softfill_api_all_layer2_{categorynum}_model_weights.pth"
-    category_list_output = os.makedirs(f"/home/nakagawa/api_category_list/layer2_{categorynum}", exist_ok=True) or f"/home/nakagawa/api_category_list/layer2_{categorynum}/softfill_inc_categorylist_layer2_{categorynum}.json"
+    categorynum = "12"
+    target = "12_2_2_3"
+    base_path = f"/home/nakagawa/studydata/layer4/layer4_{target}/"
+    input_file = os.path.join(base_path, f"softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_{target.replace("_","-")}_{categorynum}_study_data.json")
+    output_model = os.makedirs(f"/home/nakagawa/layer4_{target}", exist_ok=True) or f"/home/nakagawa/layer4_{target}/mashup_softfill_api_all_layer4_{categorynum}_model_weights.pth"
+    category_list_output = os.makedirs(f"/home/nakagawa/api_category_list/layer4_{target}", exist_ok=True) or f"/home/nakagawa/api_category_list/layer4_{target}/softfill_inc_categorylist_layer4_{categorynum}.json"
     target = "bigcategories"
 
 
@@ -133,7 +134,9 @@ def process_file(index):
         max_epochs=50,
         accelerator="gpu",
         devices=1,
-        callbacks=[EarlyStopping(monitor="val_loss", patience=3, mode="min")]
+        callbacks=[EarlyStopping(monitor="val_loss", patience=3, mode="min")],
+        logger=False,
+        enable_checkpointing=False
     )
 
     trainer.fit(model, train_loader, val_loader)
