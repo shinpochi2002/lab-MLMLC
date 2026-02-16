@@ -203,8 +203,8 @@ def per_label_metrics(true_labels_list, pred_labels_list, all_labels):
 
 model_name = "/home/nakagawa/models/bert-base-uncased/"
 tokenizer = BertTokenizer.from_pretrained(model_name)
-target = "16_4_3"
-layer1_category_num = "16"
+target = "12_6_2"
+layer1_category_num = "12"
 
 def main2():
     # CSV 出力先
