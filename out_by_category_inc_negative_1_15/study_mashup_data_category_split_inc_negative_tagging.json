@@ -1,0 +1,888 @@
+{
+  "category": "tagging",
+  "count": 80,
+  "positive_count": 5,
+  "negative_count": 75,
+  "pos_neg_ratio": "1:15",
+  "items": [
+    {
+      "mashup": "scoopmap.net",
+      "description": " Scoopmap.net allows users to view breaking news around the world by leveraging two APIs. Discover hot spots and articles written by high quality newspapers such as the Guardian and New York Times. ",
+      "original_categories": [
+        "localization"
+      ],
+      "used_apis": [
+        "thomson-reuters-open-calais"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "relax",
+      "description": " Explore related Twitter trends and see livestreams, timelines and the top retweets for that trend. ",
+      "original_categories": [
+        "reference",
+        "search",
+        "social",
+        "blogging",
+        "visualizations"
+      ],
+      "used_apis": [
+        "thomson-reuters-open-calais"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "twitter-trends-tagged",
+      "description": " This mashup feeds the semantic web service Calais every five minutes with the most recent tweets behind the current twitter trends in order to determine tags for these trends. With the resulting tag set at your fingertips. ",
+      "original_categories": [
+        "semantics",
+        "blogging",
+        "classification",
+        "search"
+      ],
+      "used_apis": [
+        "thomson-reuters-open-calais"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "klezio",
+      "description": " Aggregate news from all around the web, provide related stories, wikinews, tags, wikipedia links, flickr photos , tweets and more... ",
+      "original_categories": [
+        "semantics",
+        "reference",
+        "wiki",
+        "rdf",
+        "blogging"
+      ],
+      "used_apis": [
+        "thomson-reuters-open-calais"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "newstaggr",
+      "description": " Newstaggr is a new way for browsing news. It gathers news from sources like Reuters, CNN, New York Times, and BBC, and it uses Calais to semantically tag them and create a tag cloud for 12 categories. ",
+      "original_categories": [
+        "semantics",
+        "classification",
+        "visualizations"
+      ],
+      "used_apis": [
+        "thomson-reuters-open-calais"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "streetview-and-swiss-maps",
+      "description": " Streetview and Swiss Maps is a google street view/aerial view combiner. ",
+      "original_categories": [
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "realtime-wifi-map-montreal",
+      "description": " Google Maps mashup of the Iles Sans Fil WiFi network in Montreal, Canada. Note: loads slowly. ",
+      "original_categories": [
+        "mapping",
+        "wi-fi"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mymapmailrace",
+      "description": " Start a mailrace on a Google map. ",
+      "original_categories": [
+        "social",
+        "mapping",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "animal-photos",
+      "description": " A large and growing collection of Creative Commons animal photographs selected from Flickr. ",
+      "original_categories": [
+        "photos",
+        "animals"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "keep-jones",
+      "description": " This Facebook app allows you to connect to Zillow from Facebook. View information about your house and see what your friends houses are worth. ",
+      "original_categories": [
+        "widgets",
+        "mapping",
+        "financial",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "social-mirror",
+      "description": " Social Mirror monitors popular [English language] Twitter accounts, Facebook pages, and YouTube channels and offers basic visualizations of the posting activities of the observed social media accounts and their follower engagement. ",
+      "original_categories": [
+        "social",
+        "monitoring"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "transilien-map",
+      "description": " A new experimental way to explore the Ile-de-France railway public transit system based on NAViTiA public transport information system API. ",
+      "original_categories": [
+        "transportation",
+        "french",
+        "transportation",
+        "french"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "meteor-impact-craters",
+      "description": " Geology.com uses Google Maps satellite images for exploring several of earth's meteor impact craters. ",
+      "original_categories": [
+        "mapping",
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tiki-pik-image-link-preview",
+      "description": " See all the text links to images in one window without scrolling or clicking. Heres an example, you are on reddit and there is a thread about movie posters. Multiple people have posted multiple images in the thread. TikiPik scrapes the page, finds all those links and give you a preview of them in a pop up. From there you can click any link and see it 100% in a new tab. ",
+      "original_categories": [
+        "images"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "memry",
+      "description": " Memory game that chooses Flickr pictures as cards, based on a tag you enter. ",
+      "original_categories": [
+        "games",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "blogabond.com",
+      "description": " A travel blog where travellers can create blogs about their journeys and map their travels. ",
+      "original_categories": [
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "chit-chat-facebook",
+      "description": " A Facebook Instant Messenger app for talking with your Facebook friends from your desktop rather than having to use your browser. ",
+      "original_categories": [
+        "tools",
+        "messaging",
+        "messaging",
+        "chat"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapsavings.com",
+      "description": " A ridiculously easy way to find and print coupons for spas, restaurants, entertainment, services, and more, anywhere in the United States. ",
+      "original_categories": [
+        "mapping",
+        "coupons",
+        "localization",
+        "search",
+        "ecommerce",
+        "discounts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "carefinancial",
+      "description": " CareFinancial is a credit card processing company that also supports social initiatives. With CareFinancial, consumers will be able to 'spend money with purpose.' CareFinancial processes the transactions, and donates a portion of the processing fees to one of their charity/non-profit partners. ",
+      "original_categories": [
+        "financial",
+        "charity"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pentomino-puzzle",
+      "description": " A Pentomino Puzzle. It is created by using the OpenLayers Mapping API. Move, rotate and reflect the 12 pieces to find a solution for the rectangles layout. ",
+      "original_categories": [
+        "games",
+        "mapping",
+        "humor",
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "streetartlocator",
+      "description": " Find street art using this Google Maps community driven mashup. ",
+      "original_categories": [
+        "ecommerce",
+        "mapping",
+        "art",
+        "art"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "interactive-urinal-map",
+      "description": " When you gotta go, but you want to find just the right place, then search here at Urinal.net. Lots of photos in the archive. Both US and international. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "toastbank",
+      "description": " ToastBank is a forum where users can add and share toasts. You can search through toasts that have been submitted and share the best ones with your friends over Facebook or Twitter. ",
+      "original_categories": [
+        "social",
+        "humor",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mail-tracking",
+      "description": " This is a universal mail tracking service that supports all major express couriers and helps users better understand the delivery status of their mail. Not only provides traditional text-based tracking records, but also shows mail locations on a map. ",
+      "original_categories": [
+        "visualizations",
+        "mapping",
+        "postal",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "taglets-feeder",
+      "description": " A Wordpress plugin that pushes updates to Taglets.org when you publish a post. ",
+      "original_categories": [
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "decisions-heroes-0",
+      "description": " Emergency response team management and analytics software. Performs automatic analysis of incidents to look for patterns and trends in response times, injuries encountered and casualty demographics. Features include hotspot cluster mapping to identify areas at higher risk. ",
+      "original_categories": [
+        "mapping",
+        "mobile",
+        "reference",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "goseeoregon.com",
+      "description": " Social networking travel websites that creates personalized recommendations for each user based on user interests and user ratings. Uses geotagged Flickr photo stream and Google maps. ",
+      "original_categories": [
+        "photos",
+        "travel",
+        "social",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "american-image",
+      "description": " The American Image: Photographs of John Collier Jr. is an online exhibit exploring the work of John Collier during the war years of the 1940s. Flickr mashups are used to pull in photographs making up the Collection and one of the interactive activities. ",
+      "original_categories": [
+        "history",
+        "photos",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "whooligan",
+      "description": " Whooligan is a global soccer, lifestyle and multimedia brand created and marketed by user-generated content. ",
+      "original_categories": [
+        "sports",
+        "sports",
+        "video",
+        "photos",
+        "social",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "s3fox-organizer",
+      "description": " This Firefox extension provides an user friendly interface for the Amazon S3 storage service. Its interface is very much similar to the FTP interface that lists local folders in the left panel and S3 buckets, files and folders in the right panel. ",
+      "original_categories": [
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "unofficial-snocap-pandora-mashup",
+      "description": " Listen to songs from your Pandora stations and see music from those artists ready to buy without leaving the page. ",
+      "original_categories": [
+        "ecommerce",
+        "music",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitter-power-search",
+      "description": " Twitter realtime feed. iGoogle style drag and drop with Twitter power search. Search current daily and weekly trends. Search TwitPics and audio. ",
+      "original_categories": [
+        "search",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "quickmocker",
+      "description": " QuickMocker is an online API tool that allows to create your own public domain and a fake web services, intercept and debug requests in live mode, use regular expressions as URL paths and multiple HTTP methods per endpoints, prioritize endpoints. With QuickMocker you can easily integrate 3rd party reverse requests (webhooks) using Local Forwarder feature that can forward request even to your localhost URL. ",
+      "original_categories": [
+        "tools",
+        "api"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "videotag",
+      "description": " VideoTag is a one-player tagging game. Tag some of the funniest YouTube videos, avoid the pitfalls and progress to the next level. See if you can make the top of the leaderboard and become the ultimate video tagger. ",
+      "original_categories": [
+        "video",
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "myphonetap",
+      "description": " Record phone calls by routing them through MyPhoneTap. Pay 15 cents per minute and receive your phone call as an MP3. You get two free minutes to try it out. Where it's the law, the system notifies callers that the call is being recorded. ",
+      "original_categories": [
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pinterest-clone",
+      "description": " Pinterest is basically a social networking website like other sites such as Twitter, Facebook where any individual can post and share anything that interests people. ",
+      "original_categories": [
+        "photos",
+        "social",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bettertrolley",
+      "description": " This Google Maps transit mashup takes an independent ride-guide for the San Diego Trolley and mashes it up with Google Maps. ",
+      "original_categories": [
+        "mapping",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "metamedias",
+      "description": " Image search in the 2 million royalty free images in photo bank Fotolia. Also use it to create instant e-cards. ",
+      "original_categories": [
+        "search",
+        "photos",
+        "french"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "moremap",
+      "description": " MoreMap is a Google Maps Mashup which allows users to track packages, find radio stations, local banks, movie theaters with up to the minute show times, track earthquakes, view interesting places, save places, and get directions. ",
+      "original_categories": [
+        "weather",
+        "mapping",
+        "music",
+        "music",
+        "travel",
+        "shipping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fast-criminal-records",
+      "description": " Fast Criminal Records provides the most complete online criminal records on anyone you know - instant, anonymous &amp; accurate. ",
+      "original_categories": [
+        "database",
+        "crime",
+        "search",
+        "reference",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sao-paulo-subway",
+      "description": " Local search of places close to the subway stations in Sao Paulo, Brazil. ",
+      "original_categories": [
+        "brazilian",
+        "mapping",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "scribble-maps",
+      "description": " The quick and easy way to make Google Maps. There is also a pro version with more functionality. ",
+      "original_categories": [
+        "drawing",
+        "widgets",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "kpbs-san-diego-fires",
+      "description": " Map with latest news about the October 2007 wildfires in southern California. Includes fire areas and meeting points for evacuees, as well as nearby emergency services such as hospitals. ",
+      "original_categories": [
+        "mapping",
+        "emergency",
+        "emergency"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flightwise-formerly-fboweb.com",
+      "description": " Lets you search for flights and see the current location plotted on a Google Map. ",
+      "original_categories": [
+        "mapping",
+        "travel",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "contract-guardian-docusign",
+      "description": " Contract Guardian integrated with DocuSign is a service offered by Contract Guardian that allows customers to sign documents electronically. Customers are also able to add more signers to the documents. ",
+      "original_categories": [
+        "contracts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "adda-erp",
+      "description": " ADDA provides every tool needed for smooth and efficient running of any Residential Community. On one hand there is the ADDA App, a private social network for residents. On the other hand is a convenient facility management, billing and accounting, security management platform for property managers, managing body/committee. ADDA ERP &amp; GateKeeper are used by 18,500+ Residential Complexes Globally. The core of the platform is the centralized database of every aspect of a residential complex – Condos/Apartments, Residents, Vehicles, Accounts, Staff, Assets, Vendors, etc. 2 ADDA Products leverages the core platform powering the ADDA App and all it's features -&gt; ADDA ERP - Communication, Facility Management &amp; Billing Platform for Owners, Tenants &amp; Associations -&gt; ADDA GATEKEEPER - App Based Visitor Management, Intelligent Security Management Platform ",
+      "original_categories": [
+        "housing",
+        "accounting",
+        "management",
+        "rentals",
+        "security"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "energy-country-comparisons-fuel-production",
+      "description": " Interactive pie chart that allows you to select and compare two countries energy production by energy source: fossil, nuclear, hydro or renewable. Data is from Carma.org. ",
+      "original_categories": [
+        "charts",
+        "widgets",
+        "environment",
+        "energy"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "billhighway",
+      "description": " Mashing up several financial tools to enable group money management among people organizing events, activities, or just needing to collect and pool money from a group of people. ",
+      "original_categories": [
+        "financial",
+        "social",
+        "messaging",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ubi-voice-assistant",
+      "description": " UBI Voice Assistant is a platform that integrates voice interaction with Internet of Things products, and features Alexa Voice Service (AVS) integration, voice interaction testing, and quality of service monitoring. This platform uses the Maluuba Natural Language API to add natural voice recognition and machine learning capabilities. UCIC (Unified Computer Intelligence Corporation) is an IT firm based in Toronto, Canada. ",
+      "original_categories": [
+        "customization",
+        "integration",
+        "voice"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zaggle-zms",
+      "description": " ZMS is a free SMS gateway with a retro 8BIT user interface. ZMS enables any iOS device to send and receive free SMS text messages to any cell phone. ",
+      "original_categories": [
+        "messaging",
+        "mobile",
+        "messaging",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pubmed-faceoff",
+      "description": " Shows Chernoff Faces visualization to represent the impact factor data of a paper alongside Pubmed biomedical literature search results. Basically it allows you to search PubMed and have the results represented as a set of human faces. ",
+      "original_categories": [
+        "medical",
+        "visualizations",
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mohiomap",
+      "description": " Mohiomap takes important documents and files in the Cloud and enables users to understand how they relate to one another and to visualize them in a way the brain understands. Starting with Evernote and Dropbox, Mohiomap provides a change of perspective on existing information - displaying it in a way which adds meaning and understanding. ",
+      "original_categories": [
+        "visualizations",
+        "cloud",
+        "documents",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "video-search",
+      "description": " Tag-based search. Watch funny videos and listen to the music player. ",
+      "original_categories": [
+        "video",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "oscars-birthplaces-map",
+      "description": " Birth Cities of Oscar winning Best Actors and Actresses mapped out on Google Maps. Covers from 1928 to present. ",
+      "original_categories": [
+        "mapping",
+        "video",
+        "movies"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "vovowiki",
+      "description": " Multi-click real-time polls for real fans and real cynics ",
+      "original_categories": [
+        "polls",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "largest-banks-us",
+      "description": " Largest Banks in the United States with assets in thousands of dollars. ",
+      "original_categories": [
+        "financial",
+        "mapping",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "one-block-grid",
+      "description": " 1BOG organizes homeowners into communities to negotiate group discounts for home solar panel installations. Green bogmen have signed up, and they turn orange as they get solar installed. ",
+      "original_categories": [
+        "sustainability",
+        "mapping",
+        "solar"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "music-explained",
+      "description": " Song meanings site that allows you to share your personal memories, experiences and interpretations of your favorite songs. ",
+      "original_categories": [
+        "social",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "hamkry",
+      "description": " Hamkry is an online booking company that provides customers access to travel-related information such as booking flights, buses, hotels, and car rentals. ",
+      "original_categories": [
+        "booking",
+        "transportation",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "strike-your-google-maps",
+      "description": " This creation tool targets those who want to create their Google maps mashups and host the HTML pages on their web servers. You own the files you have created. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mit-visual-traceroute",
+      "description": " Visual Traceroute is a web application that enables users to trace the path packets take through the Internet, by entering the URL. This application uses ipinfo.io API for geolocation and ISP details. ",
+      "original_categories": [
+        "mapping",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bike-rides-california",
+      "description": " Tour of California Cycling Blog covers 100+ mile bike rides. GPS satellite data, route profiles, pictures, and more information is available. ",
+      "original_categories": [
+        "mapping",
+        "sports",
+        "mapping",
+        "cycling"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "things-to-do-near-aviemore-cairngorms-national-park",
+      "description": " List and Map of activities and events near to Aviemore, Cairngorms National Park. Live product data pulled via the TourCMS Marketplace API and plotted on a Map via the Google Maps API. ",
+      "original_categories": [
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "25-unsafest-us-cities",
+      "description": " A look at the 25 most unsafe cities in America. ",
+      "original_categories": [
+        "mapping",
+        "crime",
+        "trivia"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "around-twin-cities",
+      "description": " Twin Cities stores, restaurants, hotels and more. Organized by category to make it easy to find new destinations in Minneapolis and St. Paul Minnesota. ",
+      "original_categories": [
+        "ecommerce",
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fitstar",
+      "description": " FitStar is an application designed for iPads, and iPhones. With FitStar, customers will have a community of support, including access to workout sessions lead by the famous NFL All-Star Tony Gonzalez. Users of the application write about their experience on FitStar, to inspire others and to get inspired. FitStar helps customers to gather, access, and interact with their own data, by integrating with other popular applications. ",
+      "original_categories": [
+        "fitness"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "hab.la-realtime-chat-translation",
+      "description": " Hab.la is a FREE service for chatting with visitors to your website using any jabber compatible IM client: iChat, adium, Meebo, Pidgin. Google Translate translates the conversations into the language of your choice, in real-time. ",
+      "original_categories": [
+        "chat",
+        "translation",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "map-game-day",
+      "description": " MapGameDay.com is a community site that allows fans to create map markers to show popular campus locations and create custom game day maps: ticket locations, parking, tailgate party, stadium photos, etc. ",
+      "original_categories": [
+        "mapping",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "trabber-travel-search-engine",
+      "description": " Trabber is a travel search engine that integrate Google maps in several functionalities. ",
+      "original_categories": [
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twyric",
+      "description": " Twyric is the art of mashing up Twitter poems with Flickr images for contemplation. Twyric = Twitter + lyric. ",
+      "original_categories": [
+        "lyrics",
+        "writing",
+        "photos",
+        "blogging",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "poland-maps",
+      "description": " Polish maps mashup. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sporepedia-gadgets",
+      "description": " Find wild creatures for EA Spore using this Google gadget for asset search views. ",
+      "original_categories": [
+        "widgets",
+        "gadgets",
+        "games",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "guido",
+      "description": " An example site mashing up click to call with Twilio and invoicing with FreshBooks. The app simplifies the job of tracking unpaid invoices and communications with clients about those bills. ",
+      "original_categories": [
+        "voip",
+        "voice",
+        "invoicing"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "map-your-discussions",
+      "description": " Discussing based site as long as its about any place in the world. For example, plot your local school and tell everyone what you think of it. Plot your local bar and discuss its beer prices. ",
+      "original_categories": [
+        "social",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "magellan-strategies",
+      "description": " Magellan Strategies is an online company that provides survey research, predictive data modeling and political voter data analysis services to political campaigns, campaign organizations, government and public affairs. Magellan Strategies' goal is to help political campaigns and other organizations to have a better understanding of their audience, in order to improve and strengthen their campaign strategies. ",
+      "original_categories": [
+        "data",
+        "voting"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "coindesk-guardian-news",
+      "description": " The CoinDesk &amp; Guardian News mashup merges Bitcoin prices and Guardian news headlines, showing them visually in a timeline. CoinDesk is a news site specializing in bitcoin and digital currencies. The Guardian is a British daily newspaper. ",
+      "original_categories": [
+        "cryptocurrency",
+        "bitcoin",
+        "feeds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "vipli.st",
+      "description": " Enter a Plancast event to track its virality across social media channels with awe.sm. ",
+      "original_categories": [
+        "analytics",
+        "social",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "todotweet",
+      "description": " todoTweet takes all the tweets from your twitter account with #todo and creates a clean and easy to use to-do list. ",
+      "original_categories": [
+        "tools",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "homepricerecords",
+      "description": " Combines home sales data with Google maps. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "foursquare-webos",
+      "description": " When you check-in someplace, we'll tell your friends where they can find you and recommend places to go &amp; things to do nearby. People check-in at all kind of places - cafes, bars, restaurants, parks, homes, offices. You'll find that as your friends use foursquare to check-in, you'll start learning more about the places they frequent. ",
+      "original_categories": [
+        "localization",
+        "recommendations"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

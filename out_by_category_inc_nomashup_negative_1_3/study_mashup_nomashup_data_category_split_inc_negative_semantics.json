@@ -1,0 +1,96 @@
+{
+  "category": "semantics",
+  "count": 8,
+  "positive_count": 2,
+  "negative_count": 6,
+  "pos_neg_ratio": "1:3",
+  "items": [
+    {
+      "mashup": "tweetypants",
+      "description": " How smart are your Twitter friends? This mashup grabs a dozen of the user's most recent tweets and then submits them to OpenAmplify for analysis. Results are shown in numerical and graphical forms. It uses the QueryPath PHP library. ",
+      "original_categories": [
+        "blogging",
+        "semantics",
+        "social",
+        "humor",
+        "messaging"
+      ],
+      "used_apis": [
+        "amplify"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "amplify",
+      "description": "Amplify is a web service developed by Hapax that brings human understanding to content. Using patented Natural Language Processing technology, Amplify reads and understands every word used in text. It identifies the significant topics, brands, people, perspectives, emotions, actions and timescales and presents the findings in an actionable XML structure.",
+      "original_categories": [
+        "semantics"
+      ],
+      "used_apis": [
+        "amplify"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "marketplace-workspaces",
+      "description": " Offers a wide array of workspaces, such as practice spaces, offices, studios, single-user work stations, conference rooms, and so on that can be rented or offered for days, weeks or for permanent use. In German. ",
+      "original_categories": [
+        "mapping",
+        "enterprise",
+        "german"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "latest-news-india",
+      "description": " Mashup of Google Map and Yahoo RSS Feeds ",
+      "original_categories": [
+        "mapping",
+        "indian"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "clicky",
+      "description": "From their site: The Clicky API allows you to extract a wide range of data from your web site traffic to analyze, store, manipulate, or display within your own web site or application. Nearly every piece of data that you see using our web site, you can also access via the API.The API accepts requests via standard HTTP GET, and can respond with XML, JSON (JavaScript), or PHP.",
+      "original_categories": [
+        "statistics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "best-cities-singles-0",
+      "description": " Rankings of the best cities for singles in the United States. ",
+      "original_categories": [
+        "mapping",
+        "dating"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-maps-geolocation",
+      "description": "The Google Maps Geolocation API provides developers with tools and documentation for incorporating geolocation with mobile and WiFi technologies. The Geolocation API specifically returns a location and accuracy radius based on the information of cell towers and WiFi nodes that can then be detected by the mobile client.",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geomeme",
+      "description": " Measure and share real-time local Twitter trends. App uses Twitter, Google Maps and Yahoo Term Extraction APIs. ",
+      "original_categories": [
+        "mapping",
+        "mobile",
+        "social",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

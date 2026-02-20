@@ -1,0 +1,678 @@
+{
+  "category": "security",
+  "count": 60,
+  "positive_count": 15,
+  "negative_count": 45,
+  "pos_neg_ratio": "1:3",
+  "items": [
+    {
+      "mashup": "captcha-bypass-service",
+      "description": " An efficient Captcha Bypass Service. ",
+      "original_categories": [
+        "tools",
+        "captcha",
+        "security"
+      ],
+      "used_apis": [
+        "captchacoin"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "loginradius",
+      "description": " A unified social tool that simplifies social login and single sign-on implementation. With the tool, you can allow users to log into your website using Facebook, Twitter, Google, Amazon, LinkedIn, and 25 more ID providers. You can also get accurate social profile data and social analytics. ",
+      "original_categories": [
+        "social",
+        "analytics",
+        "authentication",
+        "data",
+        "profiles"
+      ],
+      "used_apis": [
+        "google-single-signon"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "itrackmine.com",
+      "description": " Are you the type of person who likes to be organized? Have you ever seen something cool and can't remember if you already own it? Then you'll love iTrackmine.com -- an aggregator of everything you own. ",
+      "original_categories": [
+        "books",
+        "aggregation",
+        "mobile",
+        "social",
+        "movies",
+        "music"
+      ],
+      "used_apis": [
+        "janrain-engage"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "sportlogger",
+      "description": " It is an application designed for people practicing regularly endurance activities they record using a GPS logger. By importing and tagging GPS tracks, users get a clear view of their sport activities both in space (on a map) and time (on a calendar). ",
+      "original_categories": [
+        "mapping",
+        "social",
+        "mapping",
+        "sports"
+      ],
+      "used_apis": [
+        "janrain-engage"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "thynews",
+      "description": " ThyNews is a social news reader to let you create and share your own custom online newspaper page full of headline links from the news sources you trust. ",
+      "original_categories": [
+        "social",
+        "feeds"
+      ],
+      "used_apis": [
+        "janrain-engage"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "google-contacts-map",
+      "description": " Ever wanted to see all your Google Contacts on a map? With the Google Contacts Map you can easily do so. ",
+      "original_categories": [
+        "weather",
+        "mapping",
+        "contacts"
+      ],
+      "used_apis": [
+        "google-web-authentication"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "resumedroppr",
+      "description": " A demo site built to show the ease of implementing BeenVerified with IPaper. IPaper was used to display resumes, and the BeenVerified API was used to demo the OAuth process of displaying verified user data. ",
+      "original_categories": [
+        "jobs",
+        "oauth"
+      ],
+      "used_apis": [
+        "beenverified"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "facebook-funny-jokes",
+      "description": " App lets you add random jokes to your Facebook Profile. Jokes come from a Google API-based site. ",
+      "original_categories": [
+        "widgets",
+        "social"
+      ],
+      "used_apis": [
+        "google-single-signon"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "phishtank-sitechecker",
+      "description": " Checks the current website you are on against the PhishTank database. Blocks the page if it is a known phish. Available as an extension for Seamonkey, Firefox, Flock, Mozilla and IE and Opera as a greasemonkey script. ",
+      "original_categories": [
+        "security"
+      ],
+      "used_apis": [
+        "phishtank"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "beenverified",
+      "description": "From their site: The BeenVerified.com API follows the OAuth protocol and gives developers the ability to provide more trustworthy environments for their users, while even further enhancing user privacy and security.",
+      "original_categories": [
+        "security"
+      ],
+      "used_apis": [
+        "beenverified"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "google-recaptcha",
+      "description": "reCAPTCHA is a freely available CAPTCHA implementation. It distinguishes humans from computers. reCAPTCHA is a CAPTCHA program, used to distinguish humans from computers, that uses the answers provided by the user to help digitize scans of old books and newspapers. This API is indirect access to this service, please refer to the SDK below.",
+      "original_categories": [
+        "security"
+      ],
+      "used_apis": [
+        "google-recaptcha"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "google-single-signon",
+      "description": "From their site: Security Assertion Markup Language (SAML) is an XML standard that allows secure web domains to exchange user authentication and authorization data. Using SAML, an online service provider can contact a separate online identity provider to authenticate users who are trying to access secure content. Google Apps offers a SAML-based Single Sign-On (SSO) service that provides partner companies with full control over the authorization and authentication of hosted user accounts that can access web-based applications like Gmail or Google Calendar. Using the SAML model, Google acts as the service provider and provides services such as Gmail and Partner Start Pages (PSP). Google partners act as identity providers and control usernames, passwords and other information used to identify, authenticate and authorize users for web applications that Google hosts.",
+      "original_categories": [
+        "security"
+      ],
+      "used_apis": [
+        "google-single-signon"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "google-web-authentication",
+      "description": "From their site: Google Accounts authentication for web-based applications allows the application to access a Google service protected by a user's Google account. To maintain a high level of security, the Authentication Proxy interface, AuthSub, enables the application to get an authentication token without ever handling the user's account login information. Using the proxy, the user of the web application logs into their account through a Google-supplied login page and consents to grant limited access to the web application.",
+      "original_categories": [
+        "security"
+      ],
+      "used_apis": [
+        "google-web-authentication"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "janrain-engage",
+      "description": "Janrain Engage (formerly RPX) is a service that allows customers to add social networking logins to their websites and applications, using a single login for their website.The Janrain Engage API allows developers to access and integrate Janrain Engage functionality into other sites and applications. Some example API methods include retrieving user data, managing account information, and accessing analytic data.",
+      "original_categories": [
+        "security"
+      ],
+      "used_apis": [
+        "janrain-engage"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "phishtank",
+      "description": "From their site: PhishTank is a free community site where anyone can submit, verify, track and share phishing data.",
+      "original_categories": [
+        "security"
+      ],
+      "used_apis": [
+        "phishtank"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "retrievr-search-sketch",
+      "description": " retrievr is an experimental service which lets you search and explore in a selection of Flickr images by drawing a rough sketch. Very interesting. ",
+      "original_categories": [
+        "photos",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapmap.cz",
+      "description": " Czech property search engine with the largest selection of properties on a map. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cammap-usa",
+      "description": " USA webcams via Google maps. Limited amount of content. ",
+      "original_categories": [
+        "mapping",
+        "photos",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "buyzillion",
+      "description": " Storefront built on Amazon eCommerce with millions of products from a wide variety of categories and hundreds of merchants with competitive prices. ",
+      "original_categories": [
+        "ecommerce",
+        "search",
+        "bookmarks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "local-area-info-zillow-widget",
+      "description": " See local area information for major us cities. See the age distribution in my city, the price per square foot, and other data. Find out by looking at this widget displaying data from Zillow.com. ",
+      "original_categories": [
+        "demographics",
+        "widgets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "podcast-map",
+      "description": " View the source location of various podcasts. US and international podcasts listed. ",
+      "original_categories": [
+        "mapping",
+        "podcasts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "paris-paris-smartphone",
+      "description": " When on the move, get the 5 closest points of interest of a brand or category like Starbucks, Bank, Sephora, Museums, scattered all around Paris. More than 5000 POI are available. ",
+      "original_categories": [
+        "telephony",
+        "mapping",
+        "french",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "murali-basa-blog",
+      "description": " Its a blog about my professional works of my lighting Design ",
+      "original_categories": [
+        "art",
+        "data"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "starterpad",
+      "description": " StarterPad is a free social network for entrepreneurs. Startup users help one another to become more successful. In addition, Startup leverages the Facebook and Twitter APIs to allow users to log in using their respective username and passwords. ",
+      "original_categories": [
+        "social",
+        "business"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "montreal-metro-interactive-map",
+      "description": " Displays all Montreal subway statons and lines. Markers are placed very accurate. Can display lines separately. ",
+      "original_categories": [
+        "transportation",
+        "mapping",
+        "canadian"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "feedlr",
+      "description": " Feedlr is a miniblogs mashup that polls user-submitted feeds, and posts news to multiple miniblogs. It also allows users to browse existing miniblog bots and choose to follow those that interest them. ",
+      "original_categories": [
+        "messaging",
+        "social",
+        "feeds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "walk-highlands-scotland",
+      "description": " Free walking route descriptions with OS Landranger mapping for each walk through Multimap API. Click on View next to buy map on any route to see the Multimap API page. ",
+      "original_categories": [
+        "mapping",
+        "fitness",
+        "scottish",
+        "recreation",
+        "england"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "light-and-evening-editors-hack",
+      "description": " Editors have created a unique listening experience for their new album 'In This Light And On This Evening' by augmenting Google Street View with their own custom locations complete with streaming music. ",
+      "original_categories": [
+        "music",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "social-share-count",
+      "description": "The Social Share Count API enables users to count inbound and outbpound clicks from the ShareThis platform buttons and links. ShareThis lets you share to all of your profiles, blogs, friends and contacts. If you see something you want to share, simply click the ShareThis button on the webpage or your browser plugin for instant sharing. Use the Social Share Count API to get access to total sharing activity for a URL. Use it to display share counts on your social buttons or anywhere else in your application.",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "crowdcentre",
+      "description": " Crowdcentre is a crowdsourced call centre run by volunteers around the globe with good intention of helping people know more about what they're looking for. ",
+      "original_categories": [
+        "support",
+        "telephony",
+        "voice"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "searates",
+      "description": " See where your ocean container shipment is via real-time maps on SeaRates. Helps freight forwarders and logistics companies to perform global shipping operations with international container shipments. ",
+      "original_categories": [
+        "mapping",
+        "shipping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitter2email",
+      "description": " Filters tweets of a specified Twitter account and sends them by email to specified email addresses. ",
+      "original_categories": [
+        "social",
+        "email"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "targetmap",
+      "description": " Free online mapping tool to see and share your data on GoogleMaps. Just choose a country and a way to create your map by color, type values or by uploading your excel files (you can even use your zip/postal code column to get the best and most accurate maps). Publish and share maps. ",
+      "original_categories": [
+        "mapping",
+        "reference",
+        "visualizations",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shoospy",
+      "description": " ShooSpy monitors what people are buying on Zappos in realtime. ",
+      "original_categories": [
+        "search",
+        "ecommerce",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "25-best-companies-to-work",
+      "description": " Map of the 100 best US companies to work for as rated by Fortune Magazine ",
+      "original_categories": [
+        "mapping",
+        "reference",
+        "business"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "200-towns",
+      "description": " Perspecives of British landscape: images and text from cities and towns around Britain. ",
+      "original_categories": [
+        "mapping",
+        "reference",
+        "photos",
+        "social",
+        "england"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "yahoo-geoplanet",
+      "description": "Manage all geo-permanent named places on Earth. The API provides the vocabulary and grammar to describe the world's geography in an unequivocal, permanent, and language-neutral manner.",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "voice-broadcast",
+      "description": " Don't just send text messages to phone; use Voice Broadcast to send your message, converted from text-to-speech, and play it via phone call. ",
+      "original_categories": [
+        "voice",
+        "messaging",
+        "messaging",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "facebook-sentiment-analysis-tool",
+      "description": " This tool is written in PHP and it performs Sentiment Analysis on Facebook posts by using the Datumbox API 1.0v. ",
+      "original_categories": [
+        "sentiment",
+        "social",
+        "media",
+        "monitoring"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "singles-foursquare",
+      "description": " Singles is an iPhone app for location-based dating. It builds on the Foursquare API to let users see and chat to other singles at the locations that they check into ",
+      "original_categories": [
+        "dating",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dear-map",
+      "description": " Create your own maps and share with friends. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "mapping",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "glancemap",
+      "description": " glancemap helps you find or add you missed connection on the map, those people you randomly saw but never had the chance to talk to. ",
+      "original_categories": [
+        "mapping",
+        "social",
+        "dating"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "guess-winner-south-africa-2010",
+      "description": " Share your favorites for World Cup 2010 South Africa and see your friends favorites on Facebook. ",
+      "original_categories": [
+        "sports",
+        "social",
+        "sports",
+        "sports",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "click4service",
+      "description": " Out of the few existing click-to-call solutions for eCommerce that integrate with Salesforce, solutions for customer service are lacking. Currently, when a customer service rep gets click-to-called, the rep is stuck fumbling around searching for the customer's information. Also, after hanging up call data is not stored in an easily accessible database along with the rest of the customer data. ",
+      "original_categories": [
+        "ecommerce",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "castroller",
+      "description": " A way to find the Best Audio and Video on the web. ",
+      "original_categories": [
+        "video",
+        "search",
+        "music",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "abouthisite",
+      "description": " Get simple information on any website: owner, location, daily visitors, IP neighbors and other stuff that your mom can understand. ",
+      "original_categories": [
+        "analytics",
+        "domains",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "huffington-post-pollster",
+      "description": "The Huffington Post is a news website and blog featuring content covering many areas including politics. The Pollster API from the Huffington Post gives users access to results from opinion polls going back to 2004 as well as current opinion on a range of tops and candidates. Data that can be accessed by users is categorized into charts, single chart and polls. The API uses RESTful calls and responses are formatted in XML and JSON.",
+      "original_categories": [
+        "news-services"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pillbox-phone",
+      "description": " Identify pills using your phone or IM client. Pillbox will ask you a series of questions about your pill to help you identify it. ",
+      "original_categories": [
+        "voice",
+        "telephony",
+        "health"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "elaboratorium-job-finder",
+      "description": " Looks at jobs and careers around the world with a Google Map and some nice tools. ",
+      "original_categories": [
+        "jobs",
+        "jobs",
+        "jobs",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "walkdb",
+      "description": " Plan, share, and discover new walking routes. ",
+      "original_categories": [
+        "fitness",
+        "sports",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "text2residents",
+      "description": " Text2residents.com is a simple and effective way for multifamily and senior living management to communicate instantly with residents, their families and staff members via text messages to their mobile phones and devices. ",
+      "original_categories": [
+        "social",
+        "mobile",
+        "telephony",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tagcloud",
+      "description": " TagCloud is an automated Folksonomy tool that searches RSS feeds you specify, extracts keywords and ranks them via font size in a visual cloud. ",
+      "original_categories": [
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dropin-v1.2.3",
+      "description": " The Drop!in v1.2.3 Mashup helps users locate events that are taking place within the proximity of their locations. The application detects and lists corporate events, social activities, or fun destinations where individuals can visit to engage in past time or work-related activities. ",
+      "original_categories": [
+        "events",
+        "addresses",
+        "location",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bookhu",
+      "description": " Did you know that 64% of the readers of Dan Brown's latest novel are male. Bookhu, the Gender Compatibility Engine for books, helps you find suitable books based on your gender. ",
+      "original_categories": [
+        "books",
+        "demographics",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dd-smart",
+      "description": " DD Smart is an initiative taken by Dunkin Donuts to provide customers with health and fitness data. ",
+      "original_categories": [
+        "events",
+        "fitness",
+        "health"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pet-profile-facebook",
+      "description": " Add your pets to your Facebook profile page. ",
+      "original_categories": [
+        "widgets",
+        "pets",
+        "social",
+        "animals"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "discourse-analytics",
+      "description": " Discourse Analytics is an online social marketing platform that utilizes surveys, content consumption, social media, and conversations to communicate with and listen to their clients' audience. With Discourse Analytics, companies have the tools to potentially further engage with their customers and their conversations. ",
+      "original_categories": [
+        "analytics",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mappr",
+      "description": " A visually rich interactive Flash tool for exploring place based on the geotagged photos at Flickr. Search by user, tag and collection. ",
+      "original_categories": [
+        "mapping",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "buffer",
+      "description": "Buffer is a service that allows users to manage and schedule their tweets throughout the day. Users add tweets to their Buffer, and Buffer schedules them to go out regularly throughout the day.The Buffer API allows developers to access and integrate the functionality and data of Buffer with other applications and to create new applications. Some example API methods include retrieving user and profile information, creating and managing updates, and accessing the sent and pending updates.",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "parsebot",
+      "description": "The Parsebot API allows developers to extract content from a website. The API is useful to embed articles, images, video and audio directly into a developer's applications. Responses in JSON and authentication with API Key. Guides are available to maximize API calls, embed data, and send &amp; receive responses.",
+      "original_categories": [
+        "parsing"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

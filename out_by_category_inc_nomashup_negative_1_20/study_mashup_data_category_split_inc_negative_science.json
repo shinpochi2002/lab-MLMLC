@@ -1,0 +1,4415 @@
+{
+  "category": "science",
+  "count": 420,
+  "positive_count": 20,
+  "negative_count": 400,
+  "pos_neg_ratio": "1:20",
+  "items": [
+    {
+      "mashup": "mars-explorer",
+      "description": " The Mars Explorer app (for Android devices) allows you to explore The Red Planet as a whole or through the eyes of one of three NASA rovers currently on the surface. Learn about each of the three rovers and the data they collect on the surface of Mars. Search through years worth of pictures the rovers have taken. Save and share your favorite pictures. Learn about how the rovers work and how they were built. Learn something new about Mars every day with the Daily Fact home screen widget. Get the latest weather details from the Rover Environmental Monitoring Station on board the Curiosity Rover. ",
+      "original_categories": [
+        "education",
+        "astronomy",
+        "entertainment",
+        "science"
+      ],
+      "used_apis": [
+        "nasa-mars-rover-photos"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "ropensci",
+      "description": " rOpenSci offers packages that provide programmatic access to a warehouse of data repositories, with a focus on scholarly works. rOpenSci uses the Mendeley API as a source for scholarly articles. ",
+      "original_categories": [
+        "documents",
+        "datacenter"
+      ],
+      "used_apis": [
+        "mendeley"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "scholarley",
+      "description": " Scholarley is the unofficial Android client for viewing and managing Mendeley documents from an Android device. Mendeley users can open documents and attachments, and sort documents by artist, folder, group, author, and tags. Due to limitations on the Mendeley API, annotations are not supported in Scholarley. ",
+      "original_categories": [
+        "documents",
+        "collaboration"
+      ],
+      "used_apis": [
+        "mendeley"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "altmetric-explorer",
+      "description": " Altmetric aggregates mentions of scholarly articles from many sources, providing a web interface to view analytics. It also provides badges that can be embedded into websites. The Altmetric tool is good for publishers, institutions, and researchers that want to witness the the impact of their published work, along with related social engagement. Altmetric uses the Mendeley API as a source for scholarly articles. ",
+      "original_categories": [
+        "aggregation",
+        "science"
+      ],
+      "used_apis": [
+        "mendeley"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "kinsync",
+      "description": " KinSync is a web application that automatically sends documents from a user's Mendeley account to their Kindle. The app resizes documents, formatting them to fit the Kindle's 6 screen. The app eliminates the extra step of downloading documents to a PC to then export to a Kindle. Users of KinSync may opt to only sync new documents so as to not clutter their Kindle with outdated content. ",
+      "original_categories": [
+        "documents",
+        "editing"
+      ],
+      "used_apis": [
+        "mendeley"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "papership",
+      "description": " PaperShip is an app that allows users to annotate &amp; share documents. The app syncs with a user's Mendeley and Zotero accounts. The app is available on the Mac Store for iPad, iPhone, and Mac Desktop. ",
+      "original_categories": [
+        "documents",
+        "annotations",
+        "social"
+      ],
+      "used_apis": [
+        "mendeley"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "cbeams.org-deep-sky-objects-database",
+      "description": " Cbeams.org is mashup of Deep Sky Objects with bibliographic references, images and sky maps. ",
+      "original_categories": [
+        "astronomy",
+        "astronomy"
+      ],
+      "used_apis": [
+        "openskyquery-skyportal",
+        "sdss-imgcutout"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "storet-watershed-summary",
+      "description": " For a given watershed (identified by its 8-digit Hydrologic Unit Code [HUC]), STORET Watershed Summary shows the types of data available in the STORET Warehouse, who has entered the data, the period of record for the data, and how much data is available. Types of data can include metal, nutrient, or pesticide levels. Users can find the nearest HUC by entering their zip code in the Find Your Watershed data field in the middle of the main page. ",
+      "original_categories": [
+        "reference",
+        "environment"
+      ],
+      "used_apis": [
+        "epa-station-catalog",
+        "epa-watershed-summary"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "tidely",
+      "description": " Tidely is an ocean tide table application built on the NOAA CO-OPS Tide Prediction API. It allows you to quickly find your local tides by entering your zip code. ",
+      "original_categories": [
+        "marine",
+        "localization",
+        "marine"
+      ],
+      "used_apis": [
+        "noaa-erddap"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "ask-amee",
+      "description": " Ask AMEE is an experiment that makes finding things easier. Instead of giving you a list of possible methodologies that might be relevant, it gives you an answer straight away. You can put in queries like â€œ10kg of coalâ€œ, and it will go off and see if AMEE has an answer. If it does, itâ€™ll give you it straight away, and give you links to find out more if you want to. ",
+      "original_categories": [
+        "environment",
+        "qa",
+        "search"
+      ],
+      "used_apis": [
+        "amee"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "climatecraft",
+      "description": " A Minecraft mod that adds tracking of carbon emissions using AMEE. ",
+      "original_categories": [
+        "science",
+        "weather",
+        "games",
+        "humor",
+        "environment"
+      ],
+      "used_apis": [
+        "amee"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "science-stack",
+      "description": " Science Stack is a powerful tool for researchers that combines Mendeley and PloS searches with innovative ways of interacting with the search functionality (like select and search in Firefox). ",
+      "original_categories": [
+        "search",
+        "reference",
+        "science"
+      ],
+      "used_apis": [
+        "mendeley"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "readermeter",
+      "description": " ReaderMeter displays author statistics based on readership data obtained from Mendeley. It also shows readership breakdown for individual publications and offers a JSON interface to its contents. ",
+      "original_categories": [
+        "statistics",
+        "science",
+        "bookmarks",
+        "reference",
+        "reputation"
+      ],
+      "used_apis": [
+        "mendeley"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "uk-carbon-footprint-project",
+      "description": " A platform for a carbon calculator gadget, built as a partnership among Google, the Energy Saving Trust, and RSA. Uses the AMEE engine and draws on the UK CO2 calculator for its data, calculations, and approved methodologies. ",
+      "original_categories": [
+        "environment",
+        "sustainability",
+        "widgets"
+      ],
+      "used_apis": [
+        "amee"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "amee",
+      "description": "AMEE is a platform for greenhouse gas calculation, with access to emissions factors, calculation algorithms, and storage for data history. Our science team take the published methodologies from the science community and put them into a simple unified API, so you don't have to trawl through PDFs and spreadsheets to work it all our yourself. With over 8 million possible calculations, the platform covers everything from simple electricity calculations through to insanely complex industrial processes. If you need to work out the environmental impact of an activity, AMEE has the environmental intelligence you need.",
+      "original_categories": [
+        "science"
+      ],
+      "used_apis": [
+        "amee"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "epa-station-catalog",
+      "description": "The EPA's Station Catalog API provides a summary of information on water quality monitoring stations such as the station's name, period of record, and result counts by characteristic type. This API operates over both SOAP and HTTP GET protocols.",
+      "original_categories": [
+        "science"
+      ],
+      "used_apis": [
+        "epa-station-catalog"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "epa-watershed-summary",
+      "description": "The EPA's Watershed Summary API provides a summary of information for the types of data available within a given watershed, which is identified by an 8-digit HUC (Hydrologic Unit Code). This data includes which organizations have data, the number of stations, and result counts by characteristic type.",
+      "original_categories": [
+        "science"
+      ],
+      "used_apis": [
+        "epa-watershed-summary"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "nasa-mars-rover-photos",
+      "description": "This API allows you to collect image data gathered by NASA's Curiosity, Opportunity, and Spirit rovers on Mars. Each rover has its own set of photos stored in the database, that are capable of being queried separately. Along with querying by date, results can be filtered by the camera. Responses are limited to 25 photos per call for unregistered key. NASA open data supports NASA’s scientists and engineers with information technology such as infusion, procurement, and future IT workforce development.",
+      "original_categories": [
+        "science"
+      ],
+      "used_apis": [
+        "nasa-mars-rover-photos"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "noaa-erddap",
+      "description": "This data service provides a combined interface to access and download scientific datasets and subsets on oceanography in common file formats. Typical uses involve charting and mapping. ERDDAP presents a single format for accessing multiple repositories, which the service reformats to interact with the remote server hosting the desired data.API methods support retrieving a list of available resource URLs, resource categories, and datasets, as well as metadata describing those resources. Methods also allow both full-text and advanced search against the datasets.",
+      "original_categories": [
+        "science"
+      ],
+      "used_apis": [
+        "noaa-erddap"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "openskyquery-skyportal",
+      "description": "OpenSkyQuery is a service that allows users to compare astronomical catalogs in order to find positional cross-matches. These matches can be subject to any other conditions or constraints the user wishes to define based on the data in the catalogs. The primary interface utilizes SQL, the Structured Query Language, with a few extensions specialized for astronomical data. The OpenSkyQuery SkyPortal API makes these functions available programmatically via SOAP calls.",
+      "original_categories": [
+        "science"
+      ],
+      "used_apis": [
+        "openskyquery-skyportal"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "swoopthat",
+      "description": " SwoopThat is a leading provider of course search technology and textbook price comparison. At SwoopThat, parents and students enter their courses, and the website returns every book they need to buy as well as every online merchant that sells those books. SwoopThat helps students save up to 75% on their textbooks in about 10 minutes. In addition to textbook purchases, SwoopThat helps students and parents sell their books by searching online vendors for the highest buyback price. SwoopThat's general product search engine also provides price comparison for over 15 million products from thousands of retailers nation-wide. ",
+      "original_categories": [
+        "comparisons",
+        "books",
+        "education",
+        "books",
+        "prices"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "relocator",
+      "description": " Indeed job search integrated with Facebook and LinkedIn - find jobs close to friends, and see who you know (or contacts know) at those offering the job. ",
+      "original_categories": [
+        "jobs",
+        "jobs",
+        "jobs",
+        "social",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "world-volcano-browser",
+      "description": " Displays volcanos of the world on a Google Map. Data from the Smithsonian Institution, Global Vulcanism Project ",
+      "original_categories": [
+        "mapping",
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "my-top-tweet",
+      "description": " Analyzes any Twitter account to show you the top 10 most retweeted tweets. The results are based on the past 3200 tweets by the account. Try searching for @justinbieber, @ladygaga, @CNN, anyone! Have fun! ",
+      "original_categories": [
+        "social",
+        "analytics",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "loc.alize.us-flickr-mapped",
+      "description": " loc.alize.us displays a massive amount of photos on a highly interactive world map. Explore photos from everyones places, selected topics or people you know. ",
+      "original_categories": [
+        "photos",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "datumbox",
+      "description": "Datumbox offers a Machine Learning platform composed of 14 classifiers and Natural Language processing functions. Functions include sentiment analysis, topic classification, readability assessment, language detection, and much more.The Datumbox API provides developer access using REST-like RPC-style operations over HTTP POST requests. The API accesses all of the platformâ€™s functions. Responses are JSON formatted. Access requires a user account and API Key.",
+      "original_categories": [
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "i-cant-find-my-phone",
+      "description": " Lost your phone? Punch in your number and we'll call it for you. ",
+      "original_categories": [
+        "telephony",
+        "voice"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "jolocate",
+      "description": " JoLocate puts Craigslist on a map. It offers an intuitive interface, as well as more complete Craigslist listings. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "trashedtweet",
+      "description": " TrashedTweet is an application that lets you call in and leave a 10 second voicemail when you're out drinking. The voicemail is transcribed by Twilio and then the transcription, along with a link to the recording, is tweeted from the @TrashedTweet twitter account. ",
+      "original_categories": [
+        "social",
+        "mobile",
+        "telephony",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ihear-network",
+      "description": " iHear Network for Android lets you hear what people are saying in your neighborhood or you can teleport to a different location and hear what's going on there. ",
+      "original_categories": [
+        "humor",
+        "mapping",
+        "blogging",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "chicago-bike-map",
+      "description": " City of Chicago bicycle route data, on Google Maps ",
+      "original_categories": [
+        "cycling"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "camelcamelcamel",
+      "description": " Uses the Amazon Product Advertising API to track pricing trends on nearly 3 million Amazon products, and notifies its users of price drops via email and the Twitter API. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "best-hospitals-cancer-treatment",
+      "description": " Best American hospitals for Cancer Treatment as mentioned in US News. ",
+      "original_categories": [
+        "mapping",
+        "medicine"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-maps-instant",
+      "description": " As you type a location, Google Maps Instant centers a map on the best result that is returned from Google's geocoder. The tool is surprisingly good at determining cities based on partial input. ",
+      "original_categories": [
+        "search",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mybill.",
+      "description": " mybill.is is a social media payments system. Connects social media networks with payment systems to quickly and easily create bills and manage them on the go. ",
+      "original_categories": [
+        "social",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "l-kshya-software-jobs",
+      "description": " Get to know all the software technology jobs and see if you would be working on the core development side. Explore opportunities according to your interests based on which technologies you would like to work with and apply for positions the same. This web app is helpful whether you are experienced or an entry level graduate and would like to build a career within the software industry. ",
+      "original_categories": [
+        "jobs",
+        "indian",
+        "jobs",
+        "software-as-a-service"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "itunes-and-itunes-connect",
+      "description": "A simple REST web service to access the iTunes App Store and iTunes Connect data. Get information about apps, reviews, ratings, ranking, iTunes Connect sales data and more.",
+      "original_categories": [
+        "other"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "youtubia",
+      "description": " A youtube clone with added ability to download the video source from server to PC. ",
+      "original_categories": [
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "album-cover-art",
+      "description": " Simple and fast album cover art engine. ",
+      "original_categories": [
+        "music",
+        "music",
+        "art"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "event-now-australia",
+      "description": " Event Now! shows Victoria, Australia events using a handy timemap, it also integrates with Google Calendar to let you save your events, invite friends and set sms reminders. Entrant in the App My State government mashup contest. ",
+      "original_categories": [
+        "events",
+        "australian",
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "memoriam-virginia-tech",
+      "description": " A memorial mashup for the victims of Virginia Tech. ",
+      "original_categories": [
+        "mapping",
+        "crime"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "glue-one-out",
+      "description": " A movie quiz. Answers the simple multiple choice question Which movie is directed by a specific director? ",
+      "original_categories": [
+        "ecommerce",
+        "movies",
+        "movies",
+        "social",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "subdb",
+      "description": "SubDB is a free, centralized subtitle database intended for use by opensource and non-commercial software. Users upload subtitles that can be freely download by others. With the SubRank algorithm, the database chooses the best subtitle among all available for a video file making the download process easier. The SubDB API lets users download and upload subtitles from the database. The API uses HTTP calls and responses are formatted as comma separated values.",
+      "original_categories": [
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "demand-movie-reviews",
+      "description": " Rotten Tomatoes mashup with reviews for Comcast On-Demand Movies. When you don't know what to watch. ",
+      "original_categories": [
+        "movies",
+        "tv"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mymeetingtime.com",
+      "description": " myMeetingTime is a tool for helping people connect across time zones. Leveraging timezone data from IANA (via TimezoneDB) and mashing it up with geo location names from GeoNames, myMeetingTime is displayed in a graphical interface, making it easy to use. ",
+      "original_categories": [
+        "time"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "4sqtransit",
+      "description": " Whenever you check in with Foursquare and you're near a transit stop, 4sqtransit will send back a text message with realtime schedule information for that location. ",
+      "original_categories": [
+        "mobile",
+        "messaging",
+        "travel",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geo-wiki-search",
+      "description": " A Mashup of the new WikiLocation API and Google Maps to show information about Wikipedia articles in a location. ",
+      "original_categories": [
+        "social",
+        "reference",
+        "search",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "market-summary-igoogle",
+      "description": " Foreign markets and major US sector watch list gadget for iGoogle. ",
+      "original_categories": [
+        "stocks",
+        "financial",
+        "widgets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "treemily",
+      "description": " Treemily is an online family tree builder that helps users create diverse visualizations of their family. The platform is free for all basic functionality and family tree designs, with paid membership options available for access to more robust customization options. Users can purchase the designs as downloads or ready made prints, from posters to framed canvases. Since the tree builder templates are the key novelty of the Treemily platform, users can simply import their existing lineage as a GEDCOM file, and generate visualizations. ",
+      "original_categories": [
+        "genealogy"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "vhx",
+      "description": "VHX is a service that brings online videos together from around the web. Users can discover, share and watch videos as well as create their own personal dashboards. The VHX API lets users access their accounts via other web sites or applications. The API can be used to read and write videos to accounts, create video playlists and embed a player into a site. It uses RESTful calls and responses are formatted in XML and JSON.",
+      "original_categories": [
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "call-safely",
+      "description": " Call-Safely allows users to call or text others without revealing their real phone number. Caller ID is set to a real working phone number that others can SMS message to or call back. ",
+      "original_categories": [
+        "voice",
+        "mobile",
+        "messaging",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "college-finder",
+      "description": " Vertical search for US Colleges and Universities. The site includes in-depth information such as tuition cost and retention information on over seven-thousand schools. Check out a birds-eye view of the colleges. ",
+      "original_categories": [
+        "mapping",
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "seesu",
+      "description": " Uses vk.com (vkontakte.ru), soundcloud.com, ex.fm, last.fm and youtube.com to give you music player and social app. ",
+      "original_categories": [
+        "aggregation",
+        "music",
+        "video",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "santa-call",
+      "description": " Let Santa Call makes phone calls to your friends, and play them a Christmas song. ",
+      "original_categories": [
+        "voice",
+        "humor",
+        "holidays"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "haslockers",
+      "description": " hasLockers is a cloud service for content locking based on hasOffers API. ",
+      "original_categories": [
+        "cloud",
+        "content"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "primal-wordpress",
+      "description": " Working directly with Primal's data service, the plugin automatically builds rich interest graphs around your pages, filtering news and information from across the Web. Contextual links to matching related content are displayed to your visitors, embedded alongside your post. Think of it as a personalized recommendation engine that promotes similarly themed content to your readers. This means real-time delivery of suggested content to your site's audience! ",
+      "original_categories": [
+        "content",
+        "charts",
+        "customization",
+        "recommendations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "knowledgetree-live",
+      "description": " KnowledgeTreeLive is a hosted, on-demand edition of the KnowledgeTree Document Management Software to manage documents, secure documents, and collaborate. ",
+      "original_categories": [
+        "office",
+        "enterprise",
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "prosperent",
+      "description": "Prosperent provides a platform for affiliate marketers to place dynamic, targeted ads on their websites. The API provides access to the functionality of the platform. Developers can build apps with the API and earn commission on every sale driven through the system, or simply use the API to augment their web site to help monetize their traffic. The documentation includes complete details about all parameters that should be set and describes in detail the extended query syntax and extra functionality of the search endpoint. Documentation is available upon registration.",
+      "original_categories": [
+        "advertising"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "placewidget",
+      "description": " Get a Foursquare widget for your site. ",
+      "original_categories": [
+        "mapping",
+        "widgets",
+        "mapping",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "careerbuilder",
+      "description": "Currently a private API, the CareerBuilder API allows you to integrate their database of over 1.5 million jobs with your software or website. The API provides methods for basic job searching, retrieving data for a specific job, and applying to a job.",
+      "original_categories": [
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "solar-eclipses",
+      "description": " This Google Map shows the path of solar eclipses across Earth’s surface. The northern and southern limits of a solar eclipse path are plotted in pink while the central line is blue. ",
+      "original_categories": [
+        "mapping",
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "blastfollow",
+      "description": " BlastFollow is a service that enables Twitter users to find other Twitter users who share their interests and follow them with just a couple of clicks. ",
+      "original_categories": [
+        "tweets",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "teamsnap",
+      "description": "The TeamSnap API in REST architecture returns JSON data with team sports managing and organization, including event schedules, tracking payments and fees, areas for team photos, and file sharing.",
+      "original_categories": [
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "facebook-photo-browser",
+      "description": " Browsing photos on Facebook can be painfully hard. In Sharendipity, access your entire social graph in Facebook. This mashup gives you a way to view all photos, whether they are yours or your friends. ",
+      "original_categories": [
+        "social",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "worldfactorium",
+      "description": " Find interesting facts in a fun way on all the countries of the world. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "photos",
+        "reference",
+        "feeds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickr-second-life",
+      "description": " A home in SL that sports a simple picture frame. Touch it and it looks up your avatar name to see what your favourite Flickr tag is, picks a random picture with that tag from Flickr and displays it on its surface. ",
+      "original_categories": [
+        "photos",
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "amazon-mall-using-product-advertising-api",
+      "description": " Browse Amazon Catalog for Movies, Books, Music, Electronic gadgets and more! By using affiliate account, you can get paid too! ",
+      "original_categories": [
+        "advertising",
+        "ecommerce",
+        "ecommerce",
+        "referrals"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "etsy",
+      "description": "Etsy is an online marketplace for buying and selling handmade things. The Etsy API lets you develop applications built on this fast growing e-commerce platform.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zazzle",
+      "description": "From their site: Zazzle provides a simple URL linkover-based API that allows any third party to automatically generate a customized product with dynamic images and text. The Zazzle Create-a-Product API can be used to automatically generate over 200 different types of customized products: t-shirts, mugs, cards, postage, and posters. Detailed documentation requires registration.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "friendly-audio",
+      "description": " It's the audio version of chat roulette with a useful twist. Friendly Audio connects you with others that have the attributes of a person you are looking to meet. Currently connecting startup founders with hackers. ",
+      "original_categories": [
+        "reference",
+        "social",
+        "chat",
+        "audio"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shizzeeps",
+      "description": " A shizzeep is a registered user of shizzow.com, a location-based social for helping you build relationships through sharing locations. This mashup lets you see where all the shizzeeps are hanging out. ",
+      "original_categories": [
+        "mapping",
+        "social",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "california-school-finder",
+      "description": " Compare California schools side-by-side in Virtual Earth with the school rankings, course offerings, and other details. The information provided on this website comes from the California Department of Education. ",
+      "original_categories": [
+        "mapping",
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "kounta",
+      "description": "Targeted towards retail and hospitality businesses, Kounta is scalable, cloud-based point of sale platform. The Kounta POS service can be securely accessed on any device at anytime across a range of channels including online, in-store and mobile.Kounta offers a RESTful API for the easy integration of Kounta services with third-party applications. Example methods include customers, companies, orders, registers, payments, products, staff, and much more. Both JSON and XML data types are supported.",
+      "original_categories": [
+        "payments"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "live-search-opml-generator",
+      "description": " Helps users find RSS feeds and autogenerates OPML files. Uses Windows Live Search API. Facilitates selecting feeds from root weblogs or comments feeds per user selection with support for international markets. ",
+      "original_categories": [
+        "feeds",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sdb-explorer",
+      "description": " SDB Explorer has been made as an industry leading graphical user interface (GUI) to explore Amazon SimpleDB service thoroughly and in a very efficient and user friendly way. ",
+      "original_categories": [
+        "database"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "smart-recorder-and-box.net",
+      "description": " Smart Recorder is an audio recording app for the iPhone, and this mashup allows users to save their recordings to their Box.net accounts from within Smart Recorder. ",
+      "original_categories": [
+        "audio",
+        "mobile",
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "glive-blog-reader",
+      "description": " Mashing up the Google Feed API and Windows Live Search for isfeed: access to RSS files, this provides a river of news reading experience for recent posts around any keyword. ",
+      "original_categories": [
+        "search",
+        "aggregation",
+        "feeds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "moonshadow-mobile-inc.",
+      "description": " CensusViewer shows all census information from the 2000 and 2010 census inside of Bing Maps. The data can be colored by race, ethnicity, age, county, city, etc. CensusViewer allows you to filter by any attribute and generate heat maps. The data can be downloaded in easy spreadsheets per census block, zip code, city, county or any other distict. ",
+      "original_categories": [
+        "demographics",
+        "demographics",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tweettocall",
+      "description": " Enables Twitter users to call each other for free, without revealing their phone numbers to one another. ",
+      "original_categories": [
+        "social",
+        "telephony",
+        "voice"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "triphub",
+      "description": " A collaborative way to plan, coordinate, and share gatherings that involve travel. ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "social",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "eardrop",
+      "description": " Eardrop uses the Twilio API to create a system where favorite comedians can call in and record messages. Each of these messages is then automatically compiled by a computer into a podcast and distributed via Earwolf's various channels. ",
+      "original_categories": [
+        "voice",
+        "social",
+        "mobile",
+        "messaging",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "usgs-elevation-query-service",
+      "description": "From the US Geological Survey: The Elevation Query Web Service returns the elevation in feet or meters for a specific latitude/longitude point from the USGS Seamless Elevation data sets hosted at USGS/EROS. The elevation values returned default to the best-available (highest resolution) data source available at the specified point. Alternately, this service may return the value from a specified data source, or from all data sources. If unable to find data at the requested point, this services returns an extremely large, negative value.",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "east-okhotsk-scenic-byway",
+      "description": " This site publishes scenic byway information around Abashiri City Japan. Four bloggers contribute articles on the map, each article has been linked with map information. ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "japanese"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "momingle",
+      "description": " Post location-based messages on a map. Post to mingle, rant or rave. You can post to find someone to have a drink, play golf or watch movies with. You can post to recycle or sell your old stuff or find a job. ",
+      "original_categories": [
+        "localization",
+        "mapping",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "webservicespros-customized-integration-solution-americommerce",
+      "description": " WebServicesPros provide automation between Americommerce shopping cart and Enterprise Resource Planning (ERP) systems through the use of AC API Web Services and different ERP and Accounting Softwares. The WebServicesPros Desktop application serves as an intermediary application to bridge the two systems as well as provide additional features to both ends when they are not present. The configurable and customized solutions allow several different shopping carts or even different cart providers to integrate while assisting the back office by making the process efficient and seamless from the accounting and fulfillment point of view. ",
+      "original_categories": [
+        "automation",
+        "accounting"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "eod-historical-data-liverealtime-stock-prices",
+      "description": "The EOD Historical Data Live/Realtime Stock Prices API returns data with livestock prices for US Only and All World plans. With the API, users can access information delayed for 15 to 20 minutes, related to market stocks. EOD Historical Data provides historical prices and fundamental financial data services.",
+      "original_categories": [
+        "stocks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "patchworkr",
+      "description": " Create a photomosaic out of thousands of flickr images. ",
+      "original_categories": [
+        "photos",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rezeptwiese",
+      "description": " Rezeptwiese.de is a website about food and recipes. ",
+      "original_categories": [
+        "social",
+        "food",
+        "food",
+        "mapping",
+        "german"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "search-and-map-wiki",
+      "description": " This mashup is a Geo-wiki which helps you to map wikipedia. ",
+      "original_categories": [
+        "mapping",
+        "wiki"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pebble",
+      "description": "Pebble is a smart wristwatch, enabled with Bluetooth technology that can connect to smartphones.The Pebble API and SDK allow developers to create applications for Pebble alone or for Pebble to connect with smartphones. Some example API functions include sending and receiving text and images, managing account information, and sending and retrieving data.",
+      "original_categories": [
+        "other"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pushpins",
+      "description": " Pushpins is a web and mobile application that allows users to search for coupons and save them for their next grocery shopping list, eliminating the need for cutting coupons from newspapers and catalogs. To redeem the coupon, all users have to do is to scan the barcode of the product, and then press tab to redeem. Pushpins is available in over 10,000 grocery and drug stores, and consumes the Yummly API. ",
+      "original_categories": [
+        "grocery",
+        "drugs",
+        "food",
+        "sales"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "visual-resume",
+      "description": " Visual timeline of education and career history using LinkedIn API. ",
+      "original_categories": [
+        "jobs",
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tourcms-marketplace-widgets",
+      "description": " Small JavaScript snippets which allow third parties to place product information pulled via the TourCMS Marketplace API onto their websites. For example listing all of the travel products in a particular area. ",
+      "original_categories": [
+        "travel",
+        "widgets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bbc-news-visualizer",
+      "description": " A BBC News Data visualization demo using PHP + HTML5 + CSS3 + jQuery. ",
+      "original_categories": [
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "new-zealand-topographic-map",
+      "description": " NZ Topo Map is an interactive topographic map of New Zealand using the official LINZ's 1:50,000 / Topo50 and 1:250,000 / Topo250 maps. Stewart Island and the Chatham Islands are also covered. Search and locate any landscape feature on the map: towns, streams, caves, glaciers, forests, huts, mountains and more. Share or bookmark results for later use. ",
+      "original_categories": [
+        "visualizations",
+        "social",
+        "reference",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "office-floor-plan-maps",
+      "description": " Google Maps can easily be customized to display searchable floor plans. A floor plan drawing in PDF, JPG, GIS, CAD formats, can be displayed on the map as seen in this example. ",
+      "original_categories": [
+        "mapping",
+        "office"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zappos-peer-pressure",
+      "description": " Browse products on Zappos.com and query results by recent sales and by state. High resolution product images that are available through the Zappos.com API are featured. ",
+      "original_categories": [
+        "social",
+        "reference",
+        "search",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "seomoz",
+      "description": "SEOmoz provides companies around the world with consulting, Internet marketing and search engine optimization services. Our goal is to provide a high level of service and education to businesses, individuals, non-profits and government organizations so they can best leverage the unique reach of the Internet to increase visibility and achieve success.The SEOmoz Site Intelligence Service API provides an interface to working with SEOmoz tools and data, allowing developers to retrieve information programmatically and make use of such data in their own applications.",
+      "original_categories": [
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapmynearest",
+      "description": " Uses Google Maps &amp; Places API to make viewing nearby search results easy. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "use-gift-card",
+      "description": " Use That Gift Card is an application that lets users to find products from BestBuy and Walmart based on the amount of funds they have on the gift cards. This mashup uses Walmart Open and Best Buy Products APIs. ",
+      "original_categories": [
+        "ecommerce",
+        "gifts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geopet",
+      "description": " Take a tour on a world map to see all of our pets and their locations. ",
+      "original_categories": [
+        "social",
+        "photos",
+        "mapping",
+        "pets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "meme-bro",
+      "description": " This mashup is the fastest way of creating memes via MMS. ",
+      "original_categories": [
+        "meme",
+        "messaging",
+        "social",
+        "humor",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pearl",
+      "description": " PEARL is a digital trade payables automation tool that streamlines an organisation’s “Procure to Pay” business cycle resulting in tangible savings &amp; an improved partner ecosystem. ",
+      "original_categories": [
+        "accounting",
+        "accounts",
+        "financial"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sensis-business-search",
+      "description": "The Sensis Business Search API provides business listings from Yellow Pages and White Pages Australia. Third party digital developers, entrepreneurs and publishers can use the API to add business search functionality on their websites, mobile-sites and applications. The API provides access to a fully maintained and comprehensive collection of Australian local business listings, sourced from the Yellow Pages and White Pages Directories. The API uses RESTful calls and responses are formatted in JSON.",
+      "original_categories": [
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rivers-world",
+      "description": " Browse through list of all the rivers of the world categorized by continent, country. The rivers coordinates are mapped in Google maps, along with photos got from flickr. Provision is given to visit the details about the river in Wikipedia from the Map. ",
+      "original_categories": [
+        "photos",
+        "mapping",
+        "reference",
+        "trivia",
+        "photos",
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tuneglue",
+      "description": " Slick interactive visualization of the relationship between music artists using the Last.fm and Amazon.com.uk APIs. NOTE: As of Oct 2008, this site appears to have stopped operation. ",
+      "original_categories": [
+        "ecommerce",
+        "music",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "silicon-valley-vc-funding",
+      "description": " Mashup of Google Maps with the most recent venture capital deals and startups in Silicon Valley. ",
+      "original_categories": [
+        "financial",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "quickmocker",
+      "description": " QuickMocker is an online API tool that allows to create your own public domain and a fake web services, intercept and debug requests in live mode, use regular expressions as URL paths and multiple HTTP methods per endpoints, prioritize endpoints. With QuickMocker you can easily integrate 3rd party reverse requests (webhooks) using Local Forwarder feature that can forward request even to your localhost URL. ",
+      "original_categories": [
+        "tools",
+        "api"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "partygps",
+      "description": " Find the good times. partyGPS makes it easier to locate bars, clubs, and liquor stores throughout the U.S. with Google Maps and user reviews. ",
+      "original_categories": [
+        "food",
+        "mapping",
+        "bars",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "best-buy-products",
+      "description": "Best Buy's Products API provides full product information for over 1M current and historical products, including pricing, availability, specifications, descriptions, and images.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dns-tools",
+      "description": "DNS Tools is a simple API that lets users resolve DNS addresses into IP addresses as well as the other way around. It also can return a client's IP address. The API uses HTTP calls and responses are formatted in JSON. Client libraries are also available to developers.",
+      "original_categories": [
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rxnlp-text-similarity",
+      "description": "RxNLP is a Text Mining and Natural Language Processing service. One of RxNLP's API's, is the Text Similarity API. It is used for analyzing and computing surface similarities between texts, both long and short. Having the tools to identify text similarity can help with things such as query reformulation, finding and analyzing similar topics, and grouping similar items.",
+      "original_categories": [
+        "text"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "comment-stack",
+      "description": " Comment Stack is a mashup of ReadSocial and Readability. Allowing users to quickly reference content across platforms. ",
+      "original_categories": [
+        "social",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "leeds-travel",
+      "description": " Real time travel information for Leeds, UK. ",
+      "original_categories": [
+        "england",
+        "travel",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "jolocate-roommates",
+      "description": " Find a roommate using Google Maps. Roommates enter the location of where they would be willing to live, and then you can search based on this. ",
+      "original_categories": [
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "indiatweetz",
+      "description": " IndiaTweetz- Tweets and News about India- is a one stop Twitter based portal to tap the buzz in India.Tweets are categorized in groups like Headlines,Cricket,Politics,Business, Bollywood,Celebrities,Cities etc. ",
+      "original_categories": [
+        "indian",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "backup-box",
+      "description": " We move your stuff from anything to anywhere. ",
+      "original_categories": [
+        "tools",
+        "storage",
+        "cloud"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bing-education-map",
+      "description": " Information about schools and how you can help classrooms and students are displayed on a map. Choose from DonorsChoose (fundraising for classroom projects), Mentor Pro (volunteering) or Great Schools (school data). ",
+      "original_categories": [
+        "mapping",
+        "education",
+        "charity"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sgrouples",
+      "description": " Sgrouples Inc. features MeWe, a service dedicated to protect online privacy. In the site, users can immediately discover the number of cookies stalking from different social media providers. Some of the features include safe data, photo/video/chat options to interact with friends and family, privacy controls, and personal cloud. No Stalking, No Spying, and No Bullying are the MeWe principles that make this mashup unique. ",
+      "original_categories": [
+        "privacy",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickrrandom",
+      "description": " Multiple ways to browse random images from Flickr: all, interestingness, photostreams, groups, etc. ",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "eppraisal.com",
+      "description": " A real estate site that gives you quick and easy access to information on any property in the US. eppraisal.com data is updated daily and pulls from a database of about 70 million homes. Integrated maps and estimated home valuations. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "europass",
+      "description": "Europass is an EU initiative for helping people make their skills and qualifications clearly and easily understood in Europe. The initiative aims to increase the transparency of qualifications and the mobility of citizens in Europe via a portfolio of documents containing descriptions of all learning achievements, official qualifications, work experience, and skills and competences.Europass provides a RESTful API as a means to use Europass services in automated ways. Use the service to remotely generate Europass documents. Data transport is realized through secure hypertext transfer protocol (HTTPS).",
+      "original_categories": [
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-app-engine",
+      "description": "[This API is no longer available. Its functions have been split among the following APIs: <a href=https://www.programmableweb.com/api/google-app-engine-admin>Google App Engine Admin</a>, <a href=https://www.programmableweb.com/api/google-app-engine-task-queue>Google App Engine Task Queue</a>, <a href=https://www.programmableweb.com/api/google-cloud-app-engine-tasks>Google Cloud App Engine Tasks</a>, <a href=https://www.programmableweb.com/api/google-app-engine-admin-rpc>Google App Engine Admin RPC</a>. This profile is being maintained purely for historical and research purposes.]Use the Google App Engine platform to run web apps on Google's infrastructure, the same scalable systems that run Google applications. Use the platform to run your apps reliably, even if you have heavy load and data needs. The environment has dynamic web serving, persistent storage with queries, sorting and transactions, automatic scaling and load balancing, APIs for authenticating users and sending email using Google Accounts, and a local testing environment.",
+      "original_categories": [
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fullcontact-person",
+      "description": "FullContact provides a suite of tools to support individuals, businesses, and developers in managing and enhancing their contact data. The FullContact Person API allows applications to lookup information about a specific person by connecting data keys associated with a person’s email address, hashed email address, phone number, social handle (twitter, instagram, facebook) or vCard and returning a complete customer profile. To get started, sign up for a free API Key.",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "travel-portal",
+      "description": "The Travel Portal API provides programmatic access to functions that allow customers to book hotels, flights, cars, and tours from the developer's websites. Travel Portal allows users to make bookings through Expedia, Cartrawler, Dohop, and Viator using its own interface. The script works in 27 languages and 21 currencies, and it is maintenance-free after setup.",
+      "original_categories": [
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "showhear",
+      "description": " ShowHear is a concert browsing service that enables you to quickly browse videos of artists playing in your area. ",
+      "original_categories": [
+        "music",
+        "search",
+        "tools",
+        "video",
+        "aggregation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sharedbook",
+      "description": "From their site: SharedBook is a technology company that has created an on demand, reverse publishing platform that allows users to extract data and content from multiple sources, manipulate it, then distribute their unique new creation online or off. It's different from other APIs in that, instead of writing an interface to extract data from us, you'll be creating a new way to introduce data into our private and secure book creation system.",
+      "original_categories": [
+        "other"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dd-smart",
+      "description": " DD Smart is an initiative taken by Dunkin Donuts to provide customers with health and fitness data. ",
+      "original_categories": [
+        "events",
+        "fitness",
+        "health"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ergast",
+      "description": "The Ergast Motor Racing Data API provides a historical record of motor racing data for non-commercial purposes. The API provides data for the Formula 1 and Formula E series, from the start of the World Championships in 1950 and 2014 respectively. New: Now provides Formula One lap times and pit stop data from the 2011 season onwards.",
+      "original_categories": [
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wahili",
+      "description": " Are you always going to the same bar, club or restaurant and want to find something new that is similar to the one you like? Use wahili to find new but similar nightlife spots! ",
+      "original_categories": [
+        "localization",
+        "recommendations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "lokrr.com",
+      "description": " Indonesia Jobs Real-time Search Engine. Using Indeed API, CareerJet API, Foursquare API, Facebook Open Graph API and built using Twitter Bootstrap. ",
+      "original_categories": [
+        "jobs",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "find-lawyer",
+      "description": " Find-a-Lawyer is a simple Android native application to find a lawyer in United States. This software uses Avvo.com's API. ",
+      "original_categories": [
+        "search",
+        "law"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tourcms-facebook-tabs",
+      "description": " Facebook app that allows Tour and Activity Operators using TourCMS to easily add their product details to a new tab on their Facebook page. ",
+      "original_categories": [
+        "travel",
+        "marketing"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "relight-new-york",
+      "description": " Community action meets environment meets mash up. An environmental group started by a 16 year old allows kids in New York to form teams to adopt buildings and report on how many light bulbs they are able to convert. ",
+      "original_categories": [
+        "environment",
+        "mapping",
+        "energy"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "contractsforgeeks",
+      "description": " ContractsForGeeks is an employment search tool that sources the indeed API to find job postings, then arranges them by city or state. It also includes and IT recruiter directory. ",
+      "original_categories": [
+        "search",
+        "advertising",
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "was-my-jam",
+      "description": " Full track history for all This Is My Jam users. ",
+      "original_categories": [
+        "music",
+        "search",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "razorpay",
+      "description": "The Razorpay REST API allows developers to access and integrate the functionality of Razorpay with other applications. Some example API methods include retrieving payments, capturing payments, and retrieving refunds of a payment. Razorpay is an online and mobile payment platform for individuals and businesses in India.",
+      "original_categories": [
+        "payments"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bibirmer.org",
+      "description": " Compare Prices website based on the eBay Commerce API platform. Site is fully responsive and can adapt to any screen size including mobile. ",
+      "original_categories": [
+        "ecommerce",
+        "comparisons",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-talk",
+      "description": "From the site: As long as you adhere to the requirements of the XMPP specs, you should be able to connect to the Google Talk service. Other clients that can connect include [[http://gaim.sourceforge.net/ GAIM]] and [[http://www.ceruleanstudios.com/learn/ Trillian Pro]].",
+      "original_categories": [
+        "chat"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zanox",
+      "description": "zanox Web Services enables developers to access zanox infrastructure and services. With the API, you can enhance your advertising solutions and monetize your applications. The zanox company focuses on search engine marketing, e-mail marketing, international campaigns, and portals/content sites. The zanox vision relates to monetizing the Internet with a business alliance where everyone is a winner.",
+      "original_categories": [
+        "advertising"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "linda",
+      "description": " Linda is an artificial intelligence being developed by Basi Technologies that answers a wide variety of user questions. The AI is powered by several APIs and language parsing technology. ",
+      "original_categories": [
+        "intelligence",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ilmaprognoos",
+      "description": " Weather forecast site for Estonia, Scandinavia. The site is in Finnish (Suomalainen). ",
+      "original_categories": [
+        "weather"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "german-korean-dictionary",
+      "description": " German-Korean Dictionary is a translation site that uses the Forvo API to help with pronunciation. ",
+      "original_categories": [
+        "language",
+        "translation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "lastfm",
+      "description": "The Last.fm API gives users the ability to build programs using Last.fm data, whether on the web, the desktop or mobile devices. The RESTful API allows for read and write access to the full slate of last.fm music data resources - albums, artists, playlists, events, users, and more. It allows users to call methods that respond in either XML or JSON.",
+      "original_categories": [
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bill-track-50",
+      "description": " Bill Track 50 is a free online service that helps individuals to discover, track, and share legislation and regulations. With Bill Track 50, individuals will be able to know what the government is doing about the issues that matter to them. ",
+      "original_categories": [
+        "politics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "casasvacias",
+      "description": " Social mashup that marks unused or empty houses in Spain. ",
+      "original_categories": [
+        "mapping",
+        "spanish",
+        "mapping",
+        "housing",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "time-extractor-chrome-extension",
+      "description": " With a Chrome Extension, the Time Extractor API enables identification of dates and/or times on web pages and makes it possible to add them to Google Calendar. ",
+      "original_categories": [
+        "extraction",
+        "time"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "smssafar",
+      "description": " Smssafar is an online booking company that provides customer services tailored to unique traveling needs. Some of these services include finding flights, booking hotels, and pairing users with relevant tour packages. Routes booked through Smssafar are in India only. ",
+      "original_categories": [
+        "booking",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "otnettv-media-streaming-app",
+      "description": " A Cross-platform app built using Appcelerator and the OTNet.tv media API. ",
+      "original_categories": [
+        "media",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "coinkite",
+      "description": "Coinkite is a bitcoin service that provides an exchange and bank for bitcoin and other crypto-currency use. Coinkite also both online banking and a debit card with which to transact in bitcoins offline. The Coinkite API allows users to utilize the exchange to deposit funds into Coinkite accounts. The Coinkite API uses REST calls, and an account is required with service.",
+      "original_categories": [
+        "financial"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cloudient-personal-digital-assistant",
+      "description": " The personal digital assistant is an auto attendant that filters calls. It filters calls based on a blocklist, time of day, personal contact list, and close friends identification. It harshly handles blocklist violators, and asks companies and political orgs to place your number on their do not call list. ",
+      "original_categories": [
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "talkasaur.us",
+      "description": " Dirt-simple in-browser conference calls. Start a call, invite others, and begin talking. ",
+      "original_categories": [
+        "telephony",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "youtube-instant",
+      "description": " Instant videos, instant classic. This mashup landed its creator a job offer over Twitter from YouTube co-founder Chad Hurley. ",
+      "original_categories": [
+        "video",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "launchrock",
+      "description": "LaunchRock helps startups design attractive coming-soon webpages and social media campaigns. They also provide user management services and UX analytics for startups' launch sites. Through their API, developers can access data culled from those sites, such as, user activity, traffic, and sharing. Their API servers are RESTful and respond in JSON.",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "distance-calculator-entfernung.org",
+      "description": " German language distance calculator, using various reverse geocoding APIs to retrieve location and related place infos, such as Wikipedia overview articles, nearby airports, etc. ",
+      "original_categories": [
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "getparking",
+      "description": " GetParking provides an easily accessible parking location database. Our mission is to one day connect you with parking garages worldwide. ",
+      "original_categories": [
+        "mapping",
+        "transportation",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "design-n-buy",
+      "description": "Design 'N' Buy is a product customization service. The T-shirt Design Software, provided by Design 'N' Buy is an online turnkey e-Commerce solution with full integration with the Magento eCommerce CE platform. It allows users to create custom t-shirt designs within minutes with text, clipart and images. Users can then share it with a friend, save unlimited number of designs in their user account and more. The API allows admin features giving users over the store, order management and fulfillment, marketing activities and other features. The integration also features ready to print output files in PDF and JPG format and integrated real-time shipping rates from UPS, UPS XML, FedEx, USPS and DHL. Access to API documentation is restricted to members.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "foreclosure-radar",
+      "description": " Paid service to find bank owned homes and short sales. You can search for free and find approximate locations, all displayed on a Google Map. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "national-weather-service-ndfd",
+      "description": "The National Oceanic and Atmospheric Administration (NOAA) provides the public, government agencies, and commercial enterprises with XML data from the National Weather Service's (NWS) digital forecast database.This API is available through SOAP or REST protocols, and provides an array of parameters allowing users to create customizable queries to the digital forecast database. Users can search the database by specific latitude/longitude, time, unit of measurement, and weather parameters. This service is provided free of charge by the U.S. government.Users interested in REST implementations of this API can find documentation [[http://graphical.weather.gov/xml/rest.php here]].",
+      "original_categories": [
+        "weather"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wordnik",
+      "description": "Wordnik APIs let you request definitions from the The Century Dictionary, frequency data reflecting occurrences in our corpus, example sentences for words, spelling suggestions, word autocompletion, and words of the day, and more on the way.",
+      "original_categories": [
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cheephotels",
+      "description": " Uses Google maps API to show affordable accommodation locations worldwide. ",
+      "original_categories": [
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "quova",
+      "description": "Quova's IP geolocation claims to be the most accurate, with the most data available. The Quova API lets you plug into the vast world of IP intelligence, allowing you to instantly build your own Quova-powered applications for the web, desktop and mobile devices.",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "chilis-promotion",
+      "description": " On this site, you can customize the video of a bag lunch puppet. The video customization requires only a single API call. ",
+      "original_categories": [
+        "video",
+        "humor",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "decorstuff",
+      "description": " Home appliances and garden decor stuff products that recommended by Amazon. The Product always up to dated every minutes so no junk products found. Use Amazon API with remote shopping cart like own shop. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "youwerecute",
+      "description": " A mashup that imports missed connection data from craigslist and locates them on the google map. The time slider on the top of the map enables users to go back the past 10 days. A submission page with a drawing board is provided so users can submit their missed connection via the website with a drawing. ",
+      "original_categories": [
+        "mapping",
+        "search",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "surveyshare",
+      "description": " Quickly create customized surveys from simple to complex with SurveyShare. Reach participants through email, Facebook, Twitter and more. Collect and analyze results in realtime. ",
+      "original_categories": [
+        "search",
+        "messaging",
+        "visualizations",
+        "surveys"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "boots-optician-store-locator-uk",
+      "description": " Use this interactive map to find Boots Optician stores in the UK. ",
+      "original_categories": [
+        "mapping",
+        "england",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "friendfeed-stats",
+      "description": " Tracks the FriendFeed public feed to show statistics about FriendFeed. Shows data in a variety of formats in hours, days, months, or services, and allows you to drill down to a specific user or service. ",
+      "original_categories": [
+        "analytics",
+        "charts",
+        "blogging",
+        "bookmarks",
+        "feeds",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "daybreak-game-company-census",
+      "description": "Daybreak Games (DGC) is a leader in massively multiplayer online games. Some of it's most popular titles include EverQuest, EverQuest II, PlanetSide 2, Planetside 2, H1Z1, Landmark, and DC Universe Online. The Census Data API allows users to request information directly from Daybreak regarding the status of a game or game entity (e.g. character, item, spell, etc.). The API uses RESTful calls and responses are formatted in XML or JSON.",
+      "original_categories": [
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "realtime-wifi-map-montreal",
+      "description": " Google Maps mashup of the Iles Sans Fil WiFi network in Montreal, Canada. Note: loads slowly. ",
+      "original_categories": [
+        "mapping",
+        "wi-fi"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "push-notify",
+      "description": " Push notifications service. Privacy controls, real time push feed, SMS and voice alerts. ",
+      "original_categories": [
+        "mobile",
+        "telephony",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shopping-thankgoditsholiday",
+      "description": " Shopping products from multiple stores (new and used), multiple tracking IDs, out-of-stock email alerts, and promotion and customer comments. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "open-data-companion-odc",
+      "description": " The Open Data Companion (ODC) app for Android provides a unified access point to over 170 open data portals and thousands of datasets from around the world; right from your mobile device. Crafted with mobile-optimized features and design, it is is an easy and convenient way to find, access and share open data. Open Data Companion provides a framework for all Private Sector, State, Regional, National and Worldwide open data portals to deliver open data to all mobile users. FEATURES: Browse datasets from over 170 data portals around the world by categories Download and view data records (resources) on your mobile device Preview dataset records and create data visualisations in app before download (as supported by the portal) Translate dataset details from various languages to your preferred language (as determined by user’s Google Account settings) Bookmark/save datasets for later viewing Favorite your data portals for future easy access Sync your app data (bookmarks, Favorite &amp; settings) securely to your Google Drive and restore it to any device at anytime Share links to datasets on social media, email, sms, etc. right from the app In-app tutorial videos designed to help you quickly get productive with the app. Tutorial videos are available offline once downloaded ",
+      "original_categories": [
+        "applications",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sicppl-pollution-listing",
+      "description": " Listing of the top 100 polluting industrial facilities in the US as of 2002. Includes pollutants for each location and a list of possible health effects (via scorecard.org) that result from exposure to them. ",
+      "original_categories": [
+        "mapping",
+        "sustainability",
+        "environment"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "domaintools",
+      "description": "You can access the same powerful research tools used every day by brand managers, legal professionals, site owners and domain investors.Nearly every piece of data you'll find us using on the DomainTools site is available for your use, including Whois Lookup, Whois History, Reverse Whois, Domain Suggestions, and more.Discover relationships among web sites, domain owners and IP addresses with Name Server Reports, Reverse IP lookups and Reverse Whois Reports.Find domains to register or buy with Domain Suggestions and Domain Search APIs.Monitor hundreds of thousands of new domain registrations each day for keywords or ownership profiles with the Trademark Alert and Registrant Alert APIs.",
+      "original_categories": [
+        "domains"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dealighted",
+      "description": " Mashes up user posted deals from forums like slickdeals, fatwallet, gottadeal, and uses a popularity algorithm to identify the hottest deals. Also mashes deals into its shop.dealighted.com engine to show relevant deals alongside retail product prices. ",
+      "original_categories": [
+        "ecommerce",
+        "comparisons"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapgasprices.com",
+      "description": " Very good, up-to-date gas price search with Google Maps station display. ",
+      "original_categories": [
+        "mapping",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "analytics-edge-connector-google-analytics",
+      "description": " Automate downloads of your website traffic data from your Google Analytics account directly into Excel. ",
+      "original_categories": [
+        "reporting",
+        "spreadsheets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "college-football-bowl-schedule",
+      "description": " Google Maps Mashup of NCAA college football Bowl games schedule. ",
+      "original_categories": [
+        "mapping",
+        "education",
+        "sports",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twups",
+      "description": " Twups is a twitter aggregator, pulling the most popular twitter topics into one place, so you can keep up to date on what is going on in the world, via twitter. ",
+      "original_categories": [
+        "search",
+        "social",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "map-world",
+      "description": " A mashup of geographic information and Google Maps. ",
+      "original_categories": [
+        "science",
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "4wheelz-routemate",
+      "description": " Uses the Google Maps API with StreetView and combines this with knowledge of common test routes to help learner drivers in Birmingham &amp; surrounding areas (UK) to practise their driving test online before the real thing. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ifixit-ios",
+      "description": " iFixit iOS is a mobile application, a native iPad guide viewer built using iFixit's public APIs. ",
+      "original_categories": [
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "singapore-mash-websites",
+      "description": " A constantly growing mash website with different information from different websites in Singapore. The ideal mobile concierge for locals and tourists. ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "mobile",
+        "food"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "kpbs-san-diego-fires",
+      "description": " Map with latest news about the October 2007 wildfires in southern California. Includes fire areas and meeting points for evacuees, as well as nearby emergency services such as hospitals. ",
+      "original_categories": [
+        "mapping",
+        "emergency",
+        "emergency"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "academic-site-navigaiton",
+      "description": " ODP Mashup Server. A Chinese site meant to help you create mashups. The code embeds in your page, while preserving your style. ",
+      "original_categories": [
+        "chinese",
+        "directories",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "booksteam-online-scheduling",
+      "description": " BookSteam Online Scheduling is an online appointment management platform that allows clients to schedule and manage appointments themselves. This mashup was created using the vCita API. ",
+      "original_categories": [
+        "software-as-a-service",
+        "booking",
+        "scheduling"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "buzzom",
+      "description": " Twitter account management tool that lets you maintain an active list of friends and followers, and find interesting people over Twitter. Uses the three step Flush - Grow - Reciprocate features to manage your account. ",
+      "original_categories": [
+        "social",
+        "social",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickr-insuggest",
+      "description": " A fun way to explore Flickr images based on your own taste. Select a couple of images you like and instantly get recommendations, based on like-minded people. ",
+      "original_categories": [
+        "photos",
+        "recommendations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "casefashion-studio",
+      "description": " Upload photos, graphics and your artwork to the Studio. Instantly see them on mobile cases, laptop sleeves, fashionable bags and 100+ more products at Zazzle. Personalize gifts for family and friends. Choose an artistic print style for your artwork, or brand your business with your logo and text printed on business cards, stationery - even on wall clocks, dartboads and playing cards! ",
+      "original_categories": [
+        "ecommerce",
+        "humor",
+        "customization",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-finance-google-maps",
+      "description": " Get the latest Stock Quotes on Google Maps. ",
+      "original_categories": [
+        "mapping",
+        "financial",
+        "stocks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wetterwolke",
+      "description": " A small Google Maps Mashup displays the weather forecast and weather-tweets in a nice, simple style. ",
+      "original_categories": [
+        "social",
+        "mapping",
+        "weather"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "programmer-japan-jobs",
+      "description": " Programmer and system engineer jobs in Japan. ",
+      "original_categories": [
+        "japanese",
+        "jobs",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "findilike",
+      "description": " FindiLike Hotel Search is a hotel search and review analysis system that helps users find hotels based on their reviews, prices, or location. Hotels can be searched with unstructured keywords like, pet friendly, swimming pool, or friendly staff. FindiLike App also supports structured search criteria like distance from a landmark or address or price range. ",
+      "original_categories": [
+        "search",
+        "text"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "italian-wines-and-food-mashup",
+      "description": " Italianwinesandfood.com is a mashup project to promote the best of Italian products, but also wine tours in Italy. In a easy-to-use map we collected the main typical Italian products divided by types and geographic locations. In particular our purpose is enabling a rapid and intuitive consultation of the map to discover the typical Italian products and the main Italian wines. ",
+      "original_categories": [
+        "italian",
+        "wine",
+        "tourism"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cash4books.net",
+      "description": " Cash4Books has for years been enabling its customers to allocate a portion of the cash they receive for their books in support of classroom projects. By plugging into our API's transactional functionality, Cash4Books customers now receive a DonorsChoose.org gift card for the precise denomination of their donation and can hand-pick the classroom project themselves! ",
+      "original_categories": [
+        "charity",
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "71miles",
+      "description": " 71Miles is a growing network of travel sites focused exclusively on regional travel, nothing else. We currently cover weekend destinations within driving distance of major metropolitan areas with a national network soon. ",
+      "original_categories": [
+        "mapping",
+        "hotels",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "photo-feed-slideshow-wigdet",
+      "description": " The gadget lets the users turn their RSS album of latest albums, all albums and others into an always updated photo slideshow. They can paste the code into their other web presence like their blog, or any social website they have. ",
+      "original_categories": [
+        "photos",
+        "widgets",
+        "feeds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "kolay-%c3%a4%c2%b0ngilizce-oku",
+      "description": " Kolay Ingilizce Oku is a web application that aims facilitate process of reading English text for Turkish speakers. You can click any word that you don't know its meaning, you can save it, to your word list that connected your google account. You can check your word-list and test yourself. Kolay Ingilizce Oku also have a chrome extension. With this extension you can select and analyse any article in web only one click from chrome extension. ",
+      "original_categories": [
+        "translation",
+        "reference",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "phone-idol",
+      "description": " Phone Idol is a phone-based singing competition. Dial in and sing a song for the world to hear. Then American votes and one person will become the Phone Idol. ",
+      "original_categories": [
+        "voice",
+        "music",
+        "humor",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "big-picture-small-world",
+      "description": " Fun YQL hack to display images from The Big Picture on a map. ",
+      "original_categories": [
+        "photos",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "break-ice-me",
+      "description": " Get ice breakers (conversation starters) via SMS and be the life of the party. ",
+      "original_categories": [
+        "social",
+        "messaging",
+        "messaging",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "stripe-payments-plugin",
+      "description": " Take payments over the phone using stripe.com ",
+      "original_categories": [
+        "payments",
+        "plugins"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "real-indoor",
+      "description": " Real Indoor creates realistic biking experiences while working out on your spin bike or similar devices. Streetview panoramas and the sophisticated physics engine implement real track simulation. Tracks from bicycle directions, GPS recordings or following Streetview panoramas allow for exciting workout experiences. Real Indoor supports control via webcam gestures as well as contrast enhanced streetview images. ",
+      "original_categories": [
+        "mapping",
+        "html5",
+        "webcams",
+        "cycling",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cheap-flights-to-0",
+      "description": " Cheapflights-to.net is a travel tools for buying airline tickets to destinations, package holidays, special deals for hotels and car rentals. ",
+      "original_categories": [
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-apps-email-migration",
+      "description": "From their site: The Google Apps Email Migration API allows administrators and users of Google Apps to migrate mail from legacy email systems into their domains hosted Gmail accounts. Note: This API is only available to Google Apps Premier, Education, and Partner Edition domains, and cannot be used for migration into Google Apps Standard Edition email or Gmail accounts.",
+      "original_categories": [
+        "email"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "richest-counties-america",
+      "description": " List of the richest counties in the United States as listed by Forbes, based on median income data from 2006 census. ",
+      "original_categories": [
+        "reference",
+        "demographics",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sports-history-widget",
+      "description": " The history of professional and major league sports teams in a Google Gadget. Each day of the year features a professional sports team from the past or present. ",
+      "original_categories": [
+        "widgets",
+        "trivia",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "scanmyback",
+      "description": " Create custom t-shirts and other apparels with your unique message encoded as QR codes. People can scan your back with the QR applications on their smartphone and decode your custom message, link to websites, videos and pictures ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pocket",
+      "description": "Previously offered under the name Read It Later, Pocket is a service that allows users to save articles, videos and more to read or use later. The Pocket API allows for applications that interact with the Pocket service. The API can be used to build a full featured Pocket client for any platform, mashup reading list data, or allow users to save pages to their list from an application. The API can be used in both free and commercial applications.",
+      "original_categories": [
+        "bookmarks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "specialgourmets-gluten-free-allergy-free-food",
+      "description": " Lists and maps thousands of restaurants, shops and hotels offering choices of menu and products for those on a gluten free, dairy free, nut free diet. Available in 3 languages. ",
+      "original_categories": [
+        "mapping",
+        "nutrition",
+        "health",
+        "food",
+        "medical"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "blogabond.com",
+      "description": " A travel blog where travellers can create blogs about their journeys and map their travels. ",
+      "original_categories": [
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "last.fm-music-map",
+      "description": " Discover music events and concerts around the world. The Last.fm Music Map mixes Last.fm music social network data with Google Maps. ",
+      "original_categories": [
+        "music",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "smsmybus__api",
+      "description": "SMSMyBus provides transit arrival times to bus riders in Madison, Wisconsin. The service is unofficial, provided by a developer who wanted the data for a text-driven transit application. This unofficial API provides access to schedules, routes, locations and notifications. Developers can use the API to create Madison transit applications.Functions include finding stops near a location, providing the position of vehicles in real-time, locating specific routes, determining the next times at a stop and communicating important service bulletins.",
+      "original_categories": [
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gym-alliance",
+      "description": " A Virtual Earth ajax client for locating Gym Alliance fitness clubs. Has search, direction control, the table updates when you mouse-over the club pushpins. If you click through to a specific club, it also provides driving directions. ",
+      "original_categories": [
+        "mapping",
+        "sports",
+        "australian"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "formstack-mapping",
+      "description": " Takes addresses submitted with a Formstack form and displays the locations on a Google Maps map. ",
+      "original_categories": [
+        "mapping",
+        "forms"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "livemap-uk-medical-emergency",
+      "description": " Details Accident &amp; Emergency Depts, Minor Injury Units &amp; Walk-In Centres throughout Great Britain. Provides Addresses, Contact Nos &amp; Opening Times details ",
+      "original_categories": [
+        "healthcare",
+        "england",
+        "medical",
+        "emergency"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dansk-supermarked",
+      "description": "The Salling Group API, a Danish Retailer in Denmark, Sweden, Poland and Germany provides a Web API that serves geocoded store information incl. opening hours for Netto, Bilka and føtex retail stores. The API also provides information for in-store events, job postings and a convenient holidays API for getting Danish holidays dates.",
+      "original_categories": [
+        "api"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "resultfirst",
+      "description": " ResultFirst, An eminent provider of digital marketing services specializes in search engine optimization. In addition to providing corporate SEO services for large organizations and online entities, The San Jose based company also offers Pay for Performance and fixed SEO programs for small to mid-sized businesses.seo ",
+      "original_categories": [
+        "enterprise",
+        "seo",
+        "business"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rent-compass-facebook-app",
+      "description": " The app allows users to search for rental apartments and houses right on Facebook. A combination of Google Map and Facebook API mashup allows users to search for rentals, share postings with friends, message them or simply chat to ask for opinion. ",
+      "original_categories": [
+        "mapping",
+        "search",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zoomph",
+      "description": " Zoomph is a social platform that enables people and businesses to create searches that gather information from Twitter, Facebook, Instagram, and Google +. From the data collected, Zoomph helps customers analyze and create visualizations that would help promote their businesses/brands. ",
+      "original_categories": [
+        "social",
+        "media"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "math-and-reading-tests-map",
+      "description": " See which states have the biggest differences between students passing their state tests versus the national tests in math and reading. Uses data reported in Time magazine. ",
+      "original_categories": [
+        "mapping",
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "recycling-torrance-ca",
+      "description": " Just three steps allow you to ind where to recycle almost any product. Google Maps API with Ajax make it easy. The site has a search as you type feature and resizeable screen width. ",
+      "original_categories": [
+        "environment"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shopping-complex-online",
+      "description": " Find Cheap products online from Shopping Complex Online. We use to find products/Items from different sellers online, compare their prices and let you get the best deals. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gifanator",
+      "description": " The Gifanator employs the Giphy API along with the Twilio API to allow people to receive or send randomly generated Gifs via text messaging. Users can also select keywords from a list of negative and positive emotions to send more specific Gifs to their friends. ",
+      "original_categories": [
+        "chat",
+        "entertainment",
+        "messaging",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "houses-finland",
+      "description": " Real estate prices in Finland. ",
+      "original_categories": [
+        "mapping",
+        "nordic"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "us-campaign-contributions-industry",
+      "description": " Interactive visualization of campaign contributions to US federal politicians. See how the finance, insurance and real estate industries spend the most. Built with the Google Motion Chart tool and data fro OpenSecrets. ",
+      "original_categories": [
+        "government",
+        "financial",
+        "government",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "2itch-open-24-hours",
+      "description": " Google map mashup of the services that are open 24-hours in major US cities. Currently covers Seattle, Los Angeles, and New York City. Currently over 2400 locations. ",
+      "original_categories": [
+        "mapping",
+        "travel",
+        "restaurants"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "efax-and-box.net",
+      "description": " This mashup allows Box.net users to send faxes of documents stored in their Box accounts using eFax. ",
+      "original_categories": [
+        "fax",
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cnn-ireports-map",
+      "description": " The CNN iReports Map, set on the Barack Obama inauguration parade route, allows readers to submit their own stories and reports from the event. ",
+      "original_categories": [
+        "mapping",
+        "government",
+        "history",
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "landedcostio-consolidated-screening-list",
+      "description": " The Consolidated Screening List (CSL) is a list of parties for which the United States Government maintains restrictions on certain exports, re-exports or transfers of items. ",
+      "original_categories": [
+        "ecommerce",
+        "international",
+        "shipping",
+        "software-as-a-service"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tennispoint",
+      "description": " TennisPoint Voiceblaster allows teams to communicate with their entire team at once using the phone. A player can record a message and it is sent out to the entire team instantly. ",
+      "original_categories": [
+        "sports",
+        "voice",
+        "social",
+        "sports",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "reddit-livestream",
+      "description": " See how reddit comments, votes and articles are added to the homepage or subpages of reddit in a realtime stream. ",
+      "original_categories": [
+        "urls",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "you-twit",
+      "description": " You-Twit is a mashup that aggregates Youtube videos that are trending on twitter. ",
+      "original_categories": [
+        "search",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "scribd-platform",
+      "description": "From their site: A REST-based API with methods for uploading, converting, editing, deleting, and searching documents. Using the API, you can use Scribd as a back-end for an application that needs to process documents, without needing to write a document processing system yourself. Use the Scribd API to harness the full power of Scribd's scalable conversion system, storage system, ad network, search engine, and iPaper viewer on your website. The Scribd API is the most powerful and customizable way to upload documents to Scribd, convert documents to iPaper, manage existing documents on your website, and find the content you need.",
+      "original_categories": [
+        "office"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ayedeals",
+      "description": " AyeDeals allows users to search 100s of e-commerce sites in a matter of seconds. The application utilizes multiple APIs, some of them include Etsy, Sears, Best Buy Products,..and more. ",
+      "original_categories": [
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fix-it-repair-guides-playbook",
+      "description": " need a fix? want to fix a device? this app interface pulls thousands of guides for thousands of devices. Easy to follow and easy to search this is a great app for anyone to have in their toolbox. this came especially handy when i had to dissassemble my 4+ year old PS3 because it finally died on me but with one of my favorite game dvd disc stuck inside! I also like the step by step pictures that accompany the instructions. I like it very much and the scrolling speed dont matter to me! NICE JOB!!! i'm hoping to see updates and additions. Quote from customer ",
+      "original_categories": [
+        "guides",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "update-facebook",
+      "description": " Like an iPhone met Facebook. Real time status updates of your Facebook friends. Update your status, poke and message your friends via advanced UI. ",
+      "original_categories": [
+        "social",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "stweet",
+      "description": " Stweet is a mix of street and twitt, offering a real new way to discover geolocalised twitts from Twitter on a Google Street View panorama. Stweet is an artistic project dealing with the appropriation of photographic and real-time data from the Web. ",
+      "original_categories": [
+        "blogging",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "clicktodial",
+      "description": " Dial a phone number and log the call in the Microsoft Dynamics CRM 2011 system using ClicktoDial. ",
+      "original_categories": [
+        "reference",
+        "telephony",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "open-garden",
+      "description": "Open Garden is a service that allows users to share internet and connect all of their devices and increase the speed of internet on their devices without having to change settings. The Open Garden API allows developers to access and integrate the functionality of Open Garden with other applications and to create new applications. Public documentation is not available; interested developers should email contact@opengarden.com for more information.",
+      "original_categories": [
+        "wi-fi"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-latitude",
+      "description": "The Google Latitude API allows for websites and developers to integrate with Google Latitude, which lets users update and read their current location, their location history, and other geo-related information.In Latitude, a location is a record of where a user was at a given time. A location always contains a latitude, a longitude and a timestamp. It might also contain more details about the position of the user at that time, such as altitude, or metadata about how the position itself was captured, such as accuracy.A user typically has a current location, which represents the most recent known position of the user. In some cases, however, a user might decide to temporarily hide, making their position invisible to Latitude friends. A hidden user has no current location.A user can opt to have their locations stored as a time series by Google. This collection of positions is called the user's location history.",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "eq2u-players",
+      "description": " EQ2U Players allows guest users to search for Characters, Guilds, Items, and Spells in EverQuest II. Users with their own accounts can keep track of their characters, as well as their Friends' and Guildmates' characters. ",
+      "original_categories": [
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-adwords-performance-widget",
+      "description": " Track all metrics - CPC CTR, Cost of Conversions etc. - of your Google AdWords campaigns. Analyze clicks, impressions, conversions per campaign and drill down to view the metrics for the groups within a campaign. Works for MCC accounts too. ",
+      "original_categories": [
+        "widgets",
+        "advertising",
+        "advertising",
+        "marketing",
+        "analytics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "strikeiron-reverse-phone-and-address-append",
+      "description": "Improve your employee productivity, customer experience, and marketing campaigns with the StrikeIron Phone and Address Append Solutions. The solutions pre-populate customer contact information (name, address, phone number). They can even enhance your CRM database with demographic and lifestyle information. The end result is quick, actionable data on your customers.- Basic Solution can reverse append consumer and business landline phones and addresses.- Advanced version can handle mobile and VoIP (e.g. Vonage, Time Warner Cable, Comcast, etc.) phone numbers",
+      "original_categories": [
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapmyglobe",
+      "description": " Collaborative mapping for virtual tourists. ",
+      "original_categories": [
+        "mapping",
+        "travel",
+        "social",
+        "wiki"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "musikki",
+      "description": " Musikki is a music search engine that gives you all the information in a single page with a single search. Music videos, biography, photos, agendas and more just 1 click away. ",
+      "original_categories": [
+        "music",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "watchmouse",
+      "description": "The WatchMouse service checks the behavior and availability of websites. WatchMouse allows site owners to optimize the internet experience of their customers.A worldwide network checks websites from 40 different locations in 25 countries around the globe.The API provides access to data collected via the service, access to monitoring settings, and direct commands to check a site.",
+      "original_categories": [
+        "monitoring"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mymapcards",
+      "description": " Application and map for business card sharing. ",
+      "original_categories": [
+        "mapping",
+        "business"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "australia-post-tracking",
+      "description": " Provides tracking information of Australia Post parcels, with visualized parcel locations on Google Maps. ",
+      "original_categories": [
+        "australian",
+        "mapping",
+        "postal"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "psykotube",
+      "description": " Psykotube is a great way to browse lots of videos really quickly. With Really simple and neat interface. This is great to get an overall vibe of a search and is at times faster than youtube's own search tool! ",
+      "original_categories": [
+        "video",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cloudalicious",
+      "description": " This nice graphing application shows you the count of del.icio.us tags applied to a given URL over time. By Terrell Russell. ",
+      "original_categories": [
+        "bookmarks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geonb",
+      "description": "The service from the Canadian province of New Brunswick provides geographic information about its location and surroundings on the eastern coast of the country. It consolidates geographic information resources from the provincial government and other institutional and commercial sources in a single, standards-compliant repository for public access with minimal duplication of data collection and maintenance efforts.API methods support mapping of geographic data in compliance with ArcGIS models.",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "crooked-beat",
+      "description": " Find good music and drinks in the NYC and NJ areas with the map that plots data from the Crooked Beat venue and calendar database. ",
+      "original_categories": [
+        "mapping",
+        "food"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "discount-slider-amazon-deals",
+      "description": " Visual search engine using Amazon Web services to search all discount deals on Amazon.com having at least 65% off. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shout-now",
+      "description": " ShoutNow makes sharing your voice through Twitter, Facebook and phones simple and easy. Instantly share voice messages with your friends, family, teams, employees or customers. ",
+      "original_categories": [
+        "voice",
+        "social",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "maplist",
+      "description": " Classified directory with mapping features. Focus on Canadian cities including Toronto and Vancouver. ",
+      "original_categories": [
+        "classifieds",
+        "mapping",
+        "ecommerce",
+        "canadian"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "moviis",
+      "description": " Improve your movie experience with the Moviis android application. Film information, trakt.tv integration, check-in, recommendations, history, watchlist, collection, lists, upcoming and now playing in theaters, ratings, trailers and much more... ",
+      "original_categories": [
+        "movies",
+        "movies",
+        "mobile",
+        "applications"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "travelgoop",
+      "description": " Google Maps mashup of community submitted hotel prices. ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "hotels"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "syndicate-plus",
+      "description": "Syndicate Plus is a market leader in providing consumer product data. The API offers third parties the ability to search products and gain access to detailed information about any given consumer product, including brand and manufacturer information, product images and nutritional values.Along with core product data, Syndicate Plus is a market leader in providing information about new products on the market, product discounts and special offers and consumer reviews. In future releases the API will enable third-party developers to further tap into this wealth of consumer product goods data.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "www.shopbabyspullen.nl",
+      "description": " Get all your special baby products from bol.com. ",
+      "original_categories": [
+        "search",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "countries-lie-equator",
+      "description": " This Google Maps mashup shows countries through which the equator passes. ",
+      "original_categories": [
+        "mapping",
+        "trivia",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wepoco",
+      "description": " Weather and climate information for Africa visualized on Google Maps. ",
+      "original_categories": [
+        "visualizations",
+        "science",
+        "weather",
+        "african"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "restricted-party-screening",
+      "description": "Restricted Party Screening is a compliance web tool that consolidates international interdiction lists to ensure that customer transactions do not violate regional, unilateral, or multilateral regulations by dealing with denied, debarred, and/or restricted parties. Examples include known terrorists, terrorist funding organizations, or parties guilty of trade violations.The Restricted Party Screening API provides a RESTful interface for searching the database of restricted parties. Single search and multiple record search are supported. An API key is required and responses are XML formatted.",
+      "original_categories": [
+        "enterprise"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dekaf-lovers",
+      "description": " AA mashup using Degrafa drawing library in Flex with the ColourLovers API. Creates generative compositions via the Flash player. ",
+      "original_categories": [
+        "colors",
+        "art",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "world-statistics",
+      "description": " Powered by the Google Fusion Tables API, this service visually displays world statistics on a map. Statistics include: Population, GDP, and currency unit. ",
+      "original_categories": [
+        "statistics",
+        "visualizations",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "largest-banks-us",
+      "description": " Largest Banks in the United States with assets in thousands of dollars. ",
+      "original_categories": [
+        "financial",
+        "mapping",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shopify-admin",
+      "description": "Use Shopify's robust ecommerce APIs to create apps for our 500,000 merchants. Over 35 endpoints, detailed SDKs, tutorials and access to dedicated API and developer support.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zoopla-property-service",
+      "description": " A UK property service that launched in January 2008 and has an audience of about 1m unique visitors per month. ",
+      "original_categories": [
+        "england",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "american-image",
+      "description": " The American Image: Photographs of John Collier Jr. is an online exhibit exploring the work of John Collier during the war years of the 1940s. Flickr mashups are used to pull in photographs making up the Collection and one of the interactive activities. ",
+      "original_categories": [
+        "history",
+        "photos",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mobile-time-tracking",
+      "description": " Mashing up Twilio and Freshbooks to make time tracking easier. You call into a Twilio phone number, and it asks you which client you want to begin billing. When you're all done with your work, you call back and clock out. Your hours are then submitted directly to your FreshBooks account, including a transcription of an optional voice note. ",
+      "original_categories": [
+        "telephony",
+        "time",
+        "invoicing"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "realtime-satellite-tracking-map",
+      "description": " Very unique mashup that allows you track any of dozens of satellites in realtime as they circle the earth. Watch them move across the top of Google Maps. Lots of peripheral details as well. ",
+      "original_categories": [
+        "mapping",
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "travel-portal-solution",
+      "description": " Provides complete end-to-end web solutions for the travel industry by offering technology. ",
+      "original_categories": [
+        "booking"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "showrooms",
+      "description": " With Showrooms you are able to playfully present your products as interactive shop app. It's an HTML5 based video application that imports all required product information via the Goole Shopping API. Site is in German. ",
+      "original_categories": [
+        "visualizations",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "clean-cruising",
+      "description": " This tool shows the real-time position of Princess Cruises ships. Many ships feature a live webcam stream. ",
+      "original_categories": [
+        "mapping",
+        "travel",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "social-map-california-colleges-universities",
+      "description": " Shows geolocated online social activity around universities and colleges in California. Offers a statistics tool to monitor student population, including age, gender and ethnic origin of members. ",
+      "original_categories": [
+        "education",
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dogs-now",
+      "description": " Pet classifieds featuring dogs and puppies for sale. ",
+      "original_categories": [
+        "mapping",
+        "video",
+        "pets",
+        "classifieds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "coupomated-coupon-datafeed",
+      "description": "The Coupomated REST API, available in XML, CSV and JSON formats, is an automated coupon content distribution platform based in India. It provides coupon website development, price comparison website, &amp; affiliate products from 2000+ Indian merchants.",
+      "original_categories": [
+        "coupons"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zoomf-properties-to-let-uk",
+      "description": " Zoomf is a UK property search engine listing properties on a simple and intuitive Google Maps interface. ",
+      "original_categories": [
+        "england",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "weever-apps-docusign-integration",
+      "description": " Weever Apps offers leading technology that enables marketers and corporations to launch HTML5 mobile web apps, where one app deploys across all popular touch phones and tablets at a fraction of the cost and delivery time when compared to traditional native mobile app solutions. Weever Apps Phone and Tablet Apps integrate DocuSign Esignatures with many different verticals including Financial Services, Insurance, Medical and others. ",
+      "original_categories": [
+        "applications"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "goodneighbor",
+      "description": " Goodneighbor is a platform that allows you to define, run and manage Twitter avatars, totally autonomous Twitter identities that manage their own Twitter accounts, concerned with any subject matter and interested in any topic. ",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "local-kite-spots",
+      "description": " Maps local kite surfing, landboarding and snow kiting spots aroung the world. Map markers color coded based on current wind condtions. Includes 6-day wind/temp/snow forecast for 1,500 kiting spots. ",
+      "original_categories": [
+        "sports",
+        "mapping",
+        "weather"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "common-interview-querstions",
+      "description": " Mashup of job postings, interview questions and answers for easy job search and preparation. ",
+      "original_categories": [
+        "jobs",
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gimmie",
+      "description": "Gimmie is a brand and product loyalty platform. Gimmie allows businesses to engage and reward their customers for using their services and products and accessing their content.The Gimmie API allows developers to access and integrate the functionality of Gimmie with other applications. Public documentation is not available; interested developers should email contact@gimmieworld.com for more information.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "biodiversity-taxonomic-catalogue",
+      "description": " A way to explore all life forms in a taxonomic way. Useful for students, scientists and curious people. Flickr and GBIF (gbif.org) APIs. ",
+      "original_categories": [
+        "photos",
+        "animals",
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "panorama-explorer",
+      "description": " Tag your photos and place them on the Google Map by uploading them on Panorama Explorer. Search photos by geo data or just exploring the map. ",
+      "original_categories": [
+        "photos",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wineries-ontario",
+      "description": " All wineries of Ontario on the map. Subsections for Ottawa, Toronto, PEC areas, Fruit and Icewine wineries. Free downloadable POC for your GPS. ",
+      "original_categories": [
+        "canadian",
+        "wine",
+        "food",
+        "mapping",
+        "canadian"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapcancer.org",
+      "description": " Interactive Map of Cancer Rates in New York and nationwide in the US. ",
+      "original_categories": [
+        "health",
+        "usa",
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitter-trends-explained",
+      "description": " An iGoogle gadget that shows the most recent 100 trends, along with a short description of why they are currently trending. ",
+      "original_categories": [
+        "widgets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "stumblevideo",
+      "description": " The terrific StumbleUpon service adds the ability for users to select, rate and discover videos from YouTube, Google Video and MySpace. ",
+      "original_categories": [
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "enchanting-destinations",
+      "description": " This tool is useful for domestic and international travel search. It uses the Cleartrip API for search and booking. ",
+      "original_categories": [
+        "search",
+        "travel",
+        "ecommerce",
+        "aggregation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "reverbiage",
+      "description": " An NPR World News feed reader featuring an interactive 3D earth highlighting new locations around the globe. Built with the NPR API. ",
+      "original_categories": [
+        "mapping",
+        "3d",
+        "visualizations",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "laalbus",
+      "description": " LaalBus is an online booking company for buses covering all regions of India. Customers will be able to find and book bus tickets for their travel needs. ",
+      "original_categories": [
+        "booking",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "blekko",
+      "description": "blekko is a search engine that sorts out spam, content farms and malware by crawling a subset of about 3 billion pages. To improve search results, blekko uses a tool called a slashtag that organizes websites into specific topics.A slashtag allows for the creation of a custom search engine. It is used to filter search results and helps users to search only high quality sites, without spam or content farms. Slashtags contain a list of websites so that when users search with a slashtag, they only search those sites.The blekko API lets developers integrate their application or web sites in order to run searches on blekko, and to manipulate slashtags. The API also provides access to SEO information. Developers should contact apiauth@blekko.com for documentation.",
+      "original_categories": [
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "my-del.icio.us-recommendation-snippet-0",
+      "description": " A recommendation link list generator extracted from site owner's bookmarks archived in del.icio.us. Entire generation process is via client side JavaScript. ",
+      "original_categories": [
+        "bookmarks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "how-i-knew-you-were-one",
+      "description": " A collection of moments from the luckiest people on earth, sharing how they met the ones they love. ",
+      "original_categories": [
+        "blogging",
+        "humor",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "crimelit",
+      "description": " Crimelit guides you into the world of Stieg Larsson and others crimelit writers. ",
+      "original_categories": [
+        "mapping",
+        "books",
+        "books"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "page2images",
+      "description": "Page2Images is a website thumbnail creater optimized for mobile devices. Page2Images exposes its service through a REST API. The API allows websites and applications to generate thumbnails of a given URL. The API is able to specify image size, device, screen size, and more.",
+      "original_categories": [
+        "screenshots"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapa-del-paro",
+      "description": " Mashup of Spanish Unemployment on Google Maps. You can view the regional differences in Spanish unemployment at Mapa del Paro, a series of Google Maps which show the unemployment rate at municipal level. Mapa del Paro has created a number of regional heat maps, each of which shows the current unemployment rate for each municipality in the region. ",
+      "original_categories": [
+        "jobs",
+        "spanish",
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zendesk-core",
+      "description": "Zendesk is a software as a service company that provides businesses with different communication tools. The Zendesk Core API enables developers to integrate the Zendesk platform into their applications. With this API, users of the applications will be able to use the core features of the Zendesk service, some of the features include setting limits on calls, automating calls, access to call records.",
+      "original_categories": [
+        "support"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickrmania",
+      "description": " GeoTag Flickr-Photos via GPS track file. Start tracking-mode on your gps-device, go on a phototour, share your photos by flickr and Geotag them. ",
+      "original_categories": [
+        "mapping",
+        "photos",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "raise-money",
+      "description": " Raise the Money is an online company that provides an application that allows political candidates and committees to accept donations/contributions on their websites. Raise the Money is a platform that connects political candidates with their supporters from around the web. ",
+      "original_categories": [
+        "funding",
+        "politics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "grazrhapsody",
+      "description": " A mashup app at uses Grazr to interact with Rhapsody, making for a smoother experience than the Rhapsody default UI. You will need a Rhapsody account to stream any audio. ",
+      "original_categories": [
+        "feeds",
+        "music",
+        "streaming"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bing-maps",
+      "description": "The Bing Maps REST Services is a REST API that allows you to perform tasks like finding an address, retrieving a map with a pushpin and a label, or getting driving directions. It provides a way to create a static map with pushpins, geocoding an address, retrieving imagery metadata, or creating a route etc. Microsoft Bing is a web search engine.",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "taskclone",
+      "description": " TaskClone is the missing link to your productivity; automatically sending Evernote to-dos to your task management app(s) or Google Calendar. Works on all Evernote platforms, with over 50 tasks apps supported. ",
+      "original_categories": [
+        "automation",
+        "tasks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "localerts",
+      "description": " Local Alerts, Local News, Yahoo Traffic, Google Maps, NOAA Weather mashup. Alert mashup includes CERT, earthquakes, tsunamis, Avian flu... ",
+      "original_categories": [
+        "mapping",
+        "weather",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "seo-audit-tool",
+      "description": " The SEO Audit tool from SEO Review Tools, utilizes the power of Ahrefs, SEMrush and MOZ to present you with a full website SEO audit in just 15 seconds. Data returned by this tool include: Domain Authority, Page Authority, Search volume and Backlink count. After entering your URL, this tool will analyse your website based on 21 different data points. ",
+      "original_categories": [
+        "seo",
+        "content",
+        "marketing",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "facebook__api",
+      "description": "[This API is no longer available. Its functions have been split among the following APIs: <a href=https://www.programmableweb.com/api/facebook-ads>Facebook Ads</a>, <a href=https://www.programmableweb.com/api/facebook-atlas>Facebook Atlas</a>, <a href=https://www.programmableweb.com/api/facebook-graph>Facebook Graph</a>, and <a href=https://www.programmableweb.com/api/facebook-marketing>Facebook Marketing</a>. This profile is being maintained purely for historical and research purposes.]The Facebook API is a platform for building applications that are available to the members of the social network of Facebook. The API allows applications to use the social connections and profile information to make applications more involving, and to publish activities to the news feed and profile pages of Facebook, subject to individual users privacy settings. With the API, users can add social context to their applications by utilizing profile, friend, Page, group, photo, and event data. The API uses RESTful protocol and responses are in JSON format.",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "onair-city-tracker",
+      "description": " Find the closest OnAIR bus stop to where you live and the current weather at that location ",
+      "original_categories": [
+        "mapping",
+        "weather"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "starbucks-digital-network",
+      "description": " Starbucks customers who use the free Wi-Fi at more than 6,800 U.S. company-operated stores are greeted with the Starbucks Digital Network (SDN), an exclusive content network curated by the company and designed to enhance the customerâ€™s in-store experience. DonorsChoose.org is prominently featured in the My Neighborhood section of the SDN. When Starbucks customers click the DonorsChoose.org tile in the SDN, our API's projects near me functionality shows the customer the closest classroom projects to their location! ",
+      "original_categories": [
+        "charity",
+        "education",
+        "localization"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "moo",
+      "description": "From their site: Welcome to MOO. We're a printing company. Customers create a pack and then the pack is printed to pre-defined products. Create an XML document to determine where the user is placed in the process. For example, if you define a list of images that you want the user to select from to make a pack of cards, then they will be forwarded to the 'chooser' page. If you specify a list of images that you want them to actually use, and the 'crop' data associated with them then the user will be sent to the part of the process where they design the back of the cards.",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "textecho.com",
+      "description": " Search Flickr by tags. ",
+      "original_categories": [
+        "search",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "darktemptation",
+      "description": " Darktemptation.com is a Swiss heavy metal magazine that features an events database with locations where the concerts and parties take place. ",
+      "original_categories": [
+        "music",
+        "events",
+        "mapping",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wiserearth",
+      "description": "WiserEarth is a free online community space connecting people working toward a just and sustainable world. WiserEarth includes the largest international directory of NGOs (110,000 records). Organizations and communities worldwide are using WiserEarth groups to coordinate their efforts. The API offers access to organizations (except email addresses), solutions, groups (only the About Page metadata), resources, jobs, and events. Currently only Read access is available. Inquire about Write access.",
+      "original_categories": [
+        "other"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "coffee-seeker",
+      "description": " CoffeeSeeker lets you find and discover coffee shops near you. You can save your favorite coffee shops, rate them, or add new ones. ",
+      "original_categories": [
+        "mapping",
+        "food"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "arab-channel",
+      "description": " Arabic entertainment website. Integrates photos from Flickr and videos from YouTube. ",
+      "original_categories": [
+        "photos",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pobquiz",
+      "description": " A little game where you can test your knowledge about de Catalonian cities. ",
+      "original_categories": [
+        "games",
+        "humor",
+        "spanish"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "plotshot-random-plot-generator",
+      "description": " A random plot generator with a twist, this site uses the Flickr API to retrieve shots that match the plots. Sometimes the result is a series of amazing matches, other times it is funny how wrong they are. ",
+      "original_categories": [
+        "humor",
+        "photos",
+        "random"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "paris-cycle-route",
+      "description": " A cycle route in to Paris from Charles de Gaulle Airport. Uses Google Maps markers which also display route directions and are linked with photographs taken on the ground. ",
+      "original_categories": [
+        "cycling",
+        "sports",
+        "mapping",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flagr",
+      "description": " Bookmark the world from your mobile phone. It is Sharewhere. ",
+      "original_categories": [
+        "messaging",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geo",
+      "description": " Geo presents various information from the World Bank, including projects, data, news, and center location. ",
+      "original_categories": [
+        "government",
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nodenock",
+      "description": " Members of the Baltimore Node co-working space can use this call-to-get-in service powered by Twilio and Foursquare. ",
+      "original_categories": [
+        "social",
+        "mobile",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "africa-tourism-information-portal",
+      "description": " An interactive African tourist guide providing rich interactive content. Built using Microsoft Silverlight along with Google Maps. ",
+      "original_categories": [
+        "travel",
+        "african",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "todotoday-toodledo",
+      "description": " TodoToday for Toodledo is a simple todo list application to show current due and overdue tasks from the online task management tool Toddledo.com. ",
+      "original_categories": [
+        "lists",
+        "mobile",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "npr-one-station-finder",
+      "description": "The NPR API provides an open and extensive way for users to share and mash-up the radio station's content. The Station Finder API can be used to identify local NPR member stations based on zip code, city/state, unique ID, call letters or longitude/latitude. This is the same data that powers the Station Finder. This tool only returns NPR member stations or stations that carry NPR programming.",
+      "original_categories": [
+        "news-services"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "belgian-rail-demo",
+      "description": " Belgian Rail Demo Combines Google Maps API with iRail to display suggested journeys on a map ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tropical-cyclone-phailin-shelters",
+      "description": " This mashup helps locate safety shelters in India. With Tropical Cyclone Phailin closing in on land many people will be looking to find safety. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "missing-kids-map",
+      "description": " A mashup using data from the National Center for Missing and Exploited Children. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "eemap.org",
+      "description": " Chinese Google Maps mashup that allow people to share maps. ",
+      "original_categories": [
+        "wiki",
+        "chinese",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tables-ready",
+      "description": " Table's Ready is a paging system that uses your guest's cell phones instead of expensive pager systems. ",
+      "original_categories": [
+        "messaging",
+        "restaurants",
+        "mobile",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "invoicing-time-entries-mite-billomat",
+      "description": " Import of times tracked via mite into the billing tool billomat. ",
+      "original_categories": [
+        "enterprise",
+        "invoicing",
+        "financial"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "food-prints",
+      "description": " Provides easy-to-use access to Nutrition Facts from food labels. Also includes the latest health news and product recalls to help you maintain a healthy diet. ",
+      "original_categories": [
+        "food",
+        "search",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "blocks-and-lots",
+      "description": " API access to NYCs 5 million+ property records. ",
+      "original_categories": [
+        "government",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitterposter",
+      "description": " Large interactive poster of photos of Twitter users, sized to their influence on Twitter. ",
+      "original_categories": [
+        "blogging",
+        "photos",
+        "messaging",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "digilondon",
+      "description": " Browse landmarks and other locations in London with this application that combines Google Earth, Google Maps and Wikipedia. ",
+      "original_categories": [
+        "wiki",
+        "england",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shoesnbags",
+      "description": " ShoesNBags is the first, native iPhone app for Zappos catalog searching. It is easy to use and allows users to browse, search and buy products from Zappos.com. It works on all iOS devices and it requires Internet connectivity. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "areyousafe",
+      "description": " A Geiger counter for crime - a mobile app that combines hyperlocal census/crime data with the users' current or entered location to provide a safety reading. Crime statistics for the 2 block radius around the location used. ",
+      "original_categories": [
+        "crime",
+        "safety",
+        "localization",
+        "police",
+        "mobile",
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "maiana",
+      "description": " Maiana is a social service to host, explore and share Topic Maps sources. Maiana provides mashups to deliver the structured content into blogs and other CMS. For enforcing semantic interoperability subj3ct.com is used. ",
+      "original_categories": [
+        "social",
+        "semantics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tweetaceleb",
+      "description": " TweetaCelebe lists all the verified celebrities and personalities on Twitter and allows users to track their tweet streams and follow them. ",
+      "original_categories": [
+        "celebrities",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "videodust",
+      "description": " Indian entertainment site. Hindi, Tamil, and Telugu videos. TV shows, music, interviews and more. Categorized videos based on different tags. ",
+      "original_categories": [
+        "music",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geowalk",
+      "description": " A useful worldwide travel guide in German and English. With embedded data from Wikipedia, Flickr and Google News. Double-click anywhere on the map for details on that location. ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "german"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "trstrank-bookmarklet",
+      "description": " Use this bookmarklet to view a Twitter user's trstrank in your browser. ",
+      "original_categories": [
+        "social",
+        "analytics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "g-downloader",
+      "description": " G Downloader is a website that lets users download videos from many of the most popular video sharing sites without having to leave the site, all for free. Users can search for videos on G Downloader and upon finding them, will be given a URL to download the link. ",
+      "original_categories": [
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "edmonton-attractions-map",
+      "description": " Map of Edmonton, Alberta, attractions. ",
+      "original_categories": [
+        "canadian",
+        "mapping",
+        "travel",
+        "canadian"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "etsy-shop-value-calculator",
+      "description": " The Etsy Shop Value Calculator is a great way to find out how much your shop is worth, and to compare your shop's performance with shops of close competitors. ",
+      "original_categories": [
+        "ecommerce",
+        "ecommerce",
+        "statistics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "walmart-open",
+      "description": "The Walmart Open APIs provide developers with access to Walmart.com's product catalogue information and enable affiliates to earn money through customer referrals. The Data Feed and Special Feeds APIs allow developers to get lists or feeds of products by category. The taxonomy used to categorize items can be exposed via the Taxonomy API. Developers can use the Search API to perform a text search for items on Walmart.com or use the Product Lookup API to get a specific item's price and availability. The Walmart Open APIs are currently in Beta.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "qibla-direction",
+      "description": " Check your prayer direction any time, any place. It's more accurate than a compass. Just enter your address to get started. ",
+      "original_categories": [
+        "religion",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tweetply",
+      "description": " Track popular tweets with the most replies to join hot conversations easily. ",
+      "original_categories": [
+        "social",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "instalyrics",
+      "description": " The lyrics instant search engine ",
+      "original_categories": [
+        "search",
+        "lyrics",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dbpedia-spotlight",
+      "description": "DBpedia is a web tool built to extract structured information from Wikipedia, convert it into RDF, and make it freely available on the Web. In a nutshell, DBpedia is the Semantic Web mirror of Wikipedia.The DBpedia Spotlight API is a RESTful API tool for annotating mentions of DBpedia resources in text, providing a solution for linking unstructured information sources to the Linked Open Data cloud. DBpedia Spotlight performs named entity extraction, including entity detection and Name Resolution. At this time, the DBpedia Spotlight API is free and requires no sign up or registration to use.",
+      "original_categories": [
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bookafy-online-scheduling",
+      "description": " Bookafy is an online scheduling and appointment tracking web app. This mashup makes use of the Zendesk Core API for ticket tracking and management. ",
+      "original_categories": [
+        "software-as-a-service",
+        "business",
+        "scheduling"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "educationsearch.net",
+      "description": " An education search tool which enables you to search by: Location, Career, Industry/Salary and provides personalized searches to save for future reference. Utilizes Flickr, Google Maps and YouTube. ",
+      "original_categories": [
+        "mapping",
+        "education",
+        "search",
+        "education",
+        "photos",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cleartrip",
+      "description": "Use the Cleartrip API to integrate Cleartrip.com searching and booking results into your web app, desktop app, or mobile app. Cleartrip tries to make travel simple: We are geeks and we use really cool technology to make some amazing travel related apps.",
+      "original_categories": [
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "traitify",
+      "description": "Traitify measures personality through a sequence of visual assessments. The API could be useful to understand users’ behavior, predict data and recognize pattern preferences. Developers in the field of user experience can benefit from this API that aims to offer a better understanding about the diverse qualities that make a person human, such as conversational, creative, empowered, competitive, caring, easy-going and outgoing skills. This personal information service API is about personality assessment. It can be accessed using Javascript or REST and returns values in JSON protocol. The API requires a key. In the site, developers can find code samples in Curl, Ruby, NodeJS, .NET, Java, Phyton and PHP to explore the categories of find assessment, get slides, slide response, personality types, and personality traits.",
+      "original_categories": [
+        "api"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "brokerfilter.com",
+      "description": " Find a business broker visually using Google Maps. ",
+      "original_categories": [
+        "mapping",
+        "financial"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "instrument-wire",
+      "description": " Used musical instruments for sale. List your guitars or other musical instruments for free. ",
+      "original_categories": [
+        "search",
+        "ecommerce",
+        "sales"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mohiomap",
+      "description": " Mohiomap takes important documents and files in the Cloud and enables users to understand how they relate to one another and to visualize them in a way the brain understands. Starting with Evernote and Dropbox, Mohiomap provides a change of perspective on existing information - displaying it in a way which adds meaning and understanding. ",
+      "original_categories": [
+        "visualizations",
+        "cloud",
+        "documents",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "movie-database-tmdb",
+      "description": "The TMDb API is a resource for any developers that want to integrate movie, TV show and cast data along with posters or movie fan art. themoviedb.org is a free and community edited database.",
+      "original_categories": [
+        "entertainment"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-mirror",
+      "description": "The Google Mirror API allows you to build web-based services that interact with Google Glass. It provides this functionality over a cloud-based API and does not require running code on Glass.",
+      "original_categories": [
+        "cloud"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "australian-business-number-lookup",
+      "description": "ABN (Australian Business Number) Lookup. An XML interface to the ABN Lookup is available to registered users. Using this facility, you can integrate ABN lookups into your own applications. ABN Lookup provides access to the publicly available information provided by businesses when they register for an Australian Business Number.",
+      "original_categories": [
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "meteo-malineo",
+      "description": " Meteo Malineo is a web application that provides free weather forecast for France, over 10,000 cities. The application uses Open Weather Map API. ",
+      "original_categories": [
+        "weather"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gypsymaps-nyc",
+      "description": " New York Subway and Bus Maps with point to point directions. Useful and well designed. ",
+      "original_categories": [
+        "transportation",
+        "mapping",
+        "transportation",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "amazon-sns-and-nexmo-sms",
+      "description": " With Amazon SNS and Nexmo you can reach users in the US and in more than 200 other countries around the world. Using Nexmo SDK you can easily subscribe your mobile users to a given topic and they will be automatically notified via SMS when you publish messages. ",
+      "original_categories": [
+        "messaging",
+        "mobile",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "travel-etiquette",
+      "description": " General travel and dining etiquette in the most visited countries. ",
+      "original_categories": [
+        "mapping",
+        "travel",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "photo-map",
+      "description": " Displays a real-time photo stream from Twitter on a Google map. ",
+      "original_categories": [
+        "messaging",
+        "social",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sms-team",
+      "description": " A cost-effective app to mass notify your team using SMS. It uses your Google Contacts to help you quickly send notifications without the hassle of managing yet another address book of contacts. ",
+      "original_categories": [
+        "messaging",
+        "contacts",
+        "social",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "seetoronto-virtual-tour",
+      "description": " Take full 360 degree photo tours of popular Toronto landmarks like the Air Canada Centre, Rogers Centre, and CBC HQ. Good quality, large images. ",
+      "original_categories": [
+        "travel",
+        "photos",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nyc-bike-maps",
+      "description": " New York City greenways, bike paths and bike lanes plotted on Google Maps. ",
+      "original_categories": [
+        "mapping",
+        "sports",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "djbooth",
+      "description": " DJBooth connects to the Dada Search API to contextually integrate dynamic links to music content. When DJBooth passes an artist name to the Dada REST API, Dada returns artist-specific XML content in real-time. ",
+      "original_categories": [
+        "ecommerce",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fastcashier-wallet",
+      "description": " FastCashier Wallet is a cross-platform that allows payment and receipts to be made through a portal. It serves as an electronic alternative to traditional paper methods such as cheques and money orders. Every process of it is simple, secured; in real-time, and it can either be used on a mobile device or PC. ",
+      "original_categories": [
+        "messaging",
+        "payments"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sharemyroutes.com",
+      "description": " Share your cycling, walking, hiking, and paddling routes with the world. See maps, photos, and stats about each route, or create your own. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "mapping",
+        "travel",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wifi-and-plugs",
+      "description": " This nifty app shows locations in London where you can be sure to get Wi-Fi and Plugs. Data is sourced from Import.io and user submitted entries. ",
+      "original_categories": [
+        "wi-fi",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "andrew-speaker-trip-across-atlantic",
+      "description": " Google map of TB patient Andrew Speaker's journey across the Atlantic. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "clickup__api",
+      "description": "The ClickUp API allows you to programmatically access the functionality of ClickUp, available on the web or via iOS or Android apps.ClickUp, by Mango Technologies, is a productivity platform that was created out of frustration with current project management software and platforms. Project management platforms were either way too simple or far too complex and you needed to use more than one platform to get things done. They offer a free tier as well as a per-user pricing structure for more storage, integration, onboarding, and reporting.",
+      "original_categories": [
+        "project-management"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "americommerce",
+      "description": "AmeriCommerce is a hosted shopping cart software. It lets users manage multiple storefronts from a single admin console. Users can manage track what is happening across multiple sites or just a single site. It also lets users integrate their cart into larger ERP and accounting systems. AmeriCommerce exposes their entire platform via a modern RESTful API. With it users can update inventory remotely or from suppliers, automate the adding of products, customers and orders and more.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "us-virtual-neighborhood",
+      "description": " View local business and other shops around your neighborhood when you search for a zipcode, city, or state in the US. ",
+      "original_categories": [
+        "localization",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rentmix",
+      "description": " Fast, simple vacation rental search. Listings from HomeAway, FlipKey, and AirBnB laid out on Google Maps ",
+      "original_categories": [
+        "rentals",
+        "travel",
+        "travel",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fire-eagle",
+      "description": "Note: This is in private beta as of March 2008. From their site: Fire Eagle is the secure and stylish way to share your location with sites and services online while giving you unprecedented control over your data and privacy. We're here to make the whole web respond to your location and help you to discover more about the world around you.",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "apartments-rent-rentcompass",
+      "description": " Rent Compass is a Google maps mashup to find apartments for rent in major Canadian cities like Toronto, Ottawa, Edmonton or Vancouver. The site uses Ajax to change the layout and works with as little clicks as possible, we also built the mashup to display hundreds of apartment/house pins on the map without compromising performance. Rent Compass also developed the first Canadian apartment rentals search applications for mobile devices; namely the iPhone, iPad and Google Android. Since we are obsessed with performance we made our mobile apps super fast as well, with focus on ease of usability. That's why our users love them and give great reviews. We also license our platform to other industries or geographic locations. ",
+      "original_categories": [
+        "canadian",
+        "mobile",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "healthfindergov",
+      "description": "Healthfinder is an example of a government health agencyâ€™s API. Their Quick Guide to Healthy Living API provides developers the latest version of the healthfinder.gov Quick Guide to Healthy Living content. This API allows developers flexibility to create customized products. To assist with this process, they have made the same content and updates available via content syndication for users with less web development experience or fewer resources.",
+      "original_categories": [
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "interactive-census-maps",
+      "description": " Area based plots of US Census Bureau data. ",
+      "original_categories": [
+        "mapping",
+        "reference",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "avid-yoga",
+      "description": " Yoga directory that provides live maps in the listings. ",
+      "original_categories": [
+        "sports",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "chapterboard",
+      "description": " ChapterBoard is a web application for fraternities and sororities. Each chapter has its own private space to coordinate events, discuss topics and collect their dues. ",
+      "original_categories": [
+        "messaging",
+        "social",
+        "mobile",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "all-bests",
+      "description": " Search engine for deals and coupons. Formerly called Wazma. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mr.-rebates-product-research",
+      "description": " This mashup uses the Amazon API to give reviews and ratings on thousands of products organized into handy categories ranging from computers, electronics and home goods. ",
+      "original_categories": [
+        "ecommerce",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "travelfusion-flight-search",
+      "description": " A site that is powered by the TravelFusion Direct Connect XML API ",
+      "original_categories": [
+        "search",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "audiggle",
+      "description": " Audiggle allows users to identify music using just their PC. Be it a YouTube clip, TV show on Hulu, internet radio, DVD or any other source, Audiggle can find the title and artist. Also features a mashup of lyrics, concerts, videos, band info and albums. ",
+      "original_categories": [
+        "tv",
+        "video",
+        "music",
+        "lyrics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "go-straight",
+      "description": " It is a 2D Score based game where the player tries to stir a yacht in a river through wood logs. ",
+      "original_categories": [
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "batch-url-to-image-converter",
+      "description": " Convert url to full size image or thumbnail in batch. Capture webpages/websites screenshot from their URLs in batch. Make images of web pages (convert web pages to images) in batch. ",
+      "original_categories": [
+        "tools",
+        "images",
+        "images"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "charlottetown-transit-map",
+      "description": " The Charlottetown Transit Map is a PHP and JavaScript application that uses Google Maps to display up-to-the-minute information about the buses in Charlottetown. From Peter Rukavina. ",
+      "original_categories": [
+        "mapping",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "torqued-racing-solutions-mobile-event-manager",
+      "description": " Built on the MotorsportReg.com API, this jQuery mobile app lets organizers list attendees and check people in on-site plus more. ",
+      "original_categories": [
+        "sports",
+        "sports",
+        "auto",
+        "auto",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapecos-pollution-mashup",
+      "description": " MapEcos is a map of US facilities with information on pollution and improvement efforts. Provides information for 23,000 facilities as well as data aggregated at company, industry, and geographic levels. Data from EPA. ",
+      "original_categories": [
+        "environment",
+        "environment",
+        "mapping",
+        "sustainability"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "your-baby-now",
+      "description": " Used baby products such as strollers and car seats that children have outgrown. ",
+      "original_categories": [
+        "search",
+        "ecommerce",
+        "mapping",
+        "localization"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rock-climbing-mexico",
+      "description": " A full social network with information and photos about the great rock climbing areas in Mexico. ",
+      "original_categories": [
+        "mexican",
+        "sports",
+        "mapping",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "boston-brunch-map",
+      "description": " Browse Boston brunch choices via Google Map. ",
+      "original_categories": [
+        "mapping",
+        "food"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mailjet",
+      "description": "Mailjet is a cloud hosted email platform. Users can create and send email newsletters and other HTML emails, as well as track transactional emails and email analytics.The Mailjet API allows developers to access and integrate the functionality and data of Mailjet with other applications. Some example API methods include adding and managing contacts, creating email campaigns, and retrieving email and campaign statistics.",
+      "original_categories": [
+        "email"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapme.com",
+      "description": " Create a Map of your favorite places, travels or destinations. Start a Community map where everyone can add Locations, Pics and Videos. Share your Map with your friends or the whole world. ",
+      "original_categories": [
+        "social",
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "your-wishlist.com",
+      "description": " Setup wish lists of items you'd like to purchase, customize them with pictures and themes. Give them a password or leave them public and open them up for commenting. OS X users can use a dashboard widget to make a wishlist, and share it when its ready. ",
+      "original_categories": [
+        "lists",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "watchthisnext.com",
+      "description": " Drag and drop DVDs recommendations. You put them into buckets for those you love, hate, or have not seen. Then based on your choices the site makes recommendations to you. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "stay-touch",
+      "description": " We all have people in our lives we'd like to talk to more often. Stay In Touch is a simple app that helps you prioritize and stay connected to the family and friends you care about. ",
+      "original_categories": [
+        "social",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twibberish",
+      "description": " A fun Twitter app to confound your followers. Twibberish takes your typed tweet and randomly translates it into another language, then translates that translation again, through as many languages as you select, until it reaches the end. ",
+      "original_categories": [
+        "humor",
+        "translation",
+        "translation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "slack-real-time-messaging",
+      "description": "Slack, the team collaboration and messaging chat app, hosts the Slack Real Time Messaging (RTM) API for embedding real time chat functionality within clients. This WebSocket based API enables developers to programmatically receive events as well as send messages using Slack in real time. Once connected, the server will provide a continuous stream of events, recent messages, and updates made to the Slack team. The websocket connection uses JSON for requests and responses, and uses OAuth2 for authentication.",
+      "original_categories": [
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "weddingwire",
+      "description": " WeddingWire uses GoogleMaps to mashup thousands of wedding vendors locations such as florists, photographers, DJs, etc. in the US. ",
+      "original_categories": [
+        "mapping",
+        "weddings",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "analytics-edge-connector-mailchimp",
+      "description": " Makes it easy to automate downloads and updates directly to your MailChimp account from inside Microsoft Excel. You get access to the full suite of over 100 API commands, including the bulk Export API for fast downloads of large lists, campaign subscriber activity and ecommerce orders. ",
+      "original_categories": [
+        "reporting",
+        "spreadsheets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "blog-posting-box.net",
+      "description": " Allows users to create Blog posts on Blogger, LiveJournal, and WordPress directly from their Box.net accounts while sharing Box content. ",
+      "original_categories": [
+        "blogging",
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "primospot",
+      "description": " Find free on-street parking in NYC and Brooklyn. Other cities being added. ",
+      "original_categories": [
+        "parking",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pinterest-domain",
+      "description": "Pinterest calls itself a virtual pinboard, allowing users to select photos from web pages to share with their friends. This process, called pinning, helps users collect ideas, recipes, inspiration or anything that can be found in a photo on a web page.The Pinterest API provides developers access to an authenticated user's pinboards and pins. The API provides detailed user data, as well as the home feed for a user, pins, likes, following, followers and the ability to unfollow. Developers can also access information about specific boards and pins, including creating boards, adding pins, categories and adding/removing likes.The API allows businesses to integrate with Pinterest's social media platform in an effort engage with customers. With the APIs, developers can access a site's top repins, most recent pins, related pins, most clicked through pins and pins resulting from specific search terms.The API makes its data available via JSON only, with requests also wrapped as JSON. Though the official documentation has been removed, we've included a cache of the page, as the API still appears to be supported.",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "unity-scripting",
+      "description": "Unity develops proprietary game software for web and mobile applications. It provides developers with a platform for creating 2D and 3D games. Developers use the Unity Scripting API to construct graphical effects and impose controls over the physical attributes of objects in addition to customizing an AI system for a game’s characters.",
+      "original_categories": [
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twenue",
+      "description": " On Twenue users donâ€™t tweet at a venue - they tweet TO a venue. Twenue is a platform that uses APIs from Google maps and Twitter to let users discover places and share them with their social networking contacts. ",
+      "original_categories": [
+        "social",
+        "tweets",
+        "localization",
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "eyouin-notifications",
+      "description": " Notify registered eYouIn users of invitations to an event, reminders and cancellations. ",
+      "original_categories": [
+        "mobile",
+        "messaging",
+        "social",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cityranks-us-populations",
+      "description": " This mashup uses 2000 Census data and Google Maps. Each zip is color coded by population density. Adding a lot of cities to the map makes it resemble election results. There's also a search function to see where your hometown ranks with other cities. ",
+      "original_categories": [
+        "government",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rebate-bus",
+      "description": " Rebate Bus makes utility energy efficiency incentives easy. It hooks into eCommerce and distributor websites to integrate the incentives into the purchase experience. Rebate Bus is a utility rebate expert. They can file applications on your behalf, deliver instant incentives on your website and give you access to their rebate API ",
+      "original_categories": [
+        "refunds",
+        "energy"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tweets-your-way",
+      "description": " Enter your start and end destinations and the mashup will show what tweets lie on the way. ",
+      "original_categories": [
+        "mapping",
+        "blogging",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "map-my-following",
+      "description": " Following on the success of Map My Followers, this new Twitter app gives you the ability to see all of the people you follow on Twitter on a Google Map. ",
+      "original_categories": [
+        "visualizations",
+        "social",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "quora",
+      "description": "Quora is a individual-focused question and answer site with an emphasis on tagging. You can follow users, questions and topics. The Quora API is an alpha release made specifically to help developers create browser extensions.",
+      "original_categories": [
+        "qa"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "contract-guardian-docusign",
+      "description": " Contract Guardian integrated with DocuSign is a service offered by Contract Guardian that allows customers to sign documents electronically. Customers are also able to add more signers to the documents. ",
+      "original_categories": [
+        "contracts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickrfling",
+      "description": " Innovative prototype for exploring Flickr photos. Point the application at a feed, like CNN, it then renders the news in photos by matching tagged photos to words from the news. ",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "jobs-assistant",
+      "description": " A job search engine and web mashup that incorporates Google Maps to see the location of an employer, LinkedIn to see which of your contacts works at the job location, and Payscale to see current salary analysis by job category. ",
+      "original_categories": [
+        "mapping",
+        "social",
+        "jobs",
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "vcita",
+      "description": "The service provides a platform for customer relationship management (CRM) and sales support. It integrates customer contact activities and message scheduling to encourage easy, ongoing engagement and conversion of leads into sales. It shares revenue as application users upgrade free services to value-added subscription servicesAPI methods support creation and activation of customer accounts and setting ad hoc or scheduled messaging and online meetings. Messaging methods support management of message content and delivery with contract tracking to record customer engagement over time. Meeting methods support scheduling and initiating online presentations and other sessions to support selling efforts.",
+      "original_categories": [
+        "enterprise"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zyp",
+      "description": " Zyp is a powerful, unobtrusive widget for Google Maps that provides zip code search, GeoPlanet queries and reverse geocoding, along with BirdsEye and Google Street views. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

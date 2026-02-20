@@ -1,0 +1,41 @@
+{
+  "category": "cryptocurrency",
+  "count": 3,
+  "items": [
+    {
+      "mashup": "spreadsheet-fund",
+      "description": " Spreadsheet fund is a Gsheet Add-On for Fund Administration - it's a Free Google Spreadsheets Add-On for investment fund management &amp; portfolio tracking. Automated Back-Office of your mutual Fund suitable for any asset's class (crypto, stock, forex, real estate, and others) Features: - Track portfolio of cryptocurrencies, stocks, forex or any other. asset with calculating of Net Asset Value in real-time. - Auto-sync balances from wallets and exchanges. - Accounting for shares of investors by the mutual unit. - Automation of Entrance/Redeem/Transfer Fund's shares. - Recording of fund performance and portfolio snapshots. - Proper performance/entry/redeem fees automation. - Telegram notifications. - Portfolio rebalancing, reporting, assets valuation, and more... ",
+      "original_categories": [
+        "financial",
+        "accounting",
+        "bitcoin",
+        "cryptocurrency",
+        "stocks"
+      ],
+      "used_apis": [
+        "coincap",
+        "coinpaprika"
+      ]
+    },
+    {
+      "mashup": "bitcoinaverage",
+      "description": "BitcoinAverage is a cryptocurrency data service provider with the longest running Bitcoin price index since 2013.We integrate data from over 60 exchanges and 500+ Cryptocurrencies and tokens and provide it via one single API.Our services include:1. Global cryptocurrency indices via Http and Websocket realtime feeds. - Our global index considers all the trading pairs for a cryptocurrency and calculates global price from all of them. For example for Bitcoin it considers the trading price for Bitcoin to US Dollar, Bitcoin to Euro, Bitcoin to British Pound etc.. and calculates a global Bitcoin index. We provide global index for the major cryptocurrencies: Bitcoin (BTC), Ethereum (ETH), Ripple (XRP), Bitcoin Cash (BCH), Litecoin (LTC) in all of the worlds fiat currencies like the US Dollar, Euro, British Sterling, Brazilian Real, Czech Crown, Russian Rubble and all others.2. Local cryptocurrency and tokens indices via Http and Websocket realtime feeds. - Our local index considers only the trading pairs for single symbol, ex. Bitcoin to Euro, from all exchanges that support trading it. We provide local index for hundreds of cryptocurrencies.3. Historical datasets with OHLC data for minute, hour and day ticks4. Orderbook data from the major exchanges like Coinbase, Bitstamp and Bitfinex.5. Price data for hundreds of ERC20 tokens.6. Custom index generation - You want to use only your top 3 most trusted exchanges to generate an objective index? - We got you covered.7. Custom API endpoint - We develop custom endpoints for customers that want our data to fit into their application seamlessly.",
+      "original_categories": [
+        "cryptocurrency"
+      ],
+      "used_apis": [
+        "bitcoinaverage"
+      ]
+    },
+    {
+      "mashup": "coinpaprika",
+      "description": "The Coinpaprika API returns current crypto market data for coin prices, volumes, market caps, ATHs, return rates and more. All endpoints return either a JSON object or array. Coinpaprika provides a research platform that allows you to access Market Overview, Prices, Charts, Teams, Events, Github, Twitter, ATH, Reddit and Coin Details.",
+      "original_categories": [
+        "cryptocurrency"
+      ],
+      "used_apis": [
+        "coinpaprika"
+      ]
+    }
+  ]
+}

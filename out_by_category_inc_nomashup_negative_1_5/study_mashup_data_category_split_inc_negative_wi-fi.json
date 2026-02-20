@@ -1,0 +1,72 @@
+{
+  "category": "wi-fi",
+  "count": 6,
+  "positive_count": 1,
+  "negative_count": 5,
+  "pos_neg_ratio": "1:5",
+  "items": [
+    {
+      "mashup": "open-garden",
+      "description": "Open Garden is a service that allows users to share internet and connect all of their devices and increase the speed of internet on their devices without having to change settings. The Open Garden API allows developers to access and integrate the functionality of Open Garden with other applications and to create new applications. Public documentation is not available; interested developers should email contact@opengarden.com for more information.",
+      "original_categories": [
+        "wi-fi"
+      ],
+      "used_apis": [
+        "open-garden"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "gmail",
+      "description": "Google's Gmail API gives developer access to Gmail mailboxes and the ability to send email.The API allows users to perform CRUD operations on email messages, attachments, drafts, threads and labels. Supported functionality includes the ability to manage thread labels, use advanced search operators to find and filter specific messages and threads, and sync with Gmail without tracking changes internally.The Gmail API is RESTful with responses in JSON and uses OAuth 2.0 authorization.",
+      "original_categories": [
+        "email"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "httpbusalert.me",
+      "description": " busAlert.me is a service for all King County (Wa) Metro buses that will alert the user when their bus is getting close to the stop. ",
+      "original_categories": [
+        "mobile",
+        "messaging",
+        "transportation",
+        "reference",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "voxeo",
+      "description": "Voxeo offers a SIP voice platform as an on-demand service, powered by VoiceXML and CCXML API standards. Voxeo supports IVR, speech recognition, DB integration, CTI, call control and recording, conferencing, and more. The Voxeo API provides programmatic access to these voice and text to speech services (TTS).",
+      "original_categories": [
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "kml-maps-files",
+      "description": " Search and view KML files on the map. Looks for KML files with Google AJAX Search, then shows the KML file content in a Google map. ",
+      "original_categories": [
+        "search",
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fedex-office-and-box.net",
+      "description": " Allows Box.net users to send documents from their Box.net account to FedEx, where they can be printed and shipped. ",
+      "original_categories": [
+        "shipping",
+        "printing"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

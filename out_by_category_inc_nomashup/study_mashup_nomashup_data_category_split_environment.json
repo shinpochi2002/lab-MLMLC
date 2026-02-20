@@ -1,0 +1,39 @@
+{
+  "category": "environment",
+  "count": 3,
+  "items": [
+    {
+      "mashup": "greener-pastures",
+      "description": " Greener pastures ranks U.S. cities based on the greenness of their available housing stock. In a graph, each line represent a city's greenness over time. You can hover over a line to see which city it represents and compare. ",
+      "original_categories": [
+        "visualizations",
+        "search"
+      ],
+      "used_apis": [
+        "brighter-planet-cm1"
+      ]
+    },
+    {
+      "mashup": "yaktrak",
+      "description": " Track FedEx packages--with per-segment CO2 estimates. ",
+      "original_categories": [
+        "sustainability",
+        "environment",
+        "shipping"
+      ],
+      "used_apis": [
+        "brighter-planet-cm1"
+      ]
+    },
+    {
+      "mashup": "brighter-planet-cm1",
+      "description": "This web service, part of Brighter Planet's carbon middleware suite, enables developers to build flexible, real-time carbon footprint estimates from sources such as cars, flights, and houses into business applications. Brighter Planet delivers cloud-based web services providing on-demand carbon information for a fraction of a cent per query, meant for enhancing existing operational data with environmental intelligence that matters. The emission calculation service provides greenhouse gas emission estimates for a variety of emitters of arbitrary description. The API uses RESTful protocol and responses can be formatted in XML and JSON.",
+      "original_categories": [
+        "environment"
+      ],
+      "used_apis": [
+        "brighter-planet-cm1"
+      ]
+    }
+  ]
+}

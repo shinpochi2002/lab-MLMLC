@@ -1,0 +1,243 @@
+{
+  "category": "recognition",
+  "count": 22,
+  "positive_count": 2,
+  "negative_count": 20,
+  "pos_neg_ratio": "1:10",
+  "items": [
+    {
+      "mashup": "spotify-mood-music",
+      "description": " This mashup (script) identifies an emotion from an image with Microsoft’s Emotion API, then recommends a musical playlist based on the emotion identified using Spotify's Public API. ",
+      "original_categories": [
+        "music"
+      ],
+      "used_apis": [
+        "microsoft-cognitive-services-emotion"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "microsoft-cognitive-services-emotion",
+      "description": "The Microsoft Cognitive Services Emotion API recognizes emotions expressed by one or more people in an image, and returns a face identification bounding box. It detects the following emotions: happiness, sadness, surprise, anger, fear, contempt, and disgust. For video, it returns emotions of a group of faces over a period of time. 2 paid options are available, and a free plan that limits transactions to 30,000 a month is available as well. The Emotion API uses JSON for data exchange, and API Keys for authentication.",
+      "original_categories": [
+        "recognition"
+      ],
+      "used_apis": [
+        "microsoft-cognitive-services-emotion"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "3d-map-hong-kong",
+      "description": " View a map that uses custom map types to create a 3D stylized map of Hong Kong. ",
+      "original_categories": [
+        "visualizations",
+        "chinese",
+        "mapping",
+        "3d"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "maps-tibet-protests",
+      "description": " Map of March 2008 protests in Tibet, and ensuing events. With photos, summaries, and links to supporting documentation about the Tibetan Centre for Human Rights and Democracy, TCHRD, website. ",
+      "original_categories": [
+        "government",
+        "chinese"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "marketplace-workspaces",
+      "description": " Offers a wide array of workspaces, such as practice spaces, offices, studios, single-user work stations, conference rooms, and so on that can be rented or offered for days, weeks or for permanent use. In German. ",
+      "original_categories": [
+        "mapping",
+        "enterprise",
+        "german"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tall-tweets",
+      "description": " Tall Tweets lets you write longer messages on Twitter by transforming the tweet into an image. ",
+      "original_categories": [
+        "social",
+        "humor",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zoomatron-nautical-maps",
+      "description": " Very cool overlay of NOAA nautical charts on top of Virtual Earth maps engine. Charts can be made translucent. ",
+      "original_categories": [
+        "mapping",
+        "boating",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "livemap-wildlife-parks",
+      "description": " Plots the location of over 130 zoos, safari parks, butterfly farms and other wildlife attractions throughout the UK. ",
+      "original_categories": [
+        "mapping",
+        "search",
+        "england",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sort-me-out",
+      "description": " Fashion is the third most polluting industry in the world, and the second largest consumer of water. It’s easy to forget these facts when shopping for clothes. A big way to make an impact is to shop through businesses that produce clothes in a sustainable way. Sort Me Out is made to make shopping for sustainable clothes easier. without having to compromise on your existing style choices and do the neck-crunching work of researching, we present to you an arrangement of clothes sorted by the brand’s policies on: carbon emissions policies regarding recycled material and chemicals labor conditions and fair trade This app rates the most popular clothes selling on ShopStyle based on the sustainability rating of the brand, according to rankabrand.com. ",
+      "original_categories": [
+        "ecommerce",
+        "clothing",
+        "fashion",
+        "sustainability"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "global-biodiversity-information-facility",
+      "description": "Global Biodiversity Information Facility (GBIF) enables access to over 7000 datasets by over 200 data providers as part of a UDDI Registry. Get species data, including plants, animals, fungi and micro-organisms, plus species occurrence records with classifications and scientific and common names. Also access news about GDIF with the aPI. Participants in the GBIF network can use a toolkit to efficiently publish to the Internet biodiversity data. GBIF is an international group that works to make the world's biodiversity data accessible anywhere. The GBIF office is at the University of Copenhagen, Denmark, in the Zoological Museum.",
+      "original_categories": [
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "foreclosure-radar",
+      "description": " Paid service to find bank owned homes and short sales. You can search for free and find approximate locations, all displayed on a Google Map. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "moffle",
+      "description": " A web of Bangkok Thailand on Google maps. It allows users to create custom map with markers and routes. ",
+      "original_categories": [
+        "mapping",
+        "customization"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "playcharts",
+      "description": " Music video playlists, playing popular pop, rock, hiphop, and dance, with newest music video releases. 26+ hours of uninterrupted and continuously playing music videos. Use it for parties. Integrated YouTube videos. ",
+      "original_categories": [
+        "music",
+        "video",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "woocommerce",
+      "description": "WooCommerce is a WordPress eCommerce plugin, with different features built for website development. The WooCommerce API lets developers integrate its features into their WordPress website. Data is in JSON format.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "employshark",
+      "description": " View job listings by state and zip code ",
+      "original_categories": [
+        "jobs",
+        "jobs",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "social-contact",
+      "description": " Meet a cool entrepreneur, investor, or tech person? Just ask for their twitter handle, text it to 203-403-NAME (203-403-6263), and instantly get a vcard for them that you can easily import into your phone or computer address book. It pulls a surprising amount of public and semi-public information from a variety of social and other sources. Some information that can be included: full name, company and title, email (occasionally), phone number (occasionally), home page url, home location (generally city-level), description, summary, Klout, photo, facebook profile link, and other social profile pages. ",
+      "original_categories": [
+        "social",
+        "contacts",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nytimes-36hrs-column-map",
+      "description": " A Google map that plots The New York Times column 36 Hours. This column offers a weekend-long itineraries different North American cities. Click markers to browse columns from the past 3 years. ",
+      "original_categories": [
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zombie-strategies",
+      "description": " Tracks locations of survival supplies in case of a zombie outbreak. ",
+      "original_categories": [
+        "ecommerce",
+        "mashups",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitter-trends",
+      "description": " A Website that you can view the most discussed topics on twitter(trends), searching by location through Google Maps. ",
+      "original_categories": [
+        "social",
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "grid-based-palette-browser",
+      "description": " A minimal, searchable grid that shows palettes with widths or patterns and colours from COLOURLovers.com ",
+      "original_categories": [
+        "visualizations",
+        "design",
+        "colors",
+        "colors"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "giphy",
+      "description": "Giphy is an animated search engine for discovering and sharing GIF images. Giphy exposes its search capabilities through a RESTlike API. The API is comprised of nine JSON endpoints, allowing developers to search for GIFs using a variety of filters and search parameters.",
+      "original_categories": [
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mashedin",
+      "description": " View mutual connections across Facebook, Twitter, and Linkedin. ",
+      "original_categories": [
+        "social",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

@@ -1,0 +1,513 @@
+{
+  "category": "healthcare",
+  "count": 48,
+  "positive_count": 3,
+  "negative_count": 45,
+  "pos_neg_ratio": "1:15",
+  "items": [
+    {
+      "mashup": "refuge-android-app",
+      "description": " This is the unofficial Android dependent on the REFUGE Restrooms AP. The app allows users to interact with the database of restrooms safe for transgender, intersex, gender nonconforming, as well as handicapped individuals. Users can search a map to view drop-pins for restroom locations nearest to their proximity. Also, the app displays short bios on the restroom so that users are informed. ",
+      "original_categories": [
+        "lists",
+        "directories",
+        "healthcare"
+      ],
+      "used_apis": [
+        "refuge-restrooms"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "gethealth",
+      "description": "GetHealth is a Unified RESTful API to access health data from wearables and devices. It allows users to integrate the sources like Dailymile, Fatsecret, Fitbit, Google Fit, Jawbone, Lifefitness, MapMyFitness, MapMyRun, MapMyWalk, Microsoft Health, Misfit, Moves, PredicctBGL, Runkeeper, Strava, Sony Lifelog, Withings, and 23andMe. It also allows integration to medical devices. There are api calls available for activity, diabetes, weight, nutrition, sleep, and genotype. Furthermore it eases the user authentication process for each source with single-sign on API call. Also it normalizes the data across multiple sources and provides unified data structure.",
+      "original_categories": [
+        "healthcare"
+      ],
+      "used_apis": [
+        "gethealth"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "refuge-restrooms",
+      "description": "Based in San Francisco, REFUGE Restrooms is a resource that provides transgender, intersex, and gender nonconforming individuals with access to a library of restrooms with safe environments. Similar to the now deprecated Safe2Pee, users can search for restrooms by proximity, may add new restrooms to the directory, and can also comment and rate their experiences. The site and service aims to promote restroom advocacy through community building. The project is accessible using a RESTful API. Using GET HTTP requests, developers can query the restroom database by keyword, and can also return a full list of all database entries in a JSON format.",
+      "original_categories": [
+        "healthcare"
+      ],
+      "used_apis": [
+        "refuge-restrooms"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "geotwts",
+      "description": " Tweets live on Google Maps. ",
+      "original_categories": [
+        "tweets",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cafe-press",
+      "description": "Allows developers to make queries and run searches against Cafe Press' store and product database.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flowd",
+      "description": " Flowd lets you mark your favorite spots on the map and tell your friends where the action is happening. Flowd also shows you the nearby gigs of your favorite artists! ",
+      "original_categories": [
+        "music",
+        "mapping",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wikiguess",
+      "description": " WikiGuess is a mobile game based on real wikipedia articles. At each question a wikipedia article is displayed with some hidden words (article's title is replaced by '...') and you try to guess article's title in limited time. Games are by real wikipedia categories such as Best Picture Academy Award winners, Lady Gaga Songs, Capitals in Europe etc. WikiGuess is available in Android, soon to be available on iPhones. ",
+      "original_categories": [
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tuneglue",
+      "description": " Slick interactive visualization of the relationship between music artists using the Last.fm and Amazon.com.uk APIs. NOTE: As of Oct 2008, this site appears to have stopped operation. ",
+      "original_categories": [
+        "ecommerce",
+        "music",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "escnostalgia",
+      "description": " ESCNostalgia allows you to rediscover past events of the Eurovision Song Contest (ESC). Listen to and view all results and performances of ESC from 1957 until today. The website is integrated with Spotify so you can listen to the songs and Youtube to view videos of the performances. ",
+      "original_categories": [
+        "music",
+        "events",
+        "tv",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "worlds-best-universities-map",
+      "description": " View the location and ranking results of the world's best universities on a map and compare the major rankings visually. ",
+      "original_categories": [
+        "education",
+        "mapping",
+        "ratings",
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "blankslate",
+      "description": "BlankSlate is a platform as a service with a complete set of building blocks accessed by API that you can use to make all kinds of web applications.",
+      "original_categories": [
+        "database"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "randomchat",
+      "description": " Randomchat is a chatroulette/speed dating type of service whereby participants can interact with random people using their browser and the audio features of their computer. ",
+      "original_categories": [
+        "chat",
+        "humor",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "housing-rtp",
+      "description": " This mashup shows available apartments and room shares around Research Triangle Park, NC. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "auto4sq",
+      "description": " Auto4Sq let's you schedule your most frequent foursquare check-ins to be performed automatically. Simply schedule your regular foursquare check-ins and Auto4Sq will automatically check you in each day. ",
+      "original_categories": [
+        "mobile",
+        "social",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "callcollector",
+      "description": " CallCollector is a virtual voicemail box to collect calls from fans, customers, groups, or whatever you need it for. A business may use it as a complaint &amp; feedback line. A talk radio station may use it to allow listeners to vent to (or about) their on-air personalities. You might even use it to collect wishes from family all over the county and stitch them together for a relative's birthday or anniversary. ",
+      "original_categories": [
+        "audio",
+        "telephony",
+        "voice"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "message-bottle",
+      "description": " Drop an anonymous message from everywhere Web or Phone. Get anonymous replies, re-shares and likes. Get anonymously famous. ",
+      "original_categories": [
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "my-del.icio.us-recommendation-snippet-0",
+      "description": " A recommendation link list generator extracted from site owner's bookmarks archived in del.icio.us. Entire generation process is via client side JavaScript. ",
+      "original_categories": [
+        "bookmarks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "waterloo-student-housing-map",
+      "description": " Waterloo Student Housing to help college and university students find rental housing and sublets. Combines UW housing database with Google Maps. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dutch-motorcycle-events-calendar",
+      "description": " Google map Mashup for dutch motorcycle related events. Features altitude dependant grouping of locations. ",
+      "original_categories": [
+        "transportation",
+        "sports",
+        "sports",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "probably-true",
+      "description": " Randomly selected short facts from Wikipedia, updated a few times a day. ",
+      "original_categories": [
+        "wiki",
+        "humor",
+        "blogging",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bontq",
+      "description": " Bontq is a revolutionary bug &amp; issue tracking system. It allows you to manage projects and track bugs very easy because of its clean and user-friendly interface. The essential part of Bontq is it's Desktop Client. Using Desktop Client's functionality you can Capture Screenshots, Record Videos and attach them right to your items. ",
+      "original_categories": [
+        "business"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "routexl",
+      "description": " Route planning mashup for multiple destinations. Finds the fastest route for all locations and sorts waypoints in optimal order. ",
+      "original_categories": [
+        "search",
+        "mapping",
+        "travel",
+        "visualizations",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "workplace.com",
+      "description": " Most information available on the internet is not directly consumable by software systems. Information is locked away behind the presentation layer markup or javascript callbacks. Workplace.com provides Targeted Portfolio Analysis, Recorded Document Search, Servicing Research Tasks and other web scraping methods. ",
+      "original_categories": [
+        "voice",
+        "search",
+        "enterprise",
+        "analytics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "money-saver-widget",
+      "description": " Daily tips and advice along with quotes, facts, and websites to help you save money. Each day of the year contains a unique money-saving entry. ",
+      "original_categories": [
+        "financial",
+        "widgets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "hasoffers",
+      "description": "HasOffers is an affiliate network software that offers a complete suite of tools for building an affiliate network. You can use the software to track offers, review reports, manage affiliates and advertisers. The HasOffers application makes it easy to start your own branded affiliate network in minutes.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "photo-map",
+      "description": " Displays a real-time photo stream from Twitter on a Google map. ",
+      "original_categories": [
+        "messaging",
+        "social",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "musotik",
+      "description": " Enter an artist name and get videos, discography, bio, torrents and related artists ",
+      "original_categories": [
+        "music",
+        "video",
+        "torrents",
+        "audio"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "listagram",
+      "description": " Listagram is a way to browse the life of your friends through a series of pictures on Instagram. It searches the Instagram user's public photo archive from the URL of one photo and shows like Frickr's photostream. ",
+      "original_categories": [
+        "photos",
+        "mobile",
+        "search",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-directions",
+      "description": "The Google Directions Web Service web service calculates directions between locations using an REST request. Directions may specify origins, destinations and waypoints either as text strings (e.g. Chicago, IL) or as latitude/longitude coordinates. The Directions web service can return multi-part directions using a series of waypoints.This service is also available as part of the Google Maps JavaScript API, or with a Java client library.",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bevoz",
+      "description": " Access your personal phone book from any phone with a simple phone call or from a computer. A lost, stolen, uncharged or damaged cell phone doesn't mean you've lost access to your contacts. As a Bevoz member you have backup access from any phone worldwide. Simply dial the Bevoz access number and use your personalized secure PIN to access your account contacts. ",
+      "original_categories": [
+        "telephony",
+        "voice",
+        "mobile",
+        "contacts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shopify-checkout",
+      "description": "The Shopify Checkout API allows you to purchase products from a Shopify store programmatically. A checkout in Shopify is the object used to manage a customer’s cart as it transitions to a paid checkout. Some features include calculating taxes, shipping rates, attaching the customer’s information, and finally completing a purchase by submitting a payment. Shopify provides services for merchants, that want to sell online, in-store, or anywhere. It is ecommerce solutions, such as, integrating your service into the Shopify admin, customizing any website, and more.",
+      "original_categories": [
+        "merchants"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "public-transit-data-community",
+      "description": "Public Transit Data Community has a goal to combine all the disparate transit data feeds from the agencies around the United States into normalized format and expose them as OData Service API to allow developers to build any type of applications around the data. The API exposes data for the following: Bus and Train Arrival Predictions, Stops and Stations, Entrances, Routes and Train Lines, Incidents, Intelligent Routing. The API uses RESTful calls and responses are formatted in JSON.",
+      "original_categories": [
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cuevox",
+      "description": " Cuevox is a meeting reminder service but with a twist. At the proper time, Cuevox will call your attendees and ask them if they would be on time or not. Cuevox then lets you know. ",
+      "original_categories": [
+        "voice",
+        "telephony",
+        "business",
+        "calendars"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cogteeth.com",
+      "description": " Create personalized T-Shirts with your own coded messages. ",
+      "original_categories": [
+        "ecommerce",
+        "customization"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "weblogs",
+      "description": "From their site: The Weblogs.com ping service is used to automatically inform VeriSign whenever you update content on your site. The service receives notification (a ping) from your site that you have added new content, and if all goes well, Weblogs.com adds your site to a list of recently changed weblogs. If you're not using blogging software that automatically pings Weblogs.com, or if you're looking for more information on how to ping, this page will help you get your ping client up and running.",
+      "original_categories": [
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fastcashier-wallet",
+      "description": " FastCashier Wallet is a cross-platform that allows payment and receipts to be made through a portal. It serves as an electronic alternative to traditional paper methods such as cheques and money orders. Every process of it is simple, secured; in real-time, and it can either be used on a mobile device or PC. ",
+      "original_categories": [
+        "messaging",
+        "payments"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-talk",
+      "description": "From the site: As long as you adhere to the requirements of the XMPP specs, you should be able to connect to the Google Talk service. Other clients that can connect include [[http://gaim.sourceforge.net/ GAIM]] and [[http://www.ceruleanstudios.com/learn/ Trillian Pro]].",
+      "original_categories": [
+        "chat"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "vipli.st",
+      "description": " Enter a Plancast event to track its virality across social media channels with awe.sm. ",
+      "original_categories": [
+        "analytics",
+        "social",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sportburner",
+      "description": " A clean interface to see all the latest sports videos on YouTube. ",
+      "original_categories": [
+        "sports",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "singly",
+      "description": "Singly is a data management service. They provide APIs for developers building apps that require personal and social data. The API exposes data aggregation functionality for retrieving usersâ€™ information from personal and social media sources. This allows developers to integrate multiple third-party data accession functionality in their apps. The API is RESTful and returns JSON-encoded data.",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "youtube",
+      "description": "The Data API allows users to integrate their program with YouTube and allow it to perform many of the operations available on the website. It provides the capability to search for videos, retrieve standard feeds, and see related content. A program can also authenticate as a user to upload videos, modify user playlists, and more.This integration can be used for a variety of uses such as developing a web application allowing users to upload video to YouTube, or a device or desktop application that brings the YouTube experience to a new platform. The Data API gives users programmatic access to the video and user information stored on YouTube. This can be used to personalize a web site or application with the user's existing information as well as perform actions like commenting on and rating videos. This RESTful API provides responses in XML format.",
+      "original_categories": [
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "food-twitter",
+      "description": " Breakfasts, lunches and dinners from Twitter. ",
+      "original_categories": [
+        "blogging",
+        "photos",
+        "food"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "picplz",
+      "description": "Photo sharing mobile application picplz has a new API that has entered beta. The service provides read/write access to the picplz platform for sharing and editing photos. Developers can upload photos and use filter effects including Instant Film, Russian Toy Camera, the 70s and High Contrast Monochrome. The API also provides read access to others' photos. Like its mobile apps, the API likely lets you add a caption and tag your location.",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "search-holiday-flats-germany",
+      "description": " Mapping based search to find German holiday rentals. Compare to find by location, like nearest one to the beach. ",
+      "original_categories": [
+        "german",
+        "mapping",
+        "travel",
+        "rentals",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bibliobouts",
+      "description": " An online social game that covertly teaches students how to do library research while they go about the business of completing a research-and-writing assignment. ",
+      "original_categories": [
+        "reference",
+        "social",
+        "games",
+        "library"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "social-contact",
+      "description": " Meet a cool entrepreneur, investor, or tech person? Just ask for their twitter handle, text it to 203-403-NAME (203-403-6263), and instantly get a vcard for them that you can easily import into your phone or computer address book. It pulls a surprising amount of public and semi-public information from a variety of social and other sources. Some information that can be included: full name, company and title, email (occasionally), phone number (occasionally), home page url, home location (generally city-level), description, summary, Klout, photo, facebook profile link, and other social profile pages. ",
+      "original_categories": [
+        "social",
+        "contacts",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "brazil-pictures",
+      "description": " A site to browse pictures from Rio de Janeiro, Buzios, Ceará, and other places in Brazil. Uses the Google Picasa API. ",
+      "original_categories": [
+        "brazilian",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-earth-book-tour",
+      "description": " A Google Earth mashup that shows book tours happening around the world. ",
+      "original_categories": [
+        "events",
+        "books",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "category": "forms",
+  "count": 44,
+  "positive_count": 4,
+  "negative_count": 40,
+  "pos_neg_ratio": "1:10",
+  "items": [
+    {
+      "mashup": "formstack-to-batchbook",
+      "description": " This mashup allows you to create any kind or number of records in BatchBook directly from a Formstack form submission. ",
+      "original_categories": [
+        "forms",
+        "social",
+        "forms"
+      ],
+      "used_apis": [
+        "formstack"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "tweetbrite",
+      "description": " Connect your event's Twitter account to Tweetbrite and it will automatically tweet new registrations for your event. ",
+      "original_categories": [
+        "events"
+      ],
+      "used_apis": [
+        "formstack"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "formstack-calendar",
+      "description": " Takes data submitted with a Formstack form and creates corresponding event entries on a Google Calendar. ",
+      "original_categories": [
+        "forms",
+        "calendars",
+        "events"
+      ],
+      "used_apis": [
+        "formstack"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "formstack-mapping",
+      "description": " Takes addresses submitted with a Formstack form and displays the locations on a Google Maps map. ",
+      "original_categories": [
+        "mapping",
+        "forms"
+      ],
+      "used_apis": [
+        "formstack"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "shout-now",
+      "description": " ShoutNow makes sharing your voice through Twitter, Facebook and phones simple and easy. Instantly share voice messages with your friends, family, teams, employees or customers. ",
+      "original_categories": [
+        "voice",
+        "social",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "upczilla",
+      "description": " UPCZilla is a search engine for UPCs (universal product codes), based on the Storeminator (https://www.programmableweb.com/mashup/storeminator) mashup code. It leverages the web services of Amazon, eBay and Commission Junction to search for likely matches for UPCs and then aggregates the resulting data, displaying it in the form of a price comparison listing, lowest price first. The engine runs as a Wordpress plugin for ease of deployment and employs multiple layers of caching (database and flat-file HTML) to maximize site speed. However, most page refreshes will require cached data to be refetched from one or more web service - maximum cache time is between one hour and 12 hours, due to restrictions on caching imposed by web service providers. Still, the results are very consistent, only limited by the accuracy of UPC data provided by third parties - at an estimate, less than 1% of UPC searches have products with wrongly-allocated UPCs. ",
+      "original_categories": [
+        "comparisons",
+        "prices",
+        "products"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "taggedback",
+      "description": " TaggedBack.com is a free service where you register and then catalog your belongings. It allows for a simple way to keep track of the things that you own. If you lose an item that you have tagged, the person who finds it will see the tag, prompting them to go to the TaggeBack.com website. Upon entering your tag number, they will be able to notify you immediately via email and text message if you verified your phone number. The person who found your item never sees your email address unless you choose to reply to them. ",
+      "original_categories": [
+        "mobile",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "weather-web-app",
+      "description": " This is a pretty simple web app that shows the current weather with an image taken near user's location. ",
+      "original_categories": [
+        "weather",
+        "applications"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "world-cup-soccer-latest-geotagged-youtube-videos",
+      "description": " A Google Maps mashup of latest GeoTagged YouTube videos tagged with keywords World Cup Soccer and with a category of News or Sports. The Information window for each YouTube video lists location along with address and description of the video. ",
+      "original_categories": [
+        "video",
+        "sports",
+        "sports",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "places-near-me",
+      "description": " Places Near Me is a web application that takes a user's location and locates nearby services. Types of places include gas stations, restaurants, hotels, and hospitals. ",
+      "original_categories": [
+        "travel",
+        "food",
+        "hotels",
+        "location",
+        "restaurants"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "meetways",
+      "description": " MeetWays lets you find a point of interest between two given addresses. For example, to meet a friend for lunch you can enter his and your addresses, type of restaurant and get the exact halfway point and a list of nearby restaurants. ",
+      "original_categories": [
+        "mapping",
+        "social",
+        "humor",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickr-pinboard",
+      "description": " Watch Flickr photos on a virtual pinboard in your Web browser. You can zoom and arrange them with your mouse or play a quick puzzle. ",
+      "original_categories": [
+        "games",
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "see-bournemouth-uk",
+      "description": " A Google map based interactive guide to the Bournemouth, Dorset, UK area. The map shows attractions, food outlets, pubs, and clubs. Routes mode lets you plot journeys and calculate distances. History mode displays a map of old local photos. ",
+      "original_categories": [
+        "history",
+        "mapping",
+        "england",
+        "travel",
+        "food"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "loseit",
+      "description": " Lose It! is a mobile application related to weight loss available on Google Play and Apple iTunes. Besides identity, location, media, and camera, the app also needs access to In-app purchases. Once installed, the app asks for user weight, followed by goal weight, gender, height, and weight plan. ",
+      "original_categories": [
+        "fitness",
+        "health"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cryptocrit",
+      "description": " CryptoCRIT is an open-source Cryptocurrency project which facilitates a Cryptocurrency wallet for making payments. The associated Cryptocurrency is called CritCoin. ",
+      "original_categories": [
+        "cryptocurrency",
+        "blockchain",
+        "cryptocurrency",
+        "encoding"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cubesensors-app",
+      "description": " CubeSensors are devices that contain seven different sensors for detecting air quality, temperature, humidity, noise, light, barometric pressure, and sensor motion in indoor environments. The CubeSensors App allows users to get alerts and recommendations regarding sensor data on their mobile devices. The app is optimized to look good on smartphones, tablets, and web browsers. ",
+      "original_categories": [
+        "hardware",
+        "health"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "play-hertzian-collective",
+      "description": " A musical sound game/toy created with projected video images and played collectively by viewers on their mobile phones. Visual rhythms and a spoken text explore schoolyard games: the play we invented as children. ",
+      "original_categories": [
+        "telephony",
+        "mobile",
+        "social",
+        "humor",
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tripcart",
+      "description": " TripCart is designed by travelers for travelers. We sort through the world of travel information to make it easy for you to plan the best possible trip. ",
+      "original_categories": [
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pixtaplace",
+      "description": " PixtaPlace is a service that lets you look at images from anywhere in the world. Locations are looked up via the Google Maps API and the photographs consist of recent photographs on Instagram and Flickr. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "photos",
+        "humor",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "boston-attractions-map",
+      "description": " Map of Boston tourist attractions. ",
+      "original_categories": [
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-adwords-performance-widget",
+      "description": " Track all metrics - CPC CTR, Cost of Conversions etc. - of your Google AdWords campaigns. Analyze clicks, impressions, conversions per campaign and drill down to view the metrics for the groups within a campaign. Works for MCC accounts too. ",
+      "original_categories": [
+        "widgets",
+        "advertising",
+        "advertising",
+        "marketing",
+        "analytics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "algolint",
+      "description": " AlgoLint is a web-based tool for writing and practicing algorithms. It has a clean and simple interface that allows users to write code in C/C++, Java, Ruby, and Python. Users can employ code templates to solve problems and save their own templates for use in future problems. AlgoLint can connect with the user's Dropbox account to automatically sync their practice code with their cloud storage. ",
+      "original_categories": [
+        "algorithms",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "beer-hunter-canada",
+      "description": " Find beer and more with this comprehensive listing and map of retail establishments in Toronto and the rest of Ontario. ",
+      "original_categories": [
+        "mapping",
+        "canadian",
+        "food"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "domain-rank-checker",
+      "description": " The Domain Rank Checker is designed to uncover the keywords that drive most organic traffic to your website. Or you can use this tool to perform competitor research and discover what keywords your competitor is targeting and ranking for. ",
+      "original_categories": [
+        "seo",
+        "analytics",
+        "comparisons",
+        "marketing",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "silvawood-events-map",
+      "description": " Map of local entertainment events: concerts, plays, films, talks, magic shows, and comedy. ",
+      "original_categories": [
+        "events",
+        "localization",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rentmix",
+      "description": " Fast, simple vacation rental search. Listings from HomeAway, FlipKey, and AirBnB laid out on Google Maps ",
+      "original_categories": [
+        "rentals",
+        "travel",
+        "travel",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "home-furnishings-store",
+      "description": " Shop home furnishing items across 2 million products and 20 stores. Uses APIs from Commission Junction and Shopping.com. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "european-speed-camera-map",
+      "description": " Shows locations of Speed Cameras on a map. Contains most speed cameras in Europe. This information is not intended to encourage speeding. ",
+      "original_categories": [
+        "mapping",
+        "transportation",
+        "auto"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "world-warcraft-maps",
+      "description": " Unusual use of the Google Maps API to control a non-Google map, in this case from the game World of Warcraft. It behaves just a like a Google Map using zoom, pan and drag controls. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ness-dining-guide",
+      "description": " Meet Ness, a beautiful new way to discover restaurants. Ness learns your likes and uses them to recommend restaurant. The more you use Ness, the better it works. ",
+      "original_categories": [
+        "localization",
+        "restaurants",
+        "recommendations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "holidayen",
+      "description": " Holidayen is an intuitive, automated trip planner that helps travelers plan and book amazing, personalized holiday experiences in more than 300 destinations worldwide. It creates a customized itinerary for the traveler with all relevant details, reducing travel planning time from several weeks to a few minutes. ",
+      "original_categories": [
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "female-coalition-casualties-iraq-war",
+      "description": " Map of the home towns of US female casualties of the Iraq War. ",
+      "original_categories": [
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gatekrash-mobile",
+      "description": " Gatekrash Mobile is a touchscreen-optimised version of Gatekrash, providing event listings for the UK. It uses the Gatekrash API to request relevant data. ",
+      "original_categories": [
+        "mobile",
+        "events",
+        "england",
+        "search",
+        "reference",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "map-your-ridedrive-biker-footprints",
+      "description": " Display your Google Latitude location and location history. Guest and public access options control who can view your location. Dead Zone keeps your location from being displayed when you are within X miles of the location you specify. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "onestop-triponline",
+      "description": " OneStop TripOnline is an online booking company that offers access to information on different traveling-related services such as holiday packages, bus, rail and flight. ",
+      "original_categories": [
+        "travel",
+        "booking"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "search-and-map-jobs",
+      "description": " The mashup helps you to search and map jobs from all the US jobs sites. The sites include Dice, Monster, ITjobs, Career Builder, etc. ",
+      "original_categories": [
+        "jobs",
+        "search",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "lyricsgaps.com",
+      "description": " A fun method to learn and improve your foreign languages like English, French or Italian through music and typing-in song lyrics. ",
+      "original_categories": [
+        "social",
+        "search",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rebate-bus",
+      "description": " Rebate Bus makes utility energy efficiency incentives easy. It hooks into eCommerce and distributor websites to integrate the incentives into the purchase experience. Rebate Bus is a utility rebate expert. They can file applications on your behalf, deliver instant incentives on your website and give you access to their rebate API ",
+      "original_categories": [
+        "refunds",
+        "energy"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "voxilate-silent-auction",
+      "description": " Implements a silent auction by phone. Bidders can bid on items over the phone and are notified via text message when they are outbid. ",
+      "original_categories": [
+        "telephony",
+        "messaging",
+        "voice",
+        "auctions",
+        "charity"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "propertymaps.com-mobile-leads",
+      "description": " Mobile lead distribution service for our broker partners. ",
+      "original_categories": [
+        "telephony",
+        "mobile",
+        "sales"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "crime-denver-colorado",
+      "description": " These data come from Denver Police Department reports on crimes and are updated a few times per week. They do not include every crime reported to police or incidents to which police respond that do not result in a police report. ",
+      "original_categories": [
+        "mapping",
+        "crime",
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "scoopmap.net",
+      "description": " Scoopmap.net allows users to view breaking news around the world by leveraging two APIs. Discover hot spots and articles written by high quality newspapers such as the Guardian and New York Times. ",
+      "original_categories": [
+        "localization"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "screensvr",
+      "description": " ScreenSvr is a simple screen saver for Windows PCs. It grabs photos from Flickr, based on your selection criteria, and displays them in a repeating slideshow as a screensaver. ",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "loop-box.net",
+      "description": " Drawloop's service is an online PDF conversion tool integrated with box.net online storage. It allows you to convert a single file into PDF format or merge multiple files into a single PDF. ",
+      "original_categories": [
+        "pdf",
+        "office",
+        "documents",
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

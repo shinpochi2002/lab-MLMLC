@@ -1,0 +1,97 @@
+{
+  "category": "movies",
+  "count": 8,
+  "positive_count": 2,
+  "negative_count": 6,
+  "pos_neg_ratio": "1:3",
+  "items": [
+    {
+      "mashup": "new-york-times-movie-tweets",
+      "description": " Tweets about the latest featured New York Times movie reviews. ",
+      "original_categories": [
+        "search",
+        "social",
+        "movies"
+      ],
+      "used_apis": [
+        "new-york-times-movie-reviews"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "new-york-times-movie-reviews",
+      "description": "The New York Times Movie Review API gives users access to movie reviews by the New York Times critics. The API gives access to over 22,000 New York Times movie reviews from today back to 1924. Using the Movie Reviews API you can query reviews and get data such as byline, critics pick, date updated, mpaa rating, title, headline, opening date, article link and multimedia. Users can search movie reviews by keywords or critic.",
+      "original_categories": [
+        "movies"
+      ],
+      "used_apis": [
+        "new-york-times-movie-reviews"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "json-tools",
+      "description": "This API provides a set of useful features for JSON data. It's functionality includes printing JSON data with indentation for easier reading and validating JSON data. The API uses HTTP calls and responses are formatted in JSON. Developers should contact the provider for more features.",
+      "original_categories": [
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickrq",
+      "description": " FlickrQ allows you to queue up and schedule your uploads to Flickr. It is quick, simple and free. ",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mysalarywiki",
+      "description": " A user-generated, anonymous salary comparison website. Integrates with Google Maps. ",
+      "original_categories": [
+        "enterprise",
+        "financial",
+        "business",
+        "jobs",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "suburbified",
+      "description": " Suburbified takes ten years of the 'Living In' articles about towns around New York City and plots them on an interactive map for easy reference. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "supermetrics-data-grabber",
+      "description": " Supermetrics Data Grabber fetches your Google Analytics, AdWords, Bing Ads, Facebook &amp; YouTube data to MS Excel on Windows and Mac. Eliminate time-consuming manual data fetching, processing and visualization work. Designed especially for people working with lots of sites / PPC campaigns / Facebook pages, to make it easier to get all the data in one place. ",
+      "original_categories": [
+        "visualizations",
+        "analytics",
+        "data"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "walk-highlands-scotland",
+      "description": " Free walking route descriptions with OS Landranger mapping for each walk through Multimap API. Click on View next to buy map on any route to see the Multimap API page. ",
+      "original_categories": [
+        "mapping",
+        "fitness",
+        "scottish",
+        "recreation",
+        "england"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

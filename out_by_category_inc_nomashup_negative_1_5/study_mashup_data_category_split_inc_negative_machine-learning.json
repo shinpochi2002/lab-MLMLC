@@ -1,0 +1,73 @@
+{
+  "category": "machine-learning",
+  "count": 6,
+  "positive_count": 1,
+  "negative_count": 5,
+  "pos_neg_ratio": "1:5",
+  "items": [
+    {
+      "mashup": "findilike",
+      "description": " FindiLike Hotel Search is a hotel search and review analysis system that helps users find hotels based on their reviews, prices, or location. Hotels can be searched with unstructured keywords like, pet friendly, swimming pool, or friendly staff. FindiLike App also supports structured search criteria like distance from a landmark or address or price range. ",
+      "original_categories": [
+        "search",
+        "text"
+      ],
+      "used_apis": [
+        "rxnlp-cluster-sentences-and-short-texts"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "mygeoposition.com-geocoding-geotag-and-kml-creator",
+      "description": " Calculate your geoposition by address and create geotags, geo-metatags and kml files for your website, weblog or photo. Use a drag-and-drop marker on the result map to optimize your position. NEW: Reverse lookup - Enter a geocoded URL, see its location. ",
+      "original_categories": [
+        "mapping",
+        "photos",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "partygps",
+      "description": " Find the good times. partyGPS makes it easier to locate bars, clubs, and liquor stores throughout the U.S. with Google Maps and user reviews. ",
+      "original_categories": [
+        "food",
+        "mapping",
+        "bars",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twittervision",
+      "description": " Watch twitters in real time with this live map that dynamically updates to show the latest twitterings. ",
+      "original_categories": [
+        "messaging",
+        "chat",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "basecamp__api",
+      "description": "From 37signals. Basecamp is a unique project collaboration tool. Projects don't fail from a lack of charts, graphs, or reports, they fail from a lack of communication and collaboration. Basecamp makes it simple to communicate and collaborate on projects. The Basecamp API is implemented as vanilla XML over HTTP.",
+      "original_categories": [
+        "project-management"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "careerbuilder",
+      "description": "Currently a private API, the CareerBuilder API allows you to integrate their database of over 1.5 million jobs with your software or website. The API provides methods for basic job searching, retrieving data for a specific job, and applying to a job.",
+      "original_categories": [
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

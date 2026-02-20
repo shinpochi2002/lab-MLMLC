@@ -1,0 +1,26 @@
+{
+  "category": "cryptocurrency",
+  "uid": "b46eddcd",
+  "n_samples": 3,
+  "n_labels": 3,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 24.239732642968495,
+      "std_val_loss": 16.74920913706719,
+      "mean_micro_f1": 0.4444444444444444
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 27.290327548980713,
+      "std_val_loss": 19.00707280092505,
+      "mean_micro_f1": 0.0
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 24.239732642968495,
+    "std_val_loss": 16.74920913706719,
+    "mean_micro_f1": 0.4444444444444444
+  }
+}

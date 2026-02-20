@@ -1,0 +1,137 @@
+{
+  "category": "spam",
+  "count": 12,
+  "positive_count": 2,
+  "negative_count": 10,
+  "pos_neg_ratio": "1:5",
+  "items": [
+    {
+      "mashup": "antideo",
+      "description": " Antideo maintains large database with spam and scam records, IP locations and infected ranges, proxy records and many more. We are keeping our database updated regularly from various sources, as well as collecting some of the data ourselves. Final result is millions of IP and email records kept up to date and free to use in a fair manner. ",
+      "original_categories": [
+        "spam",
+        "email"
+      ],
+      "used_apis": [
+        "antideo"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "antideo__api",
+      "description": "The Antideo API offers health checks that can be performed on IPs and Email adresses. These checks can be used for accepting user signups or checking orders against fraudulent indicators. Antideo updates its database regularly with the latest infected IP ranges, and proxy records. This API requires API Keys for authentication, and returns data in JSON format.",
+      "original_categories": [
+        "spam"
+      ],
+      "used_apis": [
+        "antideo"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "2lingual-bing-search",
+      "description": " Bing Search in 2 separate languages. 2lingual Bing Search is a dual-language search tool that performs both a Bing Search and a Cross-language Bing Search. It also provides a query translation option that can be activated or deactivated for Cross-language Bing Searches. The top-ranking Bing Search Results from 2 user-selected search languages are displayed in side-by-side columns. Other features include Search Suggestions, Spelling Corrections, Cached Pages and Related Search Links. ",
+      "original_categories": [
+        "language",
+        "search",
+        "translation",
+        "language",
+        "language"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "oilaholic",
+      "description": " Get Gulf oil spill updates and oil spill clean up news, see oil spill photos, watch oil spill videos, chat about oil spills and more at Oilaholic.com. ",
+      "original_categories": [
+        "video",
+        "photos",
+        "environment",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "hotel-world-map",
+      "description": " Hotel World Map lets you search and book 60.000 hotels worldwide on an interactive Google Map. From charminging hotels on the Spanish coast to business hotel close to the conference centres. ",
+      "original_categories": [
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fitdatasync",
+      "description": " FitDataSync is a free application that automatically syncs activities from the user's Garmin device with their Fitbit account. Therefore, with this app, customers do not need to carry their FitBit tracker with them everywhere they go. All information synced from the Garmin device will be displayed in FitBit dashboard. FitDataSync also automatically synchronizes Fitbit Aria Wi-Fi Smart Scale weight measurements to the user's Garmin Connect account. ",
+      "original_categories": [
+        "fitness",
+        "syncing"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mars-explorer",
+      "description": " The Mars Explorer app (for Android devices) allows you to explore The Red Planet as a whole or through the eyes of one of three NASA rovers currently on the surface. Learn about each of the three rovers and the data they collect on the surface of Mars. Search through years worth of pictures the rovers have taken. Save and share your favorite pictures. Learn about how the rovers work and how they were built. Learn something new about Mars every day with the Daily Fact home screen widget. Get the latest weather details from the Rover Environmental Monitoring Station on board the Curiosity Rover. ",
+      "original_categories": [
+        "education",
+        "astronomy",
+        "entertainment",
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bloglines",
+      "description": "From their site: Bloglines is a FREE online service for searching, subscribing, creating and sharing news feeds, blogs and rich web content. With Bloglines, there is no software to download or install. Bloglines provides several mechanisms for accessing account information. The Notifier API is used to quickly gather a count of unread items in a Bloglines account. The Sync API is used to accessing subscription lists and unread blog items. The Blogroll API is used for incorporating subscription lists in other sites.",
+      "original_categories": [
+        "feeds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "chicago-bike-map",
+      "description": " City of Chicago bicycle route data, on Google Maps ",
+      "original_categories": [
+        "cycling"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bevoz",
+      "description": " Access your personal phone book from any phone with a simple phone call or from a computer. A lost, stolen, uncharged or damaged cell phone doesn't mean you've lost access to your contacts. As a Bevoz member you have backup access from any phone worldwide. Simply dial the Bevoz access number and use your personalized secure PIN to access your account contacts. ",
+      "original_categories": [
+        "telephony",
+        "voice",
+        "mobile",
+        "contacts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "levelup",
+      "description": "The LevelUp API allows developers to access and integrate the functionality of LevelUp with other applications, such as point-of-sale systems and to create new applications. Some example API methods include accepting online payments, accepting mobile payments, and retrieving reporting information.LevelUp is an online and mobile payment service. Users can set up their own QR code that allows them to pay various merchants via scanning the QR code. LevelUp also offers users savings when paying with the LevelUp application. Merchants can integrate the LevelUp system with their point-of-sale systems to accept LevelUp payments for goods and services.",
+      "original_categories": [
+        "payments"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "razorpay",
+      "description": "The Razorpay REST API allows developers to access and integrate the functionality of Razorpay with other applications. Some example API methods include retrieving payments, capturing payments, and retrieving refunds of a payment. Razorpay is an online and mobile payment platform for individuals and businesses in India.",
+      "original_categories": [
+        "payments"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

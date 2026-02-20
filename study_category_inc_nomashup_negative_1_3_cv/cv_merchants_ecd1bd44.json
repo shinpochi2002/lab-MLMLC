@@ -1,0 +1,26 @@
+{
+  "category": "merchants",
+  "uid": "ecd1bd44",
+  "n_samples": 4,
+  "n_labels": 3,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 8.902831703424454,
+      "std_val_loss": 13.613957670251622,
+      "mean_micro_f1": 0.41666666666666663
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 11.29005354642868,
+      "std_val_loss": 17.49760027700242,
+      "mean_micro_f1": 0.25
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 8.902831703424454,
+    "std_val_loss": 13.613957670251622,
+    "mean_micro_f1": 0.41666666666666663
+  }
+}

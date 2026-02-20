@@ -1,0 +1,41 @@
+{
+  "category": "medical",
+  "count": 3,
+  "items": [
+    {
+      "mashup": "acid-reflux-information-site",
+      "description": " Produced with a time constraint of 5 days. The site is designed to provide reliable and concise information about Acid Reflux. It uses multiple APIs to pull in content about this condition. ",
+      "original_categories": [
+        "health"
+      ],
+      "used_apis": [
+        "national-library-medicine-dirline",
+        "nhs"
+      ]
+    },
+    {
+      "mashup": "academic-site-navigaiton",
+      "description": " ODP Mashup Server. A Chinese site meant to help you create mashups. The code embeds in your page, while preserving your style. ",
+      "original_categories": [
+        "chinese",
+        "directories",
+        "tools"
+      ],
+      "used_apis": [
+        "web-api-biology"
+      ]
+    },
+    {
+      "mashup": "pubmed-faceoff",
+      "description": " Shows Chernoff Faces visualization to represent the impact factor data of a paper alongside Pubmed biomedical literature search results. Basically it allows you to search PubMed and have the results represented as a set of human faces. ",
+      "original_categories": [
+        "medical",
+        "visualizations",
+        "science"
+      ],
+      "used_apis": [
+        "ncbi-entrez"
+      ]
+    }
+  ]
+}

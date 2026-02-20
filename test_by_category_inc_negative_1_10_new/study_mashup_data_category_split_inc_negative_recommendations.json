@@ -1,0 +1,714 @@
+{
+  "category": "recommendations",
+  "count": 319,
+  "positive_count": 29,
+  "negative_count": 290,
+  "pos_neg_ratio": "1:10",
+  "items": [
+    {
+      "mashup": "filmfinder",
+      "description": " Filmfinder is a mobile application that lets users browse and search for movies and TV series. Filmfinder uses a few different APIs for their database, including Youtube and Movie DB. ",
+      "original_categories": [
+        "movies",
+        "search"
+      ],
+      "used_apis": [
+        "rotten-tomatoes"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "randolunch",
+      "description": " Randolunch selects a random restaurant for you to try based on your location. Perfect for when you can't decide where to eat! ",
+      "original_categories": [
+        "restaurants",
+        "random",
+        "food"
+      ],
+      "used_apis": [
+        "yelp-fusion"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "moviis",
+      "description": " Improve your movie experience with the Moviis android application. Film information, trakt.tv integration, check-in, recommendations, history, watchlist, collection, lists, upcoming and now playing in theaters, ratings, trailers and much more... ",
+      "original_categories": [
+        "movies",
+        "movies",
+        "mobile",
+        "applications"
+      ],
+      "used_apis": [
+        "rotten-tomatoes",
+        "trakttv"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "aussie-pubcrawl",
+      "description": " An app for Australians (written by a Canadian :) which integrates the Sensis API with the Yelp API to find who drinks at pubs near you. Works by using Sensis Yellow Pages search and matching up with the most recent Yelp reviews for the pubs found to get fresh reviewer photos. Note you must enter an Australian address (just use Melbourne for city if you are not from down under!) ",
+      "original_categories": [
+        "search",
+        "social",
+        "humor",
+        "ecommerce",
+        "food"
+      ],
+      "used_apis": [
+        "yelp-fusion"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "groupbuydaily",
+      "description": " One-stop shop for the daily group buy deals in your city. View deals on a map or list with ratings powered by Yelp . ",
+      "original_categories": [
+        "coupons",
+        "localization",
+        "ecommerce"
+      ],
+      "used_apis": [
+        "yelp-fusion"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "yelp-search",
+      "description": " Use the Yelp Search widget to find reviews of restaurants, bars and businesses near you. Enable the Center setting to initially center the map on your location. ",
+      "original_categories": [
+        "mapping",
+        "widgets",
+        "search",
+        "ecommerce"
+      ],
+      "used_apis": [
+        "yelp-fusion"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "turnhere.com",
+      "description": " The TurnHere video service chronicles different neighborhoods and places across the country through the use of Internet video films. This map plots their locations. ",
+      "original_categories": [
+        "mapping",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "uship-ritchie-bros.-auctioneers",
+      "description": " Ritchie Bros. Auctioneers have partnered with uShip to bring customers oversized shipping options. A Customer benefits by sending one req and receiving multiple quotes or quick shipping estimates based on similar jobs completed through the uShip marketplace. ",
+      "original_categories": [
+        "shipping",
+        "marketplace"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "agencyiq",
+      "description": " AgencyIQ helps insurance agencies connect with their leads through lead management and email marketing. ",
+      "original_categories": [
+        "messaging",
+        "reference",
+        "insurance"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "doocu",
+      "description": " A free PDF file sharing site where you can upload/download/share PDF collections in private or in public, or read the PDF online using a built-in PDF reader. Doocu is using Amazon EC2 and S3 for storage and database. ",
+      "original_categories": [
+        "office",
+        "pdf",
+        "business"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shoptweets",
+      "description": " At Shoptweets we scan twitter so you can see what what real people are saying about real stores in real-time. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-maps-meets-stuffopolis",
+      "description": " Mashup of Google maps, Amazon and Stuffopolis. Here is a snapshot of where my stuff is around the world right now. Each marker is a friend. Click on a marker and you see what stuff they have. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "music-mash",
+      "description": " A Google Gadget that lets you search the Rhapsody catalog of millions of songs by their lyrics. You can also use it to find YouTube and Yahoo videos. ",
+      "original_categories": [
+        "music",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "renewableplanet.com",
+      "description": " Nice, searchable database and map of renewable energy projects from around the world. Here is an opportunity to celebrate and learn about the impact individuals and organizations create a renewable energy community. ",
+      "original_categories": [
+        "mapping",
+        "science",
+        "energy"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mileage-calculator",
+      "description": " You can use this tool to calculate travel mileage for any number of trips, fetching information from Google Maps. Better yet, if you have trips entered in Google Calendar, you can fetch those events towards calculating mileage. ",
+      "original_categories": [
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "specialgourmets-gluten-free-allergy-free-food",
+      "description": " Lists and maps thousands of restaurants, shops and hotels offering choices of menu and products for those on a gluten free, dairy free, nut free diet. Available in 3 languages. ",
+      "original_categories": [
+        "mapping",
+        "nutrition",
+        "health",
+        "food",
+        "medical"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bioscoopagenda-igoogle-gadget",
+      "description": " Dutch-Belgian Google widget: Bioscoopagenda voor bioscopen en filmhuizen in Nederland en Vlaanderen. Inclusief Top 10 en Premieres. ",
+      "original_categories": [
+        "movies",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "info-turin-poland",
+      "description": " It's a non-commercial city portal with a Google Mgap of Torun, a beatiful, medieval Polish town. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "elcies-dev",
+      "description": " ELCIES has developed a Personalized Workouts API to accelerate digital workout and exercise platforms by integrating Personalization Algorithm into external Personal Training Platform and Apps. ELCIES is a lifestyle data platform that allows businesses to obtain and organize fitness and health data without heavy integration. ",
+      "original_categories": [
+        "health",
+        "fitness"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "api-expert-indeed-job-search",
+      "description": " Indeed Job Search by API Expert is an application that lets users to search for different types of jobs by providing the desired location. This application is implemented by leveraging with the Indeed API. ",
+      "original_categories": [
+        "search",
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "map-botswana",
+      "description": " Shows the location of safari camps and lodges in Botswana's Okavango Delta, with recent traveler reviews, photos and short descriptions. You can also add this map to your own site or blog. ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "african"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "att-drivemode",
+      "description": " Everyone knows texting and driving is dangerous, yet when a text message comes in, it's difficult not to respond. AT&amp;T DriveMode is a free* app that silences incoming text message alerts so you can stay focused while driving. The AT&amp;T DriveMode iOS App for iPhone uses the In-App Messaging API to send auto replies on behalf of the driver indicating the driver is on the road and unavailable to text. The AT&amp;T Webhooks Notifications API provides push notifications for the AT&amp;T DriveMode iOS App. *Data and messaging rates apply ",
+      "original_categories": [
+        "safety",
+        "messaging",
+        "smartphone",
+        "text"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "job-sniffer",
+      "description": " JobSniffer helps you organize and automate your job search powered with the API from Indeed. -Create filters and automate your search. Let the app do the hard work and it will notify you when new offers appear. -JobSniffer will provide you the web content from Indeed, plus geographical info and the possibility to add your own notes. -Organize all the offers found, marking your favourites as 'Cool'. ",
+      "original_categories": [
+        "mapping",
+        "jobs",
+        "search",
+        "automation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "meteostone-social-weather-service",
+      "description": " MeteoStone is an experimental project for people to collect and share meteorological data about weather all over the world. ",
+      "original_categories": [
+        "weather",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "trender-blender",
+      "description": " Grabbing trends from Google, Twitter, Yahoo! &amp; YouTube and aggregating them into a single site. View trend snapshots (taken about every 45 min.), or blended into a daily wordcloud visualization to see relative trend popularity for the day. ",
+      "original_categories": [
+        "visualizations",
+        "social",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tracks-map",
+      "description": " View tracks on a map. See music uploaded to SoundCloud spread over the globe. Discover new music and find out what people are doing on the other side of the world. ",
+      "original_categories": [
+        "mapping",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "hab.la-realtime-chat-translation",
+      "description": " Hab.la is a FREE service for chatting with visitors to your website using any jabber compatible IM client: iChat, adium, Meebo, Pidgin. Google Translate translates the conversations into the language of your choice, in real-time. ",
+      "original_categories": [
+        "chat",
+        "translation",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "blogmap",
+      "description": " The EVDB (now Eventful) API combined with MS MapPoint creates a mini-map (Feedmap) showing bloggers and events nearby a particular blogger. ",
+      "original_categories": [
+        "mapping",
+        "blogging",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "docusign-ink-outlook",
+      "description": " Sign virtually any email attachment with DocuSign Ink. The DocuSign Ink Outlook plugin installs indirectly into the Outlook Home tab enabling you to instantly sign and return documents directly from your Outlook email. ",
+      "original_categories": [
+        "printing"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "qibla-direction",
+      "description": " Check your prayer direction any time, any place. It's more accurate than a compass. Just enter your address to get started. ",
+      "original_categories": [
+        "religion",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ifttt-channel",
+      "description": " IFTTT is a service that lets you create “if this then that” connections to automate interaction between Fitbit and over one hundred applications including Facebook, Twitter, SMS, Box, and Gmail. Users will be able to customize their own 'recipe', or plans, and/or use the existing recipes on the application. It is a way for people to make use of the internet and its ability to connect between different applications and channels. ",
+      "original_categories": [
+        "collaboration",
+        "events",
+        "planning"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twizon",
+      "description": " Lists recent tweets about Amazon.com products from the Twitter public timeline. ",
+      "original_categories": [
+        "ecommerce",
+        "social",
+        "messaging",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "trekin-u",
+      "description": " Service that provides a platform to create a geotagged photo album. ",
+      "original_categories": [
+        "photos",
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "so-audible",
+      "description": " so audible cloud music player, sync your tracks share with friends upload, quick share embed, html5, ipad, iphone, android, play music anywhere long mixes, meetings, sermons, podcasts, radio ",
+      "original_categories": [
+        "music",
+        "cloud",
+        "widgets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pokerdiy-local-poker-games-map",
+      "description": " Find local poker games, poker leagues, groups and players near you on this Google Map service. ",
+      "original_categories": [
+        "mapping",
+        "gambling",
+        "gambling"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "smartinsurance",
+      "description": " Smartinsurance.sg is a new car insurance comparison site that makes it extremely easy for you to compare singapore car insurance prices online. ",
+      "original_categories": [
+        "search",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "yell.com-maps",
+      "description": " Yellow-page listings with points-of-interest data plotted on a map. ",
+      "original_categories": [
+        "localization",
+        "mapping",
+        "transportation",
+        "england"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ethnic-dining",
+      "description": " Find ethnic restaurants in your neighborhood. ",
+      "original_categories": [
+        "mapping",
+        "food"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mars-explorer",
+      "description": " The Mars Explorer app (for Android devices) allows you to explore The Red Planet as a whole or through the eyes of one of three NASA rovers currently on the surface. Learn about each of the three rovers and the data they collect on the surface of Mars. Search through years worth of pictures the rovers have taken. Save and share your favorite pictures. Learn about how the rovers work and how they were built. Learn something new about Mars every day with the Daily Fact home screen widget. Get the latest weather details from the Rover Environmental Monitoring Station on board the Curiosity Rover. ",
+      "original_categories": [
+        "education",
+        "astronomy",
+        "entertainment",
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wikiwalki",
+      "description": " WikiWalki lets you search, draw, and share your favorite outdoor trail by importing and exporting GPS data and Google mapping them. Use it to email a cool map of your walk, bike ride or running trail to your friends or find a new hike or city tour nearby. ",
+      "original_categories": [
+        "recreation",
+        "mapping",
+        "cycling",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "creative-commons-car-pictures",
+      "description": " A unique and scalable process was used to identify and find photographs of more than 1500 automobile models. Images are free to use under CC-BY or CC-BY-SA licenses. This site exports Linked Data using RDF-XML and the SIOC ontology. ",
+      "original_categories": [
+        "auto",
+        "auto",
+        "photos",
+        "semantics",
+        "rdf"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "go-straight",
+      "description": " It is a 2D Score based game where the player tries to stir a yacht in a river through wood logs. ",
+      "original_categories": [
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "iran-election-protest-tweet-map",
+      "description": " Iran Election Protest Tweets from Middle East, Europe, Eastern and Western United States ",
+      "original_categories": [
+        "mapping",
+        "government",
+        "blogging",
+        "tweets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "keyword-search-volume-checker",
+      "description": " The free Keyword Search Volume Checker by SEO Review Tools gives you access to the country-specific monthly search volumes, Google AdWords (CPC) estimates and paid competition (on a 1 -100 scale) for any keyword. You can get data for up to 10 keywords every time you perform a check. Currently supporting 14 different countries including, US, UK, Canada, Netherlands, Germany and many more. ",
+      "original_categories": [
+        "keywords",
+        "advertising",
+        "content",
+        "search",
+        "seo"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "photo-map-0",
+      "description": " Real-time photos from Twitter on top of Google Maps. ",
+      "original_categories": [
+        "visualizations",
+        "social",
+        "mapping",
+        "reference",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sexy-visions",
+      "description": " A collection of sexy videos from YouTube. Search for videos by country, type and other categories. NSFW, not safe for work. ",
+      "original_categories": [
+        "celebrities",
+        "models",
+        "adult",
+        "video",
+        "adult"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "del.icio.us-aggregator",
+      "description": " Lists the most popular bookmarks in del.icio.us over specific time periods, such as 4 hours, a day, a week, a month and a year. ",
+      "original_categories": [
+        "bookmarks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bedmap",
+      "description": " BedMap is an interactive hotel map with detailed pricing comparisons and help options. Search more than 90,000 available hotels and book a room instantly. ",
+      "original_categories": [
+        "ecommerce",
+        "search",
+        "mapping",
+        "reference",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pld",
+      "description": " The PLD Mashup offers graphics and design solutions spanning across various domains that include logo and website designs as well as mobile applications and e-commerce platforms. The mashup’s provider works closely with developers to support unlimited revisions and achievement of best results. ",
+      "original_categories": [
+        "graphics",
+        "design"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "more-f1",
+      "description": " More Than F1 is a free, web-based, fantasy F1 Management game. Pick drivers, chassis, engine and sponsors then watch your teamâ€™s fortunes and finances develop! ",
+      "original_categories": [
+        "games",
+        "humor",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "traces-conspiracy",
+      "description": " Generative fiction with Google Maps and Flickr. ",
+      "original_categories": [
+        "mapping",
+        "art",
+        "books"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "phone-events",
+      "description": " Post and share events for free. Get local event information on your cell phone. Post and share invites. Uses the Eventful API. ",
+      "original_categories": [
+        "tickets",
+        "events",
+        "mobile",
+        "localization"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "poland-maps",
+      "description": " Polish maps mashup. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tinytube",
+      "description": " TinyTube is your source for all things beneficial to your children. Ranging from movie trailers to educational videos and funny videos, TinyTube has everything your child needs on one site to be entertained for as long as you'd like. ",
+      "original_categories": [
+        "video",
+        "family",
+        "family"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tropical-cyclone-phailin-shelters",
+      "description": " This mashup helps locate safety shelters in India. With Tropical Cyclone Phailin closing in on land many people will be looking to find safety. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "hotelchatter-hollywood-secrets",
+      "description": " Get the dirt on Hollywood celebrity hotel goings-on. HotelChatter covers everything related to hotels and lodging around the world, we cover hotel deals and reviews, which celebrities are staying where, hotel industry news, the hotels to stay away from. ",
+      "original_categories": [
+        "mapping",
+        "travel",
+        "celebrities",
+        "movies"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "naksha",
+      "description": " Pakistan's complete map with home address search. ",
+      "original_categories": [
+        "pakistani",
+        "mapping",
+        "addresses"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sush.io",
+      "description": " Sush.io is a web application that allows businesses to connect all of their applications together. Sush.io focuses on automation, from automatically adding new contacts to invoicing clients. Sush.io saves businesses time by eliminating repetitive tasks. ",
+      "original_categories": [
+        "software-as-a-service",
+        "business"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-seo-checker",
+      "description": " The Google SEO checker helps you to find out how Google scores your on-page SEO efforts. Based on 14 key features Google will give you feedback and recommendations to improve your website for search. Some examples of the elements that are included when performing the analysis are indexation, status code, robots.txt, canonical, meta description, title tag and more.. ",
+      "original_categories": [
+        "seo",
+        "marketing",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapsavings.com",
+      "description": " A ridiculously easy way to find and print coupons for spas, restaurants, entertainment, services, and more, anywhere in the United States. ",
+      "original_categories": [
+        "mapping",
+        "coupons",
+        "localization",
+        "search",
+        "ecommerce",
+        "discounts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "us-senate-map",
+      "description": " Mashup of www.senate.gov and Google Maps displays all the current United States Senators with their office address, phone number, contact information and website. ",
+      "original_categories": [
+        "government",
+        "government",
+        "usa",
+        "government",
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "comment-stack",
+      "description": " Comment Stack is a mashup of ReadSocial and Readability. Allowing users to quickly reference content across platforms. ",
+      "original_categories": [
+        "social",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sales-tracker",
+      "description": " Sales Tracker is a product built around organizations who want their field sales team to report there daily sales via SMS. ",
+      "original_categories": [
+        "messaging",
+        "mobile",
+        "messaging",
+        "sales"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "category": "real-estate",
+  "uid": "77cd507d",
+  "n_samples": 19,
+  "n_labels": 7,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 2.4972836494445803,
+      "std_val_loss": 1.6312115435516814,
+      "mean_micro_f1": 0.3239154704944179
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 3.1284326195716856,
+      "std_val_loss": 2.4115889886793678,
+      "mean_micro_f1": 0.32555555555555554
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 2.4972836494445803,
+    "std_val_loss": 1.6312115435516814,
+    "mean_micro_f1": 0.3239154704944179
+  }
+}

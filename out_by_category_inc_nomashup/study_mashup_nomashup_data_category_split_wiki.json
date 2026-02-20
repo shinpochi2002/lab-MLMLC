@@ -1,0 +1,111 @@
+{
+  "category": "wiki",
+  "count": 9,
+  "items": [
+    {
+      "mashup": "scoopmap.net",
+      "description": " Scoopmap.net allows users to view breaking news around the world by leveraging two APIs. Discover hot spots and articles written by high quality newspapers such as the Guardian and New York Times. ",
+      "original_categories": [
+        "localization"
+      ],
+      "used_apis": [
+        "dbpedia"
+      ]
+    },
+    {
+      "mashup": "must-see-greece",
+      "description": " Mustseegreece.com leverages the Flickr, Twitter, Google Places and Wikipedia APIs to provide information for travel and tourism destinations. ",
+      "original_categories": [
+        "greek",
+        "travel",
+        "greek",
+        "beauty",
+        "travel"
+      ],
+      "used_apis": [
+        "dbpedia"
+      ]
+    },
+    {
+      "mashup": "context",
+      "description": " conTEXT allows users to semantically analyze text corpora (such as blogs, RSS/Atom feeds, Facebook, G+, Twitter, etc.) and provides novel ways for browsing and visualizing the results. ",
+      "original_categories": [
+        "text",
+        "analytics",
+        "content"
+      ],
+      "used_apis": [
+        "dbpedia"
+      ]
+    },
+    {
+      "mashup": "geo-wiki-search",
+      "description": " A Mashup of the new WikiLocation API and Google Maps to show information about Wikipedia articles in a location. ",
+      "original_categories": [
+        "social",
+        "reference",
+        "search",
+        "mapping"
+      ],
+      "used_apis": [
+        "wikilocation"
+      ]
+    },
+    {
+      "mashup": "distance-calculator-entfernung.org",
+      "description": " German language distance calculator, using various reverse geocoding APIs to retrieve location and related place infos, such as Wikipedia overview articles, nearby airports, etc. ",
+      "original_categories": [
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [
+        "dbpedia"
+      ]
+    },
+    {
+      "mashup": "dbpedia-mobile",
+      "description": " DBpedia Mobile maps DBpedia locations and allows users to explore background information about them by navigating into DBpedia and other interlinked datasets such as GeoNames, Revyu, EuroStat and Flickr. Supports 14 languages and various filters. ",
+      "original_categories": [
+        "reference",
+        "mapping",
+        "mobile",
+        "semantics"
+      ],
+      "used_apis": [
+        "dbpedia"
+      ]
+    },
+    {
+      "mashup": "deki-wiki-twitter-extension",
+      "description": " An extension for open source Mindtouch Deki Wiki platform that allows integration of Twitter data. ",
+      "original_categories": [
+        "wiki",
+        "plugins",
+        "messaging"
+      ],
+      "used_apis": [
+        "mindtouch-deki-wiki"
+      ]
+    },
+    {
+      "mashup": "mindtouch-deki-wiki",
+      "description": "REST-based API with 99 methods that expose MindTouch Deki Wiki's complete functionality. Deki Wiki is also a mashup platform. Download the source code or VMware certified package.",
+      "original_categories": [
+        "wiki"
+      ],
+      "used_apis": [
+        "mindtouch-deki-wiki"
+      ]
+    },
+    {
+      "mashup": "wikilocation",
+      "description": "The WikiLocation API is for developers wishing to search for Wikipedia articles by location. The data is gathered by downloading the Wikipedia database on a weekly basis and then parsing all of the geocoded entries. This data is stored in a database where it is able to be accessed via the API.WikiLocation supports 36 languages, totaling over 3.8 million articles. At present, there are over 1 million entries from en.wikipedia.org alone.In addition to searching via location, users can also search via the venue and spot IDs of the two most popular geo-location networks; Foursquare and Gowalla as well as by Yahoo! WOEID. The API uses RESTful protocol and responses are formatted in XML, JSON, or JSONP.",
+      "original_categories": [
+        "wiki"
+      ],
+      "used_apis": [
+        "wikilocation"
+      ]
+    }
+  ]
+}

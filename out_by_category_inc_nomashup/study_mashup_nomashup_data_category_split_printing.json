@@ -1,0 +1,37 @@
+{
+  "category": "printing",
+  "count": 3,
+  "items": [
+    {
+      "mashup": "public-domain-reprints",
+      "description": " Lets people reprint public domain books from Internet Archive and Google Books. ",
+      "original_categories": [
+        "printing",
+        "books"
+      ],
+      "used_apis": [
+        "lulu-publishing"
+      ]
+    },
+    {
+      "mashup": "lulu-publishing",
+      "description": "The Lulu Print API allows you to use Lulu.com as your production and fulfillment network by integrating it directly into your own application. The Lulu API utilizes the same APIs that Lulu uses internally to normalize files and send Print Jobs to our production partners around the world.Whether you're a Developer, Start-up, Entrepreneur or Publisher, you can now incorporate global Print-on-Demand book manufacturing and distribution into your own business quickly and easily at the best commercial rates in the industry.",
+      "original_categories": [
+        "printing"
+      ],
+      "used_apis": [
+        "lulu-publishing"
+      ]
+    },
+    {
+      "mashup": "printr__api",
+      "description": "PRINTR is a 3D printing platform. It comes with beginner-friendly applications for designing 3D objects and also allows users to purchase existing 3D models online. Users can print objects and track the progress of objects being printed from their mobile devices.PRINTR's public API allows users to get printer types, sliceprofiles, available materials and colors, and 3D printing locations where a given material and color are available. The private API endpoints allow users to get, create, update, and delete information on users, files, printers, sliceprofiles, materials, print queues, 3D files, and file meshes. It can also render a .jpg image of a model or do a quickslice of an uploaded file.",
+      "original_categories": [
+        "printing"
+      ],
+      "used_apis": [
+        "printr"
+      ]
+    }
+  ]
+}

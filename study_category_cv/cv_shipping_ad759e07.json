@@ -1,0 +1,26 @@
+{
+  "category": "shipping",
+  "uid": "ad759e07",
+  "n_samples": 14,
+  "n_labels": 5,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 1.1539913654327392,
+      "std_val_loss": 0.380530771274504,
+      "mean_micro_f1": 0.4366666666666667
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 1.2870620012283325,
+      "std_val_loss": 0.37811689266412235,
+      "mean_micro_f1": 0.3948717948717948
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 1.1539913654327392,
+    "std_val_loss": 0.380530771274504,
+    "mean_micro_f1": 0.4366666666666667
+  }
+}

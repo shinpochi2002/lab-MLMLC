@@ -1,0 +1,26 @@
+{
+  "category": "qa",
+  "uid": "eaf83f2d",
+  "n_samples": 5,
+  "n_labels": 2,
+  "results": [
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 0.7385944537818432,
+      "std_val_loss": 0.8866565244788335,
+      "mean_micro_f1": 0.8
+    },
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 0.9905913710594177,
+      "std_val_loss": 0.4957206324468087,
+      "mean_micro_f1": 0.3333333333333333
+    }
+  ],
+  "selected": {
+    "lr": 3e-05,
+    "mean_val_loss": 0.7385944537818432,
+    "std_val_loss": 0.8866565244788335,
+    "mean_micro_f1": 0.8
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "category": "stocks",
+  "uid": "2ece84cc",
+  "n_samples": 3,
+  "n_labels": 2,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 0.8125457366307577,
+      "std_val_loss": 0.13631276463486816,
+      "mean_micro_f1": 0.2222222222222222
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 0.9305154085159302,
+      "std_val_loss": 0.204795133296032,
+      "mean_micro_f1": 0.2222222222222222
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 0.8125457366307577,
+    "std_val_loss": 0.13631276463486816,
+    "mean_micro_f1": 0.2222222222222222
+  }
+}

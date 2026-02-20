@@ -1,0 +1,672 @@
+{
+  "category": "natural-language-processing",
+  "count": 63,
+  "positive_count": 3,
+  "negative_count": 60,
+  "pos_neg_ratio": "1:20",
+  "items": [
+    {
+      "mashup": "voice-apps",
+      "description": " Here any one can develop voice apps for Amazon Echo, Google Assistant and Microsoft Cortana. We support proactive event notifications using scheduler and web hooks. Users can also develop Chatbots using NLP. ",
+      "original_categories": [
+        "voice"
+      ],
+      "used_apis": [
+        "dialogflow-standard-webhooks",
+        "nlp-tools"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "dialogflow-standard-webhooks",
+      "description": "The Dialogflow Standard Webhooks API allows you to communicate with Dialogflow through its own, standard webhook format. Webhooks enables you to pass information from a matched intent into a web service to get a result. The Dialogflow API is an end-to-end development suite of conversational interfaces for chatbots, voice-powered apps and devices that includes; query, intents, entities and more. Dialogflow processes a natural language query and returns structured, actionable data as a result. It is an end-to-end development suite for building conversational interfaces for websites, mobile applications, popular messaging platforms, and IoT devices that is powered by machine learning. It recognizes the intent and context of what a user says, allowing your conversational interface to provide responses. Dialogflow enables users with ways to interact with products by building voice and text-based conversational applications.",
+      "original_categories": [
+        "natural-language-processing"
+      ],
+      "used_apis": [
+        "dialogflow-standard-webhooks"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "nlp-tools",
+      "description": "The NLPTools is a simple web service designed as a JSON over HTTP RESTful API. It decodes online news sources for sentiment analysis and textual classification. In order to analyze the sentiment or classify of a line of text, developers may use this API to receive a return of a category label and a conditionality on the piece ranging from positive, neutral, to negative sentiment.",
+      "original_categories": [
+        "natural-language-processing"
+      ],
+      "used_apis": [
+        "nlp-tools"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "tumblrss",
+      "description": " TumblRSS lets you import content from RSS Feeds into Tumblr. ",
+      "original_categories": [
+        "feeds",
+        "feeds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fitness-products",
+      "description": " Site builds a web cloud based off content which ties directly to a product search using the Amazon Search API. ",
+      "original_categories": [
+        "video",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nyc-interactive-transit-map",
+      "description": " Click on two points on the NYC Google Map and the program will display the shortest subway route between those two points, including walking time. ",
+      "original_categories": [
+        "mapping",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tweedee",
+      "description": " A live visualization of a social media feed applying CSS 3D transforms. Modern browser required. ",
+      "original_categories": [
+        "visualizations",
+        "social",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "textaurant",
+      "description": " Textaurant allows restaurant customers to wait online, not in line. Patrons can see wait times from any computer or mobile smartphone and can join the queue from anywhere. Restaurant hosts use a web-based waiting list that allows them to contact patrons via text or voice message when their table is almost ready. ",
+      "original_categories": [
+        "mobile",
+        "telephony",
+        "messaging",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "convoy-call",
+      "description": " Tries to simulate the simple joys of talking over CB radio on the highway. Just call in and enter the number of a highway and you will be entered into a group chat with other people traveling along the same road. ",
+      "original_categories": [
+        "humor",
+        "telephony",
+        "travel",
+        "voice"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "datadog",
+      "description": "DataDog is a multifunctional data management tool. It can be used for data visualization, contextualization, and other analytics. These functions are embedded into a collaborative work stream or dashboard to share data insights with colleagues. DataDogâ€™s programmatic RESTful API runs on a low-level HTTP interface and responds with JSON. It can be used for access to events and metrics, or for integration with other tools.",
+      "original_categories": [
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "formstack-mapping",
+      "description": " Takes addresses submitted with a Formstack form and displays the locations on a Google Maps map. ",
+      "original_categories": [
+        "mapping",
+        "forms"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twilio-mvc",
+      "description": " Twilio MVC is a vb.net and ASp.Net MVC application demonstrating a welcome message and also the gather call as well as playing mp3 sounds over the line ",
+      "original_categories": [
+        "telephony",
+        "messaging",
+        "audio"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "trackprofiler",
+      "description": " Trackprofiler is an online editor (and organizer) of GPS tracks. It is designed for hikers, mountaineers, mountainbikers, cyclists and more generally for people who use GPS devices for outdors activities. ",
+      "original_categories": [
+        "mapping",
+        "recreation",
+        "mapping",
+        "search",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "opendada",
+      "description": "Dada Entertainment is a mobile content provider with the largest paying customer base in the US. Dada offers MP3 music downloads with no DRM and Ringtones across all major US carriers. They also have a Music Social Network with over 10 million members. The openDada web service API lets you integrate the Dada.net content catalog, and earn compensation for your efforts. As an openDada affiliate, you are paid according to the amount of subscribers you refer.",
+      "original_categories": [
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "reuters-spotlight",
+      "description": "From their site: Provides a non-commercial community platform to allow users to innovate and develop their ideas by harnessing the content Reuters publishes, which includes news, video, pictures and multimedia articles. The Reuters Spotlight service provides access to Reuters content through standards based XML APIs feeds and provides a community around them to showcase, share and collaborate around your ideas.",
+      "original_categories": [
+        "news-services"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "easy-subtitles",
+      "description": " Search and download subtitles dragging video files directly into your browser. ",
+      "original_categories": [
+        "subtitles",
+        "video",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "crimeindc.org",
+      "description": " Google map mashup of crime in Washington, DC. ",
+      "original_categories": [
+        "crime",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "doob.fm",
+      "description": " Doob.fm is a free music-streaming site with custom online radio and audio/video scrobbler functionality. Doob.fm consumes the Last.fm API and enables users to play tracks on-demand, listen to internet radio, create custom playlists, watch music videos, check local venues for concerts and shows, view music charts, read through song lyrics, and more. ",
+      "original_categories": [
+        "music",
+        "audio",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dinoride",
+      "description": " Find rideshare matches among craigslist rideshare ads, according to your estimated route. Uses craigslist, Google Maps, and postgres. ",
+      "original_categories": [
+        "transportation",
+        "travel",
+        "mapping",
+        "transportation",
+        "travel",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "san-francisco-parking-availability",
+      "description": " Real time Google maps of current parking availability in the San Francisco Bay Area. ",
+      "original_categories": [
+        "transportation",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cicero",
+      "description": "The Cicero API matches addresses, zip codes, or coordinates to legislative districts and elected official contact information. Cicero easily integrates into an organization's existing web application or data management software. Local, state, and national data is available for the United States, Australia, Canada, New Zealand, the United Kingdom, Northern Ireland, Scotland, Wales, and Mexico.In addition to geocoding addresses and matching them to the correct legislative districts, Cicero returns maps of each district and detailed information about each elected official including office addresses, emails, and social media identifiers. Cicero also provides non-legislative district matching for census data, counties, school districts, watersheds, and police districts.",
+      "original_categories": [
+        "politics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "facebook-sentiment-analysis-tool",
+      "description": " This tool is written in PHP and it performs Sentiment Analysis on Facebook posts by using the Datumbox API 1.0v. ",
+      "original_categories": [
+        "sentiment",
+        "social",
+        "media",
+        "monitoring"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "call-safely",
+      "description": " Call-Safely allows users to call or text others without revealing their real phone number. Caller ID is set to a real working phone number that others can SMS message to or call back. ",
+      "original_categories": [
+        "voice",
+        "mobile",
+        "messaging",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "houses-finland",
+      "description": " Real estate prices in Finland. ",
+      "original_categories": [
+        "mapping",
+        "nordic"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zoomph",
+      "description": " Zoomph is a social platform that enables people and businesses to create searches that gather information from Twitter, Facebook, Instagram, and Google +. From the data collected, Zoomph helps customers analyze and create visualizations that would help promote their businesses/brands. ",
+      "original_categories": [
+        "social",
+        "media"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dctweets",
+      "description": " Provides an alert via Twitter when new schools in your interest area have needs. The DC stands for DonorsChoose, a platform for aggregating non-profit needs. ",
+      "original_categories": [
+        "education",
+        "charity"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "meetup-iphone",
+      "description": " Find Meetup groups in your area based on topic keyword and current geographic location. ",
+      "original_categories": [
+        "mapping",
+        "events",
+        "mobile",
+        "localization"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "maluuba-natural-language",
+      "description": "Maluuba is a phone assistant app that uses natural voice recognition technology to turn users commands into actions. It can work with features such as calendar, reminders, weather, search, voice calls, email and more. The Maluuba API works across two main functionalities; interpreting the meaning of phrases and finding normalized values for dates and times. The API uses RESTful calls and responses are formatted in JSON.",
+      "original_categories": [
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "oipa-openaid-iati",
+      "description": "OIPA extracts all published IATI XML files from the IATI Registry and stores them in a PostgreSQL database, that you can access using a RESTful API.",
+      "original_categories": [
+        "data-as-a-service"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "superpages",
+      "description": " Web-based version of the SuperPages. Uses Virtual Earth mapping technology to find businesses and services in your area. Driving directions, hours, and more are provided. Good wifi finder. ",
+      "original_categories": [
+        "telephony",
+        "wi-fi",
+        "ecommerce",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nukemap-3d",
+      "description": " NukeMap 3D is a visual representation of the impact of different size nuclear explosions. You can see the blast radius represented on google maps by placing a pin on any location in the world. ",
+      "original_categories": [
+        "mapping",
+        "visualizations",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "welly",
+      "description": " Welly is a mobile application that provides users their very own companion creature that travels with them and tracks their steps with the Fitbit activity monitor. It is an interactive activity game that makes workout simple and fun. ",
+      "original_categories": [
+        "fitness",
+        "entertainment"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "music-tube",
+      "description": " Combines Flickr, Last.fm and YouTube. Create your own folders, drag your videos, and view videos in a player. ",
+      "original_categories": [
+        "music",
+        "photos",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-maps-fast-food",
+      "description": " View the locations of over 27,000 major fast food chain restaurants, overlaid on the Google Maps API. ",
+      "original_categories": [
+        "mapping",
+        "food"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-mirror",
+      "description": "The Google Mirror API allows you to build web-based services that interact with Google Glass. It provides this functionality over a cloud-based API and does not require running code on Glass.",
+      "original_categories": [
+        "cloud"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "africa-tourism-information-portal",
+      "description": " An interactive African tourist guide providing rich interactive content. Built using Microsoft Silverlight along with Google Maps. ",
+      "original_categories": [
+        "travel",
+        "african",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "local-weather",
+      "description": " Local Weather is a web application that automatically show users their local weather forecast. This application uses ipinfo.io API and OpenWeatherMap API. ",
+      "original_categories": [
+        "weather",
+        "geography",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rentometer",
+      "description": " Genuinely useful mashup that can help you determine if you are paying too much in rent. Enter an address, apartment size, and rent. It maps nearby units and shows a meter of your price versus min, max and average. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tweetypants",
+      "description": " How smart are your Twitter friends? This mashup grabs a dozen of the user's most recent tweets and then submits them to OpenAmplify for analysis. Results are shown in numerical and graphical forms. It uses the QueryPath PHP library. ",
+      "original_categories": [
+        "blogging",
+        "semantics",
+        "social",
+        "humor",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gp-hub",
+      "description": " GP HUB provides tour operators with online access to more than 50 travel service suppliers via a single XML protocol, so that travel website owners don't need to develop specific API integrations of all their suppliers on their own. Also, the number of travel product suppliers can be increased at any moment; no additional developments will be needed. The XML-interface of the GP HUB is based on the Open Travel Alliance standard, www.opentravel.org, noted for its reliability and security. ",
+      "original_categories": [
+        "travel",
+        "tourism",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "stumblepics",
+      "description": " StumblePics allows you to discover new pictures by stumbling upon them. ",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickair",
+      "description": " Flickr Tool developed using Flickr and YahooMap REST APIs. This is an Adobe AIR version of MyFlickrTool. ",
+      "original_categories": [
+        "mapping",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "opendoar",
+      "description": "From their site: OpenDOAR is constructing a comprehensive and authoritative list of institutional and subject-based repositories. The API is a machine-to-machine interface that lets third party applications run a wide variety of queries against the OpenDOAR Database and get back XML data. You can choose to receive just repository titles &amp; URLs (suitable for OAI-PMH harvesting), or all the available OpenDOAR data, or intermediate levels of detail.",
+      "original_categories": [
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "feedly-ios",
+      "description": " The feedly app aggregates a user's favorite sites into a streamlined summary. Feedly uses RSS feeds to display cards pertaining to a user's curated tastes. Feedly for iOS is compatible with iPhone and iPad, with syncing available for use on multiple devices. Feedly's social functions make sharing content to major social hubs very easy. Feedly also syncs with Pocket, Instapaper, and Evernote to allow personal information management across apps. ",
+      "original_categories": [
+        "blogging",
+        "notes",
+        "social",
+        "webhooks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "simplest-shop",
+      "description": " Uses the Amazon E-Commerce API to create a clean, simple interface to the Amazon catalog. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cash4books.net",
+      "description": " Cash4Books has for years been enabling its customers to allocate a portion of the cash they receive for their books in support of classroom projects. By plugging into our API's transactional functionality, Cash4Books customers now receive a DonorsChoose.org gift card for the precise denomination of their donation and can hand-pick the classroom project themselves! ",
+      "original_categories": [
+        "charity",
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tubegotchi-travel",
+      "description": " Shows YouTube videos of the top 100 most popular destinations around the world. ",
+      "original_categories": [
+        "video",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "earbud-finder",
+      "description": " Search stores for earbud headphones. Easy color based search feature. ",
+      "original_categories": [
+        "ecommerce",
+        "search",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "weathermole",
+      "description": " Nice mashup of the NOAA Weather Service API and Google Maps. Enter an address and get detailed forecasts. ",
+      "original_categories": [
+        "mapping",
+        "weather"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "routemakr",
+      "description": " Provides an easy way to make your own route and share it with your friends. ",
+      "original_categories": [
+        "reference",
+        "mapping",
+        "social",
+        "travel",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "10-fascinating-googlers",
+      "description": " Fortune Magazine list of 10 Fascinating Googlers plotted on a Google Map. ",
+      "original_categories": [
+        "mapping",
+        "trivia"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "epa-watershed-summary",
+      "description": "The EPA's Watershed Summary API provides a summary of information for the types of data available within a given watershed, which is identified by an 8-digit HUC (Hydrologic Unit Code). This data includes which organizations have data, the number of stations, and result counts by characteristic type.",
+      "original_categories": [
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "home-and-garden",
+      "description": " Home and garden furniture, furnishings, and accessories. Includes range of products from some major retailers from around UK, DE, FR, AU and USA. ",
+      "original_categories": [
+        "ecommerce",
+        "england",
+        "european",
+        "french"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "guardian-trends",
+      "description": " Produces graphs of how often things are mentioned on guardian.co.uk. ",
+      "original_categories": [
+        "charts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "national-weather-service-ndfd",
+      "description": "The National Oceanic and Atmospheric Administration (NOAA) provides the public, government agencies, and commercial enterprises with XML data from the National Weather Service's (NWS) digital forecast database.This API is available through SOAP or REST protocols, and provides an array of parameters allowing users to create customizable queries to the digital forecast database. Users can search the database by specific latitude/longitude, time, unit of measurement, and weather parameters. This service is provided free of charge by the U.S. government.Users interested in REST implementations of this API can find documentation [[http://graphical.weather.gov/xml/rest.php here]].",
+      "original_categories": [
+        "weather"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tweettocall",
+      "description": " Enables Twitter users to call each other for free, without revealing their phone numbers to one another. ",
+      "original_categories": [
+        "social",
+        "telephony",
+        "voice"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shoppers-needs",
+      "description": " Comparison shopping service with prices from many online merchants. Uses the Shopping.com API. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shopify-admin",
+      "description": "Use Shopify's robust ecommerce APIs to create apps for our 500,000 merchants. Over 35 endpoints, detailed SDKs, tutorials and access to dedicated API and developer support.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "college-football-bowl-schedule",
+      "description": " Google Maps Mashup of NCAA college football Bowl games schedule. ",
+      "original_categories": [
+        "mapping",
+        "education",
+        "sports",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fastest-growing-us-states",
+      "description": " Map of the tastest growing American states as being reported by Fortune magazine. ",
+      "original_categories": [
+        "reference",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "life-barack-obama-maps",
+      "description": " Journey of Barack Obama from his birth place in Honolulu, Hawaii, to possibly the White House. ",
+      "original_categories": [
+        "government",
+        "government",
+        "government",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "social-mirror",
+      "description": " Social Mirror monitors popular [English language] Twitter accounts, Facebook pages, and YouTube channels and offers basic visualizations of the posting activities of the observed social media accounts and their follower engagement. ",
+      "original_categories": [
+        "social",
+        "monitoring"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geek-breakfast",
+      "description": " Global site for Geek Breakfast. Uses Facebook as primary user authentication system ",
+      "original_categories": [
+        "social",
+        "meetings",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

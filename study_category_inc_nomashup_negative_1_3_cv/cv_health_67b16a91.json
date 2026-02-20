@@ -1,0 +1,26 @@
+{
+  "category": "health",
+  "uid": "67b16a91",
+  "n_samples": 5,
+  "n_labels": 2,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 1.0311421751976013,
+      "std_val_loss": 0.4282192414404373,
+      "mean_micro_f1": 0.26666666666666666
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 1.1507277488708496,
+      "std_val_loss": 0.550692372384909,
+      "mean_micro_f1": 0.2
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 1.0311421751976013,
+    "std_val_loss": 0.4282192414404373,
+    "mean_micro_f1": 0.26666666666666666
+  }
+}

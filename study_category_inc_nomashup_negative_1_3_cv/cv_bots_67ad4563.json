@@ -1,0 +1,26 @@
+{
+  "category": "bots",
+  "uid": "67ad4563",
+  "n_samples": 4,
+  "n_labels": 2,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 14.035144545137882,
+      "std_val_loss": 23.432727390639077,
+      "mean_micro_f1": 0.25
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 19.01624949835241,
+      "std_val_loss": 32.561526768005436,
+      "mean_micro_f1": 0.6666666666666666
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 14.035144545137882,
+    "std_val_loss": 23.432727390639077,
+    "mean_micro_f1": 0.25
+  }
+}

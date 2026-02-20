@@ -1,0 +1,782 @@
+[
+    {
+        "name": "routexl",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The RouteXL API provides basic multi stop route optimization. It reorders points for the fastest itinerary. Given a list of coordinates, it determines the quickest route to visit all destinations. Great for deliveries, collections and services on location.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "kiri",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "Kiri API provides a programmatic interface to the Kiri Indonesian rideshare platform. Using an API key, developers can implement POST and GET requests over HTTP with JSON serialization to access public transportation options and data. The service is recommended both for local citizens and also for tourists. Users can enter their travel destination, and Kiri automatically suggests a route using angkots (minibuses) as transportation. Kiri's general mission is to help reduce carbon footprints by collaborating in shared transportation efforts. In addition to the live API, Kiri offers a sandbox API environment for testing purposes. For additional information, developers can view the API documentation linked to below.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "averitt",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "Averitt Express is a provider of freight transportation and supply chain management with over 100 facilities across 18 states. Averitt Web Services provide XML feeds to a developer's website or internal systems. The feeds include: real-time rate quotes specific to a user's account, real-time shipment status by PRO, transit times throughout the U.S. and Canada, retrieval of shipment-related images and documents. The API uses SOAP protocol and responses are formatted in XML.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "dc-department-hire-vehicles",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The District of Columbia provides a REST interface used to integrate urban mobility options for services such as the location of taxis in real time. The API supports specific information associated with drivers, trips, and vehicles. The DFHV Integration Data API returns JSON formatted data, and requires API Keys for authentication.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "irail",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "iRail is a website offering basic information about train schedules in Belgium. iRail provides arrival and departure times, station board schedules, and more. A RESTful API is available for iRail, returning responses in XML, JSON, and JSONP.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "graphhopper-directions",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "GraphHopper Directions API is a routing web service designed to find the best route between two or more locations based on OpenStreetMap data. It provides worldwide coverage and suggests routes to take by car, bicycle, or foot. For every route even the elevation data can be included.The GraphHopper Directions API consists of the time-dependent Route Optimization API, Routing API, Geocoding API and more.Besides point to point routing more complex requirements can be satisfied via the route optimization API, which makes it possible to do fast optimization of the itineraries of salesman, sightseeing tours or the routes for vehicles that do delivery important in logistics or for taxi and tourism applications.Additional to routing a Geocoding API, an Isochrone API and a special Matrix API is provided for an efficient way of calculating distance matrices.The GraphHopper API enables users to integrate this information into their own applications.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "tso-mobile",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The service provides remote tracking of fleet vehicles operating independently on highway systems. It indicates the geographic locations of a tracked vehicle, the times of visits, the fuel used, available fueling stations, etc. The service can interact via API with Garmin GPS web services.API methods support secure authentication and integration with affiliate systems. Methods also support logging fuel purchases and use as well as available fueling stations.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "trafiklab-sl-trip-planner-2",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "Trafiklab is an online community that provides APIs for public transport in Sweden. The Trafiklab SL Trip Planner 2 API provides customers with travel information in Stockholm County in Sweden. With this API, developers can integrate its services into their applications, enabling their customers to get travel information while in Stockholm County, Swede",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "gometro-transport",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The GoMetro API provides data to export into multiple formats for analysis by spreadsheets, GIS, mapping software, 3rd-party integrations and so on. It allows you to access the GoMetro API endpoints to get information on various forms of public transport for stop details, route descriptions, operating schedules, etc.The API currently supports Cape Town, and will soon be adding Johannesburg, Pretoria, Ekhurhuleni, Durban, Rustenburg, Mbombela, Umtata, Kampala, George, Port Elizabeth, East London, Bloemfontein, Polokwane and more.GoMetro provides examples in JavaScript, with Shell, Ruby, and Python available soon.The GoMetro Passenger Application enables you with the ability to find transportation with features that include: Line Updates from Metrorail, Journey planner, Nearby stops, Email your boss and more.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "rideos-ridehail-driver",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "This RideHail Driver API is a part of the rideOS next-generation transportation platform. The API allows you to operate the driver side of a ride hail service. This includes the ability to; Create a vehicle, Cancel a trip, Retrieve a trip's information and more. In addition to this REST service, there is a gRPC interface for Enterprise customers that should contact the provider for more information. This rideOS API is built on sending a POST request with a JSON body and receiving a response as a JSON object. rideOS provides services to accelerate the global roll-out of next-generation transport.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "bring-easy-return-service",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "Bring Cargo is Norwegian company that specializes in Logistics and Transportation. Bring Easy Return Service is a service that lets Bring Cargo customers to create labels for parcels returning to cross-border e-retailers. The Bring Easy Return Service API lets developers to integrate it into their applications, enabling their customers to create parcels return labels.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "wsdot-traveler-information-wsf-schedule",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The WSDOT Traveler API's provides a single gateway to all of WSDOT's data. The Washington State Ferry Schedule data service includes; planned departures, adjustments, contingencies and more. The Washington State Department of Transportation is the steward of a multimodal transportation system and responsible for ensuring that people and goods move safely and efficiently. In addition to building, maintaining, and operating the state highway system, WSDOT is responsible for the state ferry system, and works in partnership with others to maintain and improve local roads, railroads and airports, as well as to support alternatives to driving, such as public transportation, bicycles and pedestrian programs.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "ride-live-transit",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "Ride On is Montgomery County, Marylandâ€™s public bus service. The Ride On Live Transit API provides a RESTful interface for read-only data on bus stops, bus routes and trips, schedules, arrival times, and bus stop sign messages. Results may be formatted in JSON or XML.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "parkme",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "ParkMe is a mobile application with parking information by location. Users of ParkMe can search for parking near them, sort by distance, price, and availability for parking in the area.The ParkMe API allows developers to access and integrate the functionality of ParkMe with other applications. Some example API methods include searching for parking, retrieving parking by price and distance, and retrieving driving directions for parking spots. Public documentation is not available; interested developers should email parking@parkme.com for a developer key and access to the API.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "navitiaio",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "Navitia.io is an API that helps people access and use public transportation data. It provides services for performing journey computations, getting line schedules, finding next departures, and discovering isochrones. Isochrones are locations that can be reached in the same amount of time from a person's starting point. This part of the API could, for example, be used to discover which stations could be reached within the next 60 minutes.The street network used by navitia.io is extracted from OpenStreetMap, and all of the public transport data comes from networks that provide their timetables as open data.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "onebusaway",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "OneBusAway provides access to real-time transit information for the Puget Sound region and beyond. Their API allows access to the same information that powers the OneBusAway website and mobile tools. Developers can use the api to write new apps. The API uses RESTful calls and responses are formatted in XML and JSON.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "trimet",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "Obtain the next arrival time, detours, and route information from the transit agency that serves metropolitan Portland, Oregon, USA. TriMet is the Tri-County Metropolitan Transportation District of Oregon.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "car2go",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "car2go is a point to point car sharing service available in Miami and Austin with flexible credits and rental rates. It has the advantage of promoting personal mobility and extending the reach of public transportation for the individual who chooses to forgo owning a car.The car2go API will provide up-to-date information on which vehicles are available, places to park, and local gas stations. There are protected functions for developers who register. Applications can be written to manage short term user bookings. Limited commercial applications may be obtained.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "trimble-road-speeds",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Trimble Road Speeds API allows developers to retrieve stored road speeds. The API defaults to returning the road speed for trucks, but developers may request the road speed for cars instead.This API is one of many routing, location, and mapping APIs provided by Trimble.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "traffic-records-electronic-data-system",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The service (formally named Traffic Records Electronic Data System -- TREDS) provide reports on highway safety statistics for sharing and analysis. Part of Virginiaâ€™s program to reduce crashes and injuries, it is intended to present accurate, timely and detailed information on traffic safety, especially related to motorcycle operation in the state.The API facilitates participation by records management systems, emergency service providers, and safety training providers in the TREDS program. Methods support submitting and retrieving crash and incident reports as well as reports on safety training. Motorcycle safety training vendors can supply instructor credentials, student characteristics, types of motorcycles involved, skills learned, grades and other outcomes achieved, and related functions.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "tfl-journey-planner",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "TfL is a London based transportation company that provides customers a way to find travel related information within the city of London. The TfL Journey Planner API lets developers to integrate its services and data with their applications. This API enables the users of the applications to have access to TfL's database directly.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "omnitracs-scheduler",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Omnitracs Scheduler REST API allows developers to access and integrate the functionality of Omnitracs Scheduler with other applications. Public documentation is not available; API access comes with account service. Omnitracs provides fleet management services for transportation logistics.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "dublin-bus-real-time",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Dublin Bus Real Time API provides users with access to Real Time Passenger Information (RTPI) for the Dublin Bus service. The API is not affiliated with either Dublin Bus or the RTPI's providers. As a result, this API is provided for non-commercial use only, and changes to the RTPI site may cause the API to break without warning. Information on stops and services can be retrieved using REST calls that return JSON and JSONP.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "sfpark",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The service provides continuously updated information about locations and pricing of available parking in selected areas of San Francisco. DataSF, the city government's open data initiative, collects and distributes the information to help drivers choose when to drive and when to choose other transportation options. Data is provided by off-street parking providers and by sensors that report status of individual street parking spaces as occupied or vacant.API methods support submission of search parameters, including location (latitude/longitude and preferred radius), type of parking desired (street or off-street), and whether or not to include rate information. Returned data include the locations of currently available parking, the type, and the applicable rate, if requested.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "trafiklab",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "Trafiklab is an open data initiative of Sweden, exposing traffic and transportation data and APIs. A project of several government agencies and other companies, Trafiklab offers a large suite of APIs for real-time transit information for bus, subway, commuter train, and local path; travel planning services; current traffic status; current and planned transportation projects; environmental impact of travel options; locations and operating hours for bike service; parking facility informaiton; and more. RESTful, and some SOAP, APIs are available. API keys are required for most APIs.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "fuel-prices-india",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Fuel Prices India API integrates the latest Fuel prices for major Indian cities. The API available for fetching fuel price, display cities, and show prices. Via the Heroku app, developers can fetch petrol and diesel prices live. Source: Indian Oil Corporation Ltd. website.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "tripgo",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The TripGo API allows you to plan door-to-door trips using a large variety of public and private transport. It integrates real-time information and, for selected providers, allows users to book and pay for transport.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "ice-and-fire",
+        "categories": [
+            "books"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Ice And Fire API allows access of quantified and structured data from the universe of 'A Song of Ice and Fire', which is a series of epic fantasy novels by the American novelist and screenwriter George R. R. Martin and also the HBO series Game of Thrones. It provides data about all the Books, Characters and Houses in JSON format. Authentication is not required. Node and Swift libraries available.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "pan-macmillan-book-extracts",
+        "categories": [
+            "books"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "Pan Macmillan Book Extracts API lets developers call for an extract for books from Pan Macmillan. Available fields for extraction are author, title, ISBN, reading time and publication date.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "rideos",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "This next-generation transportation platform is offered as a series of REST APIs. The API allows users to integrate with any portion of the stack, while focusing on needs specific to ride-share hailing. Methods are available to minimize wait times for riders, customize rider and driver applications, optimize dynamic demand and more. In addition to this REST interface, there is a gRPC interface (contact provider for information). Most of the rideOS APIs are built on sending a POST request with a JSON body and receiving a response as a JSON object. All APIs allow cross-domain communication from the browser implemented in compliance with W3C specification. rideOS provides services to accelerate the global roll-out of next-generation transport.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "trimble-trip-management-get-gps-coords",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Trimble Trip Management Get GPS Coords API allows developers to retrieve all of the GPS coordinates that have been recorded for a previously generated route using the <a href=https://www.programmableweb.com/api/trimble-trip-management-update-positions>Update Positions API</a>. There are two request variations for this API that can use either the alkTripId or the tmsTripId to retrieve results.This API is one of many routing, location, and mapping APIs provided by Trimble.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "polysync-record-and-replay",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Polysync Record &amp; Replay REST API allows developers to access and integrate the functionality of Polysync with other applications and to create new applications. The main API method enables the coordination between nodes participating in log sessions. Polysync provides a platform and features that allow for creating, testing, and deploying applications for driverless vehicles.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "libhomeradar",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "Libhomeradar provides data collection software enabling radar devices to collect and use aircraft data. Libhomeradar allows users to apply structure and filtering to raw data and hosts an online database of aircraft, airport, airline, and flight information.The Libhomeradar API allows developers to query the database via HTTP POST/GET calls. Responses are XML formatted.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "tripcheck",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "TripCheck is a service provided by the Oregon Department of Transportation and provides users with access to weather, trip planning assistance, and traffic information. The TripCheck API makes parking data from the Portland International Airport available, as well as traffic incident data, road weather reports, automated roadside weather station data, roadway sensor data, dynamic message sign data, highway weight restrictions, links to roadside camera images. Data is available in XML. An account is required with service.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "trimble-trip-management-update-trip-avoid-favors",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Trimble Trip Management Update Trip Avoid Favors API allows developers to add, update, or delete the avoid favors associated with a trip. To retrieve the avoid favors associated with a trip instead, developers should use the <a href=https://www.programmableweb.com/api/trimble-trip-management-get-trip-avoid-favors>Get Trip Avoid Favors API</a>.This API is one of many routing, location, and mapping APIs provided by Trimble.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "uber",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "Using the Uber API, developers can integrate the power of Uber into 3rd party applications. Calls to the API can be made to request information on available car types, driver location expressed in geo-coordinates, time estimates, estimated prices (including currency conversion when applicable), as well as user account history and activity. The Uber API documentation describes deep linking techniques to programmatically launch the native app from iOS or Android, or the Uber mobile site from mobile web. The API comes with a detailed style guide and asset package for implementing licensed brandings. The Uber API Affiliate program grants cash and issues Uber credits for new user onboarding through a 3rd party app.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "nextbus",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "NextBus provides data for transit authorities to deliver real-time information to their passengers via internet, touch-tone telephone, and SMS. Alerts are available through these methods, as well as through email.NextBus offeres a public XML feed accessible by RESTful calls for developers to use in third-party applications.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "postmates-delivery",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "Postmates is a courier service accessible via Android and iOS apps, allowing offices or individual users to request deliveries form any restaurant or store. Using the Postmates Delivery API, developers can integrate the on-demand delivery service into 3rd party applications. The API specifically allows developers to book a delivery, check delivery prices, request a quote, and track the status of a delivery until its arrival. The Postmates API uses standard HTTP request verbs GET, POST, DELETE, returns JSON formatted responses, and uses Basic HTTP and a customer ID for access for authentication purposes.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "trimble-pcmilerrail-web-services",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Trimble PC*MILER|Rail Web Services API allows developers to calculate rail routes and distances between locations in the U.S., Canada, and Mexico based on a set of routing options.This API is one of many routing, location, and mapping APIs provided by Trimble.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "routeshout",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "RouteShout provides free mobile apps to any transit agency and the public. RouteShout uses General Transit Feed Spec. (GTFS) for data collection and currently provides services for over 173 transit agencies in the United States and Canada.RouteShout also exposes their API for outside developers. The API uses HTTP GET and returns responses in the JSON format.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "transportapi",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The TransportAPI is a digital transportation platform for UK public transport data aggregator offering feeds to apps and real-time running displays. TransportAPI public transport aggregation services provides access to timetables and live information for all of London's public transport as released through the GLA London DataStore. Performance data, live running information and timetables are available and users must contact the provider for full documentation.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "govhg-dataone",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "Data.One on Hong Kong's government website, GovHK, provides public sector information, currently for geo-referenced public facility data and real-time traffic data. The traffic data, in the form of traffic speed maps, journey time indicators, and special traffic news, is also available via an API returning responses in XML.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "cta-bus-tracker",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The CTA Bus Tracker API provides a gateway into near-real-time CTA bus locations and estimated arrival times. Developers can use the official CTA Bus Tracker service via Web or mobile device. The API allows developers to get specific information from Bus Tracker to incorporate estimated arrivals and location information into apps. Data exposed via the API includes vehicle locations, route data, prediction data and service bulletins. The API uses RESTful calls and responses are formatted in XML.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "groundlink",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "GroundLink is a platform that aggregates, manages, and executes ground transportation services. GroundLink works with consumers, travel agents, and travel and transportation providers to offer an engine where users can search for and book ground transportation.The GroundLink API allows developers to integrate and access GroundLink functionality and data into other applications. The three API methods are converting addresses to geocode, searching for transportation, and booking transportation.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "rideos-path",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The rideOS Path API is a part of the rideOS next-generation transportation platform. The API enables users to find the optimal path between multiple waypoints within specified constraints. In addition to this REST service, there is a gRPC interface for Enterprise customers. This rideOS API is built on sending a POST request with a JSON body and receiving a response as a JSON object. rideOS provides services to accelerate the global roll-out of next-generation transport.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "rose-rocket-webhooks",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Rose Rocket Webhooks API allows developers to get notified about events that happen in their Rose Rocket instance. When an event occurs, Rose Rocket creates an event object containing relevant information - such as the type of event and data associated with it - and sends to event object to the provided URLs.The Rose Rocket API is a TMS (transportation management system) platform designed to improve communication between systems, customers, and people who move freight.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "polysync-shared-memory",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Polysync Shared Memory REST API allows developers to access and integrate the functionality of Polysync with other applications and to create new applications. The main API method is providing an interface for reading and writing data from a shared memory queue. Polysync provides a platform and features that allow for creating, testing, and deploying applications for driverless vehicles.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "rideos-ridehail-rider",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "This RideHail Rider API is a part of the rideOS next-generation transportation platform. The API allows you to operate the rider side of a ride hail service. This includes the ability to; Request a trip, Cancel a trip, Update a trip's definition and more. In addition to this REST service, there is a gRPC interface for Enterprise customers that should contact the provider for more information. This rideOS API is built on sending a POST request with a JSON body and receiving a response as a JSON object. rideOS provides services to accelerate the global roll-out of next-generation transport.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "trafiklab-resrebot-travel-planner",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Trafiklab ResRobot Travel Planner REST API provides travel planning data for all of Swedish public transport. That includes time tables for all trains, busses, subways and trams in Sweden. Data about bus stops and stations is also available. Trafiklab is an online community that provides APIs for public transport in Sweden.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "trafiklab-sl-fault-information-2",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "Trafiklab is an online community that provides APIs for public transport in Sweden. The Trafiklab SL Fault Information 2 API provides customers with current and planned disruptions in public transport in Stockholm. Use in conjunction with other Trafiklab SL APIs to enable a trip planning etc.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "openmobilitydata",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The OpenMobilityData API is a global collection of official public transit data that includes GTFS, GTFS-RealTime and more. It supports JSON responses that includes Get requests for Feed, Latest feed and Versions. This API provides access to an archive of public transit data for software developers and transit agencies, or public to browse and download GTFS &amp; GTFS-realtime feeds from around the world. OpenMobilityData provides a source of open official public transit data that is maintained by TransitScreen and others.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "plugshare-station",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "PlugShare connects electric vehicle drivers to charging stations and to a community of other electric vehicle users. The PlugShare Station API services over a million queries a month using a map function to locate and input re-charging facilities. This free API is available as a permalink or as an embedded feature.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "coord-toll-search",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Toll Search API is a read-only Coord service that answers questions about the prices and locations of toll roads. Examples are available in NodeJS, cURL, Java, Python, Go and C#. Coord provides a way to build a single integration to distribute your services through many channels. It helps other platforms provision users with the ability to access and pay for these services. Coord enables software applications to connect with transport options like ride-hail, bike-share, and car-share.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "mogol-conditions",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Mogol Conditions API returns data of road conditions, including construction, closures, incidents, winter pavement conditions, and events across the United States. It is based on GeoJSON schema with API Key as the authentication method.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "wheel-fitment",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Wheel Fitment API provides information associated with rims and tires for vehicles manufactured since the year 2000. Specific car data is available including bolts, countries, generations, makes, markets, and years. The API offers JSON-formatted responses.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "trimble-routing-drive-time-polygon",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Trimble Routing Drive Time Polygon API allows developers to retrieve a polygon of location coordinates that can be reached within a given driving time in minutes from a specified central point. Developers may also choose to specify the dimensions of the vehicle, whether to avoid tolls, whether the vehicle is carrying hazardous materials, and other factors that may affect the available routes.This API is one of many routing, location, and mapping APIs provided by Trimble.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "511-driving-times",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "511 is the San Francisco Bay Areaâ€™s free traveler information service available on the phone by calling 511 and on the web at 511.org. The 511 service gives access to current traffic, transit, rideshare, and bicycling information. The 511 Driving Times API provides 511's current and typical driving times between a starting and ending point, including incidents along the route. It gives usres real-time data about traffic conditions on the regionâ€™s freeways, CHP incident reports and other information; making it available for application development. The API uses RESTful calls and responses are formatted in XML.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "taxime",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "TaxiMe is a cost estimate service that uses Google Maps to calculate cab fare. The site is based in Canada but provides cost and trip information for major U.S. cities. The TaxiMe API allows users to get cab contacts and rates for different cities. The services uses REST calls and returns JSON.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "nyc-subway-data",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The NYC Subway Data API allows users to retrieve subway information from New York City's Metropolitan Transit Authority (MTA) and integrate it into their own applications. The API allows users to retrieve subway station codes, a station's name and coordinates, all subway arrival times for a given station, and all stations where a train is stopping at a given time.",
+        "middlecategories": [
+            "7-1"
+        ]
+    },
+    {
+        "name": "toronto-transit-commission-real-time-arrivals",
+        "categories": [
+            "transportation"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "This service provides real-time locations and next vehicle arrival predictions for Toronto Transit Commission (TTC) streetcars. Schedules/Route definitions are updated approximately every 6 weeks. Developers can use this data to create applications for providing passenger information to the public. The API uses RESTful calls and responses are formatted in XML.",
+        "middlecategories": [
+            "7-1"
+        ]
+    }
+]

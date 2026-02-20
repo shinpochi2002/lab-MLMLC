@@ -1,0 +1,26 @@
+{
+  "category": "entertainment",
+  "uid": "3f66dc70",
+  "n_samples": 13,
+  "n_labels": 3,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 3.436685848236084,
+      "std_val_loss": 5.678290623619381,
+      "mean_micro_f1": 0.5014285714285714
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 4.127740943431855,
+      "std_val_loss": 6.868796696799484,
+      "mean_micro_f1": 0.3333333333333333
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 3.436685848236084,
+    "std_val_loss": 5.678290623619381,
+    "mean_micro_f1": 0.5014285714285714
+  }
+}

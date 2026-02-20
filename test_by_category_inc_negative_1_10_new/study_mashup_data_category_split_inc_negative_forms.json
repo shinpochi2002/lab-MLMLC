@@ -1,0 +1,99 @@
+{
+  "category": "forms",
+  "count": 44,
+  "positive_count": 4,
+  "negative_count": 40,
+  "pos_neg_ratio": "1:10",
+  "items": [
+    {
+      "mashup": "formstack-calendar",
+      "description": " Takes data submitted with a Formstack form and creates corresponding event entries on a Google Calendar. ",
+      "original_categories": [
+        "forms",
+        "calendars",
+        "events"
+      ],
+      "used_apis": [
+        "formstack"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "gifanator",
+      "description": " The Gifanator employs the Giphy API along with the Twilio API to allow people to receive or send randomly generated Gifs via text messaging. Users can also select keywords from a list of negative and positive emotions to send more specific Gifs to their friends. ",
+      "original_categories": [
+        "chat",
+        "entertainment",
+        "messaging",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "communitywalk",
+      "description": " Create your own Google Maps with photos, comments, directions. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "maps-tibet-protests",
+      "description": " Map of March 2008 protests in Tibet, and ensuing events. With photos, summaries, and links to supporting documentation about the Tibetan Centre for Human Rights and Democracy, TCHRD, website. ",
+      "original_categories": [
+        "government",
+        "chinese"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "aroundme",
+      "description": " The AroundMe app pulls data from providers around the world to give their users a sense of what is around them. Users must be connected to a WiFi/G provider for service. ",
+      "original_categories": [
+        "mapping",
+        "geography",
+        "localization",
+        "mobile",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "musicians-and-their-instruments",
+      "description": " Dolphin Music Artists is a directory of musicians and the musical instruments they play. See which guitars and amps are used by the artists. ",
+      "original_categories": [
+        "music",
+        "music",
+        "art",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sms-to-email-gateway",
+      "description": " Build an SMS-to-email gateway using the Plivo SMS API and the Mailgun API. 1. Forward emails as SMS (sent to your Plivo number) to your email address. 2. Reply back to that SMS from your email. ",
+      "original_categories": [
+        "messaging",
+        "email",
+        "messaging",
+        "api"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "titlez",
+      "description": " Book trends for publishers using the Amazon API. Retrieves current and historic sales rank data for Amazon book titles, displaying trends in graphic and numeric form for each analysis and decision making. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

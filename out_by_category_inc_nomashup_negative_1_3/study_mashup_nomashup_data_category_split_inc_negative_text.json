@@ -1,0 +1,92 @@
+{
+  "category": "text",
+  "count": 8,
+  "positive_count": 2,
+  "negative_count": 6,
+  "pos_neg_ratio": "1:3",
+  "items": [
+    {
+      "mashup": "findilike",
+      "description": " FindiLike Hotel Search is a hotel search and review analysis system that helps users find hotels based on their reviews, prices, or location. Hotels can be searched with unstructured keywords like, pet friendly, swimming pool, or friendly staff. FindiLike App also supports structured search criteria like distance from a landmark or address or price range. ",
+      "original_categories": [
+        "search",
+        "text"
+      ],
+      "used_apis": [
+        "rxnlp-text-similarity"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "rxnlp-text-similarity",
+      "description": "RxNLP is a Text Mining and Natural Language Processing service. One of RxNLP's API's, is the Text Similarity API. It is used for analyzing and computing surface similarities between texts, both long and short. Having the tools to identify text similarity can help with things such as query reformulation, finding and analyzing similar topics, and grouping similar items.",
+      "original_categories": [
+        "text"
+      ],
+      "used_apis": [
+        "rxnlp-text-similarity"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "barcelona-bicing",
+      "description": "This application has the task to extract information of a website which doesn't offer easy extraction data methods, and offer its data in a easy to read method for third party applications. For example, it reads the data of the Bicing stations (a sharing byke service at Barcelona) from its Google Maps powered website, and offer its data in XML, JSON, Serialized Java... The project was born with the task of extract the data from Bicing, but it has grown to do the same for other cities.",
+      "original_categories": [
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "facebook",
+      "description": " See me on Facebook ",
+      "original_categories": [
+        "telephony",
+        "social",
+        "photos",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "golf-world-map",
+      "description": " Interactive Map of golf courses worldwide. Golf Course Directory with satellite images and photos. ",
+      "original_categories": [
+        "sports",
+        "sports",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dictamus-iphone-dictation-service",
+      "description": " Dictamus is a dictation app for the iPhone, and this mashup allows users to send dictations directly from Dictamus to their Box.net accounts. ",
+      "original_categories": [
+        "storage",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "social-actions__api",
+      "description": "Use the Social Actions Open API to search the SocialActions.com database of volunteer and philanthropy opportunities, called social actions, useful for those interested in peer-to-peer social change. The database aggregates the opportunities of over 20 organizations, and the results include the title, description, location, action type, and source URL of the opportunity. Some of the organizations that are aggregated are Democracy in Action, MicroGiving, VolunteerMatch, and Helpalot. You can narrow your request by any of the following action types: Group Fundraiser, Campaign, Pledged action, Event, Affinity group, Volunteer, Micro-credit loan, or Petition.",
+      "original_categories": [
+        "other"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "supportfu",
+      "description": "SupportFu is a flexible, lightweight helpdesk service. Support tickets can be submitted through multiple channels and are all handled in one place. The system is easy for customers to use since they never have to log on or remember a ticket number. Everything in SupportFu updates in real time, and many common actions can be automated. The service includes analytics functions and a leaderboard for helpdesk agents. The SupportFu API provides users with programmatic access to these services, though it is currently still in alpha.",
+      "original_categories": [
+        "enterprise"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

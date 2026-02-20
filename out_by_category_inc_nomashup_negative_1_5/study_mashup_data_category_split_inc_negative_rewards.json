@@ -1,0 +1,68 @@
+{
+  "category": "rewards",
+  "count": 6,
+  "positive_count": 1,
+  "negative_count": 5,
+  "pos_neg_ratio": "1:5",
+  "items": [
+    {
+      "mashup": "skaflash",
+      "description": " The easiest and fastest way to gather email addresses in person. Period. ",
+      "original_categories": [
+        "contacts",
+        "email",
+        "messaging"
+      ],
+      "used_apis": [
+        "fanbridge"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "batchbook",
+      "description": "BatchBook is an easy-to-use customer relationship manager (CRM) designed for small business owners. The BatchBook API is an XML REST interface for accessing your account.",
+      "original_categories": [
+        "enterprise"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "national-library-medicine-dirline",
+      "description": "DIRLINE (Directory of Information Resources Online) is the National Library of Medicine's online database containing location and descriptive information about a wide variety of information resources including organizations, research resources, projects, and databases concerned with health and biomedicine. The DIRLINE API allows users to search the DIRLINE database with keywords. Using this API, software developers can integrate DIRLINE data into their own applications. This service uses RESTful calls and returns search results with both brief and full records in XML Format.",
+      "original_categories": [
+        "medical"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bitcoinaverage",
+      "description": "BitcoinAverage is a cryptocurrency data service provider with the longest running Bitcoin price index since 2013.We integrate data from over 60 exchanges and 500+ Cryptocurrencies and tokens and provide it via one single API.Our services include:1. Global cryptocurrency indices via Http and Websocket realtime feeds. - Our global index considers all the trading pairs for a cryptocurrency and calculates global price from all of them. For example for Bitcoin it considers the trading price for Bitcoin to US Dollar, Bitcoin to Euro, Bitcoin to British Pound etc.. and calculates a global Bitcoin index. We provide global index for the major cryptocurrencies: Bitcoin (BTC), Ethereum (ETH), Ripple (XRP), Bitcoin Cash (BCH), Litecoin (LTC) in all of the worlds fiat currencies like the US Dollar, Euro, British Sterling, Brazilian Real, Czech Crown, Russian Rubble and all others.2. Local cryptocurrency and tokens indices via Http and Websocket realtime feeds. - Our local index considers only the trading pairs for single symbol, ex. Bitcoin to Euro, from all exchanges that support trading it. We provide local index for hundreds of cryptocurrencies.3. Historical datasets with OHLC data for minute, hour and day ticks4. Orderbook data from the major exchanges like Coinbase, Bitstamp and Bitfinex.5. Price data for hundreds of ERC20 tokens.6. Custom index generation - You want to use only your top 3 most trusted exchanges to generate an objective index? - We got you covered.7. Custom API endpoint - We develop custom endpoints for customers that want our data to fit into their application seamlessly.",
+      "original_categories": [
+        "cryptocurrency"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "smart-avia-pix",
+      "description": " Displays information on different types of aircraft including manufacturer, date of the first flight and other information. Uses Flickr API to search and display aircraft photos. ",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "brazil-pictures",
+      "description": " A site to browse pictures from Rio de Janeiro, Buzios, Ceará, and other places in Brazil. Uses the Google Picasa API. ",
+      "original_categories": [
+        "brazilian",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

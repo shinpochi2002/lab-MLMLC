@@ -1,0 +1,26 @@
+{
+  "category": "bitcoin",
+  "uid": "2b0838b4",
+  "n_samples": 3,
+  "n_labels": 2,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 21.469132900238037,
+      "std_val_loss": 29.367185735317253,
+      "mean_micro_f1": 0.5555555555555555
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 27.327411373456318,
+      "std_val_loss": 37.31608592485027,
+      "mean_micro_f1": 0.0
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 21.469132900238037,
+    "std_val_loss": 29.367185735317253,
+    "mean_micro_f1": 0.5555555555555555
+  }
+}

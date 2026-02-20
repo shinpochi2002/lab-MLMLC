@@ -1,0 +1,348 @@
+{
+  "category": "recognition",
+  "count": 32,
+  "positive_count": 2,
+  "negative_count": 30,
+  "pos_neg_ratio": "1:15",
+  "items": [
+    {
+      "mashup": "spotify-mood-music",
+      "description": " This mashup (script) identifies an emotion from an image with Microsoft’s Emotion API, then recommends a musical playlist based on the emotion identified using Spotify's Public API. ",
+      "original_categories": [
+        "music"
+      ],
+      "used_apis": [
+        "microsoft-cognitive-services-emotion"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "microsoft-cognitive-services-emotion",
+      "description": "The Microsoft Cognitive Services Emotion API recognizes emotions expressed by one or more people in an image, and returns a face identification bounding box. It detects the following emotions: happiness, sadness, surprise, anger, fear, contempt, and disgust. For video, it returns emotions of a group of faces over a period of time. 2 paid options are available, and a free plan that limits transactions to 30,000 a month is available as well. The Emotion API uses JSON for data exchange, and API Keys for authentication.",
+      "original_categories": [
+        "recognition"
+      ],
+      "used_apis": [
+        "microsoft-cognitive-services-emotion"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "cubesensors-app",
+      "description": " CubeSensors are devices that contain seven different sensors for detecting air quality, temperature, humidity, noise, light, barometric pressure, and sensor motion in indoor environments. The CubeSensors App allows users to get alerts and recommendations regarding sensor data on their mobile devices. The app is optimized to look good on smartphones, tablets, and web browsers. ",
+      "original_categories": [
+        "hardware",
+        "health"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gethealth",
+      "description": "GetHealth is a Unified RESTful API to access health data from wearables and devices. It allows users to integrate the sources like Dailymile, Fatsecret, Fitbit, Google Fit, Jawbone, Lifefitness, MapMyFitness, MapMyRun, MapMyWalk, Microsoft Health, Misfit, Moves, PredicctBGL, Runkeeper, Strava, Sony Lifelog, Withings, and 23andMe. It also allows integration to medical devices. There are api calls available for activity, diabetes, weight, nutrition, sleep, and genotype. Furthermore it eases the user authentication process for each source with single-sign on API call. Also it normalizes the data across multiple sources and provides unified data structure.",
+      "original_categories": [
+        "healthcare"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "h1b-wage-database",
+      "description": " Online wage library for H1B prevailing wage determinations, and the disclosure data from the Department of Labor. It also integrates with indeed API to let you customize your job search. ",
+      "original_categories": [
+        "government",
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "we-know",
+      "description": " This We Know lets you get local and explore government data about your community. Enter your city or zip code and get a list of facts. Click an individual item and be taken to a breakdown of the data. Finalist in Apps for America 2 contest. ",
+      "original_categories": [
+        "government",
+        "government",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "candid",
+      "description": " Powerful tools for integrating customer photos to improve engagement and conversion. ",
+      "original_categories": [
+        "ecommerce",
+        "content"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "find-properties-calgary",
+      "description": " Property site for landlords, property owners, managers, buyers, and tenants in Calgary and the surrounding area. Filter according to your preferences, such as close to a university. ",
+      "original_categories": [
+        "rentals",
+        "mapping",
+        "canadian"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "our-louvre",
+      "description": " OurLouvre presents a large part of the exhibits of the Louvre using a dynamic and interactive environment simultaneously. The name given to this application was chosen because the content is a result of the contribution of Internet users. ",
+      "original_categories": [
+        "museums",
+        "museums",
+        "art"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "routexl",
+      "description": " Route planning mashup for multiple destinations. Finds the fastest route for all locations and sorts waypoints in optimal order. ",
+      "original_categories": [
+        "search",
+        "mapping",
+        "travel",
+        "visualizations",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "homepricerecords",
+      "description": " Combines home sales data with Google maps. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "maps-tibet-protests",
+      "description": " Map of March 2008 protests in Tibet, and ensuing events. With photos, summaries, and links to supporting documentation about the Tibetan Centre for Human Rights and Democracy, TCHRD, website. ",
+      "original_categories": [
+        "government",
+        "chinese"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "youtube-vision",
+      "description": " See who is uploading what and from where on YouTube. ",
+      "original_categories": [
+        "mapping",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nascar-google-map",
+      "description": " View all Track info, track layouts, and links to track specific information for all 32 NASCAR tracks. ",
+      "original_categories": [
+        "mapping",
+        "sports",
+        "sports",
+        "auto"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "europe-photo-helix",
+      "description": " Helix designed of Flickr photos of Europe. ",
+      "original_categories": [
+        "photos",
+        "european",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "callcollector",
+      "description": " CallCollector is a virtual voicemail box to collect calls from fans, customers, groups, or whatever you need it for. A business may use it as a complaint &amp; feedback line. A talk radio station may use it to allow listeners to vent to (or about) their on-air personalities. You might even use it to collect wishes from family all over the county and stitch them together for a relative's birthday or anniversary. ",
+      "original_categories": [
+        "audio",
+        "telephony",
+        "voice"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "local-rvs",
+      "description": " A free classified site for RVs and trailers. This mashup makes use of the Oodle, Google AdSense, and Google Maps APIs. ",
+      "original_categories": [
+        "advertising",
+        "auto",
+        "classifieds",
+        "recreation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sms",
+      "description": "The SMS API aims to provide a SMS communication to existing applications. This REST interface uses the SMPP protocol to send messages between entities. SMSAPI offers bulk services, email SMS, 5 second delivery, and global support of over 800 mobile providers in 200 countries.",
+      "original_categories": [
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "71miles",
+      "description": " 71Miles is a growing network of travel sites focused exclusively on regional travel, nothing else. We currently cover weekend destinations within driving distance of major metropolitan areas with a national network soon. ",
+      "original_categories": [
+        "mapping",
+        "hotels",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tozoy",
+      "description": " This product is about providing opinion about your friends, about different topics, or practically anything on the web. All our friends have different characteristics, and we either like it or don't. However very few of us let our friends know what we like or dislike about them. ",
+      "original_categories": [
+        "social",
+        "social",
+        "recommendations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "citypockets-daily-deals",
+      "description": " CityPockets is a service that aggregates all daily deals and coupons from various deal sites, such as LivingSocial, Yelp, DailyCandy, Groupon, and BuyWithMe. CityPockets also sends email reminders when a voucher is about to expire, and they also offer a marketplace where users can sell vouchers they can't use. ",
+      "original_categories": [
+        "discounts",
+        "coupons",
+        "ecommerce",
+        "localization"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "quitjuice.com",
+      "description": " Powerfully motivating facts, tips and encouragement to help you quit smoking. Delivered to you fresh daily by voice, email and text. ",
+      "original_categories": [
+        "mobile",
+        "messaging",
+        "voice"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "last.fm-music-map",
+      "description": " Discover music events and concerts around the world. The Last.fm Music Map mixes Last.fm music social network data with Google Maps. ",
+      "original_categories": [
+        "music",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "your-wishlist.com",
+      "description": " Setup wish lists of items you'd like to purchase, customize them with pictures and themes. Give them a password or leave them public and open them up for commenting. OS X users can use a dashboard widget to make a wishlist, and share it when its ready. ",
+      "original_categories": [
+        "lists",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geography-seinfeld",
+      "description": " View locations made famous in the Seinfeld sitcom. Includes the Soup Nazi, the Diner, and Nathans Coney Island. ",
+      "original_categories": [
+        "tv",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dooclip",
+      "description": " Hot videos and popular music via this custom interface on top of YouTube and other sources. ",
+      "original_categories": [
+        "music",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ismapped",
+      "description": " Western Pennsylvania high school football map that shows schools in the WPIAL. Will eventually have basketball, wrestling, and hockey. ",
+      "original_categories": [
+        "sports",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "anaphonr",
+      "description": " This is a fun mashup that helps you find anaphones. Anaphone: A word, phrase, or name formed by rearranging the sounds of another, such as galaxy from lucky gas. Plus, with the power of twilio, you can text your anaphone inquiries to 785 378 5626. ",
+      "original_categories": [
+        "humor",
+        "tools",
+        "dictionary"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "kulisha",
+      "description": " The Kulisha mashup allows you to pin your social feeds with its proprietary social feed aggregation. ",
+      "original_categories": [
+        "aggregation",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sos-garage",
+      "description": " SOS Garage is a french Android app that uses the Allogarage API to help find auto garages that are reliable in a users area. ",
+      "original_categories": [
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "poorsquare",
+      "description": " This app lets you find local restaurant freebie offerings and BXGX (Buy Something Get Something) Free promotions in your area. ",
+      "original_categories": [
+        "localization",
+        "discounts",
+        "marketing",
+        "restaurants"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "newstaggr",
+      "description": " Newstaggr is a new way for browsing news. It gathers news from sources like Reuters, CNN, New York Times, and BBC, and it uses Calais to semantically tag them and create a tag cloud for 12 categories. ",
+      "original_categories": [
+        "semantics",
+        "classification",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

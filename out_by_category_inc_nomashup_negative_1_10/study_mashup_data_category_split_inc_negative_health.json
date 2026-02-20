@@ -1,0 +1,569 @@
+{
+  "category": "health",
+  "count": 55,
+  "positive_count": 5,
+  "negative_count": 50,
+  "pos_neg_ratio": "1:10",
+  "items": [
+    {
+      "mashup": "elcies-dev",
+      "description": " ELCIES has developed a Personalized Workouts API to accelerate digital workout and exercise platforms by integrating Personalization Algorithm into external Personal Training Platform and Apps. ELCIES is a lifestyle data platform that allows businesses to obtain and organize fitness and health data without heavy integration. ",
+      "original_categories": [
+        "health",
+        "fitness"
+      ],
+      "used_apis": [
+        "elcies-connected-services"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "geniemd",
+      "description": " Mobile users can benefit from GenieMD, a mobile mashup featured in Walgreens' developer site. The GenieMD interface shows the following categories: symptoms, conditions, procedures, drug search, interactions, healthy living, providers, and calculations. When users check symptoms, they will notice the content provided by Harvard Health Publications. ",
+      "original_categories": [
+        "healthcare",
+        "health",
+        "medical"
+      ],
+      "used_apis": [
+        "walgreens-balance-rewards"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "omron-fitness",
+      "description": " To accumulate Walgreens' balance rewards, Omron could be of assistance by monitoring heart rate when a fitness goal is completed. Omron offers USB pedometers and activity monitors that can be connected to omronfitness.com ",
+      "original_categories": [
+        "fitness",
+        "wearable"
+      ],
+      "used_apis": [
+        "walgreens-balance-rewards"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "elcies-connected-services",
+      "description": "The ELCIES API allows developers to create applications that take advantage of data coming from different wearable and health devices. By using this API, you can access physical activity and health data stored in your ELCIES Business Account for users that already provided your company or app prior consent for data collection.",
+      "original_categories": [
+        "health"
+      ],
+      "used_apis": [
+        "elcies-connected-services"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "walgreens-balance-rewards",
+      "description": "The Balance® Rewards API enables pre-qualified partners to connect into Walgreens to share individual member health and wellness information to be eligible to receive Balance Rewards points for healthy activity like walking, running, and weight management.The API is designed to enable partners to seamlessly share individual health and lifestyle activity and create or validate user memberships. In order for individuals to receive points for health and wellness activity, they must be a Balance Rewards member and have successfully completed a Walgreens OAuth login or registration.",
+      "original_categories": [
+        "health"
+      ],
+      "used_apis": [
+        "walgreens-balance-rewards"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "fedex-tracking",
+      "description": " Provides tracking information of FedEx packages, with visualized package locations on Google Maps. ",
+      "original_categories": [
+        "shipping",
+        "mapping",
+        "postal"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "alphalearnr",
+      "description": " Helps children learn the English alphabet through photos. ",
+      "original_categories": [
+        "photos",
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "meetmeat",
+      "description": " meetmeat helps you make and manage plans with your friends over SMS. Text meetmeat a time, location and group of friends and meetmeat sends out invitations and deals with RSVPs. ",
+      "original_categories": [
+        "telephony",
+        "social",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ecolocal",
+      "description": " Help us build the best source for healthy living and local news by submitting your tips, events and links so that we can all learn to live a more eco-friendly lifestyle. ",
+      "original_categories": [
+        "mapping",
+        "england",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "experience-washington",
+      "description": " Helps you find accommodations, events, activities, and things to do when planning a vacation or outing in Washington State. Locations and details of each activity are superimposed on a Virtual Earth map. ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "normalisr",
+      "description": " A little application to rank your favourite artists and albums by an estimation of how long you have spent listening to them. ",
+      "original_categories": [
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "levelup",
+      "description": "The LevelUp API allows developers to access and integrate the functionality of LevelUp with other applications, such as point-of-sale systems and to create new applications. Some example API methods include accepting online payments, accepting mobile payments, and retrieving reporting information.LevelUp is an online and mobile payment service. Users can set up their own QR code that allows them to pay various merchants via scanning the QR code. LevelUp also offers users savings when paying with the LevelUp application. Merchants can integrate the LevelUp system with their point-of-sale systems to accept LevelUp payments for goods and services.",
+      "original_categories": [
+        "payments"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "amee",
+      "description": "AMEE is a platform for greenhouse gas calculation, with access to emissions factors, calculation algorithms, and storage for data history. Our science team take the published methodologies from the science community and put them into a simple unified API, so you don't have to trawl through PDFs and spreadsheets to work it all our yourself. With over 8 million possible calculations, the platform covers everything from simple electricity calculations through to insanely complex industrial processes. If you need to work out the environmental impact of an activity, AMEE has the environmental intelligence you need.",
+      "original_categories": [
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fcc",
+      "description": "United Stated Federal Communications Commission API provides access to information about licenses, consumer broadband speed and other data related to communications. The API is made of a suite of services using RESTful protocol and returning responses in XML, JSON and JSONP.The Consumer Broadband Test API lets users lookup data on the number of tests, average user download/upload speeds, and moreThe Census Block Conversions API lets users look up census block numbers based on latitude/longitude pairs.The FRN Conversions API lets users learn more company information about broadband providers, which often change from state to state.The License View API provides information on over 3 million FCC issued licenses for use of the nation's airwaves and other purposes.The Spectrum Dashboard APIs let users search spectrum band allocation and who owns licenses within the 225 MHz to 3700 MHz frequency range in the United States.",
+      "original_categories": [
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mobilicio.us",
+      "description": " Combines the del.icio.us online bookmarking service with Google Mobile. This allows you to browse through mobilized versions of your del.icio.us bookmarks from your phone browser or other limited-display browsers ",
+      "original_categories": [
+        "messaging",
+        "bookmarks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "hackerearth",
+      "description": "HackerEarth is an online programmer community that also provides an extensive list of practice problems and an in-browser code editor for testing code. The HackerEarth API allows developers to compile and run computer code in multiple languages, including C, C++, C++11, Clojure, C#, Java, JavaScript, Haskell, Perl, PHP, Python, and Ruby. The API accepts calls via POST and returns all data in JSON format.",
+      "original_categories": [
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "homepricerecords",
+      "description": " Combines home sales data with Google maps. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "castingwords.com",
+      "description": " Podcast transcript search and transcription service built using the Amazon Mechanical Turk API. ",
+      "original_categories": [
+        "podcasts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sports-history-widget",
+      "description": " The history of professional and major league sports teams in a Google Gadget. Each day of the year features a professional sports team from the past or present. ",
+      "original_categories": [
+        "widgets",
+        "trivia",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sos-garage",
+      "description": " SOS Garage is a french Android app that uses the Allogarage API to help find auto garages that are reliable in a users area. ",
+      "original_categories": [
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flappr",
+      "description": " An nice explorative Flash-based interface into Flickr photos. With tag search, interestingness sorting, user tabs, and related tags. ",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "neave.tv",
+      "description": " A mash-up of the most creative videos found on Google Video, YouTube, Blip.tv and other video sharing sites. ",
+      "original_categories": [
+        "video",
+        "movies"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fizzboost",
+      "description": " Brings together Facebook desktop alert programs into one interface. View recent notifications, photos, an alphabetical Friend list, and receive alerts and upload photos. FizzBoost is a companion to Facebook. ",
+      "original_categories": [
+        "notifications",
+        "photos",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bicicarm",
+      "description": " Bicicarm is the bike portal of the Regional Province of Murcia. This mashup uses google maps and google maps elevation to display a visual reference of bike routes. ",
+      "original_categories": [
+        "mapping",
+        "social",
+        "cycling",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "missing-kids-map",
+      "description": " A mashup using data from the National Center for Missing and Exploited Children. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pentaho-bi-maps",
+      "description": " Map based data visualization tool driven by Pentaho open source business intelligence tools and Google Maps. ",
+      "original_categories": [
+        "mapping",
+        "enterprise",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "taglets-feeder",
+      "description": " A Wordpress plugin that pushes updates to Taglets.org when you publish a post. ",
+      "original_categories": [
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "madoff-victim-map",
+      "description": " Interactive map to see where the many Madoff pyramid scheme victims live. ",
+      "original_categories": [
+        "crime",
+        "financial",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "digitalbucket.net",
+      "description": " DigitalBucket.net provides a web interface that can be used to store and retrieve data, at any time, from anywhere on the web. It uses Amazon S3 to create a remote data storage platform. ",
+      "original_categories": [
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "aerisweather",
+      "description": "AerisWeather is a site that provides traditional weather content such as local weather and weather maps. AerisWeather's core product is an API that provides the necessary weather data to power services such as hosted weather sites and weather application development. The API gives developers access to data such as weather advisories, forecasts, geographic locations, storm reports and more. It uses RESTful calls and responses are formatted in JSON and JSONP.",
+      "original_categories": [
+        "weather"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "san-francisco-bart-schedule",
+      "description": " Visualize the San Francisco Bart transit system. Map lets you click on a station and get the next few departures. ",
+      "original_categories": [
+        "mapping",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "walk-score",
+      "description": " Walk Score shows you a map of what is nearby and calculates a Walk Score for any property. Buying a house in a walkable neighborhood is good for your health and good for the environment. ",
+      "original_categories": [
+        "mapping",
+        "environment",
+        "sustainability"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "directadmin-realtime-register-integration",
+      "description": " A plugin which makes it possible to register your domains from within your Hosting control panel ",
+      "original_categories": [
+        "hosting",
+        "domains",
+        "domains",
+        "integration"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "microsoft-cognitive-services-emotion",
+      "description": "The Microsoft Cognitive Services Emotion API recognizes emotions expressed by one or more people in an image, and returns a face identification bounding box. It detects the following emotions: happiness, sadness, surprise, anger, fear, contempt, and disgust. For video, it returns emotions of a group of faces over a period of time. 2 paid options are available, and a free plan that limits transactions to 30,000 a month is available as well. The Emotion API uses JSON for data exchange, and API Keys for authentication.",
+      "original_categories": [
+        "recognition"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "what-are-you-doing-japan",
+      "description": " Share what are you doing now in Japan. Use the map to add a new comment or respond to someone else's comment. ",
+      "original_categories": [
+        "social",
+        "mapping",
+        "japanese"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-maps-meets-stuffopolis",
+      "description": " Mashup of Google maps, Amazon and Stuffopolis. Here is a snapshot of where my stuff is around the world right now. Each marker is a friend. Click on a marker and you see what stuff they have. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "reality-f1",
+      "description": " Web-based, fantasy Formula 1 strategy game. Uses the Ergast API for Formula racing data. ",
+      "original_categories": [
+        "games",
+        "sports",
+        "auto",
+        "auto"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mymapwebsites",
+      "description": " Present your local Website on a Google Map with this mashup. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapquest-open-directions",
+      "description": "This API is the open version of MapQuest's Directions API. It is based on OpenStreetMap data and can also provide results internationally. The service provides routing between two or more latitude/longitude points and includes driving, walking, biking and transit directions.",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "iphonecnews",
+      "description": " Made for the iPhone, provides reviews and prices. Uses iPhone Atom code, Google Ajax Feeds, and CNET. Search lets you enter a product number and get reviews and prices, which is handy when you are in a store like Best Buy. ",
+      "original_categories": [
+        "ecommerce",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "editgrid-and-box.net",
+      "description": " This mashup allows Box.net users to load spreadsheet files directly from their Box accounts into EditGrid, where they can be viewed and edited, then saved back to a Box account. ",
+      "original_categories": [
+        "storage",
+        "spreadsheets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "everytrail",
+      "description": " EveryTrail allows users to visualize and share travel and outdoor activities by mashing-up GPS data and photos on Google maps. ",
+      "original_categories": [
+        "mapping",
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "noaa-erddap",
+      "description": "This data service provides a combined interface to access and download scientific datasets and subsets on oceanography in common file formats. Typical uses involve charting and mapping. ERDDAP presents a single format for accessing multiple repositories, which the service reformats to interact with the remote server hosting the desired data.API methods support retrieving a list of available resource URLs, resource categories, and datasets, as well as metadata describing those resources. Methods also allow both full-text and advanced search against the datasets.",
+      "original_categories": [
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "information-machine",
+      "description": "Our API can automatically &amp; passively collect users' item level purchase data from online and loyalty card purchases at most healthcare, grocery, takeout and major stores (Amazon, Target, Walmart, etc.). It connects this raw purchase data to product and pricing data. App uses include: coupons, diet &amp; fitness, healthcare and recommendation. Coupons apps will know what their customers buy and what they will likely buy. Diet and fitness apps get instant access to customers' food data without them logging it themselves. Healthcare apps can access years of your customer's food purchases. Recommendation can use the power of aggregated purchase history to anticipate what their customers might like.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mypackage-australia",
+      "description": " Compare new homes, home designs, builders, land estate, house plans, via Google Maps in Australia. ",
+      "original_categories": [
+        "australian",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nprbackstory",
+      "description": " Mines the NPR news archives and publishes the backstory on Google trending topics to a Twitter Feed. Unique and compelling way to learn about hot trends in the news. ",
+      "original_categories": [
+        "blogging",
+        "feeds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "app-store-instant",
+      "description": " Searches the iPhone/iPad App Store using the iTunes API. Provides instant search feedback with top apps, including their large icons. Created by people behind App of the Day site. ",
+      "original_categories": [
+        "search",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mindtouch-deki-wiki",
+      "description": "REST-based API with 99 methods that expose MindTouch Deki Wiki's complete functionality. Deki Wiki is also a mashup platform. Download the source code or VMware certified package.",
+      "original_categories": [
+        "wiki"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "uk-carbon-footprint-project",
+      "description": " A platform for a carbon calculator gadget, built as a partnership among Google, the Energy Saving Trust, and RSA. Uses the AMEE engine and draws on the UK CO2 calculator for its data, calculations, and approved methodologies. ",
+      "original_categories": [
+        "environment",
+        "sustainability",
+        "widgets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rotten-tomatoes",
+      "description": "Rotten Tomatoes is a website containing information about movies: information, news, reviews and ratings, pictures, etx. The Rotten Tomatoes API is RESTful web service that was designed to be easy to explore and use. Developers can use the API to access the Rotten Tomatoes' database of movie data by using the Lists, Movies, or DVDs sections of the API.",
+      "original_categories": [
+        "recommendations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "updated-california-solar",
+      "description": " Heat map of solar power in California from 1999 to 2011. Year selector that allows you to see the change in solar from year to year. Updated from our 2008 version. ",
+      "original_categories": [
+        "sustainability",
+        "solar",
+        "energy",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "second-thought",
+      "description": " Second thought is a dynamic image and text composition. You can choose any words to change the picture or the word. Uses APIs from Flickr, Summize and Twitter. ",
+      "original_categories": [
+        "photos",
+        "blogging",
+        "art",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "do-gooder",
+      "description": " Do Gooder is a platform that allows individuals and organizations to build and promote their campaigns. With Do Gooder, customers will be able to launch their idea/cause and to promote it globally via the internet. By building a website through Do Gooder, organizations will be able to start finding supporters, raising money for their cause, and getting in touch with other influential people in the fields via phones or emails. ",
+      "original_categories": [
+        "campaigns"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "chronopipe",
+      "description": " Import Basecamp time in to QuickBooks. ",
+      "original_categories": [
+        "office",
+        "enterprise",
+        "financial"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "greekestate",
+      "description": " A real estate site for the Greek market. ",
+      "original_categories": [
+        "mapping",
+        "greek"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

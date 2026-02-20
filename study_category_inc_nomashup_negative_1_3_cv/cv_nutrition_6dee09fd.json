@@ -1,0 +1,26 @@
+{
+  "category": "nutrition",
+  "uid": "6dee09fd",
+  "n_samples": 3,
+  "n_labels": 2,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 17.4790114959081,
+      "std_val_loss": 23.659533983473974,
+      "mean_micro_f1": 0.3333333333333333
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 23.534613569577534,
+      "std_val_loss": 32.137197578311266,
+      "mean_micro_f1": 0.0
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 17.4790114959081,
+    "std_val_loss": 23.659533983473974,
+    "mean_micro_f1": 0.3333333333333333
+  }
+}

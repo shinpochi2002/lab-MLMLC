@@ -1,0 +1,26 @@
+{
+  "category": "games",
+  "uid": "434b23cf",
+  "n_samples": 15,
+  "n_labels": 5,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 2.538274645805359,
+      "std_val_loss": 2.642791881870622,
+      "mean_micro_f1": 0.3888888888888889
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 2.739302635192871,
+      "std_val_loss": 3.2783487328948753,
+      "mean_micro_f1": 0.43809523809523815
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 2.538274645805359,
+    "std_val_loss": 2.642791881870622,
+    "mean_micro_f1": 0.3888888888888889
+  }
+}

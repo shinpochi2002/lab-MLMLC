@@ -1,0 +1,71 @@
+{
+  "category": "natural-language-processing",
+  "count": 33,
+  "positive_count": 3,
+  "negative_count": 30,
+  "pos_neg_ratio": "1:10",
+  "items": [
+    {
+      "mashup": "dialogflow-standard-webhooks",
+      "description": "The Dialogflow Standard Webhooks API allows you to communicate with Dialogflow through its own, standard webhook format. Webhooks enables you to pass information from a matched intent into a web service to get a result. The Dialogflow API is an end-to-end development suite of conversational interfaces for chatbots, voice-powered apps and devices that includes; query, intents, entities and more. Dialogflow processes a natural language query and returns structured, actionable data as a result. It is an end-to-end development suite for building conversational interfaces for websites, mobile applications, popular messaging platforms, and IoT devices that is powered by machine learning. It recognizes the intent and context of what a user says, allowing your conversational interface to provide responses. Dialogflow enables users with ways to interact with products by building voice and text-based conversational applications.",
+      "original_categories": [
+        "natural-language-processing"
+      ],
+      "used_apis": [
+        "dialogflow-standard-webhooks"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "edmonton-attractions-map",
+      "description": " Map of Edmonton, Alberta, attractions. ",
+      "original_categories": [
+        "canadian",
+        "mapping",
+        "travel",
+        "canadian"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "citysounds.fm-sounds-cities",
+      "description": " Listen to the sound of your favorite city on citysounds.fm The music comes from SoundCloud and represents the most popular cities and their tracks. The images comes from flickr by a search for the city name as a tag. ",
+      "original_categories": [
+        "music",
+        "photos",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "live-notes-and-box.net",
+      "description": " Live Notes is an iPad application that makes synchronized voice and written notes, and through its integration with Box.net, users can upload those notes directly to a Box account. ",
+      "original_categories": [
+        "voice",
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "realtime-related-tweets-bar",
+      "description": " Highly customizable jQuery plugin to create a real-time Twitter search-driven bar of tweets related to your post. ",
+      "original_categories": [
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-distance-matrix",
+      "description": "The Google Distance Matrix API is a service that provides travel distance and time for a matrix of origins and destinations. The information returned is based on the recommended route between start and end points, as calculated by the Google Maps API, and consists of rows containing duration and distance values for each pair.The Distance Matrix API has the following limits in place: 100 elements per query. 100 elements per 10 seconds. 2500 elements per 24 hour period.The API uses RESTful calls and responses are formatted in XML and JSON.",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

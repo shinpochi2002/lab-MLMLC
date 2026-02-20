@@ -1,0 +1,73 @@
+{
+  "category": "movies",
+  "count": 6,
+  "positive_count": 1,
+  "negative_count": 5,
+  "pos_neg_ratio": "1:5",
+  "items": [
+    {
+      "mashup": "new-york-times-movie-tweets",
+      "description": " Tweets about the latest featured New York Times movie reviews. ",
+      "original_categories": [
+        "search",
+        "social",
+        "movies"
+      ],
+      "used_apis": [
+        "new-york-times-movie-reviews"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "cityrealty-map-nyc",
+      "description": " Apartment listings in NYC with Google Maps. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geek-breakfast",
+      "description": " Global site for Geek Breakfast. Uses Facebook as primary user authentication system ",
+      "original_categories": [
+        "social",
+        "meetings",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cantanding",
+      "description": " The Best Online Karaoke Ever. Tons and tons of karaoke songs. Compatible with ALL devices and available in 4 languages. New languages coming soon !!! ",
+      "original_categories": [
+        "entertainment",
+        "music",
+        "humor",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "greenstone-uk-property-finder",
+      "description": " Mapping application for locating real estate listings in the UK. ",
+      "original_categories": [
+        "mapping",
+        "england"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapmap.cz",
+      "description": " Czech property search engine with the largest selection of properties on a map. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

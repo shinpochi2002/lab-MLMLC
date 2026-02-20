@@ -1,0 +1,483 @@
+{
+  "category": "monitoring",
+  "count": 44,
+  "positive_count": 4,
+  "negative_count": 40,
+  "pos_neg_ratio": "1:10",
+  "items": [
+    {
+      "mashup": "just-dns-lookup",
+      "description": " Online DNS lookup: remote DNS lookup (nslookup/dig) a host or domain from 30+ locations worldwide. ",
+      "original_categories": [
+        "domains",
+        "monitoring",
+        "search"
+      ],
+      "used_apis": [
+        "watchmouse"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "just-traceroute",
+      "description": " Perform a traceroute from 3 stations in the WatchMouse monitoring network. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [
+        "watchmouse"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "just-ping",
+      "description": " Utility to perform a ICMP Ping from 30+ location worldwide. ",
+      "original_categories": [
+        "monitoring",
+        "networking"
+      ],
+      "used_apis": [
+        "watchmouse"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "down-or-not",
+      "description": " Down or Not checks a website from 3 locations in the WatchMouse network and decides if a site is indeed down or not. ",
+      "original_categories": [
+        "monitoring",
+        "monitoring"
+      ],
+      "used_apis": [
+        "watchmouse"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "earthquakes-week",
+      "description": " Google Map of earthquakes worldwide within the past seven days. ",
+      "original_categories": [
+        "mapping",
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "event-now-australia",
+      "description": " Event Now! shows Victoria, Australia events using a handy timemap, it also integrates with Google Calendar to let you save your events, invite friends and set sms reminders. Entrant in the App My State government mashup contest. ",
+      "original_categories": [
+        "events",
+        "australian",
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "assetmap.org-uganda",
+      "description": " By mapping information about ongoing community-led philanthropic partnerships in northern Uganda, this site helps American citizens aggregate their resources to support post-conflict transformation. ",
+      "original_categories": [
+        "mapping",
+        "african",
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "property-listing-maps",
+      "description": " Search San Francisco Bay Area real estate listings on a map. Currently tracking over 36000+ listings in 157 cities in the bay area. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "altio-diagram",
+      "description": " Chart your musical relationships with your friends. ",
+      "original_categories": [
+        "music",
+        "social",
+        "charts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "teletka",
+      "description": " Teletka is an online/phone service that allows you to connect your Facebook account with phone numbers. Once you are officially authenticated with Teletka, you can start posting audio messages to your Facebook wall. All you have to do is call Teletka and leave a message. ",
+      "original_categories": [
+        "telephony",
+        "messaging",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "eeehop",
+      "description": " Yet another web2.0 travel application that helps you find the holiday rentals. Most are located in France and Italy. ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "italian",
+        "french"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "easy-school-search",
+      "description": " A freely browsable mapping database of over 130,000 US public and private elementary and secondary schools . You can map all the schools in a particular zip code of by freetext search in a particular state. ",
+      "original_categories": [
+        "education",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "total-chinese-uk",
+      "description": " Chinese business mashup for the UK. Around 6000 Chinese businesses listed and mapped. ",
+      "original_categories": [
+        "chinese",
+        "mapping",
+        "england"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "big-shop",
+      "description": " One page shopping at Amazon. A smarter, quicker way of shopping at Amazon: Search all Amazon international shops, browse and view products all on one page, bookmark products with drag and drop. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitter-multilingual-voice-search",
+      "description": " Twitter voice search in multiple languages. Features include Search-by-Voice, Search-as-You-Type, Real-time Search Suggestions, Did you say Speech-to-Text Corrections, Real-Time Update Notifications and 66 Speech-to-Text Languages. ",
+      "original_categories": [
+        "search",
+        "language",
+        "voice"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fuhshnizzle-music-video-jukebox",
+      "description": " FuhshniZZle is a music streaming mashup that pulls content from Youtube and allows users to search and play their favorite music, without interruption. ",
+      "original_categories": [
+        "music",
+        "search",
+        "streaming",
+        "music",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "redistricting-nation",
+      "description": " The redistricting following the 2010 Census is an opportunity to change how the redistricting process is conducted. With knowledge and the right tools, the public can redraw the map on redistricting. ",
+      "original_categories": [
+        "government",
+        "demographics",
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "levelup-pebble",
+      "description": " Payment app powered by LevelUpâ€™s API leveraging the Pebble Smartwatch. ",
+      "original_categories": [
+        "payments",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rappers-twitter",
+      "description": " Feed for rappers on Twitter. ",
+      "original_categories": [
+        "music",
+        "music",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "findhorsesforsale.net",
+      "description": " FindHorsesForSale.net lets horse shoppers find horses around the wold. Users can view pictures, price, location, breed info, nearby stables, estimated payments, estimated shipping costs, and estimated yearly food costs. ",
+      "original_categories": [
+        "ecommerce",
+        "animals",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "jira-freshbooks-connector",
+      "description": " Jira Freshbooks Connector is a plugin that resolves a problem of double reporting for users of these applications. The first version of it allows you to send worklogs from Jira to Freshbooks with 1 click. ",
+      "original_categories": [
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "one-hit-wonders",
+      "description": " Ranks one-hit wonders, taking music listening stats from Last.fm. ",
+      "original_categories": [
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "star-viewer",
+      "description": " Astronomy videos and animations shown on a map of the night sky. A mash-up of videos from the European Space Agency and Google Sky. ",
+      "original_categories": [
+        "mapping",
+        "video",
+        "astronomy"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "female-coalition-casualties-iraq-war",
+      "description": " Map of the home towns of US female casualties of the Iraq War. ",
+      "original_categories": [
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "montreal-metro-interactive-map",
+      "description": " Displays all Montreal subway statons and lines. Markers are placed very accurate. Can display lines separately. ",
+      "original_categories": [
+        "transportation",
+        "mapping",
+        "canadian"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "simplysubscribe.me",
+      "description": " Is it possible to subscribe to a newsletter in as little as one click? I say yes. Mailchimp users can now embed this widget onto their site to federate list signups using Oauth as well as the traditional signup form. ",
+      "original_categories": [
+        "tools",
+        "newsletter",
+        "subscriptions",
+        "widgets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "another-tweet-wall",
+      "description": " Another Tweet On The Wall is a free Twitter Wall allowing you to display tweets filtered on your keywords in a funny way. ",
+      "original_categories": [
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "voziq-actionable-social-media-analytics",
+      "description": " VOZIQ provides social media analytics solutions delivering insights into what customers and prospects discuss on social media sites. VOZIQ helps you stay focused on measurable results with a closed loop approach that includes tools to benchmark how you compare against your competitors, identify areas of opportunity, develop action plans, and track your success, all in one platform. Try our instant social media search and build a dashboard in seconds to see for yourself how easy it is to listen to online conversations and develop insights with VOZIQ platform at http://www.voziq.com ",
+      "original_categories": [
+        "social",
+        "media",
+        "analytics",
+        "monitoring",
+        "dashboards"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sales-line-bot",
+      "description": " The Hipchat and Plivo API mashup â€” an IVR system that use's HipChat APIs and post details of incoming calls, recordings and voicemails on your Plivo number to HipChat. ",
+      "original_categories": [
+        "api",
+        "telephony",
+        "sales"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mandelbrot-fractal-explorer",
+      "description": " to discover the wonderful world of a mathematic formula. Zoom in and enjoy. ",
+      "original_categories": [
+        "mapping",
+        "humor",
+        "math",
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "las-vegas-attractions",
+      "description": " Map of Las Vegas attractions. ",
+      "original_categories": [
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "talkasaur.us",
+      "description": " Dirt-simple in-browser conference calls. Start a call, invite others, and begin talking. ",
+      "original_categories": [
+        "telephony",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flowser",
+      "description": " Flowser is graphical Amazon Browser. Type in a product name and see a visualization of the search results by product type. ",
+      "original_categories": [
+        "ecommerce",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "lixam-search-engine",
+      "description": " A meta search engine with images, videos and news. Enabled by social search. ",
+      "original_categories": [
+        "search",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shopabout.co.uk",
+      "description": " ShopAbout.co.uk is a comparison shopping site based on the Shopping.com API. Search and shop items by category. ",
+      "original_categories": [
+        "search",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "german-travel-and-vacations",
+      "description": " Google Maps Mashup of vacation and travel information in Germany. ",
+      "original_categories": [
+        "german",
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zip-code-map-0",
+      "description": " Provides detailed map of all US zip codes, powered by google map. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "facebook",
+      "description": " See me on Facebook ",
+      "original_categories": [
+        "telephony",
+        "social",
+        "photos",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "my-faves-explore-your-twitter-favorites",
+      "description": " My Faves lets users browse and search the tweets they've marked as favorites over time. ",
+      "original_categories": [
+        "blogging",
+        "social",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "citizen-service-requests",
+      "description": " Citizens can request service and check the status of service requests using Google Maps, Cityworks local API and ReCaptcha. Citizens can solicit a request by entering an address manually or select a location from a Google Map. ",
+      "original_categories": [
+        "government",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cardinal-maps",
+      "description": " Cardinal Maps is an online mapping company that focuses on creating maps for commercial distribution and marketing purposes. Some of the maps that Cardinal Maps create include tourism maps, events maps, bike maps, and business maps. ",
+      "original_categories": [
+        "mapping",
+        "marketing"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "trekin-u",
+      "description": " Service that provides a platform to create a geotagged photo album. ",
+      "original_categories": [
+        "photos",
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ebooksdoc.com",
+      "description": " eBooksDoc brings together a community of word lovers. In our site you will be able to find any kind of documents and official manuals (pdf, txt, word, ppt, etc), books and eBooks. ",
+      "original_categories": [
+        "books",
+        "ebooks",
+        "documents"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "callme",
+      "description": " CallMe allows you to have one phone number ring multiple lines. Service costs $5 a month; a low-cost alternative for small businesses or to replace a home phone line. ",
+      "original_categories": [
+        "messaging",
+        "telephony",
+        "mobile",
+        "voice"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

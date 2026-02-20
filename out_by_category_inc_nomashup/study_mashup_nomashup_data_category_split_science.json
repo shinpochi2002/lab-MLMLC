@@ -1,0 +1,235 @@
+{
+  "category": "science",
+  "count": 20,
+  "items": [
+    {
+      "mashup": "mars-explorer",
+      "description": " The Mars Explorer app (for Android devices) allows you to explore The Red Planet as a whole or through the eyes of one of three NASA rovers currently on the surface. Learn about each of the three rovers and the data they collect on the surface of Mars. Search through years worth of pictures the rovers have taken. Save and share your favorite pictures. Learn about how the rovers work and how they were built. Learn something new about Mars every day with the Daily Fact home screen widget. Get the latest weather details from the Rover Environmental Monitoring Station on board the Curiosity Rover. ",
+      "original_categories": [
+        "education",
+        "astronomy",
+        "entertainment",
+        "science"
+      ],
+      "used_apis": [
+        "nasa-mars-rover-photos"
+      ]
+    },
+    {
+      "mashup": "ropensci",
+      "description": " rOpenSci offers packages that provide programmatic access to a warehouse of data repositories, with a focus on scholarly works. rOpenSci uses the Mendeley API as a source for scholarly articles. ",
+      "original_categories": [
+        "documents",
+        "datacenter"
+      ],
+      "used_apis": [
+        "mendeley"
+      ]
+    },
+    {
+      "mashup": "scholarley",
+      "description": " Scholarley is the unofficial Android client for viewing and managing Mendeley documents from an Android device. Mendeley users can open documents and attachments, and sort documents by artist, folder, group, author, and tags. Due to limitations on the Mendeley API, annotations are not supported in Scholarley. ",
+      "original_categories": [
+        "documents",
+        "collaboration"
+      ],
+      "used_apis": [
+        "mendeley"
+      ]
+    },
+    {
+      "mashup": "altmetric-explorer",
+      "description": " Altmetric aggregates mentions of scholarly articles from many sources, providing a web interface to view analytics. It also provides badges that can be embedded into websites. The Altmetric tool is good for publishers, institutions, and researchers that want to witness the the impact of their published work, along with related social engagement. Altmetric uses the Mendeley API as a source for scholarly articles. ",
+      "original_categories": [
+        "aggregation",
+        "science"
+      ],
+      "used_apis": [
+        "mendeley"
+      ]
+    },
+    {
+      "mashup": "kinsync",
+      "description": " KinSync is a web application that automatically sends documents from a user's Mendeley account to their Kindle. The app resizes documents, formatting them to fit the Kindle's 6 screen. The app eliminates the extra step of downloading documents to a PC to then export to a Kindle. Users of KinSync may opt to only sync new documents so as to not clutter their Kindle with outdated content. ",
+      "original_categories": [
+        "documents",
+        "editing"
+      ],
+      "used_apis": [
+        "mendeley"
+      ]
+    },
+    {
+      "mashup": "papership",
+      "description": " PaperShip is an app that allows users to annotate &amp; share documents. The app syncs with a user's Mendeley and Zotero accounts. The app is available on the Mac Store for iPad, iPhone, and Mac Desktop. ",
+      "original_categories": [
+        "documents",
+        "annotations",
+        "social"
+      ],
+      "used_apis": [
+        "mendeley"
+      ]
+    },
+    {
+      "mashup": "cbeams.org-deep-sky-objects-database",
+      "description": " Cbeams.org is mashup of Deep Sky Objects with bibliographic references, images and sky maps. ",
+      "original_categories": [
+        "astronomy",
+        "astronomy"
+      ],
+      "used_apis": [
+        "openskyquery-skyportal",
+        "sdss-imgcutout"
+      ]
+    },
+    {
+      "mashup": "storet-watershed-summary",
+      "description": " For a given watershed (identified by its 8-digit Hydrologic Unit Code [HUC]), STORET Watershed Summary shows the types of data available in the STORET Warehouse, who has entered the data, the period of record for the data, and how much data is available. Types of data can include metal, nutrient, or pesticide levels. Users can find the nearest HUC by entering their zip code in the Find Your Watershed data field in the middle of the main page. ",
+      "original_categories": [
+        "reference",
+        "environment"
+      ],
+      "used_apis": [
+        "epa-station-catalog",
+        "epa-watershed-summary"
+      ]
+    },
+    {
+      "mashup": "tidely",
+      "description": " Tidely is an ocean tide table application built on the NOAA CO-OPS Tide Prediction API. It allows you to quickly find your local tides by entering your zip code. ",
+      "original_categories": [
+        "marine",
+        "localization",
+        "marine"
+      ],
+      "used_apis": [
+        "noaa-erddap"
+      ]
+    },
+    {
+      "mashup": "ask-amee",
+      "description": " Ask AMEE is an experiment that makes finding things easier. Instead of giving you a list of possible methodologies that might be relevant, it gives you an answer straight away. You can put in queries like â€œ10kg of coalâ€œ, and it will go off and see if AMEE has an answer. If it does, itâ€™ll give you it straight away, and give you links to find out more if you want to. ",
+      "original_categories": [
+        "environment",
+        "qa",
+        "search"
+      ],
+      "used_apis": [
+        "amee"
+      ]
+    },
+    {
+      "mashup": "climatecraft",
+      "description": " A Minecraft mod that adds tracking of carbon emissions using AMEE. ",
+      "original_categories": [
+        "science",
+        "weather",
+        "games",
+        "humor",
+        "environment"
+      ],
+      "used_apis": [
+        "amee"
+      ]
+    },
+    {
+      "mashup": "science-stack",
+      "description": " Science Stack is a powerful tool for researchers that combines Mendeley and PloS searches with innovative ways of interacting with the search functionality (like select and search in Firefox). ",
+      "original_categories": [
+        "search",
+        "reference",
+        "science"
+      ],
+      "used_apis": [
+        "mendeley"
+      ]
+    },
+    {
+      "mashup": "readermeter",
+      "description": " ReaderMeter displays author statistics based on readership data obtained from Mendeley. It also shows readership breakdown for individual publications and offers a JSON interface to its contents. ",
+      "original_categories": [
+        "statistics",
+        "science",
+        "bookmarks",
+        "reference",
+        "reputation"
+      ],
+      "used_apis": [
+        "mendeley"
+      ]
+    },
+    {
+      "mashup": "uk-carbon-footprint-project",
+      "description": " A platform for a carbon calculator gadget, built as a partnership among Google, the Energy Saving Trust, and RSA. Uses the AMEE engine and draws on the UK CO2 calculator for its data, calculations, and approved methodologies. ",
+      "original_categories": [
+        "environment",
+        "sustainability",
+        "widgets"
+      ],
+      "used_apis": [
+        "amee"
+      ]
+    },
+    {
+      "mashup": "amee",
+      "description": "AMEE is a platform for greenhouse gas calculation, with access to emissions factors, calculation algorithms, and storage for data history. Our science team take the published methodologies from the science community and put them into a simple unified API, so you don't have to trawl through PDFs and spreadsheets to work it all our yourself. With over 8 million possible calculations, the platform covers everything from simple electricity calculations through to insanely complex industrial processes. If you need to work out the environmental impact of an activity, AMEE has the environmental intelligence you need.",
+      "original_categories": [
+        "science"
+      ],
+      "used_apis": [
+        "amee"
+      ]
+    },
+    {
+      "mashup": "epa-station-catalog",
+      "description": "The EPA's Station Catalog API provides a summary of information on water quality monitoring stations such as the station's name, period of record, and result counts by characteristic type. This API operates over both SOAP and HTTP GET protocols.",
+      "original_categories": [
+        "science"
+      ],
+      "used_apis": [
+        "epa-station-catalog"
+      ]
+    },
+    {
+      "mashup": "epa-watershed-summary",
+      "description": "The EPA's Watershed Summary API provides a summary of information for the types of data available within a given watershed, which is identified by an 8-digit HUC (Hydrologic Unit Code). This data includes which organizations have data, the number of stations, and result counts by characteristic type.",
+      "original_categories": [
+        "science"
+      ],
+      "used_apis": [
+        "epa-watershed-summary"
+      ]
+    },
+    {
+      "mashup": "nasa-mars-rover-photos",
+      "description": "This API allows you to collect image data gathered by NASA's Curiosity, Opportunity, and Spirit rovers on Mars. Each rover has its own set of photos stored in the database, that are capable of being queried separately. Along with querying by date, results can be filtered by the camera. Responses are limited to 25 photos per call for unregistered key. NASA open data supports NASA’s scientists and engineers with information technology such as infusion, procurement, and future IT workforce development.",
+      "original_categories": [
+        "science"
+      ],
+      "used_apis": [
+        "nasa-mars-rover-photos"
+      ]
+    },
+    {
+      "mashup": "noaa-erddap",
+      "description": "This data service provides a combined interface to access and download scientific datasets and subsets on oceanography in common file formats. Typical uses involve charting and mapping. ERDDAP presents a single format for accessing multiple repositories, which the service reformats to interact with the remote server hosting the desired data.API methods support retrieving a list of available resource URLs, resource categories, and datasets, as well as metadata describing those resources. Methods also allow both full-text and advanced search against the datasets.",
+      "original_categories": [
+        "science"
+      ],
+      "used_apis": [
+        "noaa-erddap"
+      ]
+    },
+    {
+      "mashup": "openskyquery-skyportal",
+      "description": "OpenSkyQuery is a service that allows users to compare astronomical catalogs in order to find positional cross-matches. These matches can be subject to any other conditions or constraints the user wishes to define based on the data in the catalogs. The primary interface utilizes SQL, the Structured Query Language, with a few extensions specialized for astronomical data. The OpenSkyQuery SkyPortal API makes these functions available programmatically via SOAP calls.",
+      "original_categories": [
+        "science"
+      ],
+      "used_apis": [
+        "openskyquery-skyportal"
+      ]
+    }
+  ]
+}

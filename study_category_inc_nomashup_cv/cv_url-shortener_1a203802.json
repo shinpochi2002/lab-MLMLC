@@ -1,0 +1,26 @@
+{
+  "category": "url-shortener",
+  "uid": "1a203802",
+  "n_samples": 16,
+  "n_labels": 2,
+  "results": [
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 0.9582230802625418,
+      "std_val_loss": 1.2352364097025443,
+      "mean_micro_f1": 0.6
+    },
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 1.0348132563754917,
+      "std_val_loss": 1.3251885724322006,
+      "mean_micro_f1": 0.8666666666666666
+    }
+  ],
+  "selected": {
+    "lr": 3e-05,
+    "mean_val_loss": 0.9582230802625418,
+    "std_val_loss": 1.2352364097025443,
+    "mean_micro_f1": 0.6
+  }
+}

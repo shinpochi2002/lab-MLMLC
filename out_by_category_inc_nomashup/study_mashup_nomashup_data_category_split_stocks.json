@@ -1,0 +1,39 @@
+{
+  "category": "stocks",
+  "count": 3,
+  "items": [
+    {
+      "mashup": "beanvest",
+      "description": " Beanvest is an investment portfolio tracking application. It allows you to keep track of all your investments in one place with helpful insights. ",
+      "original_categories": [
+        "stocks",
+        "financial",
+        "stocks"
+      ],
+      "used_apis": [
+        "eod-historical-data-liverealtime-stock-prices",
+        "eod-historical-data-stock-price-data"
+      ]
+    },
+    {
+      "mashup": "eod-historical-data-liverealtime-stock-prices",
+      "description": "The EOD Historical Data Live/Realtime Stock Prices API returns data with livestock prices for US Only and All World plans. With the API, users can access information delayed for 15 to 20 minutes, related to market stocks. EOD Historical Data provides historical prices and fundamental financial data services.",
+      "original_categories": [
+        "stocks"
+      ],
+      "used_apis": [
+        "eod-historical-data-liverealtime-stock-prices"
+      ]
+    },
+    {
+      "mashup": "eod-historical-data-stock-price-data",
+      "description": "The EOD Historical Data Stock Price Data API returns JSON and CSV formats with the end of day historical data of the stock market. Developers can authenticate with an API token. EOD Historical Data provides historical prices and fundamental financial data services.",
+      "original_categories": [
+        "stocks"
+      ],
+      "used_apis": [
+        "eod-historical-data-stock-price-data"
+      ]
+    }
+  ]
+}

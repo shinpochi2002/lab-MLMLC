@@ -1,0 +1,622 @@
+{
+  "category": "personal-information-management",
+  "count": 56,
+  "positive_count": 14,
+  "negative_count": 42,
+  "pos_neg_ratio": "1:3",
+  "items": [
+    {
+      "mashup": "feedly-ios",
+      "description": " The feedly app aggregates a user's favorite sites into a streamlined summary. Feedly uses RSS feeds to display cards pertaining to a user's curated tastes. Feedly for iOS is compatible with iPhone and iPad, with syncing available for use on multiple devices. Feedly's social functions make sharing content to major social hubs very easy. Feedly also syncs with Pocket, Instapaper, and Evernote to allow personal information management across apps. ",
+      "original_categories": [
+        "blogging",
+        "notes",
+        "social",
+        "webhooks"
+      ],
+      "used_apis": [
+        "evernote"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "feedly-android",
+      "description": " The feedly app aggregates a user's favorite sites into a streamlined summary. Feedly uses RSS feeds to display cards pertaining to a user's curated tastes. Feedly for Android is compatible with a 4 phone, a 7 tablet, and a 10 tablet, with syncing available for use on multiple devices. Feedly's social functions make sharing content to major social hubs very easy. Feedly also syncs with Pocket, Instapaper, and Evernote to allow personal information management across apps. ",
+      "original_categories": [
+        "blogging",
+        "notes",
+        "social",
+        "webhooks"
+      ],
+      "used_apis": [
+        "evernote"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "taskclone",
+      "description": " TaskClone is the missing link to your productivity; automatically sending Evernote to-dos to your task management app(s) or Google Calendar. Works on all Evernote platforms, with over 50 tasks apps supported. ",
+      "original_categories": [
+        "automation",
+        "tasks"
+      ],
+      "used_apis": [
+        "evernote"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "mohiomap",
+      "description": " Mohiomap takes important documents and files in the Cloud and enables users to understand how they relate to one another and to visualize them in a way the brain understands. Starting with Evernote and Dropbox, Mohiomap provides a change of perspective on existing information - displaying it in a way which adds meaning and understanding. ",
+      "original_categories": [
+        "visualizations",
+        "cloud",
+        "documents",
+        "tools"
+      ],
+      "used_apis": [
+        "evernote"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "sellf",
+      "description": " Sellf is a mobile CRM solution that lets you manage business opportunities on-the-go, quickly and intuitively. Users can automatically log customer interactions, record new contacts and deals while moving, sync in the cloud, and better understand the relationship between sales and your actions. ",
+      "original_categories": [
+        "management",
+        "tools",
+        "business"
+      ],
+      "used_apis": [
+        "evernote"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "context-booseter-evernote",
+      "description": " Boost your notes with related data from all across the web. All you need to know in one place. ",
+      "original_categories": [
+        "notes",
+        "tools"
+      ],
+      "used_apis": [
+        "evernote"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "mavenlink-collaboration",
+      "description": " Project management application that integrates with Google Tasks. Manage tasks, projects, files, time, expenses, invoices and online payments inside your custom branded app. ",
+      "original_categories": [
+        "widgets",
+        "reference",
+        "social"
+      ],
+      "used_apis": [
+        "google-tasks"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "producteev-task-management-google-apps",
+      "description": " Task Management for Google Apps. Easily create an actionable task from any email. Assign, schedule, label and star items. Producteev is also available as Android, iPhone, web and Gmail apps. ",
+      "original_categories": [
+        "tasks"
+      ],
+      "used_apis": [
+        "google-tasks"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "todotoday-nozbe",
+      "description": " TodoToday for Nozbe is a simple todo list application to show current due and overdue tasks from the online task management tool Nozbe. ",
+      "original_categories": [
+        "lists",
+        "reference",
+        "mobile"
+      ],
+      "used_apis": [
+        "nozbe"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "todotoday-toodledo",
+      "description": " TodoToday for Toodledo is a simple todo list application to show current due and overdue tasks from the online task management tool Toddledo.com. ",
+      "original_categories": [
+        "lists",
+        "mobile",
+        "reference"
+      ],
+      "used_apis": [
+        "toodledo"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "deki-wiki",
+      "description": " DekiWiki, a popular wiki designed to help users quickly create mashups. Integrates various third party web APIs. ",
+      "original_categories": [
+        "mapping",
+        "social",
+        "wiki"
+      ],
+      "used_apis": [
+        "windows-live-contacts"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "checkvist",
+      "description": "The Checkvist Open API is a RESTful API that returns data in either JSON or XML format. The Open API can be used to create, edit, and view Checklists and Tasks Authentication is required only for non-public lists and tasks.",
+      "original_categories": [
+        "personal-information-management"
+      ],
+      "used_apis": [
+        "checkvist"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "nozbe",
+      "description": "Nozbe is a Getting Things Done (GTD) style task management service. Users can achieve personal and team productivity goals. The service is web-based, but also provides iPhone and iPad applications. The Nozbe API keeps to the GTD philosphy by providing programmatic access to projects, contexts, actions and notes.With the API, developers can create new projects, actions and notes, as well as mark actions complete. The Nozbe API also provides read access to projects and contexts.The Nozbe API is RESTful, with responses provided in JSON format.",
+      "original_categories": [
+        "personal-information-management"
+      ],
+      "used_apis": [
+        "nozbe"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "windows-live-contacts",
+      "description": "The Windows Live Contacts API is an HTTP-based service that enables developers to programmatically submit queries to and retrieve results from the Windows Live Contacts Address Book database.",
+      "original_categories": [
+        "personal-information-management"
+      ],
+      "used_apis": [
+        "windows-live-contacts"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "smart-recorder-and-box.net",
+      "description": " Smart Recorder is an audio recording app for the iPhone, and this mashup allows users to save their recordings to their Box.net accounts from within Smart Recorder. ",
+      "original_categories": [
+        "audio",
+        "mobile",
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "snappyfingers",
+      "description": "SnappyFingers lets you use its Question and Answer based search Engine through this API. The underlying service searches through FAQ files across the Internet.",
+      "original_categories": [
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickrfling",
+      "description": " Innovative prototype for exploring Flickr photos. Point the application at a feed, like CNN, it then renders the news in photos by matching tagged photos to words from the news. ",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pinnaclecart-rest",
+      "description": "The PinnacleCart REST API allows developers to integrate shopping cart services into their eCommerce websites and applications. The API includes methods for accessing products, orders, and customer data programmatically. The RESTful version of this API can return information in either JSON or XML format. An <a href=https://www.programmableweb.com/node/150765/>RPC version</a> is also available.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickr-screensaver-winxp",
+      "description": " Flickr screensaver for Windows XP ",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "billhighway",
+      "description": " Mashing up several financial tools to enable group money management among people organizing events, activities, or just needing to collect and pool money from a group of people. ",
+      "original_categories": [
+        "financial",
+        "social",
+        "messaging",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "super-skydive",
+      "description": " Virtual skydive using Google Maps. ",
+      "original_categories": [
+        "sports",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "docusign-and-egnyte",
+      "description": " Egnyte and DocuSign integration is the easiest and the most secure way to collaborate on 100% of your files irrespective of where they live, on-prem or in the cloud. Using this app, users can directly send business documents for electronic signatures to both internal and external parties and maintain versioning and annotation on signed documents for easy future reference. ",
+      "original_categories": [
+        "cloud",
+        "storage",
+        "social",
+        "syncing"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sandrific",
+      "description": " Sandrific is a mashup for people who love sand. View photos of sand from around the world. ",
+      "original_categories": [
+        "travel",
+        "photos",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "qibla-direction",
+      "description": " Check your prayer direction any time, any place. It's more accurate than a compass. Just enter your address to get started. ",
+      "original_categories": [
+        "religion",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "r8ar-twitter-trend-visualizer",
+      "description": " A trending tag visualization for Twitter and Flickr. Try out any tag you like by appending ?t=[twitter-tag]&amp;f=[flickr-tag] to http://r8ar.com. You may have seen this on the big screen at a Yahoo! Hack Day. ",
+      "original_categories": [
+        "messaging",
+        "photos",
+        "visualizations",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "slideshare-karaoke",
+      "description": " A PowerPoint mixer to select a PowerPoint presentation on the fly from SlideShare. It uses the SlideShare.net API and pretty effects by script.aculo.us and prototype.js to select a random slideshow for a given tag. ",
+      "original_categories": [
+        "search",
+        "presentations",
+        "entertainment"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitpic__api",
+      "description": "The TwitPic API lets you upload and post images to your Twitter account. You can upload an image for later posting or upload an image to TwitPic and automatically send it as a status update to Twitter.",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "instame",
+      "description": " InstaMe is a simple way to see pictures posted on Instagram. Allows everyone to enjoy the Instagram experience, not just iPhone users. ",
+      "original_categories": [
+        "photos",
+        "social",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bedesk",
+      "description": " A application desktop to let you visualize data. Integrates the YouTube API. ",
+      "original_categories": [
+        "video",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "slack-web",
+      "description": "Slack is a tool for managing team communications. Slack brings together all of a team's messages, files, and posts from Twitter, Dropbox, Trello, Google Docs, GitHub, and other services in one place. Once collected, these materials are archived and indexed so that they can all be searched at once. Native applications are available for iOS and Android devices to give users full access to Slack on the go.Slack comes with an API that allows users to integrate it with other third-party applications. Some out-of-the-box integrations are provided, but the API provides additional functions above and beyond those. With the Slack API, users can upload an image or file, get a channel's history, set a channel's unread marker, retrieve lists of files, and search a Slack instance.",
+      "original_categories": [
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "phonetap",
+      "description": " PhoneTap lets you record your outgoing phone calls, giving you a record of who you talked to and what was said. Plays both parties a notice that the call is recorded at the start of each call. ",
+      "original_categories": [
+        "telephony",
+        "messaging",
+        "mobile",
+        "audio"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "china-weather-forecast",
+      "description": " View weather forecasts for cities in Asia. ",
+      "original_categories": [
+        "chinese",
+        "weather",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "opendoar",
+      "description": "From their site: OpenDOAR is constructing a comprehensive and authoritative list of institutional and subject-based repositories. The API is a machine-to-machine interface that lets third party applications run a wide variety of queries against the OpenDOAR Database and get back XML data. You can choose to receive just repository titles &amp; URLs (suitable for OAI-PMH harvesting), or all the available OpenDOAR data, or intermediate levels of detail.",
+      "original_categories": [
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "self-referential-tumblr",
+      "description": " The first Self-Referential Tumblr. Your page accesses are our posts. A mashup of Tumblr and Clicky. ",
+      "original_categories": [
+        "analytics",
+        "statistics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "iswapyou",
+      "description": " Collection site where users can post things they collect, have, or want to trade. Uses RapLeaf as a feedback and reputation system. ",
+      "original_categories": [
+        "collecting",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "best-bitcoin-price",
+      "description": " Best Bitcoin Price is a Canadian Bitcoin exchange that helps users find the best available prices for buying and selling Bitcoins. They only work with exchanges that meet their security guidelines and are completely Canadian owned and operated. Best Bitcoin Price searches Bitcoin prices in real time, and all prices are given in Canadian Dollars. ",
+      "original_categories": [
+        "bitcoin",
+        "canadian",
+        "financial"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tictrac",
+      "description": " TicTrac is a web and mobile application that allows users to track their every activity by either syncing from other existing applications on their device, or by using available features on TicTrac. With TicTrac, customers will discover what works for them, and what makes them tick. FitTrack's goal is to help users to better understand their routines. The mashup deploys the FitBit, BBC, and Health 2.0 APIs. ",
+      "original_categories": [
+        "fitness"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "hospitals-germany",
+      "description": " Displays hospitals in Germany and shows their job offers. ",
+      "original_categories": [
+        "reference",
+        "visualizations",
+        "mapping",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "music-artist-cloud-1",
+      "description": " Discover Music you like using tag cloud of similar artists inclusing videoclips. Powered by Google Java App Engine. ",
+      "original_categories": [
+        "music",
+        "classification",
+        "search",
+        "video",
+        "lyrics",
+        "books"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bible-search-instant",
+      "description": " Just start typing and verses will be returned instantly. ",
+      "original_categories": [
+        "reference",
+        "religion",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tag-fight",
+      "description": " Created for Photo Hack Day 2011, Tag Fight! participants send texts to fight over what type of photos to display full-screen. ",
+      "original_categories": [
+        "social",
+        "humor",
+        "photos",
+        "messaging",
+        "mobile",
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapmyrun",
+      "description": " MapMyRun is an application that allows users to track their fitness activities using the built-in GPS of their mobile phones. Users of this application can save and upload their workout data to their MapMyRun account, where they can see the information in more details. Additionally, if the city is on the map of the application, runners will be able to search for, and compare different running routes. ",
+      "original_categories": [
+        "mapping",
+        "fitness",
+        "localization"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "social-share-count",
+      "description": "The Social Share Count API enables users to count inbound and outbpound clicks from the ShareThis platform buttons and links. ShareThis lets you share to all of your profiles, blogs, friends and contacts. If you see something you want to share, simply click the ShareThis button on the webpage or your browser plugin for instant sharing. Use the Social Share Count API to get access to total sharing activity for a URL. Use it to display share counts on your social buttons or anywhere else in your application.",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "london-random-pub-finder",
+      "description": " Interactive Google Map showing pubs in London with reviews. ",
+      "original_categories": [
+        "mapping",
+        "england"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "contractsforgeeks",
+      "description": " ContractsForGeeks is an employment search tool that sources the indeed API to find job postings, then arranges them by city or state. It also includes and IT recruiter directory. ",
+      "original_categories": [
+        "search",
+        "advertising",
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickredit",
+      "description": " FlickrEdit is a Java Desktop application for displaying and editing your photos in a variety of ways. It also allows you to download or upload your photos to and from Flickr. ",
+      "original_categories": [
+        "storage",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "esri-shapefile-viewer",
+      "description": " Plots shapefiles on Virtual Earth maps. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pricespin",
+      "description": "PriceSpin offers a selection of API webservices for our price comparison solutions including shopping, financial and mobile phone services. These webservices are offered as both SOAP webservices and REST webservices. The PriceSpin API allows developers to create tools and applications that can search for products, search for stores and also search for category specific offers that match your vertical. One added bonus to the websirvices, is that clients can simply add selected offers from PriceSpin merchants to their website without having to download the entire PriceSpin inventory.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rentuntilyouown.com",
+      "description": " A national real estate search engine for rent to own homes. Choose your state and begin your search. Uses Oodle and Google Maps API's to power property listings. ",
+      "original_categories": [
+        "search",
+        "reference",
+        "mapping",
+        "classifieds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bot-libre",
+      "description": "BOT libre allows you to create your own artificial intelligent chat bot, train them, and share them with others.The BOT libre API allow you to chat with your bots over REST.You are free to use this API for personal, commercial, or recreation usages.",
+      "original_categories": [
+        "chat"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "linkalope",
+      "description": " Linkalope uses the Twitter API to search for recently shared links on Twitter. The built in zeitgeist pulls the latest trends making it easy to search for sports, movies, tv, celebrities, and more. ",
+      "original_categories": [
+        "urls",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "uk-traveldata",
+      "description": " Travel advisories in the UK on a Google Map (with BBC Backstage data). ",
+      "original_categories": [
+        "mapping",
+        "travel",
+        "england"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ncbi-entrez",
+      "description": "The NCBI Entrez Utilities Web Service enables developers to access Entrez Utilities via the Simple Object Access Protocol (SOAP). The Entrez database contains bioinformatics data.",
+      "original_categories": [
+        "medical"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "livemap-devon",
+      "description": " Site details events in the County of Devon (UK), featuring town shows, carnivals, farmers markets etc. Works on a three month forward basis, presently showing events for Dec to Feb. Also links to a Devon live entertainment page which features the leading theaters and venues in the region, a Devon attractions site detailing and a wide variety of things to do and places to visit. ",
+      "original_categories": [
+        "visualizations",
+        "events",
+        "search",
+        "mapping",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mobile-ok-checker",
+      "description": " How can I use page2images.com's API to do something interest. There is an example. This tool can allow user to check whether their website is mobile friendly. We plan to make a batch version on Dec, 2013. ",
+      "original_categories": [
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sharedbook",
+      "description": "From their site: SharedBook is a technology company that has created an on demand, reverse publishing platform that allows users to extract data and content from multiple sources, manipulate it, then distribute their unique new creation online or off. It's different from other APIs in that, instead of writing an interface to extract data from us, you'll be creating a new way to introduce data into our private and secure book creation system.",
+      "original_categories": [
+        "other"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

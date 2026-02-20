@@ -1,0 +1,354 @@
+{
+  "category": "healthcare",
+  "count": 33,
+  "positive_count": 3,
+  "negative_count": 30,
+  "pos_neg_ratio": "1:10",
+  "items": [
+    {
+      "mashup": "refuge-android-app",
+      "description": " This is the unofficial Android dependent on the REFUGE Restrooms AP. The app allows users to interact with the database of restrooms safe for transgender, intersex, gender nonconforming, as well as handicapped individuals. Users can search a map to view drop-pins for restroom locations nearest to their proximity. Also, the app displays short bios on the restroom so that users are informed. ",
+      "original_categories": [
+        "lists",
+        "directories",
+        "healthcare"
+      ],
+      "used_apis": [
+        "refuge-restrooms"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "gethealth",
+      "description": "GetHealth is a Unified RESTful API to access health data from wearables and devices. It allows users to integrate the sources like Dailymile, Fatsecret, Fitbit, Google Fit, Jawbone, Lifefitness, MapMyFitness, MapMyRun, MapMyWalk, Microsoft Health, Misfit, Moves, PredicctBGL, Runkeeper, Strava, Sony Lifelog, Withings, and 23andMe. It also allows integration to medical devices. There are api calls available for activity, diabetes, weight, nutrition, sleep, and genotype. Furthermore it eases the user authentication process for each source with single-sign on API call. Also it normalizes the data across multiple sources and provides unified data structure.",
+      "original_categories": [
+        "healthcare"
+      ],
+      "used_apis": [
+        "gethealth"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "refuge-restrooms",
+      "description": "Based in San Francisco, REFUGE Restrooms is a resource that provides transgender, intersex, and gender nonconforming individuals with access to a library of restrooms with safe environments. Similar to the now deprecated Safe2Pee, users can search for restrooms by proximity, may add new restrooms to the directory, and can also comment and rate their experiences. The site and service aims to promote restroom advocacy through community building. The project is accessible using a RESTful API. Using GET HTTP requests, developers can query the restroom database by keyword, and can also return a full list of all database entries in a JSON format.",
+      "original_categories": [
+        "healthcare"
+      ],
+      "used_apis": [
+        "refuge-restrooms"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "livemap-uk-medical-emergency",
+      "description": " Details Accident &amp; Emergency Depts, Minor Injury Units &amp; Walk-In Centres throughout Great Britain. Provides Addresses, Contact Nos &amp; Opening Times details ",
+      "original_categories": [
+        "healthcare",
+        "england",
+        "medical",
+        "emergency"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ichess",
+      "description": " Play a chess game with iGoogle as your opponent. ",
+      "original_categories": [
+        "games",
+        "humor",
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "eeehop",
+      "description": " Yet another web2.0 travel application that helps you find the holiday rentals. Most are located in France and Italy. ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "italian",
+        "french"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "frtr",
+      "description": " Frtr (pronounced fritter) allows you to easily record then tweet a video recorded with your webcam. ",
+      "original_categories": [
+        "video",
+        "social",
+        "webcams"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pld",
+      "description": " The PLD Mashup offers graphics and design solutions spanning across various domains that include logo and website designs as well as mobile applications and e-commerce platforms. The mashup’s provider works closely with developers to support unlimited revisions and achievement of best results. ",
+      "original_categories": [
+        "graphics",
+        "design"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitter-trends-tagged",
+      "description": " This mashup feeds the semantic web service Calais every five minutes with the most recent tweets behind the current twitter trends in order to determine tags for these trends. With the resulting tag set at your fingertips. ",
+      "original_categories": [
+        "semantics",
+        "blogging",
+        "classification",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "facebook-friend-plotter",
+      "description": " See where your friends are located in the UK. Click on the markers to see their details in the information window. ",
+      "original_categories": [
+        "social",
+        "mapping",
+        "networking",
+        "england"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "amazonhive",
+      "description": " Alternative interface into the Amazon catalog. Java applet with price sliders and other filtering tools. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "travelmapia",
+      "description": " World Travel Guide featuring Video and pictures of, hotels, resorts and restaurants on an interactive Google Map. ",
+      "original_categories": [
+        "travel",
+        "video",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "us-nursing-home-finder",
+      "description": " Data on over 15,000 nursing homes. Search the best nursing homes in your area. You can also sort the results based on various ratings and view a detailed report on each nursing home. ",
+      "original_categories": [
+        "medical",
+        "mapping",
+        "health"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "whatsikat-boso",
+      "description": " Whatsikat Boso shows how Filipino bloggers are feeling right now. It extracts feelings from Filipino blogs. Take a peek into their moods and see how that makes you feel. ",
+      "original_categories": [
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "social-contact",
+      "description": " Meet a cool entrepreneur, investor, or tech person? Just ask for their twitter handle, text it to 203-403-NAME (203-403-6263), and instantly get a vcard for them that you can easily import into your phone or computer address book. It pulls a surprising amount of public and semi-public information from a variety of social and other sources. Some information that can be included: full name, company and title, email (occasionally), phone number (occasionally), home page url, home location (generally city-level), description, summary, Klout, photo, facebook profile link, and other social profile pages. ",
+      "original_categories": [
+        "social",
+        "contacts",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "smart-avia-pix",
+      "description": " Displays information on different types of aircraft including manufacturer, date of the first flight and other information. Uses Flickr API to search and display aircraft photos. ",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "worlds-fastest-elevators",
+      "description": " The ten fastest elevators in the world from some of the tallest buildings in the world. Integrates YouTube videos of the buildings. ",
+      "original_categories": [
+        "trivia",
+        "mapping",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "usa-recovery-act-recipients-stimulus-dollars",
+      "description": " See the recipients of Stimulus Dollars in your state. Replace the 2 letter state code at the end of the URL with your state code. ",
+      "original_categories": [
+        "government",
+        "mapping",
+        "economics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "claim-earth",
+      "description": " An interactive reality game that serve as a platform for community publishing, citizen media and 3D journalism. ",
+      "original_categories": [
+        "games",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fire-eagle",
+      "description": "Note: This is in private beta as of March 2008. From their site: Fire Eagle is the secure and stylish way to share your location with sites and services online while giving you unprecedented control over your data and privacy. We're here to make the whole web respond to your location and help you to discover more about the world around you.",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "run-finder",
+      "description": " Plot, save and share running routes. ",
+      "original_categories": [
+        "sports",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "global-biodiversity-information-facility",
+      "description": "Global Biodiversity Information Facility (GBIF) enables access to over 7000 datasets by over 200 data providers as part of a UDDI Registry. Get species data, including plants, animals, fungi and micro-organisms, plus species occurrence records with classifications and scientific and common names. Also access news about GDIF with the aPI. Participants in the GBIF network can use a toolkit to efficiently publish to the Internet biodiversity data. GBIF is an international group that works to make the world's biodiversity data accessible anywhere. The GBIF office is at the University of Copenhagen, Denmark, in the Zoological Museum.",
+      "original_categories": [
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ergast",
+      "description": "The Ergast Motor Racing Data API provides a historical record of motor racing data for non-commercial purposes. The API provides data for the Formula 1 and Formula E series, from the start of the World Championships in 1950 and 2014 respectively. New: Now provides Formula One lap times and pit stop data from the 2011 season onwards.",
+      "original_categories": [
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "govtrackus",
+      "description": "[Editor's Note: This API is no longer available. For details, <a href=https://govtracknews.wordpress.com/2016/12/10/ending-govtracks-bulk-data-and-api/>click here</a>.]From their site: GovTrack.us tracks the U.S. Congress and is a reference for legislation, votes, Members of Congress, congressional districts, and the congressional record. The database that powers the site is also made freely available, and several APIs are available. APIs are URLs on GovTrack that serve XML rather than HTML. They are intended to be called by applications to retrieve data dynamically.",
+      "original_categories": [
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rivers-world",
+      "description": " Browse through list of all the rivers of the world categorized by continent, country. The rivers coordinates are mapped in Google maps, along with photos got from flickr. Provision is given to visit the details about the river in Wikipedia from the Map. ",
+      "original_categories": [
+        "photos",
+        "mapping",
+        "reference",
+        "trivia",
+        "photos",
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "agendize-action",
+      "description": "Agendize provides conversion tools that help businesses convert web visitors into leads and clients, and track everything along the way. These tools include Click-to-Call, Send to Phone (by SMS), Live Chat, Online Scheduling and more. The Agendize APIs allow customization of these tools and retrieval of all reporting data.The Action API lets users build their own interface for their Agendize widgets. With the Agendize Action API, users can execute any Agendize action programmatically, bypassing the default widgets and dialog boxes. With it, they can integrate Agendize features into their application, website or banner ad with their own user interface. It uses RESTful calls and responses are formatted in XML.",
+      "original_categories": [
+        "enterprise"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "html-instant-real-time-html-editor-and-search-engine",
+      "description": " Real-time HTML/CSS/Javascript editor and advanced Search Engine dedicated to web development and design. ",
+      "original_categories": [
+        "blogging",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sportradar",
+      "description": "The Sportradar API allows developers to integrate their applications with the Sportradar service, using RESTful methods. Sportradar is a provider of sports data and content for over 40 different sports. They are also the official partner with the NBA, NFL, NHL &amp; NASCAR.",
+      "original_categories": [
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "key-metrics-google-analytics",
+      "description": " For on-the-go administrators to access data from their mobile devices. Analytics app company youcalc has created an embeddable Key Metrics Change web widget that displays well on the iPhone as a web app. ",
+      "original_categories": [
+        "analytics",
+        "analytics",
+        "widgets",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "eppraisal.com",
+      "description": " A real estate site that gives you quick and easy access to information on any property in the US. eppraisal.com data is updated daily and pulls from a database of about 70 million homes. Integrated maps and estimated home valuations. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "seomoz",
+      "description": "SEOmoz provides companies around the world with consulting, Internet marketing and search engine optimization services. Our goal is to provide a high level of service and education to businesses, individuals, non-profits and government organizations so they can best leverage the unique reach of the Internet to increase visibility and achieve success.The SEOmoz Site Intelligence Service API provides an interface to working with SEOmoz tools and data, allowing developers to retrieve information programmatically and make use of such data in their own applications.",
+      "original_categories": [
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "beeplus",
+      "description": " Beginner and professional investors can create rules with filters for automatic portfolio management/investment on the P2P platform Bondora, using the Bondora API. ",
+      "original_categories": [
+        "financial"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "couponfollow",
+      "description": " CouponFollow tracks coupon codes that have been tweeted by Twitter users in real-time, and organizes them for bargain shoppers to use. Coupon popularity is tracked by the total number of Tweets. Members can easily retweet codes they like via Twitter. ",
+      "original_categories": [
+        "blogging",
+        "ecommerce",
+        "coupons"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

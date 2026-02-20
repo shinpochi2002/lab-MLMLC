@@ -1,0 +1,457 @@
+[
+    {
+        "name": "apache-mesos-operator-http",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "Mesos, a project of the Apache Software Foundation, shares the fundamental principles of Linux kernel. But Mesos kernel features additional functionalities such as unlimited compatibility with machines and provisioning of a variety of resource management and scheduling APIs. The Apache Mesos Operator HTTP API simplifies the construction of operator applications. The RESTful API makes it possible for developers to deploy HTTP requests as substitute for C++ or native client libraries when building operator applications. The HTTP requests facilitate interactions between master API calls and agent API calls. The API accepts strictly HTTP POST requests, usually encoded in JSON format, and returns responses in JSON format as well.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "bigdatacloud-ip-address-geolocation-confidence-area-and-hazard-report",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "This API provides all the locality information and confidence area for the IP addresses and additional hazard report.The API returns list of security checks for the IP addresses like:{isKnownAsTorServer: false,isKnownAsVpn: false,isKnownAsProxy: false,isSpamhausDrop: false,isSpamhausEdrop: false,isSpamhausAsnDrop: false,isBlacklistedUceprotect: false,isBlacklistedBlocklistDe: false,isKnownAsMailServer: false,isKnownAsPublicRouter: false,isBogon: false,isUnreachable: false,hostingLikelihood: 0,isHostingAsn: false,isCellular: false}",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "codeship",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "The Codeship REST API allows developers to access and integrate the functionality of Codeship with other applications. Some example API methods include retrieving projects, listing projects, and managing builds. Codeship is a Continuous Integration (CI) platform that allows users to manage and deploy applications.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "figma-web",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "The Figma Web API allows developers to connect their apps, websites, and internal tools directly to Figma's real-time state of design. Figma is a browser-based interface design tool, created to assist in software development. The API currently supports view-level operations on Figma files. Future versions of the API will offer greater functionality.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "docker-swarm",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "Docker is a cloud-based application development platform for building distributed apps, sharing repositories, and automating workflows. Docker Swarm is native clustering for Docker and will turn a pool of Docker hosts into a single, virtual host. Swarm requires Docker 1.4.0 or later and is compatible with Docker Remote API. Developers should note that Swarm is currently in beta and will likely change.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "stackery",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "The Stackery REST API allows developers to access and integrate the functionality of Stackery with other applications and to create new applications. Some example API methods include managing responses, managing users, and managing applications. Stackery provides a platform and tools to build, test, manage, and deploy serverless applications.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "webix-file-manager-javascript",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "The Webix File Manager JavaScript API is indirect access to this service, for integrating the Webix library. Please refer to the corresponding SDK below. The File Manager JavaScript UI widget for web developers is a component for enterprise web applications. Webix helps developers build UIs for creating products and internal web resources.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "dapr",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "The Dapr API provides access to a set of tools for building scalable distributed applications. Developers can connect their applications to Dapr to integrate state management, bindings, messaging, invocation, and actor runtime capabilities. The Dapr API returns JSON-formatted responses.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "thomson-reuters-screening-deployed",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "The Thomson Reuters Screening Deployed API allows developers to implement data filtering concepts when building apps. The API offers simple integration for use with standard deployed web services. Its internal screening functionality is useful for establishing connectivity to the SD Screening API over HTTP. This functionality also enables the mapping of Thomson Reuters Professional Services’ XML schema definition file.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "interplanetary-file-system",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "The InterPlanetary File System API allows developers to programmatically access all of the methods available through its command line interface. The InterPlanetary File System (IPFS) is a peer-to-peer hypermedia distribution protocol that enables the creation of completely distributed applications. It is composed of a distributed hashtable, an incentivized block exchange, and a self-certifying namespace.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "bdapps-pro-caas",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "The BDApps Pro CaaS API allows developers to monetize their apps with micropayments. It includes methods for retrieving the account balance of a given subscriber, charging specific amounts from a subscriber's account, and more.BDApps is an application development platform that provides Robi network tools for monetization and messaging. BDApps is based in Bangladesh.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "yahoo-kimo-knowledge-plus",
+        "categories": [
+            "qa"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "The Yahoo Kimo Knowledge API provides an interface for users to access the knowledge and Q &amp; A knowledge content on the site. This also includes recorded information of the user knowledge and quizzes. The API provides functionality that allows users to get the problem content, relevant answers, comments, and published functions; keyword search; get a specific user's information, such as questions and answers they have posted; and category names. The API uses RESTful calls and responses are formatted in XML and JSON. Documentation is in Chinese.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "engine-yard-core",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "Engine Yard offers a platform designed for support and automation of application deployment. This platform features monitoring, telemetry, internal access logging, automated provisioning, and environment and instance automation. The Core API is used to implement Engine Yard's PaaS. This API is REST based, returns data in JSON or XML format, and uses Tokens for authentication.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "stack-exchange",
+        "categories": [
+            "qa"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "Stack Exchange is a growing network of 89 question and answer sites on diverse topics from software programming to cooking to photography. Stack Exchange builds libraries of high-quality questions and answers focused on the most important topics in each area of expertise.The Stack Exchange API enables users to retrieve answers, comments, badges, events, questions, revisions, suggested edits, user information, and tags from the site. Users can also use the API to search the site or edit posts. The API uses REST calls issued in JSON and JSONP.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "mendix-single-sign",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "The Mendix Single Sign-On API allows developers to integrate their application with the Mendix Single Sign-On Server. The Mendix Single Sign-On system is based on the OpenID 2.0 protocol. Mendix is an application development service.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "create-free-app",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "The Create Free App API allows developers to create a simple Android or iOS app that will display their website on the user's phone. The resulting apps come with an APK and IPA file and can be submitted to the Google Play Store and Apple iOS App Store. This service is built on Phonegap Build.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "onelogin-scim",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "This Rest API is a system for Cross-domain Identity Management (SCIM) that aims to simplify user provisioning and management in the cloud. It currently supports SCIM 1.1 and SCIM 2.0. Here are the calls your API should receive from OneLogin SCIM provisioning: Get User, Create User, Get User by ID, Update User and more. OneLogin is an Identity and Access Management (IAM) provider for enterprise in cloud, legacy and hybrid IT environments.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "docker-remote",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "Docker is a open application development platform for sharing apps and repositories and automating development workflows. Use the Docker Remote API to access Docker API features like creating a container, searching images, retrieving container logs, or building an image from a Dockerfile. This mostly RESTful API uses JSON for requests/returns and GET/POST methods over HTTP. The Remote API is currently in version 1.18. See the project home page for more detailed information on available API methods.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "docker",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "Docker is an open-source platform to build, deploy, and manage containers for applications. Docker offers a variety of features that allow applications to run on any server and on multiple platforms.The Docker API allows developers to access and integrate the functionality of Docker with other applications. Some example API methods include managing user accounts, managing files, and retrieving containers and repositories and associated data.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "dojo-toolkit",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "The Dojo Toolkit API provides open source modular platforms for developing cross-platform JavaScript applications. The API sends requests and returns responses in JSON or JSONP format.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "qxdesktop",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "qx.Desktop API provides developers a way to build rich and interactive, desktop-like applications. . Qooxdoo is a universal JavaScript framework, and is owned and managed by 1&amp;1, a web host company.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "loquest",
+        "categories": [
+            "qa"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "Loquest is a search service that allows users to submit questions in keywords and specify location to get answers. Users can also answer questions submitted by other users.The Loquest API allows developers to access data from Gootip. Some example API methods include searching for questions, asking questions, answering questions, and finding questions by locations.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "trawex-travel",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "Trawex is a travel technology company based in India that offers travel technology, travel portal development, flight,hotel/car booking engines, SEO, SMO and XML/API integration services. With the API for third party integrations, developers can manage flight booking, fares and travel packages with other airlines, hotels and GDS with the online consumer in mind. This API about travel technology that supports XML could be valuable for developers who want to keep track of travel itineraries. For more information, partners can receive support via phone in the US, the US and India. They can e-mail, Skype or chat with Trawex to discuss a project and start app development.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "coralogix",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "The Coralogix API enables developers to manage their application development logs. Coralogix is a secure logging platform powered by machine learning. This platform automates the process of turning cluttered log data into templates and flows. Coralogix features custom dashboards, log querying, custom log views, and alert management.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "yasoon",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "With Yasoon, users can access application cloud services in Microsoft Outlook 2010 and 2013. The API is about application integration in Outlook using HTML5 and Javascript. Developers can download the service at no cost. In the site, they will see an index list with the parameters of alert, app, contact, feed, io, notification, outlook, calendar and mail. Yasoon also displays a sample code in Javascript along with a downloadable getting started guide.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "launchdarkly",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "The LaunchDarkly REST API allows developers to access and integrate the functionality of LaunchDarkly with other applications. Some example API methods include integrating features in applications, managing user accounts, and managing application goals. The documentation also allows for API testing. LaunchDarkly also offers multiple SDKs in a variety of languages. LaunchDarkly is an application feature management and deployment platform.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "groove",
+        "categories": [
+            "qa"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "Groove is a help desk service that offers real-time customer support across multiple channels including email, web, mobile, live chat, Twitter and more. The software allows businesses to organize their customers' tickets using multiple support channels, is available on mobile platforms and allows businesses to provide realtime chat support. An API is available to integrate Groove with existing applications.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "umajin",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "Umajin is a visual designer for building applications without writing any code. The APIprovides access to the advanced setup feed, allows users to transform the JSON-T data and turn form submissions into a feed.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "lxd-linux-container-rest",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "LXD Linux Container is a RESTful platform-based API that enables the access and management of infrastructures for container projects over HTTP. The LinuxContainer.org project is intended to be used to construct environments for Linux containers, including build machines, infrastructure, mailing-lists, website, and e-mail related tools. The LXD REST API, still under active development, provides a transparent method for managing containers and integrating with large-scale deployment stacks. LinuxContainer.org and it's projects are under the Creative Commons license for free distribution.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "mendix-invite",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "The Mendix Invite API is an App Service that enables invitation of new users to your AppCloud application directly from the application. It also allows users to invite others to the application. Mendix provides a way to transform ideas into applications.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "hockeyapp",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "HockeyApp is an app testing service. It provides beta trial and analysis for developers perfecting their apps. Their products include customizable distribution systems, crash-reporting services, and usage analytics. These products are supported on multiple platforms, including iOS and Android. HockeyApp offers an API that exposes the distribution and crash-reporting functionality. It is a RESTful API that returns JSON-formatted data.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "mendix-feedback",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "The Mendix Feedback API allows developers to retrieve, add and manage feedback for their Mendix projects. Mendix is an application development service.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "quetter",
+        "categories": [
+            "qa"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "Quetter is a website where users can both submit questions to be answered and answer questions asked by other users within the community. Quetter provides an API that can be used to integrate Quetter services into another application. Methods exposed allow users to get the newest questions, get answers by question and user and get all genres. It uses RESTful calls and responses are formatted in XML and JSON.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "yahoo-answers",
+        "categories": [
+            "qa"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "From their site: Tap into the collective knowledge of millions of Yahoo! users with the Yahoo! Answers Web Services APIs. Search for expert advice on any topic, from within your very own site. Watch for new questions in the Answers categories of your choice. Keep track of fresh content from your favorite Answers experts, and more.",
+        "middlecategories": [
+            "1-0"
+        ]
+    },
+    {
+        "name": "openstack-bare-metal",
+        "categories": [
+            "application-development"
+        ],
+        "bigcategories": [
+            "1"
+        ],
+        "description": "OpenStack is a provider of various open source project components that facilitate the establishment of cloud services. It has provided standard APIs that are well suited for multiple implementations. The OpenStack Bare Metal API is a RESTful platform for interacting with the cloud-provisioned hardware architecture of the Bare Metal service. The OpenStack Bare Metal service is essentially a network of physical servers that have been transformed into virtual machines, and made available to service providers and enterprises, through the cloud infrastructure. Developers can use the OpenStack Bare Metal API to create a control panel through which users can acquire privileged rights for accessing and interacting with the bare metal servers in the cloud environment.",
+        "middlecategories": [
+            "1-0"
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+{
+  "category": "business",
+  "uid": "c7361831",
+  "n_samples": 3,
+  "n_labels": 2,
+  "results": [
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 20.530561824639637,
+      "std_val_loss": 27.94178748532566,
+      "mean_micro_f1": 0.5555555555555555
+    },
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 30.102267861366272,
+      "std_val_loss": 41.667009213427086,
+      "mean_micro_f1": 0.3333333333333333
+    }
+  ],
+  "selected": {
+    "lr": 3e-05,
+    "mean_val_loss": 20.530561824639637,
+    "std_val_loss": 27.94178748532566,
+    "mean_micro_f1": 0.5555555555555555
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "category": "fax",
+  "count": 4,
+  "positive_count": 1,
+  "negative_count": 3,
+  "pos_neg_ratio": "1:3",
+  "items": [
+    {
+      "mashup": "send-fax-php",
+      "description": " Uses the InterFAX SendfaxEx method to send a binary file such as Microsoft Word or Acrobat PDF to any fax number. ",
+      "original_categories": [
+        "messaging"
+      ],
+      "used_apis": [
+        "interfax"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "public-domain-reprints",
+      "description": " Lets people reprint public domain books from Internet Archive and Google Books. ",
+      "original_categories": [
+        "printing",
+        "books"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "aroundme",
+      "description": " The AroundMe app pulls data from providers around the world to give their users a sense of what is around them. Users must be connected to a WiFi/G provider for service. ",
+      "original_categories": [
+        "mapping",
+        "geography",
+        "localization",
+        "mobile",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "beermap-top-2500-beers-twitter",
+      "description": " To discover the most popular beer in over 15000 cities across the US, Canada, the UK, and Ireland, PeekAnalytics mapped the consumer followers of over 2500 beer and microbrewery Twitter accounts. ",
+      "original_categories": [
+        "analytics",
+        "beer",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

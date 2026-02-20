@@ -1,0 +1,26 @@
+{
+  "category": "marketing",
+  "uid": "3ce73196",
+  "n_samples": 4,
+  "n_labels": 2,
+  "results": [
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 0.5725067593157291,
+      "std_val_loss": 0.44502671254191917,
+      "mean_micro_f1": 0.75
+    },
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 1.0571449995040894,
+      "std_val_loss": 0.2863158428441412,
+      "mean_micro_f1": 0.41666666666666663
+    }
+  ],
+  "selected": {
+    "lr": 3e-05,
+    "mean_val_loss": 0.5725067593157291,
+    "std_val_loss": 0.44502671254191917,
+    "mean_micro_f1": 0.75
+  }
+}

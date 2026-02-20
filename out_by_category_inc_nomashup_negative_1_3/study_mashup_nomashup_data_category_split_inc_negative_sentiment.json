@@ -1,0 +1,52 @@
+{
+  "category": "sentiment",
+  "count": 4,
+  "positive_count": 1,
+  "negative_count": 3,
+  "pos_neg_ratio": "1:3",
+  "items": [
+    {
+      "mashup": "getsentiment",
+      "description": "The GetSentiment REST API allows developers to access and integrate the functionality of GetSentiment with other applications. Some example API methods include retrieving customer feedback analysis, managing customer relationships, and retrieving social media analysis and marketing research. The API performs keyword extraction, topical categorization and aspect-based sentiment analysis of text. The API can be customized by the user via a self-service interface, to suit specifics of the industry, project and use cases. GetSentiment is a text analysis tool that provides brands and companies insight into customer feedback.",
+      "original_categories": [
+        "sentiment"
+      ],
+      "used_apis": [
+        "getsentiment"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "malva-weather",
+      "description": " MicroForecast for MicroBlogging! Powered by GoogleAPI Enter a place. The App will read weather forecasts from Google API, then posts them on @MalvaWeather twitter profile. ",
+      "original_categories": [
+        "weather",
+        "blogging",
+        "weather"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cammap-usa",
+      "description": " USA webcams via Google maps. Limited amount of content. ",
+      "original_categories": [
+        "mapping",
+        "photos",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geography-quiz",
+      "description": " See how well you can pinpoint some major world cities. ",
+      "original_categories": [
+        "mapping",
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

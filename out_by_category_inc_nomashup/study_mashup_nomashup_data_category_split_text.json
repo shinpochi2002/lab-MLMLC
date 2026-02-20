@@ -1,0 +1,27 @@
+{
+  "category": "text",
+  "count": 2,
+  "items": [
+    {
+      "mashup": "findilike",
+      "description": " FindiLike Hotel Search is a hotel search and review analysis system that helps users find hotels based on their reviews, prices, or location. Hotels can be searched with unstructured keywords like, pet friendly, swimming pool, or friendly staff. FindiLike App also supports structured search criteria like distance from a landmark or address or price range. ",
+      "original_categories": [
+        "search",
+        "text"
+      ],
+      "used_apis": [
+        "rxnlp-text-similarity"
+      ]
+    },
+    {
+      "mashup": "rxnlp-text-similarity",
+      "description": "RxNLP is a Text Mining and Natural Language Processing service. One of RxNLP's API's, is the Text Similarity API. It is used for analyzing and computing surface similarities between texts, both long and short. Having the tools to identify text similarity can help with things such as query reformulation, finding and analyzing similar topics, and grouping similar items.",
+      "original_categories": [
+        "text"
+      ],
+      "used_apis": [
+        "rxnlp-text-similarity"
+      ]
+    }
+  ]
+}

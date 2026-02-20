@@ -1,0 +1,31 @@
+{
+  "category": "standards",
+  "count": 2,
+  "items": [
+    {
+      "mashup": "itrackmine.com",
+      "description": " Are you the type of person who likes to be organized? Have you ever seen something cool and can't remember if you already own it? Then you'll love iTrackmine.com -- an aggregator of everything you own. ",
+      "original_categories": [
+        "books",
+        "aggregation",
+        "mobile",
+        "social",
+        "movies",
+        "music"
+      ],
+      "used_apis": [
+        "library-congress-srw"
+      ]
+    },
+    {
+      "mashup": "library-congress-srw",
+      "description": "The Library of Congress SRW API provides a standard for search queries. SRW (Search/Retrieve Web Service) is a variation of SRU (Search/Retrieve via URL). Rather than conveying messages from client to server over URL, it uses XML over HTTP via SOAP as per W3C recommendations. This specification tries to comply with Web Services Interoperability recommendations.",
+      "original_categories": [
+        "standards"
+      ],
+      "used_apis": [
+        "library-congress-srw"
+      ]
+    }
+  ]
+}

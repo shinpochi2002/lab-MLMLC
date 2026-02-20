@@ -1,0 +1,29 @@
+{
+  "category": "location",
+  "count": 2,
+  "items": [
+    {
+      "mashup": "local-weather",
+      "description": " Local Weather is a web application that automatically show users their local weather forecast. This application uses ipinfo.io API and OpenWeatherMap API. ",
+      "original_categories": [
+        "weather",
+        "geography",
+        "reference"
+      ],
+      "used_apis": [
+        "ipinfoio-ip-geolocation"
+      ]
+    },
+    {
+      "mashup": "mit-visual-traceroute",
+      "description": " Visual Traceroute is a web application that enables users to trace the path packets take through the Internet, by entering the URL. This application uses ipinfo.io API for geolocation and ISP details. ",
+      "original_categories": [
+        "mapping",
+        "reference"
+      ],
+      "used_apis": [
+        "ipinfoio-ip-geolocation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "category": "database",
+  "count": 38,
+  "items": [
+    {
+      "mashup": "explore-census",
+      "description": " Explore data from 2004 to 2014 on teachers, 1994 to 2014 on housing (http://explorethecensus.com/housing/) with this interactive data explorer built using Looker and Google BigQuery hosted data from the U.S. Census. ",
+      "original_categories": [
+        "demographics",
+        "economics",
+        "housing",
+        "politics",
+        "usa"
+      ],
+      "used_apis": [
+        "google-bigquery"
+      ]
+    },
+    {
+      "mashup": "usa-name-data-bigquery-public-dataset",
+      "description": " Explore Google BitQuery's USA Names public dataset using Looker visualization tools. This mashup uses Looker visualizations embedded in a 3rd party web site. ",
+      "original_categories": [
+        "analytics",
+        "demographics",
+        "names",
+        "usa"
+      ],
+      "used_apis": [
+        "google-bigquery"
+      ]
+    },
+    {
+      "mashup": "criminaldatabase",
+      "description": " Criminal Database allows anyone to search public records, criminal records, arrest records, sex offenders and more for millions of people nationwide. It uses the IMSAS API. ",
+      "original_categories": [
+        "database",
+        "search"
+      ],
+      "used_apis": [
+        "imsas"
+      ]
+    },
+    {
+      "mashup": "openjc-police-call-records",
+      "description": " Demo application for SlashDB developed by the Code for America Jersey City brigate (OpenJC). Output can be seen in HTML, XML, XSD, JSON, CSV. ",
+      "original_categories": [
+        "civics",
+        "database"
+      ],
+      "used_apis": [
+        "slashdb"
+      ]
+    },
+    {
+      "mashup": "gossipgrind",
+      "description": " Gossipgrind is an automated news aggregator focusing on popular culture, celebrity gossip and news. Gossipgrind accomplishes this by linking to posts from all over the web leveraging the Yahoo Query Language API. ",
+      "original_categories": [
+        "entertainment",
+        "celebrities"
+      ],
+      "used_apis": [
+        "yahoo-query-language-graphql"
+      ]
+    },
+    {
+      "mashup": "perfect-background-check",
+      "description": " Perfect Background Check provides the most complete online criminal background check on anyone you know with over 500 million criminal records. ",
+      "original_categories": [
+        "background",
+        "database",
+        "reference",
+        "search"
+      ],
+      "used_apis": [
+        "imsas"
+      ]
+    },
+    {
+      "mashup": "fast-criminal-records",
+      "description": " Fast Criminal Records provides the most complete online criminal records on anyone you know - instant, anonymous &amp; accurate. ",
+      "original_categories": [
+        "database",
+        "crime",
+        "search",
+        "reference",
+        "tools"
+      ],
+      "used_apis": [
+        "imsas"
+      ]
+    },
+    {
+      "mashup": "mapa-del-paro",
+      "description": " Mashup of Spanish Unemployment on Google Maps. You can view the regional differences in Spanish unemployment at Mapa del Paro, a series of Google Maps which show the unemployment rate at municipal level. Mapa del Paro has created a number of regional heat maps, each of which shows the current unemployment rate for each municipality in the region. ",
+      "original_categories": [
+        "jobs",
+        "spanish",
+        "government"
+      ],
+      "used_apis": [
+        "google-fusion-tables"
+      ]
+    },
+    {
+      "mashup": "people-search-world",
+      "description": " People Search World is a people search engine allows anyone to search public records, emails, US addresses, phone numbers and more for millions of people nationwide. ",
+      "original_categories": [
+        "reference",
+        "search",
+        "tools",
+        "directories",
+        "business",
+        "database"
+      ],
+      "used_apis": [
+        "imsas"
+      ]
+    },
+    {
+      "mashup": "caller-ig",
+      "description": " This mashup is an example use of the Infoconnect API with a call center type application. ",
+      "original_categories": [
+        "voice",
+        "tools"
+      ],
+      "used_apis": [
+        "infogroup-infoconnect"
+      ]
+    },
+    {
+      "mashup": "map-deprivation-scotland",
+      "description": " A map of deprivation in Scotland, using Google Fusion Tables, D3, and data from the Scottish Government (Scottish Index of Multiple Deprivation 2012). ",
+      "original_categories": [
+        "scottish",
+        "mapping"
+      ],
+      "used_apis": [
+        "google-fusion-tables"
+      ]
+    },
+    {
+      "mashup": "map-deprivation-london",
+      "description": " A map of deprivation in London, using Google Fusion Tables, D3, and data from the Department for Communities and Local Government. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [
+        "google-fusion-tables"
+      ]
+    },
+    {
+      "mashup": "informscan",
+      "description": " InformScan provides a free people search engine that includes public records, emails, US addresses, phone numbers and more. ",
+      "original_categories": [
+        "social",
+        "search",
+        "database",
+        "tools",
+        "reference"
+      ],
+      "used_apis": [
+        "imsas"
+      ]
+    },
+    {
+      "mashup": "tiki-pik-image-link-preview",
+      "description": " See all the text links to images in one window without scrolling or clicking. Heres an example, you are on reddit and there is a thread about movie posters. Multiple people have posted multiple images in the thread. TikiPik scrapes the page, finds all those links and give you a preview of them in a pop up. From there you can click any link and see it 100% in a new tab. ",
+      "original_categories": [
+        "images"
+      ],
+      "used_apis": [
+        "yahoo-query-language-graphql"
+      ]
+    },
+    {
+      "mashup": "historic-places-north-america",
+      "description": " The website historicplaces.net was created in 2012 as a comprehensive listing of buildings, structures, objects, and sites in North America that have received a special status based on their historical or archaeological significance. We have almost 100.000 historic places listed in our database. ",
+      "original_categories": [
+        "history",
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [
+        "google-fusion-tables"
+      ]
+    },
+    {
+      "mashup": "world-statistics",
+      "description": " Powered by the Google Fusion Tables API, this service visually displays world statistics on a map. Statistics include: Population, GDP, and currency unit. ",
+      "original_categories": [
+        "statistics",
+        "visualizations",
+        "mapping"
+      ],
+      "used_apis": [
+        "google-fusion-tables"
+      ]
+    },
+    {
+      "mashup": "prontoscreen",
+      "description": " Our powerful, easy-to-use background check search tools and technology enable fast access to comprehensive background check data with a range of search solutions that meet your varying needs. The ProntoScreen instant background check searched our proprietary criminal records database as well as other public sources like court records, incarceration records, prison records, probation &amp; parole release information &amp; more! ",
+      "original_categories": [
+        "background",
+        "banking",
+        "database",
+        "crime"
+      ],
+      "used_apis": [
+        "imsas"
+      ]
+    },
+    {
+      "mashup": "criminalbase",
+      "description": " CriminalBase.com provides instant criminal background checks to consumers and businesses. ",
+      "original_categories": [
+        "tools",
+        "crime",
+        "search"
+      ],
+      "used_apis": [
+        "imsas"
+      ]
+    },
+    {
+      "mashup": "pelfind",
+      "description": " PelFind lets you explore interesting photos from around the web. You can also enter urls of webpages that you want to explore, create lists and more. ",
+      "original_categories": [
+        "photos",
+        "search",
+        "visualizations"
+      ],
+      "used_apis": [
+        "yahoo-query-language-graphql"
+      ]
+    },
+    {
+      "mashup": "crime-near-you",
+      "description": " iPhone App which shows top crime cities (US Only) around your current location in various categories (Murder/Auto Theft/Burgalary/Property Theft/Violent Crime) - Data is sourced from FBI ",
+      "original_categories": [
+        "mobile",
+        "crime",
+        "search"
+      ],
+      "used_apis": [
+        "google-fusion-tables"
+      ]
+    },
+    {
+      "mashup": "flickr-dynamo",
+      "description": " Downloads entries from the Flickr public photos Atom feed every 2 hours and caches them in Amazon DynamoDB (zaps atoms into Dynamo). Why? So you can do zappy fast searches and likes of photos using DynamoDB, the premier fully managed NoSQL database service on the cloud today. ",
+      "original_categories": [
+        "search",
+        "photos"
+      ],
+      "used_apis": [
+        "amazon-dynamodb"
+      ]
+    },
+    {
+      "mashup": "san-diego-school-pal",
+      "description": " San Diego School Pal is the easiest way to see San Diego's school districts and their associated levels of crime. We combine a school district map with the 2011 San Diego crime database and Megan's Law statistics. Browse across a map view of San Diego, combined with overlay regions for each of the school districts, covering elementary, high school, and unified. Enter your address to search and locate your own school district or browse the list to get statistics across the city. Share your opinion and thoughts about any San Diego school district with the built-in commenting system, and help others find the best one for their needs. ",
+      "original_categories": [
+        "visualizations",
+        "crime",
+        "education",
+        "education",
+        "reference"
+      ],
+      "used_apis": [
+        "mongolab"
+      ]
+    },
+    {
+      "mashup": "estate-agent-locator",
+      "description": " Agent locator using the ST_INTERSECTS statement of Google Fusion Tables. The Application shows the location of estate agents that speak english located in france. It displays this information on a map with a radius. ",
+      "original_categories": [
+        "mapping",
+        "search",
+        "french"
+      ],
+      "used_apis": [
+        "google-fusion-tables"
+      ]
+    },
+    {
+      "mashup": "golf-guide",
+      "description": " A Mashup of global golf course data. Thousands of markers displayed on Google Maps. Integrated with the Google Earth Web Plugin and Golf Course date from GolfFrontier.com. Many courses have a 3D course tour. ",
+      "original_categories": [
+        "mapping",
+        "sports",
+        "sports"
+      ],
+      "used_apis": [
+        "google-fusion-tables"
+      ]
+    },
+    {
+      "mashup": "rijksmonumenten.nl",
+      "description": " Dutch National Heritage List in the Netherlands (rijksmonumenten). Many Dutch tourist attractions are rijksmonuments, such as castles or windmills. There are 61.000 rijksmonuments in the Netherlands. ",
+      "original_categories": [
+        "education",
+        "genealogy"
+      ],
+      "used_apis": [
+        "google-fusion-tables"
+      ]
+    },
+    {
+      "mashup": "avatar-portraits",
+      "description": " Uses Yahoo! Query Language, the Twitter API, and HTML5 Canvas to generate interesting art from tiny Twitter avatars.from ",
+      "original_categories": [
+        "html5",
+        "avatars",
+        "blogging"
+      ],
+      "used_apis": [
+        "yahoo-query-language-graphql"
+      ]
+    },
+    {
+      "mashup": "sdb-explorer",
+      "description": " SDB Explorer has been made as an industry leading graphical user interface (GUI) to explore Amazon SimpleDB service thoroughly and in a very efficient and user friendly way. ",
+      "original_categories": [
+        "database"
+      ],
+      "used_apis": [
+        "amazon-simpledb"
+      ]
+    },
+    {
+      "mashup": "dailymotoride",
+      "description": " A picturesque look at the world’s best motorcycle roads. ",
+      "original_categories": [
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [
+        "google-fusion-tables"
+      ]
+    },
+    {
+      "mashup": "fkscan",
+      "description": " The premise of this MashApp is simple: Use Yahoo Query Language to access Flickr's RSS feed of current images, and then display them fashionably, using jQuery. 20 newly uploaded Flickr photos are selected at a time and displayed as thumbnails. Clicking any thumbnail opens the related Flickr photoset. The process repeats every few seconds and can be paused by pressing the space bar. The time between sets and the drop down speed are configurable. ",
+      "original_categories": [
+        "humor",
+        "social",
+        "photos"
+      ],
+      "used_apis": [
+        "yahoo-query-language-graphql"
+      ]
+    },
+    {
+      "mashup": "newsweek-best-high-schools-america",
+      "description": " A sortable, filterable, editable list of the best high schools in America, driven by the Factual Web Apps API. ",
+      "original_categories": [
+        "education"
+      ],
+      "used_apis": [
+        "factual-v3"
+      ]
+    },
+    {
+      "mashup": "mapping-events",
+      "description": " Discover upcoming events and stuff to do in a nice and simple interface based on Google Maps. Search for events, narrow down with category, place or date and sort your search by relevance, date, title, popularity or venue name. Mapping Events is powered by Eventful API, Google Maps API, Google AJAX Search API, WorldIP API, Yahoo YQL and Yahoo YUI. ",
+      "original_categories": [
+        "mapping",
+        "events"
+      ],
+      "used_apis": [
+        "yahoo-query-language-graphql"
+      ]
+    },
+    {
+      "mashup": "big-picture-small-world",
+      "description": " Fun YQL hack to display images from The Big Picture on a map. ",
+      "original_categories": [
+        "photos",
+        "mapping"
+      ],
+      "used_apis": [
+        "yahoo-query-language-graphql"
+      ]
+    },
+    {
+      "mashup": "tastebuds",
+      "description": " Tastebuds is a dating service that uses the Last.fm API to match single people based on their music tastes. ",
+      "original_categories": [
+        "dating",
+        "music"
+      ],
+      "used_apis": [
+        "yahoo-query-language-graphql"
+      ]
+    },
+    {
+      "mashup": "handmade-spark",
+      "description": " Find the people making great handmade things ",
+      "original_categories": [
+        "ecommerce",
+        "advertising"
+      ],
+      "used_apis": [
+        "blankslate"
+      ]
+    },
+    {
+      "mashup": "jesuspad",
+      "description": " This is a one-page site that has fun with the glory of the jesusPad and its followers. ",
+      "original_categories": [
+        "blogging",
+        "humor"
+      ],
+      "used_apis": [
+        "yahoo-query-language-graphql"
+      ]
+    },
+    {
+      "mashup": "eatery-search",
+      "description": " Mashes Google Maps with open data from Factual to show restaurants and their health code ratings. Code available on GitHub. ",
+      "original_categories": [
+        "mapping",
+        "food",
+        "restaurants"
+      ],
+      "used_apis": [
+        "factual-v3"
+      ]
+    },
+    {
+      "mashup": "beds-and-bedroom-news",
+      "description": " A real-time list of the most recent tweets and Flickr photos concerning beds and bedrooms. More feeds to come. ",
+      "original_categories": [
+        "photos",
+        "blogging"
+      ],
+      "used_apis": [
+        "yahoo-query-language-graphql"
+      ]
+    },
+    {
+      "mashup": "delicious-search-exploder",
+      "description": " One key part missing from del.icio.us is a full-text search API. Delicious Search Exploder uses Yahoo Query Language, Pipes, and a couple of native feeds from Delicious to provide an on-page search-and-browse experience for users, tags, and sites. ",
+      "original_categories": [
+        "search",
+        "text",
+        "blogging"
+      ],
+      "used_apis": [
+        "yahoo-query-language-graphql"
+      ]
+    }
+  ]
+}

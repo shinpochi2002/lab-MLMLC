@@ -1,0 +1,930 @@
+{
+  "category": "events",
+  "count": 84,
+  "positive_count": 21,
+  "negative_count": 63,
+  "pos_neg_ratio": "1:3",
+  "items": [
+    {
+      "mashup": "dropin-v1.2.3",
+      "description": " The Drop!in v1.2.3 Mashup helps users locate events that are taking place within the proximity of their locations. The application detects and lists corporate events, social activities, or fun destinations where individuals can visit to engage in past time or work-related activities. ",
+      "original_categories": [
+        "events",
+        "addresses",
+        "location",
+        "travel"
+      ],
+      "used_apis": [
+        "eventful"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "zvents",
+      "description": " Zvents allows users to discover events by location and type. For active event locations, Zvents leverages the Active.com API. ",
+      "original_categories": [
+        "events",
+        "geography"
+      ],
+      "used_apis": [
+        "active"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "what-are-haps",
+      "description": " Local event search engine, powered by user contributions. Find something to do today, or promote your own event! ",
+      "original_categories": [
+        "events",
+        "music",
+        "entertainment",
+        "mapping"
+      ],
+      "used_apis": [
+        "brown-paper-tickets"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "gatekrash-mobile",
+      "description": " Gatekrash Mobile is a touchscreen-optimised version of Gatekrash, providing event listings for the UK. It uses the Gatekrash API to request relevant data. ",
+      "original_categories": [
+        "mobile",
+        "events",
+        "england",
+        "search",
+        "reference",
+        "social"
+      ],
+      "used_apis": [
+        "gatekrash"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "mailchimp-eventbrite-integration",
+      "description": " Integration allows MailChimp users to import Eventbrite events and send invitations ",
+      "original_categories": [
+        "marketing",
+        "email",
+        "events"
+      ],
+      "used_apis": [
+        "eventbrite"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "map-active.com-sporting-events-database",
+      "description": " Dynamic map of the Active.com database showing sports related activities such as running events, tennis tournaments, triathlons and highschool sports by location. ",
+      "original_categories": [
+        "mapping",
+        "sports",
+        "ecommerce"
+      ],
+      "used_apis": [
+        "active"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "all-information-network",
+      "description": " Mashup to get nformation about your local events. Uses Eventful and Google Maps. ",
+      "original_categories": [
+        "events",
+        "localization",
+        "mapping"
+      ],
+      "used_apis": [
+        "eventful"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "new-york-art-beat-bubble-machine",
+      "description": " A visualization of events. Bubbles featuring the most popular art and design events in New York City. Built using the Art Beat API. ",
+      "original_categories": [
+        "events",
+        "art",
+        "design",
+        "visualizations"
+      ],
+      "used_apis": [
+        "artbeat"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "boyfriend-x",
+      "description": " BoyFriend X is a Web 2.0 address book for single women. ",
+      "original_categories": [
+        "dating",
+        "events",
+        "mapping",
+        "weather"
+      ],
+      "used_apis": [
+        "eventful"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "girlfriend-x",
+      "description": " GirlFriend X is a web-based little Black Book 2.0 for single guys. ",
+      "original_categories": [
+        "events",
+        "dating",
+        "weather",
+        "mapping"
+      ],
+      "used_apis": [
+        "eventful"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "phone-events",
+      "description": " Post and share events for free. Get local event information on your cell phone. Post and share invites. Uses the Eventful API. ",
+      "original_categories": [
+        "tickets",
+        "events",
+        "mobile",
+        "localization"
+      ],
+      "used_apis": [
+        "eventful"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "my-neighbourhoods-uk",
+      "description": " Community networking site that allows members to get in touch with their neighbours. The site uses APIs from Nestoria, flickr, Eventful and more to provide local information to users. ",
+      "original_categories": [
+        "mapping",
+        "social",
+        "england"
+      ],
+      "used_apis": [
+        "eventful"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "eventsites",
+      "description": " Eventsites allows users to create a mini-website for their event complete with description, a Google Map and photos from Flickr. Eventsites is unusual as a mashup in that the entire site is built using only AJAX and it stores no data of its own. ",
+      "original_categories": [
+        "events",
+        "mapping",
+        "photos"
+      ],
+      "used_apis": [
+        "eventful"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "blogmap",
+      "description": " The EVDB (now Eventful) API combined with MS MapPoint creates a mini-map (Feedmap) showing bloggers and events nearby a particular blogger. ",
+      "original_categories": [
+        "mapping",
+        "blogging",
+        "events"
+      ],
+      "used_apis": [
+        "eventful"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "evmapper",
+      "description": " Mashup of EVDB event data and Google Maps, with nice calendar browser for paging through search results. ",
+      "original_categories": [
+        "mapping",
+        "events"
+      ],
+      "used_apis": [
+        "eventful"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "active",
+      "description": "The Active.com API provides read-only access to data produced by systems within The Active Network. This includes things like baseball, basketball, soccer, football, hockey, lacrosse, softball, running events, tennis tournaments, triathlons, outdoor activities like fishing, kayaking, sailing, plus fitness and dance, and high school sports data. Several companies are active consumers of the API. The Active.com API also includes Campsite data.",
+      "original_categories": [
+        "events"
+      ],
+      "used_apis": [
+        "active"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "artbeat",
+      "description": "Use the ArtBeat API to get art and design event information for different areas of NYC or Tokyo. Get events by longitude and latitude, area, media, popularity...",
+      "original_categories": [
+        "events"
+      ],
+      "used_apis": [
+        "artbeat"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "brown-paper-tickets",
+      "description": "Brown Paper Tickets is a fair-trade ticketing company, providing tickets for both large and small events. In addition to their website, Brown Paper Tickets provides a RESTful API for developers to use to integrate with and use data from Brown Paper Tickets. The API gives developers access to a full featured suite of event ticketing and management tools. The Brown Paper Tickets API also works with affiliate program, allowing apps to generate revenue for the developer.",
+      "original_categories": [
+        "events"
+      ],
+      "used_apis": [
+        "brown-paper-tickets"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "eventbrite",
+      "description": "Eventbrite's API web services allows developers to create users and events as well as pull the associated events into an application. Using the API, developers may access Eventbrite data and create, update, and get events. The API can be used to retrieve a list of attendees, transactions, venues and much more. Developers can sign up for a referral program to earn a revenue share here: http://www.eventbrite.com/referral-program",
+      "original_categories": [
+        "events"
+      ],
+      "used_apis": [
+        "eventbrite"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "eventful__api",
+      "description": "Eventful is the world's largest collection of events, taking place in local markets throughout the world, from concerts and sports to singles events and political rallies. Eventful.com is built upon a unique, open platform that enables partners and web applications to leverage Eventful's data, features and functionality via the Eventful API. The Eventful API provides access to the entire site database enabling developers to integrate it and the functionality of the Eventful platform into web applications. Common API tasks include event and venue search. The API uses RESTful calls and responses are formatted in either XML, JSON or YAML.",
+      "original_categories": [
+        "events"
+      ],
+      "used_apis": [
+        "eventful"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "gatekrash",
+      "description": "Gatekrash aggregates event listings in the UK by searching other websites. Gatekrash then collects the listings and provides filter and sort options. Events are grouped geographically, by venue or by other similarity.The Gatekrash API provides a RESTful interface to the Gatekrash event database. The API is currently free to use, with no rate limiting or authentication required, though considered to be in perpetual beta.",
+      "original_categories": [
+        "events"
+      ],
+      "used_apis": [
+        "gatekrash"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "google-books",
+      "description": "Use the Google Book Search Data API to get and modify Book Search content via feeds. Submit full-text searches for books and get book information, ratings, and reviews. Optionally get individual users' library collections and public reviews. Submit authenticated requests to create and modify library collections, ratings, labels, reviews, and more.",
+      "original_categories": [
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dumpr.net",
+      "description": " A collection of stuff to do with Flickr image manipulation, community based photo search engine and a system to print photos on shirts, mugs, and stickers. ",
+      "original_categories": [
+        "photos",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bible",
+      "description": " LikeBible.com is a project of a young christian college student who had an idea while cramming and writing finals papers. Users can highlight any word to learn and get more resources on the topic. ",
+      "original_categories": [
+        "reference",
+        "religion",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sos-garage",
+      "description": " SOS Garage is a french Android app that uses the Allogarage API to help find auto garages that are reliable in a users area. ",
+      "original_categories": [
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "boston-subway-station-map",
+      "description": " Good map of the Boston Subway system with detailed marker popups. ",
+      "original_categories": [
+        "mapping",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "call-safely",
+      "description": " Call-Safely allows users to call or text others without revealing their real phone number. Caller ID is set to a real working phone number that others can SMS message to or call back. ",
+      "original_categories": [
+        "voice",
+        "mobile",
+        "messaging",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dragons-armory",
+      "description": " This site is designed for EverQuest II players of all backgrounds to analyze, optimize, and share their characters and character builds. ",
+      "original_categories": [
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "croctail-corporate-watch",
+      "description": " CrocTail provides an interface for browsing information parsed from SEC filings about several hundred thousand U.S. publicly traded corporations and their foreign subsidiaries. ",
+      "original_categories": [
+        "business",
+        "enterprise",
+        "mapping",
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "online-pdf-generator",
+      "description": " Convert almost any kind of document to PDF. ",
+      "original_categories": [
+        "tools",
+        "pdf",
+        "enterprise",
+        "office"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "world-warcraft-maps",
+      "description": " Unusual use of the Google Maps API to control a non-Google map, in this case from the game World of Warcraft. It behaves just a like a Google Map using zoom, pan and drag controls. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "music-video-search-engine",
+      "description": " Search and download Music Video and MP3 music ",
+      "original_categories": [
+        "search",
+        "music",
+        "audio",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "g-downloader",
+      "description": " G Downloader is a website that lets users download videos from many of the most popular video sharing sites without having to leave the site, all for free. Users can search for videos on G Downloader and upon finding them, will be given a URL to download the link. ",
+      "original_categories": [
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "snocap",
+      "description": "From their site: Through the SNOCAP proprietary Digital Registry, artists and labels are empowered to easily promote and sell their music through digital retailers or through their own unique artist store. In turn, these retailers have a growing inventory, offering more music to more music fans. The MyStore Search API allows web applications to search for SNOCAP MyStores and display them on a web page. The API accepts artist names and/or track titles passed as URL parameters and returns results as an object in javascript object notation (JSON). This interface is useful for applications that wish to render MyStore storefronts on web pages based on contextual metadata matching.",
+      "original_categories": [
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geniemd",
+      "description": " Mobile users can benefit from GenieMD, a mobile mashup featured in Walgreens' developer site. The GenieMD interface shows the following categories: symptoms, conditions, procedures, drug search, interactions, healthy living, providers, and calculations. When users check symptoms, they will notice the content provided by Harvard Health Publications. ",
+      "original_categories": [
+        "healthcare",
+        "health",
+        "medical"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "us-mineral-hypermaps",
+      "description": " Demo of an atlas system for all-in-one-page access to large geographic data sets. Application plots various types of mines throughout the US, as well as agriculture and industrial areas. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geomium",
+      "description": " Geomium is a local social application that allows you to meet people near you and see what's going on around you. Geomium. Live local. Live social. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "motorcycle-parking-san-francisco",
+      "description": " A mashup showing Motorcycle Parking Sopts in San Francisco using Google Maps ",
+      "original_categories": [
+        "transportation",
+        "mapping",
+        "transportation",
+        "parking"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "windows-live-contacts",
+      "description": "The Windows Live Contacts API is an HTTP-based service that enables developers to programmatically submit queries to and retrieve results from the Windows Live Contacts Address Book database.",
+      "original_categories": [
+        "personal-information-management"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "european-word-translator",
+      "description": " Using the Google Translate API, this web app shows translations of any English word into over 30 European languages, on a map. ",
+      "original_categories": [
+        "language",
+        "translation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "san-diego-school-pal",
+      "description": " San Diego School Pal is the easiest way to see San Diego's school districts and their associated levels of crime. We combine a school district map with the 2011 San Diego crime database and Megan's Law statistics. Browse across a map view of San Diego, combined with overlay regions for each of the school districts, covering elementary, high school, and unified. Enter your address to search and locate your own school district or browse the list to get statistics across the city. Share your opinion and thoughts about any San Diego school district with the built-in commenting system, and help others find the best one for their needs. ",
+      "original_categories": [
+        "visualizations",
+        "crime",
+        "education",
+        "education",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "youtube-video-map",
+      "description": " Advanced search tool for YouTube videos using Google Maps. Query results by category, upload date, time, city and keyword. ",
+      "original_categories": [
+        "search",
+        "video",
+        "mapping",
+        "social",
+        "visualizations",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "quotemunk",
+      "description": " Easy-to-use web app that lets a user share and discuss highlighted passages from books they are reading on their Amazon Kindle or Kindle app utilizing the Goodreads and Twitter APIs. ",
+      "original_categories": [
+        "ebooks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "park-it-dc",
+      "description": " Parking in DC, mapped on a Google Map. ",
+      "original_categories": [
+        "transportation",
+        "parking",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "kent-county-council-traffic",
+      "description": " Kent County Council. View road traffic status and live camera feeds in the UK. ",
+      "original_categories": [
+        "mapping",
+        "england",
+        "transportation",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shoesnbags",
+      "description": " ShoesNBags is the first, native iPhone app for Zappos catalog searching. It is easy to use and allows users to browse, search and buy products from Zappos.com. It works on all iOS devices and it requires Internet connectivity. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "esignature-gateway",
+      "description": " eSignature Gateway leverages Amazon S3, Clockwork SMS, DocuSign, Google Storage and Twillio APIs to give users document sign functionality regardless of the email client used. In addition, eSignature implements electronic storage, data analytics and workflow capabilities. ",
+      "original_categories": [
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bookafy-online-scheduling",
+      "description": " Bookafy is an online scheduling and appointment tracking web app. This mashup makes use of the Zendesk Core API for ticket tracking and management. ",
+      "original_categories": [
+        "software-as-a-service",
+        "business",
+        "scheduling"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "best-citysearch-mashup",
+      "description": " Mashup of Citysearch and Google Maps to help find the best restaurants, hotels, nightlife, shopping and services in major US cities as voted on Citysearch.com. ",
+      "original_categories": [
+        "travel",
+        "food",
+        "mapping",
+        "entertainment",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "embeddedanalytics",
+      "description": " EmbeddedAnalytics enables Google Analytics reports to be embedded into web pages for the world to see. No programming knowledge is required. Embed the reports into blogs, websites, mobile websites, and anywhere an iframe tag is supported. ",
+      "original_categories": [
+        "analytics",
+        "widgets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nyt-trender",
+      "description": " Good way to visualize trends via the NY Times by comparing two keywords for number of article mentions over time. ",
+      "original_categories": [
+        "comparisons",
+        "charts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "follow-money",
+      "description": "From their site: Money in state politics plays a pivotal role in shaping public policy in individual states and across the nation. The nonpartisan Institute on Money in State Politics tracks contributions in all 50 states and makes this data easily searchable online…The Institute collects campaign-finance data for state-level candidates, party committees and ballot-measure committees in all 50 states. Each two-year election cycle, data-acquisition specialists compile more than 90,000 disclosure reports from more than 16,000 candidates in the states and process more than 3.2 million records of contribution information.",
+      "original_categories": [
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "daybreak-game-company-census",
+      "description": "Daybreak Games (DGC) is a leader in massively multiplayer online games. Some of it's most popular titles include EverQuest, EverQuest II, PlanetSide 2, Planetside 2, H1Z1, Landmark, and DC Universe Online. The Census Data API allows users to request information directly from Daybreak regarding the status of a game or game entity (e.g. character, item, spell, etc.). The API uses RESTful calls and responses are formatted in XML or JSON.",
+      "original_categories": [
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "media-street-apps",
+      "description": " Media Street Apps, a publisher of local websites, uses the API from Yelp to show reviews on all local business pages. Kingsroad.co.uk is Media Streetâ€™s case study and flagship site local site. ",
+      "original_categories": [
+        "localization",
+        "localization"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-prediction",
+      "description": "[The Google Prediction API will be deactivated on April 30, 2018. This profile will be maintained purely for historical and research purposes.]Google Prediction API brings the power of machine learning to anyone. Upload your data and build a model to train the system by showing it the right answer for known items. When the system is trained, you can have it make predictions. All of these stages can be accessed via the API.",
+      "original_categories": [
+        "predictions"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shopping.com-vbulletin",
+      "description": " Simple use of the API, integrated with vBulletin software. ",
+      "original_categories": [
+        "forums",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "christmas-list-app",
+      "description": " ChristmasListApp.com is a free online and mobile tool for making and managing Christmas gift lists. Add gifts to your wish lists from any site with the Christmas List App web application or Chrome Extension. Or add gifts by searching popular eCommerce sites like Amazon, ebay, and Walmart. Christmas List App also allows you to easily share your wish lists with family and friends. ",
+      "original_categories": [
+        "gifts",
+        "ecommerce",
+        "social",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pluribo",
+      "description": " A novel system that can automatically read reviews and generate an accurate summary. ",
+      "original_categories": [
+        "ecommerce",
+        "recommendations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "formstack-to-batchbook",
+      "description": " This mashup allows you to create any kind or number of records in BatchBook directly from a Formstack form submission. ",
+      "original_categories": [
+        "forms",
+        "social",
+        "forms"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "chicago-apartments",
+      "description": " Apartment finding service for Chicago, The Homestead Group. Uses the Peekacity API. ",
+      "original_categories": [
+        "rentals"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "map-burg",
+      "description": " Puts all things about Downtown Fredericksburg, VA, on a map. ",
+      "original_categories": [
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "real-time-vehicle",
+      "description": " This real-time vehicle tracker takes position reports sent a server and plots them as pushpins. The map refreshes at about the same interval as the position reports coming in. Right-click two pushpins and get some distance, speed, and time info. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "auto"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nyc-cuisines",
+      "description": " This map displays the amount of restaurants by category and neighborhood. Using the Google Maps API, the data is displayed on a map that can easily be navigated by users. ",
+      "original_categories": [
+        "mapping",
+        "food",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "houseincity",
+      "description": " HouseinCity is a search portal for residential apartments .It offers features like metro connectivity and proximity search. ",
+      "original_categories": [
+        "mapping",
+        "housing"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "glotter-maps",
+      "description": " App that lets you create and share individual world maps, KML-files and Google Mapplets. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "yahoo-ads",
+      "description": "From their site: Advertiser Web Services enables advertisers to develop software which interacts directly with Yahoo! Search Marketing campaign management systems. Advertisers can use XML based transactions to perform many of the features that are available through our account access user interface.be adapted to efficiently manage Yahoo! Search Marketing accounts, listings, bids, and reports.",
+      "original_categories": [
+        "advertising"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "swyft",
+      "description": " Swyft is a real-time transit app that leverages a community of riders working together to make the daily commute faster, more efficient, and more enjoyable. It uses the GTFS Data Exchange API ",
+      "original_categories": [
+        "transportation",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "epicurious-dish-day",
+      "description": " Great cuisines made simple. This is a recipe gadget that gives recipes from all over the world with many from south and north of India. ",
+      "original_categories": [
+        "food",
+        "food",
+        "indian"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pinterest-domain",
+      "description": "Pinterest calls itself a virtual pinboard, allowing users to select photos from web pages to share with their friends. This process, called pinning, helps users collect ideas, recipes, inspiration or anything that can be found in a photo on a web page.The Pinterest API provides developers access to an authenticated user's pinboards and pins. The API provides detailed user data, as well as the home feed for a user, pins, likes, following, followers and the ability to unfollow. Developers can also access information about specific boards and pins, including creating boards, adding pins, categories and adding/removing likes.The API allows businesses to integrate with Pinterest's social media platform in an effort engage with customers. With the APIs, developers can access a site's top repins, most recent pins, related pins, most clicked through pins and pins resulting from specific search terms.The API makes its data available via JSON only, with requests also wrapped as JSON. Though the official documentation has been removed, we've included a cache of the page, as the API still appears to be supported.",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ip-newsflash-patent-family-search",
+      "description": " Search patent families using the open patent services API fo the European Patent Office. ",
+      "original_categories": [
+        "patents",
+        "european",
+        "government",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "singapore-hotel-map",
+      "description": " Using hotel information from AsiaTravel.com with Google Maps respectively users can sort, view and book Singapore hotels. ",
+      "original_categories": [
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "voice-comments-box.net",
+      "description": " Mashup of Box.net and Twilio to record voice comments on your files stored on Box.net. The voice comment will be transcribed and added as a comment on Box.net. This is only a working demo at this point. ",
+      "original_categories": [
+        "voice",
+        "messaging",
+        "mobile",
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "docusign-microsoft-word",
+      "description": " DocuSign for Microsoft is an eSignature application that is integrated with Microsoft Word. The application lets users to review and send documents for signature directly from the MS Office applications that they are using. The recipients are then able to sign the documents electronically using DocuSign. ",
+      "original_categories": [
+        "documents"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "forbruksl%c3%a5nno",
+      "description": " Forbrukslån.no offers a comprehensive database of Norwegian loan offers. Most of the data pertain to non-collateralized loans, albeit with a few exceptions. Examples of available information include key APR's, downpayment times and various rules attached to each credit offer. The website has an integrated loan calculator which allows visitors to manually adjust the loan amount and downpayment time. API data is fetched from various banks' repositories as well as the public financial portal Finansportalen.no ",
+      "original_categories": [
+        "financial",
+        "banking",
+        "comparisons",
+        "referrals"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapbox",
+      "description": "Mapbox is a suite of open source mapping tools. This API can be used to create interactive maps using a wide range of file formats and databases. It also allows users to host their maps so that they can be embedded on webpages and shared with a wider audience. All maps created using Mapbox are compatible with Android and iOS devices.",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "garbagescout",
+      "description": " The New York City streets are full of interesting and potentially useful things that have been thrown out. If you see something good, snap a pic, send to GarbageScout where others can go and get it. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "youtube",
+      "description": "The Data API allows users to integrate their program with YouTube and allow it to perform many of the operations available on the website. It provides the capability to search for videos, retrieve standard feeds, and see related content. A program can also authenticate as a user to upload videos, modify user playlists, and more.This integration can be used for a variety of uses such as developing a web application allowing users to upload video to YouTube, or a device or desktop application that brings the YouTube experience to a new platform. The Data API gives users programmatic access to the video and user information stored on YouTube. This can be used to personalize a web site or application with the user's existing information as well as perform actions like commenting on and rating videos. This RESTful API provides responses in XML format.",
+      "original_categories": [
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "call-news",
+      "description": " With Call the News you are the local news reporter. Call in and record your news report. Your call is then added to the site within seconds to share with the world. ",
+      "original_categories": [
+        "voice",
+        "international"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "25-best-companies-to-work",
+      "description": " Map of the 100 best US companies to work for as rated by Fortune Magazine ",
+      "original_categories": [
+        "mapping",
+        "reference",
+        "business"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "burger-joints",
+      "description": " Burger Joints shows the most tweeted burger chain in towns across the United States. Type in your city or area and see what pops up. ",
+      "original_categories": [
+        "mapping",
+        "humor",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bed-and-breakfast-map",
+      "description": " The UK's largest map-based directory of B&amp;Bs and Guesthouses. ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "hotels",
+        "england"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "itunes-app-store-search",
+      "description": "This API is available as a resource for participants in Apple's Affiliate Program. It allows the user to place search fields on their website to search for content within the iTunes Store, App Store, iBookstore and Mac App Store. The Affiliate Program allows participants to earn a commission on qualifying revenue generated by clicks initiated from their website or app.",
+      "original_categories": [
+        "media"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "custom-igoogle-skins-v2",
+      "description": " This new version of the skins gadget integrates Flickr and iGoogle to being you random images from a user specified Flickr group. ",
+      "original_categories": [
+        "photos",
+        "widgets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "san-francisco-school-pot-map",
+      "description": " The site mashes up San Francisco public-school and marijuana-dispensary data. The map shows walking distances from each public school to the nearest marijuana dispensary and vice versa. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

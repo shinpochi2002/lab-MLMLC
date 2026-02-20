@@ -1,0 +1,324 @@
+{
+  "category": "api",
+  "count": 28,
+  "positive_count": 7,
+  "negative_count": 21,
+  "pos_neg_ratio": "1:3",
+  "items": [
+    {
+      "mashup": "bilkadk",
+      "description": " Bilka.dk serves jobs, in-store events and location information on their stores. Bilka is a Danish chain of hypermarkets. ",
+      "original_categories": [
+        "ecommerce",
+        "events",
+        "jobs",
+        "location",
+        "marketing",
+        "marketplace"
+      ],
+      "used_apis": [
+        "dansk-supermarked"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "f%c3%b8tex-app",
+      "description": " The føtex mobile app provides a convenient shopping list with current offers matching along with your information and store locations. føtex is a Danish chain of supermarkets. The app offers: - Fast and smart shopping list with bidding match (Purchase list) where the goods are automatically sorted by the layout of your local føtex so it's easy to shop. - Share your shopping list - send your shopping list to your friends, family or other devices. - The ability to see information about your local føtex (My føtex) - See all the offers in a clear way and easily add items to your shopping list. - Check the prices using the scanner in the app to scan an item's barcode and get the price. - the ability to get your shopping list on your Apple Watch ",
+      "original_categories": [
+        "grocery",
+        "coupons",
+        "discounts",
+        "food",
+        "location"
+      ],
+      "used_apis": [
+        "dansk-supermarked"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "bilka-app",
+      "description": " The Bilka mobile app serves offers, locations, events and provides a top-notch shopping list for the Danish customers. Bilka is a Danish chain of hypermarkets. ",
+      "original_categories": [
+        "grocery",
+        "discounts",
+        "food",
+        "location",
+        "mobile"
+      ],
+      "used_apis": [
+        "dansk-supermarked"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "netto-mobile-app",
+      "description": " Netto is a Danish discount supermarket operating in Denmark, Germany, Poland, and Sweden. This mobile app utilizes several Dansk Supermarked APIs. The app contains: - Offers from the Net newspaper (Net newspaper) - Price Check - Use the scanner in the app to scan an item's barcode and get the price in your local Net. - Quick shopping list with bidding match (Purchase list) - The network app usually suggests purchased items and recalls what you buy. It also shows you when your items are on offer in the offer. - Sharing of your shopping list with family or friends, if you have written your shopping list on your tablet, you can also send the shopping list to your phone. - The ability to put your shopping list on your Apple Watch - Find stores and hours (Find Net). ",
+      "original_categories": [
+        "grocery",
+        "discounts",
+        "food",
+        "location",
+        "mobile"
+      ],
+      "used_apis": [
+        "dansk-supermarked"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "distant.ly",
+      "description": " Distant.ly is a web application that uses the Traitify API to accept user feedback to generate a personality profile. This is done by selecting Me or Not Me when presented with multiple images, helping to paint a picture of the user. The web app then uses this information to make suggestions for travel destinations and activities. Currently still under development, Distant.ly is created and supported by web developer Tom Rutka. ",
+      "original_categories": [
+        "travel",
+        "predictions"
+      ],
+      "used_apis": [
+        "traitify"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "dansk-supermarked",
+      "description": "The Salling Group API, a Danish Retailer in Denmark, Sweden, Poland and Germany provides a Web API that serves geocoded store information incl. opening hours for Netto, Bilka and føtex retail stores. The API also provides information for in-store events, job postings and a convenient holidays API for getting Danish holidays dates.",
+      "original_categories": [
+        "api"
+      ],
+      "used_apis": [
+        "dansk-supermarked"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "traitify",
+      "description": "Traitify measures personality through a sequence of visual assessments. The API could be useful to understand users’ behavior, predict data and recognize pattern preferences. Developers in the field of user experience can benefit from this API that aims to offer a better understanding about the diverse qualities that make a person human, such as conversational, creative, empowered, competitive, caring, easy-going and outgoing skills. This personal information service API is about personality assessment. It can be accessed using Javascript or REST and returns values in JSON protocol. The API requires a key. In the site, developers can find code samples in Curl, Ruby, NodeJS, .NET, Java, Phyton and PHP to explore the categories of find assessment, get slides, slide response, personality types, and personality traits.",
+      "original_categories": [
+        "api"
+      ],
+      "used_apis": [
+        "traitify"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "food-twitter",
+      "description": " Breakfasts, lunches and dinners from Twitter. ",
+      "original_categories": [
+        "blogging",
+        "photos",
+        "food"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "europass",
+      "description": "Europass is an EU initiative for helping people make their skills and qualifications clearly and easily understood in Europe. The initiative aims to increase the transparency of qualifications and the mobility of citizens in Europe via a portfolio of documents containing descriptions of all learning achievements, official qualifications, work experience, and skills and competences.Europass provides a RESTful API as a means to use Europass services in automated ways. Use the service to remotely generate Europass documents. Data transport is realized through secure hypertext transfer protocol (HTTPS).",
+      "original_categories": [
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "slippymap",
+      "description": " Example of how to search by address to find points of interest in your area based on Where2GetIt that requires no javascript. ",
+      "original_categories": [
+        "mapping",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "global-corporate-challenge",
+      "description": " GCC 2007 allows participants to track their progress on a virtual journey around the globe. The journey is measured by steps, which are tracked on pedometers. The solution manages 161 locations in a CMS to track and zoom between each one. ",
+      "original_categories": [
+        "sports",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "smsmybus",
+      "description": " A mobile phone app for finding real-time bus arrivals for Madison Metro (Madison, WI). Just text your specific request to receive real-time arrival estimates. ",
+      "original_categories": [
+        "transportation",
+        "mobile",
+        "transportation",
+        "messaging",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mind-and-body-script",
+      "description": " A social bookmarking site for submitting your favorite links. Others can add links or simply vote for the link. ",
+      "original_categories": [
+        "social",
+        "bookmarks",
+        "health",
+        "fitness"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mavenlink-collaboration",
+      "description": " Project management application that integrates with Google Tasks. Manage tasks, projects, files, time, expenses, invoices and online payments inside your custom branded app. ",
+      "original_categories": [
+        "widgets",
+        "reference",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "instatrends",
+      "description": " Explore Instagram trends during various periods and get inspired. ",
+      "original_categories": [
+        "social",
+        "humor",
+        "aggregation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cubesensors",
+      "description": "CubeSensors are small devices that contain seven different sensors for detecting environmental conditions. They are capable of monitoring air quality, temperature, humidity, noise, light, barometric pressure, and sensor motion. CubeSensors glow different colors to reflect the health of indoor environments. The CubeSensors API enables developers to access CubeSensors sensor data programmatically.",
+      "original_categories": [
+        "internet-things"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "socialsearcher-android-app",
+      "description": " Android Application Social Searcher - Facebook Search Without Logging in. Make your keyword search around Facebook and find out what people are talking about now. Application supports all languages for searching. Social Searcher allows you to open links from search results in your Android web browser, sort search results by date/time, sort search results by number of â€œlikesâ€ and filter by country. ",
+      "original_categories": [
+        "search",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mayorama",
+      "description": " Mayorama is an iPhone app that helps you in your quest for mayorships on Foursquare. See the places around you, along with the number of check-ins needed to become mayor. ",
+      "original_categories": [
+        "mapping",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "printfection",
+      "description": "The Printfection services lets you sell your own branded merchandise in a custom store front: upload your designs, create your products and start promoting. Printfection also handles printing and fulfillment. The Printfection API lets you manage your account, stores, products and images as well as provide Print On Demand merchandise and eCommerce functionality to your website.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "web-kendoku",
+      "description": " Play kenken and kendoku puzzles games online. There are also Google gadgets associated with this. ",
+      "original_categories": [
+        "widgets",
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dfwdines-dfw-restaurant-week-guide",
+      "description": " DFW Restaurant Week(s) is from 8/12 - 9/2/2013. Instead of a sad static list of restaurants that's not even sortable, we took the list of participating venues, put them on a map, and added a bunch of other cool features to find directions, what's nearby, ratings, etc. I have plenty more cool features in mind, more APIs to add, &amp; hope to do it again next year! Works on mobile devices too! ",
+      "original_categories": [
+        "charity"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "eod-historical-data-stock-price-data",
+      "description": "The EOD Historical Data Stock Price Data API returns JSON and CSV formats with the end of day historical data of the stock market. Developers can authenticate with an API token. EOD Historical Data provides historical prices and fundamental financial data services.",
+      "original_categories": [
+        "stocks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sportcentral",
+      "description": " SportCentral is a web application that enables users to connect with one another for recreational sports purposes. It utilizes APIs such as Google AdSense, Google AdWords,.. ",
+      "original_categories": [
+        "sports",
+        "content",
+        "directories",
+        "ecommerce",
+        "marketing",
+        "networking",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "prixfeed",
+      "description": " Creates an RSS feed fro Amazon product prices ",
+      "original_categories": [
+        "ecommerce",
+        "feeds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "youflow",
+      "description": " A mashup combining the JavaScript effects ImageFlow and Highslide JS with the YouTube API. With YouFlow you can search all the YouTube videos, browse them with ImageFlow and open them with Highslide. ",
+      "original_categories": [
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "open-ftp",
+      "description": " Open-FTP is a bouncer for your downloadable files. Open-FTP controls access to your shared files and will even text you if someone downloads one. ",
+      "original_categories": [
+        "reference",
+        "mobile",
+        "telephony",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "better-talking",
+      "description": " Helps job seekers be better at interviewing. Job seekers can practice doing job interviews, share it with their network and get feedback. ",
+      "original_categories": [
+        "social",
+        "jobs",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickredit",
+      "description": " FlickrEdit is a Java Desktop application for displaying and editing your photos in a variety of ways. It also allows you to download or upload your photos to and from Flickr. ",
+      "original_categories": [
+        "storage",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

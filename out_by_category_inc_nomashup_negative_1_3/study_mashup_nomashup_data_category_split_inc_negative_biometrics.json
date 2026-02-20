@@ -1,0 +1,52 @@
+{
+  "category": "biometrics",
+  "count": 4,
+  "positive_count": 1,
+  "negative_count": 3,
+  "pos_neg_ratio": "1:3",
+  "items": [
+    {
+      "mashup": "bioid-web-services",
+      "description": "BioID Web Services (BWS) is a webcam based biometrics service for cloud, web, and mobile application developers. The service enables applications such as- Biometric authentication (face and voice, iris to follow) including liveness detection- Identification to check people against blacklists, for criminal background checks, etc.- Ticketless check-in for trade shows and other events, airline boarding, ships- Fraud prevention with liveness detection to verify the presence of a live user or to detect multiple registrations from the same person- Face or voice similarity search for celebrity matching, online dating, modeling or casting agencies- Photo quality checks to ensure good-quality (biometric) ID photos or mugshotsFunctionality exposed by the API includes verification (one-to-one) and identification (one-to-many) of face and voice, liveness detection, photo quality checking to international standards, finding, cropping and returning high-quality face images and more. The API uses REST and SOAP protocols and responses are formatted in XML.",
+      "original_categories": [
+        "biometrics"
+      ],
+      "used_apis": [
+        "bioid-web-services"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "pdfcast",
+      "description": " PDFCast.org is a free PDF file sharing tool. Upload your PDF documents and share with the world. Integrates with Google Book Search viewer. ",
+      "original_categories": [
+        "ebooks",
+        "pdf",
+        "books"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "balance-rewards",
+      "description": " Connected with the Walgreens Balance Rewards program, this fitbit application allow users to keep track of their activity to earn Walgreens points. With a 'steps' program, customers will be able to set goals and view progress of their activities, while earning reward points at Walgreens. ",
+      "original_categories": [
+        "health",
+        "community",
+        "fitness"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "best-hospitals-cancer-treatment",
+      "description": " Best American hospitals for Cancer Treatment as mentioned in US News. ",
+      "original_categories": [
+        "mapping",
+        "medicine"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "category": "spam",
+  "count": 22,
+  "positive_count": 2,
+  "negative_count": 20,
+  "pos_neg_ratio": "1:10",
+  "items": [
+    {
+      "mashup": "antideo",
+      "description": " Antideo maintains large database with spam and scam records, IP locations and infected ranges, proxy records and many more. We are keeping our database updated regularly from various sources, as well as collecting some of the data ourselves. Final result is millions of IP and email records kept up to date and free to use in a fair manner. ",
+      "original_categories": [
+        "spam",
+        "email"
+      ],
+      "used_apis": [
+        "antideo"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "antideo__api",
+      "description": "The Antideo API offers health checks that can be performed on IPs and Email adresses. These checks can be used for accepting user signups or checking orders against fraudulent indicators. Antideo updates its database regularly with the latest infected IP ranges, and proxy records. This API requires API Keys for authentication, and returns data in JSON format.",
+      "original_categories": [
+        "spam"
+      ],
+      "used_apis": [
+        "antideo"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "pyton-flight-portal",
+      "description": "The Pyton Flight Portal provides an API for searching and booking flight tickets. Pyton's focus is on low cost carriers. This API can be integrated into your travel website or reservation system, and also provides back-end tools for booking review and statistics.",
+      "original_categories": [
+        "air-travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "totalguide-g2",
+      "description": " Rovi TotalGuideâ„¢ G2 enables you to develop and market differentiated products with a highly customizable, content discovery and guidance solution that encourages consumer engagement through deep, relevant entertainment information. Consumers can easily discover and enjoy on-demand offerings, web video and broadcast television programs from a single intuitive user interface. ",
+      "original_categories": [
+        "tv",
+        "video",
+        "recommendations",
+        "search",
+        "advertising"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "metro-transit-nextrip",
+      "description": "Metro Transit is the transportation resource for the Twin Cities, offering a network of buses, light rail and commuter trains as well as additional resources for those using alternate forms of transportation. The NexTrip API provides users with real time data about vehicles at a specified stop. Data can include departure time, gate, route, terminal, direction and more. Information in the NexTrip API is updated every 30 seconds to reflect real-time changes in transit service. It uses HTTP calls and responses can be formatted in XML and JSON.",
+      "original_categories": [
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "formstack-mapping",
+      "description": " Takes addresses submitted with a Formstack form and displays the locations on a Google Maps map. ",
+      "original_categories": [
+        "mapping",
+        "forms"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "air-bus-tracking-map",
+      "description": " Map to show you the current location of the Adobe on AIR promotional tour bus. ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "careerjet",
+      "description": "Careerjet is a job search engine that pulls job postings from company and organization websites in a variety of industries and locations. Users searching for employment may also post their resume on Careerjet, as well as create job alerts.The Careerjet API allows developers to embed Careerjet search results into other websites. Search results can be returned by keywords, locations, companies, industries, and other criteria. The HTTP API is not documented, but client libraries are available for Java, Perl, PHP, .Net 2.0, and Ruby.",
+      "original_categories": [
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "jobjolly",
+      "description": " Jobjolly is a web application that lets users search for jobs across the U.S. This application uses the CareerBuilder API. ",
+      "original_categories": [
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "greatschools",
+      "description": "The GreatSchools API enables users to find nearby U.S. schools by zip code, city or full address. Once you find a school, see information about each school, including address. Dig deeper and retrieve reviews from users or students' test scores. GreatSchools is a non profit that provides U.S. school information and parenting resources to help an families choose the right school, as well as support learning at home.",
+      "original_categories": [
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "maas2",
+      "description": "MAAS2 is a REST API that provides the latest weather data transmitted by the Curiosity Rover on Mars. This API is built upon the REMS (Rover Environmental Monitoring Station). MAAS2 responds in JSON formatted data.",
+      "original_categories": [
+        "astronomy"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "distance-calculator-entfernung.org",
+      "description": " German language distance calculator, using various reverse geocoding APIs to retrieve location and related place infos, such as Wikipedia overview articles, nearby airports, etc. ",
+      "original_categories": [
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "okinawa-japan-travel-guide",
+      "description": " Best beaches, diving, parks, pictures from the island of Okinawa, Japan. See virtual images, panoramas, and aerial photographs of places to visit. Pictures link to reviews, driving directions, maps, and slideshows. ",
+      "original_categories": [
+        "sports",
+        "japanese",
+        "photos",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nytimes.com-homicide-map",
+      "description": " A map of homicide locations in New York City from 2003-05. Includes date, address, motive, victim description, and suspect description. Published on NYTimes.com on April 28, 2006. Data is from the New York City Police Department. ",
+      "original_categories": [
+        "mapping",
+        "crime"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "agentrank-wordpress",
+      "description": " A WordPress Plugin that conveniently displays an agent's AgentRank data- profile, sales, reviews, forecasts, etc., from RealtyBaron. ",
+      "original_categories": [
+        "reference",
+        "blogging",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wordonthewire",
+      "description": " wordonthewire serves up the latest results from a range of trending platforms based on a users single search query. It is intended mainly as a tool to get a quick, latest scoop on a topic, and be able to easily share the results. It picks up on your browsing language of choice, and serves up the results in that language, making it really universal (without having to have a unique URL for each language).It focuses on doing all of this one page, and has a responsive layout. ",
+      "original_categories": [
+        "search",
+        "social",
+        "images",
+        "tools",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "all-bests",
+      "description": " Search engine for deals and coupons. Formerly called Wazma. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "great-britain-postcode-maps",
+      "description": " Free online Postcode Area and District maps of Great Britain from the latest Ordnance Survey and Royal Mail Postcode data. ",
+      "original_categories": [
+        "england",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "podcast-over-phone",
+      "description": " The Podcast over the Phone mashup allows you to Call a phone number, and listen to Mr Brownâ€™s podcast over the phone. ",
+      "original_categories": [
+        "voip",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "aidsvu",
+      "description": " Powered by MapLarge.com, AIDSVu provides a high-resolution view of the geography of HIV in the United States, 30 years into the epidemic. It is an online tool that allows users to visually explore the HIV epidemic alongside critical resources such as HIV testing center locations and NIH-Funded HIV Prevention &amp; Vaccine Trials Sites. The data on AIDSVu come from the U.S. Centers for Disease Control and Prevention's (CDC) national HIV surveillance database that is comprised of HIV surveillance reports from state and local health departments. AIDSVu will be updated on an ongoing basis in conjunction with CDC's annual release of HIV surveillance data, as well as new data and additional information as they become available. A Technical Advisory Group was brought together during the development of AIDSVu and an Advisory Committee, chaired by Dr. Jim Curran, Dean of the Rollins School of Public Health of Emory University, is comprised of key stakeholders who provide oversight and guidance for the ongoing project. ",
+      "original_categories": [
+        "health",
+        "health",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "numbers",
+      "description": "The Numbers API is a site to explore facts about numbers. Enter a number and receive a random fact, such as 15 is the number of days in each of the 24 cycles of the Chinese calendar. In addition to viewing them on the site, the Numbers API is expected to be used programmatically. Send a request to the API and it returns a plain text string. Add a callback and that string is wrapped in a JSONP callback function.In addition to simple number facts, the site also allows developers to specify math facts about numbers, as well as on this date type of functionality.",
+      "original_categories": [
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "instalyrics",
+      "description": " The lyrics instant search engine ",
+      "original_categories": [
+        "search",
+        "lyrics",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

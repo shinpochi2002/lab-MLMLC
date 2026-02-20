@@ -1,0 +1,38 @@
+{
+  "category": "healthcare",
+  "count": 3,
+  "items": [
+    {
+      "mashup": "refuge-android-app",
+      "description": " This is the unofficial Android dependent on the REFUGE Restrooms AP. The app allows users to interact with the database of restrooms safe for transgender, intersex, gender nonconforming, as well as handicapped individuals. Users can search a map to view drop-pins for restroom locations nearest to their proximity. Also, the app displays short bios on the restroom so that users are informed. ",
+      "original_categories": [
+        "lists",
+        "directories",
+        "healthcare"
+      ],
+      "used_apis": [
+        "refuge-restrooms"
+      ]
+    },
+    {
+      "mashup": "gethealth",
+      "description": "GetHealth is a Unified RESTful API to access health data from wearables and devices. It allows users to integrate the sources like Dailymile, Fatsecret, Fitbit, Google Fit, Jawbone, Lifefitness, MapMyFitness, MapMyRun, MapMyWalk, Microsoft Health, Misfit, Moves, PredicctBGL, Runkeeper, Strava, Sony Lifelog, Withings, and 23andMe. It also allows integration to medical devices. There are api calls available for activity, diabetes, weight, nutrition, sleep, and genotype. Furthermore it eases the user authentication process for each source with single-sign on API call. Also it normalizes the data across multiple sources and provides unified data structure.",
+      "original_categories": [
+        "healthcare"
+      ],
+      "used_apis": [
+        "gethealth"
+      ]
+    },
+    {
+      "mashup": "refuge-restrooms",
+      "description": "Based in San Francisco, REFUGE Restrooms is a resource that provides transgender, intersex, and gender nonconforming individuals with access to a library of restrooms with safe environments. Similar to the now deprecated Safe2Pee, users can search for restrooms by proximity, may add new restrooms to the directory, and can also comment and rate their experiences. The site and service aims to promote restroom advocacy through community building. The project is accessible using a RESTful API. Using GET HTTP requests, developers can query the restroom database by keyword, and can also return a full list of all database entries in a JSON format.",
+      "original_categories": [
+        "healthcare"
+      ],
+      "used_apis": [
+        "refuge-restrooms"
+      ]
+    }
+  ]
+}

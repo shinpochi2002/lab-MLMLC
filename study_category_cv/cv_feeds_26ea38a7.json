@@ -1,0 +1,26 @@
+{
+  "category": "feeds",
+  "uid": "26ea38a7",
+  "n_samples": 12,
+  "n_labels": 4,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 4.256172713637352,
+      "std_val_loss": 4.786273894239569,
+      "mean_micro_f1": 0.6942857142857143
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 5.600031287968159,
+      "std_val_loss": 6.762299682443549,
+      "mean_micro_f1": 0.7466666666666667
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 4.256172713637352,
+    "std_val_loss": 4.786273894239569,
+    "mean_micro_f1": 0.6942857142857143
+  }
+}

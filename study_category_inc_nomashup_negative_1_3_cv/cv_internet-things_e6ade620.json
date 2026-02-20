@@ -1,0 +1,26 @@
+{
+  "category": "internet-things",
+  "uid": "e6ade620",
+  "n_samples": 6,
+  "n_labels": 5,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 12.655047714710236,
+      "std_val_loss": 15.75064773611435,
+      "mean_micro_f1": 0.5333333333333333
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 17.473351618647577,
+      "std_val_loss": 22.603209476754003,
+      "mean_micro_f1": 0.5333333333333333
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 12.655047714710236,
+    "std_val_loss": 15.75064773611435,
+    "mean_micro_f1": 0.5333333333333333
+  }
+}

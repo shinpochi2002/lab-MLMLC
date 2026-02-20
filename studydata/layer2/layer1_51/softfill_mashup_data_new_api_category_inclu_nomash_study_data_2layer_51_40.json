@@ -1,0 +1,682 @@
+[
+  {
+    "name": "emotient",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "Emotient is an image recognition technology. Emotient allows faces, emotions, and other features to be recognized and identified in photos and images. The Emotient API allows developers to access and integrate the functionality of Emotient with other applications and to create new applications. Public documentation is not available."
+  },
+  {
+    "name": "apollorion-terraform-version",
+    "categories": [
+      "developers"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "This api lets you get specific versions of terraform, all versions of terraform, or the latest version of terraform. Separated by architecture in an easy to use REST format."
+  },
+  {
+    "name": "myscript-cloud-recognition",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "MyScript Cloud is an HTTP-based set of services, providing handwriting recognition. It is based on a REST architecture and also on WebSocket networking that use the MyScript recognition engine in a client-server configuration. It can be used to provide handwriting recognition in many software applications, whether they are web based or native. MyScript supports 61 languages . MyScript can also recognize mathematical equations and geometric shapes."
+  },
+  {
+    "name": "ltu-cloud",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "LTU Technologies is an image recognition software company that provides its customers with products and tools for recognizing and tracking processed images. The LTU Cloud API is a visual search tool used to recognize paintings, movie posters, CD covers, game covers, and more. Developers can send requests to search for images using this API."
+  },
+  {
+    "name": "casperbox",
+    "categories": [
+      "developers"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "CasperBox allows users to run CasperJS scripts online. The CasperBox API allows developers to access and integrate the functionality of CasperBox with other applications. Some example API methods include running scripts, listing scripts, and listing the status of scripts."
+  },
+  {
+    "name": "acrcloud",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "ACRCloud is a comprehensive automatic content recognition provider. It's APIs offer audio fingerprinting for music and TV and other custom contents such as broadcast monitoring, copyright protection, data management, audience measurement and more."
+  },
+  {
+    "name": "3cols",
+    "categories": [
+      "developers"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "3Cols is a cloud based snippet manager allowing you to share code snippets with a team enabling greater productivity and encouraging reusable code. The 3Cols API allows adding, editing and deleting of your snippets."
+  },
+  {
+    "name": "gitlab-graphql",
+    "categories": [
+      "developers"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "GitLab GraphQL API allows clients to request data from GitLab, with a limited number of requests, and to use client side GraphQL libraries to consume the API to avoid manual parsing. The GitLab API provides access to integrate applications with the functionality of GitLab, and includes the ability to; retrieve and manage users, post and manage issues, and manage project information. GitLab is a DevOps lifecycle application."
+  },
+  {
+    "name": "maskerizer-face-mask-detection",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "Face Mask Detection API - Maskerizer (also known as face mask recognition API) is a cross browsers REST API which get a JSON input with a still photo (as base64 encoded string) or an url of the image and returns a JSON string which contains predictions with certain amount of probability (filtered for output with minimum 50%), bounding boxes of detected face mask(s) put on in a correct way, covering both the nose and the mouth, with its top, left, width, height values. If the face mask is put on correctly then the boundingBox contour color is GREEN, if the face mask is put on just partially then the boundingBox contour color is YELLOW, otherwise the person does not wear a face mask and the boundingBox contour color is RED. The boundigBox has its top, left, width, height values. For one still photo the API may return multiple predictions with different probability scores of detected face masks put on. Our pricing packages count the predictions, so for one request, multiple predictions may be counted. We filter the results of predictions so we display only the predictions with a probability score higher than 50%. Of course, there are some limitations in order to get a higher accuracy. We recommend properly exposed, unobstructed JPEG photos at 1920x1080 (full HD resolution) where ratio between height of bounding box and height of entire picture should be at least 1:15. For ratios like 1:16, 1:17, 1:18 and so on the accuracy is lower and the AI algorithm may not see the face massk and the prediction score will be low. We do not store pictures. Also, the quality and the angles of the camera are very important and it contribute to a higher detecting accuracy. It should have varifocal lenses, high shutter speed, good infrared lighting beam, full HD resolution.Allthough this Face Mask Detection API (currently we do not offer a face mask recognition sdk) is intended for software development and therefore developers, we have also here an face mask detection online application that may be used to check the input and output JSONs of the API. The necessary steps are written below, basically for this real time face mask detection or recognition API you send an authorized POST request in JSON format to the API endpoint and you get as JSON response the output as described on our website."
+  },
+  {
+    "name": "tineye-wineengine",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The WineEngine API searches a mobile photo of a wine bottle against your reference collection of wine labels to identify the wine. It also identifies the vintage and the variety of the wine if it is visible in the mobile photo. WineEngine uses both image recognition and neural networks to deal with common user photograph problems: low resolution, bad lighting and color, improper framing and cropping, off-center angles and blurriness. WineEngine also works very well with non-wine beverages such as beers and spirits."
+  },
+  {
+    "name": "bigdatacloud-client-info",
+    "categories": [
+      "developers"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The Free Client Info API is a fast and simple way to establish the public IPv4 address and browser details of your customers. It offers proxy detection by examining the X-Forwarded-For (XFF) HTTP header field and detailed User-Agent (UA) information, providing a quick overview of the visitor and the device that they are using to access your services."
+  },
+  {
+    "name": "ditto-photo-reader",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The Ditto Photo Reader API enables users to evaluate a photo (or URL) stream that is provided to Ditto's matching engine. Ditto will determine if any brand in our catalog appears in those photos. Fees for the Photo Reader API are based on the volume of photos analyzed. Ditto Labs scans social media for images, faces, and mentions of brands."
+  },
+  {
+    "name": "justvisual-adoptable-pet",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "JustVisual Adoptable Pet API offers data access to image recognition capabilities, in this case to identify adoptable pets. A sample GET request to the pets API is available. Every time a user uploads the picture of a pet, results will display organizations such as PetFinder.com and AdoptaPet.com, institutions that have that particular pet ready for adoption. Besides images, responses will present imageURL, title, description, pageURL, and breed."
+  },
+  {
+    "name": "noldus-facereader",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The FaceReader API by Noldus analyzes emotions and allows integration with 3rd party software to respond to the results. Used in the application of surveys, this can be a good application for experiment and research. Using the Project Analysis Module, developers can trigger event markers that launch other applications, or ask their observer questions in response to their emotive triggers. The updated API allows for detailed coordinate and image export."
+  },
+  {
+    "name": "blippar-computer-vision",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The Blippar Computer Vision API offers image recognition capabilities that can be integrated with third-party applications. After image processing, the API returns a JSON formatted object. OAuth 2 is used for authentication. Blippar is a London based, software development firm that provides augmented reality and image recognition technologies. Contact https://web.blippar.com/contact-us#computer-vision for additional API documentation."
+  },
+  {
+    "name": "hpe-haven-ondemand-image-recognition",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "IDOL OnDemand by HP offers an array of data processing APIs for format conversion, image analysis, indexing, search, and textual analysis. Preview capabilities exist to view how many of these RESTful APIs behave in action. The Image Recognition API scans an image to compare and match objects against a database of objects that the user provides. The HP-hosted public database also includes logos of corporations to match against. The Image Recognition API returns the name of the database object, what it represents, as well as information on where the object appears in the image. The API supports all standard image types (TIFF, JPEG, PNG, GIF, BMP and ICO, PBM, PGM, and PPM)."
+  },
+  {
+    "name": "motorzam",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "Motorzam allows applications to detect and identify vehicles in images. It returns manufacture, model, and other features from an uploaded image. Register for use."
+  },
+  {
+    "name": "datachip-universal-facial-recognition",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "API Overview:DataChip’s – Universal Facial Recognition API provides a platform for enterprises to implement Facial Recognition into their applications with ease. Developers have the flexibility to choose our API between Azure, AWS, and DataChip API, and its versatility enables developers to integrate High Accuracy Face Recognition APIs with only a few lines of code.Technical Highlights:Our API reliably detects and identify human faces accuratelyEase of switching between AWS, Azure API, and DataChip API’sEasily support Cloud-based Facial recognition or on-premise and Edge-based processingEasy to use – Add our API to your application through a single API callAPIs are platform-independent, language-independent, standards-based (runs on top of HTTPS), and can be used in the presence of firewallsUse case:Attendance Management – Non-Contact facial recognition in Attendance management enables you to safeguard your work environment and increases productivityHealth Care –Identification of patients, especially during emergenciesRetail – During shopping, retrieving the customer’s name able to enhance their shopping experience and also able to prevent retail crimeIdentify missing persons - Face recognition can be used to find missing children and victims of human trafficking. Protect school from threats - Identify when expelled students, dangerous parents, or other individuals that pose a threat to school safety enter school grounds. Control Access to sensitive areas - Face recognition can work as a means of access control to ensure that only authorized individuals get into facilitiesProtect law enforcement - Helps authorities instantly identify individuals in the field from a safe distance. This approach tells them whom they are dealing with and whether they need to proceed with cautionFor Secure Transactions – Using facial recognition, users can make their payment transaction by scanning their faces"
+  },
+  {
+    "name": "docomo-character-recognition",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "DOCOMO is a Japanese provider that offers a suite of API tools meant to streamline application development. The Character Recognition API scans an image and recognizes characters in English and Japanese. The API will return specific coordinates of individual characters. Handwritten or overly designed characters are not supported. The API can be implemented via REST and through the corresponding Android, iOS, &amp; Java SDKs. DOCOMO also offers an API console to easily demo their many APIs."
+  },
+  {
+    "name": "amazon-web-services-lambda",
+    "categories": [
+      "developers"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The Amazon Web Services Lambda REST API allows developers to access and integrate the functionality of Amazon Lambda with other applications. Some example API methods include managing functions, managing permissions, retrieving events, and managing events. Amazon Lambda is a compute service that executes code without having to manage servers or provisioning."
+  },
+  {
+    "name": "facesoft",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The Facesoft API enables face detection face landmark extraction, face comparison, and facial recognition in applications. All images need to be encoded in base64 format, and the file size limit is 6 MBs. Authentication is performed via the API Key header. Facesoft utilizes deep learning techniques to provide face analysis and generation."
+  },
+  {
+    "name": "rosto",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The Rosto API provides access to facial recognition using machine learning. Rosto's features include face detection, age detection, gender detection, emotion detection, multi-face detection, landmark detection, glasses detection, smile detection, hair segmentation (still in beta), head-pose calculation, and ethnicity detection.Developers can use these features to extract information about people in their images. They can use all features or just a subset to improve performance. This API handles images up to 4 MB."
+  },
+  {
+    "name": "openbr",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The OpenBR project has produced a new language for image recognition used to express algorithms. Each word in the language corresponds to a plugin that performs a specific transformation on an image, allowing for highly decoupled development of the individual steps in an algorithm. The OpenBR 0.4.0 framework (Open Source Biometric Recognition) and related APIs apply complex algorithms to measure and recognize facial features and give access control using advanced biometrics. The C++ plugins include Face Recognition, Age Estimation, and Gender Estimation. OpenBR is written in a subset of C++ and is known to work with all popular modern C++ compilers. The project is actively maintained on Windows, Mac, and Linux, with ports to Android &amp; iOS. The Open BR API helps extend the functionality of OpenBR."
+  },
+  {
+    "name": "visual-search-api-duplicate-image-detection",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The VisualSearchAPI Duplicate Image Detection API provides a service to process the input images, compare and save the image signatures into a special database, allowing to identify any duplicate images. Developers can send HTTP requests to receive XML responses in JSON architecture."
+  },
+  {
+    "name": "affectiva-emotion-media-processing",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "Affectiva is a provider of emotion recognition technology that uses AI capabilities to analyze emotions and facial expressions of audiences. Affectiva supports the use of a standard web cam to gather analytical insights into unfiltered emotions exhibited by consumers. The Affectiva Media Processing API is designed to detect and analyze facial expressions and emotions recorded in visual media such as images and videos. Developers use the API to integrate emotion detection capabilities in apps."
+  },
+  {
+    "name": "web-speech-specification",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The Web Speech Specification API integrates text-to-speech features in JavaScript language. Resources include speech recognition, speech grammar, and speech synthesis."
+  },
+  {
+    "name": "vufind-app-usage",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "Vufind offers deep-learning analytics with the aim to understand behavioral persona for e-commerce purposes. Photo recognition can be integrated to websites and apps with Real Time Recognition API. Video recognition is available as well. However, at this point video is part of a premium feature. 2 privacy notes are available. The first one mentions that photo analytics are based on 100% algorithmic computer vision and no humans inspect the pictures. The second one indicates that videos are not stored on Vufind and developers don't need to supply Facebook or Twitter ID for the user."
+  },
+  {
+    "name": "jsonfiddleme",
+    "categories": [
+      "developers"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The jsonfiddle.me API allows users to store, access, and edit JSON files online to test their applications. This API works with any device or stack and is CORS (Cross Origin Resource Sharing) enabled. Once a user hosts their JSON data, they are provided with an access code that allows them to update it."
+  },
+  {
+    "name": "ibm-watson-visual-recognition",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The IBM Visual Recognition API analyzes images and video frames in order to understand their content. It is capable of annotating images based solely on their visual content, without users having to describe and tag content manually. The API recognizes visual entities using semantic classifiers based on machine-learning technology."
+  },
+  {
+    "name": "oddcast-face-detection",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "Oddcast offers a set of APIs that allow developers to add tools to enterprise level platforms to enhance the user’s engagement with their media. Oddcast offers a set of APIs that allow developers to add tools to enterprise level platforms to enhance the user’s engagement with their media. The Face Detection API uses a client-side SWF object to allow detection of major facial locations (eyes, mouth, nose, chin position, etc.) continuously notifying the host app of the face’s location within the frame."
+  },
+  {
+    "name": "affectiva-affdex",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "Affdex by Affectiva is a facial expression analysis tool, used by researchers and marketers alike to learn more about customers and their interaction and emotive response to ads, branding, and any type of media. The Affdex API connects applications to Affectiva's cloud interface, allowing developers to enhance emotive analysis with access to Affectiva's research and data."
+  },
+  {
+    "name": "microsoft-cognitive-services-emotion",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The Microsoft Cognitive Services Emotion API recognizes emotions expressed by one or more people in an image, and returns a face identification bounding box. It detects the following emotions: happiness, sadness, surprise, anger, fear, contempt, and disgust. For video, it returns emotions of a group of faces over a period of time. 2 paid options are available, and a free plan that limits transactions to 30,000 a month is available as well. The Emotion API uses JSON for data exchange, and API Keys for authentication."
+  },
+  {
+    "name": "ximilar",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The Ximilar API returns JSON data to implement image recognition and artificial intelligence into applications via cloud. Ximilar API provides services for generic tagging, product and photo similarity, smart fashion search, fashion tagging and dominant colors, also includes the recognition API known as <a href=https://www.programmableweb.com/api/vize-ai>Vize AI API</a>. With the API, developers can target real estate, healthcare, surveillance, and eCommerce industries. Ximilar provides visual automation AI services for business."
+  },
+  {
+    "name": "tuputech",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The TupuTech API returns data that aims to recognize images and videos. JSON format is available to send requests after authenticating with API Key. As an additional security layer, TupuTech offers Base64 encoded signature string signed with RSA-SHA256 algorithm. With the API, developers can filter content. More visiting the demo at https://us.tuputech.com/demo"
+  },
+  {
+    "name": "intenseye",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The Intenseye API returns video analytics data in JSON format. With the API in REST architecture, developers can track objects and extract information from videos and cameras. API methods are available to manage camera functions, video task functions, image detection functions and more. Intenseye provides computer vision services for video and image processing and image recognition."
+  },
+  {
+    "name": "dev",
+    "categories": [
+      "developers"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The DEV community is a platform where developers can share ideas, submit tutorials, and ask questions. The DEV API enables DEV's articles in third parties. Additionally, the API supports comment management, access to listings (classified ads), access to podcasts, and user management. API Key is implemented for authentication, and JSON for requests and responses."
+  },
+  {
+    "name": "bower",
+    "categories": [
+      "developers"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The Bower API aims to consolidate the entire application development process by tracking libraries, frameworks and utilities. The API allows for fetching and installing packages from various resrouces. Bower allows you to manage client-side programming packages. Bower keeps track of packages in a manifest file, bower.json."
+  },
+  {
+    "name": "microsoft-azure-cognitive-services-face",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The Microsoft Azure Cognitive Services Face API offers cloud based human face recognition. Its main functionalities include face verification, similar face searching, automatic face grouping, and person identification. Currently, a free plan that limits calls to 30,000 transactions per month is available, and a paid option is available as well. The Face API uses JSON format for data exchange, and API Keys for authentication."
+  },
+  {
+    "name": "eyespy",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "EyeSpy is an object recognition mobile app available for download from the Apple Store and soon from Google Play. The API permits developers to integrate EyeSpy recognition features into web and mobile applications. Available to work in JSON format and API Key, this service allows to identify what the human eye can see such as animals, cars, fashion, movie posters, barcodes, and words."
+  },
+  {
+    "name": "docomo-speech-recognition",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "DOCOMO is a Japanese provider that offers a suite of API tools meant to streamline application development. The Speech Recognition API accepts spoken voice within an audio file, and transcribes the language detected into words. These processes are powered by FueTrek and NTT IT technologies. The API can be implemented via REST and through the Dialogue API Android, &amp; iOS SDKs. DOCOMO also offers an API console to easily demo their many APIs."
+  },
+  {
+    "name": "catchoom",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "Catchoom provides image recognition technology built to interact with 3rd party applications. End users take pictures with their smartphones and Catchoom matches relevant images and connects users to online content, offers, and digital experiences.The Catchoom API allows applications to manage the image recognition service as well as collections of reference images and the metadata associated with those images. The RESTful API responds with a HTTP status code and, if applicable, a JSON document."
+  },
+  {
+    "name": "ricoh-cloud-visual-recognition",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "Apart from providing a feature for detecting multiple people and faces of multiple people in an image, the RICOH Cloud Visual Recognition API also provides a feature for comparing people in two images. Use the API to integrate the recognition functionality in your apps."
+  },
+  {
+    "name": "google-activity-recognition",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The Google Activity Recognition API will enable you to detect users' activity using low power signals from multiple sensors in the device. It automatically detects activities by periodically reading short bursts of sensor data and processing them using machine learning models. Google Developers provides APIs, software development tools, and technical resources that allow communication with Google Services and their integration to other services. Google is a technology company that specializes in Internet-related services and products that includes online advertising technologies, search, cloud computing, software, and hardware."
+  },
+  {
+    "name": "augur-insights",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The Augur Insights API allows developers to gather on-demand and real-time data on device owners. Developers can use the API to access and integrate the functionality of Augur with other applications. Public documentation is not available; API access comes with account service. Augur provides device and user recognition functionalities."
+  },
+  {
+    "name": "intersection-observer",
+    "categories": [
+      "developers"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The Intersection Observer REST API allows developers to access and integrate the functionality of Intersection Observer with other applications. The Intersection Observer API provides an interface to get the position and visibility of DOM elements relative to a container element or to browser top level viewport."
+  },
+  {
+    "name": "microsoft-azure-cognitive-services-speaker-recognition",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The Microsoft Azure Cognitive Services Speaker Recognition API identifies individual users, and authenticates by using voice. It can be used to add a layer of security to third party applications with a speech verification tool. For pricing, verification and identification have their own separate plans, and there is a free option available that limits transactions to 10,000 per month. The Speaker Recognition API uses JSON for data exchange, and API Keys for authentication."
+  },
+  {
+    "name": "findface-cloud",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The FindFace Cloud API offers integration with a face detection, verification, and identification platform. This API enables face comparison, and human detection with coordinates and sizes. POST methods are supported, JSON is used for resposes, and HTTP Basic Auth for authentication. FindFace is a Cyprus based software development firm."
+  },
+  {
+    "name": "applied-recognition",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "Applied Recognition enables facial recognition in applications for companies looking to upgrade to biometrics support. Applied Recognition Ver-ID supports low-friction face registration, authentication, and face-based document signatures. Several SDKs are available for easy integration."
+  },
+  {
+    "name": "affectiva-market-research-data",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "Affectiva is a provider of emotion recognition technology that uses AI capabilities to analyze emotions and facial expressions of audiences. Affectiva supports the use of a standard web cam to gather analytical insights into unfiltered emotions exhibited by consumers in digital content. The Affectiva Market Research Data API is Affdex Market Research System’s data access portal. Its integration in apps provides access to emotion recognition data gathered through the cloud-based Affdex platform. The API sends HTTP-formatted requests and returns JSON-formatted responses."
+  },
+  {
+    "name": "snapbuy-visual-search",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "SnapBuy is a product recognition API for your print materials such as catalogues, magazine ads, newspaper ads etc...Thanks to SnapBuy, your customers can snap your product and buy it instantly with their smartphones."
+  },
+  {
+    "name": "justvisual-face-detectionexpression",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "JustVisual Face Detection/Expression API provides data access to face recognition features. Integrating with this API, users can find faces inside the query image and return the coordinates where the faces were found. The API can also classify the expression, once the face has been identified."
+  },
+  {
+    "name": "webit-computer-vision",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "Computer Vision APIs are a bundle of cognitive services that will allow you to classify images with labels, detect scene of subjects and objects, analyze and describe an image with captions, perform OCR scanning on images and PDF documents, verify NSFW content with Webit Neural Machine technology."
+  },
+  {
+    "name": "hpe-haven-ondemand-face-detection",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "IDOL OnDemand by HP offers an array of data processing APIs for format conversion, image analysis, indexing, search, and textual analysis. Preview capabilities exist to view many of these RESTful APIs behave in action. The Face Detection API scans an inputted image for faces and returns the sizing and coordinate positioning of a bounding box that surrounds any faces it detects. The API supports all standard image types (TIFF, JPEG, PNG, GIF, BMP and ICO, PBM, PGM, and PPM)."
+  },
+  {
+    "name": "eyedea-recognition",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "Eyedea is a recognition service that offers eyeface, vehicle, copyright and plate detection. The main value of the API could be to have access to an instant understanding about objects, users, and behaviors. The API is about object recognition. To start app creation, developers can visit the link provided to access sample codes in Curl, Java, Node, PHP, Python, Objective-C, Ruby and .NET. Eyedea is based in Czech Republic and contact information is available for support."
+  },
+  {
+    "name": "cognitec-facial-recognition",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The Cognitec Facial Recognition API allows developers to integrate its facial recognition capabilities into their own applications. Cognitec provides face localization and tracking for images and video streams. It can check for gender, age, pose deviation, exposure, glasses, closed eyes, uniform lighting detection, unnatural color, and face geometry. Cognitec supports multiple algorithms for working with 2D and 3D data."
+  },
+  {
+    "name": "microsoft-azure-cognitive-services-computer-vision",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The Microsoft Azure Cognitive Services Computer Vision API analyses images and returns information about them. It can be used to filter mature content or to detect faces in an image. Information such as image description, and dominant and accent colors can also be retrieved. Additionally, this API recognizes celebrities, reads text in images, and generates thumbnails. Currently, a free plan that limits calls to 5000 transactions per month is available. The Computer Vision API uses JSON format for data exchange, and API Keys for authentication."
+  },
+  {
+    "name": "tineye-mobileengine",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The MobileEngine API offers an image recognition platform optimized for images taken from a mobile device. The API quickly and accurately matches a user-submitted image to your collection of photos or product images. This can be used to identify pictures of books, wallpapers, magazines, CD covers, artwork and more. MobileEngine is designed to take into account common effects that occur when taking photos with mobile devices, including rotation, occlusion, perspective projection, changing lighting conditions, warps, blurs, flips and crops."
+  },
+  {
+    "name": "screenlab",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "This JSON based API allows users more insight to how their UI/UX design looks to viewers. ScreenLab uses eye tracking data to analyze focus points and identify key stimuli including RGB, Grey scale, HSV, color, contrast, motion, position, patterns, metrics, heat maps and more."
+  },
+  {
+    "name": "typingdna",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The TypingDNA API matches typing patterns in order to authenticate a user. Typing behavior is captured using JavaScript, and pattern matching results are returned in JSON format, letting the developer know whether or not the typing patterns belong to the same user. This API can be used for secure login, enforcing reset passwords, and online biometric authentication."
+  },
+  {
+    "name": "luxand-face-recognition",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "Luxand enables recognition capabilities in applications. The API supports facial recognition, face verification, emotion recognition, age and gender detector, facial landmarks, and celebrity recognition. The API returns JSON objects containing with recognition probabilities. Luxand implements API Key for authentication."
+  },
+  {
+    "name": "gbg-face-match",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The GBG Face Match API allows users to submit a live image or a selfie and check it against a document image. It can be used to verify an individual user. The API responds with PASS: Matched NotMatched NoFace Undetermined IdenticalGB Global provides location intelligence, identity verification and fraud &amp; compliance management services."
+  },
+  {
+    "name": "tineye-matchengine",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "TinEye's MatchEngine API offers image recognition capabilities that can find duplicates and derivatives of existing images within the user's own image collection. The API can identify modified images that have been cropped, flipped, warped or blurred, rotated slighted, color shifted, watermarked or captioned. TinEye offers four paid plans customized to the developer's needs."
+  },
+  {
+    "name": "codechef",
+    "categories": [
+      "developers"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The CodeChef API exposes CodeChef's resources and data to developers. This API was made available for a competition, and the API's documentation is not public. CodeChef provides an online platform for programming competitions as well as algorithm tutorials and forum discussions to help educate and train new computer programmers."
+  },
+  {
+    "name": "viscovery",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "Viscovery is an image recognition and matching service. Their API can be integrated into mobile environments to cross compare an uploaded image with a library of images. Hosted through Mashape, their service is scalable, allowing hosting for millions of uploaded images."
+  },
+  {
+    "name": "broken-house-detection",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "Broken House Detection API - brokenDET (also known as broken house recognition API or forced entry detection api) is a cross browsers REST API which get a JSON input with a still photo (as base64 encoded string) or an url of the ground taken image and returns a JSON string which contains predictions with certain amount of probability (filtered for output with minimum 20%), which contain the scores for broken glass from windows or doors, opened windows, opened doors, broken walls. If the probability of prediction is under 20% then these info are not shown.Allthough this Broken House Detection API (currently we do not offer a Broken House Detection sdk) is intended for software development and therefore developers, we have also here a broken house detection online application that may be used to check the input and output JSONs of the API.The necessary steps are written below, basically for this real time forced entry or recognition API you send an authorized POST request in JSON format to the API endpoint and you get as JSON response the output as described below through parameters and examples.This Broken House Detection API is useful for a large number of domains like: home surveillance, security, professionals, students, researchers, developers etc.You own the commercial copyright of the resulted JSON with no additional fee meaning you may use it in your own apps for sale."
+  },
+  {
+    "name": "megamatcher-abis-online",
+    "categories": [
+      "recognition"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "This is indirect access to this service please refer to the corresponding SDK below. MegaMatcher Automated Biometric Identification System (ABIS) is a complete biometric solution which includes all of the algorithms and software necessary for the deployment of large-scale multi-biometric projects using fingerprint, face and/or iris biometrics. The turnkey biometric system is ready to use, or it can be customized to address particular business needs. Capabilities include identity management, deduplication, adjudication and a latent fingerprint editor among other features. The solution is designed for national ID, voter registration with record deduplication, passport issuance, border control, forensic/criminal investigations, government e-services, social services, banking systems, healthcare and other civil and private applications."
+  },
+  {
+    "name": "idobata-webhooks",
+    "categories": [
+      "developers"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "This Webhooks API provides access to notifications from Idobata for; airbrake, backlog, crashlytics and more. Idobata provides group chat services for software development teams."
+  },
+  {
+    "name": "phantauth-avatar",
+    "categories": [
+      "developers"
+    ],
+    "bigcategories": [
+      "40"
+    ],
+    "description": "The PhantAuth Avatar API returns a human avatar picture URL based on an identifier which can be an email, hash, username or any other text after the https://phantauth.net/img/avatar/ prefix. The returned picture URL is generated from the identifier."
+  }
+]

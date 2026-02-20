@@ -1,0 +1,26 @@
+{
+  "category": "calendars",
+  "uid": "959a2220",
+  "n_samples": 15,
+  "n_labels": 3,
+  "results": [
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 5.298532776162029,
+      "std_val_loss": 6.469762544774108,
+      "mean_micro_f1": 0.6
+    },
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 6.032481279969216,
+      "std_val_loss": 7.501869499216609,
+      "mean_micro_f1": 0.7142857142857143
+    }
+  ],
+  "selected": {
+    "lr": 3e-05,
+    "mean_val_loss": 5.298532776162029,
+    "std_val_loss": 6.469762544774108,
+    "mean_micro_f1": 0.6
+  }
+}

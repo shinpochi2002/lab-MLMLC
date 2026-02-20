@@ -1,0 +1,504 @@
+{
+  "category": "feeds",
+  "count": 44,
+  "positive_count": 11,
+  "negative_count": 33,
+  "pos_neg_ratio": "1:3",
+  "items": [
+    {
+      "mashup": "vg-sammenlign",
+      "description": " VG Sammenlign allows you to compare fees, interest, and costs of 26 consumer loans in Norway. VG.no is Norway's largest newspaper and most visited website. ",
+      "original_categories": [
+        "comparisons",
+        "financial"
+      ],
+      "used_apis": [
+        "finansportalen"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "forbruksl%c3%a5nno",
+      "description": " Forbrukslån.no offers a comprehensive database of Norwegian loan offers. Most of the data pertain to non-collateralized loans, albeit with a few exceptions. Examples of available information include key APR's, downpayment times and various rules attached to each credit offer. The website has an integrated loan calculator which allows visitors to manually adjust the loan amount and downpayment time. API data is fetched from various banks' repositories as well as the public financial portal Finansportalen.no ",
+      "original_categories": [
+        "financial",
+        "banking",
+        "comparisons",
+        "referrals"
+      ],
+      "used_apis": [
+        "finansportalen"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "kredittkort-sidenno",
+      "description": " Kredittkort-Siden.no is a Norwegian credit card aggregator. The data is based on feeds from the official Finansportalen, a government service. Users can then compare all credit cards available in Norway. You can easily filter on benefits, and you can also compare cards against each other. The goal is to make it easier for you to choose the right credit card based on your needs. ",
+      "original_categories": [
+        "aggregation",
+        "comparisons",
+        "financial"
+      ],
+      "used_apis": [
+        "finansportalen"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "bedre-best-mortgage-comparison",
+      "description": " Customers can compare mortgage rates in the Norwegian market. Calculate interest rates, monthly payments and payments period. ",
+      "original_categories": [
+        "financial"
+      ],
+      "used_apis": [
+        "finansportalen"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "pengerio",
+      "description": " Penger.io is a web portal where the user can compare credit cards and loans from the Norwegian market. The site is pulling data from Finansportalen's API, which is then mashed together to create: Aggregated comparison pages for different types of loans and credit cards. Individual loan/credit card listing pages with all the available information on a specific product. Business information such as legal name, contact phone, website and address for the banks ",
+      "original_categories": [
+        "financial",
+        "aggregation",
+        "banking",
+        "comparisons"
+      ],
+      "used_apis": [
+        "finansportalen"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "dinero.no",
+      "description": " Dinero.no is a Norwegian credit card, private loan and insurance comparing service using APIs to pick up information from partners. Dinero has tested Norwegian credit cards to determine which will give the best deals to consumers. It's free to search credit cards on the list, has a quick response to applications for cards, and multiple card search is available. You can search by interest rates, max credit, and types of benefits. ",
+      "original_categories": [
+        "financial",
+        "banking",
+        "nordic",
+        "rewards"
+      ],
+      "used_apis": [
+        "finansportalen"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "kredittkort.com",
+      "description": " Kredittkort.com is a Norwegian credit card aggregator based on data feeds from government run Finansportalen. Using filters, the user can compare the 400+ credit cards in Norway. ",
+      "original_categories": [
+        "aggregation",
+        "comparisons",
+        "financial",
+        "games"
+      ],
+      "used_apis": [
+        "finansportalen"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "castroller",
+      "description": " A way to find the Best Audio and Video on the web. ",
+      "original_categories": [
+        "video",
+        "search",
+        "music",
+        "social"
+      ],
+      "used_apis": [
+        "superfeedr"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "trawlr",
+      "description": " Web-based RSS aggregator with PostRank from aideRSS built in. Manage existing feeds, lifestream, or use it as a discovery engine with other users. ",
+      "original_categories": [
+        "blogging",
+        "feeds"
+      ],
+      "used_apis": [
+        "aiderss"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "aiderss",
+      "description": "AideRSS is an intelligent assistant, which continuously monitors RSS feeds, finds the good stuff, creates a PostRank, and delivers it to you. The philosophy behind our API is to provide full functional parity of what users see within MyFeeds and our widgets. Currently you can retrieve the Top Posts, Feed Stats and Entry Stats for a given Feed ID. In addition you can retrieve the actual RSS Feed with the PostRank RSS Extension for a given feed.",
+      "original_categories": [
+        "feeds"
+      ],
+      "used_apis": [
+        "aiderss"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "bloglines",
+      "description": "From their site: Bloglines is a FREE online service for searching, subscribing, creating and sharing news feeds, blogs and rich web content. With Bloglines, there is no software to download or install. Bloglines provides several mechanisms for accessing account information. The Notifier API is used to quickly gather a count of unread items in a Bloglines account. The Sync API is used to accessing subscription lists and unread blog items. The Blogroll API is used for incorporating subscription lists in other sites.",
+      "original_categories": [
+        "feeds"
+      ],
+      "used_apis": [
+        "bloglines"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "combyo",
+      "description": " Combyo.com aggregates shopping deals coupons from top deal sites like Fatwallet, Slickdeals, Shopzilla and others. It presents them with real-time price comparison side by side. Combyo.com visitors can also set price alerts. ",
+      "original_categories": [
+        "ecommerce",
+        "discounts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "raffle-swag",
+      "description": " No more raffle tickets or business cards in a hat. Attendees enter using their mobile phone and you randomly pick a winner. No download required. Works on iPhone, Android, Blackberry, Windows 7 phones and others. ",
+      "original_categories": [
+        "auctions",
+        "telephony",
+        "messaging",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "learn-world",
+      "description": " View the map and find information about countries, states, and cities with one mouse click. ",
+      "original_categories": [
+        "reference",
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "holiday-hypermarket",
+      "description": " Visitors can use the Street View camera to take a holiday picture. Users can take as many pictures as they like and then submit them for a chance to win a holiday in Majorca. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twilio-soundboard",
+      "description": " Have you ever dreaded calling someone on the phone because he/she never stops talking? Using the Twilio Soundboard, you can call anyone and play one of three sound effects when you need an excuse to end the conversation. ",
+      "original_categories": [
+        "humor",
+        "mobile",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "trendrr",
+      "description": "From their site: Track, compare and share data. Identify trends across social graphs and networks, realize the potential of p2p, track engagement metrics, look at what is really happening, real time.",
+      "original_categories": [
+        "news-services"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gaza-attack-timeline",
+      "description": " Google Map Mashup of Gaza Strip attack by Israel. Shows Day by Day events in Gaza and Israel and casualties of Palestinians and Israelis. Data Source from The Guardian News. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "youtube-fast-search",
+      "description": " Youtube fast search has a search and video play function on one interactive page. With drag &amp; drop features, and playlist creation. ",
+      "original_categories": [
+        "music",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ipaper-and-box.net",
+      "description": " Allows Box.net users to preview documents in their Box accounts using iPaper by Scribd. ",
+      "original_categories": [
+        "documents",
+        "storage",
+        "enterprise"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "life-grayscale",
+      "description": " Presenting vintage photos from Flickr in an interesting way. ",
+      "original_categories": [
+        "photos",
+        "history",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "interactive-urinal-map",
+      "description": " When you gotta go, but you want to find just the right place, then search here at Urinal.net. Lots of photos in the archive. Both US and international. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "amazon-fulfillment-web-service",
+      "description": "Amazon Fulfillment Web Service (Amazon FWS) allows merchants to access Amazon.com's world-class fulfillment capabilities through a simple web services interface. Merchants can programmatically send order information to Amazon with instructions to physically fulfill customer orders on their behalf.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "images",
+      "description": "Images API is a service from Graphics Factory Clip Art allowing users to integrate royalty free clip art images into websites, applications, or print-on-demand services. The Images API supports XML or JSON formatted responses.",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mogreet",
+      "description": "Mogreet is a SMS/MMS marketing service focusing on the delivery of high quality video, audio and images. Mogreet clients can create, manage, and track their text message marketing campaigns through Mogreet's platform and customer relationship manager (CRM).Mogreet's APIs enable developers easily send SMS or MMS messages (for only $0.01 per send) and add SMS, Video, rich media messaging to apps. Some example API methods include sending blasts to lists, managing content, and add and delete users from their mobile marketing lists.",
+      "original_categories": [
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tripsq",
+      "description": " TripsQ turns airport checkins into various travel statistics. Foursquare can users sign in to tripsQ to visualize trips and travel itineraries. Provides users with detailed statistics on distance traveled, amount of CO² produced during each trip and other information. ",
+      "original_categories": [
+        "travel",
+        "visualizations",
+        "mobile",
+        "social",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "codexmap",
+      "description": " CodexMap lets you find, and place, books graphically on a map. Whether the book was added to the system by our harvester, or by you or another user, you can interact with a map to find books. ",
+      "original_categories": [
+        "books",
+        "mapping",
+        "library",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "my-friends-mosaic",
+      "description": " Create an instant mosaic from your Twitter or LiveJournal friends pictures. You can print it on a mug, a T-shirt, a mousepad or a bag. ",
+      "original_categories": [
+        "art",
+        "visualizations",
+        "ecommerce",
+        "social",
+        "photos",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "chronopipe",
+      "description": " Import Basecamp time in to QuickBooks. ",
+      "original_categories": [
+        "office",
+        "enterprise",
+        "financial"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "if-i-walk-straight-line",
+      "description": " Where do you go if you go in a straight line around the world. Use this Google Maps mashup to choose the place that you will start from and what direction you are going to walk, and then see where you pass if you walk in a straight line around the world. ",
+      "original_categories": [
+        "mapping",
+        "humor",
+        "reference",
+        "trivia"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "whistler-hotels-map",
+      "description": " Popular Whistler hotels displayed on a Google Map of Whistler BC along with key Whistler attractions. ",
+      "original_categories": [
+        "hotels",
+        "canadian",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ecotrunk",
+      "description": " Shopping essentials for home and the outdoors. Based on the shopping.com API. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cartoonize-my-pet",
+      "description": " Create cute cartoon pets and place them on all sorts of customizable apparel and gifts using the Zazzle API. ",
+      "original_categories": [
+        "pets",
+        "humor",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "notifythem",
+      "description": " Daycares and schools often need to send out notifications to parents quickly and efficiently about school opening delays, closures, weather conditions and other events. NotifyThem! provides an interface to send those notifications out to multiple parents at once. ",
+      "original_categories": [
+        "messaging",
+        "telephony",
+        "mobile",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gmap-friends",
+      "description": " Maps all your GMail contacts. Also, allows addition and deletion of contacts. Updating contacts coming soon. ",
+      "original_categories": [
+        "contacts",
+        "mapping",
+        "social",
+        "email"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "montreal-metro-interactive-map",
+      "description": " Displays all Montreal subway statons and lines. Markers are placed very accurate. Can display lines separately. ",
+      "original_categories": [
+        "transportation",
+        "mapping",
+        "canadian"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitter2email",
+      "description": " Filters tweets of a specified Twitter account and sends them by email to specified email addresses. ",
+      "original_categories": [
+        "social",
+        "email"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "skypicker",
+      "description": " Skypicker is a European low-cost airline ticker search engine that displays results on Google Maps. The tool has several search filters that make finding the right flight easy. ",
+      "original_categories": [
+        "mapping",
+        "travel",
+        "search",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "kiva-world-map",
+      "description": " This mashup plots the microfinance loans from Kiva lenders on a Google Map. Popups show details on the individual loans and borrowers. ",
+      "original_categories": [
+        "non-profit",
+        "banking",
+        "financial",
+        "financial",
+        "financial",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "parkr-0",
+      "description": " Parkr! is an amusement parks and theme parks database that allows users to rate and comment on parks all over the world. ",
+      "original_categories": [
+        "mapping",
+        "humor",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pisco-ecological-data-products-map",
+      "description": " This features the ecological datasets of the Partnership for Interdisciplinary Studies of Coastal Oceans. Users can pick an organism and see its distribution and abundance. Users can also view survey site metadata and species lists. ",
+      "original_categories": [
+        "science",
+        "mapping",
+        "environment"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "uproc",
+      "description": "uProc offers tools to enhance and enrich database fields. Organizations can benefit from improved internal data flows, better campaigns, classification, and cost reduction. uProc can validate emails, phones or add several fields to a database for better a segmentation. Also, uProc improves forms, and unifies databases. The uProc API supports JSON for responses.",
+      "original_categories": [
+        "data-as-a-service"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "last.fm-missing-album-finder",
+      "description": " Once upon a time, a musicologist was wondering if his music collection was complete. He began to research his last.fm's library to find lost albums. As time pasted by, he reckoned a better way was in order. This site followed shortly. ",
+      "original_categories": [
+        "music",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bing",
+      "description": "[The Bing API is now the <a href=https://www.programmableweb.com/api/bing-web-search>Bing Web Search</a> API. This profile is being maintained purely for historical and research purposes.]The Bing API provides an experience similar to Bing.com/search by returning search results that Bing determines are relevant to a user's query. The results include Web pages and may also include images, videos, and more. Free trial keys are available here: https://azure.microsoft.com/en-us/try/cognitive-services/?api=bing-web-search-api.",
+      "original_categories": [
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

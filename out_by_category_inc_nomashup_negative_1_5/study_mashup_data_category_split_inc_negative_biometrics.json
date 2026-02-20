@@ -1,0 +1,73 @@
+{
+  "category": "biometrics",
+  "count": 6,
+  "positive_count": 1,
+  "negative_count": 5,
+  "pos_neg_ratio": "1:5",
+  "items": [
+    {
+      "mashup": "bioid-web-services",
+      "description": "BioID Web Services (BWS) is a webcam based biometrics service for cloud, web, and mobile application developers. The service enables applications such as- Biometric authentication (face and voice, iris to follow) including liveness detection- Identification to check people against blacklists, for criminal background checks, etc.- Ticketless check-in for trade shows and other events, airline boarding, ships- Fraud prevention with liveness detection to verify the presence of a live user or to detect multiple registrations from the same person- Face or voice similarity search for celebrity matching, online dating, modeling or casting agencies- Photo quality checks to ensure good-quality (biometric) ID photos or mugshotsFunctionality exposed by the API includes verification (one-to-one) and identification (one-to-many) of face and voice, liveness detection, photo quality checking to international standards, finding, cropping and returning high-quality face images and more. The API uses REST and SOAP protocols and responses are formatted in XML.",
+      "original_categories": [
+        "biometrics"
+      ],
+      "used_apis": [
+        "bioid-web-services"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "page2images",
+      "description": "Page2Images is a website thumbnail creater optimized for mobile devices. Page2Images exposes its service through a REST API. The API allows websites and applications to generate thumbnails of a given URL. The API is able to specify image size, device, screen size, and more.",
+      "original_categories": [
+        "screenshots"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dbstract.com",
+      "description": " DBStract is a free web app and database builder. ",
+      "original_categories": [
+        "database",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "smiley-tweet",
+      "description": " Ranks words for happiness or sadness using the amount of twitts with happy or sad smileys for each one. ",
+      "original_categories": [
+        "humor",
+        "blogging",
+        "sentiment"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mtbguru.com",
+      "description": " MTBGuru.com is designed for bikers, hikers and runners to publish, share and visualize GPS data, along with photos and commentary, creating an ever-expanding free trail resource and community of GPS users. ",
+      "original_categories": [
+        "sports",
+        "mapping",
+        "photos",
+        "mapping",
+        "cycling",
+        "recreation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ecotrunk",
+      "description": " Shopping essentials for home and the outdoors. Based on the shopping.com API. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

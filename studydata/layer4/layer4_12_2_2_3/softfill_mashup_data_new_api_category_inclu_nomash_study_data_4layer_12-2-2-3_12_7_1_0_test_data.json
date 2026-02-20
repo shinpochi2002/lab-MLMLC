@@ -1,0 +1,322 @@
+[
+    {
+        "name": "jolokia",
+        "categories": [
+            "monitoring"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "JMX is a standard management solution that supports the W3C specification for Cross-Origin Resource Sharing and allows browsers to access resources that are located on a different server than the calling script is loaded from. Jolokia is a JMX-HTTP bridge that provides an alternative to JSR-160 connectors. It enhances JMX remote with features such as, bulk requests and fine grained security policies.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "super-monitoring",
+        "categories": [
+            "monitoring"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Super Monitoring API allows developers to retrieve their monitoring data for use in external applications. Users can retrieve a summary of total downtime, including the number of outages for a specified time range, or a detailed list of failures. Super Monitoring tests websites every minute, 24 hours a day, 7 days a week.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "strongdm",
+        "categories": [
+            "monitoring"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The strongDM API offers remote access resources such as role grants, accounts, gateways, and relays. The API features gRPC-based architecture and API Key authentication. strongDM enables developers to audit and manage remote access to databases, servers, and clusters. strongDM simplifies on-boarding, off-boarding, and evidence collection for technical teams.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "copperegg-cloud",
+        "categories": [
+            "monitoring"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "Copperegg builds services to visualize cloud infrastructure performance.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "sensu-results",
+        "categories": [
+            "monitoring"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Sensu Results API allows developers to access and publish check result data. Check results are JSON documents produced upon completion of a check execution. They include the check definition attributes, the name of the client the result was submitted from, and the check's output.Sensu is a company that helps businesses automate workflow monitoring and gain insight into their infrastructure, applications, and operations.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "muninmx",
+        "categories": [
+            "monitoring"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "MuninMX is a service for monitoring CPU usage, processes, load, memory, and more. It can scale to thousands of nodes without suffering IO or CPU problems, and it queries those nodes on a timescale measured in seconds rather than minutes. MuninMX also comes with custom plugins, alert notifications, and user permissions management capabilities.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "cicero",
+        "categories": [
+            "politics"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Cicero API matches addresses, zip codes, or coordinates to legislative districts and elected official contact information. Cicero easily integrates into an organization's existing web application or data management software. Local, state, and national data is available for the United States, Australia, Canada, New Zealand, the United Kingdom, Northern Ireland, Scotland, Wales, and Mexico.In addition to geocoding addresses and matching them to the correct legislative districts, Cicero returns maps of each district and detailed information about each elected official including office addresses, emails, and social media identifiers. Cicero also provides non-legislative district matching for census data, counties, school districts, watersheds, and police districts.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "lamplighter-customer",
+        "categories": [
+            "monitoring"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Lamplighter Customer REST API allows developers to access and integrate the functionality of Lamplighter with other applications. Some example API methods include managing user accounts, managing sites to be monitored, and retrieving monitoring reports. Lamplighter provides website monitoring services, providing monitoring information about multiple sites in one place.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "are-my-sites",
+        "categories": [
+            "monitoring"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Are My Sites Up? API allows users to integrate with AMSU's services, allowing them to monitor the status of their websites.The API follows REST principles as closely as possible, with each resource (User, Site, Client) having its own URL and being accessed or changed in isolation. Users can also create and update their resources via sending XML to AMSU.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "what-does-trump-think",
+        "categories": [
+            "politics"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "This endpoint gets you all generic Donald Trump quotes. Various other endpoints gets a personalized Donald Trump quote or a random quote.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "pemilu-berita",
+        "categories": [
+            "politics"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Pemilu Berita API provides a curated news feed for the 2014 Indonesian elections. Users can retrieve a list of recent posts, posts matching a given search term, posts with a given tag, or a single post. The Berita API is part of API Pemilu, a collection of APIs that provide Indonesia's approximately 187 million voters with important election information.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "propublica-campaign-finance",
+        "categories": [
+            "politics"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The ProPublica Campaign Finance API allows developers to retrieve data from United States Federal Election Commission filings and other sources. This data includes summary information for candidates and committees and some kinds of itemized data. The ProPublica Campaign Finance database is updated daily, with electronic filings being updated every 15 minutes.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "servermojo",
+        "categories": [
+            "monitoring"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "ServerMojo is a remote server monitoring service. The ServerMojo RESTful API allows users to build full monitoring applications or fully integrate ServerMojo monitoring within their site or systems. Users can create, edit and delete sub-accounts and monitors, get monitor stats and charts, set monitor status (enable/disable), and more. Responses are formatted in XML.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "signalfx",
+        "categories": [
+            "monitoring"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The SignalFx API allows developers to submit data points, extract raw data, execute analytics jobs, and more. Users can send all of their metrics and events to SignalFx for processing, storage, and analysis. Data can be sent at any scale and at frequencies up to every second. The API allows developers to perform the same tasks as they could through the SignalFx web interface, and then some.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "monasca",
+        "categories": [
+            "monitoring"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Monasca API allows developers to integrate monitoring as a service into their own systems and applications. It includes methods for storing and querying metrics and historical information. Monasca can process hundreds of thousands of metrics per second with data retention periods of greater than a year without data loss.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "ballotpedia",
+        "categories": [
+            "politics"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Ballotpedia API retrieves candidate information including names, party affiliations, incumbency status, biographical information, contact information, campaign websites, district boundary maps, and election dates. Interested developers can send an email to <a href=data@ballotpedia.org>data@ballotpedia.org</a> for details and pricing. Visit the sample ballot lookup at <a href=https://ballotpedia.org/Sample_Ballot_Lookup>https://ballotpedia.org/Sample_Ballot_Lookup</a>",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "spinproxies",
+        "categories": [
+            "monitoring"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "SpinProxies curates a collection of reliable and fast public HTTP, HTTPS and SOCKS proxies. Each proxy is tested every 2 minute to ensure its availability. The SpinProxies RESTful API allows developers to get these proxies in JSON/TXT format using several filters including country specific searches.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "sensu-health-info",
+        "categories": [
+            "monitoring"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The Sensu Health &amp; Info API is divided into Health and Info endpoints. The Health endpoint enables developers to test or verify the health of the API’s connections to the Sensu data store and transport. The Info endpoint provides access to information about the status of the Sensu installation. This includes the API version, Sensu settings hexdigest, data store and transport connectivity, and the running Sensu servers.Sensu is a company that helps businesses automate workflow monitoring and gain insight into their infrastructure, applications, and operations.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "zabbix",
+        "categories": [
+            "monitoring"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "Zabbix is a software monitoring system designed for enterprise IT infrastructure components. It features configuration and performance data storage, rich visualization capabilities, and data organization via built-in housekeeping procedures. The Zabbix API is used to automate routine tasks. This API is REST based, uses JSON for data exchange, and Tokens for authentication. Zabbix is based in Latvia, with subsidiary offices in Tokyo and New York.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    },
+    {
+        "name": "speedcurve",
+        "categories": [
+            "monitoring"
+        ],
+        "bigcategories": [
+            "7"
+        ],
+        "description": "The SpeedCurve REST API allows developers to access and integrate the functionality of SpeedCurve with other applications. Some example API methods include managing tests of URLs, retrieving errors, and retrieving monitoring reports. SpeedCurve is a platform for monitoring website front-end performance and gathering user feedback.",
+        "middlecategories": [
+            "7-1"
+        ],
+        "layer3categories": [
+            "7-1-0"
+        ]
+    }
+]

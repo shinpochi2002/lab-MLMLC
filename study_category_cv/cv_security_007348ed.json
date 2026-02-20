@@ -1,0 +1,26 @@
+{
+  "category": "security",
+  "uid": "007348ed",
+  "n_samples": 10,
+  "n_labels": 7,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 4.638358926773071,
+      "std_val_loss": 1.7591296531404441,
+      "mean_micro_f1": 0.2871428571428572
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 7.114737725257873,
+      "std_val_loss": 3.1939128912642163,
+      "mean_micro_f1": 0.1808080808080808
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 4.638358926773071,
+    "std_val_loss": 1.7591296531404441,
+    "mean_micro_f1": 0.2871428571428572
+  }
+}

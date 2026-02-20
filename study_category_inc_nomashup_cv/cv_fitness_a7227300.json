@@ -1,0 +1,26 @@
+{
+  "category": "fitness",
+  "uid": "a7227300",
+  "n_samples": 15,
+  "n_labels": 2,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 4.239608464576304,
+      "std_val_loss": 8.30215692898004,
+      "mean_micro_f1": 0.37142857142857144
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 6.227883283328265,
+      "std_val_loss": 12.304877413450413,
+      "mean_micro_f1": 0.3514285714285714
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 4.239608464576304,
+    "std_val_loss": 8.30215692898004,
+    "mean_micro_f1": 0.37142857142857144
+  }
+}

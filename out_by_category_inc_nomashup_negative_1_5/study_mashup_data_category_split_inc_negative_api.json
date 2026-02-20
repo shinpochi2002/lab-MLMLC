@@ -1,0 +1,474 @@
+{
+  "category": "api",
+  "count": 42,
+  "positive_count": 7,
+  "negative_count": 35,
+  "pos_neg_ratio": "1:5",
+  "items": [
+    {
+      "mashup": "bilkadk",
+      "description": " Bilka.dk serves jobs, in-store events and location information on their stores. Bilka is a Danish chain of hypermarkets. ",
+      "original_categories": [
+        "ecommerce",
+        "events",
+        "jobs",
+        "location",
+        "marketing",
+        "marketplace"
+      ],
+      "used_apis": [
+        "dansk-supermarked"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "f%c3%b8tex-app",
+      "description": " The føtex mobile app provides a convenient shopping list with current offers matching along with your information and store locations. føtex is a Danish chain of supermarkets. The app offers: - Fast and smart shopping list with bidding match (Purchase list) where the goods are automatically sorted by the layout of your local føtex so it's easy to shop. - Share your shopping list - send your shopping list to your friends, family or other devices. - The ability to see information about your local føtex (My føtex) - See all the offers in a clear way and easily add items to your shopping list. - Check the prices using the scanner in the app to scan an item's barcode and get the price. - the ability to get your shopping list on your Apple Watch ",
+      "original_categories": [
+        "grocery",
+        "coupons",
+        "discounts",
+        "food",
+        "location"
+      ],
+      "used_apis": [
+        "dansk-supermarked"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "bilka-app",
+      "description": " The Bilka mobile app serves offers, locations, events and provides a top-notch shopping list for the Danish customers. Bilka is a Danish chain of hypermarkets. ",
+      "original_categories": [
+        "grocery",
+        "discounts",
+        "food",
+        "location",
+        "mobile"
+      ],
+      "used_apis": [
+        "dansk-supermarked"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "netto-mobile-app",
+      "description": " Netto is a Danish discount supermarket operating in Denmark, Germany, Poland, and Sweden. This mobile app utilizes several Dansk Supermarked APIs. The app contains: - Offers from the Net newspaper (Net newspaper) - Price Check - Use the scanner in the app to scan an item's barcode and get the price in your local Net. - Quick shopping list with bidding match (Purchase list) - The network app usually suggests purchased items and recalls what you buy. It also shows you when your items are on offer in the offer. - Sharing of your shopping list with family or friends, if you have written your shopping list on your tablet, you can also send the shopping list to your phone. - The ability to put your shopping list on your Apple Watch - Find stores and hours (Find Net). ",
+      "original_categories": [
+        "grocery",
+        "discounts",
+        "food",
+        "location",
+        "mobile"
+      ],
+      "used_apis": [
+        "dansk-supermarked"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "distant.ly",
+      "description": " Distant.ly is a web application that uses the Traitify API to accept user feedback to generate a personality profile. This is done by selecting Me or Not Me when presented with multiple images, helping to paint a picture of the user. The web app then uses this information to make suggestions for travel destinations and activities. Currently still under development, Distant.ly is created and supported by web developer Tom Rutka. ",
+      "original_categories": [
+        "travel",
+        "predictions"
+      ],
+      "used_apis": [
+        "traitify"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "dansk-supermarked",
+      "description": "The Salling Group API, a Danish Retailer in Denmark, Sweden, Poland and Germany provides a Web API that serves geocoded store information incl. opening hours for Netto, Bilka and føtex retail stores. The API also provides information for in-store events, job postings and a convenient holidays API for getting Danish holidays dates.",
+      "original_categories": [
+        "api"
+      ],
+      "used_apis": [
+        "dansk-supermarked"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "traitify",
+      "description": "Traitify measures personality through a sequence of visual assessments. The API could be useful to understand users’ behavior, predict data and recognize pattern preferences. Developers in the field of user experience can benefit from this API that aims to offer a better understanding about the diverse qualities that make a person human, such as conversational, creative, empowered, competitive, caring, easy-going and outgoing skills. This personal information service API is about personality assessment. It can be accessed using Javascript or REST and returns values in JSON protocol. The API requires a key. In the site, developers can find code samples in Curl, Ruby, NodeJS, .NET, Java, Phyton and PHP to explore the categories of find assessment, get slides, slide response, personality types, and personality traits.",
+      "original_categories": [
+        "api"
+      ],
+      "used_apis": [
+        "traitify"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "gmapwiki.com",
+      "description": " GmapWiki is A MapWiki System On Google Maps and a library of interesting satellite-photographed places for google earth. ",
+      "original_categories": [
+        "wiki",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "communitywalk",
+      "description": " Create your own Google Maps with photos, comments, directions. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "overplot",
+      "description": " Good mashup that plots fun and entertaining quotes from Overheard in New York on a Google Map. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "austin-search-local-businesses",
+      "description": " A map search for local businesses in Austin. Submit businesses and make comments. ",
+      "original_categories": [
+        "search",
+        "travel",
+        "business",
+        "localization",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "whistler-hotels-map",
+      "description": " Popular Whistler hotels displayed on a Google Map of Whistler BC along with key Whistler attractions. ",
+      "original_categories": [
+        "hotels",
+        "canadian",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "autochat-whatsapp-business-api-sandbox",
+      "description": " The Autochat Whatsapp API Sandbox allows you to integrate the Whatsapp API with your business for free. With the Whatsapp API Sandbox, you can take advantage of most of the functionalities of the Whatsapp API platform and build, develop and test your integration without waiting for account approval. No complex setup, waiting for approval, or need to test your integration in a live environment. Just register and your Whatsapp API Sandbox is ready to use. ",
+      "original_categories": [
+        "testing",
+        "api",
+        "bots",
+        "chat",
+        "developers",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "triphub",
+      "description": " A collaborative way to plan, coordinate, and share gatherings that involve travel. ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "social",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "myrtle-beach-golf-holiday",
+      "description": " Golf course and hotel locator for Myrtle Beach. Good coverage of the area. Warning: loads slowly. ",
+      "original_categories": [
+        "mapping",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "boxbridge-joomla",
+      "description": " This Joomla extension allows users to display and share Box files from within the Joomla CMS. ",
+      "original_categories": [
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "docusign-aplifi",
+      "description": " Aplifi is a technology and service provider for the life and annuity industry. Aplifi integrates DocuSign into their applications to enable their customers to electronically sign documents. ",
+      "original_categories": [
+        "transactions"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "carbon-emissions-commute",
+      "description": " Find out estimated carbon emissions and fuel costs based on the driving directions you provide. Enter your daily commute or any other trip. View various ideas about how to reduce your emissions. ",
+      "original_categories": [
+        "travel",
+        "transportation",
+        "environment",
+        "mapping",
+        "sustainability",
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mymapcards",
+      "description": " Application and map for business card sharing. ",
+      "original_categories": [
+        "mapping",
+        "business"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickr-screensaver-winxp",
+      "description": " Flickr screensaver for Windows XP ",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "one-stop-cottage",
+      "description": " One Stop Cottage, the Holiday Cottage Search Engine, is a very fast way to find your UK holiday cottage. It quickly searches over 40,000 cottages from 35 companies. ",
+      "original_categories": [
+        "travel",
+        "england",
+        "holidays"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "checker-forum.de",
+      "description": " Small community that uses the Youtube API to show off and comment on videos in users profiles. ",
+      "original_categories": [
+        "video",
+        "social",
+        "german"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "storeslider-deutschland",
+      "description": " Now for German users. Uses Ebay API (more on the way) to offer instant searching of the Ebay Marketplace. ",
+      "original_categories": [
+        "ecommerce",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "malva-weather",
+      "description": " MicroForecast for MicroBlogging! Powered by GoogleAPI Enter a place. The App will read weather forecasts from Google API, then posts them on @MalvaWeather twitter profile. ",
+      "original_categories": [
+        "weather",
+        "blogging",
+        "weather"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "hotukdeals",
+      "description": "HotUKDeals offers a community where users can share deals, vouchers, and coupons. Concerning the API, from the website: With the introduction of the new HotUKDeals API, we are hoping to allow members of the community to help us further develop tools for the community. The hope is that we can encourage people to make new, and interesting ways of accessing HUKD data. An ever increasing number of ways are appearing for people to interact with information, social networking applications, smartphone applications, desktop widgets, blog widgets, and much more. The deals and information on HUKD are created and maintained by the community for the benefit of the community, and we are hoping that this will allow members to help the community grow and benefit from these new ways of accessing information.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "docusign-ink-outlook",
+      "description": " Sign virtually any email attachment with DocuSign Ink. The DocuSign Ink Outlook plugin installs indirectly into the Outlook Home tab enabling you to instantly sign and return documents directly from your Outlook email. ",
+      "original_categories": [
+        "printing"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "discourse-analytics",
+      "description": " Discourse Analytics is an online social marketing platform that utilizes surveys, content consumption, social media, and conversations to communicate with and listen to their clients' audience. With Discourse Analytics, companies have the tools to potentially further engage with their customers and their conversations. ",
+      "original_categories": [
+        "analytics",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tarpipe",
+      "description": " Tarpipe is a social media platform that automates the process of discovering and distributing information on multiple web applications, using a visual, workflow oriented interface. ",
+      "original_categories": [
+        "search",
+        "blogging",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sportmeets",
+      "description": " Sportmeets connects online users who love sports so that they can meet, organize their teams and events and compete offline. ",
+      "original_categories": [
+        "sports",
+        "social",
+        "payments",
+        "events",
+        "organization"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tag-fight",
+      "description": " Created for Photo Hack Day 2011, Tag Fight! participants send texts to fight over what type of photos to display full-screen. ",
+      "original_categories": [
+        "social",
+        "humor",
+        "photos",
+        "messaging",
+        "mobile",
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-maps-geolocation",
+      "description": "The Google Maps Geolocation API provides developers with tools and documentation for incorporating geolocation with mobile and WiFi technologies. The Geolocation API specifically returns a location and accuracy radius based on the information of cell towers and WiFi nodes that can then be detected by the mobile client.",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "howdy",
+      "description": " Lets you use any phone to catch up on the most popular topics on Twitter, even when you can't get online. Without signing up, you can call Howdy to hear the top 10 current trends, with an explanation of each. ",
+      "original_categories": [
+        "search",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "view-satellite-imagery-full-browser-window",
+      "description": " View satellite imagery at full screen, dynamic update to the URL for every move of the view. Bookmark current view and come back later, or shows your friends for a particular location. Lets you populate articles and photos to current view. ",
+      "original_categories": [
+        "mapping",
+        "travel",
+        "satellites",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mattermeter",
+      "description": " A service where you can share opinions about products, services and people. Tell others what brands matter and don't matter to you. Then see how other people have matterized those same brands. ",
+      "original_categories": [
+        "social",
+        "blogging",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cogteeth.com",
+      "description": " Create personalized T-Shirts with your own coded messages. ",
+      "original_categories": [
+        "ecommerce",
+        "customization"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "last.fm-top-tracks-chart-generator",
+      "description": " Shows user's top tracks and it's correlation with this tracks total listening count. User can watch youtube video for any track on chart. ",
+      "original_categories": [
+        "video",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "decorstuff",
+      "description": " Home appliances and garden decor stuff products that recommended by Amazon. The Product always up to dated every minutes so no junk products found. Use Amazon API with remote shopping cart like own shop. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "scribd-platform",
+      "description": "From their site: A REST-based API with methods for uploading, converting, editing, deleting, and searching documents. Using the API, you can use Scribd as a back-end for an application that needs to process documents, without needing to write a document processing system yourself. Use the Scribd API to harness the full power of Scribd's scalable conversion system, storage system, ad network, search engine, and iPaper viewer on your website. The Scribd API is the most powerful and customizable way to upload documents to Scribd, convert documents to iPaper, manage existing documents on your website, and find the content you need.",
+      "original_categories": [
+        "office"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "my-wikia",
+      "description": " My Wikia is a mobile application for Wikia, a resource for pop culture topics such as movies, video games, TV shows, and more. My Wikia is designed for iPad. ",
+      "original_categories": [
+        "wiki"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "caribbean-resorts-mashup",
+      "description": " WordPress meets google maps and panoramio photos to create a new way of discovering all inclusive resorts in the Caribbean and Mexico. Caribbean Resorts Mashup - a free informational resource of all inclusive resorts from Mexico, Cuba and Dominican Republic. It brings in one place, the resorts details, quick access to reviews, aerial views maps, Panoramio photos and YouTube videos. ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "what-are-you-doing-japan",
+      "description": " Share what are you doing now in Japan. Use the map to add a new comment or respond to someone else's comment. ",
+      "original_categories": [
+        "social",
+        "mapping",
+        "japanese"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "equation-editor",
+      "description": " Realtime interactive LaTeX equation editor in a widget format. ",
+      "original_categories": [
+        "math",
+        "reference",
+        "widgets"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

@@ -1,0 +1,248 @@
+{
+  "category": "movies",
+  "count": 22,
+  "positive_count": 2,
+  "negative_count": 20,
+  "pos_neg_ratio": "1:10",
+  "items": [
+    {
+      "mashup": "new-york-times-movie-tweets",
+      "description": " Tweets about the latest featured New York Times movie reviews. ",
+      "original_categories": [
+        "search",
+        "social",
+        "movies"
+      ],
+      "used_apis": [
+        "new-york-times-movie-reviews"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "new-york-times-movie-reviews",
+      "description": "The New York Times Movie Review API gives users access to movie reviews by the New York Times critics. The API gives access to over 22,000 New York Times movie reviews from today back to 1924. Using the Movie Reviews API you can query reviews and get data such as byline, critics pick, date updated, mpaa rating, title, headline, opening date, article link and multimedia. Users can search movie reviews by keywords or critic.",
+      "original_categories": [
+        "movies"
+      ],
+      "used_apis": [
+        "new-york-times-movie-reviews"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "freeflowtv",
+      "description": " Parkour and freerunning related videos and their metadata are pulled from video sites, spam filtered, stored in a database, tweeted and categorized on Freeflow TV. The videos appear on the website instantly via Pusher. It is also possible to search the database. ",
+      "original_categories": [
+        "sports",
+        "video",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "efax-and-box.net",
+      "description": " This mashup allows Box.net users to send faxes of documents stored in their Box accounts using eFax. ",
+      "original_categories": [
+        "fax",
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "all-information-network",
+      "description": " Mashup to get nformation about your local events. Uses Eventful and Google Maps. ",
+      "original_categories": [
+        "events",
+        "localization",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geowake",
+      "description": " Navigate the high seas with the Geowake and this Google Maps mashup. Displays accurate NOAA nautical markers and charts covering the entire US. Over 100k navigation aids and 2,100+ nautical charts. ",
+      "original_categories": [
+        "boating",
+        "mapping",
+        "marine",
+        "weather",
+        "marine"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tuneglue",
+      "description": " Slick interactive visualization of the relationship between music artists using the Last.fm and Amazon.com.uk APIs. NOTE: As of Oct 2008, this site appears to have stopped operation. ",
+      "original_categories": [
+        "ecommerce",
+        "music",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "photo-feed-slideshow-wigdet",
+      "description": " The gadget lets the users turn their RSS album of latest albums, all albums and others into an always updated photo slideshow. They can paste the code into their other web presence like their blog, or any social website they have. ",
+      "original_categories": [
+        "photos",
+        "widgets",
+        "feeds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "springloops-0",
+      "description": " Rapid coding and collaboration tool that also integrates directly with the Basecamp task management service. ",
+      "original_categories": [
+        "enterprise",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "voice-comments-box.net",
+      "description": " Mashup of Box.net and Twilio to record voice comments on your files stored on Box.net. The voice comment will be transcribed and added as a comment on Box.net. This is only a working demo at this point. ",
+      "original_categories": [
+        "voice",
+        "messaging",
+        "mobile",
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gothamist-labs-maps",
+      "description": " Gothamist Maps are a great way to see what is going on and where right now in NYC. ",
+      "original_categories": [
+        "mapping",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tripfelt",
+      "description": " TripFELT.com collects reviews and ratings on tourist destinations, activities, adventures, restaurants, and more from thousands of locations across the globe, and presents them to travelers in an appealing and intuitive way. The site is also filterable by type of activity, such as Food, Drinks, Coffee, Shops, Arts, Outdoors, Hotels, etc. The mashups consumes Google Maps, Youtube, Facebook, foursquare and additional APIs. ",
+      "original_categories": [
+        "travel",
+        "ratings"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "resumedroppr",
+      "description": " A demo site built to show the ease of implementing BeenVerified with IPaper. IPaper was used to display resumes, and the BeenVerified API was used to demo the OAuth process of displaying verified user data. ",
+      "original_categories": [
+        "jobs",
+        "oauth"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "civicvis",
+      "description": " Prototype of the technology to create a set of visualization widgets that make use of eGovPDX's City Council Connect API. Will be developing further to create a vote count widgets for desktop and blog. ",
+      "original_categories": [
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gpsies.com",
+      "description": " At GPSies.com, you can view and download tracks that have been recorded by a GPS device. Search for running, hiking, and biking routes. You can download all of the tracks. ",
+      "original_categories": [
+        "sports",
+        "mapping",
+        "mapping",
+        "sports",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ncbi-entrez",
+      "description": "The NCBI Entrez Utilities Web Service enables developers to access Entrez Utilities via the Simple Object Access Protocol (SOAP). The Entrez database contains bioinformatics data.",
+      "original_categories": [
+        "medical"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "scribble-maps",
+      "description": " The quick and easy way to make Google Maps. There is also a pro version with more functionality. ",
+      "original_categories": [
+        "drawing",
+        "widgets",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "textaurant",
+      "description": " Textaurant allows restaurant customers to wait online, not in line. Patrons can see wait times from any computer or mobile smartphone and can join the queue from anywhere. Restaurant hosts use a web-based waiting list that allows them to contact patrons via text or voice message when their table is almost ready. ",
+      "original_categories": [
+        "mobile",
+        "telephony",
+        "messaging",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "avatar-photo",
+      "description": " Demo service from Pho.to for creating animated gif avatars or static avatars for free. You can adopt the same functionality on your site using the pho.to API. ",
+      "original_categories": [
+        "avatars",
+        "photos",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "make-me-change-my-job",
+      "description": " Job Search Website for passive job seekers. This service lets you list your ideal job and have recruiters do all the work for you. ",
+      "original_categories": [
+        "jobs",
+        "search",
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ytplaylist.com",
+      "description": " The purpose of this site is to help users instantly search for Youtube videos and instantly create playlists. You can also share your custom playlists easily with your friends on Facebook or Twitter as well as embed your playlists on your own websites or blogs. Lastly, you can save your playlists for future use all without the need of registration or login. -Easily create, embed and share YouTube playlists. -No sign up needed. -Embed the playlist on your blog easily. ",
+      "original_categories": [
+        "search",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nyc-wine-shops",
+      "description": " Map of wine shops in New York City. With brief summaries and links to their web sites. ",
+      "original_categories": [
+        "mapping",
+        "wine"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

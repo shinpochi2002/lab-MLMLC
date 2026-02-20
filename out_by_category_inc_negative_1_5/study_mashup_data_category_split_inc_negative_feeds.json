@@ -1,0 +1,812 @@
+{
+  "category": "feeds",
+  "count": 72,
+  "positive_count": 12,
+  "negative_count": 60,
+  "pos_neg_ratio": "1:5",
+  "items": [
+    {
+      "mashup": "refinansierenet",
+      "description": " Refinansiere.net is a Norwegian portal which compares rates and terms on various refinancing offers. That includes annual percentage rates, downpayment times and various miscellaneous costs charged by each lender. Numbers are fetched through the API of Finansportalen, a portal run by the Norwegian government through which bank and finance institutions upload their data. Refinansiere.net seeks to help consumers make the right financial choice, based on their individual financial situation. ",
+      "original_categories": [
+        "financial",
+        "banking"
+      ],
+      "used_apis": [
+        "finansportalen"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "vg-sammenlign",
+      "description": " VG Sammenlign allows you to compare fees, interest, and costs of 26 consumer loans in Norway. VG.no is Norway's largest newspaper and most visited website. ",
+      "original_categories": [
+        "comparisons",
+        "financial"
+      ],
+      "used_apis": [
+        "finansportalen"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "forbruksl%C3%A5nno",
+      "description": " Forbrukslån.no offers a comprehensive database of Norwegian loan offers. Most of the data pertain to non-collateralized loans, albeit with a few exceptions. Examples of available information include key APR's, downpayment times and various rules attached to each credit offer. The website has an integrated loan calculator which allows visitors to manually adjust the loan amount and downpayment time. API data is fetched from various banks' repositories as well as the public financial portal Finansportalen.no ",
+      "original_categories": [
+        "financial",
+        "banking",
+        "comparisons",
+        "referrals"
+      ],
+      "used_apis": [
+        "finansportalen"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "billigeforbruksl%C3%A5nno",
+      "description": " Billigeforbrukslån.no is a Norwegian consumer portal that allows for the direct comparison between various lending and credit offers. Relevant data is collected through the public API-provider Finansportalen and the lenders' databases. ",
+      "original_categories": [
+        "comparisons",
+        "banking",
+        "financial",
+        "ratings"
+      ],
+      "used_apis": [
+        "finansportalen"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "kredittkort-sidenno",
+      "description": " Kredittkort-Siden.no is a Norwegian credit card aggregator. The data is based on feeds from the official Finansportalen, a government service. Users can then compare all credit cards available in Norway. You can easily filter on benefits, and you can also compare cards against each other. The goal is to make it easier for you to choose the right credit card based on your needs. ",
+      "original_categories": [
+        "aggregation",
+        "comparisons",
+        "financial"
+      ],
+      "used_apis": [
+        "finansportalen"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "bedre-best-mortgage-comparison",
+      "description": " Customers can compare mortgage rates in the Norwegian market. Calculate interest rates, monthly payments and payments period. ",
+      "original_categories": [
+        "financial"
+      ],
+      "used_apis": [
+        "finansportalen"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "pengerio",
+      "description": " Penger.io is a web portal where the user can compare credit cards and loans from the Norwegian market. The site is pulling data from Finansportalen's API, which is then mashed together to create: Aggregated comparison pages for different types of loans and credit cards. Individual loan/credit card listing pages with all the available information on a specific product. Business information such as legal name, contact phone, website and address for the banks ",
+      "original_categories": [
+        "financial",
+        "aggregation",
+        "banking",
+        "comparisons"
+      ],
+      "used_apis": [
+        "finansportalen"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "castroller",
+      "description": " A way to find the Best Audio and Video on the web. ",
+      "original_categories": [
+        "video",
+        "search",
+        "music",
+        "social"
+      ],
+      "used_apis": [
+        "superfeedr"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "newsgator-online",
+      "description": " NewsGator online is a web-based newsreader that you can personalize to bring your interests to you as well as find new ones. Integrates the aideRSS API. ",
+      "original_categories": [
+        "feeds"
+      ],
+      "used_apis": [
+        "aiderss"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "postrank-google-reader-extension",
+      "description": " Use this PostRank Google Reader extension to bring PostRank filtering into Google Reader. View rankings for each feed and custom tweak your settings. ",
+      "original_categories": [
+        "blogging",
+        "feeds"
+      ],
+      "used_apis": [
+        "aiderss"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "trawlr",
+      "description": " Web-based RSS aggregator with PostRank from aideRSS built in. Manage existing feeds, lifestream, or use it as a discovery engine with other users. ",
+      "original_categories": [
+        "blogging",
+        "feeds"
+      ],
+      "used_apis": [
+        "aiderss"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "bloglines-notifier",
+      "description": " A Google Gadget to notify you of the count of unread items in your Bloglines account. ",
+      "original_categories": [
+        "blogging",
+        "widgets",
+        "feeds"
+      ],
+      "used_apis": [
+        "bloglines"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "twitwinner",
+      "description": " Enter your words. The most popular in Twitter will win. Twitwinner compares your words based on live data and shows the results in a visual way. ",
+      "original_categories": [
+        "search",
+        "messaging",
+        "seo",
+        "social",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cloud-player",
+      "description": " An iTunes-clone for the browser. Built on the SoundCloud API, jQuery and Google App Engine. ",
+      "original_categories": [
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitter-voice",
+      "description": " Join the Twitter Voice website, sync your twitter account and you will be given a telephone number to call. Call the telephone number,record your voice and your followers will be notified of your new audio tweet. Only works in India for now. ",
+      "original_categories": [
+        "humor",
+        "messaging",
+        "social",
+        "telephony",
+        "voice"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "park-reviews",
+      "description": " Park reviews for national and state parks. Includes option to mark favorite places to share with others. ",
+      "original_categories": [
+        "recreation",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "search-holiday-flats-germany",
+      "description": " Mapping based search to find German holiday rentals. Compare to find by location, like nearest one to the beach. ",
+      "original_categories": [
+        "german",
+        "mapping",
+        "travel",
+        "rentals",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "country-search",
+      "description": " Search engine for targeting information about a country. Uses the Google Page Creator and other APIs. ",
+      "original_categories": [
+        "search",
+        "reference",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "social-mirror",
+      "description": " Social Mirror monitors popular [English language] Twitter accounts, Facebook pages, and YouTube channels and offers basic visualizations of the posting activities of the observed social media accounts and their follower engagement. ",
+      "original_categories": [
+        "social",
+        "monitoring"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "politickerusa",
+      "description": " Uses the Twitter API to download and analyze US Polticians' twitter data. Uses jQuery libraries to create on-demand word clouds for parties and politicians. ",
+      "original_categories": [
+        "government",
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "darwin-bus-map",
+      "description": " Displays different bus routes and timetables in Darwin, Australia. View all bus stops, either in real time or by using the timeline, the latest real-time traffic information and the StreetView of each bus stop. ",
+      "original_categories": [
+        "australian",
+        "transportation",
+        "mapping",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "frugalmate",
+      "description": " A coupon deal website. ",
+      "original_categories": [
+        "discounts",
+        "ecommerce",
+        "coupons"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gps-tour",
+      "description": " Upload and share your GPS-Tracks. Over 13000 tracks for Mountain biking, Hiking, Biking, Climbing and others. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "sports",
+        "cycling",
+        "recreation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fb-time-machine",
+      "description": " Time travel through Facebook with FB Time Machine. This mashup uses Facebook, Facebook Graph and the Google App Engine and lets you view all of your friends' status updates and posted links (ever). Results are displayed on one page. ",
+      "original_categories": [
+        "social",
+        "reference",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitmart",
+      "description": " Twitmart is a free classifieds marketplace using Twitter. ",
+      "original_categories": [
+        "messaging",
+        "classifieds",
+        "ecommerce",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "seegest",
+      "description": " A site that aims to make it easier to decide what movies you can watch with your friends. ",
+      "original_categories": [
+        "movies",
+        "ecommerce",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tube-clip",
+      "description": " Tube Clip is a service based on You Tube mixing audio and video tracks from different You Tube movies. It generates automatically video clips with the song you choose. ",
+      "original_categories": [
+        "video",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "noterize-and-box.net",
+      "description": " Noterize is a note-taking app for the iPad that allows you to view and annotate PDFs and PowerPoint presentations. Its integration with Box.net enables you to save annotated documents to Box from within the Noterize environment. ",
+      "original_categories": [
+        "pdf"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "starexplorer",
+      "description": " Desktop application for managing photos on the Smugmug service. ",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "glancely",
+      "description": " Glancely lets you search Etsy at a glance. Start typing and your search results appear instantly below. Hover over an image to get a closer look. Click to see the item on Etsy and buy it. Looking for something in a particular color? Just click one of the color icons to filter by that color. You can sort by price also. ",
+      "original_categories": [
+        "ecommerce",
+        "search",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bookr",
+      "description": " Bookr is a tool to create photobooks using Flickr images. Photobooks may be e-mailed or embedded in blogs. ",
+      "original_categories": [
+        "photos",
+        "books",
+        "email"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "drunkest-cities-america",
+      "description": " See the Forbes Magazine list of the Drunkest Cities in America mapped. ",
+      "original_categories": [
+        "mapping",
+        "food",
+        "bars"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "walk-highlands-scotland",
+      "description": " Free walking route descriptions with OS Landranger mapping for each walk through Multimap API. Click on View next to buy map on any route to see the Multimap API page. ",
+      "original_categories": [
+        "mapping",
+        "fitness",
+        "scottish",
+        "recreation",
+        "england"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "guidetourin",
+      "description": " India is a large country with many tourist destinations, a wonderful opportunity for tourism. Website : https://guidetour.in/ compbines tours from different companies. ",
+      "original_categories": [
+        "travel",
+        "tourism"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "trulia",
+      "description": " Search real estate listings at Trulia and see them plotted on Google Maps. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "instame",
+      "description": " InstaMe is a simple way to see pictures posted on Instagram. Allows everyone to enjoy the Instagram experience, not just iPhone users. ",
+      "original_categories": [
+        "photos",
+        "social",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "enterprise-rideshare-docusign",
+      "description": " Enterprise Rideshare specializes in providing customized vanpool programs and commuter services for individuals and companies across the country. Enterprise Rideshare, a Division of Enterprise Rent-A-Car, was founded in 1994 and has become a national leader in servicing both individual vanpool groups and large employer work sites. The enterpriserideshare.com is a online platform for the Rideshare program. enterpriserideshare.com provides the unified view of the rideshare offering from Enterprise. enterpriserideshare.com enables to customer to search and apply for a vanpool from any given location within the US. enterpriserideshare.com also offers the seamless ability to signup and complete the agreement formalities via an online process. ",
+      "original_categories": [
+        "enterprise",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flightwise-formerly-fboweb.com",
+      "description": " Lets you search for flights and see the current location plotted on a Google Map. ",
+      "original_categories": [
+        "mapping",
+        "travel",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geo-talk",
+      "description": " Forums connected to a map. Mark a place and then type a question. In other words create an initiation for a discussion and get a unique link for the map. ",
+      "original_categories": [
+        "mapping",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "keep-track-my-games",
+      "description": " Keep Track of My Games aims to be a way for you to not only manage your collection of games, but also remind and track your upcoming games. Based on the Twilio and Twilio SMS APIs. ",
+      "original_categories": [
+        "games",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "videotag",
+      "description": " VideoTag is a one-player tagging game. Tag some of the funniest YouTube videos, avoid the pitfalls and progress to the next level. See if you can make the top of the leaderboard and become the ultimate video tagger. ",
+      "original_categories": [
+        "video",
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "weather-forecasts-100-hot-cities",
+      "description": " A mashup of 100 cities and their weather forecasts from weatherunderground.com. The 100 cities listed are the cities where history shows you are most likely to sweat while there. ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "weather",
+        "trivia"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cheap-flights-to",
+      "description": " Find and compare the prices on flights, airline tickets and hotels deals to thousands of trip vacations with the biggest travel agencies. ",
+      "original_categories": [
+        "discounts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "goseeoregon.com",
+      "description": " Social networking travel websites that creates personalized recommendations for each user based on user interests and user ratings. Uses geotagged Flickr photo stream and Google maps. ",
+      "original_categories": [
+        "photos",
+        "travel",
+        "social",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "safetycheck",
+      "description": " SafetyCheckSM is a mobile iPhone app that gives you a CrimeScoreSM rating at your current location. ",
+      "original_categories": [
+        "crime",
+        "sports",
+        "safety"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "indiatweetz",
+      "description": " IndiaTweetz- Tweets and News about India- is a one stop Twitter based portal to tap the buzz in India.Tweets are categorized in groups like Headlines,Cricket,Politics,Business, Bollywood,Celebrities,Cities etc. ",
+      "original_categories": [
+        "indian",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "new-hampshire-physician-affiliations",
+      "description": " Shows all the locations of a chosen physician group. Click on an icon to see a list of the physicians at that location. ",
+      "original_categories": [
+        "medical",
+        "mapping",
+        "health"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "3arabtv-clips",
+      "description": " Wide collection of Arabic media including TV, radio, movies and clips. ",
+      "original_categories": [
+        "media",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "kent-county-council-traffic",
+      "description": " Kent County Council. View road traffic status and live camera feeds in the UK. ",
+      "original_categories": [
+        "mapping",
+        "england",
+        "transportation",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "checkinspy",
+      "description": " CheckinSpy lets you view the places that you and your friends have checked in, using Google Street View. You can look at recent checkins that you or your friends have posted, or search for a specific friend. ",
+      "original_categories": [
+        "mapping",
+        "mobile",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rss2twitter",
+      "description": " RSS2twitter is an RSS-to-Twitter posting application. Automatically get RSS feed entries added to Twitter. Use it for you blog or any other feed type. ",
+      "original_categories": [
+        "blogging",
+        "blogging",
+        "feeds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "university-crime-mapping",
+      "description": " Largest University crime map mashup, covering over 200 universities. ",
+      "original_categories": [
+        "crime",
+        "education",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "2008-basketball-tourneys",
+      "description": " Location, seedings, and dynamically updating brackets for all of the Division I college basketball conference tournaments. ",
+      "original_categories": [
+        "education",
+        "sports",
+        "sports",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bleeoo",
+      "description": " Kids today won't know the shrill cry of a 9600 baud or the magical doodleeedoo of a 28.8 modem. Preserve a little slice of history by recording and publishing your best dialup modem impression. ",
+      "original_categories": [
+        "humor",
+        "audio",
+        "video",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ashare-over-air-sharing",
+      "description": " A way to share your pictures and files. Just tap and hold to push files between phones and tablets easily with no cables, no computer, no set up and no copy and paste. Currently for Android and Android Tablet. ",
+      "original_categories": [
+        "social",
+        "mobile",
+        "photos",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitter2email",
+      "description": " Filters tweets of a specified Twitter account and sends them by email to specified email addresses. ",
+      "original_categories": [
+        "social",
+        "email"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "vizoor-visual-search",
+      "description": " Vizoor is a stunning and fast visual Internet Search engine, it uses the latest web search API from Bing (Microsoft). It shows results in a beautiful 3D perspective format , it is developed using Silverlight and asp.net technologies. ",
+      "original_categories": [
+        "search",
+        "api",
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ufo-maps",
+      "description": " Keep up with the lastest UFO sightings with this combination of Google Maps and data from the National UFO Reporting Center. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "textecho.com",
+      "description": " Search Flickr by tags. ",
+      "original_categories": [
+        "search",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "venmo",
+      "description": " Venmo makes settling up with friends easy and social. It works with just about any phone or through the web. It's completely free to use with your friends, so you can always skip the ATM when you need to settle up on things like meals, rent, bills, drinks, group trips and bingo. ",
+      "original_categories": [
+        "telephony",
+        "messaging",
+        "mobile",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "doodlebuzz",
+      "description": " Typographic news explorer using a doodled line as an interface. ",
+      "original_categories": [
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wordpress-plug-id-service",
+      "description": " The original 330+ identities, displayed in your sidebar. Uses DandyID - a free service that enables you to connect, manage, and share all of your online identities from a single location. ",
+      "original_categories": [
+        "widgets",
+        "blogging",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "routexl",
+      "description": " Route planning mashup for multiple destinations. Finds the fastest route for all locations and sorts waypoints in optimal order. ",
+      "original_categories": [
+        "search",
+        "mapping",
+        "travel",
+        "visualizations",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "taptravel",
+      "description": " TapTravel is a mobile application that allows users to search for and book for flights. TapTravel is available in all major mobile platforms. The Allmyles API has been integrated into this application. ",
+      "original_categories": [
+        "booking",
+        "payments",
+        "tickets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "crete-real-estate",
+      "description": " Crete real estate, Greece, Cyprus. ",
+      "original_categories": [
+        "greek",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ienvirowatch",
+      "description": " Environmental information in your iPhone, iPod Touch and iPad iEnviroWatch allows to visualize and query environmental information at your location or geographical area of your interest. *Basic Features: - Environmental information services published by the European Environment Agency - Base maps provided by ESRI, the worldwide leader in - GIS - Street Map - Satellite Imagery - Topographic Map - GPS capability - Intuitive user interface ",
+      "original_categories": [
+        "sustainability",
+        "environment"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "taaza",
+      "description": " Taaza.com is one of the leading job search engine sites in India which aggregates jobs from all leading job sites in the country. Taaza is a multi-dimensional Indian portal that has various sections like jobs, travel guide, personal finance, online classifieds and news. Taaza also owns a US focused job aggregating site - usjobs.com ",
+      "original_categories": [
+        "search",
+        "jobs",
+        "indian"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitter-burner",
+      "description": " Tweetburner is a twitter mashup that allows you to create tiny URLs. You can also track how many times they where clicked. ",
+      "original_categories": [
+        "tools",
+        "messaging",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "smartinsurance",
+      "description": " Smartinsurance.sg is a new car insurance comparison site that makes it extremely easy for you to compare singapore car insurance prices online. ",
+      "original_categories": [
+        "search",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nyc-movies",
+      "description": " Lets you see where scenes from famous (and not-so-famous) movies have been shot in NYC. ",
+      "original_categories": [
+        "mapping",
+        "movies"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "real-time-simple-sms-voting-app",
+      "description": " Simply text #selection to see it appearing on the web page in real time! ",
+      "original_categories": [
+        "messaging",
+        "voting",
+        "cloud",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fax-google-docs",
+      "description": " Send and receive faxes directly to and from a Google Docs account with InterFAX. Send faxes by simply clicking a bookmarklet; receive faxes directly into your Google Docs folder. Logging on to the InterFAX control panel is not even necessary. ",
+      "original_categories": [
+        "fax",
+        "office",
+        "cloud"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

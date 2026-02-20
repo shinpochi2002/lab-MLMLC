@@ -1,0 +1,658 @@
+{
+  "category": "healthcare",
+  "count": 63,
+  "positive_count": 3,
+  "negative_count": 60,
+  "pos_neg_ratio": "1:20",
+  "items": [
+    {
+      "mashup": "refuge-android-app",
+      "description": " This is the unofficial Android dependent on the REFUGE Restrooms AP. The app allows users to interact with the database of restrooms safe for transgender, intersex, gender nonconforming, as well as handicapped individuals. Users can search a map to view drop-pins for restroom locations nearest to their proximity. Also, the app displays short bios on the restroom so that users are informed. ",
+      "original_categories": [
+        "lists",
+        "directories",
+        "healthcare"
+      ],
+      "used_apis": [
+        "refuge-restrooms"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "gethealth",
+      "description": "GetHealth is a Unified RESTful API to access health data from wearables and devices. It allows users to integrate the sources like Dailymile, Fatsecret, Fitbit, Google Fit, Jawbone, Lifefitness, MapMyFitness, MapMyRun, MapMyWalk, Microsoft Health, Misfit, Moves, PredicctBGL, Runkeeper, Strava, Sony Lifelog, Withings, and 23andMe. It also allows integration to medical devices. There are api calls available for activity, diabetes, weight, nutrition, sleep, and genotype. Furthermore it eases the user authentication process for each source with single-sign on API call. Also it normalizes the data across multiple sources and provides unified data structure.",
+      "original_categories": [
+        "healthcare"
+      ],
+      "used_apis": [
+        "gethealth"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "refuge-restrooms",
+      "description": "Based in San Francisco, REFUGE Restrooms is a resource that provides transgender, intersex, and gender nonconforming individuals with access to a library of restrooms with safe environments. Similar to the now deprecated Safe2Pee, users can search for restrooms by proximity, may add new restrooms to the directory, and can also comment and rate their experiences. The site and service aims to promote restroom advocacy through community building. The project is accessible using a RESTful API. Using GET HTTP requests, developers can query the restroom database by keyword, and can also return a full list of all database entries in a JSON format.",
+      "original_categories": [
+        "healthcare"
+      ],
+      "used_apis": [
+        "refuge-restrooms"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "videodust",
+      "description": " Indian entertainment site. Hindi, Tamil, and Telugu videos. TV shows, music, interviews and more. Categorized videos based on different tags. ",
+      "original_categories": [
+        "music",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "coldwell-banker-real-estate-maps",
+      "description": " Find commercial real estate with Coldwell Banker Commercial maps. Combines the listings of CBC with a full screen auto resizing map in the background powered by Virtual Earth. You can draw your own polygons for search as well. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "broadway2day",
+      "description": " Listing of Broadway shows with theatres displayed using Google Maps. Has filters for genre, shows in preview, New York Times Critic Picks, and family friendly show listings. ",
+      "original_categories": [
+        "mapping",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "portolando",
+      "description": " Interactive Guide to the Ports and Mooring Places of the Upper Adriatic. ",
+      "original_categories": [
+        "boating",
+        "italian",
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "microsoft-cognitive-services-emotion",
+      "description": "The Microsoft Cognitive Services Emotion API recognizes emotions expressed by one or more people in an image, and returns a face identification bounding box. It detects the following emotions: happiness, sadness, surprise, anger, fear, contempt, and disgust. For video, it returns emotions of a group of faces over a period of time. 2 paid options are available, and a free plan that limits transactions to 30,000 a month is available as well. The Emotion API uses JSON for data exchange, and API Keys for authentication.",
+      "original_categories": [
+        "recognition"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "g4m3-twitter-flash-games",
+      "description": " Free online flash games integrated with Twitter auth for keeping track of high scores. ",
+      "original_categories": [
+        "games",
+        "humor",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "intellinote",
+      "description": "The Intellinote API allows developers to create, modify, and retrieve their workspaces, notes, tasks, tags, files, forms, and users from the Intellinote platform. Intellinote is a collaboration and project management service for businesses. It can be used to capture and document work items as well as manage task assignments and due dates. A sandbox environment is provided for developing and testing applications that use Intellinote's features.",
+      "original_categories": [
+        "project-management"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "randomcloud",
+      "description": " Having trouble finding new tracks to listen to on SoundCloud? Just choose a genre (or choose All Genres) and RandomCloud will play songs randomly. ",
+      "original_categories": [
+        "search",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "social-media-influencers",
+      "description": " This web application allows you to enter a keyword or hashtag, and the finds the people on Twitter who are the most influential when it comes to tweeting about that subject. Influence is based on retweets. You then have the option to follow that person or retweet what the person followed. You can also send a tweet to the author. This is a great app for determining who the trendsetters are on social media. ",
+      "original_categories": [
+        "social",
+        "analytics",
+        "keywords"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "coinmap",
+      "description": " OpenStreetMap mashup that shows places where Bitcoin is accepted. Venues are added automatically (database is updated every 15 minutes). The map also tries to determine the type of the venue from OSM tags and assign the correct icon. ",
+      "original_categories": [
+        "financial",
+        "mapping",
+        "bitcoin"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "postalcodesearchforchusers-0",
+      "description": " We have developed a mashup that can help Chinese users to find the postcode of a place. Our mashup leverages the GeoNames web API registered at ProgrammableWeb. ",
+      "original_categories": [
+        "reference",
+        "postcodes"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "eattr",
+      "description": " Eattr is an application to find local restaurants in India. The app features 25 cities in India to help users discover food in the closest place depending on the current location. This app includes a map to calculate the distance from current location and a description of every place to choose from a particular preference of food. Reviews are available to evaluate quality of product and service. With Eattr, an app that users Zomato API, users can find local food in India, add meal tips and find restaurant deals.This app needs access to user’s identity and location. ",
+      "original_categories": [
+        "food",
+        "restaurants"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "myweather",
+      "description": " A weather site that aggregates information about local weather and presents it in a simple visual interface. ",
+      "original_categories": [
+        "weather",
+        "localization",
+        "data"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cityrealty-map-nyc",
+      "description": " Apartment listings in NYC with Google Maps. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "spific-search",
+      "description": " Uses the Google Search API by offering instant date refinements as well as categorical type searches by Blogs, Forums, Videos, and Stores. Also offers a quick print version o ",
+      "original_categories": [
+        "mapping",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "parsebot",
+      "description": "The Parsebot API allows developers to extract content from a website. The API is useful to embed articles, images, video and audio directly into a developer's applications. Responses in JSON and authentication with API Key. Guides are available to maximize API calls, embed data, and send &amp; receive responses.",
+      "original_categories": [
+        "parsing"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zipmyurl",
+      "description": " Compress single or multiple URL's, publish straight to your Twitter and Del.icio.us accounts, add passwords to compressed URL's. URL's can be tagged when publishing to del.icio.us. ",
+      "original_categories": [
+        "bookmarks",
+        "social",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "theyworkforyou",
+      "description": "From their site: TheyWorkForYou.com is a non-partisan website run by a charity which aims to make it easy for people to keep tabs on their elected and unelected representatives in Parliament and other assemblies.",
+      "original_categories": [
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pushr",
+      "description": " Pushr is a tool for small businesses to connect with their customers in a more direct way over SMS. It allows users to schedule groups of messages, organize contacts and maintain a SMS log of their communications with customers. ",
+      "original_categories": [
+        "messaging",
+        "social",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "alertnet",
+      "description": " Display crisis hotspots on a world map and retrieve latest news on each crisis from Reuters. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geo",
+      "description": " Geo presents various information from the World Bank, including projects, data, news, and center location. ",
+      "original_categories": [
+        "government",
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wolfram-alpha",
+      "description": "Wolfram|Alpha is a computational knowledge engine whose long-term goal is to make all systematic knowledge immediately computable and accessible to everyone. We aim to collect and curate all objective data; implement every known model, method, and algorithm; and make it possible to compute whatever can be computed about anything. It contains 10+ trillion of pieces of data, 50,000+ types of algorithms and models, and linguistic capabilities for 1000+ domains.The API provides two general classes of queries. At the highest level, you can submit free-form queries like users might enter at the Wolfram|Alpha site itself, and get back full Wolfram|Alpha output in a variety of formats. The second type of query is a lower-level request for a single well-defined result, or range of results, from their entity/property-based data API, such as a caloric value for a food item, or a tide table for a requested location",
+      "original_categories": [
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "i-do-voices",
+      "description": " Like Catch Phrase, but you use your phone instead of a device, and everyone always has a word. Text play to start. You will receive the name of a famous person/character. Get others in your group to text that name to the number (without saying it yourself; text pass to skip). You can receive points either by guessing correctly or by getting guessed. The first person to a set score wins! ",
+      "original_categories": [
+        "voice",
+        "telephony",
+        "games",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitter-mood-reader",
+      "description": " Sentiment analysis is performed by extracting words of positive or negative meanings from Twitter status, and animated smiley then is drawn accordingly ",
+      "original_categories": [
+        "sentiment",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "e.p.-carrillo",
+      "description": " Find out where and what people are saying about cigars in real-time around the globe. Find the best places to smoke cigars using the places to smoke cigars feature. ",
+      "original_categories": [
+        "health",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "trendalicious",
+      "description": " trendalicious is a near real-time view of website popularity trends as reflected by the del.icio.us social bookmarking service. All URLs posted by a minimum of two people in past sixty minutes are displayed, ranked by the total number of recent posts. ",
+      "original_categories": [
+        "bookmarks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cazoodle-bay-area-apartment-search",
+      "description": " A Bay Area apartment search mashed up with Google maps. ",
+      "original_categories": [
+        "mapping",
+        "rentals"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "best-hospitals-cancer-treatment",
+      "description": " Best American hospitals for Cancer Treatment as mentioned in US News. ",
+      "original_categories": [
+        "mapping",
+        "medicine"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twalue",
+      "description": " What is your Twitter account worth? Find the influencing value and value of your Twitter account over time. ",
+      "original_categories": [
+        "reference",
+        "blogging",
+        "humor",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cinefreaks",
+      "description": " German movie portal. Uses APIs from YouTube, Google Maps and Amazon. ",
+      "original_categories": [
+        "movies",
+        "video",
+        "mapping",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "getsentiment",
+      "description": "The GetSentiment REST API allows developers to access and integrate the functionality of GetSentiment with other applications. Some example API methods include retrieving customer feedback analysis, managing customer relationships, and retrieving social media analysis and marketing research. The API performs keyword extraction, topical categorization and aspect-based sentiment analysis of text. The API can be customized by the user via a self-service interface, to suit specifics of the industry, project and use cases. GetSentiment is a text analysis tool that provides brands and companies insight into customer feedback.",
+      "original_categories": [
+        "sentiment"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapcrunch",
+      "description": " Shows a random Google Street View, with the ability to choose by continent or country. There's also a beta feature to restrict rural roadways. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tubegotchi-travel",
+      "description": " Shows YouTube videos of the top 100 most popular destinations around the world. ",
+      "original_categories": [
+        "video",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shared-count",
+      "description": " Shared Count is a small utility that will fetch social media shares for a url ",
+      "original_categories": [
+        "social",
+        "social",
+        "analytics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bible",
+      "description": " LikeBible.com is a project of a young christian college student who had an idea while cramming and writing finals papers. Users can highlight any word to learn and get more resources on the topic. ",
+      "original_categories": [
+        "reference",
+        "religion",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "heartomatic-shop-hearts-etsy",
+      "description": " Heartomatic provides a set of tools to Etsy sellers showing who is hearting you or your items. Lets you compare this over a period of time and provides a search feature to see if you've been featured in a Etsy gift guide or on the Etsy ho ",
+      "original_categories": [
+        "ecommerce",
+        "gifts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cloudalicious",
+      "description": " This nice graphing application shows you the count of del.icio.us tags applied to a given URL over time. By Terrell Russell. ",
+      "original_categories": [
+        "bookmarks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "procrasdonate",
+      "description": " This small app allows RescueTime users to try ProcrasDonate's time management incentive. For every hour procrastinated, users automatically donate to their favorite charities and causes. Feel good about procrastinating...a little bit. ",
+      "original_categories": [
+        "education",
+        "business",
+        "charity"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "icecharge",
+      "description": " IceCharge is a fraud detection and prevention service that is built on top of a digital profiling algorithm. The service tries to identify legitimate transactions based on trying to check the consistency of the persona behind that transaction. ",
+      "original_categories": [
+        "messaging",
+        "telephony",
+        "security",
+        "payments"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dbstract.com",
+      "description": " DBStract is a free web app and database builder. ",
+      "original_categories": [
+        "database",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-maps-flight-simulator",
+      "description": " Goggles is a very fun and creative flight simulator built on top of Google Maps. Pick from one of five cities and go. Change altitude and direction using the arrow keys. ",
+      "original_categories": [
+        "mapping",
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "starbucks-onair-bustour-locator",
+      "description": " Find where the nearest Starbucks is for each of the OnAIR bus tour stops. ",
+      "original_categories": [
+        "events",
+        "food",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bagiq",
+      "description": " BagIQ automatically tracks the user's food purchases - including both grocery and restaurant purchases - that are made online or with a loyalty card. It also suggests healthier choices and offers price comparisons. This mashup was created using the Information Machine API. ",
+      "original_categories": [
+        "grocery",
+        "food"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "second-life-weather",
+      "description": " This gadget grabs the Yahoo weather feed for any US zip code or international country code, and updates an object to display the current weather in Second Life. ",
+      "original_categories": [
+        "weather",
+        "widgets",
+        "3d"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sharemetric-chrome-extension",
+      "description": " Pulls social network share counts into your Chrome browser. Utilizes APIs from Facebook, Twitter, LinkedIn, Google+, Delicious, Reddit, Pinterest, and StumbleUpon. ",
+      "original_categories": [
+        "social",
+        "analytics",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "yelp-fusion",
+      "description": "The Yelp Fusion APIs are RESTful APIs and users can retrieve business review and rating, information for a particular geographic region or location.display review information for a particular business, determine accurate neighborhood name information for a particular location, track recent reviews for a particular business, display pictures of highly rated local businesses and of the top reviewers for that business, determine a particular business' review and rating information based on the phone number for that business. The default output is JSON. This output format was chosen due to the availability of JSON parsers in many languages. The following Yelp Fusion APIs are available: Search, Phone Number Search, Business Search, Transaction, Reviews, and Autcomplete - each API has a separate ProgrammableWeb entry.",
+      "original_categories": [
+        "recommendations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "raddio.tk",
+      "description": " 30-06-2011 JavaScript Updated. Raddio.tk is an HTML5 experimental player that uses the Jamendo.com API to load songs based on selected user tags. Works with Mozilla Firefox, Google Chrome and Safari using Windows XP/Vista/7 and Linux (Ubuntu). ",
+      "original_categories": [
+        "music",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "scribble-maps__api",
+      "description": "Scribble Maps connect uses OAuth 2.0 to allow developers to access Scribble Maps user map lists and data. Scribble Maps is a map drawing and sharing platform. Scribble Maps allows users to draw, save, and share maps.The Scribble Maps API allows developers to access and integrate the functionality of Scribble Maps with other applications. Some example API methods include displaying maps, retrieving images of maps, and sharing maps.",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "funda.nl",
+      "description": " Real estate listings in the Netherlands. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "instantzon-amazon-instant-search",
+      "description": " Start typing keywords and products will appear instantly with descriptions and price details. Search Amazon's entire catalog. Instantly. ",
+      "original_categories": [
+        "ecommerce",
+        "search",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rxnlp-text-similarity",
+      "description": "RxNLP is a Text Mining and Natural Language Processing service. One of RxNLP's API's, is the Text Similarity API. It is used for analyzing and computing surface similarities between texts, both long and short. Having the tools to identify text similarity can help with things such as query reformulation, finding and analyzing similar topics, and grouping similar items.",
+      "original_categories": [
+        "text"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nukemap-3d",
+      "description": " NukeMap 3D is a visual representation of the impact of different size nuclear explosions. You can see the blast radius represented on google maps by placing a pin on any location in the world. ",
+      "original_categories": [
+        "mapping",
+        "visualizations",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "desert-safari-dubai",
+      "description": " Desert Safari Dubai API is providing all tour services in Dubai and its Dubai base company that offers tours services, like Desert Safari Tour, Dhow Cruise Dinner, City Tours, e.g Dubai City Tour Abu Dhabi City Tour and Sharjah Tour. ",
+      "original_categories": [
+        "travel",
+        "tourism"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "send-photos-to-india",
+      "description": " YouSendPhotos.com provides online Digital Photo Print Services to Indian community all over the world to share their joys with their family members at cheaper rates. You just need to logon to your Facebook or even you can upload your pictures to yousendphotos.com website and then select your great pictures. Thats it, YouSendPhotos.com pick them from there, print in required format and Send Photo Prints to Your Home In India earlist possible. Yes, now with YouSendPhotos.com you can Send Quality Photos to India very easily from anyware and everywhere with affordable prices. ",
+      "original_categories": [
+        "photos",
+        "social",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "minidates",
+      "description": " MiniDat.es is an online speed dating application that connects singles via actual phone conversations rather than impersonal chat rooms or emails. Along the same lines of speed dating, our phone conversations or mini dates are limited to three minutes each. This is enough time for users to meet each other and chat but not too much time in case someone isn't interested or doesn't feel a connection. When the three minutes are up, users are asked if they would like to continue the conversation. If both users say yes, the connection stays open and they can talk on MiniDat.es for as long as they want. But if someone says no, the connection is closed and both people go their separate ways. No hurt feelings, no need to let her down easily and no awkward, half-hug on your doorstep. ",
+      "original_categories": [
+        "telephony",
+        "social",
+        "dating"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dj-acc",
+      "description": " Dj ACC is the new address for free online metal music. Everyday it plays great songs continuously in each genre from the best metal bands in the world. You can share tracks with your friends if you like. Select your genre, listen great music, share it and enjoy. Stay heavy, stay with metal. ",
+      "original_categories": [
+        "music",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "map-burg",
+      "description": " Puts all things about Downtown Fredericksburg, VA, on a map. ",
+      "original_categories": [
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "maponics-neighborhood-boundaries-point-geotagging",
+      "description": " This mashup allows users to enter a US address and returns a map of the address point within the neighborhood polygon. ",
+      "original_categories": [
+        "mapping",
+        "localization"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wifi-and-plugs-0",
+      "description": " This nifty app shows locations in London where you can be sure to get Wi-Fi and Plugs. Data is sourced from Import.io and user submitted entries. The app takes MapBox, google docs and Import.io and mashes them together to make a simple but useful tool. ",
+      "original_categories": [
+        "mapping",
+        "data"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "justmusify.com-discover-new-music-spotify",
+      "description": " Discover new music on Spotify for free! Music addicted? Here you can listen to all the new Tracks! Fresh new Music every hour! ",
+      "original_categories": [
+        "music",
+        "search",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

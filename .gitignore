@@ -45,6 +45,7 @@ lightning_logs/
 ga_logs/
 model_weight/
 models/
+api_category_list/
 
 ##############################
 # 出力・予測・結果ファイル
@@ -54,7 +55,6 @@ models/
 *.bak
 *.csv
 *.tsv
-*.json
 *.jsonl
 *.feather
 *.sqlite

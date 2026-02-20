@@ -1,0 +1,26 @@
+{
+  "category": "wiki",
+  "uid": "15b4ba76",
+  "n_samples": 4,
+  "n_labels": 2,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 10.6568871922791,
+      "std_val_loss": 18.09662000235462,
+      "mean_micro_f1": 0.75
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 15.549442516639829,
+      "std_val_loss": 26.141143659070426,
+      "mean_micro_f1": 0.6666666666666666
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 10.6568871922791,
+    "std_val_loss": 18.09662000235462,
+    "mean_micro_f1": 0.75
+  }
+}

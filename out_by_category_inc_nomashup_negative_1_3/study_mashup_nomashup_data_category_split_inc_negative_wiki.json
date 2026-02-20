@@ -1,0 +1,411 @@
+{
+  "category": "wiki",
+  "count": 36,
+  "positive_count": 9,
+  "negative_count": 27,
+  "pos_neg_ratio": "1:3",
+  "items": [
+    {
+      "mashup": "scoopmap.net",
+      "description": " Scoopmap.net allows users to view breaking news around the world by leveraging two APIs. Discover hot spots and articles written by high quality newspapers such as the Guardian and New York Times. ",
+      "original_categories": [
+        "localization"
+      ],
+      "used_apis": [
+        "dbpedia"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "must-see-greece",
+      "description": " Mustseegreece.com leverages the Flickr, Twitter, Google Places and Wikipedia APIs to provide information for travel and tourism destinations. ",
+      "original_categories": [
+        "greek",
+        "travel",
+        "greek",
+        "beauty",
+        "travel"
+      ],
+      "used_apis": [
+        "dbpedia"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "context",
+      "description": " conTEXT allows users to semantically analyze text corpora (such as blogs, RSS/Atom feeds, Facebook, G+, Twitter, etc.) and provides novel ways for browsing and visualizing the results. ",
+      "original_categories": [
+        "text",
+        "analytics",
+        "content"
+      ],
+      "used_apis": [
+        "dbpedia"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "geo-wiki-search",
+      "description": " A Mashup of the new WikiLocation API and Google Maps to show information about Wikipedia articles in a location. ",
+      "original_categories": [
+        "social",
+        "reference",
+        "search",
+        "mapping"
+      ],
+      "used_apis": [
+        "wikilocation"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "distance-calculator-entfernung.org",
+      "description": " German language distance calculator, using various reverse geocoding APIs to retrieve location and related place infos, such as Wikipedia overview articles, nearby airports, etc. ",
+      "original_categories": [
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [
+        "dbpedia"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "dbpedia-mobile",
+      "description": " DBpedia Mobile maps DBpedia locations and allows users to explore background information about them by navigating into DBpedia and other interlinked datasets such as GeoNames, Revyu, EuroStat and Flickr. Supports 14 languages and various filters. ",
+      "original_categories": [
+        "reference",
+        "mapping",
+        "mobile",
+        "semantics"
+      ],
+      "used_apis": [
+        "dbpedia"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "deki-wiki-twitter-extension",
+      "description": " An extension for open source Mindtouch Deki Wiki platform that allows integration of Twitter data. ",
+      "original_categories": [
+        "wiki",
+        "plugins",
+        "messaging"
+      ],
+      "used_apis": [
+        "mindtouch-deki-wiki"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "mindtouch-deki-wiki",
+      "description": "REST-based API with 99 methods that expose MindTouch Deki Wiki's complete functionality. Deki Wiki is also a mashup platform. Download the source code or VMware certified package.",
+      "original_categories": [
+        "wiki"
+      ],
+      "used_apis": [
+        "mindtouch-deki-wiki"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "wikilocation",
+      "description": "The WikiLocation API is for developers wishing to search for Wikipedia articles by location. The data is gathered by downloading the Wikipedia database on a weekly basis and then parsing all of the geocoded entries. This data is stored in a database where it is able to be accessed via the API.WikiLocation supports 36 languages, totaling over 3.8 million articles. At present, there are over 1 million entries from en.wikipedia.org alone.In addition to searching via location, users can also search via the venue and spot IDs of the two most popular geo-location networks; Foursquare and Gowalla as well as by Yahoo! WOEID. The API uses RESTful protocol and responses are formatted in XML, JSON, or JSONP.",
+      "original_categories": [
+        "wiki"
+      ],
+      "used_apis": [
+        "wikilocation"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "guardian-tag-bubbles",
+      "description": " This visualises the tags used on content in the Guardian website. So for example, you can see what topics relate to News today, then drill down into Business, then into Banking, then click see what what was happening there yesterday, and so on. ",
+      "original_categories": [
+        "england",
+        "classification",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "information-machine",
+      "description": "Our API can automatically &amp; passively collect users' item level purchase data from online and loyalty card purchases at most healthcare, grocery, takeout and major stores (Amazon, Target, Walmart, etc.). It connects this raw purchase data to product and pricing data. App uses include: coupons, diet &amp; fitness, healthcare and recommendation. Coupons apps will know what their customers buy and what they will likely buy. Diet and fitness apps get instant access to customers' food data without them logging it themselves. Healthcare apps can access years of your customer's food purchases. Recommendation can use the power of aggregated purchase history to anticipate what their customers might like.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tweet140",
+      "description": " Game that keeps track of Twitter users twooshes and ranks them accordingly. Tracks the length of your tweets, and the closer to a 140 character average, the better your score. ",
+      "original_categories": [
+        "games",
+        "messaging",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "amazon-marketplace-web-service",
+      "description": "Helps sellers automate listings, orders, payments, reports, and more. By exchanging data, sellers can integrate Amazon marketplace into their current applications and workflow.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "listnplay",
+      "description": " ListnPlay allows users to make and share playlists of audio, video, albums or other people's playlists. ",
+      "original_categories": [
+        "video",
+        "social",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "was-my-jam",
+      "description": " Full track history for all This Is My Jam users. ",
+      "original_categories": [
+        "music",
+        "search",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "alphalearnr",
+      "description": " Helps children learn the English alphabet through photos. ",
+      "original_categories": [
+        "photos",
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "kent-county-council-traffic",
+      "description": " Kent County Council. View road traffic status and live camera feeds in the UK. ",
+      "original_categories": [
+        "mapping",
+        "england",
+        "transportation",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitter-and-box.net",
+      "description": " This mashup allows Box.net users to share files from within their Box accounts using Twitter. ",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sad-statements",
+      "description": " Sad tweets are grabbed from Twitter and illustrated via pictures from Flickr. Sometimes the pictures and the text are not a perfect match. Other times the matches seem profound. ",
+      "original_categories": [
+        "widgets",
+        "messaging",
+        "blogging",
+        "photos",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ridertech.com",
+      "description": " Maps, videos, photos, news, social networking for the action sports community for riders, skateboarding, snowboarding, skiing, surfing, bmx, mountain biking, motocross and wakeboarding. ",
+      "original_categories": [
+        "mapping",
+        "video",
+        "podcasts",
+        "photos",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "octobat",
+      "description": " Octobat uses a user's web payment Stripe account in order to access account history to automatically prepare invoices. With the Octobat web app, users are able to generate customer invoices with a single click. The first 10 invoices are free, after which a pricing system is put in place. ",
+      "original_categories": [
+        "invoicing",
+        "history",
+        "payments"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickr-video-browser",
+      "description": " Mashup that uses the new Flickr API video features to let you browse the newest videos on Flickr. ",
+      "original_categories": [
+        "video",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "moonshadow-mobile-inc.",
+      "description": " CensusViewer shows all census information from the 2000 and 2010 census inside of Bing Maps. The data can be colored by race, ethnicity, age, county, city, etc. CensusViewer allows you to filter by any attribute and generate heat maps. The data can be downloaded in easy spreadsheets per census block, zip code, city, county or any other distict. ",
+      "original_categories": [
+        "demographics",
+        "demographics",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mygeoposition.com-geocoding-geotag-and-kml-creator",
+      "description": " Calculate your geoposition by address and create geotags, geo-metatags and kml files for your website, weblog or photo. Use a drag-and-drop marker on the result map to optimize your position. NEW: Reverse lookup - Enter a geocoded URL, see its location. ",
+      "original_categories": [
+        "mapping",
+        "photos",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "treemily",
+      "description": " Treemily is an online family tree builder that helps users create diverse visualizations of their family. The platform is free for all basic functionality and family tree designs, with paid membership options available for access to more robust customization options. Users can purchase the designs as downloads or ready made prints, from posters to framed canvases. Since the tree builder templates are the key novelty of the Treemily platform, users can simply import their existing lineage as a GEDCOM file, and generate visualizations. ",
+      "original_categories": [
+        "genealogy"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "eat-locally-map",
+      "description": " When the average North American sits down to eat, each ingredient has typically traveled at least 1,500 miles. Use this interactive map and the 100-Mile Diet book to eat local, think global. ",
+      "original_categories": [
+        "mapping",
+        "food",
+        "sustainability",
+        "environment"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sensis-business-search",
+      "description": "The Sensis Business Search API provides business listings from Yellow Pages and White Pages Australia. Third party digital developers, entrepreneurs and publishers can use the API to add business search functionality on their websites, mobile-sites and applications. The API provides access to a fully maintained and comprehensive collection of Australian local business listings, sourced from the Yellow Pages and White Pages Directories. The API uses RESTful calls and responses are formatted in JSON.",
+      "original_categories": [
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "map-world",
+      "description": " A mashup of geographic information and Google Maps. ",
+      "original_categories": [
+        "science",
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "holiday-cardr",
+      "description": " Facebook app that creates eCards from your photo gallery, custom text input and designed templates. Also allows you to select friends to share with and allows you to Tweet it. ",
+      "original_categories": [
+        "humor",
+        "holidays"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "caribbean-resorts-mashup",
+      "description": " WordPress meets google maps and panoramio photos to create a new way of discovering all inclusive resorts in the Caribbean and Mexico. Caribbean Resorts Mashup - a free informational resource of all inclusive resorts from Mexico, Cuba and Dominican Republic. It brings in one place, the resorts details, quick access to reviews, aerial views maps, Panoramio photos and YouTube videos. ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "textflow-and-box.net",
+      "description": " TextFlow works with Box.net's version history to provide advanced version comparison of all file changes from you and your collaborators. ",
+      "original_categories": [
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "global-namaz-prayer-times-calculator",
+      "description": " Pray In Time provides most accurate and reliable timetable of Athan time for millions of inhabited and uninhabited locations globally. ",
+      "original_categories": [
+        "religion",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "chapterboard",
+      "description": " ChapterBoard is a web application for fraternities and sororities. Each chapter has its own private space to coordinate events, discuss topics and collect their dues. ",
+      "original_categories": [
+        "messaging",
+        "social",
+        "mobile",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mobile-ok-checker",
+      "description": " How can I use page2images.com's API to do something interest. There is an example. This tool can allow user to check whether their website is mobile friendly. We plan to make a batch version on Dec, 2013. ",
+      "original_categories": [
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "directadmin-realtime-register-integration",
+      "description": " A plugin which makes it possible to register your domains from within your Hosting control panel ",
+      "original_categories": [
+        "hosting",
+        "domains",
+        "domains",
+        "integration"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "korrespondengerna",
+      "description": " Foreign correspondents at the Swedish public service broadcaster SVT show their blog, text and video, at Google Maps. Language: Swedish ",
+      "original_categories": [
+        "nordic",
+        "mapping",
+        "tv",
+        "tv"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

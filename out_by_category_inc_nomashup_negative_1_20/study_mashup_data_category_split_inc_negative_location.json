@@ -1,0 +1,667 @@
+{
+  "category": "location",
+  "count": 63,
+  "positive_count": 3,
+  "negative_count": 60,
+  "pos_neg_ratio": "1:20",
+  "items": [
+    {
+      "mashup": "local-weather",
+      "description": " Local Weather is a web application that automatically show users their local weather forecast. This application uses ipinfo.io API and OpenWeatherMap API. ",
+      "original_categories": [
+        "weather",
+        "geography",
+        "reference"
+      ],
+      "used_apis": [
+        "ipinfoio-ip-geolocation"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "mit-visual-traceroute",
+      "description": " Visual Traceroute is a web application that enables users to trace the path packets take through the Internet, by entering the URL. This application uses ipinfo.io API for geolocation and ISP details. ",
+      "original_categories": [
+        "mapping",
+        "reference"
+      ],
+      "used_apis": [
+        "ipinfoio-ip-geolocation"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "fitdatasync",
+      "description": " FitDataSync is a free application that automatically syncs activities from the user's Garmin device with their Fitbit account. Therefore, with this app, customers do not need to carry their FitBit tracker with them everywhere they go. All information synced from the Garmin device will be displayed in FitBit dashboard. FitDataSync also automatically synchronizes Fitbit Aria Wi-Fi Smart Scale weight measurements to the user's Garmin Connect account. ",
+      "original_categories": [
+        "fitness",
+        "syncing"
+      ],
+      "used_apis": [
+        "garmin-communicator-plugin"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "talkdesk",
+      "description": " Zendesk for voice. Talkdesk is a powerful voice customer support system. Answer customer support calls in the browser. ",
+      "original_categories": [
+        "reference",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "python-developer-salary-survey",
+      "description": " Analysis and visualization of Python Developer Salary Survey. Uses SlashDB API for data content and IPython Notebook for presentation. ",
+      "original_categories": [
+        "analytics",
+        "developers",
+        "jobs",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "realtime-related-tweets-bar",
+      "description": " Highly customizable jQuery plugin to create a real-time Twitter search-driven bar of tweets related to your post. ",
+      "original_categories": [
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "valentun.es",
+      "description": " Valentun.es helps your romance cross wires and wireless. You give your sweetheart's name, a little bit about them and Valentun.es will crawl 5 million songs to find lyrics about them and their interests. Pick out the ones you like, exclude the ones you don't and the app calls your sweetie. Delivers your love note and plays them the custom mix tape you just made. ",
+      "original_categories": [
+        "messaging",
+        "music",
+        "social",
+        "telephony",
+        "humor",
+        "holidays"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "yolink-pubmed-mashup",
+      "description": " Uses the yolink search API to return expanded keyword search information from the government’s PubMed medical database, allowing quick review for relevant information. ",
+      "original_categories": [
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "festive-calendar",
+      "description": " This is a Google Widget that shows festivals and events in the localities of in Kerala and Tamilnadu, India. ",
+      "original_categories": [
+        "indian",
+        "events",
+        "holidays",
+        "events",
+        "widgets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dublin-hotels-map",
+      "description": " Map of hotels in Dublin. ",
+      "original_categories": [
+        "hotels",
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bc-ferries",
+      "description": " This website uses Virtual Earth mapping technologies and real-time GPS location data to display the current locations of all ferryboats in the fleet. Click on the thumbnail map of a specific route to view a larger map with current ship status. ",
+      "original_categories": [
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "glive-blog-reader",
+      "description": " Mashing up the Google Feed API and Windows Live Search for isfeed: access to RSS files, this provides a river of news reading experience for recent posts around any keyword. ",
+      "original_categories": [
+        "search",
+        "aggregation",
+        "feeds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bedmap",
+      "description": " BedMap is an interactive hotel map with detailed pricing comparisons and help options. Search more than 90,000 available hotels and book a room instantly. ",
+      "original_categories": [
+        "ecommerce",
+        "search",
+        "mapping",
+        "reference",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bandcamp",
+      "description": "Bandcamp is a music discovery website and marketplace where artists can provide tracks to stream or download and earn money from music sales.The Bandcamp features a RESTful interface and returns data in the JSON format, and provides users with artist accounts, label accounts, or partnerships information. It also returns song sales information and allows management of merchandise orders and shipments.",
+      "original_categories": [
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "glotter-maps",
+      "description": " App that lets you create and share individual world maps, KML-files and Google Mapplets. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "one-page-artist",
+      "description": " One stop shop to view media and know everything about any music artist on one page. Combines YouTube, Last.fm, Google Maps and Amazon shopping APIs. ",
+      "original_categories": [
+        "music",
+        "art",
+        "events",
+        "video",
+        "music",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "super-skydive",
+      "description": " Virtual skydive using Google Maps. ",
+      "original_categories": [
+        "sports",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geofeeling",
+      "description": " GeoFeeling geolocates feelings of bloggers on the map, making use of APIs: Google Maps and WeFeelFine which has been harvesting human emotions from a large number of weblogs: LiveJournal, MSN Spaces, MySpace, Blogger, Technorati, Feedster and Google. ",
+      "original_categories": [
+        "blogging",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "motube",
+      "description": " moTube is a mobile subscription service that allows people to receive notifications via text message (SMS/MMS) each time a new video is published to a YouTube channel. We created moTube as a way for people to get realtime updates from their favorite YouTube channels directly on their phone. It's a free service and we don't charge subscribers for the notifications sent to their device. Keep in mind that the text messaging plan you have with your mobile carrier still applies. For example, if you have an unlimited messaging plan and receive an update from moTube, you will not be charged anything. moTube is currently in beta, so YouTubers who want to add moTube to their channel must have an invite which we're currently accepting requests for on our website (http://motube.us/). ",
+      "original_categories": [
+        "messaging",
+        "messaging",
+        "text"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "formstack-calendar",
+      "description": " Takes data submitted with a Formstack form and creates corresponding event entries on a Google Calendar. ",
+      "original_categories": [
+        "forms",
+        "calendars",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "just-remind-it",
+      "description": " Just Remind It is an iPhone application to send call-based voice reminders to yourself, friends, colleagues and clients. Send automatic reminders and get your tasks done. ",
+      "original_categories": [
+        "mobile",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gaza-attack-timeline",
+      "description": " Google Map Mashup of Gaza Strip attack by Israel. Shows Day by Day events in Gaza and Israel and casualties of Palestinians and Israelis. Data Source from The Guardian News. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "slidemypics",
+      "description": " Free HTML5 slideshows from Facebook, Flickr, Photobucket, Smugmug, Picasa, Youtube (as soundtrack music) and SlideshowBox HTML5 slideshow component. ",
+      "original_categories": [
+        "photos",
+        "humor",
+        "social",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "travelmapia",
+      "description": " World Travel Guide featuring Video and pictures of, hotels, resorts and restaurants on an interactive Google Map. ",
+      "original_categories": [
+        "travel",
+        "video",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "lastfm",
+      "description": "The Last.fm API gives users the ability to build programs using Last.fm data, whether on the web, the desktop or mobile devices. The RESTful API allows for read and write access to the full slate of last.fm music data resources - albums, artists, playlists, events, users, and more. It allows users to call methods that respond in either XML or JSON.",
+      "original_categories": [
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "youwerecute",
+      "description": " A mashup that imports missed connection data from craigslist and locates them on the google map. The time slider on the top of the map enables users to go back the past 10 days. A submission page with a drawing board is provided so users can submit their missed connection via the website with a drawing. ",
+      "original_categories": [
+        "mapping",
+        "search",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pebble",
+      "description": "Pebble is a smart wristwatch, enabled with Bluetooth technology that can connect to smartphones.The Pebble API and SDK allow developers to create applications for Pebble alone or for Pebble to connect with smartphones. Some example API functions include sending and receiving text and images, managing account information, and sending and retrieving data.",
+      "original_categories": [
+        "other"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "eldercare-locator-phone-or-text-sms",
+      "description": " Simply: the Eldercare Locator from eldercare.gov is now accessibly via a voice-activated phone system and through text message for 24/7 self service. Oh, and it's open source too! ",
+      "original_categories": [
+        "tools",
+        "health",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-maps-fast-food",
+      "description": " View the locations of over 27,000 major fast food chain restaurants, overlaid on the Google Maps API. ",
+      "original_categories": [
+        "mapping",
+        "food"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "awardwallet-app",
+      "description": "  ",
+      "original_categories": [
+        "loyalty",
+        "rewards"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tripbuster.co.uk",
+      "description": " Travel site that searches and compares travel fares and travel deals from over 100 sites. It also provides shopping interface to shop more than 20,000 travel products. Uses eCommerce APIs from Amazon and Commission Junction. Formerly called Etravelpal. ",
+      "original_categories": [
+        "hotels",
+        "auto",
+        "travel",
+        "transportation",
+        "rentals"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "garbagescout",
+      "description": " The New York City streets are full of interesting and potentially useful things that have been thrown out. If you see something good, snap a pic, send to GarbageScout where others can go and get it. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "goodneighbor",
+      "description": " Goodneighbor is a platform that allows you to define, run and manage Twitter avatars, totally autonomous Twitter identities that manage their own Twitter accounts, concerned with any subject matter and interested in any topic. ",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sqlify",
+      "description": "SQLify adds data conversion to any third-party application. The API converts JSON data into query-able data (CSV or SQL). SQLify offers full API access for free. A paid plan is also available which offers unlimited row processing and chat support.",
+      "original_categories": [
+        "big-data"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "djbooth",
+      "description": " DJBooth connects to the Dada Search API to contextually integrate dynamic links to music content. When DJBooth passes an artist name to the Dada REST API, Dada returns artist-specific XML content in real-time. ",
+      "original_categories": [
+        "ecommerce",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nba-above",
+      "description": " NBA basketball teams on the map. Click on team icon to get latest news. Now it's also possible to view NBA players' location as it's set in their twitter profiles, as well as their latest tweets ",
+      "original_categories": [
+        "sports",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wild-food-map",
+      "description": " An Instagram x Google Maps mashup and a community-driven wild food and medicine plant identification and social mapping service. Provide a platform to locate sources of free food and medicine plants (native or not) living in the landscape, sharing locations and related knowledge through social media interaction. ",
+      "original_categories": [
+        "food"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gym-alliance",
+      "description": " A Virtual Earth ajax client for locating Gym Alliance fitness clubs. Has search, direction control, the table updates when you mouse-over the club pushpins. If you click through to a specific club, it also provides driving directions. ",
+      "original_categories": [
+        "mapping",
+        "sports",
+        "australian"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tweekly.fm",
+      "description": " Tweekly.fm is a mashup between last.fm and twitter. It sends a weekly tweet listing your top weekly artists with their playcounts. ",
+      "original_categories": [
+        "music",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zappos",
+      "description": "We're happy to announce that we've launched our public API! Find out full details at http://developer.zappos.com.A few of the things you can accomplish with our API:Search : Leverage Zappos robust product search functionality that includes sorting, filtering, and a deep level of categorization/facetsProducts : Pull relevant product details (description, default images, different styles, price)Images : The full set of images for products (different views, sizes, etc.)Statistics: Find out what is being bought right now!Brands: Did you know we carry almost 1000 brands? Get more details on specific brands with this APIReviews: Zappos has thousands of reviews from our amazing customers. Find out what our customer's are saying about our productsThe API will be a REST API. In this initial release, it will only return JSON but upcoming releases will support XML.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tumblrss",
+      "description": " TumblRSS lets you import content from RSS Feeds into Tumblr. ",
+      "original_categories": [
+        "feeds",
+        "feeds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "uk-economic-indicators-dashboard",
+      "description": " Create a personalised dashboard of line charts to keep an eye on the UK economy. The page uses a PHP script to scrape time-series data CSVs from the Office for National Statistics website each day and add them to a MySQL database. Two more PHP scripts provide data to the page in JSON format. ",
+      "original_categories": [
+        "statistics",
+        "economics",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "artistdata",
+      "description": "ArtistData provides secure XML feeds to partners interested in getting information from the artists who use the ArtistData dashboard. The current information available through secure XML feeds is shows, news and blogs.ArtistData is building solutions to automate the updating of artist websites, social network profiles, concert databases, Twitter, official news feeds, iCal, local press, fan newsletters, and even tour books. When an artist updates our site, we update all their sites.",
+      "original_categories": [
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "scalarium",
+      "description": "Scalarium is a cloud hosting service that aims to help fulfill their clients' hosting needs through server management and associated services. Scalarium's servers are hosting using Amazon's EC2 cloud platform. Scalarium offers auto-scaling, server monitoring, logging and reporting, and technical support. A range of pricing options are available, as users pay per server per hour based on server type.The Scalarium API is a RESTful web service that exposes the functionality for managing and interacting with their servers. Users can list and create clouds, create and run instances, list and deploy applications, and gather status and logs at a per instance level.",
+      "original_categories": [
+        "cloud"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "another-tweet-wall",
+      "description": " Another Tweet On The Wall is a free Twitter Wall allowing you to display tweets filtered on your keywords in a funny way. ",
+      "original_categories": [
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "framey",
+      "description": "Framey is a JavaScript application that lets users record video on any website. With Framey, users can embed a webcam recorder into their sites. Users can integrate Framey by embedding the recorder, then use a rubygem or provided code snippets to accept updates from the Framey server when new videos are ready. Responses are formatted in JSON.",
+      "original_categories": [
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "exchange",
+      "description": " likeexchange.net is a website that enables Facebook fan page discovery and helps its members exchange likes with each other. ",
+      "original_categories": [
+        "social",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shizzow",
+      "description": "The Shizzow API lets you announce your location to your friends. You can add and remove friends, add and remove locations, post arrival and departure times and more.",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "map-deprivation-scotland",
+      "description": " A map of deprivation in Scotland, using Google Fusion Tables, D3, and data from the Scottish Government (Scottish Index of Multiple Deprivation 2012). ",
+      "original_categories": [
+        "scottish",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zendesk-core",
+      "description": "Zendesk is a software as a service company that provides businesses with different communication tools. The Zendesk Core API enables developers to integrate the Zendesk platform into their applications. With this API, users of the applications will be able to use the core features of the Zendesk service, some of the features include setting limits on calls, automating calls, access to call records.",
+      "original_categories": [
+        "support"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "best-buy-products",
+      "description": "Best Buy's Products API provides full product information for over 1M current and historical products, including pricing, availability, specifications, descriptions, and images.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "goseeoregon.com",
+      "description": " Social networking travel websites that creates personalized recommendations for each user based on user interests and user ratings. Uses geotagged Flickr photo stream and Google maps. ",
+      "original_categories": [
+        "photos",
+        "travel",
+        "social",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shoutcast-d.n..s.-status",
+      "description": " Using the Shoutcast API to show the playlist and server status of the radio station at the universidad nacional abierta y a distancia. ",
+      "original_categories": [
+        "monitoring",
+        "streaming",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "securenet",
+      "description": "The service provides a secure payment platform for integration with applications needing checkout functions for credit card and ACH (automated clearing house) transactions. Existing shopping cart packages already integrate with the service, creating a range of solutions for applications.API methods support submission of customer identity and payment information, either credit card number, expiration, etc., or bank account information for ACH transactions. Transaction submissions can also specify product specific information for the hotel, auto rental, and other industries.",
+      "original_categories": [
+        "payments"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pickemfirst",
+      "description": " With Pickemfirst you can easily manage multiple teams from anywhere on the web. Pickemfirst instantly tells you which player is available in which league and provides you with shortcuts to your favorite fantasy websites. ",
+      "original_categories": [
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "glue-one-out",
+      "description": " A movie quiz. Answers the simple multiple choice question Which movie is directed by a specific director? ",
+      "original_categories": [
+        "ecommerce",
+        "movies",
+        "movies",
+        "social",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "listnplay",
+      "description": " ListnPlay allows users to make and share playlists of audio, video, albums or other people's playlists. ",
+      "original_categories": [
+        "video",
+        "social",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "page2images",
+      "description": "Page2Images is a website thumbnail creater optimized for mobile devices. Page2Images exposes its service through a REST API. The API allows websites and applications to generate thumbnails of a given URL. The API is able to specify image size, device, screen size, and more.",
+      "original_categories": [
+        "screenshots"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bilka-app",
+      "description": " The Bilka mobile app serves offers, locations, events and provides a top-notch shopping list for the Danish customers. Bilka is a Danish chain of hypermarkets. ",
+      "original_categories": [
+        "grocery",
+        "discounts",
+        "food",
+        "location",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "chizmax-lyrics-and-video-search-engine",
+      "description": " This is combination of Lyrics search and video. When song is found on the lyrics database, it fetches the video from YouTube. ",
+      "original_categories": [
+        "lyrics",
+        "video",
+        "search",
+        "music",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "yelp-fusion",
+      "description": "The Yelp Fusion APIs are RESTful APIs and users can retrieve business review and rating, information for a particular geographic region or location.display review information for a particular business, determine accurate neighborhood name information for a particular location, track recent reviews for a particular business, display pictures of highly rated local businesses and of the top reviewers for that business, determine a particular business' review and rating information based on the phone number for that business. The default output is JSON. This output format was chosen due to the availability of JSON parsers in many languages. The following Yelp Fusion APIs are available: Search, Phone Number Search, Business Search, Transaction, Reviews, and Autcomplete - each API has a separate ProgrammableWeb entry.",
+      "original_categories": [
+        "recommendations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "world-bank-indicators",
+      "description": "The World Bank Indicators API provides access to almost 16,000 time series indicators, most of which are available online through tools such as Databank and the Open Data website. The API gives developers unified access to over 45 databases including World Development Indicators, International Debt Statistics, Doing Business, Human Capital Index, and Subnational Poverty. Many of the available data series go back more than 50 years.",
+      "original_categories": [
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mt-server-monitor",
+      "description": " Manage, monitor, and control your (mt) Media Temple services on your Android device. More details at droiddevil.com ",
+      "original_categories": [
+        "hosting",
+        "monitoring"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

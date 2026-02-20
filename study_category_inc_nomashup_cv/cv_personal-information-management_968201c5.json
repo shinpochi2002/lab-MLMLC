@@ -1,0 +1,26 @@
+{
+  "category": "personal-information-management",
+  "uid": "968201c5",
+  "n_samples": 14,
+  "n_labels": 6,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 3.520164728164673,
+      "std_val_loss": 2.451216874258508,
+      "mean_micro_f1": 0.11666666666666667
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 3.6628313302993774,
+      "std_val_loss": 2.911392158087004,
+      "mean_micro_f1": 0.1752136752136752
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 3.520164728164673,
+    "std_val_loss": 2.451216874258508,
+    "mean_micro_f1": 0.11666666666666667
+  }
+}

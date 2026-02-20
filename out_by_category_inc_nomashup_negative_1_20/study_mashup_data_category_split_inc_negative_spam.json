@@ -1,0 +1,446 @@
+{
+  "category": "spam",
+  "count": 42,
+  "positive_count": 2,
+  "negative_count": 40,
+  "pos_neg_ratio": "1:20",
+  "items": [
+    {
+      "mashup": "antideo",
+      "description": " Antideo maintains large database with spam and scam records, IP locations and infected ranges, proxy records and many more. We are keeping our database updated regularly from various sources, as well as collecting some of the data ourselves. Final result is millions of IP and email records kept up to date and free to use in a fair manner. ",
+      "original_categories": [
+        "spam",
+        "email"
+      ],
+      "used_apis": [
+        "antideo"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "antideo__api",
+      "description": "The Antideo API offers health checks that can be performed on IPs and Email adresses. These checks can be used for accepting user signups or checking orders against fraudulent indicators. Antideo updates its database regularly with the latest infected IP ranges, and proxy records. This API requires API Keys for authentication, and returns data in JSON format.",
+      "original_categories": [
+        "spam"
+      ],
+      "used_apis": [
+        "antideo"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "invoicing-time-entries-mite-billomat",
+      "description": " Import of times tracked via mite into the billing tool billomat. ",
+      "original_categories": [
+        "enterprise",
+        "invoicing",
+        "financial"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "magento-mediaburst-sms-notifications",
+      "description": " Get notified via SMS when people purchase from your magento powered ecommerce site. Send order status, dispatch and delivery notifications out by SMS. ",
+      "original_categories": [
+        "text",
+        "messaging",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bugsnag",
+      "description": "Bugsnag captures exceptions from web, mobile, and desktop applications in real-time, so they can be understood and resolved as quickly as possible. It provides a pair of RESTful APIs that enable users to access its functions programmatically; the Notifier API and the Deploy Tracking API.The Bugsnag Notifier API can be used to alert Bugsnag of an error or exception in an application. The Bugsnag Deploy Tracking API tracks multiple deploys of an app so that developers can identify the deploy in which an error was introduced.",
+      "original_categories": [
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "awayfind",
+      "description": " AwayFind is a powerful web application that finds your most important emails. When you receive an urgent message, AwayFind will notify you with a call, SMS, IM, DM (Twitter), or delegate the message to someone you specify. ",
+      "original_categories": [
+        "telephony",
+        "messaging",
+        "email"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "paris-cycle-route",
+      "description": " A cycle route in to Paris from Charles de Gaulle Airport. Uses Google Maps markers which also display route directions and are linked with photographs taken on the ground. ",
+      "original_categories": [
+        "cycling",
+        "sports",
+        "mapping",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "recognizeim",
+      "description": "Recognize.IM is an image recognition platform for mobile applications and photos. Users can connect their images from various online and mobile applications with Recognize.IM.The Recognize.IM Image Recognition API allows developers to access and integrate the Recognize.IM functionality with other applications and to build new applications. Some example API methods include managing account information, retrieving photos, and processing photos.",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapquest",
+      "description": "MapQuest Platform Services provides businesses and developers with an industry-leading platform that includes the developer tools, resources, and industry expertise for building rich, engaging online mapping solutions for wireless, web, and desktop applications.Several APIs and Web Services are available. APIs include JavaScript, Flash, Mobile Flash, Android, and iOS. Web Services, which can be accessed from a variety of environments, include Directions, Geocoding, Search, Static Maps, Long URL, and Traffic.",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "virtual-earth-3d-scenes-0",
+      "description": " Fly into a series of locations around the world. Cycles through scenes every 60 seconds. Requires IE plugin. ",
+      "original_categories": [
+        "3d",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "unemployed-america",
+      "description": " Google Maps + Twitter view of Unemployed in America. Tweets split into Eastern/Western United States. ",
+      "original_categories": [
+        "jobs",
+        "jobs",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "skyscanner-evature-twitter-flight-search",
+      "description": " Search for flights on twitter using the Evature travel search API and the SkyScanner flight search ",
+      "original_categories": [
+        "search",
+        "text"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "worlds-best-universities-map",
+      "description": " View the location and ranking results of the world's best universities on a map and compare the major rankings visually. ",
+      "original_categories": [
+        "education",
+        "mapping",
+        "ratings",
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "joe-bidens-journey",
+      "description": " Map that traces the life of US Democratic Vice Presidential nominee Joe Biden. ",
+      "original_categories": [
+        "mapping",
+        "government",
+        "government",
+        "history"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "vcarious",
+      "description": " VCarious is a community-based travel portal. Explore the world via dynamic travel guides, create journals, upload photos, and use other social features. ",
+      "original_categories": [
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "g4m3-twitter-flash-games",
+      "description": " Free online flash games integrated with Twitter auth for keeping track of high scores. ",
+      "original_categories": [
+        "games",
+        "humor",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "npr-labs-mapping-and-population-system",
+      "description": " Gooogle Maps Mashup displays public broadcast coverage overlays, and allows users to look up demographic information for all broadcast facilities, radio and TV. ",
+      "original_categories": [
+        "mapping",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "musicbrainz",
+      "description": "The MusicBrainz database contains a huge amount of music metadata, which is maintained by the MusicBrainz community. Find information about artists, albums, tracks and labels. Mash the data with your web app, media player, CD ripper, tagger or other applications requiring music metadata. The service's architecture follows the REST design principles. Interaction with the web service is done using HTTP and all content is served in a simple but flexible XML format.",
+      "original_categories": [
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "jolocate",
+      "description": " JoLocate puts Craigslist on a map. It offers an intuitive interface, as well as more complete Craigslist listings. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shared-count",
+      "description": " Shared Count is a small utility that will fetch social media shares for a url ",
+      "original_categories": [
+        "social",
+        "social",
+        "analytics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "blekko",
+      "description": "blekko is a search engine that sorts out spam, content farms and malware by crawling a subset of about 3 billion pages. To improve search results, blekko uses a tool called a slashtag that organizes websites into specific topics.A slashtag allows for the creation of a custom search engine. It is used to filter search results and helps users to search only high quality sites, without spam or content farms. Slashtags contain a list of websites so that when users search with a slashtag, they only search those sites.The blekko API lets developers integrate their application or web sites in order to run searches on blekko, and to manipulate slashtags. The API also provides access to SEO information. Developers should contact apiauth@blekko.com for documentation.",
+      "original_categories": [
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "3d-guide-to-downtown-ferndale-michigan",
+      "description": " An interactive guide to downtown Ferndale, Michigan built on the Google Earth Plug-In. It incorporates layered content from the business community, municipality and the local historical society. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flittr-0",
+      "description": " A visual social commentary using flickr and twitter. ",
+      "original_categories": [
+        "photos",
+        "tweets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "commission-junction",
+      "description": "The Commission Detail Service is a REST-based API that enables advertisers and publishers to access real-time commission and item-detail data. Advertisers and publishers that wish to receive commission reporting updates in near real-time or to request new commission data on a regular basis can use this API to create in-house tools that access real-time commission data from the CJ network. Developers may search by any number of criteria including price, currency, country, serviceable area and UPC. A SOAP API is also available but will eventually be deprecated.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "locafollow",
+      "description": " Find Twitter users near your location and bulk follow them. With LocaFollow you can search by keywords in the Bio and Location fields. ",
+      "original_categories": [
+        "blogging",
+        "social",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "f%c3%b8tex-app",
+      "description": " The føtex mobile app provides a convenient shopping list with current offers matching along with your information and store locations. føtex is a Danish chain of supermarkets. The app offers: - Fast and smart shopping list with bidding match (Purchase list) where the goods are automatically sorted by the layout of your local føtex so it's easy to shop. - Share your shopping list - send your shopping list to your friends, family or other devices. - The ability to see information about your local føtex (My føtex) - See all the offers in a clear way and easily add items to your shopping list. - Check the prices using the scanner in the app to scan an item's barcode and get the price. - the ability to get your shopping list on your Apple Watch ",
+      "original_categories": [
+        "grocery",
+        "coupons",
+        "discounts",
+        "food",
+        "location"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "foursquare-check-deals",
+      "description": " Find and locate Foursquare check-in deals anywhere. ",
+      "original_categories": [
+        "mobile",
+        "social",
+        "search",
+        "reference",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "concur",
+      "description": "The service provides online tools for business organizations to manage travel and expense reporting and reimbursement. Integrated travel booking functions combine with expense reporting within a single platform. The API allows integration with applications of customer companies, partner service providers, or independent third-party developers including mobile app developers.API methods support submission and tracking of travel requests and booking of transportation and lodging, either for individuals or for groups completing the same travel. Methods also support creating, updating, and submitting expense reports as part of a reimbursement process.",
+      "original_categories": [
+        "enterprise"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "run-finder",
+      "description": " Plot, save and share running routes. ",
+      "original_categories": [
+        "sports",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "inauguration-scrapbook",
+      "description": " It was built over a couple of days right after the inauguration by a group of Obama supporters. Millions of people wished to make it to D.C. but were unable. Now, anyone can share, view, and vote on images capturing that special series of days. ",
+      "original_categories": [
+        "government",
+        "government",
+        "photos",
+        "images",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ckan",
+      "description": "CKAN (Comprehensive Knowledge Archive Network) is an open-source data portal platform that provides an out of the box solution for managing, transferring, and accessing data. CKAN operates under a SaaS model and was created to help data publishers make their data open and available. The CKAN platform contains a catalog system with a web interface, data visualization and analytics, workflow support, access control, data storage, and federated structure.The web service is broken down into two distinct parts: Search and Model. The Search API exposes methods for searching resources, datasets, and revisions, as well as tag counts. The Model API provides a variety of GET, POST, and PUT operations for manipulating, creating, and retrieving model resources from the platform.",
+      "original_categories": [
+        "database"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tupalo",
+      "description": " A social yellow pages services where you can discover, rate and review local businesses and services around the world. Find restaurants, bars, boutiques, salons and other businsses. ",
+      "original_categories": [
+        "mapping",
+        "localization",
+        "ecommerce",
+        "photos",
+        "search",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "urban-registry",
+      "description": " Search for city properties and view listings via Google Maps. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "demand-movie-reviews",
+      "description": " Rotten Tomatoes mashup with reviews for Comcast On-Demand Movies. When you don't know what to watch. ",
+      "original_categories": [
+        "movies",
+        "tv"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "html5-to-image-generator",
+      "description": " Convert HTML5 code and CSS to images online. ",
+      "original_categories": [
+        "html5",
+        "images"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "album-cover-art",
+      "description": " Simple and fast album cover art engine. ",
+      "original_categories": [
+        "music",
+        "music",
+        "art"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "esellerads",
+      "description": " ESellerAds - Shop anywhere, buy on Etsy. ",
+      "original_categories": [
+        "ecommerce",
+        "advertising"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "energystar-abs",
+      "description": "The free web service from the U.S. Environmental Protection Agency (EPA) promotes sharing of data on energy use and facility energy-consumption information. It interacts with EPA's Portfolio Manager software tool to help applications provide energy and building data as part of the Energy Star energy performance rating. This benchmarking supports development of environmental performance metrics.API methods support management of Energy Star rating status, updating of building and energy meter information, and retrieval of benchmarking data for local comparisons. Methods also support management of ABS program user account information.",
+      "original_categories": [
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-app-engine",
+      "description": "[This API is no longer available. Its functions have been split among the following APIs: <a href=https://www.programmableweb.com/api/google-app-engine-admin>Google App Engine Admin</a>, <a href=https://www.programmableweb.com/api/google-app-engine-task-queue>Google App Engine Task Queue</a>, <a href=https://www.programmableweb.com/api/google-cloud-app-engine-tasks>Google Cloud App Engine Tasks</a>, <a href=https://www.programmableweb.com/api/google-app-engine-admin-rpc>Google App Engine Admin RPC</a>. This profile is being maintained purely for historical and research purposes.]Use the Google App Engine platform to run web apps on Google's infrastructure, the same scalable systems that run Google applications. Use the platform to run your apps reliably, even if you have heavy load and data needs. The environment has dynamic web serving, persistent storage with queries, sorting and transactions, automatic scaling and load balancing, APIs for authenticating users and sending email using Google Accounts, and a local testing environment.",
+      "original_categories": [
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mymaps.dk",
+      "description": " Local information and maps for the 7000 main cities and places in Denmark. ",
+      "original_categories": [
+        "localization",
+        "nordic",
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "blankslate",
+      "description": "BlankSlate is a platform as a service with a complete set of building blocks accessed by API that you can use to make all kinds of web applications.",
+      "original_categories": [
+        "database"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "trulia",
+      "description": " Search real estate listings at Trulia and see them plotted on Google Maps. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

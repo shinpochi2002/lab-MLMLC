@@ -1,0 +1,684 @@
+{
+  "category": "environment",
+  "count": 63,
+  "positive_count": 3,
+  "negative_count": 60,
+  "pos_neg_ratio": "1:20",
+  "items": [
+    {
+      "mashup": "greener-pastures",
+      "description": " Greener pastures ranks U.S. cities based on the greenness of their available housing stock. In a graph, each line represent a city's greenness over time. You can hover over a line to see which city it represents and compare. ",
+      "original_categories": [
+        "visualizations",
+        "search"
+      ],
+      "used_apis": [
+        "brighter-planet-cm1"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "yaktrak",
+      "description": " Track FedEx packages--with per-segment CO2 estimates. ",
+      "original_categories": [
+        "sustainability",
+        "environment",
+        "shipping"
+      ],
+      "used_apis": [
+        "brighter-planet-cm1"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "brighter-planet-cm1",
+      "description": "This web service, part of Brighter Planet's carbon middleware suite, enables developers to build flexible, real-time carbon footprint estimates from sources such as cars, flights, and houses into business applications. Brighter Planet delivers cloud-based web services providing on-demand carbon information for a fraction of a cent per query, meant for enhancing existing operational data with environmental intelligence that matters. The emission calculation service provides greenhouse gas emission estimates for a variety of emitters of arbitrary description. The API uses RESTful protocol and responses can be formatted in XML and JSON.",
+      "original_categories": [
+        "environment"
+      ],
+      "used_apis": [
+        "brighter-planet-cm1"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "paris-cycle-route",
+      "description": " A cycle route in to Paris from Charles de Gaulle Airport. Uses Google Maps markers which also display route directions and are linked with photographs taken on the ground. ",
+      "original_categories": [
+        "cycling",
+        "sports",
+        "mapping",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickrrandom",
+      "description": " Multiple ways to browse random images from Flickr: all, interestingness, photostreams, groups, etc. ",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "snaptweet",
+      "description": " Mashup to easily share your Flickr photos on Twitter. ",
+      "original_categories": [
+        "photos",
+        "blogging",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fotobabble-business-marketing-collection",
+      "description": " Sample business generated talking photos, used for marketing purposes. Engage customers and then share on popular social media sites like Facebook and Twitter. ",
+      "original_categories": [
+        "photos",
+        "visualizations",
+        "video",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "video-evolved",
+      "description": " Generate video playlists of YouTube videos related to your search term and watch the videos back to back. Embed a playlist in your blog. ",
+      "original_categories": [
+        "video",
+        "widgets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "athenaeum",
+      "description": " Athenaeum is a mashup of Goodreads.com and Toronto Public Library created by Chris Nolan. Goodreads API allows to personalize book preferences, reason why the mashup can be found useful by members of the Toronto Public Library. Contents include how to use, tests, and known issues. Just like the author, users can automatically take checked out items and add them to Goodreads.com shelves. ",
+      "original_categories": [
+        "books",
+        "library",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "keep-jones",
+      "description": " This Facebook app allows you to connect to Zillow from Facebook. View information about your house and see what your friends houses are worth. ",
+      "original_categories": [
+        "widgets",
+        "mapping",
+        "financial",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "live-news-map",
+      "description": " A mashup GeoRSS feeds, the new Google AJAX Feed API and Google Maps. News from a number of sources is plotted on a Google Map. Live streaming video is also available from a number of news sources. ",
+      "original_categories": [
+        "mapping",
+        "feeds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tropical-cyclone-phailin-shelters",
+      "description": " This mashup helps locate safety shelters in India. With Tropical Cyclone Phailin closing in on land many people will be looking to find safety. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitter-voice",
+      "description": " Join the Twitter Voice website, sync your twitter account and you will be given a telephone number to call. Call the telephone number,record your voice and your followers will be notified of your new audio tweet. Only works in India for now. ",
+      "original_categories": [
+        "humor",
+        "messaging",
+        "social",
+        "telephony",
+        "voice"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tweespeed",
+      "description": " The Twitter Instant Speed Meter. TweeSpeed is a web service giving you the number of tweets sent in the last minute. TweeSpeed is based on the public timeline, grab information for the 5 last minutes and calculate an average speed for one minute. ",
+      "original_categories": [
+        "blogging",
+        "charts",
+        "visualizations",
+        "tweets",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "scripturemenu.com",
+      "description": " Uses the ESV Bible Web Service to display passages relating to a topic. ",
+      "original_categories": [
+        "search",
+        "religion"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "lookfm",
+      "description": " Easy way to listen music. ",
+      "original_categories": [
+        "music",
+        "video",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "oilaholic",
+      "description": " Get Gulf oil spill updates and oil spill clean up news, see oil spill photos, watch oil spill videos, chat about oil spills and more at Oilaholic.com. ",
+      "original_categories": [
+        "video",
+        "photos",
+        "environment",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "new-york-times-movie-tweets",
+      "description": " Tweets about the latest featured New York Times movie reviews. ",
+      "original_categories": [
+        "search",
+        "social",
+        "movies"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapgasprices.com",
+      "description": " Very good, up-to-date gas price search with Google Maps station display. ",
+      "original_categories": [
+        "mapping",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "findilike",
+      "description": " FindiLike Hotel Search is a hotel search and review analysis system that helps users find hotels based on their reviews, prices, or location. Hotels can be searched with unstructured keywords like, pet friendly, swimming pool, or friendly staff. FindiLike App also supports structured search criteria like distance from a landmark or address or price range. ",
+      "original_categories": [
+        "search",
+        "text"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "etsy-shop-value-calculator",
+      "description": " The Etsy Shop Value Calculator is a great way to find out how much your shop is worth, and to compare your shop's performance with shops of close competitors. ",
+      "original_categories": [
+        "ecommerce",
+        "ecommerce",
+        "statistics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fakegirlfriend",
+      "description": " FakeGirlfriend.co allows single guys to appear that they have a girlfriend when they actually don't. You can text the app and your fake girlfriend will text you and then call you back. ",
+      "original_categories": [
+        "telephony",
+        "humor",
+        "messaging",
+        "mobile",
+        "social",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "scanmyback",
+      "description": " Create custom t-shirts and other apparels with your unique message encoded as QR codes. People can scan your back with the QR applications on their smartphone and decode your custom message, link to websites, videos and pictures ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "realwebstats",
+      "description": " RealWebStats is the best Real Web Stats and Website Valuation service for webmasters and website owners. ",
+      "original_categories": [
+        "seo",
+        "urls"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cybevasion",
+      "description": " Guide to Bed and Breakfasts and hotels in France. ",
+      "original_categories": [
+        "travel",
+        "hotels",
+        "french",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mylocaltribune",
+      "description": " A visual Google Maps and Twitter mashup lets you find local updates from local tribunes. ",
+      "original_categories": [
+        "mapping",
+        "blogging",
+        "localization",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "joemap",
+      "description": " A do-it-yourself Goolge Maps site. You can create maps, upload photos, add comments and ratings. Explore maps created by other users. ",
+      "original_categories": [
+        "photos",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "webaloud",
+      "description": " WebAloud uses the innovative twilio client to bring text-to-speech directly inside your browser. Just highlight the text and click play! ",
+      "original_categories": [
+        "text",
+        "voice",
+        "voice"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "unofficial-tupalo-widget",
+      "description": " A Netvibes UWA widget that enables you to search for tags on Tupalo.com and view the matching locations on a map. ",
+      "original_categories": [
+        "mapping",
+        "widgets",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ooyala",
+      "description": " A platform for improving delivery, monetization and analytics of online video. This platform is built on multiple Amazon web services. Winner of Amazon Startup Challenge. ",
+      "original_categories": [
+        "video",
+        "tools",
+        "advertising",
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sales-tracker",
+      "description": " Sales Tracker is a product built around organizations who want their field sales team to report there daily sales via SMS. ",
+      "original_categories": [
+        "messaging",
+        "mobile",
+        "messaging",
+        "sales"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "okinawa-japan-travel-guide",
+      "description": " Best beaches, diving, parks, pictures from the island of Okinawa, Japan. See virtual images, panoramas, and aerial photographs of places to visit. Pictures link to reviews, driving directions, maps, and slideshows. ",
+      "original_categories": [
+        "sports",
+        "japanese",
+        "photos",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zoomap",
+      "description": " The goal of Zoomap is to populate maps with user images. Add any image on any place in the world and leave a message in a text bubble. Everything on the map can be viewed by other users, the images can be reused and you can send the location by email. ",
+      "original_categories": [
+        "art",
+        "humor",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "grid-based-palette-browser",
+      "description": " A minimal, searchable grid that shows palettes with widths or patterns and colours from COLOURLovers.com ",
+      "original_categories": [
+        "visualizations",
+        "design",
+        "colors",
+        "colors"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tozoy",
+      "description": " This product is about providing opinion about your friends, about different topics, or practically anything on the web. All our friends have different characteristics, and we either like it or don't. However very few of us let our friends know what we like or dislike about them. ",
+      "original_categories": [
+        "social",
+        "social",
+        "recommendations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "infinite-monkey-comics",
+      "description": " Infinite Monkey Comics presents a random image from Flickr superimposed with some text off of Twitter, based on keywords of your choosing. Think of it like the Infinite Monkey Theorem, but instead of Shakespeare the monkeys are creating comics. ",
+      "original_categories": [
+        "blogging",
+        "photos",
+        "art"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "maiana",
+      "description": " Maiana is a social service to host, explore and share Topic Maps sources. Maiana provides mashups to deliver the structured content into blogs and other CMS. For enforcing semantic interoperability subj3ct.com is used. ",
+      "original_categories": [
+        "social",
+        "semantics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cammap-usa",
+      "description": " USA webcams via Google maps. Limited amount of content. ",
+      "original_categories": [
+        "mapping",
+        "photos",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "moffle",
+      "description": " A web of Bangkok Thailand on Google maps. It allows users to create custom map with markers and routes. ",
+      "original_categories": [
+        "mapping",
+        "customization"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "waterloo-student-housing-map",
+      "description": " Waterloo Student Housing to help college and university students find rental housing and sublets. Combines UW housing database with Google Maps. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "donorschoose",
+      "description": "DonorsChoose.org is an online charity that makes it easy for anyone to help students in need.Here's how it works: public school teachers from every corner of America post classroom project requests on DonorsChoose.org. Requests range from pencils for a poetry writing unit, to violins for a school recital, to microscope slides for a biology class.Then, you can browse project requests and give any amount to the one that inspires you. Once a project reaches its funding goal, we deliver the materials to the school.You'll get photos of your project taking place, a thank-you letter from the teacher, and a cost report showing how each dollar was spent. If you give over $100, you'll also receive hand-written thank-you letters from the students.DonorsChoose.org's simple JSON API allows developers to pull DonorsChoose.org classroom project listings into their website or application using project selection criteria of their choosing.The JSON API has been used by DonorsChoose.org partners like Chevron, SONIC Drive-In, NBC Universal, Bing, PayPal, and others to build high-profile highly customized giving and cause marketing experiences.The API also enables developers to donate to projects or purchase gift cards without routing users to DonorsChoose.org for payment.",
+      "original_categories": [
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "biodiversity-taxonomic-catalogue",
+      "description": " A way to explore all life forms in a taxonomic way. Useful for students, scientists and curious people. Flickr and GBIF (gbif.org) APIs. ",
+      "original_categories": [
+        "photos",
+        "animals",
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gethealth",
+      "description": "GetHealth is a Unified RESTful API to access health data from wearables and devices. It allows users to integrate the sources like Dailymile, Fatsecret, Fitbit, Google Fit, Jawbone, Lifefitness, MapMyFitness, MapMyRun, MapMyWalk, Microsoft Health, Misfit, Moves, PredicctBGL, Runkeeper, Strava, Sony Lifelog, Withings, and 23andMe. It also allows integration to medical devices. There are api calls available for activity, diabetes, weight, nutrition, sleep, and genotype. Furthermore it eases the user authentication process for each source with single-sign on API call. Also it normalizes the data across multiple sources and provides unified data structure.",
+      "original_categories": [
+        "healthcare"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "picbi",
+      "description": " Picbi is a way to explore Instagram on the web from a different user interface. Using the web app, users may browse through users, tags and places and create and share collections of your favorite Instagram accounts. ",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "user-trends-twitter",
+      "description": " Get a list of frequent words/phrases used by specific twitter users. ",
+      "original_categories": [
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "update-facebook",
+      "description": " Like an iPhone met Facebook. Real time status updates of your Facebook friends. Update your status, poke and message your friends via advanced UI. ",
+      "original_categories": [
+        "social",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wolpy",
+      "description": " Track your own and your friends travels ",
+      "original_categories": [
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "lulu-publishing",
+      "description": "The Lulu Print API allows you to use Lulu.com as your production and fulfillment network by integrating it directly into your own application. The Lulu API utilizes the same APIs that Lulu uses internally to normalize files and send Print Jobs to our production partners around the world.Whether you're a Developer, Start-up, Entrepreneur or Publisher, you can now incorporate global Print-on-Demand book manufacturing and distribution into your own business quickly and easily at the best commercial rates in the industry.",
+      "original_categories": [
+        "printing"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "trumps-circle-death",
+      "description": " If you laid every American who died from COVID-19 in a circle around Trump Tower, this is how big it would be. This mashup uses the CoronaTracker API to visualize COVID19 data. ",
+      "original_categories": [
+        "coronavirus",
+        "covid-19",
+        "politics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickrtivo",
+      "description": " Display flickr photos for your Tivo ",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dbstract.com",
+      "description": " DBStract is a free web app and database builder. ",
+      "original_categories": [
+        "database",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "phrasr",
+      "description": " Phrasr is an interactive web based application that uses Flickr images to illustrate the phrases that users submit. You can choose every image and then publish the entire phrase, which is shown as a personal slide show. ",
+      "original_categories": [
+        "visualizations",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "turtilla-rss-mashup-tool",
+      "description": " Turtilla is an online service which allows you to search and filter content related to your interests. This content is captured from a large variety of sources. The generated results can be converted to an RSS feed. ",
+      "original_categories": [
+        "photos",
+        "feeds",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "lcd-tv-price-comparison",
+      "description": " Compare LCD TV prices. The product and price data feed is pulled from the Shopping.com API. ",
+      "original_categories": [
+        "tv",
+        "ecommerce",
+        "comparisons",
+        "tv"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "online-basketball-camp",
+      "description": " Online Basketball Camp (also referred to as Hoop Alert) is a website for coaches to manage and communicate with their teams by providing a custom platform for scheduling, text messaging, video uploading, and more. It utilizes a few different APIs, some of which include AT&amp; T In-App Messaging, and Google Calendar. ",
+      "original_categories": [
+        "messaging",
+        "collaboration",
+        "sports",
+        "text"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nfl-fan-mapping-site",
+      "description": " Create and share maps to places near your favorite NFL stadium, including tailgates, restaurants, clubs, and seats. ",
+      "original_categories": [
+        "mapping",
+        "sports",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "datarella",
+      "description": "Datarella is a big data collection company based in Germany. Their Explore app accesses sensors in smartphones and wearable devices to record data like location, environment, and personal behavior. This data is then aggregated and issued in a way that respects user privacy to Datarella partners to help increase their customer data portfolio. The Datarella API provides a way that users may access these data sets to consume real time analytics from Explore app users. In addition to OAuth, the API accepts a user's Explore App login email and password for authentication.",
+      "original_categories": [
+        "intelligence"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gvisit",
+      "description": " Track visitors to your website using Google Maps. ",
+      "original_categories": [
+        "mapping",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ubi-voice-assistant",
+      "description": " UBI Voice Assistant is a platform that integrates voice interaction with Internet of Things products, and features Alexa Voice Service (AVS) integration, voice interaction testing, and quality of service monitoring. This platform uses the Maluuba Natural Language API to add natural voice recognition and machine learning capabilities. UCIC (Unified Computer Intelligence Corporation) is an IT firm based in Toronto, Canada. ",
+      "original_categories": [
+        "customization",
+        "integration",
+        "voice"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "myob-accountright-live",
+      "description": "MYOB AccountRight Live is an accounting application for businesses in Australia. MYOB AccountRight Live offers a variety of accounting and bookkeeping features.The MYOB AccountRight Live API allows developers to access and integrate the functionality and data of MYOB AccountRight Live with other applications. Some example API methods include managing accounting files, retrieving information on accounts, and managing transactions.",
+      "original_categories": [
+        "financial"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "risk-google-map",
+      "description": " Play a variation of the classic game Risk on a Google Map. Note: As of Dec 1, 2005 this has been shut down at the request of Hasbro Inc. ",
+      "original_categories": [
+        "mapping",
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "business-alerts",
+      "description": "Business Alertsâ€™ Desktop Alert product sends instant alerts to desktops, inboxes, and mobile phones. Features include encryption, customized messages, and Twitter and Facebook notifications. The Desktop Alert API allows partnering developers to integrate the product, including the ability to add, expire, delete, or renew group members.",
+      "original_categories": [
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dc-shot-spotter",
+      "description": " The Districtâ€™s ShotSpotter has detected 39,000 outdoor gunshot incidents in the past eight years. Sensors cover about a third of the city and are concentrated where gun crime is highest. It allows police to respond immediately to the exact location where shots are fired and provides a dramatic picture of the danger faced in many neighborhoods. Results are displayed here using MapBox. ",
+      "original_categories": [
+        "mapping",
+        "government",
+        "police",
+        "safety"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

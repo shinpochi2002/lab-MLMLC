@@ -1,0 +1,132 @@
+{
+  "category": "animals",
+  "count": 12,
+  "positive_count": 2,
+  "negative_count": 10,
+  "pos_neg_ratio": "1:5",
+  "items": [
+    {
+      "mashup": "feline-finder",
+      "description": " The Feline Finder app uses RescueGroups.org http/json API to show loacally adoptable cats. By answering a few simple questions you can find the cat that's perfect for you. You can also view a ranked list of cat breeds based on how you answered the questions, learn about different cat breeds via descriptions and YouTube videos. ",
+      "original_categories": [
+        "animals",
+        "search"
+      ],
+      "used_apis": [
+        "rescuegroups"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "rescuegroups",
+      "description": "RescueGroups.org provides technology solutions for animal rescue and shelter organizations.RescueGroups.org is different because we are community focused, and do not have any advertising or logo requirements associated with our data sharing.We provide completely free (no cost and no advertisements or requirements) access to our database of adoptable pets (dogs, cats, horses, rabbits and dozens of additional species) to anyone that wants to promote pet adoption.RescueGroups.org provides three adoptable pet data APIs:REST - full download of hundreds of thousands of adoptable pets, descriptions and picturesHTTP/JSON - live queries with JSON.The HTTP/json API provides programmatic access to both public and private data objects including animals, contacts, web pages, events, etc. Also, the RescueGroups.org HTTP/json API is the only UPDATEABLE rescue/shelter API available. Our clients and ASPs can build their management systems on top of the RescueGroups.org platform using the updateable API.Please visit our website for detailed information on our APIs and how to get started.",
+      "original_categories": [
+        "animals"
+      ],
+      "used_apis": [
+        "rescuegroups"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "ncaa-fund-future",
+      "description": " The NCAA partnered with DonorsChoose.org for the NCAA's Fund the Future campaign (www.ncaa.org/fundthefuture) in support of K-12 school districts around the country. The campaign was supported by public service announcements aired on TV during the NCAA championships of March 2011, including the NCAA Division I Menâ€™s and Womenâ€™s Basketball Championships! ",
+      "original_categories": [
+        "charity",
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "stripe",
+      "description": "The Stripe API allows developers to access the functionality of Stripe. Some example API methods include sending invoices, accepting payments, managing subscription billing, and editing and managing account information.Stripe is a service that allows users to accept payments online, specifically developers. With the Stripe application, users can keep track of payments, search past payments, create recurring charges, and keep track of customers.",
+      "original_categories": [
+        "payments"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "compare-maps",
+      "description": " Compare the two mapping systems. As you move around one map, the other moves also. This site also contains a search as provided by our very own Dr. Neil. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "hangoutlater",
+      "description": " Foursquare is awesome for meeting up with friends - it notifies you when a friend checks in close by so that you can go meet them. But, sometimes a friend checks in while you're busy - at dinner, seeing a movie, etc. You want to hang out with them when you're free, but you won't unless you put in a lot of effort into co-ordinating plans for later. That's where HangoutLater comes in. When you checkin somewhere, HangoutLater notifies you on Foursquare that one or more of your friends have checked in close by recently. It then suggests a fun place between all of you where you guys can meet up when you're free. ",
+      "original_categories": [
+        "social",
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "arms-dealer",
+      "description": " Arms Dealer is a facilitator of small arms acquisition. Find and review gun shops, shooting ranges and other firearm related businesses. ",
+      "original_categories": [
+        "weapons",
+        "search",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bing-traffic",
+      "description": "The Bing Traffic API provides information about traffic incidents and issues, such as construction sites and traffic congestion. Traffic incident information is currently available for the United States and Canada. Users can also get information about traffic issues that met the criteria specified in the URL request, such as map area, incident type and severity. The API uses RESTful calls and responses are formatted in XML and JSON.",
+      "original_categories": [
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geographic-midpoint-calculator",
+      "description": " You select your desired locations, such as all of the cities you have lived in, then the map will display all of your cities along with the exact midpoint for those places. ",
+      "original_categories": [
+        "mapping",
+        "trivia",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "my-best-clip",
+      "description": " Selection of the most funny and interesting YouTube video clips. ",
+      "original_categories": [
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sms-addon-wordpress-and-contact-form-7",
+      "description": " Get notified by SMS when someone fills in your Wordpress online contact form. Also works with Contact Form 7. ",
+      "original_categories": [
+        "mobile",
+        "telephony",
+        "messaging",
+        "forms"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "brazil-ckan",
+      "description": "CKAN is the Comprehensive Knowledge Archive Network, a non-profit registry of open data. CKAN prepares data and provides access to data in ways that make that data more discoverable and usable.The government of Brazil makes some datasets available through CKAN, including data on births and deaths; police reports in the state of Rio Grande do Sul; survey of living conditions; school census; and more.The CKAN API provides access to this data. The API is RESTful and returns responses in JSON and JSONP.",
+      "original_categories": [
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

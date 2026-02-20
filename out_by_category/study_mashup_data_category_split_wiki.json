@@ -1,0 +1,54 @@
+{
+  "category": "wiki",
+  "count": 4,
+  "items": [
+    {
+      "mashup": "scoopmap.net",
+      "description": " Scoopmap.net allows users to view breaking news around the world by leveraging two APIs. Discover hot spots and articles written by high quality newspapers such as the Guardian and New York Times. ",
+      "original_categories": [
+        "localization"
+      ],
+      "used_apis": [
+        "dbpedia"
+      ]
+    },
+    {
+      "mashup": "geo-wiki-search",
+      "description": " A Mashup of the new WikiLocation API and Google Maps to show information about Wikipedia articles in a location. ",
+      "original_categories": [
+        "social",
+        "reference",
+        "search",
+        "mapping"
+      ],
+      "used_apis": [
+        "wikilocation"
+      ]
+    },
+    {
+      "mashup": "dbpedia-mobile",
+      "description": " DBpedia Mobile maps DBpedia locations and allows users to explore background information about them by navigating into DBpedia and other interlinked datasets such as GeoNames, Revyu, EuroStat and Flickr. Supports 14 languages and various filters. ",
+      "original_categories": [
+        "reference",
+        "mapping",
+        "mobile",
+        "semantics"
+      ],
+      "used_apis": [
+        "dbpedia"
+      ]
+    },
+    {
+      "mashup": "flickr-wrappr",
+      "description": " For each of the 1.95 million DBpedia concepts, the wrappr generates a collection of flickr photos that depict the concept, utilizing multilingual labels and geo-coordinates provided in Wikipedia entries. ",
+      "original_categories": [
+        "wiki",
+        "reference",
+        "photos"
+      ],
+      "used_apis": [
+        "dbpedia"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,505 @@
+{
+  "category": "auto",
+  "count": 48,
+  "positive_count": 3,
+  "negative_count": 45,
+  "pos_neg_ratio": "1:15",
+  "items": [
+    {
+      "mashup": "mera-caar-guide-to-car-components",
+      "description": " This uses Mera Caar API hosted on Heroku and has its specification on Programmable Web at https://www.programmableweb.com/api/mera-caar. It uses the API for the very purpose the API was created in the first place - to guide the viewer about the components present inside a generic car. ",
+      "original_categories": [
+        "auto"
+      ],
+      "used_apis": [
+        "mera-caar"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "mera-caar",
+      "description": "This API can be used for getting details about car components in a format that has been defined by the author: Kartik Shenoy. The data has been obtained from various sites. Use the API to retrieve and manage car component names, unique car components, car component codes and details.",
+      "original_categories": [
+        "auto"
+      ],
+      "used_apis": [
+        "mera-caar"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "windshieldrepair-tech-auto-glass",
+      "description": "The restful WindshieldRepair Tech Auto Glass API provides developers a way to access information about vehicle year, make, model, and body style information. Requests to the API are made using HTTP GET with an API KEY included as a GET parameter. WindshieldRepair Tech is an auto glass and windshield repair company.",
+      "original_categories": [
+        "auto"
+      ],
+      "used_apis": [
+        "windshieldrepair-tech-auto-glass"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "key-silicon-valley-places",
+      "description": " Map of the main players in Silicon Valley like Google, Yahoo, Facebook, eBay and many others. Via Valleywag. ",
+      "original_categories": [
+        "mapping",
+        "business"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "europe-photo-helix",
+      "description": " Helix designed of Flickr photos of Europe. ",
+      "original_categories": [
+        "photos",
+        "european",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rent-me-vacation",
+      "description": " Worldwide vacation rental listings direct from owners. ",
+      "original_categories": [
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "buzzdata",
+      "description": " BuzzData lets you share your data in a smarter, easier way. Instead of juggling versions and overwriting files, use BuzzData and enjoy a social network designed for data. ",
+      "original_categories": [
+        "voice",
+        "social",
+        "data",
+        "social",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "conceptshare",
+      "description": "From their site: Use the API to leverage the ConceptShare platform to further improve your projects. You can customize the ConceptShare experience for your organizations, teams and clients. For example, create an automated way to get your customers to submit projects via a website (the API supports automated workspace generation from a web form). ConceptShare makes online design collaboration easy. The interface allows you to quickly and easily switch between multiple concepts, review and markup, comment, manage participants and chat.",
+      "original_categories": [
+        "project-management"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "claudia-augusta",
+      "description": " A mashup for the ancient Roman road Via Claudia Augusta between Konigsbrunn and Epfach in Germany. ",
+      "original_categories": [
+        "history",
+        "mapping",
+        "german"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "musical-gifts",
+      "description": " Thank to discogs users can choose their favorite cds to make gifts to their friends. ",
+      "original_categories": [
+        "music",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wikilocation",
+      "description": "The WikiLocation API is for developers wishing to search for Wikipedia articles by location. The data is gathered by downloading the Wikipedia database on a weekly basis and then parsing all of the geocoded entries. This data is stored in a database where it is able to be accessed via the API.WikiLocation supports 36 languages, totaling over 3.8 million articles. At present, there are over 1 million entries from en.wikipedia.org alone.In addition to searching via location, users can also search via the venue and spot IDs of the two most popular geo-location networks; Foursquare and Gowalla as well as by Yahoo! WOEID. The API uses RESTful protocol and responses are formatted in XML, JSON, or JSONP.",
+      "original_categories": [
+        "wiki"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ncaa-basketball-history-map",
+      "description": " NCAA Mens Basketball Championship on Google Maps. Includes locations of Winners, Losers, Venue. History of the Championship games from 1939-Present. Many ways to search and sort including year, highest or lowest Score, nail biters, and widest margin. ",
+      "original_categories": [
+        "sports",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tradegecko",
+      "description": "TradeGecko is an online inventory and order management platform. The TradeGecko API provides developer access to that platform, allowing automated manipulation of data describing customers, orders, inventory, and more. The API communicates over HTTPS and authenticates with OAuth2. HTTP GET/PUT/POST calls are supported and responses are JSON format. The API also supports pagination and filtering of records.",
+      "original_categories": [
+        "enterprise"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "badgeplz-0",
+      "description": " BadgePLZ is an Instagram widget for websites. ",
+      "original_categories": [
+        "widgets",
+        "tools",
+        "photos",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "billomat",
+      "description": "Billomat is a web based billing service. It allows users to create offers and invoices and manage customers. The billomat API uses a RESTful interface that allows access to the data in a user's Billomat account. Developers can integrate online orders and desktop applications with their Billomat account. Responses are in XML or JSON format. The site and documentation is in German.",
+      "original_categories": [
+        "financial"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sms-addon-wordpress-and-contact-form-7",
+      "description": " Get notified by SMS when someone fills in your Wordpress online contact form. Also works with Contact Form 7. ",
+      "original_categories": [
+        "mobile",
+        "telephony",
+        "messaging",
+        "forms"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "taxi-fare-finder",
+      "description": "The value of Taxi Fare Finder API is to find the rate between two locations. As the fee might vary according to every place, the site features a list of more than 20 entities that include United States, UK, Australia, Netherlands, Belgium, New Zealand, India, Spain and China. This API has a secure connection via SSL. Some of the properties in JSON protocol cover name, locale and distance. To get a taxi fare, the required parameters are key, origin and destination, while the optional parameters are callback and traffic. More properties encompass initial fare, total fare, currency, percentage, and rate area. Support is available for developers, who can find a taxi calculation in the main page of the site.",
+      "original_categories": [
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "windsurfing-videos",
+      "description": " Browse the latest, most popular, and most highly-rated windsurfing videos from YouTube. Eliminates the hassle of searching through YouTube for good windsurfing videos. ",
+      "original_categories": [
+        "sports",
+        "sports",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "reachoo-video-classifieds",
+      "description": " Video classifieds site that connects the local community and assists sellers and buyers in making transactions via videos. ",
+      "original_categories": [
+        "mapping",
+        "video",
+        "classifieds",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "invenbin-0",
+      "description": " Time tracking, inventory and resource management from your phone. Time Keeper and Inventory Tracker updates by SMS or web. Barcode generator; scan and text to update. Project Management integration. SMS requires a Twilio account. ",
+      "original_categories": [
+        "telephony",
+        "mobile",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "people-lookup",
+      "description": " Firefox add-on. Quickly look people up by highlighting their full name on a page and then right-clicking to search for them across Google, LinkedIn, Wikipedia, Facebook and more. ",
+      "original_categories": [
+        "search",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "googleminus",
+      "description": " This is a browser extension that tells you when people remove you from all of their circles on Google+ (GooglePlus). ",
+      "original_categories": [
+        "social",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pediax",
+      "description": " Pediax allows browsing of 50,000 geo-referenced Wikipedia articles on Google Maps. It shows the 20 most popular places in the currently selected map area. On moves or zooming of the map area the respective places are updated. ",
+      "original_categories": [
+        "wiki",
+        "reference",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "harvest",
+      "description": "From their site: Harvest provides two API interfaces, serving two distinct roles. If you need to access and manipulate your daily timesheet the Timetracking API fits the bill. Notable uses are the widgets we provide for PC and Mac as well as other third party timesheet software integrations. If you need to access and edit your projects, clients, users and tasks the Extended REST API is your choice. You can use this to mass import your existing projects setup, add users and generally integrate with your existing back-office setup.",
+      "original_categories": [
+        "project-management"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "clgraphs-craigslist-graphs",
+      "description": " Graphical analysis of job posts on Craigslist.org across all of US. ",
+      "original_categories": [
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "where-i-had-my-first-kiss",
+      "description": " Share your fondest or worst memories of your first kiss on this community and mapping site. Top level map shows most recently added kiss locations on a world map. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fastcashier-wallet",
+      "description": " FastCashier Wallet is a cross-platform that allows payment and receipts to be made through a portal. It serves as an electronic alternative to traditional paper methods such as cheques and money orders. Every process of it is simple, secured; in real-time, and it can either be used on a mobile device or PC. ",
+      "original_categories": [
+        "messaging",
+        "payments"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ccquick",
+      "description": " A tool for Constant Contact users called ccQuick It's a great tool that allows you to create and configure subscribe boxes for your websites and then easily put the box on your site with a simple piece of code. Lead capture definitely just got easier! ",
+      "original_categories": [
+        "contacts",
+        "tools",
+        "sales"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "alertnet",
+      "description": " Display crisis hotspots on a world map and retrieve latest news on each crisis from Reuters. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "css-mania",
+      "description": "The API provides access to the CSS showcases that are submitted to CSS Mania. It provides search access to various CSS showcases with their screenshots, url, rating, votes, top 5 colors used, and more.",
+      "original_categories": [
+        "other"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tourcms-facebook-tabs",
+      "description": " Facebook app that allows Tour and Activity Operators using TourCMS to easily add their product details to a new tab on their Facebook page. ",
+      "original_categories": [
+        "travel",
+        "marketing"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapas-publicar",
+      "description": " South America-related maps. Sophisticated map search. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "my-del.icio.us-recommendation-snippet-0",
+      "description": " A recommendation link list generator extracted from site owner's bookmarks archived in del.icio.us. Entire generation process is via client side JavaScript. ",
+      "original_categories": [
+        "bookmarks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "elcies-connected-services",
+      "description": "The ELCIES API allows developers to create applications that take advantage of data coming from different wearable and health devices. By using this API, you can access physical activity and health data stored in your ELCIES Business Account for users that already provided your company or app prior consent for data collection.",
+      "original_categories": [
+        "health"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "boston-subway-station-map",
+      "description": " Good map of the Boston Subway system with detailed marker popups. ",
+      "original_categories": [
+        "mapping",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "convoy-call",
+      "description": " Tries to simulate the simple joys of talking over CB radio on the highway. Just call in and enter the number of a highway and you will be entered into a group chat with other people traveling along the same road. ",
+      "original_categories": [
+        "humor",
+        "telephony",
+        "travel",
+        "voice"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "skatespotter",
+      "description": " Search, rate, and discuss skate spots, parks and shops in your neighborhood using Google Maps. Upload, watch and rate your favorite skate videos and photos. ",
+      "original_categories": [
+        "sports",
+        "mapping",
+        "video",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "open-data-companion-odc",
+      "description": " The Open Data Companion (ODC) app for Android provides a unified access point to over 170 open data portals and thousands of datasets from around the world; right from your mobile device. Crafted with mobile-optimized features and design, it is is an easy and convenient way to find, access and share open data. Open Data Companion provides a framework for all Private Sector, State, Regional, National and Worldwide open data portals to deliver open data to all mobile users. FEATURES: Browse datasets from over 170 data portals around the world by categories Download and view data records (resources) on your mobile device Preview dataset records and create data visualisations in app before download (as supported by the portal) Translate dataset details from various languages to your preferred language (as determined by user’s Google Account settings) Bookmark/save datasets for later viewing Favorite your data portals for future easy access Sync your app data (bookmarks, Favorite &amp; settings) securely to your Google Drive and restore it to any device at anytime Share links to datasets on social media, email, sms, etc. right from the app In-app tutorial videos designed to help you quickly get productive with the app. Tutorial videos are available offline once downloaded ",
+      "original_categories": [
+        "applications",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "delancey",
+      "description": " This nice del.icio.us enhancement allows you to see which of your del.icio.us bookmarks are used most frequently. By DeWitt Clinton. ",
+      "original_categories": [
+        "bookmarks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "myweather",
+      "description": " A weather site that aggregates information about local weather and presents it in a simple visual interface. ",
+      "original_categories": [
+        "weather",
+        "localization",
+        "data"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wineries-napa-valley",
+      "description": " A mashup of Napa Valley wineries using Google Maps and Flickr. ",
+      "original_categories": [
+        "food",
+        "mapping",
+        "wine",
+        "wine"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "netto-mobile-app",
+      "description": " Netto is a Danish discount supermarket operating in Denmark, Germany, Poland, and Sweden. This mobile app utilizes several Dansk Supermarked APIs. The app contains: - Offers from the Net newspaper (Net newspaper) - Price Check - Use the scanner in the app to scan an item's barcode and get the price in your local Net. - Quick shopping list with bidding match (Purchase list) - The network app usually suggests purchased items and recalls what you buy. It also shows you when your items are on offer in the offer. - Sharing of your shopping list with family or friends, if you have written your shopping list on your tablet, you can also send the shopping list to your phone. - The ability to put your shopping list on your Apple Watch - Find stores and hours (Find Net). ",
+      "original_categories": [
+        "grocery",
+        "discounts",
+        "food",
+        "location",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitterposter",
+      "description": " Large interactive poster of photos of Twitter users, sized to their influence on Twitter. ",
+      "original_categories": [
+        "blogging",
+        "photos",
+        "messaging",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geomusic",
+      "description": " Visualization of your favorite artists on the world map. ",
+      "original_categories": [
+        "visualizations",
+        "music",
+        "social",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fuerteventura-maps",
+      "description": " Map site dedicated to the island of Fuerteventura. The 'Share Your Location' feature allows users to create and position a labelled marker and copy its URL, a short URL, QR code, iframe HTML (plus embed code for Fuerteventura Forum) ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bebo",
+      "description": "From their site: Allows users to share photos with music, and blogs, and draw on members White Boards.",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rovi-cloud-services",
+      "description": "Rovi is a digital entertainment technology company that provides guidance technology, entertainment data, content protection and content networking technology for digital entertainment devices and services. Rovi Cloud Services includes APIs to access advertising, metadata, recommendations, media recognition, search and management/analytics modules.",
+      "original_categories": [
+        "entertainment"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rappers-twitter",
+      "description": " Feed for rappers on Twitter. ",
+      "original_categories": [
+        "music",
+        "music",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

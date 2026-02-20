@@ -1,0 +1,1416 @@
+[
+  {
+    "name": "canyonrunner",
+    "category": "application-development",
+    "description": " CanyonRunner is a 2D side-scroller HTML5 game that works on desktop and mobile, features a story and all the basic game systems you'd expect such as a progress saving system, top scores, different game dynamics on each level and two different endings. This application uses Ludei Cloud API. ",
+    "id": 195,
+    "bigcategory": "5"
+  },
+  {
+    "name": "mendix-permissions",
+    "category": "application-development",
+    "description": "The Mendix Permissions API is an App Service that allows retrieving the user roles a specific user has in your application. It requires the EnvironmentUUID and EnvironmentPassword parameters to authenticate and authorize requests; the values for these should come from constants from the AppCloudServices module with the same name. Mendix provides a way to transform ideas into applications.",
+    "id": 4324,
+    "bigcategory": "5"
+  },
+  {
+    "name": "bitext",
+    "category": "natural-language-processing",
+    "description": "Text analysis API build on a linguistic basis.Log in for your free API Key at https://api.bitext.comThe API provides 4 text analysis services:Sentiment analysisEnd point https://svc02.api.bitext.com/sentiment/Entity extractionEnd point: https://svc02.api.bitext.com/entities/Concept extractionEnd point: https://svc02.api.bitext.com/concepts/Text categorizationEnd point https://svc02.api.bitext.com/categories/",
+    "id": 4441,
+    "bigcategory": "5"
+  },
+  {
+    "name": "apache-mesos-operator-http",
+    "category": "application-development",
+    "description": "Mesos, a project of the Apache Software Foundation, shares the fundamental principles of Linux kernel. But Mesos kernel features additional functionalities such as unlimited compatibility with machines and provisioning of a variety of resource management and scheduling APIs. The Apache Mesos Operator HTTP API simplifies the construction of operator applications. The RESTful API makes it possible for developers to deploy HTTP requests as substitute for C++ or native client libraries when building operator applications. The HTTP requests facilitate interactions between master API calls and agent API calls. The API accepts strictly HTTP POST requests, usually encoded in JSON format, and returns responses in JSON format as well.",
+    "id": 4471,
+    "bigcategory": "5"
+  },
+  {
+    "name": "leanplum",
+    "category": "application-development",
+    "description": "Leanplum is an integrated optimization tool for mobile applications. It comes with content management services for handling mobile content as well as marketing automation services, mobile A/B testing, and analytics. Developers can integrate Leanplum's functions into their applications using the service's REST API.",
+    "id": 4478,
+    "bigcategory": "5"
+  },
+  {
+    "name": "monkeylearn",
+    "category": "natural-language-processing",
+    "description": "MonkeyLearn is an AI platform that allows you to classify and extract actionable data from raw texts like emails, chats, webpages, documents, tweets and more! You can classify texts with custom categories or tags like sentiment or topic, and extract any particular data like organizations or keywords. Implement NLP features in your product with our scalable API and SDKs.",
+    "id": 4593,
+    "bigcategory": "5"
+  },
+  {
+    "name": "bigdatacloud-ip-address-geolocation-confidence-area-and-hazard-report",
+    "category": "application-development",
+    "description": "This API provides all the locality information and confidence area for the IP addresses and additional hazard report.The API returns list of security checks for the IP addresses like:{isKnownAsTorServer: false,isKnownAsVpn: false,isKnownAsProxy: false,isSpamhausDrop: false,isSpamhausEdrop: false,isSpamhausAsnDrop: false,isBlacklistedUceprotect: false,isBlacklistedBlocklistDe: false,isKnownAsMailServer: false,isKnownAsPublicRouter: false,isBogon: false,isUnreachable: false,hostingLikelihood: 0,isHostingAsn: false,isCellular: false}",
+    "id": 4756,
+    "bigcategory": "5"
+  },
+  {
+    "name": "kumulos",
+    "category": "application-development",
+    "description": "The Kumulos API allows users to access data stored in their tables programmatically. Kumulos is an application creation, monetization, MBaaS, and management platform. Developers can brand Kumulos as their own and manage all of their clients and apps from a single location.",
+    "id": 4799,
+    "bigcategory": "5"
+  },
+  {
+    "name": "spot-intelligence",
+    "category": "natural-language-processing",
+    "description": "The Spot Intelligence API is a natural language processing platform that extracts key elements from submitted documents. This eases the process of digitizing invoices or other crucial business documents. This platform supports Word documents, PDFs, images, and XML files. The API can return data in XML, CSV or JSON. Detailed documentation is available to approved partners.",
+    "id": 4827,
+    "bigcategory": "5"
+  },
+  {
+    "name": "unfound-keyword-extraction",
+    "category": "natural-language-processing",
+    "description": "The UnFound Keyword Extraction API uses advanced Natural Language Processing (NLP) techniques to extract the most important keywords and phrases from the document or URL provided. Instead of extracting single worded keywords, it can identify phrases as well as multi-worded keywords from the input text.With this API, you can extract entities such as names of important people, organizations, places, concepts, etc. You can specify the number of keywords that need to be extracted from the input. Input can either be a single document or URL or multiple documents or URLs in a single request. There are several tiers of plan usage available.UnFound is an intelligent news insights app that helps you consume news that matters. They provide a diverse perspective to news and also give appropriate context, with the aim of eliminating the epidemic of biased misinformation.",
+    "id": 4864,
+    "bigcategory": "5"
+  },
+  {
+    "name": "webix-storage",
+    "category": "application-development",
+    "description": "The Webix Storage API works with application cache and browser local storages, for storing any data of an application, e.g. the current state of a component derived with getState() method.This interface can be used for storing server-side data in case of disconnect, which ensures that local changes won't be lost even after a page refresh. Webix helps developers build UIs for creating products and internal web resources.",
+    "id": 4911,
+    "bigcategory": "5"
+  },
+  {
+    "name": "aylien-news",
+    "category": "natural-language-processing",
+    "description": "AYLIEN News API is a powerful tool for sourcing, searching and syndicating analyzed and enriched news content. Using this API, users can search and source news and content from all over the web in real-time. Using the power of Machine Learning and NLP to understand content at scale while extracting the data that is needed is a key component of the AYLIEN News API.The API can be used to monitor worldwide news outlets in real-time to provide users with a COVID-19 related news data feed.",
+    "id": 4957,
+    "bigcategory": "5"
+  },
+  {
+    "name": "codeship",
+    "category": "application-development",
+    "description": "The Codeship REST API allows developers to access and integrate the functionality of Codeship with other applications. Some example API methods include retrieving projects, listing projects, and managing builds. Codeship is a Continuous Integration (CI) platform that allows users to manage and deploy applications.",
+    "id": 5089,
+    "bigcategory": "5"
+  },
+  {
+    "name": "amazon-developer-publishing",
+    "category": "application-development",
+    "description": "The Amazon Developer Publishing API allows developers to build new apps or upgrade existing ones. This API is restricted to developers with permission to participate in the developer preview. The selection process involves filling out a short questionnaire. Only successful developers are contacted with notification of access details. The API sends JSON-formatted requests and responses.",
+    "id": 5150,
+    "bigcategory": "5"
+  },
+  {
+    "name": "google-app-engine-admin-rpc",
+    "category": "application-development",
+    "description": "This RPC platform is for building scalable web applications and mobile backends. It provisions and manages App Engine applications such as Instance and Versions and can be used with any programming language. The Google Cloud Platform allows you to add a variety of services such as storage access, machine-learning-based image analysis to your Cloud Platform applications. It allows developers to build with cloud tools and infrastructure, applications, maps and devices.",
+    "id": 5180,
+    "bigcategory": "5"
+  },
+  {
+    "name": "figma-web",
+    "category": "application-development",
+    "description": "The Figma Web API allows developers to connect their apps, websites, and internal tools directly to Figma's real-time state of design. Figma is a browser-based interface design tool, created to assist in software development. The API currently supports view-level operations on Figma files. Future versions of the API will offer greater functionality.",
+    "id": 5229,
+    "bigcategory": "5"
+  },
+  {
+    "name": "docker-swarm",
+    "category": "application-development",
+    "description": "Docker is a cloud-based application development platform for building distributed apps, sharing repositories, and automating workflows. Docker Swarm is native clustering for Docker and will turn a pool of Docker hosts into a single, virtual host. Swarm requires Docker 1.4.0 or later and is compatible with Docker Remote API. Developers should note that Swarm is currently in beta and will likely change.",
+    "id": 5263,
+    "bigcategory": "5"
+  },
+  {
+    "name": "leanix-pathfinder",
+    "category": "application-development",
+    "description": "leanIX is an information technology company based in Germany that offers information hub services. leanIX focuses on providing control in IT landscapes, and features application portfolio management, integration architecture management, and technology and risk management. The leanIX API is used to read and write fact sheets. This API is REST based, exchanges information in JSON format, and uses API Keys for authentication.",
+    "id": 5297,
+    "bigcategory": "5"
+  },
+  {
+    "name": "globalnlp",
+    "category": "natural-language-processing",
+    "description": "GlobalNLP handles a wide variety of natural language processing tasks in 20 (yes, twenty) languages.The functionality we support includes but is not limited to:<ul><li>Word-sense disambiguation</li><li>Part of speech tagging</li><li>Noun, verb, preposition phrase extraction</li><li>Lemmatization</li><li>Stemming</li><li>Chinese / Japanese / Korean / Thai segmentation</li><li>Morphological synthesis</li><li>Sentiment analysis (global and per entity / fragment)</li><li>Entity extraction</li><li>Crosslingual retrieval / semantic search helper methods</li><li>Automatic translation</li><li>Direct / indirect quotation extraction and attribution</li></ul>Whatever your natural language processing need is, GlobalNLP is a tool for you.Browse our easy-to-use API methods with extensive code samples in Java, JavaScript, C#, PHP, Python, Ruby, and more. Free plan is available.",
+    "id": 5301,
+    "bigcategory": "5"
+  },
+  {
+    "name": "azion",
+    "category": "application-development",
+    "description": "The Azion API is a RESTful service that is based on HTTPS requests, and allows you to integrate your systems with the Azion platform. HTTPS requests and responses are JSON formatted with methods and operations that are supported for Get, Post, Put, Patch and Delete. Access and authorization of operations for the Azion API is done via Token and Basic Authentication. Azion allows you to build future-proof applications that benefit from an Edge network to manage security, provides engineer-to-engineer services and enables you with the ability to scale with pay-per-use pricing.",
+    "id": 5368,
+    "bigcategory": "5"
+  },
+  {
+    "name": "bdapps-pro-subscription",
+    "category": "application-development",
+    "description": "The BDApps Pro Subscription API can provide end users with the means to register or unregister from an app. It can also send subscription notifications, query subscription status, and query the subscriber base size.BDApps is an application development platform that provides Robi network tools for monetization and messaging. BDApps is based in Bangladesh.",
+    "id": 5467,
+    "bigcategory": "5"
+  },
+  {
+    "name": "stackery",
+    "category": "application-development",
+    "description": "The Stackery REST API allows developers to access and integrate the functionality of Stackery with other applications and to create new applications. Some example API methods include managing responses, managing users, and managing applications. Stackery provides a platform and tools to build, test, manage, and deploy serverless applications.",
+    "id": 5581,
+    "bigcategory": "5"
+  },
+  {
+    "name": "temporalio",
+    "category": "application-development",
+    "description": "Temporal is an application development platform designed to be resilient and optimized for business. Temporal consists of a programming framework (or client library) and a managed service (or backend). This platform is used to enable periodic execution capabilities, enable microservice orchestration, perform storage scanning, build event driven applications, and construct DSL workflows. The API is accessible using SDKs in a variety of languages.",
+    "id": 5633,
+    "bigcategory": "5"
+  },
+  {
+    "name": "webix-file-manager-javascript",
+    "category": "application-development",
+    "description": "The Webix File Manager JavaScript API is indirect access to this service, for integrating the Webix library. Please refer to the corresponding SDK below. The File Manager JavaScript UI widget for web developers is a component for enterprise web applications. Webix helps developers build UIs for creating products and internal web resources.",
+    "id": 5937,
+    "bigcategory": "5"
+  },
+  {
+    "name": "text",
+    "category": "natural-language-processing",
+    "description": "TextAPI is a system which allows text analysis, extraction, and manipulation features to be integrated with existing applications. The system offers automatic description and metatags, image text extraction, and sentiment analysis for reviews. This API responds calls in JSON format, and uses API Keys for authentication.",
+    "id": 5975,
+    "bigcategory": "5"
+  },
+  {
+    "name": "spacyio",
+    "category": "natural-language-processing",
+    "description": "The SpaCy.io is available as API and SaaS. In integrates natural language processing into applications, providing compatibility with 64-bit CPython 2.6+/3.3+ to run on Unix/Linux, OS X and Windows. Token is required for authentication.",
+    "id": 6028,
+    "bigcategory": "5"
+  },
+  {
+    "name": "dapr",
+    "category": "application-development",
+    "description": "The Dapr API provides access to a set of tools for building scalable distributed applications. Developers can connect their applications to Dapr to integrate state management, bindings, messaging, invocation, and actor runtime capabilities. The Dapr API returns JSON-formatted responses.",
+    "id": 6412,
+    "bigcategory": "5"
+  },
+  {
+    "name": "docker-hub",
+    "category": "application-development",
+    "description": "Docker Hub is an open application development platform for sharing apps and repositories, and automating workflows. The Docker Hub API uses HTTP Basic Auth over SSL and JSON for PUT/DELETE requests and returns. In conjunction with Docker Engine, a lightweight runtime tool, Docker Hub facilitates the development of portable apps that can be built with any toolchain and used on any machine. Use the RESTful API to create repositories, manage repository libraries, and update repository library images.",
+    "id": 6461,
+    "bigcategory": "5"
+  },
+  {
+    "name": "robomatic-websocket",
+    "category": "natural-language-processing",
+    "description": "The RoboMatic WebSocket API enables persistent real-time communications between AI-powered chatbots and approved third parties. RoboMatic can be integrated with IoT, mobile, web, and desktop applications. The API uses API Key authentication.",
+    "id": 6527,
+    "bigcategory": "5"
+  },
+  {
+    "name": "thomson-reuters-screening-deployed",
+    "category": "application-development",
+    "description": "The Thomson Reuters Screening Deployed API allows developers to implement data filtering concepts when building apps. The API offers simple integration for use with standard deployed web services. Its internal screening functionality is useful for establishing connectivity to the SD Screening API over HTTP. This functionality also enables the mapping of Thomson Reuters Professional Services’ XML schema definition file.",
+    "id": 6535,
+    "bigcategory": "5"
+  },
+  {
+    "name": "visual-studio-online",
+    "category": "application-development",
+    "description": "Visual Studio, an integrated development environment from Microsoft, that enables programmers to develop different computer programs compatible with Microsoft Windows. The API lets developers to integrate their applications with Visual Studio Online (VSO). With this API, developers will be able to make request to access different type of information available from VSO. Response is in JSON format.",
+    "id": 6798,
+    "bigcategory": "5"
+  },
+  {
+    "name": "crosswalk-project-embedding",
+    "category": "application-development",
+    "description": "The Crosswalk Project Embedding API integrates HTML loader inside Android applications. The Crosswalk Project is an open source, web application runtime built with Chromium and Blink from Google.",
+    "id": 7025,
+    "bigcategory": "5"
+  },
+  {
+    "name": "expertai-natural-language",
+    "category": "natural-language-processing",
+    "description": "The Natural Language API is a cloud-based REST service to access and interact with Expert System’s Natural Language API interface. It provides a way to analyze and classify a document via HTTP POST methods and supports JSON objects. It allows you to add language intelligence to your applications that provides deep language understanding without IT infrastructure or installation. Expert System’s help to enable businesses and government organizations with the ability to take advantage of internal and external information that automates business, improves knowledge discovery, transforms customer engagement and more.",
+    "id": 7054,
+    "bigcategory": "5"
+  },
+  {
+    "name": "apache-mesos-executor-http",
+    "category": "application-development",
+    "description": "Mesos, a project of the Apache Software Foundation, is a product of similar principles that are applied in the construction of Linux kernel. But Mesos kernel features additional functionalities such as unlimited compatibility with machines and provision of a variety of resource management and scheduling APIs. The Apache Mesos Executor HTTP API supports the construction of applications that run and implement computing tasks, process, or jobs for the Apache Mesos platform. The RESTful API makes it possible for developers to deploy HTTP requests as substitute for C++ or native client libraries when building Mesos Executor applications. The HTTP requests actually facilitate interactions between a custom executor and a Mesos agent. The API accepts strictly HTTP POST requests, usually encoded in JSON format, and returns responses in JSON format as well.",
+    "id": 7157,
+    "bigcategory": "5"
+  },
+  {
+    "name": "kuerime",
+    "category": "natural-language-processing",
+    "description": "The Kueri.me API is a product that provides remote procedure call in JSON formats. It is available for integration and download from the main site, with a JavaScript library as a resource to implement a search-box complete that displays results in a table. Kueri is a service platform that allows users to search natural language questions to SQL.",
+    "id": 7269,
+    "bigcategory": "5"
+  },
+  {
+    "name": "appetizeio",
+    "category": "application-development",
+    "description": "Appetize.io provides dedicated in-browser iOS simulators. Users can customize the type of device being simulated (iPhone or iPad) as well as its scale, orientation, and color. The Appetize.io API allows users to upload apps for testing or to update apps that they previously uploaded. Before uploading an app, users will need to create a simulator build, compress their .app folder into a ZIP file, and upload that ZIP file to a publicly accessible web server.",
+    "id": 7272,
+    "bigcategory": "5"
+  },
+  {
+    "name": "relayr",
+    "category": "application-development",
+    "description": "Relayr is an OpenSensor Cloud Platform that allows people to create applications for the physical world around them. The Relayr API provides developers programmatic access to all entities available on the relayr platform. These entities include users, devices, device models, publishers, transmitters, and apps. With this API, developers will be able to develop applications that can 'sense' the environment.",
+    "id": 7371,
+    "bigcategory": "5"
+  },
+  {
+    "name": "qr-server-qr-code",
+    "category": "application-development",
+    "description": "With our QR Code API, you can use RESTful calls to- create QR Codes:No need to register, free of charge (for commercial usage as well, though we recommend our Premium Services for professional users). [[http://goQR.me Create a QR Code]] to see the API in action.- read QR Codes:Premium only, see [[http://qrserver.com/premium/]].If you are going to use our free API, we would be happy if you recommend our service by linking our [[http://goQR.me/ QR Code Generator]] or [[http://qrserver.com qrserver.com]]. Feedback is also welcome.QR-Server.com software provides specialized bar code solutions for webmasters, software developers and industry (advertising and logistics) using the widespread QR Code standard.",
+    "id": 7400,
+    "bigcategory": "5"
+  },
+  {
+    "name": "nlp-tools",
+    "category": "natural-language-processing",
+    "description": "The NLPTools is a simple web service designed as a JSON over HTTP RESTful API. It decodes online news sources for sentiment analysis and textual classification. In order to analyze the sentiment or classify of a line of text, developers may use this API to receive a return of a category label and a conditionality on the piece ranging from positive, neutral, to negative sentiment.",
+    "id": 7420,
+    "bigcategory": "5"
+  },
+  {
+    "name": "appscode",
+    "category": "application-development",
+    "description": "The Appscode API allows developers to access its integrated application development platform. This platform allows users to collaboratively code, test, and deploy containerized apps. Users can automatically test changes before merging them and continuously package and deploy their applications. This API is stable, but its signatures may change by version 1.0.",
+    "id": 7576,
+    "bigcategory": "5"
+  },
+  {
+    "name": "zoho-creator",
+    "category": "application-development",
+    "description": "Zoho Creator is a multi-language supported API that enables developers to create database applications for business. Defined as a Low- Coding platform for developers with minimal coding knowledge, Zoho Creator allows applications to be built by dragging and dropping functionalities to projects. Zoho Creator is intended for an assortment of business uses such as: designing workflows, managing tasks and reminders, and creating dashboards and reports. Creators can design applications in PHP, ASP, JSP, Perl or on any other programming language. Documentation available through creating a Zoho Account.",
+    "id": 7616,
+    "bigcategory": "5"
+  },
+  {
+    "name": "apache-mesos-chronos",
+    "category": "application-development",
+    "description": "Apache Mesos Chronos, a job scheduler for computing tasks, is capable of processing dependencies and handling ISO8601-based schedules. It is designed to operate on top of Apache Mesos to support job orchestration as well as custom Mesos and default command executors. The Mesos Chronos API allows developers to build applications that support the manipulation of scheduler and computing tasks such as add, create, delete, list, modify, and run jobs. The RESTful API sends requests and returns responses in JSON format.",
+    "id": 7645,
+    "bigcategory": "5"
+  },
+  {
+    "name": "interplanetary-file-system",
+    "category": "application-development",
+    "description": "The InterPlanetary File System API allows developers to programmatically access all of the methods available through its command line interface. The InterPlanetary File System (IPFS) is a peer-to-peer hypermedia distribution protocol that enables the creation of completely distributed applications. It is composed of a distributed hashtable, an incentivized block exchange, and a self-certifying namespace.",
+    "id": 7707,
+    "bigcategory": "5"
+  },
+  {
+    "name": "wintersmith",
+    "category": "application-development",
+    "description": "Wintersmith is a Node.js API that offers application development platforms for developers. The API is paired with a web library that aims to be built upon with developer customized plugins and structure. Wintersmith site generator includes plugins for Markdown, style, templating plugins, and more for users to output static websites.",
+    "id": 7941,
+    "bigcategory": "5"
+  },
+  {
+    "name": "intellexer",
+    "category": "natural-language-processing",
+    "description": "The Intellexer API enables developers to embed text mining products in consumer or enterprise applications, or web-services using JSON. Intellexer API includes natural language processing solutions for sentiment analysis, named-entity recognition, summarization, multi-document summarization, plain text extraction from different file formats (pdf, doc, rtf, html, ppt, chm, etc.), document comparison, language detection, spellchecking and more. You can use Intellexer API with any software component that issues HTTP requests.",
+    "id": 8075,
+    "bigcategory": "5"
+  },
+  {
+    "name": "mage",
+    "category": "application-development",
+    "description": "The Wizcorp MAGE API offers an application and gaming development platform which focuses on providing a high performing framework with customized features. The API allows the development of highly interactive games, and supports configuration, transactional object operations, database layer, and logging. Wizcorp is a Japanese technology company that specializes in the implementation and developing of social games.",
+    "id": 8087,
+    "bigcategory": "5"
+  },
+  {
+    "name": "nlp-cloud",
+    "category": "natural-language-processing",
+    "description": "NLP Cloud API enables developers interact with NLP models they create or are pre-made. These include modles for Named Entity Recognition, Classification, Summarization, Question answering, Sentiment analysis, and Part of Speech tagging. Pre-made models include spaCY.io models in 15 languages, Facebook's Bart Large MNLI model, Facebook's Bart Large CNN model, Deepset's Roberta Base Squad 2 model and others.",
+    "id": 8261,
+    "bigcategory": "5"
+  },
+  {
+    "name": "salesforce-einstein-language",
+    "category": "natural-language-processing",
+    "description": "The Salesforce Einstein Language API allows you tocreate natural language processing models to classify the intent of text or to classify text as positive, negative, and neutral. This allows you to to build natural language processing into your apps.The Einstein Language API consists of two parts that you can use to unlock powerful insights within text:<ul><li><strong>Einstein Sentiment</strong> - Classify the sentiment of text into positive, negative, and neutral classes to understand the feeling behind text. You can use the Einstein Sentiment API to analyze emails, social media, and text from chat. You can create your own custom model or use our pre-built sentiment model.</li><li><strong>Einstein Intent</strong> - Categorize unstructured text into user-defined labels to better understand what users are trying to accomplish. Leverage the Einstein Intent API to analyze text from emails, chats, or web forms.</li></ul>Currently, Einstein Language supports only English.Before you can access the Einstein Platform Services APIs, you must create an account and download your key,after which you use your key to generate an OAuth token. Your key can be used to access both the Einstein Vision and Einstein Language APIs.This API is extremely well documented and supported.",
+    "id": 8277,
+    "bigcategory": "5"
+  },
+  {
+    "name": "sochain-blockchain",
+    "category": "application-development",
+    "description": "SoChain provides a blockchain API that enables developers to build applications using blockchain data for Dogecoin, Bitcoin, and Litecoin. This includes address data, transaction data, and block data for each currency. The API is currently free with no use limits. A sandbox environment is available to help developers get started. Developers who want additional features or who are interested in making a large number of calls are encouraged to contact SoChain.",
+    "id": 8435,
+    "bigcategory": "5"
+  },
+  {
+    "name": "nanobox",
+    "category": "application-development",
+    "description": "This is the Nanobox V2 API client written in Go (golang). Nanobox is an application development platform.",
+    "id": 8452,
+    "bigcategory": "5"
+  },
+  {
+    "name": "pipedream",
+    "category": "application-development",
+    "description": "The Pipedream API enables developers to create and manage users, sources, and source events. Workflow development and management is not currently supported. The API features REST architecture, API Key authentication, and JSON responses. Pipedream allows developers to build and run workflows that integrate apps, data, and APIs.",
+    "id": 8470,
+    "bigcategory": "5"
+  },
+  {
+    "name": "split",
+    "category": "application-development",
+    "description": "The Split API is an application deployment platform that offers control over software rollouts with a switchboard for feature flags, targeted rollout plans and integrations. The API is used to build custom implementations, or to integrate it with a preexisting tool. JSON is the preferred data format. Split gives an easier way to deliver specific features to targeted customers.",
+    "id": 8517,
+    "bigcategory": "5"
+  },
+  {
+    "name": "bdapps-pro-caas",
+    "category": "application-development",
+    "description": "The BDApps Pro CaaS API allows developers to monetize their apps with micropayments. It includes methods for retrieving the account balance of a given subscriber, charging specific amounts from a subscriber's account, and more.BDApps is an application development platform that provides Robi network tools for monetization and messaging. BDApps is based in Bangladesh.",
+    "id": 8561,
+    "bigcategory": "5"
+  },
+  {
+    "name": "terminal",
+    "category": "application-development",
+    "description": "Terminal, supported by Cloudlabs, allows developers to build applications on virtual servers that mimic the convenience of local builds combined with the scalability of cloud services. Using Terminal, developers can manage instances and snapshots, manage versioning, and create applications that provision and duplicate code for others to use. The Terminal API can be used to access these virtual computing environments using HTTP requests and JSON-formatted responses. The API can specifically be implemented to create terminal instances, manage user permissions, manage terminal access, authorize keys, and more.",
+    "id": 8593,
+    "bigcategory": "5"
+  },
+  {
+    "name": "bubble",
+    "category": "application-development",
+    "description": "The Bubble API enables developers to access Bubble's platform programmatically in order to send requests to Bubble's servers, trigger app workflows, or read app data. This allows developers to use Bubble without having to host the database.Bubble provides a drag-and-drop editor that allows anyone to design, develop, and host interactive web applications without having to code.",
+    "id": 8706,
+    "bigcategory": "5"
+  },
+  {
+    "name": "webix-remote-javascript",
+    "category": "application-development",
+    "description": "The Webix Remote JavaScript API is indirect access to this service, for integrating the Webix library. Please refer to the corresponding SDK below. Webix helps developers build UIs for creating products and internal web resources.",
+    "id": 8889,
+    "bigcategory": "5"
+  },
+  {
+    "name": "engine-yard-core",
+    "category": "application-development",
+    "description": "Engine Yard offers a platform designed for support and automation of application deployment. This platform features monitoring, telemetry, internal access logging, automated provisioning, and environment and instance automation. The Core API is used to implement Engine Yard's PaaS. This API is REST based, returns data in JSON or XML format, and uses Tokens for authentication.",
+    "id": 8939,
+    "bigcategory": "5"
+  },
+  {
+    "name": "appmethod",
+    "category": "application-development",
+    "description": "AppMethod is an application creation and building service. AppMethod allows users to build, design, develop, and manage applications for various platforms, such as mobile, web, and tablet. The AppMethod API allows developers to access and integrate the functionality of AppMethod with other applications and to create new applications. Public documentation is not available; interested developers should start here: http://www.appmethod.com/getting-started-videos",
+    "id": 9350,
+    "bigcategory": "5"
+  },
+  {
+    "name": "netlify",
+    "category": "application-development",
+    "description": "The Netlify API enables website development tools. This Platform-as-a-Service supports free personal blogs, and complex enterprise solutions. The API delivers continuous deployment, analytics, access to accounts, access to files, and more. This API requires OAuth 2.0 authentication. Netlify provides hosting and serverless backend services for static websites.",
+    "id": 9435,
+    "bigcategory": "5"
+  },
+  {
+    "name": "tableau-rest",
+    "category": "application-development",
+    "description": "The Tableau REST API provides HTTP access to programmatic solutions for managing and manipulating the functional resources of the Tableau server. The API allows users to access a variety of functional parameters that include: website visitors, data sources, and workbooks. Users can alternatively deploy the API in the customization of the applications or in the scripting of interchanges with the resources that are available in the Tableau Server. Use of this RESTful API requires the upwards of version 8.2 of the Tableau server.",
+    "id": 9540,
+    "bigcategory": "5"
+  },
+  {
+    "name": "yes-or-no",
+    "category": "application-development",
+    "description": "The simple Yes or No API is made for automating boolean decision making within mobile environments. API calls will return a Yes, No or Maybe. Returns include fun links to comical Gifs, such as Hugh Laurie or Client Eastwood nodding in approval, or Jim from the Office excitedly mouthing Yes!, or an uncomfortably slow camera zoom on Zach Galifianakis.",
+    "id": 9620,
+    "bigcategory": "5"
+  },
+  {
+    "name": "friendlydata",
+    "category": "natural-language-processing",
+    "description": "The FriendlyData REST API allows developers to access and integrate the functionality of FriendlyData with other applications. Some example API methods include parsing messages, retrieving parsed messages, and SQL filtering and aggregation. FriendlyData provides natural language interfaces and parsing services for databases.",
+    "id": 9705,
+    "bigcategory": "5"
+  },
+  {
+    "name": "mendix-single-sign",
+    "category": "application-development",
+    "description": "The Mendix Single Sign-On API allows developers to integrate their application with the Mendix Single Sign-On Server. The Mendix Single Sign-On system is based on the OpenID 2.0 protocol. Mendix is an application development service.",
+    "id": 9783,
+    "bigcategory": "5"
+  },
+  {
+    "name": "telepat",
+    "category": "application-development",
+    "description": "Telepat is a San Francisco based application development platform which features document feed management, live event interaction, and big data and social graphs support. This platform pushes updates and events to devices instead of waiting for a third party application to make API calls and obtain information. This real time approach allows for flexible deployment and simple scaling. The Telepat API uses JSON format for data exchange, and Tokens for authentication.",
+    "id": 9877,
+    "bigcategory": "5"
+  },
+  {
+    "name": "packagecloudio",
+    "category": "application-development",
+    "description": "This Rest API is used for automation of common tasks for a combination of metadata, configuration, and software that is prepared in a package management program. This includes; Java packages (Clojure, SBT, fatjar), Debian source packages (DSCs), Python packages (wheels, eggs, source distributions), RubyGems and more. It allows you to build a repo of packages and some metadata describing a variety of attributes about the packages and can be accessed using Travis CI, Jenkins, Buildkite, Private Package Repository and more. The packageclound.io service provides apt, yum, and rubygems repositories with powerful tooling, security and automation.",
+    "id": 9955,
+    "bigcategory": "5"
+  },
+  {
+    "name": "bigstep-metal-cloud",
+    "category": "application-development",
+    "description": "The Bigstep Metal Cloud API enables developers to quickly deploy their applications by integrating scalable storage, and security features. The API allows access to containers, billing information, DNS configurations, instance clusters, and data centers. The API features JSON-RPC architecture and API Key authentication.",
+    "id": 10005,
+    "bigcategory": "5"
+  },
+  {
+    "name": "vonage-nexmo-application",
+    "category": "application-development",
+    "description": "The Vonage Nexmo Application API allows developers to manage their applications built with Nexmo/Vonage. It can be used to create an application, list available applications, get an application, update an application, and delete an application.This API is part of a suite provided by Vonage (formerly Nexmo) for managing customer communications.",
+    "id": 10064,
+    "bigcategory": "5"
+  },
+  {
+    "name": "grimoire",
+    "category": "application-development",
+    "description": "Grimoire provides access to a datastore to help elucidate the Conjure programming language. The datastore contains information regarding symbols, namespaces, and packages within the Closure ecosystem, all made interchangeable using either JSON or EDN formats. Documentation instructions can be read regarding properly specifying HTTP search methods. A full client of the API is provided as part of lib-grimoire on GitHub. Grimoire is independently maintained by programmer Reid McKenzie.",
+    "id": 10251,
+    "bigcategory": "5"
+  },
+  {
+    "name": "corticalio-retina",
+    "category": "natural-language-processing",
+    "description": "cortical.io's Retina produces semantic fingerprints of any piece of text by encoding over 16000 semantic features to represent its inner meaning.Fingerprints can be easily compared numerically or used in expressions.Fingerprint anything that could be described with words like products, social network profiles, messages, emails or office documents to name a few.Then precisely compare Amazon products descriptions with LinkedIn profiles, tweets with Facebook timelines or job descriptions with CVs.",
+    "id": 10311,
+    "bigcategory": "5"
+  },
+  {
+    "name": "kinetise",
+    "category": "application-development",
+    "description": "Kinetise is an application building service and backend-as-a-service for creating, building, and managing applications for mobile. The Kinetise API allows developers to access and integrate the functionality of Kinetise with other applications and to create new applications. Some example API methods include managing users, creating events, and integrating application features.",
+    "id": 10659,
+    "bigcategory": "5"
+  },
+  {
+    "name": "mocloud",
+    "category": "application-development",
+    "description": "The moCloud REST API allows developers to access and integrate the functionality of moCloud with other applications. Some example API methods include managing users, deploying and managing applications, and managing stacks. moCloud is an application management platform that allows users to build, run, and deploy their applications.",
+    "id": 10671,
+    "bigcategory": "5"
+  },
+  {
+    "name": "neofonie-txt-werk-api",
+    "category": "natural-language-processing",
+    "description": "TXT Werk is a lightweight text analytic API that specializes in analyzing German texts. Using TXT Werk, users can easily get information from any unstructured text data and can quickly digest information of any size. This API provides the following features: Entity Recognition and Linking to Freebase URI, Concept Tagging with Freebase URI, Keyword Extraction, Category Classification and Date Recognition.",
+    "id": 10792,
+    "bigcategory": "5"
+  },
+  {
+    "name": "alchemyapi-combined-call",
+    "category": "natural-language-processing",
+    "description": "Alchemy Combined Call API is only available in pro and enterprise packages and is used to analyze posted documents. The call processing analysis uses various features after the call normalizes and cleans the posted HTML document by removing ads, navigation links, and other unnecessary content. Requests are in JSON and responses are in JSON, RDF, or XML. Authentication is through unique and private API Key.AlchemyAPI is a data mining platform. It provides a set of semantic analysis capabilities in the natural language processing field. Customers are able to perform social media monitoring, target advertisements, track sentiment in media, automate content aggregation and recommendation.",
+    "id": 10987,
+    "bigcategory": "5"
+  },
+  {
+    "name": "elasticode",
+    "category": "application-development",
+    "description": "The Elasticode API helps users integrate Elasticode's capabilities directly. Elasticode is a service to help create more personalized mobile user onboarding experiences. To create an API key, follow the regular path to create an app, and choose the API option. More information about the Elasticode API is available upon contacting Elasticode directly.",
+    "id": 11016,
+    "bigcategory": "5"
+  },
+  {
+    "name": "ibm-watson-tone-analyzer",
+    "category": "natural-language-processing",
+    "description": "The IBM Watson Tone Analyzer API helps users discover, understand, and revise the tone of text-based language. It uses linguistic analysis to detect and interpret the emotional, social, and writing cues found in a selection of text and then offers suggestions on how to improve the intended tone of the message. It can be used to analyze customer communications before sending them, examine how readers might perceive blog posts, and understand the potential impact of word choice in other text-based communications.",
+    "id": 11076,
+    "bigcategory": "5"
+  },
+  {
+    "name": "trigger-forge",
+    "category": "application-development",
+    "description": "Trigger.io has developed Forge, a cross-platform app framework that allows web developers to create native iOS and Android apps from a single HTML5 code database.Their SaaS build service employs a Python based open source command line tool that allows developers to execute a build using a single customized JSON config file, and then returns Forge-generated JavaScript and native code templates (their starter plan produces Chrome-ready JavaScript, Java for Android, and Objective-C for iOS). Using the provided Python build tools, app templates, and the build instructions generated by Forge, developers can then complete the final stages of the build locally. The process is completed when the contents of the developer's custom app code - HTML, CSS, and JavaScript - are injected into the Forge-generated code to create finalized native apps. Because the build is created before the integration of user code, developers can easily integrate changes to their HTML, CSS, and JavaScript without re-running the build.Trigger's Forge API exposes a variety of methods for working with Forge generated code to create a custom user app experience. A few examples of the functionality provided by this API are detecting platforms, creating notifications, logging end-user preferences, managing tabs and toolbars, adding listeners, and accessing a mobile devices filesystem or camera.",
+    "id": 11106,
+    "bigcategory": "5"
+  },
+  {
+    "name": "ionic",
+    "category": "application-development",
+    "description": "Ionic is an application creation service. Ionic allows users to create, design, and manage hybrid and mobile applications. The Ionic API allows developers to access and integrate the functionality of Ionic with other applications and to create new applications. Some example API methods include adding application features, managing application features, and managing user accounts.",
+    "id": 11267,
+    "bigcategory": "5"
+  },
+  {
+    "name": "textcavate",
+    "category": "natural-language-processing",
+    "description": "The textCavate API provides metadata extraction to documents in existing applications. This API uses the SOAP protocol. It can extract keywords from English, Afrikaans, and Deutsch documents. It can distinguish between proper and common names. TextCavate offers different plans with different limits depending on the developer's needs.",
+    "id": 11354,
+    "bigcategory": "5"
+  },
+  {
+    "name": "fuxi",
+    "category": "natural-language-processing",
+    "description": "The Fuxi API in REST architecture returns JSON data with sentiment analysis in simplified and traditional Chinese language. All input JSON messages must be in UTF-8. The local single endpoint is http://localhost:8080/zh/sentiment",
+    "id": 11389,
+    "bigcategory": "5"
+  },
+  {
+    "name": "create-free-app",
+    "category": "application-development",
+    "description": "The Create Free App API allows developers to create a simple Android or iOS app that will display their website on the user's phone. The resulting apps come with an APK and IPA file and can be submitted to the Google Play Store and Apple iOS App Store. This service is built on Phonegap Build.",
+    "id": 11582,
+    "bigcategory": "5"
+  },
+  {
+    "name": "onelogin-scim",
+    "category": "application-development",
+    "description": "This Rest API is a system for Cross-domain Identity Management (SCIM) that aims to simplify user provisioning and management in the cloud. It currently supports SCIM 1.1 and SCIM 2.0. Here are the calls your API should receive from OneLogin SCIM provisioning: Get User, Create User, Get User by ID, Update User and more. OneLogin is an Identity and Access Management (IAM) provider for enterprise in cloud, legacy and hybrid IT environments.",
+    "id": 11606,
+    "bigcategory": "5"
+  },
+  {
+    "name": "salesforce-heroku-connect",
+    "category": "application-development",
+    "description": "The Heroku Connect API is an application development platform, and is used to exchange data between a Salesforce organization and a Heroku Postgres database. It can be used to sync accounts, and custom objects from Salesforce. This REST API responds in JSON format, and uses OAuth version 2.0 for authentication. Salesforce is based in San Francisco, and develops CRM software.",
+    "id": 11683,
+    "bigcategory": "5"
+  },
+  {
+    "name": "docker-remote",
+    "category": "application-development",
+    "description": "Docker is a open application development platform for sharing apps and repositories and automating development workflows. Use the Docker Remote API to access Docker API features like creating a container, searching images, retrieving container logs, or building an image from a Dockerfile. This mostly RESTful API uses JSON for requests/returns and GET/POST methods over HTTP. The Remote API is currently in version 1.18. See the project home page for more detailed information on available API methods.",
+    "id": 11869,
+    "bigcategory": "5"
+  },
+  {
+    "name": "alchemyapi-concept-tagging",
+    "category": "natural-language-processing",
+    "description": "AlchemyAPIConcept Tagging concept tags HTML, text, or web-based content. This API is able to simulate human conceptual tagging. The API extracts concept tags and cleans target content by removing ads, navigation links, and other necessary content. Responses are in RDF, JSON, XML, or micro-formats.Requests are in JSON and responses are in JSON, RDF, or XML. Authentication is through unique and private API Key.AlchemyAPI is a data mining platform. It provides a set of semantic analysis capabilities in the natural language processing field. Customers are able to perform social media monitoring, target advertisements, track sentiment in media, automate content aggregation and recommendation.",
+    "id": 11952,
+    "bigcategory": "5"
+  },
+  {
+    "name": "bdapps-pro-ussd",
+    "category": "application-development",
+    "description": "The BDApps Pro USSD API allows developers to initiate USSD (Unstructured Supplementary Service Data) sessions in their applications and to send USSD messages to a mobile phone from an application.BDApps is an application development platform that provides Robi network tools for monetization and messaging. BDApps is based in Bangladesh.",
+    "id": 12037,
+    "bigcategory": "5"
+  },
+  {
+    "name": "docker",
+    "category": "application-development",
+    "description": "Docker is an open-source platform to build, deploy, and manage containers for applications. Docker offers a variety of features that allow applications to run on any server and on multiple platforms.The Docker API allows developers to access and integrate the functionality of Docker with other applications. Some example API methods include managing user accounts, managing files, and retrieving containers and repositories and associated data.",
+    "id": 12097,
+    "bigcategory": "5"
+  },
+  {
+    "name": "symanto-text-analytics",
+    "category": "natural-language-processing",
+    "description": "Everything good about Symanto, is now available through APIs! Now you can employ our APIs to enable your own applications with state-of-the-art natural language processing powered by machine learning algorithms covering a variety of languages. Now that you have psychology AI as a service, the only remaining thing is for you to go and create that killer next big thing the world has been waiting for. Our service has been trusted and used by several companies including Atribus and QuestionPro.",
+    "id": 12130,
+    "bigcategory": "5"
+  },
+  {
+    "name": "ibm-watson-natural-language-classifier",
+    "category": "natural-language-processing",
+    "description": "The IBM Watson Natural Language Classifier API allows to interpret language. Developers without background in machine learning or statistical algorithms can implement this NLP service into applications. What this service does is to receive questions and returns either requests or answers based on classification. Access with Api Key and work with JSON and CSV formats to start integration.",
+    "id": 12133,
+    "bigcategory": "5"
+  },
+  {
+    "name": "mendix-model",
+    "category": "application-development",
+    "description": "This API is indirect access to the Mendix Model SDK. Please reference the SDK tab below. The SDK enables Mendix applications and works with the Platform SDK. Mendix provides a way to transform ideas into applications.",
+    "id": 12196,
+    "bigcategory": "5"
+  },
+  {
+    "name": "dojo-toolkit",
+    "category": "application-development",
+    "description": "The Dojo Toolkit API provides open source modular platforms for developing cross-platform JavaScript applications. The API sends requests and returns responses in JSON or JSONP format.",
+    "id": 12237,
+    "bigcategory": "5"
+  },
+  {
+    "name": "qxdesktop",
+    "category": "application-development",
+    "description": "qx.Desktop API provides developers a way to build rich and interactive, desktop-like applications. . Qooxdoo is a universal JavaScript framework, and is owned and managed by 1&amp;1, a web host company.",
+    "id": 12266,
+    "bigcategory": "5"
+  },
+  {
+    "name": "adobe-phonegap-build",
+    "category": "application-development",
+    "description": "Adobe PhoneGap is a standards-based, open-source development framework for building cross-platform mobile apps for iOS, Android, Windows Phone, webOS, Symbian, BlackBerry, and other systems. Users can upload their HTML5, CSS, and JavaScript assets to the Adobe PhoneGap Build cloud service and let it do the work of compiling.The Adobe PhoneGap Build API provides programmatic access to functions for creating, building, updating, and downloading apps. It was designed for easy integration with other systems and uses REST calls issued in JSON and JSONP.",
+    "id": 12330,
+    "bigcategory": "5"
+  },
+  {
+    "name": "summarizebot",
+    "category": "natural-language-processing",
+    "description": "The SummarizeBot API integrates artificial intelligence and blockchain-powered solutions for summarization, fake news detection, news aggregation, sentiment analysis, face detection, image recognition and extraction of text, comments, videos, and images. JSON data is returned after making calls, previously using API Keys to authenticate.SummarizeBot API provides solutions for text and multimedia analysis. It summarizes automatically, extracts important information, keywords and keyphrases from weblinks, documents, audio files, and images.The fake news detection API method analyzes news articles to identify whether they are likely to be real news or not. With the help of custom AI classifiers, it can detect different types of fake information, such as propaganda, conspiracy, pseudoscience, bias, irony.",
+    "id": 12410,
+    "bigcategory": "5"
+  },
+  {
+    "name": "digitalowl-text-similarity",
+    "category": "natural-language-processing",
+    "description": "The DigitalOwl Text Similarity API allows developers to programmatically evaluate the semantic similarity of two articles. Similarity is expressed as a number. These articles may be submitted to the API as plain text or URLs. This API is RESTful and requires an API key.This API is provided by DigitalOwl, a software company that offers natural language processing services.",
+    "id": 12662,
+    "bigcategory": "5"
+  },
+  {
+    "name": "cloudobjects-web",
+    "category": "application-development",
+    "description": "The CloudObjects Web API is an interface that can be accessed through the HTTP protocol for authentication purposes. API Keys, HTTP Basic Auth, Tokens, and OAuth 2.0 are supported. Responses are JSON formatted. CloudObjects is a cloud computing platform used as a directory and storage solution for building applications.",
+    "id": 12679,
+    "bigcategory": "5"
+  },
+  {
+    "name": "stateful-web-primitives",
+    "category": "application-development",
+    "description": "This web service provides atomic counters as an add-on feature for the NoSQL cloud database Amazon DynamoDB. Specifically, it provides an auto-increment attribute: unique values for the id column in DynamoDB tables.Another feature of Stateful Web Primitives is a concurrent lock. It allows for setting up an atomic lock, running sensitive processes, and then removing the lock. Only one process at a time will be allowed while the lock is in place.",
+    "id": 12694,
+    "bigcategory": "5"
+  },
+  {
+    "name": "ax-semantics-nlg-cloud",
+    "category": "natural-language-processing",
+    "description": "The AX Semantics NLG Cloud API is a natural language processing automation platform that offers: portfolio management for teams, data management, analytics, and integrated semantic properties. The API is used to enable data transfer, text generation, and content generation functionalities. This API returns JSON formatted responses to authenticated clients.",
+    "id": 12886,
+    "bigcategory": "5"
+  },
+  {
+    "name": "crosswalk-project-web",
+    "category": "application-development",
+    "description": "The Crosswalk Project Web API include multimedia &amp; graphics, networking &amp; storage, performance &amp; optimization, and device &amp; hardware features. The Crosswalk Project is an open source, web application runtime built with Chromium and Blink from Google.",
+    "id": 12889,
+    "bigcategory": "5"
+  },
+  {
+    "name": "naturaltext",
+    "category": "natural-language-processing",
+    "description": "The NaturalText allows developers to extracts entities or keywords based on grammatical conventions using natural language processing. Entity linking, Entity relationship and other NLP tasks would be available soon.",
+    "id": 13015,
+    "bigcategory": "5"
+  },
+  {
+    "name": "replit-code-evaluation",
+    "category": "application-development",
+    "description": "The repl.it Code Evaluation API allows developers to run codes in builder applications or browsers. It provides two distinctive interface options; the HTTP interface and Websocket interface. The HTTP interface allows a user to execute a particular code or numerous files using single API calls. The Websocket interface, on the other hand, facilitates the execution of codes in stateful environments. This makes it possible for users to alternate the calls for defining and accessing variables. The repl.it Code Evaluation API stands out as a secure, multi-lingual, and interactive cloud-compliant solution that is flexible to a variety of devices and platforms. Its paid packages include the Standard Plan, Unlimited Plan, and Large Plan that charge monthly costs of $149, $300, and $1,300, respectively. There is also a free plan, although it offers limited runs compared tot eh paid options. The API is a full release and is accompanied by sufficient documentation.",
+    "id": 13103,
+    "bigcategory": "5"
+  },
+  {
+    "name": "ip-bouncer",
+    "category": "application-development",
+    "description": "The IP Bouncer API gives developers access control for any visitor's IP address, based on a set of rules. Ruling system allows the application owner to ban a specific user, an IP range or an IP based in a specific country. IP Bouncer provides an easy IP blacklisting mechanism as a service.",
+    "id": 13438,
+    "bigcategory": "5"
+  },
+  {
+    "name": "imperavi",
+    "category": "application-development",
+    "description": "The Imperavi API works as a plugin to use Redactor, a WYSIWYG text editor that developers can use to develop applications. The aim of Imperavi is to provide immersive user experiences by creating powerful and simple web apps.",
+    "id": 13512,
+    "bigcategory": "5"
+  },
+  {
+    "name": "mobstac-mobile",
+    "category": "application-development",
+    "description": "MobStac is mobile commerce platform for developers and agencies to create exceptional apps for e-commerce businesses and consumer brands across iOS, Android and Windows. The MobStac API lets developers enable in-app payments in over 100 currencies and catalog sync between a desktop e-commerce site and mobile app.",
+    "id": 13520,
+    "bigcategory": "5"
+  },
+  {
+    "name": "mobingi",
+    "category": "application-development",
+    "description": "The Mobingi REST API allows developers to access and integrate the functionality of Mobingi with other applications. Public documentation is not available; API access comes with account service. Mobingi provides cloud application development and management tools and services.",
+    "id": 13615,
+    "bigcategory": "5"
+  },
+  {
+    "name": "java-9-stack-walking",
+    "category": "application-development",
+    "description": "The Java 9 Stack-Walking API provides a stream of information in stack traces during the execution of a program. The API requires a Virtual Machine to capture a snapshot of the entire stack. This returns an array of elements for filtering purposes, and to remove noise. Developers can skip, drop, and limit the StackFrames with the walk method.",
+    "id": 13637,
+    "bigcategory": "5"
+  },
+  {
+    "name": "shephertz-app42-cloud-reviewrating",
+    "category": "application-development",
+    "description": "The ShepHertz App42 Cloud Review/Rating API allows developers to create review and rating on their application item. ShepHertz Technologies is a cloud company that specializes in many aspects of data management.",
+    "id": 13647,
+    "bigcategory": "5"
+  },
+  {
+    "name": "sentiment-analysis-spanish",
+    "category": "natural-language-processing",
+    "description": "Sentiment Analysis Spanish is part of Molino de Ideas, a company based in Spain dedicated to language tools, learning resources, and automated software. Integrate natural language processing features into applications with the API, available at APIcultur. The overview provides documentation and testing, list of operations, and raw version of code. In the same APIcultur eStore, users can find API prices in Euros for each 10,000 calls. To discover how to use the API, visit https://www.youtube.com/watch?v=0qzFTuQI48Q",
+    "id": 13792,
+    "bigcategory": "5"
+  },
+  {
+    "name": "openzeppelin",
+    "category": "application-development",
+    "description": "OpenZeppelin allows developers to write, deploy and operate decentralized applications. OpenZeppelin features reusable, secure smart contracts for the Ethereum network, written in Solidity. Additionally, OpenZeppelin enables in-depth security audits for high impact decentralized systems, and a suite of tools that accelerate development and allow for easy bug-fixing and quick iterations.",
+    "id": 13818,
+    "bigcategory": "5"
+  },
+  {
+    "name": "apiary-default",
+    "category": "application-development",
+    "description": "The Apiary Default API allows users to save short texts. It supports the creation, listing, recovery, and removal of notes. The API conveys requests and responses in JSON format.",
+    "id": 13861,
+    "bigcategory": "5"
+  },
+  {
+    "name": "appdome-build",
+    "category": "application-development",
+    "description": "The Appdome Build REST API allows developers to automate building their mobile app, whether that app was uploaded via <a href=https://www.programmableweb.com/api/appdome-upload>the REST API</a> or the Appdome platform. This API makes it possible to automate deployment and CI/CD (continuous integration &amp; continuous delivery) workflows. Developers will need an Ideal Appdome account, Appdome-DEV access, an API Token, an Application ID, and a Fusion Set ID.Appdome is a service for adding mobile security, app-shielding, authentication, identity, mobility, analytics, and more to Android and iOS applications.",
+    "id": 13873,
+    "bigcategory": "5"
+  },
+  {
+    "name": "etravos",
+    "category": "application-development",
+    "description": "eTravos is a Trvael commerce company that focuses in the travel industry, acting as an online ticket booking solution in the software-as-a-service space. eTravos API allows developers to create and manage online booking processes for their applications.",
+    "id": 14059,
+    "bigcategory": "5"
+  },
+  {
+    "name": "tisane-labs-analysis",
+    "category": "natural-language-processing",
+    "description": "The Tisane Labs Text Analysis API analyzes input text content, returning a wealth of metadata in JSON.The API allows extracting actionable intelligence from text in 27 languages, tagging abuse, fine-grained sentiment, and more. This includes* abuse* aspect-based sentiment analysis* entities* topics* list of sentences* list of phrases* list of lexical chunks* grammatical tags (parts of speech++)",
+    "id": 14074,
+    "bigcategory": "5"
+  },
+  {
+    "name": "mendix-stories",
+    "category": "application-development",
+    "description": "The Mendix Stories API allows you to retrieve, create and update the sprints, stories and tasks in your Mendix projects. The available parameters include; Microflow CreateStory, Microflow CreateSprint, Microflow UpdateTask and more. Mendix provides a way to transform ideas into applications.",
+    "id": 14147,
+    "bigcategory": "5"
+  },
+  {
+    "name": "sentilecto",
+    "category": "natural-language-processing",
+    "description": "The SentiLecto API provides NLU (natural language understanding) services for Spanish and Portuguese texts, including methods for sentiment analysis, deep structure analysis, entity extraction, and fact mining. The sentiment analysis feature is relatively unique in that it can handle polarity shifting in the same sentence, within embedded clauses, or even on the same word.",
+    "id": 14427,
+    "bigcategory": "5"
+  },
+  {
+    "name": "github-users",
+    "category": "application-development",
+    "description": "The GitHub Users API provides developers with shortcut for getting information about the currently authenticated user. This API uses a two-factor authentication. GitHub is one of the software providers that specialize in a wide range of application development.",
+    "id": 14571,
+    "bigcategory": "5"
+  },
+  {
+    "name": "trawex-travel",
+    "category": "application-development",
+    "description": "Trawex is a travel technology company based in India that offers travel technology, travel portal development, flight,hotel/car booking engines, SEO, SMO and XML/API integration services. With the API for third party integrations, developers can manage flight booking, fares and travel packages with other airlines, hotels and GDS with the online consumer in mind. This API about travel technology that supports XML could be valuable for developers who want to keep track of travel itineraries. For more information, partners can receive support via phone in the US, the US and India. They can e-mail, Skype or chat with Trawex to discuss a project and start app development.",
+    "id": 14793,
+    "bigcategory": "5"
+  },
+  {
+    "name": "kivy",
+    "category": "application-development",
+    "description": "The Kivy API allows developers to integrate multi-touch aware widgets and accelerated OpenGL drawing. Kivy enables the quick development of customized highly interactive applications. The API can be utilized to access data directories, GLSL shader directories, user modules, and more.",
+    "id": 14881,
+    "bigcategory": "5"
+  },
+  {
+    "name": "configcat-webhooks",
+    "category": "application-development",
+    "description": "ConfigCat.com is a feature flag and configuration management service with a free plan and unlimited team sizes. It integrates with your apps, backends, websites, and other programs. The ConfigCat website enables you to switch ON/OFF application features or change software configuration in your applications without (re)deploying them. ConfigCat SDKs enable easy integration with any web, mobile or backend applications. The Webhooks API allows you to build your own integrations that subscribe to changes in ConfigCat.",
+    "id": 14961,
+    "bigcategory": "5"
+  },
+  {
+    "name": "google-container-engine",
+    "category": "application-development",
+    "description": "The Google Container Engine API allows users to develop and manage containers on distributed systems. The Container Engine provides a platform for quickly and easily provisioning resources and managing applications. It is designed to support Kubernetes so that customers can run multiple clouds. The Google Container Engine is still in Alpha and is not recommended for production use.",
+    "id": 15058,
+    "bigcategory": "5"
+  },
+  {
+    "name": "reminders-and-events-nlp",
+    "category": "natural-language-processing",
+    "description": "Tiv.ai is an reminder domain-specific API trained with over 50M data sets, for understanding natual language in reminders and date/time domains. Our accuracy is over 94% for most valid use cases. Today we are officially releasing our trained AI for entity extraction to the public. This API is being used by our virtual assistant (aka Me) which assists over 3.5M users worldwide!",
+    "id": 15112,
+    "bigcategory": "5"
+  },
+  {
+    "name": "plasticity-sapien-language-engine",
+    "category": "natural-language-processing",
+    "description": "This Plasticity Language API extracts entities, relationships, and context from text using the Sapien Language Engine. This natural language understanding API is used for text analytics or for building conversational interfaces. It is a Human-like conversational interface to understand language at its core, that is based on language semantics, not keywords, that extracts relations, structure, and meaning from your text with a simple JSON API. Plasticity is built to extract a graph of real-world knowledge by understanding unstructured text on the internet, that employs inference, deduction, and distant supervision to uncover hidden knowledge. Plasticity synthesizes useful wide-ranging actions learned from natural language instructions.",
+    "id": 15137,
+    "bigcategory": "5"
+  },
+  {
+    "name": "kuantokusta",
+    "category": "application-development",
+    "description": "The KuantoKusta API provides tools for developers for application development with their services. Some of the services offered are updating products, getting information about a price by id, listing best price, listing product prices of a specific store, listing all or specific product prices, listing all stores, and updating products price by its bar code on data. Kuantokusta is a marketplace that allows users to see and compare prices of products from different shops.",
+    "id": 15371,
+    "bigcategory": "5"
+  },
+  {
+    "name": "stackify",
+    "category": "application-development",
+    "description": "The Stackify API allows users to access their errors, logs, and metrics programmatically. Stackify is an integrated monitoring solution for servers, app metrics, and app performance. It monitors key metrics and performance indicators and sends users alerts when new errors or high error rates occur. Users can view all of their application logs together in order to troubleshoot problems quickly.",
+    "id": 15503,
+    "bigcategory": "5"
+  },
+  {
+    "name": "coralogix",
+    "category": "application-development",
+    "description": "The Coralogix API enables developers to manage their application development logs. Coralogix is a secure logging platform powered by machine learning. This platform automates the process of turning cluttered log data into templates and flows. Coralogix features custom dashboards, log querying, custom log views, and alert management.",
+    "id": 15531,
+    "bigcategory": "5"
+  },
+  {
+    "name": "yasoon",
+    "category": "application-development",
+    "description": "With Yasoon, users can access application cloud services in Microsoft Outlook 2010 and 2013. The API is about application integration in Outlook using HTML5 and Javascript. Developers can download the service at no cost. In the site, they will see an index list with the parameters of alert, app, contact, feed, io, notification, outlook, calendar and mail. Yasoon also displays a sample code in Javascript along with a downloadable getting started guide.",
+    "id": 15535,
+    "bigcategory": "5"
+  },
+  {
+    "name": "hyscore",
+    "category": "natural-language-processing",
+    "description": "Simplified hyScore is a kind of independent and flexible oil rig platform, which drills after oil and provide the raw material and a report of its ingredients to every refinery for further processing. The refinery (any other application or service) can use our “oil” (the contextual data) to create petrol (contextual video player), diesel (content recommendation), plastic (brand safety) or any other use case (contextual ad targeting, etc.). We provide the oil for everyone and leave it up to you how you process it.hyScore is a software-as-a-service (SaaS), a technology provider for data, that means that we are a data supplier for publishers, publisher networks, software development agencies, system houses, advertising &amp; marketing technology companies for contextual data. Our service analyses on request any kind of website/url on url level, or just plain text, and provide a weighted, normalized, structured response in more than 16+ languages. We show in keywords, their entities and categories as also in IAB taxonomy and the sentiment the meaning of its content so that other applications and their developers get in real-time instant access to this kind of data to use it for several use cases.You can use the API and its data for use cases like contextual video, content recommendation, tagging, personalization, targeting and audience segmentation, brand safety, site search improvement, digitalization, text extraction, environmental analysis, document analysis and much, much more.Our mission is to reduce the barriers of entry to access contextual intelligence and enrichment.",
+    "id": 15550,
+    "bigcategory": "5"
+  },
+  {
+    "name": "ionpush",
+    "category": "application-development",
+    "description": "IonPush allows us to publish changes and hot updates to our hybrid mobile applications without recompile the app and resubmit to app stores review process. This is very useful for publishing bug fixes, integrate A/B tests, changes of your UI/UX, content or business logic but only based on web technologies. Therefore it is important to know that the only changes which can be updated via the IonPush-platform immediately are changes to the view (HTML), business logic (Javascript), assets (for example images in the www folder) and styling (CSS).It excludes any changes to the native binary, such as the native plugins (Cordova Plugins), config.xml or native images (icons, splash screens, etc). For these changes, the app has to be recompiled and has to go through the app stores to be updated for all end users. As a consequence it is important to add all necessary plugins ( also for your future features) to your app before your initial release in the app store.",
+    "id": 15603,
+    "bigcategory": "5"
+  },
+  {
+    "name": "idyl-cloud",
+    "category": "natural-language-processing",
+    "description": "Idyl Cloud by Mountain Fog is a webservice that provides entity extraction from tweets and natural language text and language detection. The Idyl Cloud lets users integrate entity extraction into applications and systems. The RESTful API has HTTP and HTTPS endpoints and responses are in JSON.",
+    "id": 15729,
+    "bigcategory": "5"
+  },
+  {
+    "name": "hpe-haven-ondemand-speech-recognition-0",
+    "category": "natural-language-processing",
+    "description": "The Haven on Demand Speech Recognition API integrates the transcript of a text in audio or video file. It is available with HTTP requests, JSON responses, and API Key as authentication methods.",
+    "id": 15733,
+    "bigcategory": "5"
+  },
+  {
+    "name": "launchdarkly",
+    "category": "application-development",
+    "description": "The LaunchDarkly REST API allows developers to access and integrate the functionality of LaunchDarkly with other applications. Some example API methods include integrating features in applications, managing user accounts, and managing application goals. The documentation also allows for API testing. LaunchDarkly also offers multiple SDKs in a variety of languages. LaunchDarkly is an application feature management and deployment platform.",
+    "id": 15862,
+    "bigcategory": "5"
+  },
+  {
+    "name": "rhoconnect",
+    "category": "application-development",
+    "description": "The RhoConnect API allows developers to control, monitor, and debug a running RhoConnect application. RhoConnect is an app integration and data syncing service that allows developers to integrate and synchronize data into their applications for offline access. RhoConnect is based on Redis, a NoSQL data cache. It's available in the cloud, or it can be hosted by the user.",
+    "id": 16207,
+    "bigcategory": "5"
+  },
+  {
+    "name": "simple-cloudware",
+    "category": "application-development",
+    "description": "Simple Cloudware API provides the fundamental back-end needs for maintaining and creating an API. This includes logging, ping, automation, toggling, account creation, validation, alerting, content management, and lookup tables. Simple Cloudware provides tools and services for developers to simplify code and application creation.",
+    "id": 16215,
+    "bigcategory": "5"
+  },
+  {
+    "name": "openstack-clustering",
+    "category": "application-development",
+    "description": "OpenStack is a provider of various open source project components that facilitate the establishment of cloud services. It has provided standard APIs that are well suited for multiple implementations. The OpenStack Clustering API allows developers to integrate functionalities for creating, listing, updating, and deleting clusters. It supports the creation and manipulation of different cluster categories for different applications, events, and actions. The API sends HTTP-formatted requests and returns responses in URO Query String/CRUD format.",
+    "id": 16403,
+    "bigcategory": "5"
+  },
+  {
+    "name": "acquia-lift-push",
+    "category": "application-development",
+    "description": "The Acquia Lift Push API allows you to receive information in real time when a visitor to your website enters a segment in which you're particularly interested. The notification messages that the Acquia Lift service sends to an HTTP server will contain the following parameters: person, touch, event and more. Just enter a URL and associate specific segments to the location, so that whenever a person enters particular segments, a notification containing information about the person, touch, event and matched segments is sent to the URL that you have chosen. Acquia Lift includes several interfaces that you can use to interact with stored visitor data and send information to the Acquia Lift service. Acquia is a Cloud based solution that allows you to create and maintain digital experiences with Drupal. It provides interfaces that are exposed as APIs to use for both importing and exporting data from the Acquia Lift service.",
+    "id": 16601,
+    "bigcategory": "5"
+  },
+  {
+    "name": "webix-server",
+    "category": "application-development",
+    "description": "The Webix Server API features full support for the REST load and save protocol. Responses are support in JSON format and includes; update, insert, delete, invalid and more. Server-side integration provides Webix data components and client-side data stores to write your own custom scripts, you can use the server-side REST API. Webix helps developers build UIs for creating products and internal web resources.",
+    "id": 16661,
+    "bigcategory": "5"
+  },
+  {
+    "name": "apiary-gist-fox",
+    "category": "application-development",
+    "description": "The Apiary Gist Fox API supports the instant sharing of notes, snippets, or codes. Users can either create public gist items or keep them private. This API does not require authentication and it transmits JSON-formatted requests and responses.",
+    "id": 16684,
+    "bigcategory": "5"
+  },
+  {
+    "name": "w3c-permissions",
+    "category": "application-development",
+    "description": "The W3C The Permissions API is a document that specifies an API for handling permissions. It allows web applications to know whether a given permission has been granted or denied, or if a user will be asked whether a given permission should be granted. This document is a work in progress and may be replaced or rendered obsolete at any time.",
+    "id": 16722,
+    "bigcategory": "5"
+  },
+  {
+    "name": "deepgram",
+    "category": "natural-language-processing",
+    "description": "The DeepGram API allows for the use of Artificial Intelligence cues to spot keywords and get insights in audio. The API intends to facilitate the analysis of audio and responds with the exact location of keywords throughout a video, targeting specific words in film, documentatires, presentations, and others. The goal is to send an HTTP POST request with JSON body and the intention of a JSON response.",
+    "id": 16766,
+    "bigcategory": "5"
+  },
+  {
+    "name": "ambiverse-natural-language-understanding",
+    "category": "natural-language-processing",
+    "description": "The Ambiverse Natural Language Understanding API allows users to extract usable information from unstructured text. Information is extracted in the form of entities, which may be identified as people, locations, organizations, or products. These are linked to a Wikipedia-derived YAGO knowledge graph, which users can query to obtain further information.",
+    "id": 17004,
+    "bigcategory": "5"
+  },
+  {
+    "name": "dialogflow-standard-webhooks",
+    "category": "natural-language-processing",
+    "description": "The Dialogflow Standard Webhooks API allows you to communicate with Dialogflow through its own, standard webhook format. Webhooks enables you to pass information from a matched intent into a web service to get a result. The Dialogflow API is an end-to-end development suite of conversational interfaces for chatbots, voice-powered apps and devices that includes; query, intents, entities and more. Dialogflow processes a natural language query and returns structured, actionable data as a result. It is an end-to-end development suite for building conversational interfaces for websites, mobile applications, popular messaging platforms, and IoT devices that is powered by machine learning. It recognizes the intent and context of what a user says, allowing your conversational interface to provide responses. Dialogflow enables users with ways to interact with products by building voice and text-based conversational applications.",
+    "id": 17031,
+    "bigcategory": "5"
+  },
+  {
+    "name": "anacodes-webtext",
+    "category": "natural-language-processing",
+    "description": "Anacode's Web&amp;Text REST API allows developers to access and integrate the functionality of Anacode with other applications. The API offers web data collection, natural language processing, and text analysis functionalities tailored to the Chinese, allowing China-facing businesses to extract insights from Chinese customer and market feedback. The API is suited for users who don't speak Chinese and want a quick, hands-on start with native data. Anacode offers natural language processing and text analytics solutions.",
+    "id": 17039,
+    "bigcategory": "5"
+  },
+  {
+    "name": "google-kubernetes",
+    "category": "application-development",
+    "description": "Kubernetes is a container cluster manager made by Google that is optimized for Google Cloud Platform and is open source and free to implement. Across predetermined node instances, Kubernetes is able to schedule container replicas. A master instance will call the Kubernetes API in order to define tasks. Developers can customize the number and type of containers to be created according to the circumstance. Developers can begin to implement Kubernetes by visiting the GitHub repository.",
+    "id": 17055,
+    "bigcategory": "5"
+  },
+  {
+    "name": "apache-mesos",
+    "category": "application-development",
+    "description": "The Apache Mesos API is designed to accommodate wide varieties of framework languages that developers use in the development of applications. The RPC-based API expands the language scope of driver-based framework APIs and simplifies the development protocols of REST-based HTTP APIs. The other interesting functionality of the API is that it has eliminated the need of opening connections back to client-side servers as a requirement for communicating with it. This has effectively opened it up its Mesos codebase to easy implementation of tremendous strategies for processing network partitions. Developers can also deploy the new HTTP functionality of the Apache Mesos API on experimental basis when streaming events. The API is a full release that is well documented. It sends requests in URI Query String/CRUD format and returns JSON-formatted responses.",
+    "id": 17179,
+    "bigcategory": "5"
+  },
+  {
+    "name": "mendix-projects",
+    "category": "application-development",
+    "description": "The Mendix Projects API allows you to programmatically create a project in your company space and move working copies between the Team Server and the Model Server. The operations that are available include; CreateNewApp, RetrieveJobStatus, ExposeTeamServerRevision and more. Mendix provides a way to transform ideas into applications.",
+    "id": 17224,
+    "bigcategory": "5"
+  },
+  {
+    "name": "codeq-natural-language-processing",
+    "category": "natural-language-processing",
+    "description": "Our Natural Language Processing API contains all the necessary text processing tools one might expect from an NLP API, including tokenization, sentence splitting, part-of-speech tagging and named entity recognition.In addition to these NLP tools, our API features many advanced Deep Learning classification models to extract a rich representation from unstructured texts, including speech acts, questions, emotions, sarcasm, sentiment, date resolution, and tasks.",
+    "id": 17340,
+    "bigcategory": "5"
+  },
+  {
+    "name": "ludei-cloud",
+    "category": "application-development",
+    "description": "Ludei helps its users develop apps and games with HTML5. Developers can use any app framework or game engine they want. Ludei provides access to tools that perform remote testing and debugging directly on devices. Its cloud-based compilation system deploys across all platforms, producing the same set of HTML5 features on every device and OS. Users can access the cloud compilation system programmatically via REST API.",
+    "id": 17423,
+    "bigcategory": "5"
+  },
+  {
+    "name": "simboalpha",
+    "category": "natural-language-processing",
+    "description": "Simbo.ai provides medical record documentation products. SimboAlpha is a voice based doctor assistant for creatingElectronic Medical Records (EMR) programmatically. The SimboAlpha API offers programmatic access to the platform, enabling developers to integrate with the service, and offers AI assisted patient notes, discharge summaries, clinical speech and language understanding for Indian accents and more. The API is available by partnership only and interested developers will have to reach out to the company for further details.",
+    "id": 17458,
+    "bigcategory": "5"
+  },
+  {
+    "name": "word-associations-network",
+    "category": "natural-language-processing",
+    "description": "The Word Associations Network API allows developers to embed the ability to find associations for a word or phrase into their mobile apps or web services. Words are grouped by semantics, meaning, and psychological perception. The Word Associations Network API currently supports English, French, Spanish, German, Italian, Portuguese, and Russian vocabulary.",
+    "id": 17668,
+    "bigcategory": "5"
+  },
+  {
+    "name": "ns1",
+    "category": "application-development",
+    "description": "NS1 is an application traffic management platform. The REST interface provides access to zones and records, data sources and feeds, account settings and users, and other aspects of NS1 accounts. NS1 features a unique Filter Chain routing engine for optimal application performance and reliability. NS1 offers global server load balancing, DevOps and automation, Multi-CDN management, and Multi-Cloud orchestration.",
+    "id": 17856,
+    "bigcategory": "5"
+  },
+  {
+    "name": "exponent",
+    "category": "application-development",
+    "description": "The Exponent API provides mobile application development, providing indirect access via SDKs. As an open source UI initiative, developers can integrate contacts, camera, and social login into Android and iOS applications. For additional information, contact support@getexponent.com",
+    "id": 17886,
+    "bigcategory": "5"
+  },
+  {
+    "name": "kintone-rest",
+    "category": "application-development",
+    "description": "The kintone REST API allows developers to manage app records, retrieve app descriptions, and manipulate spaces for their custom applications. Kintone is a service that allows developers to create custom business applications for automating business processes using a drag-and-drop interface. Users may also choose from more than 30 pre-built applications in kintone's library.",
+    "id": 17956,
+    "bigcategory": "5"
+  },
+  {
+    "name": "dialogflow-standard-grpc",
+    "category": "natural-language-processing",
+    "description": "The Dialogflow gRPC API is an end-to-end development suite for conversational interfaces including; chatbots, voice-powered apps and devices. This is a beta release of the Dialogflow V2 API and is not intended for real-time usage in critical applications. This API processes a natural language query and returns structured, actionable data as a result. Dialogflow is an end-to-end development suite for building conversational interfaces for websites, mobile applications, popular messaging platforms, and IoT devices that is powered by machine learning. It recognizes the intent and context of what a user says, allowing your conversational interface to provide responses. Dialogflow enables users with ways to interact with products by building voice and text-based conversational applications.",
+    "id": 18011,
+    "bigcategory": "5"
+  },
+  {
+    "name": "lucidworks",
+    "category": "application-development",
+    "description": "The Lucidworks API integrates data intelligence search features with the aim to build better applications, driven by analysis. It is available in REST format with HTTP using SSL. Lucidworks is a big data applications platform.",
+    "id": 18013,
+    "bigcategory": "5"
+  },
+  {
+    "name": "bdapps-pro-sms",
+    "category": "application-development",
+    "description": "The BDApps Pro SMS API allows developers to send and receive SMS using JSON objects over HTTP. This API can also be used to check the delivery status of sent SMS, receive SMS with a short code, and more.BDApps is an application development platform that provides Robi network tools for monetization and messaging. BDApps is based in Bangladesh.",
+    "id": 18075,
+    "bigcategory": "5"
+  },
+  {
+    "name": "tutum",
+    "category": "application-development",
+    "description": "Tutum is a platform for building, deploying, and managing applications across any cloud. Users are provided with a free private registry for storing applications as well as quick access to Docker's public and private registries. Tutum helps users manage clusters when deploying applications and also orchestrates infrastructure and application containers. Users can manage and monitor their applications through Tutum's dashboard, API, or CLI tool.",
+    "id": 18096,
+    "bigcategory": "5"
+  },
+  {
+    "name": "apifaketory",
+    "category": "application-development",
+    "description": "The Apifaketory API is a gateway to a database of broad categories of content. It processes random data of a variety of bundled items that include: demographic profiles of correspondents, published blog posts, descriptive parameters of personal finance transactions, and markers of geographic locations. The API is capable of filtering the profiles of multiple users on the basis of personal details such as locations, billing entries, and other demographic details. The RESTful API returns JSON-formatted responses.",
+    "id": 18110,
+    "bigcategory": "5"
+  },
+  {
+    "name": "yactraq-speech2topics",
+    "category": "natural-language-processing",
+    "description": "Yactraq is a Canadian-based company that analyzes audio and video to extrapolate big data, using natural language processing and speech recognition. Developers can integrate their API to begin extracting information from audio from CRM systems, company phone calls, tele-conferences, etc, as well as mobile videos and newer ergonomic experiences. The Yactraq API creates a searchable indexed metadata that supposedly can help target ads, improve employee performance, and positively influence executive decisions.",
+    "id": 18118,
+    "bigcategory": "5"
+  },
+  {
+    "name": "perspective",
+    "category": "natural-language-processing",
+    "description": "The Perspective API uses machine learning algorithms to determine whether a statement may be toxic to a discussion and helps screen out trolls. It is designed to help prevent online harassment and assist with comment moderation. This API is in open beta, but usage submissions are being accepted.",
+    "id": 18241,
+    "bigcategory": "5"
+  },
+  {
+    "name": "umajin",
+    "category": "application-development",
+    "description": "Umajin is a visual designer for building applications without writing any code. The APIprovides access to the advanced setup feed, allows users to transform the JSON-T data and turn form submissions into a feed.",
+    "id": 18323,
+    "bigcategory": "5"
+  },
+  {
+    "name": "randommer-random-data-generator",
+    "category": "application-development",
+    "description": "You can use our API to build your project without developing from scratch the base functions to generate data like numbers, telephones, passwords, hashes, and text. REST and secure connection using HTTPS you can call our services to generate random information. Randommer.io offers several utility services and we use the newest technologies like RESTful services and fast hosts to be a simple and modern tool.",
+    "id": 18381,
+    "bigcategory": "5"
+  },
+  {
+    "name": "dialogflow-enterprise-grpc",
+    "category": "natural-language-processing",
+    "description": "The Dialogflow Enterprise gRPC API is an end-to-end development suite for conversational interfaces including; chatbots, voice-powered apps and devices. This edition is the enterprise tier of Dialogflow and is part of Google Cloud Platform. This is a beta release of the Dialogflow V2 API and is not intended for real-time usage in critical applications. The service name dialogflow.googleapis.com is needed to create RPC client stubs. This API processes a natural language query and returns structured, actionable data as a result. Dialogflow is an end-to-end development suite for building conversational interfaces for websites, mobile applications, popular messaging platforms, and IoT devices that is powered by machine learning. It recognizes the intent and context of what a user says, allowing your conversational interface to provide responses. Dialogflow enables users with ways to interact with products by building voice and text-based conversational applications.",
+    "id": 18486,
+    "bigcategory": "5"
+  },
+  {
+    "name": "date-parser-nlp",
+    "category": "natural-language-processing",
+    "description": "The Date Parser NLP API can extract dates formulation in natural language to their systematic equivalent. Features are multiple dates extraction (as many as there is in the sentence), the position and exact wording of the dates extracted and speed (mainly impacted through the network).Dates that are formatted in a simple manner can be extracted easily. Dates in any variation, including both 25/12/2017 or 2017/12/25, will be spotted even when multiples separators are used. Both the international dates notation (DD/MM/YYYY) and the American dates notation (MM/DD/YYYY) are supported. There is a wide range of ways to express a date in comparison to the current day, such as 2 months from now or last Sunday.",
+    "id": 18540,
+    "bigcategory": "5"
+  },
+  {
+    "name": "g-square-nlp",
+    "category": "natural-language-processing",
+    "description": "The G-Square NLP (Natural Language Processing) API offers sentiment recognition, intent of social media comments, topics, and keywords. G-Square develops tools for the financial services industry including analytics for actionable business insights, Forex pricing solutions, and big data analysis.",
+    "id": 18621,
+    "bigcategory": "5"
+  },
+  {
+    "name": "lxd-linux-container-rest",
+    "category": "application-development",
+    "description": "LXD Linux Container is a RESTful platform-based API that enables the access and management of infrastructures for container projects over HTTP. The LinuxContainer.org project is intended to be used to construct environments for Linux containers, including build machines, infrastructure, mailing-lists, website, and e-mail related tools. The LXD REST API, still under active development, provides a transparent method for managing containers and integrating with large-scale deployment stacks. LinuxContainer.org and it's projects are under the Creative Commons license for free distribution.",
+    "id": 18622,
+    "bigcategory": "5"
+  },
+  {
+    "name": "appwrite-webhooks",
+    "category": "application-development",
+    "description": "Appwrite Webhooks provides real-time communications when certain events are triggered. This API sends an HTTP POST payload to the Webhook's configured URL. Appwrite speeds up the application development process by providing database, storage, localization, and security products.",
+    "id": 18708,
+    "bigcategory": "5"
+  },
+  {
+    "name": "viettel-ai-rest-speech-to-text",
+    "category": "natural-language-processing",
+    "description": "The Viettel AI REST Speech to Text API in REST architecture returns JSON formats with speech recognition features. Developers can authenticate with a token. Code available in Vietnamese and English languages. Viettel AI provides an AI platform from Vietnam.",
+    "id": 18710,
+    "bigcategory": "5"
+  },
+  {
+    "name": "zatar",
+    "category": "application-development",
+    "description": "Zatar is an Internet of Things cloud based service, designed to ease collaboration and application development. The API affords to create apps with customized experiences such as virtual world and avatars. One of the main goals of Zatar, part of Zebra Technologies, is to empower business operations to the next level.",
+    "id": 18790,
+    "bigcategory": "5"
+  },
+  {
+    "name": "trackvia",
+    "category": "application-development",
+    "description": "TrackVia is an online platform that helps users build databases and applications for their businesses. It allows custom applications to be developed quickly and inexpensively, without the need for programming. Developers can use TrackVia to build applications for handling sales, customer support, marketing, assets, projects, etc.",
+    "id": 18860,
+    "bigcategory": "5"
+  },
+  {
+    "name": "placekitten",
+    "category": "application-development",
+    "description": "Placekitten is a web service providing kitten themed image placeholders. Developers place a simple HTTP call specifying image size and placekitten responds with a kitten image to use as a placeholder. Developers can request a specific image.",
+    "id": 18983,
+    "bigcategory": "5"
+  },
+  {
+    "name": "codesnippit",
+    "category": "application-development",
+    "description": "Codesnipp.it is a social sharing site where developers can follow other developers, share their code and find coding help. The API lets users get the status of other site users and list the methods available for the API. It uses HTTP calls and responses are formatted in JSON.",
+    "id": 19085,
+    "bigcategory": "5"
+  },
+  {
+    "name": "thomson-reuters-screening-online",
+    "category": "application-development",
+    "description": "The Thomson Reuters Screening Online API allows users to interact with the World Check Database of Thomson Reuters. It provides robust and scalable functionalities that organizations can use to enhance production and operational efficiencies. The API conveys requests and responses in JSON format.",
+    "id": 19189,
+    "bigcategory": "5"
+  },
+  {
+    "name": "css-sprites-generator",
+    "category": "application-development",
+    "description": "CSSspritegen.com provides a web service helping developers optimize websites by using CSS Sprites, which speed loading times by reducing HTTP requests. The siteâ€™s CSS Sprites Generator API allows developers to create CSS Sprites through simple HTTP requests. Requests require a session token and all responses are UTF-8 JSON formatted.",
+    "id": 19213,
+    "bigcategory": "5"
+  },
+  {
+    "name": "mendix-invite",
+    "category": "application-development",
+    "description": "The Mendix Invite API is an App Service that enables invitation of new users to your AppCloud application directly from the application. It also allows users to invite others to the application. Mendix provides a way to transform ideas into applications.",
+    "id": 19251,
+    "bigcategory": "5"
+  },
+  {
+    "name": "webix-websocket",
+    "category": "application-development",
+    "description": "The Webix Websockets API is used to ensure live data updates on all the clients currently using the application. The proxy object is defined within the component constructor with the help of the url and save properties. It is useful for creating corporate chats clients that can be used with any Webix data component. Webix helps developers build UIs for creating products and internal web resources.",
+    "id": 19351,
+    "bigcategory": "5"
+  },
+  {
+    "name": "f5",
+    "category": "application-development",
+    "description": "F5 is an IT company that improves network security. Some of the solutions include networks functions virtualization, secure web gateway and cloud migration. Products involve platforms, modules, BIG-IP and BIG-IQ device, cloud and security. To access more information developers can visit the link iControl CodeShare, where they will have access to iControlREST and over 100 sample applications.",
+    "id": 19457,
+    "bigcategory": "5"
+  },
+  {
+    "name": "systran-natural-language-processing",
+    "category": "natural-language-processing",
+    "description": "The SYSTRAN Natural Language Processing API provides developers with a modular approach to cover most language processing needs including: language identification, segmentation, tokenization, named-entity extraction, transcription. SYSTRAN Platform is a collection of REST APIs, Client Libraries and samples for Text extraction, Translation, Multilingual dictionaries searches, Natural Language Processing (Language Identification, Segmentation, Morphological analysis, Speech to text and OCR).",
+    "id": 19703,
+    "bigcategory": "5"
+  },
+  {
+    "name": "receptiviti",
+    "category": "natural-language-processing",
+    "description": ".",
+    "id": 19809,
+    "bigcategory": "5"
+  },
+  {
+    "name": "hockeyapp",
+    "category": "application-development",
+    "description": "HockeyApp is an app testing service. It provides beta trial and analysis for developers perfecting their apps. Their products include customizable distribution systems, crash-reporting services, and usage analytics. These products are supported on multiple platforms, including iOS and Android. HockeyApp offers an API that exposes the distribution and crash-reporting functionality. It is a RESTful API that returns JSON-formatted data.",
+    "id": 20134,
+    "bigcategory": "5"
+  },
+  {
+    "name": "cloudobjects-object",
+    "category": "application-development",
+    "description": "The CloudObjects Object API is a public interface used to get objects, vendors, and files. Responses are JSON formatted. This API does not require authentication, but SharedSecret tokens can be generated for lightweight authentication. CloudObjects is a cloud computing platform used as a directory and storage solution for building applications.",
+    "id": 20170,
+    "bigcategory": "5"
+  },
+  {
+    "name": "apigee-edge",
+    "category": "application-development",
+    "description": "Apigee Edge API is a RESTful developer resource for accessing a range of API management services via HTTP client paths. The Apigee Edge makes it possible for developers to deploy scheduled scripting, and ultimately automate their development and management endeavors, such as the management of apps and creation of API products or API proxies. The fully released and documented API is anchored on the Edge management UI and requires HTTP requests, which in turn, generate responses in XML and JSON formats. Apigee Edge’s provider, the Apigee Corporation, is a leading vendor of proprietary solutions for managing APIs.",
+    "id": 20217,
+    "bigcategory": "5"
+  },
+  {
+    "name": "akka",
+    "category": "application-development",
+    "description": "The AKKA API aims to enhance application development. AKKA is available for Java and Scala &amp; HTTP formats can be accessed from Maven central. For support, send a message to info@typesafe.com",
+    "id": 20302,
+    "bigcategory": "5"
+  },
+  {
+    "name": "apache-mesos-scheduler-http",
+    "category": "application-development",
+    "description": "Mesos, a project of the Apache Software Foundation, shares the fundamental principles of Linux kernel. But Mesos kernel features additional functionalities such as unlimited compatibility with machines and provisioning of a variety of resource management and scheduling APIs. The Apache Mesos Scheduler HTTP API supports the construction of applications that run and schedule computing tasks, process, or jobs for the Apache Mesos platform. The RESTful API makes it possible for developers to deploy HTTP requests as substitute for C++ or native client libraries when building Mesos Schedulers. The HTTP requests actually facilitate interactions between a custom scheduler and a Mesos master. The API accepts strictly HTTP POST requests, usually encoded in JSON format, and returns responses in JSON format as well.",
+    "id": 20307,
+    "bigcategory": "5"
+  },
+  {
+    "name": "mendix-feedback",
+    "category": "application-development",
+    "description": "The Mendix Feedback API allows developers to retrieve, add and manage feedback for their Mendix projects. Mendix is an application development service.",
+    "id": 20325,
+    "bigcategory": "5"
+  },
+  {
+    "name": "text-processing",
+    "category": "natural-language-processing",
+    "description": "This natural language processing API can be used for textual analysis and sentiment extraction. Use it to analyze body text for sentiment, lemmatization and stemming, phrase extraction, part of speech tagging and grouping, and named entity identification. The public free API is able to make 1000 calls per day. For larger commercial uses, developers can use the Mashape hosted API.",
+    "id": 20423,
+    "bigcategory": "5"
+  },
+  {
+    "name": "guidebook",
+    "category": "application-development",
+    "description": "Guidebook is an app building platform that lets you create and publish your app to the Google Play and the Apple App Stores in minutes.The Guidebook REST API allows you to manage a subset of the resources available in the Guidebook Builder CMS. The Open API uses resource-oriented URLs, standard HTTP response codes, and HTTP verbs to segment different types of requests. The REST API is intended for content management. If you are interested in integrating with metrics data via our Export API, see the section on Webhooks. To access Guidebook's Open API, you'll need to include an API Key with your requests.",
+    "id": 20455,
+    "bigcategory": "5"
+  },
+  {
+    "name": "architectio",
+    "category": "application-development",
+    "description": "Architect.io enables cloud based collaboration, deployment automation, and networking capabilities. Architect.io's deployments provision services on any container platform such as Kubernetes. Architect.io provides clear insights into expected network traffic and its corresponding network policies.",
+    "id": 20507,
+    "bigcategory": "5"
+  },
+  {
+    "name": "jscrambler-graphql",
+    "category": "application-development",
+    "description": "The Jscrambler GraphQL API enables mutable querying. Jscrambler provides enterprise-grade security solutions that secure the client-side of web and mobile applications.Jscrambler's Code Integrity module applies the most advanced JavaScript obfuscation techniques combined with polymorphic behavior, code locks, self-defending capabilities, and threat monitoring. With these security layers, JavaScript applications become self-defensive and resilient to tampering and reverse-engineering, which enables preventing counterfeit applications, enforcing license agreements, and protecting intellectual property and important algorithms.Jscrambler's Webpage Integrity module provides real-time visibility of client-side attacks, including DOM tampering, supply chain attacks, and customer hijacking. The Jscrambler dashboard displays precise and actionable detail of the injected code to enable an immediate response. Webpage Integrity is a truly agentless solution which can easily be integrated into any SIEM.All Jscrambler products are fully compliant with all the main tech frameworks and stacks, including HTML5, Node.js, React, Angular, Vue, Meteor, Ember, React Native, Ionic, and NativeScript.Trusted by the Fortune 500 and over 43.000 companies and individuals across 145 countries.",
+    "id": 20588,
+    "bigcategory": "5"
+  },
+  {
+    "name": "dialogflow-standard",
+    "category": "natural-language-processing",
+    "description": "The Dialogflow API is an end-to-end development suite of conversational interfaces for chatbots, voice-powered apps and devices that includes; query, intents, entities and more. Dialogflow processes a natural language query and returns structured, actionable data as a result. It is an end-to-end development suite for building conversational interfaces for websites, mobile applications, popular messaging platforms, and IoT devices that is powered by machine learning. It recognizes the intent and context of what a user says, allowing your conversational interface to provide responses. Dialogflow enables users with ways to interact with products by building voice and text-based conversational applications.",
+    "id": 20623,
+    "bigcategory": "5"
+  },
+  {
+    "name": "kubevirt",
+    "category": "application-development",
+    "description": "KubeVirt is a development platform where developers can build and deploy applications residing in containers and virtual machines. The API enables developers to create virtual machines, get lists, delete virtual machines, and retrieve data in JSON format. KubeVirt is a Kubernetes virtualization operator dedicated to support virtual machine-based workloads that cannot be easily containerized.",
+    "id": 20679,
+    "bigcategory": "5"
+  },
+  {
+    "name": "klangoo-nlp",
+    "category": "natural-language-processing",
+    "description": "The Klangoo NLP API is a natural language processing service that utilizes rule-based paradigm and machine learning to recognize the aboutness of some text. It recognizes text categories, and then extracts key topics, places, people, brands, events, and more. This API supports response formats for XML and JSON with both GET and POST request methods that are authenticated via API Key. It automatically finds the relatedness score between documents by analyzing text using tokenization, parts of speech, parsing, word sense disambiguation and named entity recognition. The Klangoo API allows you to access information for; Summary, KeyTopics, Entities and Categories that; returns an extracted summary of the input text, returns the key topics of the input text, returns a list of the names identified from the text and returns categories identified for Health, Politics, Sports, Entertainment, Technology, Business, Law, Science, and others. Klangoo is Audience Engagement Solutions, Personalization and Analytics.",
+    "id": 20718,
+    "bigcategory": "5"
+  },
+  {
+    "name": "att-m2x-mqtt",
+    "category": "application-development",
+    "description": "This API from ATT uses the MQTT protocol to streamline the connection between devices and M2X. This allows you to build applications and services as well as gather and translate data in real-time. This cloud-based API will manage your devices and notifications all from one central location. ATT M2X is a cloud-based data storage service and device management tool for Internet of Things.",
+    "id": 20734,
+    "bigcategory": "5"
+  },
+  {
+    "name": "semaphore-ci",
+    "category": "application-development",
+    "description": "The Semaphore API offers an out of the box CI server designed to hasten deployment processes. Developers need only to push newly updated code to the cloud to test it, then Semaphore deploys the code with Docker for continuous delivery. The API requires JSON formatted input and output. Semaphore offers several plans for deployment, and a 30 day trial is also available.",
+    "id": 20779,
+    "bigcategory": "5"
+  },
+  {
+    "name": "mesosphere-marathon",
+    "category": "application-development",
+    "description": "The Mesosphere Marathon API is a component of Apache Mesos’ DC/OS distributed operating system. The distributed operating system centralizes the management of multiple computers. The Mesosphere Marathon API simplifies the development of RESTful service management applications. The API sends requests and returns responses in JSON format.",
+    "id": 20854,
+    "bigcategory": "5"
+  },
+  {
+    "name": "docker-hub-accounts",
+    "category": "application-development",
+    "description": "The Docker Hub Accounts API facilitates Docker user accounts management. The API uses GET/POST methods with JSON over HTTP. Requests are authenticated with either HTTP Basic or OAuth Bearer Token. Use Docker Hub Accounts to update a user and add, list, or delete an email for a user.",
+    "id": 21011,
+    "bigcategory": "5"
+  },
+  {
+    "name": "plasticity-cortex-knowledge-graph",
+    "category": "natural-language-processing",
+    "description": "This Plasticity service provides a way to acces 180+ million facts on over 20+ million entities using the Cortex Knowledge Graph. It allows you to query the graph in natural language or make requests for rich data on people, places, and things. It is a Human-like conversational interface to understand language at its core, that is based on language semantics, not keywords, that extracts relations, structure, and meaning from your text with a simple JSON API. Plasticity is built to extract a graph of real-world knowledge by understanding unstructured text on the internet, that employs inference, deduction, and distant supervision to uncover hidden knowledge. Plasticity synthesizes useful wide-ranging actions learned from natural language instructions.",
+    "id": 21019,
+    "bigcategory": "5"
+  },
+  {
+    "name": "mendix-user-management",
+    "category": "application-development",
+    "description": "The Mendix User Management API allows developers to integrate their applications with the Mendix platform, allowing their clients to create and manage user accounts in their companies. Mendix is an application development service.",
+    "id": 21081,
+    "bigcategory": "5"
+  },
+  {
+    "name": "appdome-dev-build-to-publish",
+    "category": "application-development",
+    "description": "The Appdome-DEV Build to Publish API allows developers to automate the build-to-publish life cycle of their mobile app. This API can be used to upload, Fuse, add Context, and sign an app.Appdome is a service for adding mobile security, app-shielding, authentication, identity, mobility, analytics, and more to Android and iOS applications.",
+    "id": 21287,
+    "bigcategory": "5"
+  },
+  {
+    "name": "digitalowl-text-classification",
+    "category": "natural-language-processing",
+    "description": "The DigitalOwl Text Classification API uses algorithms to classify text based on semantic features. It can classify 300-350 texts per second. This API is RESTful and works with either plain text or a URL. An API key is required.This API is provided by DigitalOwl, a software company that offers natural language processing services.",
+    "id": 21294,
+    "bigcategory": "5"
+  },
+  {
+    "name": "openstack-bare-metal",
+    "category": "application-development",
+    "description": "OpenStack is a provider of various open source project components that facilitate the establishment of cloud services. It has provided standard APIs that are well suited for multiple implementations. The OpenStack Bare Metal API is a RESTful platform for interacting with the cloud-provisioned hardware architecture of the Bare Metal service. The OpenStack Bare Metal service is essentially a network of physical servers that have been transformed into virtual machines, and made available to service providers and enterprises, through the cloud infrastructure. Developers can use the OpenStack Bare Metal API to create a control panel through which users can acquire privileged rights for accessing and interacting with the bare metal servers in the cloud environment.",
+    "id": 21616,
+    "bigcategory": "5"
+  },
+  {
+    "name": "metacpan",
+    "category": "application-development",
+    "description": "MetaCPAN is a service to search the CPAN repository of Perl modules. Perl programmers can search MetaCPAN by keyword, module author or category. The MetaCPAN service is also made available via API (and yes, there's a CPAN module to access MetaCPAN). Developers can search the MetaCPAN API by six different fields: author, distribution, favorite, file, rating and release. There is also an advanced feature to join across multiple search types. The API is RESTful, with data returned as JSON or JSONP with a callback. The current version of the API allows a maximum of 5000 search requests.",
+    "id": 21675,
+    "bigcategory": "5"
+  },
+  {
+    "name": "appbrain",
+    "category": "application-development",
+    "description": "AppBrain provides tools including AppBrain Promote, AppBrain Monetize, AppBrain Ranking and AppBrain App Intelligence, to make Android application developers lives easier. The AppBrain API enables users to interact with the platform, with methods to search and browse, fetch information about apps that are in Google Play marketplace, create, update and get information about app promotion campaigns, and retrieve advertising statistics, app SDK earnings, and other information.",
+    "id": 21714,
+    "bigcategory": "5"
+  },
+  {
+    "name": "cloudmersive-natural-language-processing-nlp",
+    "category": "natural-language-processing",
+    "description": "The powerful Cloudmersive Natural Language Processing (NLP) API enables part-of-speech (POS) tagging, sentence parsing (treebank), text analytics, language detection, and entity extraction.With this API, you can:<ul>identify the part of speech of words from a sentence.<li>Pull out all the verbs, nouns, proper nouns, etc. from a sentence.</li><li>Fully parse a sentence into its constituent structure.</li><li>Perform analytics over unstructured text to identify sentiment, keywords and phrases, and much more.</li><li>Identify the key entities that are referenced in the unstructured text.</li><li>Automatically detect the language of a text string across the world's 14 most popular languages.</li></ul>Authentication is via API Key. This is a RESTful API.",
+    "id": 21876,
+    "bigcategory": "5"
+  }
+]

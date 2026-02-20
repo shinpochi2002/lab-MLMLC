@@ -1,0 +1,29 @@
+{
+  "category": "astronomy",
+  "count": 2,
+  "items": [
+    {
+      "mashup": "mars-explorer",
+      "description": " The Mars Explorer app (for Android devices) allows you to explore The Red Planet as a whole or through the eyes of one of three NASA rovers currently on the surface. Learn about each of the three rovers and the data they collect on the surface of Mars. Search through years worth of pictures the rovers have taken. Save and share your favorite pictures. Learn about how the rovers work and how they were built. Learn something new about Mars every day with the Daily Fact home screen widget. Get the latest weather details from the Rover Environmental Monitoring Station on board the Curiosity Rover. ",
+      "original_categories": [
+        "education",
+        "astronomy",
+        "entertainment",
+        "science"
+      ],
+      "used_apis": [
+        "maas2"
+      ]
+    },
+    {
+      "mashup": "maas2",
+      "description": "MAAS2 is a REST API that provides the latest weather data transmitted by the Curiosity Rover on Mars. This API is built upon the REMS (Rover Environmental Monitoring Station). MAAS2 responds in JSON formatted data.",
+      "original_categories": [
+        "astronomy"
+      ],
+      "used_apis": [
+        "maas2"
+      ]
+    }
+  ]
+}

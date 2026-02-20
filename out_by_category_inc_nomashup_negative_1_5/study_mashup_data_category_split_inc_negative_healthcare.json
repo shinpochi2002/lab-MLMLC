@@ -1,0 +1,202 @@
+{
+  "category": "healthcare",
+  "count": 18,
+  "positive_count": 3,
+  "negative_count": 15,
+  "pos_neg_ratio": "1:5",
+  "items": [
+    {
+      "mashup": "refuge-android-app",
+      "description": " This is the unofficial Android dependent on the REFUGE Restrooms AP. The app allows users to interact with the database of restrooms safe for transgender, intersex, gender nonconforming, as well as handicapped individuals. Users can search a map to view drop-pins for restroom locations nearest to their proximity. Also, the app displays short bios on the restroom so that users are informed. ",
+      "original_categories": [
+        "lists",
+        "directories",
+        "healthcare"
+      ],
+      "used_apis": [
+        "refuge-restrooms"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "gethealth",
+      "description": "GetHealth is a Unified RESTful API to access health data from wearables and devices. It allows users to integrate the sources like Dailymile, Fatsecret, Fitbit, Google Fit, Jawbone, Lifefitness, MapMyFitness, MapMyRun, MapMyWalk, Microsoft Health, Misfit, Moves, PredicctBGL, Runkeeper, Strava, Sony Lifelog, Withings, and 23andMe. It also allows integration to medical devices. There are api calls available for activity, diabetes, weight, nutrition, sleep, and genotype. Furthermore it eases the user authentication process for each source with single-sign on API call. Also it normalizes the data across multiple sources and provides unified data structure.",
+      "original_categories": [
+        "healthcare"
+      ],
+      "used_apis": [
+        "gethealth"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "refuge-restrooms",
+      "description": "Based in San Francisco, REFUGE Restrooms is a resource that provides transgender, intersex, and gender nonconforming individuals with access to a library of restrooms with safe environments. Similar to the now deprecated Safe2Pee, users can search for restrooms by proximity, may add new restrooms to the directory, and can also comment and rate their experiences. The site and service aims to promote restroom advocacy through community building. The project is accessible using a RESTful API. Using GET HTTP requests, developers can query the restroom database by keyword, and can also return a full list of all database entries in a JSON format.",
+      "original_categories": [
+        "healthcare"
+      ],
+      "used_apis": [
+        "refuge-restrooms"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "maps-smartphone",
+      "description": " Get your favorite maps on the small display screen of your smartphones. ",
+      "original_categories": [
+        "mapping",
+        "mobile",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dropin-v1.2.3",
+      "description": " The Drop!in v1.2.3 Mashup helps users locate events that are taking place within the proximity of their locations. The application detects and lists corporate events, social activities, or fun destinations where individuals can visit to engage in past time or work-related activities. ",
+      "original_categories": [
+        "events",
+        "addresses",
+        "location",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "netherlands-citysdk",
+      "description": " All 9,866,539 buildings in the Netherlands, shaded according to year of construction. Data from BAG, via CitySDK. Map made with TileMill by Bert Spaan, Waag Society, inspired by BKLYNR. ",
+      "original_categories": [
+        "mapping",
+        "surveys",
+        "history",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "realtime-related-tweets-bar",
+      "description": " Highly customizable jQuery plugin to create a real-time Twitter search-driven bar of tweets related to your post. ",
+      "original_categories": [
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "funda.nl",
+      "description": " Real estate listings in the Netherlands. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wifi-and-plugs-0",
+      "description": " This nifty app shows locations in London where you can be sure to get Wi-Fi and Plugs. Data is sourced from Import.io and user submitted entries. The app takes MapBox, google docs and Import.io and mashes them together to make a simple but useful tool. ",
+      "original_categories": [
+        "mapping",
+        "data"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "camelcamelcamel",
+      "description": " Uses the Amazon Product Advertising API to track pricing trends on nearly 3 million Amazon products, and notifies its users of price drops via email and the Twitter API. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "filmfinder",
+      "description": " Filmfinder is a mobile application that lets users browse and search for movies and TV series. Filmfinder uses a few different APIs for their database, including Youtube and Movie DB. ",
+      "original_categories": [
+        "movies",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "utrecht-music-video-search",
+      "description": " Music videos search from YouTube. ",
+      "original_categories": [
+        "music",
+        "video",
+        "ecommerce",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "motube",
+      "description": " moTube is a mobile subscription service that allows people to receive notifications via text message (SMS/MMS) each time a new video is published to a YouTube channel. We created moTube as a way for people to get realtime updates from their favorite YouTube channels directly on their phone. It's a free service and we don't charge subscribers for the notifications sent to their device. Keep in mind that the text messaging plan you have with your mobile carrier still applies. For example, if you have an unlimited messaging plan and receive an update from moTube, you will not be charged anything. moTube is currently in beta, so YouTubers who want to add moTube to their channel must have an invite which we're currently accepting requests for on our website (http://motube.us/). ",
+      "original_categories": [
+        "messaging",
+        "messaging",
+        "text"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "short-and-tweet",
+      "description": "This API allows users to create short and tiny urls/links remotely and then tweet them. It uses SOAP interface and requires an API key.",
+      "original_categories": [
+        "url-shortener"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "jobs-tractor",
+      "description": " Jobs Tractor searches twitter for developer jobs, ignoring recruiters and jobs boards. Tweets are displayed based on your location ",
+      "original_categories": [
+        "jobs",
+        "search",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "genre-quiz",
+      "description": " Guess which genre the artists belong to. ",
+      "original_categories": [
+        "humor",
+        "music",
+        "social",
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "etsyhacks-where-am-i",
+      "description": " This tool performs a search using your chosen terms, and reports which page the shop you specify first appears on. It currently only supports the handmade: tags, titles search, and will give up after the first 25 pages. ",
+      "original_categories": [
+        "ecommerce",
+        "search",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "care-steps",
+      "description": " CareSteps – Robust, Paperless Business Solutions it provides versatile and paperless mobile business solutions that reduce your business cost and improve online market visibility. Go paperless today! ",
+      "original_categories": [
+        "ecommerce",
+        "office"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

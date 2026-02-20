@@ -1,0 +1,524 @@
+{
+  "category": "printing",
+  "count": 48,
+  "positive_count": 3,
+  "negative_count": 45,
+  "pos_neg_ratio": "1:15",
+  "items": [
+    {
+      "mashup": "public-domain-reprints",
+      "description": " Lets people reprint public domain books from Internet Archive and Google Books. ",
+      "original_categories": [
+        "printing",
+        "books"
+      ],
+      "used_apis": [
+        "lulu-publishing"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "lulu-publishing",
+      "description": "The Lulu Print API allows you to use Lulu.com as your production and fulfillment network by integrating it directly into your own application. The Lulu API utilizes the same APIs that Lulu uses internally to normalize files and send Print Jobs to our production partners around the world.Whether you're a Developer, Start-up, Entrepreneur or Publisher, you can now incorporate global Print-on-Demand book manufacturing and distribution into your own business quickly and easily at the best commercial rates in the industry.",
+      "original_categories": [
+        "printing"
+      ],
+      "used_apis": [
+        "lulu-publishing"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "printr__api",
+      "description": "PRINTR is a 3D printing platform. It comes with beginner-friendly applications for designing 3D objects and also allows users to purchase existing 3D models online. Users can print objects and track the progress of objects being printed from their mobile devices.PRINTR's public API allows users to get printer types, sliceprofiles, available materials and colors, and 3D printing locations where a given material and color are available. The private API endpoints allow users to get, create, update, and delete information on users, files, printers, sliceprofiles, materials, print queues, 3D files, and file meshes. It can also render a .jpg image of a model or do a quickslice of an uploaded file.",
+      "original_categories": [
+        "printing"
+      ],
+      "used_apis": [
+        "printr"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "i2s-image-to-speech",
+      "description": " I2S is a state-of-the-art mobile OCR scanning software that practically turns almost any images with human readable characters into text content which is in turn transformed into human voice in your native language and accent. ",
+      "original_categories": [
+        "ocr",
+        "images",
+        "language",
+        "languages",
+        "mobile",
+        "scanning",
+        "text-to-speech"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "thetvdbcom",
+      "description": "TheTVDB.com site is a community driven database of television shows with the goal of being an accurate source of information on TV series from many languages and countries. Users can interact with the database through a RESTful interface and get results in XML format.",
+      "original_categories": [
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "egnyte",
+      "description": "Egnyte allows enterprises to store files in the right place based on file size, security, and compliance needs with a unique solution that can be cloud only, on-prem only or synchronized between cloud and on-prem storage. Users get the seamless access and file sharing from any device regardless of where files are stored.",
+      "original_categories": [
+        "file-sharing"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "venmo",
+      "description": " Venmo makes settling up with friends easy and social. It works with just about any phone or through the web. It's completely free to use with your friends, so you can always skip the ATM when you need to settle up on things like meals, rent, bills, drinks, group trips and bingo. ",
+      "original_categories": [
+        "telephony",
+        "messaging",
+        "mobile",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "soho-rintaro",
+      "description": " Searching various contents regarding history, sports, music, movie etc. by using various APIs. ",
+      "original_categories": [
+        "music",
+        "movies",
+        "travel",
+        "sports",
+        "books",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pipl",
+      "description": "Pipl is a people data company that makes it easy for anyone to get contact, social, demographic and professional information about people.Pipl's People Data API allows you to use the information you have about a person (such as name, address, age, email, phone or username) and get a complete, structured profile based on everything Pipl finds on the web and in their cache.At Pipl’s core is its proprietary identity resolution engine which combines over 10 billion records from millions of online and offline sources, creating a dynamic and searchable index of people profiles where information can be found using data-points like social handles, email addresses and mobile phone numbers.Pipl’s data and People Data API are used for everything from contact enrichment and marketing to compliance and identity verification.",
+      "original_categories": [
+        "identity"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flightcheck-anywhere-flight-information",
+      "description": " Check any national or international flights via your mobile. Send in a flights tail number i.e. NZ1 to YouTXTs 8808 shortcode and check for a flights real-time arrival, departure and delay information. ",
+      "original_categories": [
+        "travel",
+        "messaging",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "amee",
+      "description": "AMEE is a platform for greenhouse gas calculation, with access to emissions factors, calculation algorithms, and storage for data history. Our science team take the published methodologies from the science community and put them into a simple unified API, so you don't have to trawl through PDFs and spreadsheets to work it all our yourself. With over 8 million possible calculations, the platform covers everything from simple electricity calculations through to insanely complex industrial processes. If you need to work out the environmental impact of an activity, AMEE has the environmental intelligence you need.",
+      "original_categories": [
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "world-statistics",
+      "description": " Powered by the Google Fusion Tables API, this service visually displays world statistics on a map. Statistics include: Population, GDP, and currency unit. ",
+      "original_categories": [
+        "statistics",
+        "visualizations",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "retailmenotcom-community-ideas",
+      "description": "The RetailMeNot.com Community Ideas API provides methods for obtaining data from this site for using in mashups and other consumable formats. Retail Me Not is a website that provides links to, and information about online coupons, coupon codes and discounts for a variety of retailers. The API uses RESTful protocol and responses are formatted in JSON.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "online-basketball-camp",
+      "description": " Online Basketball Camp (also referred to as Hoop Alert) is a website for coaches to manage and communicate with their teams by providing a custom platform for scheduling, text messaging, video uploading, and more. It utilizes a few different APIs, some of which include AT&amp; T In-App Messaging, and Google Calendar. ",
+      "original_categories": [
+        "messaging",
+        "collaboration",
+        "sports",
+        "text"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gatekrash-mobile",
+      "description": " Gatekrash Mobile is a touchscreen-optimised version of Gatekrash, providing event listings for the UK. It uses the Gatekrash API to request relevant data. ",
+      "original_categories": [
+        "mobile",
+        "events",
+        "england",
+        "search",
+        "reference",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nosy-neighbor-map",
+      "description": " Washington DC real estate &amp; Google Maps mashup maps vacant property and past property sales. Over 70,000 sales records are accessible. See what your neighbors paid. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "us-towns-holiday-season-names",
+      "description": " Google Maps Mashup of US Towns and Cities named with Christmas or Holiday Season Names ",
+      "original_categories": [
+        "holidays",
+        "holidays",
+        "mapping",
+        "trivia"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "my-neighbourhoods-uk",
+      "description": " Community networking site that allows members to get in touch with their neighbours. The site uses APIs from Nestoria, flickr, Eventful and more to provide local information to users. ",
+      "original_categories": [
+        "mapping",
+        "social",
+        "england"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "crimeindc.org",
+      "description": " Google map mashup of crime in Washington, DC. ",
+      "original_categories": [
+        "crime",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "subdb",
+      "description": "SubDB is a free, centralized subtitle database intended for use by opensource and non-commercial software. Users upload subtitles that can be freely download by others. With the SubRank algorithm, the database chooses the best subtitle among all available for a video file making the download process easier. The SubDB API lets users download and upload subtitles from the database. The API uses HTTP calls and responses are formatted as comma separated values.",
+      "original_categories": [
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fitcheck",
+      "description": " Fitcheck is an application that lets users to keep track of how active they are throughout the day. This application uses the Fitbit API service. ",
+      "original_categories": [
+        "applications"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "global-biodiversity-information-facility",
+      "description": "Global Biodiversity Information Facility (GBIF) enables access to over 7000 datasets by over 200 data providers as part of a UDDI Registry. Get species data, including plants, animals, fungi and micro-organisms, plus species occurrence records with classifications and scientific and common names. Also access news about GDIF with the aPI. Participants in the GBIF network can use a toolkit to efficiently publish to the Internet biodiversity data. GBIF is an international group that works to make the world's biodiversity data accessible anywhere. The GBIF office is at the University of Copenhagen, Denmark, in the Zoological Museum.",
+      "original_categories": [
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "openaidnl",
+      "description": " This platform extracts the raw IATI data published by the Dutch Ministry of Foreign Affairs from the IATI registry, and presents it in an easy-to-use web interface. It does not alter or interpret the data in any way. At this transparency portal you can find every development cooperation activity supported by the Dutch Ministry of Foreign Affairs since 2010. The portal enables you to find the activities in specific countries or regions, in sectors or by receiver organization. ",
+      "original_categories": [
+        "government",
+        "transparency"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "maps-australia",
+      "description": " Collection of online maps using Google or Microsoft maps, street level to whole of the continent, including place name and address search, geocoding and link to map service. ",
+      "original_categories": [
+        "australian",
+        "mapping",
+        "search",
+        "travel",
+        "weather",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gatekrash",
+      "description": "Gatekrash aggregates event listings in the UK by searching other websites. Gatekrash then collects the listings and provides filter and sort options. Events are grouped geographically, by venue or by other similarity.The Gatekrash API provides a RESTful interface to the Gatekrash event database. The API is currently free to use, with no rate limiting or authentication required, though considered to be in perpetual beta.",
+      "original_categories": [
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ning-and-box.net",
+      "description": " This mashup allows users to share files with their Ning networks using Box.net. ",
+      "original_categories": [
+        "social",
+        "social",
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zimride",
+      "description": " Zimride is a carpool and rideshare matching website that uses Facebook profiles and geocoded addresses. Imagine the possibilities. ",
+      "original_categories": [
+        "transportation",
+        "social",
+        "mapping",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "santa-call",
+      "description": " Let Santa Call makes phone calls to your friends, and play them a Christmas song. ",
+      "original_categories": [
+        "voice",
+        "humor",
+        "holidays"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "launchbit",
+      "description": "LaunchBit is an email advertising service. Users can create email ad campaigns to send to target audiences.The LaunchBit API allows developers to access and integrate the functionality of LaunchBit with other applications. Some example API methods include accessing ad information, retrieving adzones, and retrieving codes and status.",
+      "original_categories": [
+        "advertising"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mileage-calculator",
+      "description": " You can use this tool to calculate travel mileage for any number of trips, fetching information from Google Maps. Better yet, if you have trips entered in Google Calendar, you can fetch those events towards calculating mileage. ",
+      "original_categories": [
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "weathercalls",
+      "description": " Lets you receive weather updates over the phone. You have access to weather forecasts, temperature atmospheric conditions, wind, sunrise and sunset times and the ability to receive automatic updates. ",
+      "original_categories": [
+        "weather",
+        "voice",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zaggle-zms",
+      "description": " ZMS is a free SMS gateway with a retro 8BIT user interface. ZMS enables any iOS device to send and receive free SMS text messages to any cell phone. ",
+      "original_categories": [
+        "messaging",
+        "mobile",
+        "messaging",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "giphy",
+      "description": "Giphy is an animated search engine for discovering and sharing GIF images. Giphy exposes its search capabilities through a RESTlike API. The API is comprised of nine JSON endpoints, allowing developers to search for GIFs using a variety of filters and search parameters.",
+      "original_categories": [
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitter-interesting-stuff-finder",
+      "description": " Find interesting people and retweets by following the retweet chain. ",
+      "original_categories": [
+        "search",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "caret",
+      "description": " Caret is automatable status sharing triggered by your device's sensors (context aware status sharing). With Caret you are able to Personalize presence info with automated context &amp; interactive B2C/B2B services. With the Caret App you can: Assign real time statuses to phone numbers for sharing with contacts See when &amp; why contacts are available or busy Manage what contacts see about you Call &amp; end-to-end encrypted status based messaging for free Create custom statuses to meet your business needs Discover your contacts' interests in real time The app is available for free for iOS, Anrdoid, and Amazon devices. ",
+      "original_categories": [
+        "accessibility",
+        "applications",
+        "games",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tweet-lot",
+      "description": " The ultimate marketing tool to create buzz online. Create competitions on twitter to encourage tweeting. Are you holding an event? launching a product? holding a gig? Use #tweet-a-lot to get publicity online. Gamification of twitter posts! Incredibly addictive. Automatic player discovery, with nothing to install. ",
+      "original_categories": [
+        "engagement",
+        "streaming"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "streetartlocator",
+      "description": " Find street art using this Google Maps community driven mashup. ",
+      "original_categories": [
+        "ecommerce",
+        "mapping",
+        "art",
+        "art"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "louisville-metro-mapper",
+      "description": " Interactive Maps for the Louisville Metro area - crimes, sex offenders, historic sites, traffic cams, restaurant health ratings, homes for sale. ",
+      "original_categories": [
+        "mapping",
+        "crime"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mailpeak",
+      "description": " MailPeak uses the Twilio API to turn webmail accounts into voicemail. Listen and send voice replies to your emails from any phone. ",
+      "original_categories": [
+        "voice",
+        "mobile",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "appfollow",
+      "description": " App Store Optimization tool that gives you an opportunity to get the best visibility in App Store &amp; Google Play. Get the best tips and guides right now! Find New Keywords, Track App Rankings! ",
+      "original_categories": [
+        "optimization",
+        "marketplace"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "healthy-lemur",
+      "description": " Healthy Lemur is an app that lets you publicly commit to exercise: - Link your foursquare account - Select the number of days per week that you're going to exercise - Link your facebook and/or twitter accounts And you're all set! We will track every time you go to the gym and every Monday, we will post on facebook and/or twitter account if you have reached your goal (or we will shame you publicly if you haven't!) ",
+      "original_categories": [
+        "fitness",
+        "health",
+        "humor",
+        "social",
+        "fitness"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cubit",
+      "description": " Cubit offers cut-and-paste ready planning data for a fee. Uses a Google Map to accept input of the area (free registration required). ",
+      "original_categories": [
+        "mapping",
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "recycling-center",
+      "description": " Map search to locate Recycling Centers and a guide to recycling from home. There is also a store to shop for recycling stuff. ",
+      "original_categories": [
+        "mapping",
+        "environment",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "giphy-and-twilio-text-gif",
+      "description": " A combination of a GIPHY and Twilio script that runs in the Terminal that texts someone a GIF based on a user-inputed phrase. This project was built by exporting JavaScript code snippets from RapidAPI’s GIPHY and Twilio API packages. You can recreate this app in your preferred language by filling in the parameters on RapidAPI and exporting the snippet in the language of your choice (ex. Python, PHP, Java, Objective-C and cURL). You can also find the source code on GitHub. ",
+      "original_categories": [
+        "social",
+        "community",
+        "media"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "jozomello",
+      "description": " Jozomello TV is a web page that serves Turkish,Kurdish,Arabic,Armenian and Persian music clips and videos. It uses YouTube API and selects videos order by popularity and view count. ",
+      "original_categories": [
+        "video",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bicicarm",
+      "description": " Bicicarm is the bike portal of the Regional Province of Murcia. This mashup uses google maps and google maps elevation to display a visual reference of bike routes. ",
+      "original_categories": [
+        "mapping",
+        "social",
+        "cycling",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "earthtools",
+      "description": "From their site: EarthTools is a collection of webservices for finding out geographical-related information. There are currently three services available for finding the time zone or local time, the sunrise and sunset times, and the elevation/height above sea level at a given latitude and longitude.",
+      "original_categories": [
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "yahoo-placemaker",
+      "description": "Yahoo Placemaker is a new geo-enrichment platform. The freely-available API enables developers and publishers to make applications and data sets location-aware by determining the whereness of unstructured content (such as blog posts, new articles, feeds, and web pages). To use it, developers specify structured and unstructued content; feeds, web pages, news, status articles, etc. Then Placemaker identifies, disambiguates and extracts places. And finally Placemaker returns geographic metadata, which determines the whereness of structured and unstructured content.",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

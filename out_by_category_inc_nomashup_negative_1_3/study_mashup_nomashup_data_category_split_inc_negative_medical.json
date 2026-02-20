@@ -1,0 +1,346 @@
+{
+  "category": "medical",
+  "count": 32,
+  "positive_count": 8,
+  "negative_count": 24,
+  "pos_neg_ratio": "1:3",
+  "items": [
+    {
+      "mashup": "tictrac",
+      "description": " TicTrac is a web and mobile application that allows users to track their every activity by either syncing from other existing applications on their device, or by using available features on TicTrac. With TicTrac, customers will discover what works for them, and what makes them tick. FitTrack's goal is to help users to better understand their routines. The mashup deploys the FitBit, BBC, and Health 2.0 APIs. ",
+      "original_categories": [
+        "fitness"
+      ],
+      "used_apis": [
+        "health-20"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "academic-site-navigaiton",
+      "description": " ODP Mashup Server. A Chinese site meant to help you create mashups. The code embeds in your page, while preserving your style. ",
+      "original_categories": [
+        "chinese",
+        "directories",
+        "tools"
+      ],
+      "used_apis": [
+        "web-api-biology"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "pubmed-faceoff",
+      "description": " Shows Chernoff Faces visualization to represent the impact factor data of a paper alongside Pubmed biomedical literature search results. Basically it allows you to search PubMed and have the results represented as a set of human faces. ",
+      "original_categories": [
+        "medical",
+        "visualizations",
+        "science"
+      ],
+      "used_apis": [
+        "ncbi-entrez"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "health-20",
+      "description": "The service provides a directory of APIs for health-related services. Listings document available data and application functionality for topics like medical practice and health care, biological research, and healthy lifestyle practices, along with general-purpose APIs from providers in these sectors. The directory aggregates API listings from a number of online sources to narrow the selection of health-related services.API methods support retrieval of directory listings by type, protocol, feature sets, or tags and keywords applied.",
+      "original_categories": [
+        "medical"
+      ],
+      "used_apis": [
+        "health-20"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "national-library-medicine-dirline",
+      "description": "DIRLINE (Directory of Information Resources Online) is the National Library of Medicine's online database containing location and descriptive information about a wide variety of information resources including organizations, research resources, projects, and databases concerned with health and biomedicine. The DIRLINE API allows users to search the DIRLINE database with keywords. Using this API, software developers can integrate DIRLINE data into their own applications. This service uses RESTful calls and returns search results with both brief and full records in XML Format.",
+      "original_categories": [
+        "medical"
+      ],
+      "used_apis": [
+        "national-library-medicine-dirline"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "ncbi-entrez",
+      "description": "The NCBI Entrez Utilities Web Service enables developers to access Entrez Utilities via the Simple Object Access Protocol (SOAP). The Entrez database contains bioinformatics data.",
+      "original_categories": [
+        "medical"
+      ],
+      "used_apis": [
+        "ncbi-entrez"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "nhs",
+      "description": "NHS Choices has created a set of web services to allow approved partners to interact with the NHS Syndicated content, free of charge. The web services return NHS Choices content in a form that can be easily integrated into a website or application. The APIs are available to registered users. They offer access to portions of the NHS website and are listed as Behind the Headlines, Conditions, Live Well, Medicines, Video, Search, Organisation Data, and Organisation inbound.",
+      "original_categories": [
+        "medical"
+      ],
+      "used_apis": [
+        "nhs"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "web-api-biology",
+      "description": "From their site: Web API for Bioinformatics (WABI).",
+      "original_categories": [
+        "medical"
+      ],
+      "used_apis": [
+        "web-api-biology"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "parking-maps-singapore",
+      "description": " Using carpark information and map information from OneMotoring.com.sg and Google Maps respectively, users can have a birds-eye view of all the parking costs in Singapore. ",
+      "original_categories": [
+        "auto",
+        "mapping",
+        "auto",
+        "parking"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nfl-fan-mapping-site",
+      "description": " Create and share maps to places near your favorite NFL stadium, including tailgates, restaurants, clubs, and seats. ",
+      "original_categories": [
+        "mapping",
+        "sports",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "context-booseter-evernote",
+      "description": " Boost your notes with related data from all across the web. All you need to know in one place. ",
+      "original_categories": [
+        "notes",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "walk-score",
+      "description": " Walk Score shows you a map of what is nearby and calculates a Walk Score for any property. Buying a house in a walkable neighborhood is good for your health and good for the environment. ",
+      "original_categories": [
+        "mapping",
+        "environment",
+        "sustainability"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickrbackup",
+      "description": " A Java-based Flickr backup utility that lets you back up all your photos on Flickr. ",
+      "original_categories": [
+        "backup",
+        "photos",
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "npr-labs-mapping-and-population-system",
+      "description": " Gooogle Maps Mashup displays public broadcast coverage overlays, and allows users to look up demographic information for all broadcast facilities, radio and TV. ",
+      "original_categories": [
+        "mapping",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sleeping-time",
+      "description": " Sleeping Time will fetch the last 1000 tweets of a Twitter user and then determines the approximate sleeping schedule based on the time when he or she is least active on Twitter. ",
+      "original_categories": [
+        "humor",
+        "social",
+        "health"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-apps-script-execution",
+      "description": "Google Apps Script Execution is an automation API that lets developers use JavaScript to interact with many of Google's products, including Calendar, Docs and Contacts. Using the API, developers can automate tasks or otherwise improve their own experience or that of other users while using Google products. For example, a developer might take a Google spreadsheet and add buttons and other interface components to improve means of gathering user input for calculations. Apps Scripts can also create new pages on Google Sites, send emails triggered by specific spreadsheet data and more.In addition to accessing Google products, the Apps Scripts also can access utility services, such as an XML parser and SOAP call creator.",
+      "original_categories": [
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "deletious",
+      "description": " Makes it easy to review and delete/keep your old delicious bookmarks by showing the web page in a n iframe right next to some delete/keep buttons ",
+      "original_categories": [
+        "management"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "berlin-bicycle-accidents-location",
+      "description": " This mashup displays the location of bicycle accidents in Berlin. Users can search the Google Maps based data and pinpoint hot spots. ",
+      "original_categories": [
+        "mapping",
+        "cycling",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geonames",
+      "description": "Geonames is a geographical database with web services that let users extract useful information about different places, such as weather, timezone and post codes. The GeoNames geographical database covers all countries and contains over eight million placenames that are available for download free of charge. Users can edit, correct and add new names using a wiki interface.Geonames provides a suite of Webservices including the following categories:<ul><li>Fulltext search</li><li>Place Hierarchy</li><li>Wikipedia</li><li>Postal Codes</li><li>Reverse Geocoding</li></ul>The APIs use RESTful protocol and responses vary in format between XML, JSON, CSV, and TXTWhile the GeoNames data is free, the data is available without costs, there is a Service Level Agreement available for premium web services.",
+      "original_categories": [
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "refynr-social-dashboard-twiliocon-2012",
+      "description": " Twitter &amp; SMS custom social media dashboard for all things related to TwilioCon 2012. ",
+      "original_categories": [
+        "dashboards",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "timebridge-and-box.net",
+      "description": " Allows Box.net users to share files from their Box accounts using TimeBridge, where they can discuss and collaborate around them in real-time with other users. ",
+      "original_categories": [
+        "collaboration",
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "txt-e",
+      "description": " Lost your phone? Canâ€™t use it at work? TXT by E is the easiest way to make your connection via SMS! Send from this website, or send using the TXT by Email feature. ",
+      "original_categories": [
+        "messaging",
+        "text",
+        "email"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "website-gradercom",
+      "description": " Website-Grader.com is a website grader and performance report tool. The site allows you to generate a detailed report for any website to view the performance grade, usability grade, and overall grade, with additional reporting on response bytes, compression, browser caching, optimization and much more. ",
+      "original_categories": [
+        "analytics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tourcms-marketplace",
+      "description": "TourCMS provides a full website and reservation management system for small and medium sized tour operators. These API calls are to access your live product data in realtime. They can be used by TourCMS Marketplace partners to access content from multiple TourCMS accounts. These APIs can also be used by individual account owners to access their own data.",
+      "original_categories": [
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "my-del.icio.us-recommendation-snippet",
+      "description": " My Del.icio.us Recommendation Snippet is a recommendation link list generator extracted from site owners bookmarks archived in del.icio.us. If you tell your del.icio.us ID to the site, you can get the site owner's bookmarks as a recommendation. ",
+      "original_categories": [
+        "bookmarks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "singapore-mash-websites",
+      "description": " A constantly growing mash website with different information from different websites in Singapore. The ideal mobile concierge for locals and tourists. ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "mobile",
+        "food"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "search-tube",
+      "description": " A straightforward and clean interface to YouTube via their APIs. Workplace safe. ",
+      "original_categories": [
+        "video",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "crime-denver-colorado",
+      "description": " These data come from Denver Police Department reports on crimes and are updated a few times per week. They do not include every crime reported to police or incidents to which police respond that do not result in a police report. ",
+      "original_categories": [
+        "mapping",
+        "crime",
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tec-mailing",
+      "description": "The service provides data verification and email preparation, validating address list entries and formats. It cleans mailing list entries to optimize successful deliveries for promotional campaigns, hosted customer-relationship management (CRM) communications, and direct mail deliveries.API methods support submission of mailing lists of recipient addresses and related information. Methods return deduped lists, purged of improperly formatted addresses, and corrected for the most effective possible delivery results.",
+      "original_categories": [
+        "mail"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tnt-tracking",
+      "description": " Provides tracking information of TNT packages, with visualized package locations on Google Maps. ",
+      "original_categories": [
+        "mapping",
+        "postal",
+        "shipping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rovi-cloud-services",
+      "description": "Rovi is a digital entertainment technology company that provides guidance technology, entertainment data, content protection and content networking technology for digital entertainment devices and services. Rovi Cloud Services includes APIs to access advertising, metadata, recommendations, media recognition, search and management/analytics modules.",
+      "original_categories": [
+        "entertainment"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "youfm",
+      "description": " An artist-based radio, with information and photos about the currently playing artist. Pulls data from Last.fm and YouTube. ",
+      "original_categories": [
+        "visualizations",
+        "music",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

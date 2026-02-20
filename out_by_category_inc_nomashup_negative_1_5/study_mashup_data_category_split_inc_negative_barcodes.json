@@ -1,0 +1,72 @@
+{
+  "category": "barcodes",
+  "count": 6,
+  "positive_count": 1,
+  "negative_count": 5,
+  "pos_neg_ratio": "1:5",
+  "items": [
+    {
+      "mashup": "upc-database",
+      "description": "From their site: Welcome to the Internet UPC Database. This free service is run as a hobby of mine. This site isn't limited to UPCs any more. First of all, the term 'UPC' has been deprecated the new term is UCC-12. But the world has moved beyond that. As of January 2005, retailers in the U.S. are supposed to be able to support the EAN/UCC-13 code (the rest of the world has done this for years), which uses similar symbology, and one additional digit.",
+      "original_categories": [
+        "barcodes"
+      ],
+      "used_apis": [
+        "upc-database"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "barcelona-city-tours",
+      "description": " A tour and attractions company that has integrated the Rezgo XML API for bookings. The product display and availability pages use the API to pull live updated product data and availability for specific tours and activities. ",
+      "original_categories": [
+        "travel",
+        "spanish"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "maplight",
+      "description": "MapLight looks at the connection between campaign donations and legislative votes in an effort to reveal money's influence on politics.MapLight performs research on supporting and opposing interests for legislative bills. MapLight's Bill Positions API provides a tool for discovering the connection between campaign donations and legislative votes. It can also be mashed up with other databases that contain information about bills or politically-active organizations. This RESTful API returns results in JSON or XML.",
+      "original_categories": [
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "amazon-product-advertising",
+      "description": "What was formerly the ECS - eCommerce Service - has been renamed the Product Advertising API. Through this API developers can retrieve product information. The API exposes Amazon's product data and e-commerce functionality. This allows developers, web site publishers and others to leverage the Amazon Product Discovery features that Amazon uses to power its own business, and potentially make money as an Amazon affiliate. Additionally, the API has features allowing developers to advertise proucts, let users search for Amazon products and help users discover Amazon products. Both REST and SOAP APIs are provided, this profile is for the REST API.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "r8ar-twitter-trend-visualizer",
+      "description": " A trending tag visualization for Twitter and Flickr. Try out any tag you like by appending ?t=[twitter-tag]&amp;f=[flickr-tag] to http://r8ar.com. You may have seen this on the big screen at a Yahoo! Hack Day. ",
+      "original_categories": [
+        "messaging",
+        "photos",
+        "visualizations",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tspace",
+      "description": " TopTechPhoto Space is a Lightroom plugin which allows easy storage for catalogs content onto a network(Dropbox, FTP, sFTP or samba) server, instead of a computer internal HDD, freeing up storage space there. It also enables users to share catalog images with others. ",
+      "original_categories": [
+        "photos",
+        "storage",
+        "plugins",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

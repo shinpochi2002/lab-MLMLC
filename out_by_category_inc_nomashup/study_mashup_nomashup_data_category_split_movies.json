@@ -1,0 +1,28 @@
+{
+  "category": "movies",
+  "count": 2,
+  "items": [
+    {
+      "mashup": "new-york-times-movie-tweets",
+      "description": " Tweets about the latest featured New York Times movie reviews. ",
+      "original_categories": [
+        "search",
+        "social",
+        "movies"
+      ],
+      "used_apis": [
+        "new-york-times-movie-reviews"
+      ]
+    },
+    {
+      "mashup": "new-york-times-movie-reviews",
+      "description": "The New York Times Movie Review API gives users access to movie reviews by the New York Times critics. The API gives access to over 22,000 New York Times movie reviews from today back to 1924. Using the Movie Reviews API you can query reviews and get data such as byline, critics pick, date updated, mpaa rating, title, headline, opening date, article link and multimedia. Users can search movie reviews by keywords or critic.",
+      "original_categories": [
+        "movies"
+      ],
+      "used_apis": [
+        "new-york-times-movie-reviews"
+      ]
+    }
+  ]
+}

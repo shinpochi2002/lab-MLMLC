@@ -1,0 +1,143 @@
+{
+  "category": "environment",
+  "count": 12,
+  "positive_count": 3,
+  "negative_count": 9,
+  "pos_neg_ratio": "1:3",
+  "items": [
+    {
+      "mashup": "greener-pastures",
+      "description": " Greener pastures ranks U.S. cities based on the greenness of their available housing stock. In a graph, each line represent a city's greenness over time. You can hover over a line to see which city it represents and compare. ",
+      "original_categories": [
+        "visualizations",
+        "search"
+      ],
+      "used_apis": [
+        "brighter-planet-cm1"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "yaktrak",
+      "description": " Track FedEx packages--with per-segment CO2 estimates. ",
+      "original_categories": [
+        "sustainability",
+        "environment",
+        "shipping"
+      ],
+      "used_apis": [
+        "brighter-planet-cm1"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "brighter-planet-cm1",
+      "description": "This web service, part of Brighter Planet's carbon middleware suite, enables developers to build flexible, real-time carbon footprint estimates from sources such as cars, flights, and houses into business applications. Brighter Planet delivers cloud-based web services providing on-demand carbon information for a fraction of a cent per query, meant for enhancing existing operational data with environmental intelligence that matters. The emission calculation service provides greenhouse gas emission estimates for a variety of emitters of arbitrary description. The API uses RESTful protocol and responses can be formatted in XML and JSON.",
+      "original_categories": [
+        "environment"
+      ],
+      "used_apis": [
+        "brighter-planet-cm1"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "bandcamp-scrobbler",
+      "description": " A music discovery tool built on Bandcamp and Last.fm. Browse through and listen to Bandcamp's extensive catalog of independent music with intelligent recommendations powered by Last.fm. For existing Last.fm members, it scrobbles your listens, provides personalized recommendations, and submits your loved tracks. ",
+      "original_categories": [
+        "audio",
+        "music",
+        "search",
+        "recommendations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mite",
+      "description": "mite is a sleek online time tracking tool. Built in collaboration with the people who rely on it now: designers, developers, architects, and attorneys. Freelancers as well as small teams. mite lets you track your time in a structured way by breaking it down into customers, projects, and services. Track your time manually or with the built-in stop watch. Track it in the browser, on your Mac or PC, on your iPhone, via Twitter, Jabber or Ubiquity.",
+      "original_categories": [
+        "office"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "airplane-booking-system",
+      "description": " Used by a private flying club, this system uses Twilio so that users can book the plane using their phone, and recieve notifications to booking changes through SMS ",
+      "original_categories": [
+        "travel",
+        "messaging",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dino-map",
+      "description": " Dino Map provides users with a visual and interactive way to explore all of the fossil records in the Paleobiology Database, which includes plants, insects, mammals, reptiles, dinosaurs, and more. This mashup was built using the Google Maps API. ",
+      "original_categories": [
+        "science",
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fertility",
+      "description": " Fertility calculator that also integrates with Google Calendar. ",
+      "original_categories": [
+        "calendars",
+        "medical",
+        "health",
+        "health"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "stock-price-scanner",
+      "description": " A mashup based on the Sick Bay Scanner from the original Star Trek. It uses the Yahoo YUI API to capture a stock price and a handful of stock ratios which it applies to the scanner. ",
+      "original_categories": [
+        "financial",
+        "stocks",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "portolando",
+      "description": " Interactive Guide to the Ports and Mooring Places of the Upper Adriatic. ",
+      "original_categories": [
+        "boating",
+        "italian",
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "yahoo-local-search",
+      "description": "The Yahoo! Local Search APIs give users access to a comprehensive database of information and content in Yahoo! Local ranging from business information to user comments to ratings. Data includes business address and phone, category, rating, distance, URL and traffic alerts. Yahoo! Local makes a great addition to any mashup, bringing in location-based relevancy and the additional context of what real people have experienced in these places.Version 3 of Yahoo! Local Search adds even more features! Users can now request individual business records by using the Yahoo! Local listing id. Yahoo! supports search categories to help users narrow their queries. Finally, results now return the first few lines of the last user review for each listing. The API uses a RESTful protocol and responses are formatted in either XML, JSON and PHP.",
+      "original_categories": [
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gps-tracks",
+      "description": " Upload your GPS tracks stored in GPX format, and see your tracks and your friends tracks in satellite view. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "mapping",
+        "recreation"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

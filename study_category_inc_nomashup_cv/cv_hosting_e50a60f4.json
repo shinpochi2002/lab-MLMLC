@@ -1,0 +1,26 @@
+{
+  "category": "hosting",
+  "uid": "e50a60f4",
+  "n_samples": 2,
+  "n_labels": 2,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 44.71503829956055,
+      "std_val_loss": 11.821334838867188,
+      "mean_micro_f1": 0.3333333333333333
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 50.81072807312012,
+      "std_val_loss": 5.310548782348633,
+      "mean_micro_f1": 0.0
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 44.71503829956055,
+    "std_val_loss": 11.821334838867188,
+    "mean_micro_f1": 0.3333333333333333
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "category": "stocks",
+  "count": 33,
+  "positive_count": 3,
+  "negative_count": 30,
+  "pos_neg_ratio": "1:10",
+  "items": [
+    {
+      "mashup": "beanvest",
+      "description": " Beanvest is an investment portfolio tracking application. It allows you to keep track of all your investments in one place with helpful insights. ",
+      "original_categories": [
+        "stocks",
+        "financial",
+        "stocks"
+      ],
+      "used_apis": [
+        "eod-historical-data-liverealtime-stock-prices",
+        "eod-historical-data-stock-price-data"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "eod-historical-data-liverealtime-stock-prices",
+      "description": "The EOD Historical Data Live/Realtime Stock Prices API returns data with livestock prices for US Only and All World plans. With the API, users can access information delayed for 15 to 20 minutes, related to market stocks. EOD Historical Data provides historical prices and fundamental financial data services.",
+      "original_categories": [
+        "stocks"
+      ],
+      "used_apis": [
+        "eod-historical-data-liverealtime-stock-prices"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "eod-historical-data-stock-price-data",
+      "description": "The EOD Historical Data Stock Price Data API returns JSON and CSV formats with the end of day historical data of the stock market. Developers can authenticate with an API token. EOD Historical Data provides historical prices and fundamental financial data services.",
+      "original_categories": [
+        "stocks"
+      ],
+      "used_apis": [
+        "eod-historical-data-stock-price-data"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "ministry-ops",
+      "description": " Ministry Ops is a simple hosted platform for churches and ministries to publish &amp; share audio and video files. Just upload your video and it's converted, and distributed ",
+      "original_categories": [
+        "video",
+        "religion"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "civicvis",
+      "description": " Prototype of the technology to create a set of visualization widgets that make use of eGovPDX's City Council Connect API. Will be developing further to create a vote count widgets for desktop and blog. ",
+      "original_categories": [
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rentslicer",
+      "description": " Rental property statistics for major metropolitan areas. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "esri-shapefile-viewer",
+      "description": " Plots shapefiles on Virtual Earth maps. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "europass.me",
+      "description": " Turn your LinkedIn and Facebook profile into Europass CV/Language Passport! ",
+      "original_categories": [
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "seetoronto-virtual-tour",
+      "description": " Take full 360 degree photo tours of popular Toronto landmarks like the Air Canada Centre, Rogers Centre, and CBC HQ. Good quality, large images. ",
+      "original_categories": [
+        "travel",
+        "photos",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "exchange",
+      "description": " likeexchange.net is a website that enables Facebook fan page discovery and helps its members exchange likes with each other. ",
+      "original_categories": [
+        "social",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mobilicio.us",
+      "description": " Combines the del.icio.us online bookmarking service with Google Mobile. This allows you to browse through mobilized versions of your del.icio.us bookmarks from your phone browser or other limited-display browsers ",
+      "original_categories": [
+        "messaging",
+        "bookmarks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "delicious-search-exploder",
+      "description": " One key part missing from del.icio.us is a full-text search API. Delicious Search Exploder uses Yahoo Query Language, Pipes, and a couple of native feeds from Delicious to provide an on-page search-and-browse experience for users, tags, and sites. ",
+      "original_categories": [
+        "search",
+        "text",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "world-cup-news-map",
+      "description": " A map mashup which shows locations of 32 participating countries along with Team News (via Google News) and Team Blogs (via WorldCupBlog.org) ",
+      "original_categories": [
+        "sports",
+        "sports",
+        "mapping",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "moonshadow-mobile-inc.",
+      "description": " CensusViewer shows all census information from the 2000 and 2010 census inside of Bing Maps. The data can be colored by race, ethnicity, age, county, city, etc. CensusViewer allows you to filter by any attribute and generate heat maps. The data can be downloaded in easy spreadsheets per census block, zip code, city, county or any other distict. ",
+      "original_categories": [
+        "demographics",
+        "demographics",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tweets-your-way",
+      "description": " Enter your start and end destinations and the mashup will show what tweets lie on the way. ",
+      "original_categories": [
+        "mapping",
+        "blogging",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geo-wiki-search",
+      "description": " A Mashup of the new WikiLocation API and Google Maps to show information about Wikipedia articles in a location. ",
+      "original_categories": [
+        "social",
+        "reference",
+        "search",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "buffer",
+      "description": "Buffer is a service that allows users to manage and schedule their tweets throughout the day. Users add tweets to their Buffer, and Buffer schedules them to go out regularly throughout the day.The Buffer API allows developers to access and integrate the functionality and data of Buffer with other applications and to create new applications. Some example API methods include retrieving user and profile information, creating and managing updates, and accessing the sent and pending updates.",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wakey-wakey",
+      "description": " Wakey Wakey is a social alarm. Using Twilio's new Client, your friends can call you until you wake up. If you do wake up on time, call your friends to wake them up and track your progress. ",
+      "original_categories": [
+        "social",
+        "telephony",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "deki-wiki",
+      "description": " DekiWiki, a popular wiki designed to help users quickly create mashups. Integrates various third party web APIs. ",
+      "original_categories": [
+        "mapping",
+        "social",
+        "wiki"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "playbeats.me",
+      "description": " Playbeats is a Jukebox running on smartphones using Deezer API. Allowing pubs, festivals, private party or other musical events to have better &amp; more social tracklists selected by users. ",
+      "original_categories": [
+        "social",
+        "music",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "amazonca",
+      "description": "Amazonca.com provides users with online access to a barcode database that it maintains. Users are given a method of locating a product and providing product information using a barcode. The website enables users to search for items using barcodes. The API gives users functionality for search, comments and images. The API uses RESTful calls and responses are formatted in XML.",
+      "original_categories": [
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "blipstar",
+      "description": " Simple tool for adding an interactive store locator mapping to your website ",
+      "original_categories": [
+        "ecommerce",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "printo.jp",
+      "description": " Create large PDF posters, photo books and contact sheets. Download images to your computer or share them via Facebook, email, or the printo.jp gallery. ",
+      "original_categories": [
+        "social",
+        "photos",
+        "printing"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pentaho-bi-maps",
+      "description": " Map based data visualization tool driven by Pentaho open source business intelligence tools and Google Maps. ",
+      "original_categories": [
+        "mapping",
+        "enterprise",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "emory-law-events",
+      "description": " Emory law events provides a way for Emory law students to stay informed about events sponsored by the school. ",
+      "original_categories": [
+        "mobile",
+        "telephony",
+        "messaging",
+        "social",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "diccionarios-elhuyar",
+      "description": " This tool is a service that helps to develop the Basque language. We set out to take the customerâ€™s language needs as a whole into consideration and to provide a quality, integral language service. ",
+      "original_categories": [
+        "dictionary",
+        "tools",
+        "translation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "recurly",
+      "description": "The Recurly API provides a recurring subscription billing system for online businesses. It is available in REST architecture with XML and JSON formats, public key, basic auth, and token as authentication methods secured in SSL, and HTTP status codes. With the API, developers can integrate recurring billing features including adjustments, invoices, plans, and subscriptions.",
+      "original_categories": [
+        "payments"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "prosper-itus",
+      "description": " Application using the Prosper API to help lenders and group leaders get the most out of their Prosper membership. ",
+      "original_categories": [
+        "financial",
+        "banking",
+        "financial"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "update-facebook",
+      "description": " Like an iPhone met Facebook. Real time status updates of your Facebook friends. Update your status, poke and message your friends via advanced UI. ",
+      "original_categories": [
+        "social",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ghost-logs",
+      "description": " A ghost report community where you can post your true ghost encounter. Find and view other ghost encounters using the Google Maps map. Find similar cases around the world or in your town. ",
+      "original_categories": [
+        "supernatural",
+        "supernatural",
+        "social",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "top-10-last.fm-artists",
+      "description": " This widget displays 10 most popular artists of Last.fm user. Data can be shown for all time, 1 year, 6 months, 3 months and 1 week. ",
+      "original_categories": [
+        "audio",
+        "music",
+        "music",
+        "widgets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "yahoo-internet-location-platform",
+      "description": "From their site: a resource for managing all geo-permanent named places on Earth. Our purpose in creating the Internet Location Platform is to provide the Yahoo! Geographic Developer Community with the vocabulary and grammar to describe the world's geography in an unequivocal, permanent, and language-neutral manner. The Internet Location Platform is designed to facilitate spatial interoperability and geographic discovery; users can traverse the spatial hierarchy, identify the geography relevant to their users and their business, and in turn, unambiguously geotag, geotarget, and geolocate data across the Web.",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "enownow-live-lagos-traffic",
+      "description": " Live traffic information for Lagos Nigeria overlaid on a map. ",
+      "original_categories": [
+        "mapping",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

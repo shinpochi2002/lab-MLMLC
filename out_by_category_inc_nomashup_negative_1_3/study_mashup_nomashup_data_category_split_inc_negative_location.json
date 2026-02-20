@@ -1,0 +1,140 @@
+{
+  "category": "location",
+  "count": 12,
+  "positive_count": 3,
+  "negative_count": 9,
+  "pos_neg_ratio": "1:3",
+  "items": [
+    {
+      "mashup": "local-weather",
+      "description": " Local Weather is a web application that automatically show users their local weather forecast. This application uses ipinfo.io API and OpenWeatherMap API. ",
+      "original_categories": [
+        "weather",
+        "geography",
+        "reference"
+      ],
+      "used_apis": [
+        "ipinfoio-ip-geolocation"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "mit-visual-traceroute",
+      "description": " Visual Traceroute is a web application that enables users to trace the path packets take through the Internet, by entering the URL. This application uses ipinfo.io API for geolocation and ISP details. ",
+      "original_categories": [
+        "mapping",
+        "reference"
+      ],
+      "used_apis": [
+        "ipinfoio-ip-geolocation"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "fitdatasync",
+      "description": " FitDataSync is a free application that automatically syncs activities from the user's Garmin device with their Fitbit account. Therefore, with this app, customers do not need to carry their FitBit tracker with them everywhere they go. All information synced from the Garmin device will be displayed in FitBit dashboard. FitDataSync also automatically synchronizes Fitbit Aria Wi-Fi Smart Scale weight measurements to the user's Garmin Connect account. ",
+      "original_categories": [
+        "fitness",
+        "syncing"
+      ],
+      "used_apis": [
+        "garmin-communicator-plugin"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "spore__api",
+      "description": "The Spore API gives you access to the database for the game Spore from Maxis and Electronic Arts. Millions of custom content created and shared by the community of players. You can select items made by individual users, grouped by sporecasts or customize your search by other filters.",
+      "original_categories": [
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "trender-blender",
+      "description": " Grabbing trends from Google, Twitter, Yahoo! &amp; YouTube and aggregating them into a single site. View trend snapshots (taken about every 45 min.), or blended into a daily wordcloud visualization to see relative trend popularity for the day. ",
+      "original_categories": [
+        "visualizations",
+        "social",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "great-wedding-network",
+      "description": " Use maps to locate professionals and vendors to help organize and provide services for a wedding. You can also create a personal Wedding Atlas to share important information about a bridal party. ",
+      "original_categories": [
+        "weddings",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "spinlets",
+      "description": " Spinlets are small widgets for Web 2.0 sites you can post onto your blog, website or network profile. ",
+      "original_categories": [
+        "widgets",
+        "feeds",
+        "blogging",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "lastface",
+      "description": " A Mozilla Firefox extension allowing users to view what music their facebook friends listen to and how similar their tastes are. View what music their Facebook users have recently being listening to on Last.fm and what their current chart is. ",
+      "original_categories": [
+        "music",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "emory-law-events",
+      "description": " Emory law events provides a way for Emory law students to stay informed about events sponsored by the school. ",
+      "original_categories": [
+        "mobile",
+        "telephony",
+        "messaging",
+        "social",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fresh-logic-atlas",
+      "description": " A stylish mashup that helps you find information on gas prices, movies, restaurants, traffic, local events, WiFi locations, driving directions, and more on a Virtual Earth map. ",
+      "original_categories": [
+        "mapping",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "santa-stars",
+      "description": " See the location of elaborate Christmas lights displays. Readers can add comments and vote for favorites. ",
+      "original_categories": [
+        "mapping",
+        "holidays"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "youtubia",
+      "description": " A youtube clone with added ability to download the video source from server to PC. ",
+      "original_categories": [
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

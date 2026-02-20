@@ -1,0 +1,26 @@
+{
+  "category": "natural-language-processing",
+  "uid": "c8215950",
+  "n_samples": 3,
+  "n_labels": 2,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 0.7276374896367391,
+      "std_val_loss": 0.137831632619237,
+      "mean_micro_f1": 0.5555555555555555
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 0.8999694188435873,
+      "std_val_loss": 0.1793144574450798,
+      "mean_micro_f1": 0.2222222222222222
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 0.7276374896367391,
+    "std_val_loss": 0.137831632619237,
+    "mean_micro_f1": 0.5555555555555555
+  }
+}

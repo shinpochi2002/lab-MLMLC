@@ -1,0 +1,203 @@
+{
+  "category": "natural-language-processing",
+  "count": 18,
+  "positive_count": 3,
+  "negative_count": 15,
+  "pos_neg_ratio": "1:5",
+  "items": [
+    {
+      "mashup": "voice-apps",
+      "description": " Here any one can develop voice apps for Amazon Echo, Google Assistant and Microsoft Cortana. We support proactive event notifications using scheduler and web hooks. Users can also develop Chatbots using NLP. ",
+      "original_categories": [
+        "voice"
+      ],
+      "used_apis": [
+        "dialogflow-standard-webhooks",
+        "nlp-tools"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "dialogflow-standard-webhooks",
+      "description": "The Dialogflow Standard Webhooks API allows you to communicate with Dialogflow through its own, standard webhook format. Webhooks enables you to pass information from a matched intent into a web service to get a result. The Dialogflow API is an end-to-end development suite of conversational interfaces for chatbots, voice-powered apps and devices that includes; query, intents, entities and more. Dialogflow processes a natural language query and returns structured, actionable data as a result. It is an end-to-end development suite for building conversational interfaces for websites, mobile applications, popular messaging platforms, and IoT devices that is powered by machine learning. It recognizes the intent and context of what a user says, allowing your conversational interface to provide responses. Dialogflow enables users with ways to interact with products by building voice and text-based conversational applications.",
+      "original_categories": [
+        "natural-language-processing"
+      ],
+      "used_apis": [
+        "dialogflow-standard-webhooks"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "nlp-tools",
+      "description": "The NLPTools is a simple web service designed as a JSON over HTTP RESTful API. It decodes online news sources for sentiment analysis and textual classification. In order to analyze the sentiment or classify of a line of text, developers may use this API to receive a return of a category label and a conditionality on the piece ranging from positive, neutral, to negative sentiment.",
+      "original_categories": [
+        "natural-language-processing"
+      ],
+      "used_apis": [
+        "nlp-tools"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "bing-maps-geocode-dataflow",
+      "description": "The Geocode Dataflow API is a component of the Bing Spatial Data Services. The API is used to geocode and reverse-geocode large sets of spatial data. Additional functionality includes creating a job to geocode and reverse-geocode the data, upload data and get the status of a geocode job. The API uses RESTful calls and responses are formatted in XML, JSON, TXT and CSV.",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "veilingkijker",
+      "description": " Dutch mashup that searches multiple auction sites and links to Google Maps to locate the item on sale. ",
+      "original_categories": [
+        "auctions",
+        "search",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tumblrss",
+      "description": " TumblRSS lets you import content from RSS Feeds into Tumblr. ",
+      "original_categories": [
+        "feeds",
+        "feeds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapcrunch",
+      "description": " Shows a random Google Street View, with the ability to choose by continent or country. There's also a beta feature to restrict rural roadways. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "demand-movie-reviews",
+      "description": " Rotten Tomatoes mashup with reviews for Comcast On-Demand Movies. When you don't know what to watch. ",
+      "original_categories": [
+        "movies",
+        "tv"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-recaptcha",
+      "description": "reCAPTCHA is a freely available CAPTCHA implementation. It distinguishes humans from computers. reCAPTCHA is a CAPTCHA program, used to distinguish humans from computers, that uses the answers provided by the user to help digitize scans of old books and newspapers. This API is indirect access to this service, please refer to the SDK below.",
+      "original_categories": [
+        "security"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "meeting-centre-gravity",
+      "description": " Find the best place to hold a meeting for attendees by entering postcodes. The COG tool will then work out the centre for the meeting. ",
+      "original_categories": [
+        "tools",
+        "meetings",
+        "office",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "job-sniffer",
+      "description": " JobSniffer helps you organize and automate your job search powered with the API from Indeed. -Create filters and automate your search. Let the app do the hard work and it will notify you when new offers appear. -JobSniffer will provide you the web content from Indeed, plus geographical info and the possibility to add your own notes. -Organize all the offers found, marking your favourites as 'Cool'. ",
+      "original_categories": [
+        "mapping",
+        "jobs",
+        "search",
+        "automation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mashspots",
+      "description": " MashSpots.com is a free service to make local search easy to use. Just click on any location on the map to get the four closest spots of the searched item. ",
+      "original_categories": [
+        "localization",
+        "search",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bed-and-breakfast-map",
+      "description": " The UK's largest map-based directory of B&amp;Bs and Guesthouses. ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "hotels",
+        "england"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "caddymap-mapquest",
+      "description": " Mashup with searchable US Golf Courses, weather data and details golf course information. ",
+      "original_categories": [
+        "sports",
+        "mapping",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "kinoma-play-and-box.net",
+      "description": " Kinoma Play is a social media browser for smartphones, and this mashup allows Box.net users to access their accounts from within Kinoma. ",
+      "original_categories": [
+        "social",
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "starbucks-onair-bustour-locator",
+      "description": " Find where the nearest Starbucks is for each of the OnAIR bus tour stops. ",
+      "original_categories": [
+        "events",
+        "food",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "earbud-finder",
+      "description": " Search stores for earbud headphones. Easy color based search feature. ",
+      "original_categories": [
+        "ecommerce",
+        "search",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bitwat.ch",
+      "description": " Sign up for free bitcoin price alerts. Bitwat.ch is a free service. You will only receive an email when your price target is met. ",
+      "original_categories": [
+        "bitcoin",
+        "prices"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

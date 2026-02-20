@@ -1,0 +1,520 @@
+{
+  "category": "stocks",
+  "count": 48,
+  "positive_count": 3,
+  "negative_count": 45,
+  "pos_neg_ratio": "1:15",
+  "items": [
+    {
+      "mashup": "beanvest",
+      "description": " Beanvest is an investment portfolio tracking application. It allows you to keep track of all your investments in one place with helpful insights. ",
+      "original_categories": [
+        "stocks",
+        "financial",
+        "stocks"
+      ],
+      "used_apis": [
+        "eod-historical-data-liverealtime-stock-prices",
+        "eod-historical-data-stock-price-data"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "eod-historical-data-liverealtime-stock-prices",
+      "description": "The EOD Historical Data Live/Realtime Stock Prices API returns data with livestock prices for US Only and All World plans. With the API, users can access information delayed for 15 to 20 minutes, related to market stocks. EOD Historical Data provides historical prices and fundamental financial data services.",
+      "original_categories": [
+        "stocks"
+      ],
+      "used_apis": [
+        "eod-historical-data-liverealtime-stock-prices"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "eod-historical-data-stock-price-data",
+      "description": "The EOD Historical Data Stock Price Data API returns JSON and CSV formats with the end of day historical data of the stock market. Developers can authenticate with an API token. EOD Historical Data provides historical prices and fundamental financial data services.",
+      "original_categories": [
+        "stocks"
+      ],
+      "used_apis": [
+        "eod-historical-data-stock-price-data"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "video-celebrities",
+      "description": " Find celebrity videos, especially for Latin stars. Uses the YouTube API. Note that some videos are adult content and not safe for work, NSFW. ",
+      "original_categories": [
+        "video",
+        "celebrities",
+        "adult",
+        "spanish",
+        "models"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "japan-forest-map",
+      "description": " Map of forest around Abashiri City, Japan. ",
+      "original_categories": [
+        "travel",
+        "mapping",
+        "japanese"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "digifit",
+      "description": " A web and mobile application that gives users insight to their heart, by tracking cardio exercise, daily activities, blood pressure, weight, and sleep patterns. Users of the application will have enough information about their own health to make informed decisions. This application also gives users the ability to design their own workout system in pursuing a better living style. ",
+      "original_categories": [
+        "fitness",
+        "health"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ooyala",
+      "description": " A platform for improving delivery, monetization and analytics of online video. This platform is built on multiple Amazon web services. Winner of Amazon Startup Challenge. ",
+      "original_categories": [
+        "video",
+        "tools",
+        "advertising",
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "boston-attractions-map",
+      "description": " Map of Boston tourist attractions. ",
+      "original_categories": [
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "aerisweather",
+      "description": "AerisWeather is a site that provides traditional weather content such as local weather and weather maps. AerisWeather's core product is an API that provides the necessary weather data to power services such as hosted weather sites and weather application development. The API gives developers access to data such as weather advisories, forecasts, geographic locations, storm reports and more. It uses RESTful calls and responses are formatted in JSON and JSONP.",
+      "original_categories": [
+        "weather"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "little-corner",
+      "description": " Little Corner is a website that is used to pull your entire web presence into one place. It runs on Ruby on Rails, doesn't use a database, and is Heroku-ready. ",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "soundrenalin",
+      "description": " Soundrenalin is a music and videos search engine that uses YouTube to pull in all relavent content. ",
+      "original_categories": [
+        "music",
+        "video",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "itunes-app-store-search",
+      "description": "This API is available as a resource for participants in Apple's Affiliate Program. It allows the user to place search fields on their website to search for content within the iTunes Store, App Store, iBookstore and Mac App Store. The Affiliate Program allows participants to earn a commission on qualifying revenue generated by clicks initiated from their website or app.",
+      "original_categories": [
+        "media"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zoopla",
+      "description": "Zoopla is one of the UK's leading providers of property data for consumers and property professionals, giving free access to information on 27,000,000 homes, over 1,000,000 property listings and 15 years of sold prices data.What can you use Zoopla API data for?- Provide contextual local data on average current property values or average sold prices by property type.- Show listings for sale and rent properties on maps, including supporting descriptions, images and agent contact details.- Display graphs showing local property value data and trends",
+      "original_categories": [
+        "real-estate"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "autopartsspy.com",
+      "description": " Auto Parts and Accessories comparison shopping. Built using the Shopping.com API. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "stumbleread-friendfeed-reader",
+      "description": " A Web-based reader for FriendFeed that displays your feed in the left frame. Web sites referenced in the feed are displayed on the right. See what your friends are linking to. AJAX interface auto-refreshes your feed. Implemented on Google App Engine. ",
+      "original_categories": [
+        "feeds",
+        "social",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "anglingatlas",
+      "description": " Fishing hotspots, charters and accommodation from around the world on Google Maps. User-generated content. Add your own locations. ",
+      "original_categories": [
+        "mapping",
+        "sports",
+        "travel",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "self-referential-tumblr",
+      "description": " The first Self-Referential Tumblr. Your page accesses are our posts. A mashup of Tumblr and Clicky. ",
+      "original_categories": [
+        "analytics",
+        "statistics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dooclip",
+      "description": " Hot videos and popular music via this custom interface on top of YouTube and other sources. ",
+      "original_categories": [
+        "music",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ip-newsflash-patent-family-search",
+      "description": " Search patent families using the open patent services API fo the European Patent Office. ",
+      "original_categories": [
+        "patents",
+        "european",
+        "government",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "amplify",
+      "description": "Amplify is a web service developed by Hapax that brings human understanding to content. Using patented Natural Language Processing technology, Amplify reads and understands every word used in text. It identifies the significant topics, brands, people, perspectives, emotions, actions and timescales and presents the findings in an actionable XML structure.",
+      "original_categories": [
+        "semantics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "foodcare",
+      "description": "When consumers have an ailment, they usually go to the doctor. Many times doctors recommend dietary changes in order to preserve health. FoodCare offers personalized nutrition for users from the comfort of a mobile phone. Unlike other apps, FoodCare uses a community based approach, where individuals, restaurants, schools, senior communities and hospitals can benefit from the specialized information from registered dieticians and nutrition educators. This is where developers have an ample opportunity to create apps with the FoodCare API. To get started, developers need to apply for a key. Various features in the API documentation site include cuisine types, health conditions, dishes and restaurants for a more complete application development.",
+      "original_categories": [
+        "nutrition"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "libraries-denmark",
+      "description": " Comprehensive map of libraries in Denmark. Shows head libraries = Hovedbiblioteker. Shows public libraries = folkebiblioteker. Shows mobile libraries = Bogbusser. ",
+      "original_categories": [
+        "library",
+        "nordic",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "library-congress-prints-photographs",
+      "description": "The service is part of a re-release by the Library of Congress of its Print &amp; Photographs Online Catalog. It provides access to a rich image collection for incorporation into other applications. Applications can search the catalog by description term, and if desired within particular collections, for specific image types, etc. Results can include just descriptive metadata or the images themselves, presented as a list, grid, slideshow, or gallery.API methods support specification of a search query, either across the entire collection or restricted to certain elements, along with optional filtering criteria like subject and format. Methods also enable structuring of results and retrieval of related items.",
+      "original_categories": [
+        "media"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "magento-mediaburst-sms-notifications",
+      "description": " Get notified via SMS when people purchase from your magento powered ecommerce site. Send order status, dispatch and delivery notifications out by SMS. ",
+      "original_categories": [
+        "text",
+        "messaging",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "friendly-audio",
+      "description": " It's the audio version of chat roulette with a useful twist. Friendly Audio connects you with others that have the attributes of a person you are looking to meet. Currently connecting startup founders with hackers. ",
+      "original_categories": [
+        "reference",
+        "social",
+        "chat",
+        "audio"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "musicrambler",
+      "description": " When you listen to music with Audioscrobbler, MusicRambler shows on a map images and events about the artist you are listening to. Enter your Last.FM login and then switch on Audioscrobbler. English version at www.musicrambler.org. ",
+      "original_categories": [
+        "photos",
+        "music",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "last.fm-missing-album-finder",
+      "description": " Once upon a time, a musicologist was wondering if his music collection was complete. He began to research his last.fm's library to find lost albums. As time pasted by, he reckoned a better way was in order. This site followed shortly. ",
+      "original_categories": [
+        "music",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "proximity-checkin",
+      "description": " Magically check in with your location. Uses Google Latitude API to check you into Foursquare. ",
+      "original_categories": [
+        "localization",
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "usertestio",
+      "description": " The UserTest.io site allows you to discover critical usability problems and improve your UX by user testing with UserTest.io. With UserTest.io you can Test your website or prototype to make better designs and validate solutions. You can also view test recordings to discover bugs, usability issues, and problems to improve your UX. ",
+      "original_categories": [
+        "feedback",
+        "design",
+        "testing",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "lokerja.com",
+      "description": " lokerja.com is an Indonesian Job Listing aggregate. Using Indeed, this site pulls job listings sorted by location and reposts them on their own site. ",
+      "original_categories": [
+        "search",
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geoworldnews",
+      "description": " The latest worldwide stories from the Washington Post plotted on a Google Maps satellite image. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "smart-recorder-and-box.net",
+      "description": " Smart Recorder is an audio recording app for the iPhone, and this mashup allows users to save their recordings to their Box.net accounts from within Smart Recorder. ",
+      "original_categories": [
+        "audio",
+        "mobile",
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "call-safely",
+      "description": " Call-Safely allows users to call or text others without revealing their real phone number. Caller ID is set to a real working phone number that others can SMS message to or call back. ",
+      "original_categories": [
+        "voice",
+        "mobile",
+        "messaging",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "livelook",
+      "description": " Search and view outdoor geo-tagged live webcams. Rated and shared by users. ",
+      "original_categories": [
+        "webcams",
+        "mapping",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "coolerkreator",
+      "description": " Create fullscreen generative compositions based on Kuler themes via a Flash interface. ",
+      "original_categories": [
+        "design",
+        "art",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "magento-facebook-app",
+      "description": " The Magento Facebook app allows you to integrate social shopping via Facebook. Facebook marketing is the most preferred marketing strategy in social media. Every small/big online business makes use of Facebook advantage as it conveys word-of-mouth advertising resulting in effective business. ",
+      "original_categories": [
+        "ecommerce",
+        "social",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nouzil.com",
+      "description": " A personalized information portal from Mauritius Island which integrates Flickr and del.icio.us. ",
+      "original_categories": [
+        "bookmarks",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "elseif",
+      "description": " Elseif is the hangout place for developers, programmers and hackers. Come and watch the curated set of screencasts and explore and discover the wonderful world of repositories. Contents are curated in a way that is easy to find. ",
+      "original_categories": [
+        "database",
+        "developers",
+        "hacking"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "caller-ig",
+      "description": " This mashup is an example use of the Infoconnect API with a call center type application. ",
+      "original_categories": [
+        "voice",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "real-estate-abc",
+      "description": " Comprehensive real estate service: home search, valuation tools, how-to guides, and agent finder. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "springbaud-raisers-edge",
+      "description": " integrate The Raiser’s Edge, with your email marketing using the Springbaud email management solution, by Protégé Solutions. Once the Springbaud plug-in is installed, you can upload lists to Campaign Monitor and retrieve results from sent campaigns, all from within The Raiser’s Edge. ",
+      "original_categories": [
+        "email",
+        "campaigns",
+        "marketing"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "moveable-weather",
+      "description": " Speaks the details about your local weather. Uses Google's secret Weather API that is part of the Google Homepage ",
+      "original_categories": [
+        "voice",
+        "weather",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "trees-world",
+      "description": " Browse through trees of the world, categorized by country. When you click a tree link, photos are retrieved from Flickr and displayed. ",
+      "original_categories": [
+        "nature",
+        "education",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "facebook-search",
+      "description": " Facebook Search is a useful search tool for the Facebook social network. It is powered by the Facebook Open Graph API and returns data that is publicly available. Users can search across posts, photos, people, pages, groups and events without the need to login or have a Facebook account. Our service features a unique way to search for images, photos and graphics from the millions of 'Pages' that form part of the Facebook social network. Go further than traditional image search and discover a world of photos and images that have been hand curated by Facebook users. ",
+      "original_categories": [
+        "search",
+        "social",
+        "photos",
+        "networking"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "near-here-map-bing-maps",
+      "description": " Near Here is a travel-ready, lead-generating iPhone app that helps you find, research and contact leads. The D&amp;B Direct API Near Here web app extends the power of the Hoover's Near Here mobile application to your enterprise sales tools. ",
+      "original_categories": [
+        "mapping",
+        "search",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "compfight",
+      "description": " Find images for comps, research or inspiration. ",
+      "original_categories": [
+        "search",
+        "photos",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "blizzalert-0",
+      "description": " Blizzalert makes it so you never a miss a great day on the mountain. You select which ski areas you want to watch and Blizzalert will send text message alerts when storms are coming through. ",
+      "original_categories": [
+        "telephony",
+        "mobile",
+        "travel",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "virtual-van",
+      "description": " B2B integration looking to deliver the benefits of a high-transaction-charge value-added-network, a VAN, without high on-going transaction fees. Built on Amazon Simple Queue and Storage services. ",
+      "original_categories": [
+        "enterprise"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

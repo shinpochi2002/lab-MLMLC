@@ -1,0 +1,26 @@
+{
+  "category": "healthcare",
+  "uid": "b7b9c505",
+  "n_samples": 3,
+  "n_labels": 2,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 17.78489073117574,
+      "std_val_loss": 24.164229354083115,
+      "mean_micro_f1": 0.4444444444444444
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 23.692546114325523,
+      "std_val_loss": 33.20489017305269,
+      "mean_micro_f1": 0.6666666666666666
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 17.78489073117574,
+    "std_val_loss": 24.164229354083115,
+    "mean_micro_f1": 0.4444444444444444
+  }
+}

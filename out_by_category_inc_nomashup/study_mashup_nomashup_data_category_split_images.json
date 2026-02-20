@@ -1,0 +1,29 @@
+{
+  "category": "images",
+  "count": 2,
+  "items": [
+    {
+      "mashup": "pixaquote",
+      "description": " Pixaquote is a mobile app which allows you to discover thousands of great quotes and embed those quotes in photos to design your own unique images! You can use photos from your own device or search a vast online database of high-quality royalty free photos to use in your creation. Share your favorite quotes and your creations via email, text, or social media. ",
+      "original_categories": [
+        "entertainment",
+        "humor",
+        "images",
+        "mobile"
+      ],
+      "used_apis": [
+        "pixabay-free-images"
+      ]
+    },
+    {
+      "mashup": "pixabay-free-images",
+      "description": "Pixabay is a website where users can browse through and download high quality photos, vector graphics and art illustrations that are all license free. Pixabay hosts a RESTful API interface for querying and retrieving these CC0 public domain images from Pixabay's directory of over 260,000 photos. The API can be accessed via HTTP address, and returns in JSON unicode. The API is limited to a maximum of 300 search results per query, and requires an API key for access.",
+      "original_categories": [
+        "images"
+      ],
+      "used_apis": [
+        "pixabay-free-images"
+      ]
+    }
+  ]
+}

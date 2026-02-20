@@ -1,0 +1,72 @@
+[
+    {
+        "name": "pharmapendium-metabolizing-enzymes-module",
+        "categories": [
+            "medicine"
+        ],
+        "bigcategories": [
+            "45"
+        ],
+        "description": "The PharmaPendium Metabolizing Enzymes Module API allows users to retrieve preclinical and clinical data on metabolizing enzymes and transporters from the FDA and EMA approval packages and FDA Advisory Committee Documents. It also allows users to access transporter data from the literature. PharmaPendium is Elsevier's collection of fully-searchable drug approval documents and extracted data for informing drug development decisions."
+    },
+    {
+        "name": "pharmapendium-efficacy-module",
+        "categories": [
+            "medicine"
+        ],
+        "bigcategories": [
+            "45"
+        ],
+        "description": "The PharmaPendium Efficacy Module API allows users to retrieve manually extracted efficacy data from FDA and EMA approval documents. Users can search data by drugs, drug class, targets, target class, indication, and endpoint of interest. PharmaPendium is Elsevier's collection of fully-searchable drug approval documents and extracted data for informing drug development decisions."
+    },
+    {
+        "name": "pemilu-berita",
+        "categories": [
+            "politics"
+        ],
+        "bigcategories": [
+            "45"
+        ],
+        "description": "The Pemilu Berita API provides a curated news feed for the 2014 Indonesian elections. Users can retrieve a list of recent posts, posts matching a given search term, posts with a given tag, or a single post. The Berita API is part of API Pemilu, a collection of APIs that provide Indonesia's approximately 187 million voters with important election information."
+    },
+    {
+        "name": "acled",
+        "categories": [
+            "politics"
+        ],
+        "bigcategories": [
+            "45"
+        ],
+        "description": "The Armed Conflict Location &amp; Event Data Project (ACLED) is a real-time data and and crisis analysis and mapping project on political violence and protest across the world. ACLED's mission is to produce dis-aggregated, locally informed data and analysis globally in real time. An ACLED REST API enables users to retrieve data about actors, actor type, country, region and get data in JSON, XML, CSV or text. Filter data by date, area, pagination, etc."
+    },
+    {
+        "name": "drugbank",
+        "categories": [
+            "medicine"
+        ],
+        "bigcategories": [
+            "45"
+        ],
+        "description": "The DrugBank API provides data about clinical drugs for medicinal software and EMR software. It allows you to access DrugBank API endpoints to get information on drugs, drug products, and drug interactions. This API is organized around REST principles, with default responses in JSON format. This includes services for; Names, Products, Indications, Adverse Effects and more. DrugBank includes tools to enter medications accurately, search for information, check for alerts, contraindications, side effects, drug-drug interactions and others. DrugBank is a curated pharmaceutical knowledge base for precision medicine, electronic health records, and drug discovery."
+    },
+    {
+        "name": "pemilu-geographic",
+        "categories": [
+            "politics"
+        ],
+        "bigcategories": [
+            "45"
+        ],
+        "description": "The Pemilu Geographic API allows users to retrieve information on the geographic boundaries relevant to Indonesia's civic government and the 2014 elections. Users can also download TopoJSON map files for a given area. The Geographic API is part of API Pemilu, a collection of APIs that provide Indonesia's approximately 187 million voters with important election information."
+    },
+    {
+        "name": "national-cancer-institute-gdc",
+        "categories": [
+            "medicine"
+        ],
+        "bigcategories": [
+            "45"
+        ],
+        "description": "The National Cancer Institute's (NCI) Genomic Data Commons (GDC) API offers genomic data about cancer from several databases. The API enables users to query data by case file counts, mutations, gene IDs, annotations, diagnoses, projets, family history, and hundreds of other filters via GraphQL format."
+    }
+]

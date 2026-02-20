@@ -1,0 +1,126 @@
+{
+  "category": "authentication",
+  "count": 11,
+  "positive_count": 1,
+  "negative_count": 10,
+  "pos_neg_ratio": "1:10",
+  "items": [
+    {
+      "mashup": "eduroam",
+      "description": "The service registers uniform resource names (URNs) for European educational institutions and federations cooperating for delivery and sharing of internet resources. The registry is intended to facilitate single sign-on functions and ease of interaction for local networks of the GÃ‰ANT federation partner institutions.API methods support retrieval of registry listings, with URN and description for each supported resource within federation networks. Returned data can become part of authentication requests to fulfill resource sharing agreements.",
+      "original_categories": [
+        "authentication"
+      ],
+      "used_apis": [
+        "eduroam"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "noaa-erddap",
+      "description": "This data service provides a combined interface to access and download scientific datasets and subsets on oceanography in common file formats. Typical uses involve charting and mapping. ERDDAP presents a single format for accessing multiple repositories, which the service reformats to interact with the remote server hosting the desired data.API methods support retrieving a list of available resource URLs, resource categories, and datasets, as well as metadata describing those resources. Methods also allow both full-text and advanced search against the datasets.",
+      "original_categories": [
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "infinilla",
+      "description": " Infinilla shows 3 random picks from Dribbble using its API. You can click the refresh link on the bottom of the page and get 3 randomly chosen images that you can use for inspiration. If you want to get more info about the image you see, just click on it and you will get to the page of that image on Dribbble. ",
+      "original_categories": [
+        "photos",
+        "social",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zonabilitysf",
+      "description": " San Francisco zoning ordinance information on the go! This technology offers geo-location, provides interactive zoning maps, information about the code and a way to get questions answered by a City Planner. ZonabilitySF is a great way to get a handle on such an important subject. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rentalmonster-canada",
+      "description": " Canadians, find your ideal urban apartment. Covers most major cities including Toronto, Vancouver, Montreal and Halifax. ",
+      "original_categories": [
+        "mapping",
+        "canadian"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "kent-county-council-traffic",
+      "description": " Kent County Council. View road traffic status and live camera feeds in the UK. ",
+      "original_categories": [
+        "mapping",
+        "england",
+        "transportation",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "suggest-me-movie",
+      "description": " Free film recommendation tool. Choose your mood, get movie suggestions, watch trailers, read info, director, cast and user reviews. ",
+      "original_categories": [
+        "social",
+        "video",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "virtual-india",
+      "description": " Virtual India is a research project by Microsoft Research India, in collaboration with the Government of India Department of Science and Technology. ",
+      "original_categories": [
+        "mapping",
+        "indian"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zoomatron-nautical-maps",
+      "description": " Very cool overlay of NOAA nautical charts on top of Virtual Earth maps engine. Charts can be made translucent. ",
+      "original_categories": [
+        "mapping",
+        "boating",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pdf-document-library",
+      "description": " Doculib.org is a free pdf file sharing site using Bing Search Api. ",
+      "original_categories": [
+        "social",
+        "pdf",
+        "search",
+        "library"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "custom-flickr-calendar",
+      "description": " Create an advanced photo calendar with your Flickr photos. It is easy to use, and there are many templates to choose from. ",
+      "original_categories": [
+        "photos",
+        "calendars",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

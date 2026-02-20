@@ -1,0 +1,26 @@
+{
+  "category": "medical",
+  "uid": "b32ed473",
+  "n_samples": 3,
+  "n_labels": 4,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 30.107920328776043,
+      "std_val_loss": 13.463581483930332,
+      "mean_micro_f1": 0.0
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 34.96830940246582,
+      "std_val_loss": 15.837894332059188,
+      "mean_micro_f1": 0.16666666666666666
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 30.107920328776043,
+    "std_val_loss": 13.463581483930332,
+    "mean_micro_f1": 0.0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "category": "file-sharing",
+  "uid": "19fffc25",
+  "n_samples": 10,
+  "n_labels": 6,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 4.0989155054092405,
+      "std_val_loss": 3.4047788824923826,
+      "mean_micro_f1": 0.24
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 5.280775117874145,
+      "std_val_loss": 4.853242770190792,
+      "mean_micro_f1": 0.38
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 4.0989155054092405,
+    "std_val_loss": 3.4047788824923826,
+    "mean_micro_f1": 0.24
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "category": "recognition",
+  "count": 2,
+  "items": [
+    {
+      "mashup": "spotify-mood-music",
+      "description": " This mashup (script) identifies an emotion from an image with Microsoft’s Emotion API, then recommends a musical playlist based on the emotion identified using Spotify's Public API. ",
+      "original_categories": [
+        "music"
+      ],
+      "used_apis": [
+        "microsoft-cognitive-services-emotion"
+      ]
+    },
+    {
+      "mashup": "microsoft-cognitive-services-emotion",
+      "description": "The Microsoft Cognitive Services Emotion API recognizes emotions expressed by one or more people in an image, and returns a face identification bounding box. It detects the following emotions: happiness, sadness, surprise, anger, fear, contempt, and disgust. For video, it returns emotions of a group of faces over a period of time. 2 paid options are available, and a free plan that limits transactions to 30,000 a month is available as well. The Emotion API uses JSON for data exchange, and API Keys for authentication.",
+      "original_categories": [
+        "recognition"
+      ],
+      "used_apis": [
+        "microsoft-cognitive-services-emotion"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "category": "recognition",
+  "count": 42,
+  "positive_count": 2,
+  "negative_count": 40,
+  "pos_neg_ratio": "1:20",
+  "items": [
+    {
+      "mashup": "spotify-mood-music",
+      "description": " This mashup (script) identifies an emotion from an image with Microsoft’s Emotion API, then recommends a musical playlist based on the emotion identified using Spotify's Public API. ",
+      "original_categories": [
+        "music"
+      ],
+      "used_apis": [
+        "microsoft-cognitive-services-emotion"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "microsoft-cognitive-services-emotion",
+      "description": "The Microsoft Cognitive Services Emotion API recognizes emotions expressed by one or more people in an image, and returns a face identification bounding box. It detects the following emotions: happiness, sadness, surprise, anger, fear, contempt, and disgust. For video, it returns emotions of a group of faces over a period of time. 2 paid options are available, and a free plan that limits transactions to 30,000 a month is available as well. The Emotion API uses JSON for data exchange, and API Keys for authentication.",
+      "original_categories": [
+        "recognition"
+      ],
+      "used_apis": [
+        "microsoft-cognitive-services-emotion"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "booli",
+      "description": "Booli is a Swedish real estate search portal. The booli API allows developers to connect programmatically with boolis data. The API is RESTful and returns JSON formatted data.",
+      "original_categories": [
+        "real-estate"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "reddit-matic",
+      "description": " An Automatically updating reddit technology subreddit. Can be played to stream or just left alone. Each dot represents 10 people. Nodes can be clicked to view topics. ",
+      "original_categories": [
+        "streaming"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "jamendo",
+      "description": "The Jamendo API offers users and developers access to Jamendo's database of albums, artists, tracks, playlists, reviews, and more. The API can be used through a RESTful protocol, and data is returned in formats ranging from XML to JSON to others. Signup is required at devportal.jamendo.com",
+      "original_categories": [
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "greekestate",
+      "description": " A real estate site for the Greek market. ",
+      "original_categories": [
+        "mapping",
+        "greek"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "their-honour",
+      "description": " A virtual war memorial for Australian service men and women buried around the world. ",
+      "original_categories": [
+        "australian",
+        "mapping",
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nlp-tools",
+      "description": "The NLPTools is a simple web service designed as a JSON over HTTP RESTful API. It decodes online news sources for sentiment analysis and textual classification. In order to analyze the sentiment or classify of a line of text, developers may use this API to receive a return of a category label and a conditionality on the piece ranging from positive, neutral, to negative sentiment.",
+      "original_categories": [
+        "natural-language-processing"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "earthplacemarks",
+      "description": " A large collection of placemarks from all around the world. See multiple satellite views, birds eye view, Google Earth and photo galleries. Get directions to popular locations. ",
+      "original_categories": [
+        "travel",
+        "photos",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bookbargain",
+      "description": " Using API's to track prices of books and ebooks: Get best deals for your books and ebooks, in your currency and with shipping cost included. Manage your bookâ€™s shopping list and get notifications on price drops. Discover new books on the best sellers list. Find free ebooks. ",
+      "original_categories": [
+        "search",
+        "ecommerce",
+        "books",
+        "discounts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "progressive-contacts",
+      "description": " Progressive Contacts is a fundraising company that specializes in making phone calls (live, automated phone surveys, and automated phone calls) to reach supporters for different political campaigns. Some of the services that Progressive Contacts provide include text messaging, field consulting, financial consulting, data analysis, script drafting, and more. ",
+      "original_categories": [
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dj-acc",
+      "description": " Dj ACC is the new address for free online metal music. Everyday it plays great songs continuously in each genre from the best metal bands in the world. You can share tracks with your friends if you like. Select your genre, listen great music, share it and enjoy. Stay heavy, stay with metal. ",
+      "original_categories": [
+        "music",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ashare-over-air-sharing",
+      "description": " A way to share your pictures and files. Just tap and hold to push files between phones and tablets easily with no cables, no computer, no set up and no copy and paste. Currently for Android and Android Tablet. ",
+      "original_categories": [
+        "social",
+        "mobile",
+        "photos",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "jabify",
+      "description": " Jabify is a social application that lets users to meet others from around the world. This mashup uses the Telegram Bot API. ",
+      "original_categories": [
+        "bots",
+        "messaging",
+        "mobile",
+        "photos",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "recycling-torrance-ca",
+      "description": " Just three steps allow you to ind where to recycle almost any product. Google Maps API with Ajax make it easy. The site has a search as you type feature and resizeable screen width. ",
+      "original_categories": [
+        "environment"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "octobat",
+      "description": " Octobat uses a user's web payment Stripe account in order to access account history to automatically prepare invoices. With the Octobat web app, users are able to generate customer invoices with a single click. The first 10 invoices are free, after which a pricing system is put in place. ",
+      "original_categories": [
+        "invoicing",
+        "history",
+        "payments"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "targetmap",
+      "description": " Free online mapping tool to see and share your data on GoogleMaps. Just choose a country and a way to create your map by color, type values or by uploading your excel files (you can even use your zip/postal code column to get the best and most accurate maps). Publish and share maps. ",
+      "original_categories": [
+        "mapping",
+        "reference",
+        "visualizations",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nyc-wine-shops",
+      "description": " Map of wine shops in New York City. With brief summaries and links to their web sites. ",
+      "original_categories": [
+        "mapping",
+        "wine"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "concur",
+      "description": "The service provides online tools for business organizations to manage travel and expense reporting and reimbursement. Integrated travel booking functions combine with expense reporting within a single platform. The API allows integration with applications of customer companies, partner service providers, or independent third-party developers including mobile app developers.API methods support submission and tracking of travel requests and booking of transportation and lodging, either for individuals or for groups completing the same travel. Methods also support creating, updating, and submitting expense reports as part of a reimbursement process.",
+      "original_categories": [
+        "enterprise"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rentuntilyouown.com",
+      "description": " A national real estate search engine for rent to own homes. Choose your state and begin your search. Uses Oodle and Google Maps API's to power property listings. ",
+      "original_categories": [
+        "search",
+        "reference",
+        "mapping",
+        "classifieds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-translator-widget-mobile",
+      "description": " A mobile widget that uses the Google Translate API to convert across 10 different languages from any Nokia S60 series phone. Works with English, Chinese, Italian, French, German and others. ",
+      "original_categories": [
+        "translation",
+        "widgets",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "aliens-wall",
+      "description": " The Alien's Wall lets you view all the pictures from a subreddit in a gallery format. ",
+      "original_categories": [
+        "photos",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "maps-australia",
+      "description": " Collection of online maps using Google or Microsoft maps, street level to whole of the continent, including place name and address search, geocoding and link to map service. ",
+      "original_categories": [
+        "australian",
+        "mapping",
+        "search",
+        "travel",
+        "weather",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "vitaminsmatch",
+      "description": " VitaminsMatch aggregates information on vitamins and helps users find what they need easily. Once a selection is made, the user is directed to the source of the product. ",
+      "original_categories": [
+        "ecommerce",
+        "health"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fonefindr",
+      "description": " If you lose your cell phone, enter your number and FoneFindr will call it. Also includes other fun items like leaving a voice message when you find the phone to be posted on the website to be voted on. ",
+      "original_categories": [
+        "humor",
+        "voice",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "unesco-world-heritage-sites",
+      "description": " 50 random World Heritage Sites on a Google Map. Each time you reload it shows another 50 random sites. With embedded photos and links to details on each site. ",
+      "original_categories": [
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fedex-tracking",
+      "description": " Provides tracking information of FedEx packages, with visualized package locations on Google Maps. ",
+      "original_categories": [
+        "shipping",
+        "mapping",
+        "postal"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "stumbleupon-preview",
+      "description": " Preview what every one is stumbling upon in StumbleUpon. Dynamically add or remove tabs for the tag of your interest from tag cloud. ",
+      "original_categories": [
+        "social",
+        "widgets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "map-your-ridedrive-biker-footprints",
+      "description": " Display your Google Latitude location and location history. Guest and public access options control who can view your location. Dead Zone keeps your location from being displayed when you are within X miles of the location you specify. ",
+      "original_categories": [
+        "mapping",
+        "mapping",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "transilien-map",
+      "description": " A new experimental way to explore the Ile-de-France railway public transit system based on NAViTiA public transport information system API. ",
+      "original_categories": [
+        "transportation",
+        "french",
+        "transportation",
+        "french"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "little-corner",
+      "description": " Little Corner is a website that is used to pull your entire web presence into one place. It runs on Ruby on Rails, doesn't use a database, and is Heroku-ready. ",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "library-congress-srw",
+      "description": "The Library of Congress SRW API provides a standard for search queries. SRW (Search/Retrieve Web Service) is a variation of SRU (Search/Retrieve via URL). Rather than conveying messages from client to server over URL, it uses XML over HTTP via SOAP as per W3C recommendations. This specification tries to comply with Web Services Interoperability recommendations.",
+      "original_categories": [
+        "standards"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "keyword-bee",
+      "description": " Keyword Bee is a free keyword research tool that lets you find in-depth analysis of keywords. Search for related keywords and get the most valuable ones. ",
+      "original_categories": [
+        "reference",
+        "keywords",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mashit",
+      "description": " Mashit is a tool to help webdesigners and webdevelopers find color and font combinations for a website during development. APIs used are ColourLovers and Google Fonts. ",
+      "original_categories": [
+        "design",
+        "colors",
+        "fonts",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "vicuso",
+      "description": " Any statement or challenge can make a journey around the world. Google Maps makes this beautifully visible. Anything you come up with can be followed by thousands of people by creating your own viral. ",
+      "original_categories": [
+        "social",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "openskyquery-skyportal",
+      "description": "OpenSkyQuery is a service that allows users to compare astronomical catalogs in order to find positional cross-matches. These matches can be subject to any other conditions or constraints the user wishes to define based on the data in the catalogs. The primary interface utilizes SQL, the Structured Query Language, with a few extensions specialized for astronomical data. The OpenSkyQuery SkyPortal API makes these functions available programmatically via SOAP calls.",
+      "original_categories": [
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "car-emissions-calculator",
+      "description": " Calculate how much CO2 your car produces a year. ",
+      "original_categories": [
+        "environment",
+        "environment",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "political-turkeys-year",
+      "description": " A look at Political Turkeys as reported by CNN. ",
+      "original_categories": [
+        "government",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "music-video-lyrics",
+      "description": " Video and lyrics together. Learn Spanish through songs, video and lyrics. Spanish songs lyrics, French songs, Italian songs, German songs. Add and edit your favorite songs and videos ",
+      "original_categories": [
+        "lyrics",
+        "music",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "maas2",
+      "description": "MAAS2 is a REST API that provides the latest weather data transmitted by the Curiosity Rover on Mars. This API is built upon the REMS (Rover Environmental Monitoring Station). MAAS2 responds in JSON formatted data.",
+      "original_categories": [
+        "astronomy"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "care2",
+      "description": " Care2 is an online community that aims to make a positive social and earth-friendly impact on the world. Care2 helps by connecting individuals with nonprofits and businesses that are making the world a better place. With Care2, individuals and businesses will be able to participate in, and support causes that matter most to them. ",
+      "original_categories": [
+        "community"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "addthis-services",
+      "description": "AddThis is a free way to boost traffic back to your site by making it easier for visitors to share your content. With the AddThis Services API, combined with the oExchange sharing endpoints, and the personalization information provided by the User Data API, you now have all the same tools as the official AddThis menu. Developers can use the Services API as an alternative to the JavaScript-based AddThis Menu API.",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

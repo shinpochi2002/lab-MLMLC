@@ -1,0 +1,36 @@
+{
+  "category": "auto",
+  "count": 3,
+  "items": [
+    {
+      "mashup": "mera-caar-guide-to-car-components",
+      "description": " This uses Mera Caar API hosted on Heroku and has its specification on Programmable Web at https://www.programmableweb.com/api/mera-caar. It uses the API for the very purpose the API was created in the first place - to guide the viewer about the components present inside a generic car. ",
+      "original_categories": [
+        "auto"
+      ],
+      "used_apis": [
+        "mera-caar"
+      ]
+    },
+    {
+      "mashup": "mera-caar",
+      "description": "This API can be used for getting details about car components in a format that has been defined by the author: Kartik Shenoy. The data has been obtained from various sites. Use the API to retrieve and manage car component names, unique car components, car component codes and details.",
+      "original_categories": [
+        "auto"
+      ],
+      "used_apis": [
+        "mera-caar"
+      ]
+    },
+    {
+      "mashup": "windshieldrepair-tech-auto-glass",
+      "description": "The restful WindshieldRepair Tech Auto Glass API provides developers a way to access information about vehicle year, make, model, and body style information. Requests to the API are made using HTTP GET with an API KEY included as a GET parameter. WindshieldRepair Tech is an auto glass and windshield repair company.",
+      "original_categories": [
+        "auto"
+      ],
+      "used_apis": [
+        "windshieldrepair-tech-auto-glass"
+      ]
+    }
+  ]
+}

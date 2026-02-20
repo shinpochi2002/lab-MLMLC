@@ -1,0 +1,877 @@
+{
+  "category": "science",
+  "count": 78,
+  "positive_count": 13,
+  "negative_count": 65,
+  "pos_neg_ratio": "1:5",
+  "items": [
+    {
+      "mashup": "mars-explorer",
+      "description": " The Mars Explorer app (for Android devices) allows you to explore The Red Planet as a whole or through the eyes of one of three NASA rovers currently on the surface. Learn about each of the three rovers and the data they collect on the surface of Mars. Search through years worth of pictures the rovers have taken. Save and share your favorite pictures. Learn about how the rovers work and how they were built. Learn something new about Mars every day with the Daily Fact home screen widget. Get the latest weather details from the Rover Environmental Monitoring Station on board the Curiosity Rover. ",
+      "original_categories": [
+        "education",
+        "astronomy",
+        "entertainment",
+        "science"
+      ],
+      "used_apis": [
+        "nasa-mars-rover-photos"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "ropensci",
+      "description": " rOpenSci offers packages that provide programmatic access to a warehouse of data repositories, with a focus on scholarly works. rOpenSci uses the Mendeley API as a source for scholarly articles. ",
+      "original_categories": [
+        "documents",
+        "datacenter"
+      ],
+      "used_apis": [
+        "mendeley"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "scholarley",
+      "description": " Scholarley is the unofficial Android client for viewing and managing Mendeley documents from an Android device. Mendeley users can open documents and attachments, and sort documents by artist, folder, group, author, and tags. Due to limitations on the Mendeley API, annotations are not supported in Scholarley. ",
+      "original_categories": [
+        "documents",
+        "collaboration"
+      ],
+      "used_apis": [
+        "mendeley"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "kinsync",
+      "description": " KinSync is a web application that automatically sends documents from a user's Mendeley account to their Kindle. The app resizes documents, formatting them to fit the Kindle's 6 screen. The app eliminates the extra step of downloading documents to a PC to then export to a Kindle. Users of KinSync may opt to only sync new documents so as to not clutter their Kindle with outdated content. ",
+      "original_categories": [
+        "documents",
+        "editing"
+      ],
+      "used_apis": [
+        "mendeley"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "papership",
+      "description": " PaperShip is an app that allows users to annotate &amp; share documents. The app syncs with a user's Mendeley and Zotero accounts. The app is available on the Mac Store for iPad, iPhone, and Mac Desktop. ",
+      "original_categories": [
+        "documents",
+        "annotations",
+        "social"
+      ],
+      "used_apis": [
+        "mendeley"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "cbeams.org-deep-sky-objects-database",
+      "description": " Cbeams.org is mashup of Deep Sky Objects with bibliographic references, images and sky maps. ",
+      "original_categories": [
+        "astronomy",
+        "astronomy"
+      ],
+      "used_apis": [
+        "openskyquery-skyportal",
+        "sdss-imgcutout"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "tidely",
+      "description": " Tidely is an ocean tide table application built on the NOAA CO-OPS Tide Prediction API. It allows you to quickly find your local tides by entering your zip code. ",
+      "original_categories": [
+        "marine",
+        "localization",
+        "marine"
+      ],
+      "used_apis": [
+        "noaa-erddap"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "ask-amee",
+      "description": " Ask AMEE is an experiment that makes finding things easier. Instead of giving you a list of possible methodologies that might be relevant, it gives you an answer straight away. You can put in queries like â€œ10kg of coalâ€œ, and it will go off and see if AMEE has an answer. If it does, itâ€™ll give you it straight away, and give you links to find out more if you want to. ",
+      "original_categories": [
+        "environment",
+        "qa",
+        "search"
+      ],
+      "used_apis": [
+        "amee"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "amee-location-footprinter",
+      "description": " AMEE Location Footprinter estimates the environmental impact of your travel based on check-ins with Foursquare. Every week you'll get a personalised email summary of all your journeys, with the total amount of carbon emitted, so you can see how you're doing. ",
+      "original_categories": [
+        "environment",
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [
+        "amee"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "climatecraft",
+      "description": " A Minecraft mod that adds tracking of carbon emissions using AMEE. ",
+      "original_categories": [
+        "science",
+        "weather",
+        "games",
+        "humor",
+        "environment"
+      ],
+      "used_apis": [
+        "amee"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "science-stack-select-and-search",
+      "description": " Select any section of a webpage in Firefox and find related scientific and research papers. A resource for any scientist, literary writer or researcher in any field. ",
+      "original_categories": [
+        "widgets",
+        "reference",
+        "search"
+      ],
+      "used_apis": [
+        "mendeley"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "science-stack",
+      "description": " Science Stack is a powerful tool for researchers that combines Mendeley and PloS searches with innovative ways of interacting with the search functionality (like select and search in Firefox). ",
+      "original_categories": [
+        "search",
+        "reference",
+        "science"
+      ],
+      "used_apis": [
+        "mendeley"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "uk-carbon-footprint-project",
+      "description": " A platform for a carbon calculator gadget, built as a partnership among Google, the Energy Saving Trust, and RSA. Uses the AMEE engine and draws on the UK CO2 calculator for its data, calculations, and approved methodologies. ",
+      "original_categories": [
+        "environment",
+        "sustainability",
+        "widgets"
+      ],
+      "used_apis": [
+        "amee"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "cocoalicious",
+      "description": " A Mac OS X desktop application that lets you browse your del.icio.us accounts. ",
+      "original_categories": [
+        "bookmarks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "us-nursing-home-finder",
+      "description": " Data on over 15,000 nursing homes. Search the best nursing homes in your area. You can also sort the results based on various ratings and view a detailed report on each nursing home. ",
+      "original_categories": [
+        "medical",
+        "mapping",
+        "health"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitmatcher",
+      "description": " This mashup is a fun tool that allows users to discover who they love on Twitter. You can search using any twitter handle and see who the user loves. ",
+      "original_categories": [
+        "humor",
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "100-travel-destinations",
+      "description": " Site showing images and text from 100 worldwide travel locations. From Antarctica to Zanzibar- travel destinations around the world. ",
+      "original_categories": [
+        "travel",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bizvizz-app",
+      "description": " With the BizVizz App, available on Apple iTunes and Google Play, users have access to tax data, jobs data, and other monetary information hidden in regulatory documents as stated in the main page. This app works in the following way: users take the photo of a brand, they compare taxes, and then share data with other members of the BizVizz community. The app is inspired by the movie As Goes Janesville according to the site. ",
+      "original_categories": [
+        "taxes",
+        "data"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flood-maps",
+      "description": " Interesting combination of Google Maps with elevation data to show the impact of rising sea levels. Try it for your own town. ",
+      "original_categories": [
+        "science",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "iran-election-protest-tweet-map",
+      "description": " Iran Election Protest Tweets from Middle East, Europe, Eastern and Western United States ",
+      "original_categories": [
+        "mapping",
+        "government",
+        "blogging",
+        "tweets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "all-world-national-anthems-mashup-service",
+      "description": " This application allows users listen to the national anthems of countries located all around the world. ",
+      "original_categories": [
+        "music",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twtad",
+      "description": " An advertising network for Twitter. It lets Twitter users earn money while tweeting and gives advertisers access to the ever-growing Twitter community. ",
+      "original_categories": [
+        "advertising",
+        "messaging",
+        "advertising",
+        "blogging",
+        "financial"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "livemap-uk-great-britain-events",
+      "description": " An at-a-glance reference calendar featuring Britainâ€™s top events throughout the year, we include the leading Festivals, Sporting Occasions, Agricultural/County Shows, Exhibitions, Cultural &amp; Ceremonial Events, Displays and much more. We provide location details, contact &amp;/or web-links to the Organisers or Official Ticket Agent sites providing the facility to purchase tickets (where applicable) for these Events. In addition &amp; where available we have included extracts from press releases issued by the source, providing information on their Event. ",
+      "original_categories": [
+        "mapping",
+        "events",
+        "england"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "monumental-adventure",
+      "description": " Take a video tour around London and add your own content to this graphically rich travel video mashup. ",
+      "original_categories": [
+        "travel",
+        "video",
+        "england",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "digifit",
+      "description": " A web and mobile application that gives users insight to their heart, by tracking cardio exercise, daily activities, blood pressure, weight, and sleep patterns. Users of the application will have enough information about their own health to make informed decisions. This application also gives users the ability to design their own workout system in pursuing a better living style. ",
+      "original_categories": [
+        "fitness",
+        "health"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "maps-tibet-protests",
+      "description": " Map of March 2008 protests in Tibet, and ensuing events. With photos, summaries, and links to supporting documentation about the Tibetan Centre for Human Rights and Democracy, TCHRD, website. ",
+      "original_categories": [
+        "government",
+        "chinese"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "panthera-jekyll",
+      "description": " A quick and simple responsive developer portfolio theme for jekyll sites and GitHub Pages. ",
+      "original_categories": [
+        "profiles",
+        "developers"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pager-duty",
+      "description": " PagerDuty is an alarm aggregation and dispatching tool for system adminstrators and support teams. It collects alerts from your monitoring tools and calls the engineer on duty if there's a problem. ",
+      "original_categories": [
+        "telephony",
+        "voice",
+        "messaging",
+        "notifications"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "drunkest-cities-america",
+      "description": " See the Forbes Magazine list of the Drunkest Cities in America mapped. ",
+      "original_categories": [
+        "mapping",
+        "food",
+        "bars"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "aml-source",
+      "description": " AML Source is a highly focused job board for anti-money laundering (AML) professionals. ",
+      "original_categories": [
+        "jobs",
+        "jobs",
+        "crime",
+        "financial",
+        "financial"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "blip-your-tweets",
+      "description": " iBlipper is an iPhone app for visually flashing a message up to 30 feet by rapid serial visual presentation, 1 word at a time. Twitter.iblipper allows you to easily blip your tweets. ",
+      "original_categories": [
+        "messaging",
+        "social",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "refund-please",
+      "description": " Helps shoppers capitalize on price guarantees on recent purchases. Add your purchase information and they will watch for price decreases and automatically notify you if price falls below your purchase price. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rijksmonumenten.nl",
+      "description": " Dutch National Heritage List in the Netherlands (rijksmonumenten). Many Dutch tourist attractions are rijksmonuments, such as castles or windmills. There are 61.000 rijksmonuments in the Netherlands. ",
+      "original_categories": [
+        "education",
+        "genealogy"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickr-montagr",
+      "description": " Automated photo mosaics using Flickr ",
+      "original_categories": [
+        "photos",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "informscan",
+      "description": " InformScan provides a free people search engine that includes public records, emails, US addresses, phone numbers and more. ",
+      "original_categories": [
+        "social",
+        "search",
+        "database",
+        "tools",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "busalert.me",
+      "description": " busAlert.me is a mashup of Twilio and OneBusAway real-time tracker service. It's a service that will alert the user by text or phone when their bus is approaching its stop. The service works for all King County (Wa.) Metro stops. ",
+      "original_categories": [
+        "transportation",
+        "mobile",
+        "messaging",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "robe-de-soir%C3%A9e",
+      "description": " Search, compare and buy robes on French shopping websites. Uses the Shopping.com API. ",
+      "original_categories": [
+        "ecommerce",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "indash-sms-dashboard-auto-responder-nexmo",
+      "description": " InDash allows you to manage and process your incoming text messages. It lets you quickly setup a dashboard for your Nexmo incoming numbers. You can configure SMS forwards to email / URLs or setup keyword-based auto-responders. ",
+      "original_categories": [
+        "messaging",
+        "messaging",
+        "management",
+        "dashboards"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "location-based-instagram-photos",
+      "description": " Mashup of Google Map and Instagram that displays Instagram photos based on location. The default is set at the current location and the photos are displayed in a flip board style. ",
+      "original_categories": [
+        "mapping",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ccquick",
+      "description": " A tool for Constant Contact users called ccQuick It's a great tool that allows you to create and configure subscribe boxes for your websites and then easily put the box on your site with a simple piece of code. Lead capture definitely just got easier! ",
+      "original_categories": [
+        "contacts",
+        "tools",
+        "sales"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "docusign-and-twilio",
+      "description": " DocuSign already gives you the option of voiding an Envelope after you've sent it (like recalling an email), but what if you could void an Envelope while on the go, without internet service? With access to the DocuSign API and Twilio, we can grab information about Envelopes (and execute actions) from a phone call! ",
+      "original_categories": [
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "movie-info-search",
+      "description": " Search millions of local and international movie titles and video trailers from YouTube. Also has links to Google for more information about your search term. ",
+      "original_categories": [
+        "movies",
+        "video",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "barcelona-city-tours",
+      "description": " A tour and attractions company that has integrated the Rezgo XML API for bookings. The product display and availability pages use the API to pull live updated product data and availability for specific tours and activities. ",
+      "original_categories": [
+        "travel",
+        "spanish"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "callcollector",
+      "description": " CallCollector is a virtual voicemail box to collect calls from fans, customers, groups, or whatever you need it for. A business may use it as a complaint &amp; feedback line. A talk radio station may use it to allow listeners to vent to (or about) their on-air personalities. You might even use it to collect wishes from family all over the county and stitch them together for a relative's birthday or anniversary. ",
+      "original_categories": [
+        "audio",
+        "telephony",
+        "voice"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-earth-puzzler",
+      "description": " Fun mapping based puzzle built by Google using the Google Earth API. ",
+      "original_categories": [
+        "mapping",
+        "games",
+        "games",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "map-your-discussions",
+      "description": " Discussing based site as long as its about any place in the world. For example, plot your local school and tell everyone what you think of it. Plot your local bar and discuss its beer prices. ",
+      "original_categories": [
+        "social",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "crime-denver-colorado",
+      "description": " These data come from Denver Police Department reports on crimes and are updated a few times per week. They do not include every crime reported to police or incidents to which police respond that do not result in a police report. ",
+      "original_categories": [
+        "mapping",
+        "crime",
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "linda",
+      "description": " Linda is an artificial intelligence being developed by Basi Technologies that answers a wide variety of user questions. The AI is powered by several APIs and language parsing technology. ",
+      "original_categories": [
+        "intelligence",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "carefinancial",
+      "description": " CareFinancial is a credit card processing company that also supports social initiatives. With CareFinancial, consumers will be able to 'spend money with purpose.' CareFinancial processes the transactions, and donates a portion of the processing fees to one of their charity/non-profit partners. ",
+      "original_categories": [
+        "financial",
+        "charity"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "amazon-bookmarks",
+      "description": " Bookmark products on Amazon and get notification when prices change. ",
+      "original_categories": [
+        "ecommerce",
+        "bookmarks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "keyword-search-volume-checker",
+      "description": " The free Keyword Search Volume Checker by SEO Review Tools gives you access to the country-specific monthly search volumes, Google AdWords (CPC) estimates and paid competition (on a 1 -100 scale) for any keyword. You can get data for up to 10 keywords every time you perform a check. Currently supporting 14 different countries including, US, UK, Canada, Netherlands, Germany and many more. ",
+      "original_categories": [
+        "keywords",
+        "advertising",
+        "content",
+        "search",
+        "seo"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "browser-phone",
+      "description": " This browser addon uses Twilio Client and converts all the phone numbers in webpages to links. When you see a number online, just click. ",
+      "original_categories": [
+        "telephony",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "canyonrunner",
+      "description": " CanyonRunner is a 2D side-scroller HTML5 game that works on desktop and mobile, features a story and all the basic game systems you'd expect such as a progress saving system, top scores, different game dynamics on each level and two different endings. This application uses Ludei Cloud API. ",
+      "original_categories": [
+        "games",
+        "games",
+        "html5"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "amanda-open-source-backup",
+      "description": " Amanda Enterprise is a certified, tested, and supported version of the popular Amanda open source backup and recovery tool. Amanda can now use Amazon S3 to backup, archive and retrieve any amount of data, at any time, from anywhere on the Internet. ",
+      "original_categories": [
+        "storage",
+        "backup",
+        "enterprise"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "resumedroppr",
+      "description": " A demo site built to show the ease of implementing BeenVerified with IPaper. IPaper was used to display resumes, and the BeenVerified API was used to demo the OAuth process of displaying verified user data. ",
+      "original_categories": [
+        "jobs",
+        "oauth"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "apartment-ratings",
+      "description": " Apartment rental service with reviews by renters for renters. Search by zip code, see pricing reports, and comparison of ratings on noise, parking, safety, etc. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "vote-locations-amsterdam",
+      "description": " This site displays all vote locations in Amsterdam for general elections in the Netherlands. It also shows which locations are best accessible for people in wheelchairs. All information is only available in Dutch. ",
+      "original_categories": [
+        "government",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "atoolo",
+      "description": " German Ajax web desktop con Web Operating System. ",
+      "original_categories": [
+        "mapping",
+        "widgets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "smsmybus",
+      "description": " A mobile phone app for finding real-time bus arrivals for Madison Metro (Madison, WI). Just text your specific request to receive real-time arrival estimates. ",
+      "original_categories": [
+        "transportation",
+        "mobile",
+        "transportation",
+        "messaging",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "local-rvs",
+      "description": " A free classified site for RVs and trailers. This mashup makes use of the Oodle, Google AdSense, and Google Maps APIs. ",
+      "original_categories": [
+        "advertising",
+        "auto",
+        "classifieds",
+        "recreation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mother-fools-bus-kiosk",
+      "description": " This browser app was designed to be displayed inside a business to show patrons when Madison (WI) Metro buses will be arriving at the nearby stop. ",
+      "original_categories": [
+        "reference",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "let-it-we",
+      "description": " A web application for Kiva.org that harnesses collective financial intelligence using collaborative filtering algorithms. ",
+      "original_categories": [
+        "financial",
+        "education",
+        "algorithms"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "crime-near-you",
+      "description": " iPhone App which shows top crime cities (US Only) around your current location in various categories (Murder/Auto Theft/Burgalary/Property Theft/Violent Crime) - Data is sourced from FBI ",
+      "original_categories": [
+        "mobile",
+        "crime",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "blahblahbleh",
+      "description": " The simplest youtube radio or media player. Just type the name of an artist or song or style of music, press Go, and let BlahBlahBleh play you music videos from youtube related to your search. Like Last.fm or pandora, but lightweight. ",
+      "original_categories": [
+        "music",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bing-maps-mashup-tilt-shift",
+      "description": " With the Bing Maps mashup tilt shift by Aaron Hunter, users can appreciate miniature photography of landscape images when users perceive photographs in birds-eye mode. This work was created with Bing Maps API, jQuery, and JavaScript image processing library. Aaron's examples are available on Github. ",
+      "original_categories": [
+        "mapping",
+        "images",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "map-tunneller",
+      "description": " Map Tunneller allows users to view the direct antipode of a given location. Users can zoom and pan around on the top map and view the selected location's antipode on the bottom map. ",
+      "original_categories": [
+        "mapping",
+        "geography"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "capitals-50-states",
+      "description": " This is a mashup showing the capitals of the fify states of the United States and the respective state nicknames ",
+      "original_categories": [
+        "mapping",
+        "trivia",
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "silicon-valley-vc-funding",
+      "description": " Mashup of Google Maps with the most recent venture capital deals and startups in Silicon Valley. ",
+      "original_categories": [
+        "financial",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickr-insuggest",
+      "description": " A fun way to explore Flickr images based on your own taste. Select a couple of images you like and instantly get recommendations, based on like-minded people. ",
+      "original_categories": [
+        "photos",
+        "recommendations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "helpmesue",
+      "description": " Post your case and let lawyers or citizens respond to you. You are anonymous, and you decide who to engage with. Uses Google Maps to geocode zipcodes of posts, and uses libgmail, the Google apps for your domain email, for its anonymous email system. ",
+      "original_categories": [
+        "mapping",
+        "law"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "doocu",
+      "description": " A free PDF file sharing site where you can upload/download/share PDF collections in private or in public, or read the PDF online using a built-in PDF reader. Doocu is using Amazon EC2 and S3 for storage and database. ",
+      "original_categories": [
+        "office",
+        "pdf",
+        "business"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "are-my-sites-white-label",
+      "description": " Are My Sites Up? White Label offers web development agencies, web hosts and other organizations who sell website related services another source of income by offering a fully brandable white label website monitoring web and iPhone application. ",
+      "original_categories": [
+        "reference",
+        "mobile",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "document-sign-and-verify",
+      "description": " A real-life Blockchain mashup, which allows you to SIGN and VERIFY digital files using the public (Bitcoin) blockchain. You can upload, free-of-charge, up to 5 objects at a time. This mashup uses the document and Blockchain possibilities of the Sphereon platform. ",
+      "original_categories": [
+        "blockchain",
+        "authentication",
+        "documents"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "friendfeed-and-box.net",
+      "description": " Allows Box.net users to share content in their Box accounts to FriendFeed. ",
+      "original_categories": [
+        "social",
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "take-kerala-india",
+      "description": " A website about holidays and ayurveda treatments in Kerala. With maps, flickr images and easy booking of your vacation. ",
+      "original_categories": [
+        "hotels",
+        "indian",
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "qibla-direction",
+      "description": " Check your prayer direction any time, any place. It's more accurate than a compass. Just enter your address to get started. ",
+      "original_categories": [
+        "religion",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bilkadk",
+      "description": " Bilka.dk serves jobs, in-store events and location information on their stores. Bilka is a Danish chain of hypermarkets. ",
+      "original_categories": [
+        "ecommerce",
+        "events",
+        "jobs",
+        "location",
+        "marketing",
+        "marketplace"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "map-game",
+      "description": " This browser based geography quiz uses Google Maps to present a blind map, where the user has to find a given location. ",
+      "original_categories": [
+        "games",
+        "humor",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

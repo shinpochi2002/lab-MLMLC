@@ -1,0 +1,356 @@
+{
+  "category": "location",
+  "count": 33,
+  "positive_count": 3,
+  "negative_count": 30,
+  "pos_neg_ratio": "1:10",
+  "items": [
+    {
+      "mashup": "local-weather",
+      "description": " Local Weather is a web application that automatically show users their local weather forecast. This application uses ipinfo.io API and OpenWeatherMap API. ",
+      "original_categories": [
+        "weather",
+        "geography",
+        "reference"
+      ],
+      "used_apis": [
+        "ipinfoio-ip-geolocation"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "mit-visual-traceroute",
+      "description": " Visual Traceroute is a web application that enables users to trace the path packets take through the Internet, by entering the URL. This application uses ipinfo.io API for geolocation and ISP details. ",
+      "original_categories": [
+        "mapping",
+        "reference"
+      ],
+      "used_apis": [
+        "ipinfoio-ip-geolocation"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "fitdatasync",
+      "description": " FitDataSync is a free application that automatically syncs activities from the user's Garmin device with their Fitbit account. Therefore, with this app, customers do not need to carry their FitBit tracker with them everywhere they go. All information synced from the Garmin device will be displayed in FitBit dashboard. FitDataSync also automatically synchronizes Fitbit Aria Wi-Fi Smart Scale weight measurements to the user's Garmin Connect account. ",
+      "original_categories": [
+        "fitness",
+        "syncing"
+      ],
+      "used_apis": [
+        "garmin-communicator-plugin"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "petdoption",
+      "description": " Android app which allows users to search for adoptable pets in the United States using the Petfinder API. ",
+      "original_categories": [
+        "animals",
+        "pets",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "doodlebuzz",
+      "description": " Typographic news explorer using a doodled line as an interface. ",
+      "original_categories": [
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ncaa-basketball-history-map",
+      "description": " NCAA Mens Basketball Championship on Google Maps. Includes locations of Winners, Losers, Venue. History of the Championship games from 1939-Present. Many ways to search and sort including year, highest or lowest Score, nail biters, and widest margin. ",
+      "original_categories": [
+        "sports",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "seomoz",
+      "description": "SEOmoz provides companies around the world with consulting, Internet marketing and search engine optimization services. Our goal is to provide a high level of service and education to businesses, individuals, non-profits and government organizations so they can best leverage the unique reach of the Internet to increase visibility and achieve success.The SEOmoz Site Intelligence Service API provides an interface to working with SEOmoz tools and data, allowing developers to retrieve information programmatically and make use of such data in their own applications.",
+      "original_categories": [
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-recaptcha",
+      "description": "reCAPTCHA is a freely available CAPTCHA implementation. It distinguishes humans from computers. reCAPTCHA is a CAPTCHA program, used to distinguish humans from computers, that uses the answers provided by the user to help digitize scans of old books and newspapers. This API is indirect access to this service, please refer to the SDK below.",
+      "original_categories": [
+        "security"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cantanding",
+      "description": " The Best Online Karaoke Ever. Tons and tons of karaoke songs. Compatible with ALL devices and available in 4 languages. New languages coming soon !!! ",
+      "original_categories": [
+        "entertainment",
+        "music",
+        "humor",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "kanban-tool",
+      "description": "Kanban Tool is a project management system. Kanban Tool offers project management tools and real-time collaboration functions. Kanban Tool has visualization features, reporting tools, online document creation and storage, and time tracking functions.The Kanban Tool API allows developers to access and integrate the functionality of Kanban with other applications. Some example API methods include managing users, accessing boards, retrieving to-do lists, and managing content.",
+      "original_categories": [
+        "project-management"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gtfs-data-exchange",
+      "description": "The General Transit Feed Specification (GTFS) defines a common format for public transportation schedules, enabling transit agencies and developers to deliver and consume data in a standard structure. The GTFS Data Exchange was built to enable efficient sharing and retrieval of GTFS data. The GTFS Data Exchange API provides developer access to participating agencies and their GTFS feed sources.",
+      "original_categories": [
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twilio",
+      "description": "Twilio provides a simple hosted API and markup language for businesses to quickly build scalable, reliable and advanced voice and SMS communications applications. Twilio provides a telephony infrastructure web service in the cloud, enabling web programmers to integrate real-time phone calls into their applications. Twilio's simple Pay-As-You-Go pricing model means customers pay for capacity only when they need it, not before. Voice applications written on Twilio's cloud solution scale transparently, eliminating programming, operational and contractual headaches frequently associated with rapid growth or traffic spikes.Twilio provides a cloud API for voice and SMS communications that leverages existing web development skills, resources and infrastructure. It minimizes the learning curve required to build advanced, reliable voice communications applications that solve critical business needs. The syntax and programming model are focused on making application development as close to the request/response model of web application development as possible. The API uses a RESTful interface and responses are formatted in HTML, JSON, XML or CSV.",
+      "original_categories": [
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bedesk",
+      "description": " A application desktop to let you visualize data. Integrates the YouTube API. ",
+      "original_categories": [
+        "video",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "toastbank",
+      "description": " ToastBank is a forum where users can add and share toasts. You can search through toasts that have been submitted and share the best ones with your friends over Facebook or Twitter. ",
+      "original_categories": [
+        "social",
+        "humor",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cloud-based-mail-merge-batchbook-and-drawloop",
+      "description": " 100% Cloud-based mail-merge using data from BatchBook and Drawloop's SaaS mail-merge solution. ",
+      "original_categories": [
+        "documents",
+        "email"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "factual-v3",
+      "description": "Factual is an open data platform for application developers that leverages large-scale data aggregation and community exchange. Our focus is on making data more accessible (i.e. cheaper, higher quality, less encumbered) for machines and developers, to drive and accelerate innovation in an unprecedented way. We take on the dirty work of data management and data curation, letting developers focus on higher value and more productive tasks. We provide clean, structured data with complete source transparency to developers via both download and API access on liberal terms.",
+      "original_categories": [
+        "database"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "i2s-image-to-speech",
+      "description": " I2S is a state-of-the-art mobile OCR scanning software that practically turns almost any images with human readable characters into text content which is in turn transformed into human voice in your native language and accent. ",
+      "original_categories": [
+        "ocr",
+        "images",
+        "language",
+        "languages",
+        "mobile",
+        "scanning",
+        "text-to-speech"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bitcoin-price-ticker",
+      "description": " CoinDesk has a Bitcoin Price Ticker widget that can be embedded for free into your own website or blog. The widget displays the current Bitcoin Price Index, todayâ€™s high and low, and a sparkline showing price movements over the last sixty minutes. ",
+      "original_categories": [
+        "bitcoin",
+        "prices",
+        "stocks",
+        "widgets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wikia",
+      "description": "The Wikia Intelligent Search Extensions API is a JavaScript API that allows third-party sites to build applications that appear as Wikia Search results for end-users who install them.",
+      "original_categories": [
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "springer-quotes",
+      "description": " Springer Quotes lets you search more than 80,000 articles from Springer's open access journals. This application won the Springer API Challenge 1.0. ",
+      "original_categories": [
+        "reference",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "coindesk-app",
+      "description": " The app features the latest bitcoin news and analysis, Bitcoin Price Index, a price chart, currency converter and price alert notifications. Users can check the real-time bitcoin price on the app’s homepage which combines price and network pages from the website. Users have the option to toggle between the bitcoin price and network statistics. Currently, the homepage features the USD price index, but users can take advantage of the currency calculator tab to view the price in their currency of choice. The bitcoin price is based on Bitcoin Price Index data. ",
+      "original_categories": [
+        "bitcoin",
+        "currency",
+        "financial"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "galileo",
+      "description": "The Galileo API is an analytics platform for APIs, Microservices and Serverless Software. It uses real-time logging to view actual request and response logs as they come in. View a line by line diff between multiple requests response status codes, headers and bodies to spot changes and potential errors.",
+      "original_categories": [
+        "analytics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twalue",
+      "description": " What is your Twitter account worth? Find the influencing value and value of your Twitter account over time. ",
+      "original_categories": [
+        "reference",
+        "blogging",
+        "humor",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nba-above",
+      "description": " NBA basketball teams on the map. Click on team icon to get latest news. Now it's also possible to view NBA players' location as it's set in their twitter profiles, as well as their latest tweets ",
+      "original_categories": [
+        "sports",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tweetoon",
+      "description": " Twitter cartoons. Each cartoon's text is populated by tweets on each subject. Browse through the selection of cartoons in the menu. ",
+      "original_categories": [
+        "visualizations",
+        "blogging",
+        "social",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "protests-burma-map",
+      "description": " A map of all of the economic protests in Myanmar, aka Burma. ",
+      "original_categories": [
+        "government",
+        "government",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "prosper",
+      "description": "From their site: Prosper, America's first people-to-people lending marketplace, was created to make consumer lending more financially and socially rewarding for everyone. The way Prosper works is intuitive to people who have used eBay. Instead of listing and bidding on items, people list and bid on loans using Prosper's online auction platform.",
+      "original_categories": [
+        "financial"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "cuevox",
+      "description": " Cuevox is a meeting reminder service but with a twist. At the proper time, Cuevox will call your attendees and ask them if they would be on time or not. Cuevox then lets you know. ",
+      "original_categories": [
+        "voice",
+        "telephony",
+        "business",
+        "calendars"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "houseincity",
+      "description": " HouseinCity is a search portal for residential apartments .It offers features like metro connectivity and proximity search. ",
+      "original_categories": [
+        "mapping",
+        "housing"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fatsecret-platform",
+      "description": "The FatSecret Platform API is the #1 verified food and nutrition database in the world, utilized by more than 10,000 developers, in more than 50 countries. Integrate high quality, curated food, nutrition and calorie data into mobile apps, websites, devices and complementary products and services.",
+      "original_categories": [
+        "nutrition"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "css-mania",
+      "description": "The API provides access to the CSS showcases that are submitted to CSS Mania. It provides search access to various CSS showcases with their screenshots, url, rating, votes, top 5 colors used, and more.",
+      "original_categories": [
+        "other"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dgmapper-disc-golf-tournament-map-and-calendar",
+      "description": " DGMapper employs several scrapers and APIs to provide a filterable, live updating map of all upcoming disc golf tournaments and events. Included are weather forecasts, wind speeds, elevation, and links to nearby disc golf stores, restaurants, hotels, and more. ",
+      "original_categories": [
+        "events",
+        "sports",
+        "mapping",
+        "weather",
+        "sports"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "college-football-recruiting-map",
+      "description": " Follow high school recruits as they choose which Division 1 college football team will get their commitment. View recruiting information by state, or university, as well as viewing recruits within a 100 mile radius of your zip. ",
+      "original_categories": [
+        "sports",
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

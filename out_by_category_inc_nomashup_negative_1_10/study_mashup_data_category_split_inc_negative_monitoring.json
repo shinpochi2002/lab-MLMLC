@@ -1,0 +1,577 @@
+{
+  "category": "monitoring",
+  "count": 55,
+  "positive_count": 5,
+  "negative_count": 50,
+  "pos_neg_ratio": "1:10",
+  "items": [
+    {
+      "mashup": "just-dns-lookup",
+      "description": " Online DNS lookup: remote DNS lookup (nslookup/dig) a host or domain from 30+ locations worldwide. ",
+      "original_categories": [
+        "domains",
+        "monitoring",
+        "search"
+      ],
+      "used_apis": [
+        "watchmouse"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "just-traceroute",
+      "description": " Perform a traceroute from 3 stations in the WatchMouse monitoring network. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [
+        "watchmouse"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "just-ping",
+      "description": " Utility to perform a ICMP Ping from 30+ location worldwide. ",
+      "original_categories": [
+        "monitoring",
+        "networking"
+      ],
+      "used_apis": [
+        "watchmouse"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "down-or-not",
+      "description": " Down or Not checks a website from 3 locations in the WatchMouse network and decides if a site is indeed down or not. ",
+      "original_categories": [
+        "monitoring",
+        "monitoring"
+      ],
+      "used_apis": [
+        "watchmouse"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "watchmouse",
+      "description": "The WatchMouse service checks the behavior and availability of websites. WatchMouse allows site owners to optimize the internet experience of their customers.A worldwide network checks websites from 40 different locations in 25 countries around the globe.The API provides access to data collected via the service, access to monitoring settings, and direct commands to check a site.",
+      "original_categories": [
+        "monitoring"
+      ],
+      "used_apis": [
+        "watchmouse"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "restaurant-finder",
+      "description": " The Restaurant Finder app leverages the Zomato API. It offers a convenient way to find restaurants around a particular location ",
+      "original_categories": [
+        "restaurants"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "indonesiajobfair.com",
+      "description": " Indonesia Jobs Real-time Search Engine. Using Indeed API, CareerJet API, Foursquare API, Facebook Open Graph API and built using Twitter Bootstrap. ",
+      "original_categories": [
+        "jobs",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "myguestmap",
+      "description": " MyGuestmap allows your visitors to add pins to a map showing where they are and leaving a message. Create a map to allow your website visitors to place pins, a bookmark-map where only you can post, password-protected maps, and upload photos. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-civic-information",
+      "description": "The Google Civic Information API allows developers to access civic information including polling place, early vote location, candidate data, and election official information for use in third party applications. The API data available currently focuses on election related information. The API uses RESTful calls and responses are formatted in JSON.",
+      "original_categories": [
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "feedly",
+      "description": "feedly is an RSS, blog-feed reader. feedly allows users to aggregate and track all of the blogs and RSS feeds they want to follow in one application (for web, mobile, and tablet).The feedly API allows developers to access and integrate the functionality of feedly with other applications and to create new applications. Some example API methods include retrieving RSS subscriptions. managing categories of RSS feeds, and managing user information.",
+      "original_categories": [
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "email2go",
+      "description": " Email2Go is an online service that helps you create email templates and test them on dozens different physical devices and applications. ",
+      "original_categories": [
+        "software-as-a-service",
+        "design",
+        "email"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "multimap",
+      "description": "One-stop service for global AJAX mapping, routing, geocoding, searching and POI from Europeï¿½s #1 provider of mapping and location services to consumers and businesses.",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "university-crime-mapping",
+      "description": " Largest University crime map mashup, covering over 200 universities. ",
+      "original_categories": [
+        "crime",
+        "education",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "swyft",
+      "description": " Swyft is a real-time transit app that leverages a community of riders working together to make the daily commute faster, more efficient, and more enjoyable. It uses the GTFS Data Exchange API ",
+      "original_categories": [
+        "transportation",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "uproc",
+      "description": "uProc offers tools to enhance and enrich database fields. Organizations can benefit from improved internal data flows, better campaigns, classification, and cost reduction. uProc can validate emails, phones or add several fields to a database for better a segmentation. Also, uProc improves forms, and unifies databases. The uProc API supports JSON for responses.",
+      "original_categories": [
+        "data-as-a-service"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shopping.com-vbulletin",
+      "description": " Simple use of the API, integrated with vBulletin software. ",
+      "original_categories": [
+        "forums",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shutterpoint-image-upload-demo",
+      "description": " ShutterPoint Image Upload API Demo mashup is based on their API and shows a sample HTML form to interact with the API. ",
+      "original_categories": [
+        "photos",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "magento-soap",
+      "description": "Magento is a feature-rich, professional open-source eCommerce solution that offers merchants complete flexibility and control over the look, content, and functionality of its online store. The Magento SOAP API gives users access to functionality such as export/import of customer/customer addresses, retrieve countries and regions and more. The API supports both SOAP and XML RPC protocols. The API is permission based and allows access to the Customer, Catalog and Order modules of Magento.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "clicktodial",
+      "description": " Dial a phone number and log the call in the Microsoft Dynamics CRM 2011 system using ClicktoDial. ",
+      "original_categories": [
+        "reference",
+        "telephony",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "lokerku.web.id",
+      "description": " Indonesian job search engine ",
+      "original_categories": [
+        "jobs",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickr-shapefiles-demo",
+      "description": " Demo of Flickr Shapefiles usage in Flash. Uses ModestMaps AS3 system for the web mapping together with Bing imagery. The source code is available in Wonderfl.net. ",
+      "original_categories": [
+        "photos",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "patchworkr",
+      "description": " Create a photomosaic out of thousands of flickr images. ",
+      "original_categories": [
+        "photos",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "carma",
+      "description": "From their site: Carbon Monitoring for Action (CARMA) is a massive database containing carbon emissions data of over 50,000 power plants and 4,000 power companies worldwide. CARMA is the first global inventory of a major, emissions-producing sector of the economy.",
+      "original_categories": [
+        "other"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "docusign-aplifi",
+      "description": " Aplifi is a technology and service provider for the life and annuity industry. Aplifi integrates DocuSign into their applications to enable their customers to electronically sign documents. ",
+      "original_categories": [
+        "transactions"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "onehash-crm",
+      "description": " One Hash CRM is the easiest and most economical software in the world with its considerably flexible and customer-friendly operation. To help our customers in long-term membership and strengthen cooperation and communication, OneHash relies on combined state-of-the-art development and direct customer knowledge. ",
+      "original_categories": [
+        "software-as-a-service",
+        "erp"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "big-doodles-felicity-stella",
+      "description": " Explore little doodles by zooming and panning with the Google Maps interface. These tiny drawings become an amazing landscape when you see them up so close - you can see the marks from each pen stroke and even see the fibers in the paper. ",
+      "original_categories": [
+        "art",
+        "drawing",
+        "drawing",
+        "humor",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "real-estate-agents-android",
+      "description": " See recent sales, client reviews, and market forecasts of real estate agents operating in your neighborhood. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "securenet",
+      "description": "The service provides a secure payment platform for integration with applications needing checkout functions for credit card and ACH (automated clearing house) transactions. Existing shopping cart packages already integrate with the service, creating a range of solutions for applications.API methods support submission of customer identity and payment information, either credit card number, expiration, etc., or bank account information for ACH transactions. Transaction submissions can also specify product specific information for the hotel, auto rental, and other industries.",
+      "original_categories": [
+        "payments"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "planhq",
+      "description": " Create, update, and track your business plan with your entire team and export out a document version at any time. ",
+      "original_categories": [
+        "calendars",
+        "office"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "appfollow",
+      "description": " App Store Optimization tool that gives you an opportunity to get the best visibility in App Store &amp; Google Play. Get the best tips and guides right now! Find New Keywords, Track App Rankings! ",
+      "original_categories": [
+        "optimization",
+        "marketplace"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "urban-hotel-reservations",
+      "description": " Maps of hotels in the top 50 US cities for quick hotel reservations ",
+      "original_categories": [
+        "hotels",
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "dog-ceo-dog",
+      "description": "The Dog CEO Dog API allows developers to access and integrate over 20,000 images of dogs from over 120 breeds with other applications. The images are supplied by the Stanford Dogs Dataset.",
+      "original_categories": [
+        "entertainment"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "meetbymaps",
+      "description": " Realtime geolocated chat. Coming soon- events and other surprises. Site is in Italian. ",
+      "original_categories": [
+        "social",
+        "search",
+        "mapping",
+        "italian"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "twitterville",
+      "description": " A rendering of the public Twitter timeline. The app was built using Sharendipity, so you can take this and modify it. ",
+      "original_categories": [
+        "humor",
+        "social",
+        "messaging",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mood-tweet",
+      "description": " An online diary for Twitter users. It's totally free. Track and rate your Moo'd Tweets... ",
+      "original_categories": [
+        "photos",
+        "blogging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "meetup",
+      "description": "The Meetup API allows developers to explore and interact with the Meetup platform from their own applications. API methods are available for accessing abuse reports, comments, events, groups, hosts, notifications, photo albums, profiles, RSVPs, and more. This API supports the CORS specification, allowing browser clients hosted on domains other than api.meetup.com to communicate directly with the API.",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fotolia",
+      "description": "Fotolia has created an open Application Programming Interface (API). This API has made it possible for creative people to earn more money through affiliation (Partner API), to integrate Fotolia to your products or services (Business API) or to build applications (software, plugins, widgets) to simply improve the Fotolia experience (Developer API).",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nearbyjobs",
+      "description": " Realtime jobs, errands and favors posting via SMS, voicemail, web and Twilio Client. ",
+      "original_categories": [
+        "reference",
+        "telephony",
+        "mobile",
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wikiorgcharts",
+      "description": " Founded in 2010, WikiOrgCharts is a cloud based Social CRM tool that solves one of the last problems in business focused networking; how companies and government agencies are structured. WikiOrgCharts provides access to anyone looking to learn about and share information about company organizational structures. At WikiOrgCharts, we believe that transparency helps to grow business. Web 2.0 practices such as information sharing, interoperability and collaboration and becoming business practices. Barriers finding non-proprietary business information can cause companies to lose business. ",
+      "original_categories": [
+        "reference",
+        "enterprise",
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "eemap",
+      "description": " A Chinese wiki service based on Google Maps. ",
+      "original_categories": [
+        "photos",
+        "mapping",
+        "chinese",
+        "wiki"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "was-my-jam",
+      "description": " Full track history for all This Is My Jam users. ",
+      "original_categories": [
+        "music",
+        "search",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "globefeed-maps",
+      "description": " Online map application in which you can do a virtual tour of the earth with other online buddies. You can see where they are wandering and have have IM chats with them. ",
+      "original_categories": [
+        "messaging",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "traces-conspiracy",
+      "description": " Generative fiction with Google Maps and Flickr. ",
+      "original_categories": [
+        "mapping",
+        "art",
+        "books"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "vipli.st",
+      "description": " Enter a Plancast event to track its virality across social media channels with awe.sm. ",
+      "original_categories": [
+        "analytics",
+        "social",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "adobe-air-bus-tour",
+      "description": "From their site: You can use these APIs and feeds to keep up with the latest news and content from the [Adobe on AIR] tour, or to build web and AIR based applications and mash-ups. The Adobe Integrated Runtime (AIR), previously referred to by its code-name of Apollo, is a cross-operating system runtime that allows web developers to leverage their existing web development skills (such as Flash, Flex, HTML and JavaScript) to build and deploy web applications and content to the desktop.",
+      "original_categories": [
+        "other"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "memorybook",
+      "description": " A puzzle-match game that integrates the photos of your Facebook friends. It was built using the Sharendipity platform. ",
+      "original_categories": [
+        "photos",
+        "humor",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "booli.se",
+      "description": " Swedish real estate search engine. ",
+      "original_categories": [
+        "nordic",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "eventsites",
+      "description": " Eventsites allows users to create a mini-website for their event complete with description, a Google Map and photos from Flickr. Eventsites is unusual as a mashup in that the entire site is built using only AJAX and it stores no data of its own. ",
+      "original_categories": [
+        "events",
+        "mapping",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "soundtracking",
+      "description": " Soundtracking lets users announce what music they are listening to along with where they are and what they are doing at the time. ",
+      "original_categories": [
+        "music",
+        "social",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "distant.ly",
+      "description": " Distant.ly is a web application that uses the Traitify API to accept user feedback to generate a personality profile. This is done by selecting Me or Not Me when presented with multiple images, helping to paint a picture of the user. The web app then uses this information to make suggestions for travel destinations and activities. Currently still under development, Distant.ly is created and supported by web developer Tom Rutka. ",
+      "original_categories": [
+        "travel",
+        "predictions"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "redistricting-nation",
+      "description": " The redistricting following the 2010 Census is an opportunity to change how the redistricting process is conducted. With knowledge and the right tools, the public can redraw the map on redistricting. ",
+      "original_categories": [
+        "government",
+        "demographics",
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "youwerecute",
+      "description": " A mashup that imports missed connection data from craigslist and locates them on the google map. The time slider on the top of the map enables users to go back the past 10 days. A submission page with a drawing board is provided so users can submit their missed connection via the website with a drawing. ",
+      "original_categories": [
+        "mapping",
+        "search",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "homepricerecords",
+      "description": " Combines home sales data with Google maps. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "appfollow__api",
+      "description": "This API provides a way to create your own dashboards, real time tracking features and custom reports. It includes; real time app monitoring for reviews, ranks, keywords, ratings, and more. AppFollow allows you to track app activities by collecting data from App Store, Google Play and Windows Store using data parsers and algorithms.",
+      "original_categories": [
+        "applications"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "hindi-songs-search",
+      "description": " Highly customized search engine for searching Hindi songs, with audio, video, and lyrics. ",
+      "original_categories": [
+        "video",
+        "music",
+        "search",
+        "religion"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

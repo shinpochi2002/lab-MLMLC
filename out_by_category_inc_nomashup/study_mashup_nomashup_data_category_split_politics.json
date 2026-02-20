@@ -1,0 +1,40 @@
+{
+  "category": "politics",
+  "count": 3,
+  "items": [
+    {
+      "mashup": "our-philadelphia",
+      "description": " Gives citizens the information and the tools that they need to expose threats to the public interest, and to hold their elected officials more accountable. ",
+      "original_categories": [
+        "government",
+        "government",
+        "government"
+      ],
+      "used_apis": [
+        "cicero"
+      ]
+    },
+    {
+      "mashup": "redistricting-nation",
+      "description": " The redistricting following the 2010 Census is an opportunity to change how the redistricting process is conducted. With knowledge and the right tools, the public can redraw the map on redistricting. ",
+      "original_categories": [
+        "government",
+        "demographics",
+        "government"
+      ],
+      "used_apis": [
+        "cicero"
+      ]
+    },
+    {
+      "mashup": "cicero",
+      "description": "The Cicero API matches addresses, zip codes, or coordinates to legislative districts and elected official contact information. Cicero easily integrates into an organization's existing web application or data management software. Local, state, and national data is available for the United States, Australia, Canada, New Zealand, the United Kingdom, Northern Ireland, Scotland, Wales, and Mexico.In addition to geocoding addresses and matching them to the correct legislative districts, Cicero returns maps of each district and detailed information about each elected official including office addresses, emails, and social media identifiers. Cicero also provides non-legislative district matching for census data, counties, school districts, watersheds, and police districts.",
+      "original_categories": [
+        "politics"
+      ],
+      "used_apis": [
+        "cicero"
+      ]
+    }
+  ]
+}

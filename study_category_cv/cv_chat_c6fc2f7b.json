@@ -1,0 +1,26 @@
+{
+  "category": "chat",
+  "uid": "c6fc2f7b",
+  "n_samples": 12,
+  "n_labels": 7,
+  "results": [
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 6.322667026519776,
+      "std_val_loss": 4.312136328836686,
+      "mean_micro_f1": 0.360952380952381
+    },
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 6.972669088840485,
+      "std_val_loss": 4.950140304248113,
+      "mean_micro_f1": 0.30317460317460315
+    }
+  ],
+  "selected": {
+    "lr": 3e-05,
+    "mean_val_loss": 6.322667026519776,
+    "std_val_loss": 4.312136328836686,
+    "mean_micro_f1": 0.360952380952381
+  }
+}

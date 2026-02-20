@@ -1,0 +1,94 @@
+{
+  "category": "spam",
+  "count": 8,
+  "positive_count": 2,
+  "negative_count": 6,
+  "pos_neg_ratio": "1:3",
+  "items": [
+    {
+      "mashup": "antideo",
+      "description": " Antideo maintains large database with spam and scam records, IP locations and infected ranges, proxy records and many more. We are keeping our database updated regularly from various sources, as well as collecting some of the data ourselves. Final result is millions of IP and email records kept up to date and free to use in a fair manner. ",
+      "original_categories": [
+        "spam",
+        "email"
+      ],
+      "used_apis": [
+        "antideo"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "antideo__api",
+      "description": "The Antideo API offers health checks that can be performed on IPs and Email adresses. These checks can be used for accepting user signups or checking orders against fraudulent indicators. Antideo updates its database regularly with the latest infected IP ranges, and proxy records. This API requires API Keys for authentication, and returns data in JSON format.",
+      "original_categories": [
+        "spam"
+      ],
+      "used_apis": [
+        "antideo"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "getparking",
+      "description": " GetParking provides an easily accessible parking location database. Our mission is to one day connect you with parking garages worldwide. ",
+      "original_categories": [
+        "mapping",
+        "transportation",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "guess-flag",
+      "description": " Interactive game based on Google Maps API. Try to guess the correct country below the flag. ",
+      "original_categories": [
+        "mapping",
+        "games",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "clockr",
+      "description": " Clockr uses random digit images from Flickr to display the current time. Click on a number to change the image, doubleclick it to view the full image. Use the mouse wheel to cycle through. ",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "vg-sammenlign",
+      "description": " VG Sammenlign allows you to compare fees, interest, and costs of 26 consumer loans in Norway. VG.no is Norway's largest newspaper and most visited website. ",
+      "original_categories": [
+        "comparisons",
+        "financial"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "worlds-best-universities-map",
+      "description": " View the location and ranking results of the world's best universities on a map and compare the major rankings visually. ",
+      "original_categories": [
+        "education",
+        "mapping",
+        "ratings",
+        "education"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "commission-junction",
+      "description": "The Commission Detail Service is a REST-based API that enables advertisers and publishers to access real-time commission and item-detail data. Advertisers and publishers that wish to receive commission reporting updates in near real-time or to request new commission data on a regular basis can use this API to create in-house tools that access real-time commission data from the CJ network. Developers may search by any number of criteria including price, currency, country, serviceable area and UPC. A SOAP API is also available but will eventually be deprecated.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

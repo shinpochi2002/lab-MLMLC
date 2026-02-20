@@ -1,0 +1,75 @@
+{
+  "category": "data-as-a-service",
+  "count": 6,
+  "items": [
+    {
+      "mashup": "uproc-form-validator-wordpress",
+      "description": " This plugin allows you to validate form fields values populated in Wordpress sites against the uProc service, getting data when the form is submitted. ",
+      "original_categories": [
+        "validation",
+        "blogging",
+        "data",
+        "forms",
+        "plugins"
+      ],
+      "used_apis": [
+        "uproc"
+      ]
+    },
+    {
+      "mashup": "openaidnl",
+      "description": " This platform extracts the raw IATI data published by the Dutch Ministry of Foreign Affairs from the IATI registry, and presents it in an easy-to-use web interface. It does not alter or interpret the data in any way. At this transparency portal you can find every development cooperation activity supported by the Dutch Ministry of Foreign Affairs since 2010. The portal enables you to find the activities in specific countries or regions, in sectors or by receiver organization. ",
+      "original_categories": [
+        "government",
+        "transparency"
+      ],
+      "used_apis": [
+        "oipa-openaid-iati"
+      ]
+    },
+    {
+      "mashup": "firmendb",
+      "description": " Yellow pages for Germany, Austria and Switzerland. ",
+      "original_categories": [
+        "business",
+        "directories",
+        "german",
+        "mapping",
+        "reference"
+      ],
+      "used_apis": [
+        "zoominfo"
+      ]
+    },
+    {
+      "mashup": "oipa-openaid-iati",
+      "description": "OIPA extracts all published IATI XML files from the IATI Registry and stores them in a PostgreSQL database, that you can access using a RESTful API.",
+      "original_categories": [
+        "data-as-a-service"
+      ],
+      "used_apis": [
+        "oipa-openaid-iati"
+      ]
+    },
+    {
+      "mashup": "semrush-traffic-analytics",
+      "description": "SEMrush Traffic Analytics API provides data on any company's website traffic. Collected insights can be easily integrated into Business Intelligence (BI) tools, custom dashboards, CRM software, enterprise portals, and SaaS products, as well as exported to spreadsheets.SEMrush Traffic Analytics API includes data on: volume and quality of website traffic; visitor engagement and behavior; traffic sources and destination websites; geos and countries; historical trends; mobile vs desktop traffic distribution; website ranks.SEMrush Traffic Analytics API data will be useful for finding insights about market share, market trends (both global and local), competitor activity, potential business and co-marketing partners, new markets and niches; lead qualification, search of prospects and making of commercial offers for pre-sales meetings; initial market research and prioritization of investment opportunities.",
+      "original_categories": [
+        "data-as-a-service"
+      ],
+      "used_apis": [
+        "semrush-traffic-analytics"
+      ]
+    },
+    {
+      "mashup": "uproc",
+      "description": "uProc offers tools to enhance and enrich database fields. Organizations can benefit from improved internal data flows, better campaigns, classification, and cost reduction. uProc can validate emails, phones or add several fields to a database for better a segmentation. Also, uProc improves forms, and unifies databases. The uProc API supports JSON for responses.",
+      "original_categories": [
+        "data-as-a-service"
+      ],
+      "used_apis": [
+        "uproc"
+      ]
+    }
+  ]
+}

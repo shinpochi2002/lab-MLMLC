@@ -1,0 +1,37 @@
+{
+  "category": "natural-language-processing",
+  "count": 3,
+  "items": [
+    {
+      "mashup": "voice-apps",
+      "description": " Here any one can develop voice apps for Amazon Echo, Google Assistant and Microsoft Cortana. We support proactive event notifications using scheduler and web hooks. Users can also develop Chatbots using NLP. ",
+      "original_categories": [
+        "voice"
+      ],
+      "used_apis": [
+        "dialogflow-standard-webhooks",
+        "nlp-tools"
+      ]
+    },
+    {
+      "mashup": "dialogflow-standard-webhooks",
+      "description": "The Dialogflow Standard Webhooks API allows you to communicate with Dialogflow through its own, standard webhook format. Webhooks enables you to pass information from a matched intent into a web service to get a result. The Dialogflow API is an end-to-end development suite of conversational interfaces for chatbots, voice-powered apps and devices that includes; query, intents, entities and more. Dialogflow processes a natural language query and returns structured, actionable data as a result. It is an end-to-end development suite for building conversational interfaces for websites, mobile applications, popular messaging platforms, and IoT devices that is powered by machine learning. It recognizes the intent and context of what a user says, allowing your conversational interface to provide responses. Dialogflow enables users with ways to interact with products by building voice and text-based conversational applications.",
+      "original_categories": [
+        "natural-language-processing"
+      ],
+      "used_apis": [
+        "dialogflow-standard-webhooks"
+      ]
+    },
+    {
+      "mashup": "nlp-tools",
+      "description": "The NLPTools is a simple web service designed as a JSON over HTTP RESTful API. It decodes online news sources for sentiment analysis and textual classification. In order to analyze the sentiment or classify of a line of text, developers may use this API to receive a return of a category label and a conditionality on the piece ranging from positive, neutral, to negative sentiment.",
+      "original_categories": [
+        "natural-language-processing"
+      ],
+      "used_apis": [
+        "nlp-tools"
+      ]
+    }
+  ]
+}

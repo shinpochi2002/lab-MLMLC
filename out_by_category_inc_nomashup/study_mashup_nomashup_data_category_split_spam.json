@@ -1,0 +1,27 @@
+{
+  "category": "spam",
+  "count": 2,
+  "items": [
+    {
+      "mashup": "antideo",
+      "description": " Antideo maintains large database with spam and scam records, IP locations and infected ranges, proxy records and many more. We are keeping our database updated regularly from various sources, as well as collecting some of the data ourselves. Final result is millions of IP and email records kept up to date and free to use in a fair manner. ",
+      "original_categories": [
+        "spam",
+        "email"
+      ],
+      "used_apis": [
+        "antideo"
+      ]
+    },
+    {
+      "mashup": "antideo__api",
+      "description": "The Antideo API offers health checks that can be performed on IPs and Email adresses. These checks can be used for accepting user signups or checking orders against fraudulent indicators. Antideo updates its database regularly with the latest infected IP ranges, and proxy records. This API requires API Keys for authentication, and returns data in JSON format.",
+      "original_categories": [
+        "spam"
+      ],
+      "used_apis": [
+        "antideo"
+      ]
+    }
+  ]
+}

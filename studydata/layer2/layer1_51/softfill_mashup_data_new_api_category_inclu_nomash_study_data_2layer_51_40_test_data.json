@@ -1,0 +1,132 @@
+[
+    {
+        "name": "3cols",
+        "categories": [
+            "developers"
+        ],
+        "bigcategories": [
+            "40"
+        ],
+        "description": "3Cols is a cloud based snippet manager allowing you to share code snippets with a team enabling greater productivity and encouraging reusable code. The 3Cols API allows adding, editing and deleting of your snippets."
+    },
+    {
+        "name": "blippar-computer-vision",
+        "categories": [
+            "recognition"
+        ],
+        "bigcategories": [
+            "40"
+        ],
+        "description": "The Blippar Computer Vision API offers image recognition capabilities that can be integrated with third-party applications. After image processing, the API returns a JSON formatted object. OAuth 2 is used for authentication. Blippar is a London based, software development firm that provides augmented reality and image recognition technologies. Contact https://web.blippar.com/contact-us#computer-vision for additional API documentation."
+    },
+    {
+        "name": "rosto",
+        "categories": [
+            "recognition"
+        ],
+        "bigcategories": [
+            "40"
+        ],
+        "description": "The Rosto API provides access to facial recognition using machine learning. Rosto's features include face detection, age detection, gender detection, emotion detection, multi-face detection, landmark detection, glasses detection, smile detection, hair segmentation (still in beta), head-pose calculation, and ethnicity detection.Developers can use these features to extract information about people in their images. They can use all features or just a subset to improve performance. This API handles images up to 4 MB."
+    },
+    {
+        "name": "openbr",
+        "categories": [
+            "recognition"
+        ],
+        "bigcategories": [
+            "40"
+        ],
+        "description": "The OpenBR project has produced a new language for image recognition used to express algorithms. Each word in the language corresponds to a plugin that performs a specific transformation on an image, allowing for highly decoupled development of the individual steps in an algorithm. The OpenBR 0.4.0 framework (Open Source Biometric Recognition) and related APIs apply complex algorithms to measure and recognize facial features and give access control using advanced biometrics. The C++ plugins include Face Recognition, Age Estimation, and Gender Estimation. OpenBR is written in a subset of C++ and is known to work with all popular modern C++ compilers. The project is actively maintained on Windows, Mac, and Linux, with ports to Android &amp; iOS. The Open BR API helps extend the functionality of OpenBR."
+    },
+    {
+        "name": "affectiva-affdex",
+        "categories": [
+            "recognition"
+        ],
+        "bigcategories": [
+            "40"
+        ],
+        "description": "Affdex by Affectiva is a facial expression analysis tool, used by researchers and marketers alike to learn more about customers and their interaction and emotive response to ads, branding, and any type of media. The Affdex API connects applications to Affectiva's cloud interface, allowing developers to enhance emotive analysis with access to Affectiva's research and data."
+    },
+    {
+        "name": "microsoft-cognitive-services-emotion",
+        "categories": [
+            "recognition"
+        ],
+        "bigcategories": [
+            "40"
+        ],
+        "description": "The Microsoft Cognitive Services Emotion API recognizes emotions expressed by one or more people in an image, and returns a face identification bounding box. It detects the following emotions: happiness, sadness, surprise, anger, fear, contempt, and disgust. For video, it returns emotions of a group of faces over a period of time. 2 paid options are available, and a free plan that limits transactions to 30,000 a month is available as well. The Emotion API uses JSON for data exchange, and API Keys for authentication."
+    },
+    {
+        "name": "intenseye",
+        "categories": [
+            "recognition"
+        ],
+        "bigcategories": [
+            "40"
+        ],
+        "description": "The Intenseye API returns video analytics data in JSON format. With the API in REST architecture, developers can track objects and extract information from videos and cameras. API methods are available to manage camera functions, video task functions, image detection functions and more. Intenseye provides computer vision services for video and image processing and image recognition."
+    },
+    {
+        "name": "intersection-observer",
+        "categories": [
+            "developers"
+        ],
+        "bigcategories": [
+            "40"
+        ],
+        "description": "The Intersection Observer REST API allows developers to access and integrate the functionality of Intersection Observer with other applications. The Intersection Observer API provides an interface to get the position and visibility of DOM elements relative to a container element or to browser top level viewport."
+    },
+    {
+        "name": "findface-cloud",
+        "categories": [
+            "recognition"
+        ],
+        "bigcategories": [
+            "40"
+        ],
+        "description": "The FindFace Cloud API offers integration with a face detection, verification, and identification platform. This API enables face comparison, and human detection with coordinates and sizes. POST methods are supported, JSON is used for resposes, and HTTP Basic Auth for authentication. FindFace is a Cyprus based software development firm."
+    },
+    {
+        "name": "affectiva-market-research-data",
+        "categories": [
+            "recognition"
+        ],
+        "bigcategories": [
+            "40"
+        ],
+        "description": "Affectiva is a provider of emotion recognition technology that uses AI capabilities to analyze emotions and facial expressions of audiences. Affectiva supports the use of a standard web cam to gather analytical insights into unfiltered emotions exhibited by consumers in digital content. The Affectiva Market Research Data API is Affdex Market Research System’s data access portal. Its integration in apps provides access to emotion recognition data gathered through the cloud-based Affdex platform. The API sends HTTP-formatted requests and returns JSON-formatted responses."
+    },
+    {
+        "name": "microsoft-azure-cognitive-services-computer-vision",
+        "categories": [
+            "recognition"
+        ],
+        "bigcategories": [
+            "40"
+        ],
+        "description": "The Microsoft Azure Cognitive Services Computer Vision API analyses images and returns information about them. It can be used to filter mature content or to detect faces in an image. Information such as image description, and dominant and accent colors can also be retrieved. Additionally, this API recognizes celebrities, reads text in images, and generates thumbnails. Currently, a free plan that limits calls to 5000 transactions per month is available. The Computer Vision API uses JSON format for data exchange, and API Keys for authentication."
+    },
+    {
+        "name": "tineye-mobileengine",
+        "categories": [
+            "recognition"
+        ],
+        "bigcategories": [
+            "40"
+        ],
+        "description": "The MobileEngine API offers an image recognition platform optimized for images taken from a mobile device. The API quickly and accurately matches a user-submitted image to your collection of photos or product images. This can be used to identify pictures of books, wallpapers, magazines, CD covers, artwork and more. MobileEngine is designed to take into account common effects that occur when taking photos with mobile devices, including rotation, occlusion, perspective projection, changing lighting conditions, warps, blurs, flips and crops."
+    },
+    {
+        "name": "typingdna",
+        "categories": [
+            "recognition"
+        ],
+        "bigcategories": [
+            "40"
+        ],
+        "description": "The TypingDNA API matches typing patterns in order to authenticate a user. Typing behavior is captured using JavaScript, and pattern matching results are returned in JSON format, letting the developer know whether or not the typing patterns belong to the same user. This API can be used for secure login, enforcing reset passwords, and online biometric authentication."
+    }
+]

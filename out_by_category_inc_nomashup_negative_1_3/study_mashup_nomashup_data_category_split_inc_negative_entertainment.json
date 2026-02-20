@@ -1,0 +1,712 @@
+{
+  "category": "entertainment",
+  "count": 64,
+  "positive_count": 16,
+  "negative_count": 48,
+  "pos_neg_ratio": "1:3",
+  "items": [
+    {
+      "mashup": "filmfinder",
+      "description": " Filmfinder is a mobile application that lets users browse and search for movies and TV series. Filmfinder uses a few different APIs for their database, including Youtube and Movie DB. ",
+      "original_categories": [
+        "movies",
+        "search"
+      ],
+      "used_apis": [
+        "movie-database-tmdb"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "pixaquote",
+      "description": " Pixaquote is a mobile app which allows you to discover thousands of great quotes and embed those quotes in photos to design your own unique images! You can use photos from your own device or search a vast online database of high-quality royalty free photos to use in your creation. Share your favorite quotes and your creations via email, text, or social media. ",
+      "original_categories": [
+        "entertainment",
+        "humor",
+        "images",
+        "mobile"
+      ],
+      "used_apis": [
+        "favqs"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "moviis",
+      "description": " Improve your movie experience with the Moviis android application. Film information, trakt.tv integration, check-in, recommendations, history, watchlist, collection, lists, upcoming and now playing in theaters, ratings, trailers and much more... ",
+      "original_categories": [
+        "movies",
+        "movies",
+        "mobile",
+        "applications"
+      ],
+      "used_apis": [
+        "movie-database-tmdb"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "sweet-soundtrack",
+      "description": " Sweetsoundtrack.com is the spot where music and movie lovers unite! With song listings from thousands of your favorite movies, we are your number one source of movie soundtrack information. Heard an awesome song in the movie you just watched? Don't wait for the credits. Search our comprehensive track listings for the information you need. ",
+      "original_categories": [
+        "movies",
+        "music",
+        "music",
+        "search"
+      ],
+      "used_apis": [
+        "movie-database-tmdb"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "posterizer",
+      "description": " Posterizer is the best way to show what movies you love. Create a virtual poster wall with posters from you favorite movies. Export your poster wall to an image, and make it your new desktop background or facebook cover! ",
+      "original_categories": [
+        "movies",
+        "social",
+        "humor",
+        "visualizations"
+      ],
+      "used_apis": [
+        "movie-database-tmdb"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "inflooenz",
+      "description": " Inflooenz is a music discovery tool based on the concept of influences. It allows the user to get introduced to unknown musicians through their favorite ones in a friendly way. Inflooenz creates a playlist with the very best of each influencer to showcase their work and populates other relevant information for a friendly first approach. Its main difference against other recommendation engines is that 'influence' is a wider concept than similarity: while still related to a starting point (the favorite artist), the user can come up with new music that it's not 'more of the same'. ",
+      "original_categories": [
+        "music"
+      ],
+      "used_apis": [
+        "rovi-cloud-services"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "murfie",
+      "description": " Murfie is a digital music marketplace that goes beyond digital. Murfie actually stores users disks and gives them access to the digital content whenever they need it. The company also uses users disks to expand their digital marketplace. ",
+      "original_categories": [
+        "music",
+        "audio"
+      ],
+      "used_apis": [
+        "rovi-cloud-services"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "discovr-movies",
+      "description": " There are so many movies in the world today. How do you find a new movie to watch? Discovr Movies makes it easy to find a new movie that you'll like. The app is an interactive map of the world of movies. It makes it fun to discover new movies to watch. You can navigate through the entire interconnected ecosystem of hundreds of thousands of movies and find new movies that are similar to movies that you like. Discovr Movies is out now for iPhone, iPad, and Mac OSX. ",
+      "original_categories": [
+        "recommendations",
+        "movies"
+      ],
+      "used_apis": [
+        "rovi-cloud-services"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "totalguide-g2",
+      "description": " Rovi TotalGuideâ„¢ G2 enables you to develop and market differentiated products with a highly customizable, content discovery and guidance solution that encourages consumer engagement through deep, relevant entertainment information. Consumers can easily discover and enjoy on-demand offerings, web video and broadcast television programs from a single intuitive user interface. ",
+      "original_categories": [
+        "tv",
+        "video",
+        "recommendations",
+        "search",
+        "advertising"
+      ],
+      "used_apis": [
+        "rovi-cloud-services"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "allmusic-rovi",
+      "description": " AllMusic by Rovi takes the best of AllMusic.com and packages it into a convenient app for mobile music discovery. AllMusic lets you tailor your experience, offering personalized recommendations based on music you already like. ",
+      "original_categories": [
+        "recommendations",
+        "mobile",
+        "music"
+      ],
+      "used_apis": [
+        "rovi-cloud-services"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "whats-tv",
+      "description": " Rovi Whatï¿½s On TV for iPad helps you find what you want to watch by simply entering your ZIP code and your service provider information. See local program information and find out about your favorite shows, movies and celebrities. ",
+      "original_categories": [
+        "reference",
+        "search",
+        "social"
+      ],
+      "used_apis": [
+        "rovi-cloud-services"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "allrovi",
+      "description": " Music and movie discovery web site. Search over 18 million people, albums, movies and songs. ",
+      "original_categories": [
+        "music",
+        "movies",
+        "search"
+      ],
+      "used_apis": [
+        "rovi-cloud-services"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "culture24",
+      "description": "Culture24 is a non-profit, cultural publishing organization that collects and shares cultural data, publishes websites, and leads campaigns and research projects. The Culture24 SOAP API provides developers with an interface to automate access to Culture24 Direct Data Entry database, the backbone of everything the organization does.",
+      "original_categories": [
+        "entertainment"
+      ],
+      "used_apis": [
+        "culture24"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "dog-ceo-dog",
+      "description": "The Dog CEO Dog API allows developers to access and integrate over 20,000 images of dogs from over 120 breeds with other applications. The images are supplied by the Stanford Dogs Dataset.",
+      "original_categories": [
+        "entertainment"
+      ],
+      "used_apis": [
+        "dog-ceo-dog"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "movie-database-tmdb",
+      "description": "The TMDb API is a resource for any developers that want to integrate movie, TV show and cast data along with posters or movie fan art. themoviedb.org is a free and community edited database.",
+      "original_categories": [
+        "entertainment"
+      ],
+      "used_apis": [
+        "movie-database-tmdb"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "rovi-cloud-services",
+      "description": "Rovi is a digital entertainment technology company that provides guidance technology, entertainment data, content protection and content networking technology for digital entertainment devices and services. Rovi Cloud Services includes APIs to access advertising, metadata, recommendations, media recognition, search and management/analytics modules.",
+      "original_categories": [
+        "entertainment"
+      ],
+      "used_apis": [
+        "rovi-cloud-services"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "smsmybus",
+      "description": " A mobile phone app for finding real-time bus arrivals for Madison Metro (Madison, WI). Just text your specific request to receive real-time arrival estimates. ",
+      "original_categories": [
+        "transportation",
+        "mobile",
+        "transportation",
+        "messaging",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "click2message",
+      "description": " Click2Message uses the Broadsoft platform to connect to users via their phone. Whether it is their mobile, land line, or voip phone. Additionally, it uses the MyVox platform to do voice recordings which will soon be available to all users. ",
+      "original_categories": [
+        "voip",
+        "voice",
+        "telephony",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "corpwatch",
+      "description": "CorpWatch is a non-profit organization that uses investigative research and journalism to expose corporate malfeasance and to advocate for multinational corporate accountability and transparency.The CorpWatch API uses automated parsers to extract the subsidiary relationship information from Exhibit 21 of companies' 10-K filings with the SEC and provides a free, well-structured interface for programs to query and process the data. Using the API users can access hundreds of thousands of formal names of public corporations, a consistent ID system for companies, locations associated with companies, subsidiary/parent relationships between companies, alternate and former names for companies and a link to the SEC filing. The API uses a RESTful interface and responses are formatted in either XML or JSON.",
+      "original_categories": [
+        "other"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "tinymap.net",
+      "description": " Like tinyurl, but for maps. Create a map, add routes or points of interest, and get a short URL to share it or come back to it later. ",
+      "original_categories": [
+        "bookmarks",
+        "mapping",
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "giddi",
+      "description": " A product-rating engine that collects product data, including over 600,000 products and more than 1.6 million reviews through web crawlers and APIs. Giddi runs this data through an algorithm to generate proprietary ratings for each product. ",
+      "original_categories": [
+        "ecommerce",
+        "search",
+        "ecommerce",
+        "ratings"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "partygps",
+      "description": " Find the good times. partyGPS makes it easier to locate bars, clubs, and liquor stores throughout the U.S. with Google Maps and user reviews. ",
+      "original_categories": [
+        "food",
+        "mapping",
+        "bars",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "candid",
+      "description": " Powerful tools for integrating customer photos to improve engagement and conversion. ",
+      "original_categories": [
+        "ecommerce",
+        "content"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "follow-money",
+      "description": "From their site: Money in state politics plays a pivotal role in shaping public policy in individual states and across the nation. The nonpartisan Institute on Money in State Politics tracks contributions in all 50 states and makes this data easily searchable online…The Institute collects campaign-finance data for state-level candidates, party committees and ballot-measure committees in all 50 states. Each two-year election cycle, data-acquisition specialists compile more than 90,000 disclosure reports from more than 16,000 candidates in the states and process more than 3.2 million records of contribution information.",
+      "original_categories": [
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "product-videos-woocommerce",
+      "description": " Instantly Find and Embed Videos for all the products you sell, from all the major media websites including YouTube, Facebook and Vimeo. Display embedded media as the Product Featured Video or in a custom tab. You can automate the entire process and you have detailed control over which videos show on which products. Get Started for Free! ",
+      "original_categories": [
+        "video",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "real-indoor",
+      "description": " Real Indoor creates realistic biking experiences while working out on your spin bike or similar devices. Streetview panoramas and the sophisticated physics engine implement real track simulation. Tracks from bicycle directions, GPS recordings or following Streetview panoramas allow for exciting workout experiences. Real Indoor supports control via webcam gestures as well as contrast enhanced streetview images. ",
+      "original_categories": [
+        "mapping",
+        "html5",
+        "webcams",
+        "cycling",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "www.mapits.de",
+      "description": " mapits.de is a German real estate search engine based on Google Maps. ",
+      "original_categories": [
+        "mapping",
+        "german"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "event-now-australia",
+      "description": " Event Now! shows Victoria, Australia events using a handy timemap, it also integrates with Google Calendar to let you save your events, invite friends and set sms reminders. Entrant in the App My State government mashup contest. ",
+      "original_categories": [
+        "events",
+        "australian",
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "yard-sale-treasure-map",
+      "description": " Find and map the Craigslist yard sales near you. Find, organize, and print directions to yard sales in your area. You can make live updates to your itinerary to find the fastest route. ",
+      "original_categories": [
+        "mapping",
+        "sales",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "stock-price-scanner",
+      "description": " A mashup based on the Sick Bay Scanner from the original Star Trek. It uses the Yahoo YUI API to capture a stock price and a handful of stock ratios which it applies to the scanner. ",
+      "original_categories": [
+        "financial",
+        "stocks",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "accenttraining.net",
+      "description": " AccentTraining.net is a mashup of Twilio, Amazon Mechanical Turk and Recurly APIs to create an accent rating and training service. Create a recording and have it rated by real American residents. ",
+      "original_categories": [
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "supportfu",
+      "description": "SupportFu is a flexible, lightweight helpdesk service. Support tickets can be submitted through multiple channels and are all handled in one place. The system is easy for customers to use since they never have to log on or remember a ticket number. Everything in SupportFu updates in real time, and many common actions can be automated. The service includes analytics functions and a leaderboard for helpdesk agents. The SupportFu API provides users with programmatic access to these services, though it is currently still in alpha.",
+      "original_categories": [
+        "enterprise"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "find-pollution-map",
+      "description": " This mashup plots US Environmental Protection Agency data on a Google Map. Ability to search by location. ",
+      "original_categories": [
+        "mapping",
+        "environment"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "haslockers",
+      "description": " hasLockers is a cloud service for content locking based on hasOffers API. ",
+      "original_categories": [
+        "cloud",
+        "content"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "paris-paris",
+      "description": " A social geomapped directory of more than 5.000 points of interest. Anyone is allowed to add, remove, move or rename markers. ",
+      "original_categories": [
+        "french",
+        "mapping",
+        "french"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "evmapper",
+      "description": " Mashup of EVDB event data and Google Maps, with nice calendar browser for paging through search results. ",
+      "original_categories": [
+        "mapping",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapped-big-wheel-race",
+      "description": " A mashup of the YouTube embedded player Javascript API and Google Maps. It plots the location of the race driver as the video plays. ",
+      "original_categories": [
+        "video",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "rest-area-near-me",
+      "description": " Rest Area Near Me is a web application that provides users with a map of US rest areas with description and facilities list on every location. Users can see their position on the map, and check how far each rest stop is. ",
+      "original_categories": [
+        "mapping",
+        "travel",
+        "usa"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "healthmap",
+      "description": " Boston Children's Hospital created HealthMap, a mashup that helps to obtain information about emerging public health threats according to users' locations. Users can receive alerts of health data related to diseases infected via people, insects, and animals. This system is useful to stay updated with the current Ebola outbreak. Formal and informal sources can make predictions about the plans to eradicate diseases in the website. For now, citizens can take preventions before arranging traveling plans. HealthMap uses the integration services of ProMED Mail, World Health Organization, GeoSentinel, OIE, FAO, EuroSurveillance, Google News, Moreover, WDIN, Baidu News, and SOSO Info. Software includes applications from Google Maps, GoogleMapAPI for PHP, and Google Translate API. ",
+      "original_categories": [
+        "health",
+        "healthcare",
+        "localization",
+        "location"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "realwebstats",
+      "description": " RealWebStats is the best Real Web Stats and Website Valuation service for webmasters and website owners. ",
+      "original_categories": [
+        "seo",
+        "urls"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "batchbook",
+      "description": "BatchBook is an easy-to-use customer relationship manager (CRM) designed for small business owners. The BatchBook API is an XML REST interface for accessing your account.",
+      "original_categories": [
+        "enterprise"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "calgary-mapped",
+      "description": " Provides a comprehensive list of places in Calgary, organized by categories. Find driving directions, phone numbers, etc. You can also email Map Views to friends. ",
+      "original_categories": [
+        "canadian",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "photobucket-pics-tivo",
+      "description": " Use TiVo to display your Photobucket photos on your home television. ",
+      "original_categories": [
+        "photos",
+        "tv",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "smsmybus__api",
+      "description": "SMSMyBus provides transit arrival times to bus riders in Madison, Wisconsin. The service is unofficial, provided by a developer who wanted the data for a text-driven transit application. This unofficial API provides access to schedules, routes, locations and notifications. Developers can use the API to create Madison transit applications.Functions include finding stops near a location, providing the position of vehicles in real-time, locating specific routes, determining the next times at a stop and communicating important service bulletins.",
+      "original_categories": [
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "glosk",
+      "description": " Search any location in the world and find photos, videos, docs, map, satellite imagery and nearby places related to it. ",
+      "original_categories": [
+        "mapping",
+        "photos",
+        "travel",
+        "science"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "linkedin-rss",
+      "description": " Aggregated feed of all Linkedin RSS feeds. Mashes up RSS feed questions and website published answers. ",
+      "original_categories": [
+        "feeds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "guardian-trends",
+      "description": " Produces graphs of how often things are mentioned on guardian.co.uk. ",
+      "original_categories": [
+        "charts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "resgrid__api",
+      "description": "Resgrid is a cloud management and logistics platform built specifically for first responder teams. They offer mobile apps to track the real time status of phone responders as well as the location of units in the field. The tools are made specifically for volunteer, search and rescue, fire, and disaster response organizations. Resgrid exposes their core API so that users may integrate the Resgrid service into 3rd party applications. Developers can make GET, PUT, &amp; POST HTTP requests to input and receive JSON-formatted information regarding users, stations, settings, personnel, and general account management. HTTP Authentication is used with individual tokens for User and System.",
+      "original_categories": [
+        "collaboration"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "worlds-fastest-elevators",
+      "description": " The ten fastest elevators in the world from some of the tallest buildings in the world. Integrates YouTube videos of the buildings. ",
+      "original_categories": [
+        "trivia",
+        "mapping",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "plunker",
+      "description": "Plunker is a website and RESTful API for creating, previewing and sharing web snippets online.The editor component has some unique features, including:* Arbitrary number of files* Fast syntax hilighting and live error detection* Live preview of code* Live compilation/linting/beautification of codeThe Plunker API allows developers to access and integrate the functionality of Plunker with other applications and to create new applications. Example API methods available are creating a plunk, updating a plunk, reading a plunk, and deleting a plunk.",
+      "original_categories": [
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bevoz",
+      "description": " Access your personal phone book from any phone with a simple phone call or from a computer. A lost, stolen, uncharged or damaged cell phone doesn't mean you've lost access to your contacts. As a Bevoz member you have backup access from any phone worldwide. Simply dial the Bevoz access number and use your personalized secure PIN to access your account contacts. ",
+      "original_categories": [
+        "telephony",
+        "voice",
+        "mobile",
+        "contacts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "amtrak-train-routes",
+      "description": " This mashup displays the location of Amtrak trains in real-time. Users can click on routes to see a closer view of the travel status. ",
+      "original_categories": [
+        "mapping",
+        "travel",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "phrasr",
+      "description": " Phrasr is an interactive web based application that uses Flickr images to illustrate the phrases that users submit. You can choose every image and then publish the entire phrase, which is shown as a personal slide show. ",
+      "original_categories": [
+        "visualizations",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "last.fm-favourite-artist-news",
+      "description": " Returns an RSS feed from Google containing the latest news about your favourite artists, as listed in your Last.fm profile. ",
+      "original_categories": [
+        "music",
+        "feeds"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "vovowiki",
+      "description": " Multi-click real-time polls for real fans and real cynics ",
+      "original_categories": [
+        "polls",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "judys-book",
+      "description": " View reviews of stores, restaurants, bars and venues placed in context on a Google Map. ",
+      "original_categories": [
+        "mapping",
+        "recommendations",
+        "social",
+        "discounts"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "200-towns",
+      "description": " Perspecives of British landscape: images and text from cities and towns around Britain. ",
+      "original_categories": [
+        "mapping",
+        "reference",
+        "photos",
+        "social",
+        "england"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "hacienda.co.uk",
+      "description": " An interactive Google Maps mashup showing property for sale or for rent in the UK. With data feeds from many sources. Geocoding services are provided using non-Google datasets. ",
+      "original_categories": [
+        "mapping",
+        "england"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "union-county-nc-gis",
+      "description": "Framework that allows spatial analysis to be performed on GIS data from Union County, North Carolina, through simple HTTP requests. Methods create and execute spatial queries against a PostGIS database (spatially enabled database). Analysis results depend entirely on user input and response format preference. Sample Community Mapper application uses these services almost exclusively to perform spatial analysis and return relevant results to users.",
+      "original_categories": [
+        "government"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "actual-reports",
+      "description": "Actual Reports Designer is a web based design tool that allows users to create custom printouts and reports and bound them with data from different sources like Excel, CSV, JSON and Google Drive Spreadsheet. The tool can be used for creating product, packaging and discount labels, invoices, business cards and much more. The API lets developers integrate the platform's functionality into existing systems while allowing them to customize their printouts. The API uses RESTful calls and responses are formatted in JSON.",
+      "original_categories": [
+        "office"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapanno",
+      "description": " Allows users of flickr and 23 photo services to mash up their images into an interactive web page with the option of including Google Maps or Second Life Maps as a background. ",
+      "original_categories": [
+        "photos",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "esellerads",
+      "description": " ESellerAds - Shop anywhere, buy on Etsy. ",
+      "original_categories": [
+        "ecommerce",
+        "advertising"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "facebook-sentiment-analysis-tool",
+      "description": " This tool is written in PHP and it performs Sentiment Analysis on Facebook posts by using the Datumbox API 1.0v. ",
+      "original_categories": [
+        "sentiment",
+        "social",
+        "media",
+        "monitoring"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "worldtrip.tv",
+      "description": " Jorg Pfeiffer is on a road trip from Berlin to Southeastern Europe for the German magazine Der Spiegel. Users can post ideas on what topics to cover and places to visit. In German. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

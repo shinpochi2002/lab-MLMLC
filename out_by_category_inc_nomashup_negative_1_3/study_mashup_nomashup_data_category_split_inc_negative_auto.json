@@ -1,0 +1,135 @@
+{
+  "category": "auto",
+  "count": 12,
+  "positive_count": 3,
+  "negative_count": 9,
+  "pos_neg_ratio": "1:3",
+  "items": [
+    {
+      "mashup": "mera-caar-guide-to-car-components",
+      "description": " This uses Mera Caar API hosted on Heroku and has its specification on Programmable Web at https://www.programmableweb.com/api/mera-caar. It uses the API for the very purpose the API was created in the first place - to guide the viewer about the components present inside a generic car. ",
+      "original_categories": [
+        "auto"
+      ],
+      "used_apis": [
+        "mera-caar"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "mera-caar",
+      "description": "This API can be used for getting details about car components in a format that has been defined by the author: Kartik Shenoy. The data has been obtained from various sites. Use the API to retrieve and manage car component names, unique car components, car component codes and details.",
+      "original_categories": [
+        "auto"
+      ],
+      "used_apis": [
+        "mera-caar"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "windshieldrepair-tech-auto-glass",
+      "description": "The restful WindshieldRepair Tech Auto Glass API provides developers a way to access information about vehicle year, make, model, and body style information. Requests to the API are made using HTTP GET with an API KEY included as a GET parameter. WindshieldRepair Tech is an auto glass and windshield repair company.",
+      "original_categories": [
+        "auto"
+      ],
+      "used_apis": [
+        "windshieldrepair-tech-auto-glass"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "wookmark",
+      "description": "Wookmark is a social site for collecting and sharing images and videos. Users can organize their images with groups and follow other users for inspiration. The Wookmark Plus upgrade allows users to have private images, videos, and groups. It also enables them to upload their own images, have groups with multiple members, sync with Dropbox, and archive old groups.Wookmark's RSS API allows users to follow popular images, new images, a particular user's images, or a particular group's images. Wookmark's JSON/JSONP API allows users to access popular images, new images, images by user, images by group, images matching a color, and source images. This API also enables users to search through Wookmark's images.",
+      "original_categories": [
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-mirror",
+      "description": "The Google Mirror API allows you to build web-based services that interact with Google Glass. It provides this functionality over a cloud-based API and does not require running code on Glass.",
+      "original_categories": [
+        "cloud"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "hipoqih.com",
+      "description": " hipoqih.com is a system composed of a Web and plugin for mobile devices that allow recording warnings and URL associated to any geopoint in the planet. These warnings can be show automatically in terminals with the plugin when approaching that geopoint. ",
+      "original_categories": [
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "asiya-travels-online",
+      "description": " Asiya Travels Online offer a wide variety of online booking for domestic and international airlines, bus, rail, car, hotel packages, Esselworld and more. The Asiya Travels Online directory is an effort to bring the major ticketing agencies of India under one roof as to help the online user in making the best choice from a wide array of options. ",
+      "original_categories": [
+        "travel",
+        "indian"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-maps-api-v3-tool",
+      "description": " This is a drawing tool for polyline, polygon , polygon with holes, rectangle, circle, marker(icon), direction(route, path). This application uses the Google Maps API Version 3 (V3). It has all the features of Google Maps MyMaps and has direct access to the code for the shapes (overlays) you create. ",
+      "original_categories": [
+        "mapping",
+        "tools",
+        "drawing"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mailchimp-eventbrite-integration",
+      "description": " Integration allows MailChimp users to import Eventbrite events and send invitations ",
+      "original_categories": [
+        "marketing",
+        "email",
+        "events"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickoutr",
+      "description": " Painless sharing of your Flickr images by tag or set across Facebook &amp; Twitter. Group sharing supported and multiple accounts supported. ",
+      "original_categories": [
+        "photos",
+        "social",
+        "search",
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "iphone-public-transit-application",
+      "description": " PTDC is an application for public transportation riders. At the backend we use Public Transit Data Community API that provides us with aggregated real-time transit data from transportation agencies of District of Columbia, Virginia and Maryland. The application has three major features: - Where Am I - if you get lost in some neighborhood and don't know how to get home. This functionality is for you. It tells you what buses or metro lines is nearby your current GPS location, maps the routes on map and gives directions and arrivals for the stops. - Next Transport - It is a quick access to nearby arrivals. The list could be filtered by your favorite's stops and routes. - Trip Planer - that is a hit of the season. Build a trip from any places to any mixing transport operated by several transit providers. ",
+      "original_categories": [
+        "transportation",
+        "travel",
+        "planning",
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ifttt",
+      "description": " Using the Pushover API, IFTTT allows connections to be made between Pushover and over 109 Channels in a customized recipe that triggers notifications to be sent to your mobile device. Popular IFTTT Recipes include Box, Dailymotion, Bestbuy, Evernote, Facebook, Fitbit, Google Drive, Instagram, Linkedin, Nike, SMS, Twitter, Yahoo Sports, Yammer, and YouTube. ",
+      "original_categories": [
+        "notifications"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

@@ -1,0 +1,470 @@
+[
+    {
+        "name": "segment",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": " Segment is the web application that lets users collect, manage and route their customer analytics data. This mashup uses the Pipl API. ",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "forgerock",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The ForgeRock API enables developers to build large-scale hypermedia systems and access records, dashboards, scripts, and sessions. The API features OAuth 2.0 authentication. ForgeRock is an identity management platform designed for consumers and workforce integrations. ForgeRock offers directory services, intelligent access features, and autonomous identity capabilities.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "adobe-identity-management-services",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The Adobe Identity Management Services (IMS) API authenticates users with a token, providing an OAuth playground as an alternative option. Callbacks handle JSONP and JSON formats that display a domain's expiration date, a secure HTTP connection, and storage cache control.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "mercedes-benz-remote-diagnostic-support",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The Mercedes-Benz Remote Diagnostic Support API allows you to remotely access the diagnostic data of a connected Mercedes‑Benz vehicle and integrate it into your applications, to identify an anomaly before it becomes a problem. Remote Diagnostic Support provides access to the latest diagnostics data from connected Mercedes‑Benz vehicles, to offer customer solutions that require a vehicle diagnosis before a repair. Since the data is available remotely, the vehicle does not have to be on-site. The API provides a way to request information about which remote diagnostic functionality is available, identify ECU IDs, identify corresponding software and hardware part numbers, and includes features for; Snapshot data, Electronic Control Units, Discovery, Diagnostic Codes and more. Daimler produces premium cars and is a global manufacturer of commercial vehicles that provides financing, leasing, fleet management, insurance and innovative mobility services.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "uber-driver",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The Uber Driver API can access identity, ratings, trip details, and earnings, providing limited online access to developers interested in creating online applications. OAuth2 is available for authentication to send GET requests and receive responses in return. Test the sandbox at https://developer.uber.com/docs/drivers/guides/sandbox",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "swedish-car-registration-search",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "Swedish Car Registration Search is an API that allows users look up car number plates in Sweden. For instance, users of the application would enter a car registration plate like PBX 23, and it would return that the number plate belongs to a 2008 Ford Taurus. The API uses SOAP XML standard format (ASMX), ideal for .NET applications, but also suitable for PHP. More information about the API is available upon contacting info@openmerchantaccount.com.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "carmd-vehicle",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The CarMD Vehicle API enables users to retrieve data about automobiles via RESTful interface with JSON responses. Methods are available to return VIN Decode, OBD2 Port location, maintenance, repair, diagnostics, upcoming repairs, recalls, warranty, image, year, make, model, and engine. CarMD provides telematics solutions for the automotive aftermarket.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "norwegian-car-registration-lookup",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "Norwegian Car Registration Lookup is an API that allows users look up car number plates in the Norway. For instance, users of the application would enter a car registration plate like YE 82198, and it would return that the number plate belongs to a 2010 VW Jetta. The API uses SOAP XML standard format (ASMX), ideal for .NET applications, but also suitable for PHP. More information about the API is available upon contacting info@openmerchantaccount.com.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "vehicle-category-recognition",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "Vehicle Category Recognition API - VehicleCRA (also known as vehicles categories detection API) is a cross browsers REST API which get a JSON input with a still photo (as base64 encoded string) or an url of the image and returns a JSON string which contains predictions with certain amount of probability (filtered for output with minimum 20%), bounding boxes of detected vehicle category(ies) with its top, left, width, height values and, if required, for each prediction, a boundingBoxPhoto as base64 encoded string of the detected vehicles categories. Also it outputs a base64 encoded string photo which is the original input photo with drawned bounding boxes upon it. For one still photo the API may return multiple predictions with different probability scores of detected vehicles categories. Our pricing packages count the predictions, so for one request, multiple predictions may be counted. We filter the results of predictions so we display only the predictions with a probability score higher than 20%. Of course, there are some limitations in order to get a higher accuracy. We recommend properly exposed, unobstructed JPEG photos at 1920x1080 (full HD resolution) where target vehicles may fill an important space in the input photo as you see in the example below. We do not store pictures. Also, the quality and the angles of the camera (30 degrees for side camera) are very important and it contribute to a higher detecting accuracy. It should have varifocal lenses, high shutter speed, good infrared lighting beam, full HD resolution.Allthough this Vehicle Category Detection API (currently we do not offer a face vehicle category recognition sdk) is intended for software development and therefore developers, we have also here an vehicle category detector online application that may be used to check the input and output JSONs of the API.The necessary steps are written below, basically for this real time vehicle category detection or recognition API you send an authorized POST request in JSON format to the API endpoint and you get as JSON response the output as described below through parameters and examples.This Vehicles Categories Recognition API is useful for a large number of domains like: checking private entrances in parkings for restaurants, malls, close spaces, airports, bus stations, railway stations, traffic control for each category of vehicles etc. You own the commercial copyright of the resulted JSON with no additional fee meaning you may use it in your own apps for sale. For using our vehicle category recognition API and/or APP you must create an account (free of charge, no card required), activate it from your received email, login and then start your TRIAL package with no fees as you can see at our pricing packages. After you have tested the API and/or APP and you are satisfied, you may buy a paid package. You will always see at your Admin Console page the real resources consumption in real time, your invoices, you may see/edit/delete your profile or export log consents as GDPR instructed, you may read our FAQs.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "car-registration-pakistan",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "pk.carregistrationapi.com offers an API that can check both car information and car ownership data in Pakistan's main provinces - Punjab, Khyber and Gilgit. You provide it with the number plate of the vehicle, the state where it was registered, and you receive back data on the make and model of car, and the car's owner.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "onfido",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The Onfido API is an application for submitting identity verification requests. This RESTful API uses standard HTTP verbs with responses in JSON. Calls to the API are made over HTTPS and HTTP Basic Auth is used for authentication. Onfido offers document verification for government-issued IDs, facial biometric analysis, database cross-referencing and proof of address.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "car-registration-peru",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "This API returns vehicle information for cars registered in Peru from the number plate of the vehicle.Information returned includes the make, model, VIN number, owner and age of the vehicle. This is ideal for businesses selling car parts, car services, car insurance, or used cars in Peru.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "pingone-customers-authentication",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The PingOne for Customers Authentication API allows you to configure and run authentication workflows. It allows for configuration of OpenID Connect/OAuth 2 protocol, the SAML 2.0 authentication protocol, authentication flow actions, complete common authentication tasks, local authentication actions, multi-factor authentication actions, and more. PingOne for Customers manages authentication and authorized user access to permitted applications. It is a cloud-based service for secure identity access management. Ping Identity provides intelligent identity and security services.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "onelogin-saml",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "This API is a Security Assertion Markup Language (SAML) standard for logging users into applications based on their sessions in another context. This single sign-on (SSO) login standard has advantages over logging in using a username/password by. OneLogin is an Identity and Access Management (IAM) provider for enterprise in cloud, legacy and hybrid IT environments.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "family-watchdog-sex-offender",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "Family Watchdog API allows to integrate names and locations search of sex offenders via JSON and XML formats. Family Watchdog covers all 50 states in the United States and includes Guam, Puerto Rico and the Virgin Islands. The API is accessible with Key.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "mera-caar",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "This API can be used for getting details about car components in a format that has been defined by the author: Kartik Shenoy. The data has been obtained from various sites. Use the API to retrieve and manage car component names, unique car components, car component codes and details.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "edmunds-media",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The Edmunds Media API offers access to the photo content of a dealership inventory. Uses of the API include to get photos by tag, by style ID, by vehicle model, and by year. Formats in JSON, JSONP, and REST. Edmunds is an automotive research and review resource that provides expert advice to car buyers and owners.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "10duke-identity-provider",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "10Duke Identity Provider offers a quick to integrate customer identity management solution, allowing access to applications using a single identity. Using the same credentials user can access a variety of services the way Google offers access to all of their apps via one login.Provided on a white-label basis, this Single Sign-On facility can be extended to a variety of actors, enabling SSO for consumers as well as between organisations or applications.Features:* Standards-based, supports key standard protocols, incl. SAML 2 &amp; OAuth 2* Delegated Authentication &amp; SSO* 3rd party ID Providers can be used, incl. Facebook &amp; Google* MFA &amp; federated identity* Supports ID Provider environments such as: RHEL389 DS, Active Directory, LDAPReduces cost of customer identity &amp; credential management, strengthens security, reduces the risk of a breach via centralized authentication point, enables a single ‘view’ of the customer, provides usage data per user, improves user experience.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "whitepages-pro-reverse-address",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The Whitepages Reverse Address API provides the details about a physical location for legal entities, address type, if the address is receiving mail, the delivery point, and more. This service requires an API key to access the single endpoint that Gets data for Location and returns it in JSON format. Whitepages provides a way to find, explore and share digital identity data.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "fortellis-vehicle-specifications",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The Fortellis Vehicle Specifications API returns data to decode the VIN number of a vehicle. Developers can authenticate with OAuth2 and API Key. Fortellis is an Automotive Commerce Exchange platform.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "isle-man-vehicle-registration-data",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The Isle of Man Vehicle Registration Data API allows users to retrieve information on vehicles registered on the Isle of Man using the vehicles' number plates. Retrieved information includes a car's make, model, body style, engine size, transmission type, fuel type, and more. This API is designed for use in used car sales, car insurance, and car part services based on the Isle of Man.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "belterizer-seat-belt-wearing-detection",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "Seat Belt Wearing Detection API - Belterizer (also known as Seat Belt Wearing Recognition API or Vehicle Seat Belt Wearing Detector API) is a cross browsers REST API which get a JSON input with a still photo (as base64 encoded string), containing people seating in the car(s) with or without wearing seat belt and returns a JSON string which contains predictions of the input photo regarding the probability of a correct seat belt wearing. The recognized seat belt wearings have confidence score, timestamp, tagId, tagName. Of course, there are some limitations in order to get a higher accuracy. We recommend properly exposed, unobstructed JPEG photos at 1920x1080 (full HD resolution) where the seat belt wearing is clear and focused. If the seat belt wearing details are too small or blured, the accuracy is lower and the AI algorithm may not classify in a proper way. We do not store pictures. Also, the quality and the angles of the camera are very important and it contribute to a higher reading accuracy. It should has varifocal lenses, high shutter speed, good infrared lighting beam, full HD resolution.Allthough this Automatic Seat Belt Wearing Detection API (currently we do not offer a Seat Belt Wearing Detection sdk) is intended for software development and therefore developers, we have also here an Seat Belt Wearing Detection online application that may be used to check the input and output JSONs of the API. The necessary steps are written below, basically for this real time Seat Belt Wearing Detection API you send an authorized POST request in JSON format to the API endpoint and you get as JSON response the output as described below through parameters and examples.This Seat Belt Wearing Detection API is useful for a large number of domains like apps for: security cameras for traffic, parkings, buildings, agriculture etc. You own the commercial copyright of the resulted JSON with no additional fee meaning you may use it in your own apps for sale.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "sumsub",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The Sumsub API provides services for all onboarding and compliance challenges, including Identity verification, KYC, KYT, AML screening, and anti-fraud. API access is available to registered users.Sum And Substance provides identity verification services.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "manheim",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The Manheim API returns data of car dealerships, aiming to optimize sales. It is available with JSON objects and HTTP status codes. With the API, developers can integrate vehicle remarketing services into web applications. Manheim is an automobile auction company.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "fortellis-sales-customers",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The Fortellis Sales Customers API returns data to find, retrieve, and filter service customers in CDK Drive. Developers can also create a basic customer record. The API supports JSON format and users can authenticate with API Key and OAuth2. Fortellis is an Automotive Commerce Exchange platform.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "plateblurer-license-plate-blur",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "License Plate blur API - PlateBlurer (also known as LPTR API or ALPTR API) is a cross browsers REST API which get a JSON input with a still photo (as base64 encoded string), containing vehicles with registrations plates and returns a JSON string which contains a base64 encoded string photo with blured plate(s), confidence score, timestamp, vertices for bounding boxes of license plates.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "pingdirectory-consent",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The PingDirectory Consent API enables the collection of consent from application users, the enforcement of consent, the management of consent by users, and auditing of consent actions. The Consent API may be used as the data backend for Open Banking account requests that feature some common open banking operations including: Creating a consent record, Checking the state of an existing consent record, Retrieving localized consent prompt text and more. Ping Identity provides intelligent identity and security based services.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "mercedes-benz-connected-vehicle",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The experimental Mercedes-Benz Connected Vehicle API offers developers a preview into working with car data such as door locks, tire pressure, fuel levels, state of charge (battery level), car odometer and vehicle location. With this API you have access to important telematics data, status info and vehicle functions from virtual Mercedes-Benz cars. It allows you to experiment with individual status data including mileage to door status and the option to remotely open and close them. Daimler produces premium cars and is a global manufacturer of commercial vehicles that provides financing, leasing, fleet management, insurance and innovative mobility services.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "new-zealand-car-registration-number-lookup",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The New Zealand Car Registration Number Lookup API access information on any car registered in New Zealand. It uses the /CheckNewZealand endpoint and returns the following information: Make, Model, Engine Size, Fuel Type, Body Style, VIN number, Engine Code, Number of seats, Colour, Country of assembly, Stolen indicator, Odometer reading (last and current), Warrant of Fitness, and Import status. Available in JSON, SOAP, and XML formats with API Key.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "ekata-address-validation",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The Ekata Address Validation API validates, normalizes, and geocodes addresses from any country in the world from a single endpoint. Query parameters cover street line 1, street line 2, city, postal code, state code, and country code. Schema is application/JSON and the responses contain latitude and longitude and completeness status.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "persistent-oracle-identity-governance",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The Persistent Oracle Identity Governance API integrates identity authentication into applications using a REST endpoint. JSON format is available to implement identity audit, roles, users, and password management.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "keycloak",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The Keycloak API allows adding authentication to applications and secure services. Advanced features include user federation, identity brokering, and social login.The Keycloak Admin REST API provides authentication management, client initial access, identity providers, and protocol mappers.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "uae-car-registration",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "UAE Car Registration API aids the real-time retrieval of registration details along with technical data and functionality characteristics of vehicles bearing UAE number plates. Instead of prodding automobile sellers for vehicle descriptions, users can use the SOAP-based API to access crucial government-sourced automobile information including: model type, year of manufacture, year of registration, engine size, vehicle identification number, gross weight, displacement, and 50 other descriptive data fields. The API deploys both XML and JSON formats in the conveyance of requests and responses. Its coverage extends across all the seven emirates of the UAE comprising: Abu Dhabi, Ajman, Dubai, Fujairah, Ras Al Khaimah, Sharjah, and Umm Al Quwain.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "carscom-delta-listing",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "Cars.com's Delta Listing API provides users access to the Cars.com database of classified ad listing and listing details. Listing details includes information such as, vehicle inventory data, dealership information, and user-generated review content. This RESTful API is available only to registered business partners of Cars.com. Access can be requested by emailing APIrequest@cars.com.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "drivequant",
+        "categories": [
+            "auto"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The DriveQuant API enables trip analysis services based on vehicle dynamics and powertrain modeling. The API can be used to retrieve eco-driving indicators, safety indicators, fuel consumption information, pollutant emissions data, and speed limit scores. The DriveQuant API requires API Keys for authentication, and returns JSON formatted responses.",
+        "middlecategories": [
+            "9-5"
+        ]
+    },
+    {
+        "name": "hull",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "Hull is a platform for handling all aspects of user engagement, including identity management, user segmentation, and targeted messaging. Developers can use Hull to easily add messaging, comments, likes, votes, followers, gamification, badges, credits, and counters to their applications. It can also be used to build unified user profiles across devices, properties, platforms, and campaigns.",
+        "middlecategories": [
+            "9-5"
+        ]
+    }
+]

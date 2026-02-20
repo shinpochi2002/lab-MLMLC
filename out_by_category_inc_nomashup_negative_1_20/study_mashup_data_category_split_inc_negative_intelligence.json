@@ -1,0 +1,219 @@
+{
+  "category": "intelligence",
+  "count": 21,
+  "positive_count": 1,
+  "negative_count": 20,
+  "pos_neg_ratio": "1:20",
+  "items": [
+    {
+      "mashup": "datarella",
+      "description": "Datarella is a big data collection company based in Germany. Their Explore app accesses sensors in smartphones and wearable devices to record data like location, environment, and personal behavior. This data is then aggregated and issued in a way that respects user privacy to Datarella partners to help increase their customer data portfolio. The Datarella API provides a way that users may access these data sets to consume real time analytics from Explore app users. In addition to OAuth, the API accepts a user's Explore App login email and password for authentication.",
+      "original_categories": [
+        "intelligence"
+      ],
+      "used_apis": [
+        "datarella"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "jozomello",
+      "description": " Jozomello TV is a web page that serves Turkish,Kurdish,Arabic,Armenian and Persian music clips and videos. It uses YouTube API and selects videos order by popularity and view count. ",
+      "original_categories": [
+        "video",
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "restaurant-maniac",
+      "description": " Google Maps mashup for those wanting to discover new restaurants in a specific area. ",
+      "original_categories": [
+        "restaurants",
+        "mapping",
+        "food"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "world-bank-indicators",
+      "description": "The World Bank Indicators API provides access to almost 16,000 time series indicators, most of which are available online through tools such as Databank and the Open Data website. The API gives developers unified access to over 45 databases including World Development Indicators, International Debt Statistics, Doing Business, Human Capital Index, and Subnational Poverty. Many of the available data series go back more than 50 years.",
+      "original_categories": [
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "shout-now",
+      "description": " ShoutNow makes sharing your voice through Twitter, Facebook and phones simple and easy. Instantly share voice messages with your friends, family, teams, employees or customers. ",
+      "original_categories": [
+        "voice",
+        "social",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sms-garage-door",
+      "description": " Using an Arduino with an ethernet shield and some electronic components I built a Twilio powered garage door. It can tell if the garage door is open or closed and it can also activate the garage door opener if desired. In addition I have a program that runs every 15 minutes and checks the garage door. If it is open past 8:00, it sends my wife and I a text message. We can simply reply to close it. ",
+      "original_categories": [
+        "messaging",
+        "hardware",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "toeat.com",
+      "description": " Utilizing Google Maps + AJAX + Lots of Restaurants ",
+      "original_categories": [
+        "mapping",
+        "food"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "voicecal",
+      "description": " Using Voicecal, you have immediate access to your Google calendar just by making a phone call. ",
+      "original_categories": [
+        "calendars",
+        "business",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "zonabilitysf",
+      "description": " San Francisco zoning ordinance information on the go! This technology offers geo-location, provides interactive zoning maps, information about the code and a way to get questions answered by a City Planner. ZonabilitySF is a great way to get a handle on such an important subject. ",
+      "original_categories": [
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "boddit",
+      "description": " Offers price comparison for online deals. It aggregates deals from a variety of bargain hunting websites into a slick price comparison engine. ",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pocket",
+      "description": "Previously offered under the name Read It Later, Pocket is a service that allows users to save articles, videos and more to read or use later. The Pocket API allows for applications that interact with the Pocket service. The API can be used to build a full featured Pocket client for any platform, mashup reading list data, or allow users to save pages to their list from an application. The API can be used in both free and commercial applications.",
+      "original_categories": [
+        "bookmarks"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "sonicapicom",
+      "description": "sonicAPI.com offers an API for audio effects and music processing engines to web and application developers. Some of the API methods include accessing effects such as reverberation, time stretching, and pitch shifting, and analysis engines for the detection of tempo, loudness, and musical key. They enable developers to build services for automatic audio database tagging, for creating mash-ups of songs with different tempo and key, and for applying effects to their recordings.",
+      "original_categories": [
+        "music"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "numbers",
+      "description": "The Numbers API is a site to explore facts about numbers. Enter a number and receive a random fact, such as 15 is the number of days in each of the 24 cycles of the Chinese calendar. In addition to viewing them on the site, the Numbers API is expected to be used programmatically. Send a request to the API and it returns a plain text string. Add a callback and that string is wrapped in a JSONP callback function.In addition to simple number facts, the site also allows developers to specify math facts about numbers, as well as on this date type of functionality.",
+      "original_categories": [
+        "reference"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "antideo__api",
+      "description": "The Antideo API offers health checks that can be performed on IPs and Email adresses. These checks can be used for accepting user signups or checking orders against fraudulent indicators. Antideo updates its database regularly with the latest infected IP ranges, and proxy records. This API requires API Keys for authentication, and returns data in JSON format.",
+      "original_categories": [
+        "spam"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "trend-back-machine",
+      "description": " Search Twitter trend statistics. Search worldwide or narrow your search to one of fifteen different countries. ",
+      "original_categories": [
+        "blogging",
+        "search",
+        "reference",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "notwifications",
+      "description": " Notwilfications is a Google Chrome Extension that shows you when a call comes in and allows you to either ignore it or send it to voicemail, without ever having to pick up your phone to know who's calling. ",
+      "original_categories": [
+        "telephony",
+        "voice",
+        "plugins",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nikon-photos",
+      "description": " Search and compare Nikon DSLR photos. ",
+      "original_categories": [
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "hackerearth",
+      "description": "HackerEarth is an online programmer community that also provides an extensive list of practice problems and an in-browser code editor for testing code. The HackerEarth API allows developers to compile and run computer code in multiple languages, including C, C++, C++11, Clojure, C#, Java, JavaScript, Haskell, Perl, PHP, Python, and Ruby. The API accepts calls via POST and returns all data in JSON format.",
+      "original_categories": [
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "maas2",
+      "description": "MAAS2 is a REST API that provides the latest weather data transmitted by the Curiosity Rover on Mars. This API is built upon the REMS (Rover Environmental Monitoring Station). MAAS2 responds in JSON formatted data.",
+      "original_categories": [
+        "astronomy"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "slippymap",
+      "description": " Example of how to search by address to find points of interest in your area based on Where2GetIt that requires no javascript. ",
+      "original_categories": [
+        "mapping",
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "geo",
+      "description": " Geo presents various information from the World Bank, including projects, data, news, and center location. ",
+      "original_categories": [
+        "government",
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

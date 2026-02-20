@@ -1,0 +1,26 @@
+{
+  "category": "food",
+  "uid": "2d7a1f87",
+  "n_samples": 9,
+  "n_labels": 4,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 7.563206821680069,
+      "std_val_loss": 8.903350151443817,
+      "mean_micro_f1": 0.5733333333333333
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 7.845877575874328,
+      "std_val_loss": 10.288830325540896,
+      "mean_micro_f1": 0.6666666666666667
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 7.563206821680069,
+    "std_val_loss": 8.903350151443817,
+    "mean_micro_f1": 0.5733333333333333
+  }
+}

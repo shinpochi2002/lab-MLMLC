@@ -1,0 +1,75 @@
+{
+  "category": "language",
+  "count": 6,
+  "positive_count": 1,
+  "negative_count": 5,
+  "pos_neg_ratio": "1:5",
+  "items": [
+    {
+      "mashup": "hello-salut",
+      "description": "Hello Salut is a service that allows users to greet online visitors in their native languages. Users may choose to detect the visitor's language or IP address themselves and then call Hello Salut, or they can employ the fully automated version of the service. Hello Salut is currently in Beta, with more languages yet to be added. The project is open source and available on GitHub.",
+      "original_categories": [
+        "language"
+      ],
+      "used_apis": [
+        "hello-salut"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "voxilate-silent-auction",
+      "description": " Implements a silent auction by phone. Bidders can bid on items over the phone and are notified via text message when they are outbid. ",
+      "original_categories": [
+        "telephony",
+        "messaging",
+        "voice",
+        "auctions",
+        "charity"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "flickr-combat",
+      "description": " Compare two images and pick the winner in this HotOrNot-style voting mashup. See pairs of photos of men, women, cars, cats, dogs and more. Note: some photos not safe for work, NSFW. ",
+      "original_categories": [
+        "humor",
+        "photos",
+        "games"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "singapore-virtual-tour",
+      "description": " 360 degree panoramas from around the Republic of Singapore, linked to a Google map of Singapore. Local information about each location appears, forming a virtual tour. ",
+      "original_categories": [
+        "photos",
+        "travel",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "ckan",
+      "description": "CKAN (Comprehensive Knowledge Archive Network) is an open-source data portal platform that provides an out of the box solution for managing, transferring, and accessing data. CKAN operates under a SaaS model and was created to help data publishers make their data open and available. The CKAN platform contains a catalog system with a web interface, data visualization and analytics, workflow support, access control, data storage, and federated structure.The web service is broken down into two distinct parts: Search and Model. The Search API exposes methods for searching resources, datasets, and revisions, as well as tag counts. The Model API provides a variety of GET, POST, and PUT operations for manipulating, creating, and retrieving model resources from the platform.",
+      "original_categories": [
+        "database"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapmyrun",
+      "description": " MapMyRun is an application that allows users to track their fitness activities using the built-in GPS of their mobile phones. Users of this application can save and upload their workout data to their MapMyRun account, where they can see the information in more details. Additionally, if the city is on the map of the application, runners will be able to search for, and compare different running routes. ",
+      "original_categories": [
+        "mapping",
+        "fitness",
+        "localization"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

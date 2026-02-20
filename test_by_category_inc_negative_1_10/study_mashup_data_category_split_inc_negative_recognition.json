@@ -1,0 +1,52 @@
+{
+  "category": "recognition",
+  "count": 22,
+  "positive_count": 2,
+  "negative_count": 20,
+  "pos_neg_ratio": "1:10",
+  "items": [
+    {
+      "mashup": "spotify-mood-music",
+      "description": " This mashup (script) identifies an emotion from an image with Microsoft’s Emotion API, then recommends a musical playlist based on the emotion identified using Spotify's Public API. ",
+      "original_categories": [
+        "music"
+      ],
+      "used_apis": [
+        "microsoft-cognitive-services-emotion"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "bottlr",
+      "description": " Free PBX for SMS and phone calls with random strangers, while keeping your number and identity private. ",
+      "original_categories": [
+        "social",
+        "telephony",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "blogabond.com",
+      "description": " A travel blog where travellers can create blogs about their journeys and map their travels. ",
+      "original_categories": [
+        "mapping",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "iknowit",
+      "description": " iKnowIt! is a simple iPhone app that uses the True Knowledge direct answer service API. Just pose a question and its powerful database will search over 500 million records to give you the perfect answer. ",
+      "original_categories": [
+        "search",
+        "reference",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "category": "images",
+  "count": 32,
+  "positive_count": 2,
+  "negative_count": 30,
+  "pos_neg_ratio": "1:15",
+  "items": [
+    {
+      "mashup": "pixaquote",
+      "description": " Pixaquote is a mobile app which allows you to discover thousands of great quotes and embed those quotes in photos to design your own unique images! You can use photos from your own device or search a vast online database of high-quality royalty free photos to use in your creation. Share your favorite quotes and your creations via email, text, or social media. ",
+      "original_categories": [
+        "entertainment",
+        "humor",
+        "images",
+        "mobile"
+      ],
+      "used_apis": [
+        "pixabay-free-images"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "pixabay-free-images",
+      "description": "Pixabay is a website where users can browse through and download high quality photos, vector graphics and art illustrations that are all license free. Pixabay hosts a RESTful API interface for querying and retrieving these CC0 public domain images from Pixabay's directory of over 260,000 photos. The API can be accessed via HTTP address, and returns in JSON unicode. The API is limited to a maximum of 300 search results per query, and requires an API key for access.",
+      "original_categories": [
+        "images"
+      ],
+      "used_apis": [
+        "pixabay-free-images"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "cubesensors-app",
+      "description": " CubeSensors are devices that contain seven different sensors for detecting air quality, temperature, humidity, noise, light, barometric pressure, and sensor motion in indoor environments. The CubeSensors App allows users to get alerts and recommendations regarding sensor data on their mobile devices. The app is optimized to look good on smartphones, tablets, and web browsers. ",
+      "original_categories": [
+        "hardware",
+        "health"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "custom-igoogle-skins-v2",
+      "description": " This new version of the skins gadget integrates Flickr and iGoogle to being you random images from a user specified Flickr group. ",
+      "original_categories": [
+        "photos",
+        "widgets"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "netto-mobile-app",
+      "description": " Netto is a Danish discount supermarket operating in Denmark, Germany, Poland, and Sweden. This mobile app utilizes several Dansk Supermarked APIs. The app contains: - Offers from the Net newspaper (Net newspaper) - Price Check - Use the scanner in the app to scan an item's barcode and get the price in your local Net. - Quick shopping list with bidding match (Purchase list) - The network app usually suggests purchased items and recalls what you buy. It also shows you when your items are on offer in the offer. - Sharing of your shopping list with family or friends, if you have written your shopping list on your tablet, you can also send the shopping list to your phone. - The ability to put your shopping list on your Apple Watch - Find stores and hours (Find Net). ",
+      "original_categories": [
+        "grocery",
+        "discounts",
+        "food",
+        "location",
+        "mobile"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "happytwitter",
+      "description": " This service displays contributed messages and contributor images from Twitter. It is possible to search by keyword, such as happy, sad, or interesting. ",
+      "original_categories": [
+        "messaging",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "boomtrek",
+      "description": " Local search resource for travellers. Enter your location and type of business or address. Covers wide variety of locations. ",
+      "original_categories": [
+        "mapping",
+        "travel",
+        "search"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "3arabtv-clips",
+      "description": " Wide collection of Arabic media including TV, radio, movies and clips. ",
+      "original_categories": [
+        "media",
+        "video"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "everyblock-classroom-fundraisers",
+      "description": " If you enjoy using EveryBlock to follow neighborhood news and connect with neighbors in 16 U.S. cities, you can also see local classroom needs! EveryBlock subscribers will see local classroom projects on their EveryBlock homepage and in e-mails, and theyâ€™ll be updated when a teacher in their area has posted a new project. ",
+      "original_categories": [
+        "charity",
+        "education",
+        "localization"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "political-turkeys-year",
+      "description": " A look at Political Turkeys as reported by CNN. ",
+      "original_categories": [
+        "government",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "oipa-openaid-iati",
+      "description": "OIPA extracts all published IATI XML files from the IATI Registry and stores them in a PostgreSQL database, that you can access using a RESTful API.",
+      "original_categories": [
+        "data-as-a-service"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "friendlocator",
+      "description": " iPhone Web App to locate your Facebook friends on a Google map. ",
+      "original_categories": [
+        "social",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mashery",
+      "description": " On-demand service offering management infrastructure and community building tools for API providers. Uses the Amazon S3 and EC2 APIs as part of their infrastructure. ",
+      "original_categories": [
+        "storage",
+        "hosting",
+        "mashups"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "wiserearth",
+      "description": "WiserEarth is a free online community space connecting people working toward a just and sustainable world. WiserEarth includes the largest international directory of NGOs (110,000 records). Organizations and communities worldwide are using WiserEarth groups to coordinate their efforts. The API offers access to organizations (except email addresses), solutions, groups (only the About Page metadata), resources, jobs, and events. Currently only Read access is available. Inquire about Write access.",
+      "original_categories": [
+        "other"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "getsentiment",
+      "description": "The GetSentiment REST API allows developers to access and integrate the functionality of GetSentiment with other applications. Some example API methods include retrieving customer feedback analysis, managing customer relationships, and retrieving social media analysis and marketing research. The API performs keyword extraction, topical categorization and aspect-based sentiment analysis of text. The API can be customized by the user via a self-service interface, to suit specifics of the industry, project and use cases. GetSentiment is a text analysis tool that provides brands and companies insight into customer feedback.",
+      "original_categories": [
+        "sentiment"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "google-yahoo-traffic-weather-maps",
+      "description": " Yahoo traffic data mapped on Google Maps. Includes weather from worldweather.org. ",
+      "original_categories": [
+        "transportation",
+        "mapping",
+        "weather"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "real-estate-spain",
+      "description": " Search real estate in Valencia, Spain. The agency specializes in investment real estate and management. ",
+      "original_categories": [
+        "spanish",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "unfluence",
+      "description": " Winner of the Sunlight Foundation Mashup Congress Contest. Get more insight into the truth of campaign finance with this interactive network maps of state level political contribution data. ",
+      "original_categories": [
+        "government",
+        "government",
+        "financial"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "alexa-skill-management",
+      "description": "The Alexa Skill Management API provides RESTful HTTP interfaces for programmatically performing Alexa skill management tasks like creating a new skill or updating an interaction model. The API authenticates the caller through the Login with Amazon and allows developers to build tools or services that can create and update Alexa skills on behalf of their users. Developers can programmatically manage and test their skills with the Alexa Skill Management API (SMAPI) tool builders to manage and test Alexa skills and related resources such as interaction models. Alexa provides a way to create, update and test your Alexa skills from the command line interface and build voice experiences for your services and devices. Alexa is the voice service that powers Echo and provides a set of built-in abilities, or skills, that enable customers to interact with devices in a more intuitive way using voice commands. Amazon.com, Inc., is an American electronic commerce and cloud computing company that is one of the largest Internet-based retailer in the world by total sales and market capitalization.",
+      "original_categories": [
+        "tools"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "spatialepidemiology",
+      "description": " Providing mapping tools for the global epidemiology of infectious disease. Datasets are available to interrogate geographically allowing researchers to investigate the epidemiology, evolution and population biology of human and animal pathogens. ",
+      "original_categories": [
+        "medical",
+        "genetics",
+        "mapping",
+        "science",
+        "medicine"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "map-sex-offenders",
+      "description": " National sex offender registry. ",
+      "original_categories": [
+        "mapping",
+        "crime"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "pushover-message",
+      "description": "Pushover Message is a service for sending real-time notifications to Android and iOS devices. A simple REST API allows users to send messages to Pushover from their applications. Those messages are then sent to devices running Pushover's device clients. This service has no monthly fees or message limits.",
+      "original_categories": [
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "car2go",
+      "description": "car2go is a point to point car sharing service available in Miami and Austin with flexible credits and rental rates. It has the advantage of promoting personal mobility and extending the reach of public transportation for the individual who chooses to forgo owning a car.The car2go API will provide up-to-date information on which vehicles are available, places to park, and local gas stations. There are protected functions for developers who register. Applications can be written to manage short term user bookings. Limited commercial applications may be obtained.",
+      "original_categories": [
+        "transportation"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "podcast-over-phone",
+      "description": " The Podcast over the Phone mashup allows you to Call a phone number, and listen to Mr Brownâ€™s podcast over the phone. ",
+      "original_categories": [
+        "voip",
+        "telephony"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "instapopular",
+      "description": " Displays currently 'popular' photos from Instagram. ",
+      "original_categories": [
+        "photos",
+        "social",
+        "visualizations"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mapcancer.org",
+      "description": " Interactive Map of Cancer Rates in New York and nationwide in the US. ",
+      "original_categories": [
+        "health",
+        "usa",
+        "mapping",
+        "mapping"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "torino-2006-olympics-venues",
+      "description": " See locations of the venues for the 2006 events with good links to details from the official Olympics site. From Remo Madella. ",
+      "original_categories": [
+        "sports",
+        "mapping",
+        "italian"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "domain",
+      "description": "A collection of web services from EuroDNS S.A. that aggregate functions for domain lookup, data reporting, and transactions across the domain name industry. Gives access to data collected from whois providers, domain registries, and domain availability check services along with major aftermarket data providers.The services available include availability and whois lookup by both domain name and IP, along with registry information and domain profile information such as value appraisal and secondary market offerings. Whois information available includes registration history for the domain.",
+      "original_categories": [
+        "domains"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "retailmenotcom-community-ideas",
+      "description": "The RetailMeNot.com Community Ideas API provides methods for obtaining data from this site for using in mashups and other consumable formats. Retail Me Not is a website that provides links to, and information about online coupons, coupon codes and discounts for a variety of retailers. The API uses RESTful protocol and responses are formatted in JSON.",
+      "original_categories": [
+        "ecommerce"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "momingle",
+      "description": " Post location-based messages on a map. Post to mingle, rant or rave. You can post to find someone to have a drink, play golf or watch movies with. You can post to recycle or sell your old stuff or find a job. ",
+      "original_categories": [
+        "localization",
+        "mapping",
+        "messaging"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "fanbible",
+      "description": " Fanbible is a live music event guide that works on android, iPhone, iPad and desktop browsers. The application automatically detects a user's location and presents them with relevant information about live music events in their specific area, as well as links to more information about the shows and how to purchase tickets. ",
+      "original_categories": [
+        "events",
+        "music",
+        "mapping",
+        "engagement"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "my-top-tweet",
+      "description": " Analyzes any Twitter account to show you the top 10 most retweeted tweets. The results are based on the past 3200 tweets by the account. Try searching for @justinbieber, @ladygaga, @CNN, anyone! Have fun! ",
+      "original_categories": [
+        "social",
+        "analytics",
+        "humor"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

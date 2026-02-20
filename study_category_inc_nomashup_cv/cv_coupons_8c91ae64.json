@@ -1,0 +1,26 @@
+{
+  "category": "coupons",
+  "uid": "8c91ae64",
+  "n_samples": 4,
+  "n_labels": 2,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 1.0365908108651638,
+      "std_val_loss": 0.46682766771398476,
+      "mean_micro_f1": 0.25
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 1.1682898849248886,
+      "std_val_loss": 0.35191004201847725,
+      "mean_micro_f1": 0.25
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 1.0365908108651638,
+    "std_val_loss": 0.46682766771398476,
+    "mean_micro_f1": 0.25
+  }
+}

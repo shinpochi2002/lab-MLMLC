@@ -1,0 +1,26 @@
+{
+  "category": "accounting",
+  "uid": "09192bfc",
+  "n_samples": 3,
+  "n_labels": 2,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 18.890823284784954,
+      "std_val_loss": 25.684626005249033,
+      "mean_micro_f1": 0.4444444444444444
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 23.625524361928303,
+      "std_val_loss": 32.02817923567137,
+      "mean_micro_f1": 0.0
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 18.890823284784954,
+    "std_val_loss": 25.684626005249033,
+    "mean_micro_f1": 0.4444444444444444
+  }
+}

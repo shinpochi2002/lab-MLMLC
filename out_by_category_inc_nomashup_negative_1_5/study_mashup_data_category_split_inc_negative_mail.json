@@ -1,0 +1,141 @@
+{
+  "category": "mail",
+  "count": 12,
+  "positive_count": 2,
+  "negative_count": 10,
+  "pos_neg_ratio": "1:5",
+  "items": [
+    {
+      "mashup": "flex-mail",
+      "description": " Flex Mail is a web application that provides address hygiene (CASS, NCOA, De-duplication) and postal sorting for bulk mailing through the USPS as a seamless embedded function. This application uses the TEC Mailing API. ",
+      "original_categories": [
+        "mail",
+        "data",
+        "marketing"
+      ],
+      "used_apis": [
+        "tec-mailing"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "tec-mailing",
+      "description": "The service provides data verification and email preparation, validating address list entries and formats. It cleans mailing list entries to optimize successful deliveries for promotional campaigns, hosted customer-relationship management (CRM) communications, and direct mail deliveries.API methods support submission of mailing lists of recipient addresses and related information. Methods return deduped lists, purged of improperly formatted addresses, and corrected for the most effective possible delivery results.",
+      "original_categories": [
+        "mail"
+      ],
+      "used_apis": [
+        "tec-mailing"
+      ],
+      "label": 1
+    },
+    {
+      "mashup": "imaginalaxy",
+      "description": " Photo sharing an enormous 2-d surface. GoogleMaps-style navigation. Place, arrange, rotate, re-size images to form photo collages. Edit images in real-time with friends. Share to Facebook, Myspace, and other services. ",
+      "original_categories": [
+        "mapping",
+        "social",
+        "photos",
+        "social"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "world-news-tv",
+      "description": " World news streaming TV mashup with Google Maps. Watch live world news TV from various TV channels like CNN, BBC, Sky News, ABC News Now, CCTV-9 China, Iran PressTV, France24, CNN IBN India, and Russia Today. Windows Media player required. ",
+      "original_categories": [
+        "video",
+        "tv",
+        "streaming"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "nearbyjobs",
+      "description": " Realtime jobs, errands and favors posting via SMS, voicemail, web and Twilio Client. ",
+      "original_categories": [
+        "reference",
+        "telephony",
+        "mobile",
+        "jobs"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "getoutcast",
+      "description": " GetOutCast provides users with a customized forecast for the photographic potential for any location in the U.S. GetOutCast uses a mashup of atmospheric and weather data to analyze and get the most probable result. It helps photographers to determine when and where to capture their images. ",
+      "original_categories": [
+        "photos",
+        "astronomy",
+        "travel",
+        "weather"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "digitalbucket.net",
+      "description": " DigitalBucket.net provides a web interface that can be used to store and retrieve data, at any time, from anywhere on the web. It uses Amazon S3 to create a remote data storage platform. ",
+      "original_categories": [
+        "storage"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "galileo",
+      "description": "The Galileo API is an analytics platform for APIs, Microservices and Serverless Software. It uses real-time logging to view actual request and response logs as they come in. View a line by line diff between multiple requests response status codes, headers and bodies to spot changes and potential errors.",
+      "original_categories": [
+        "analytics"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "mandrill",
+      "description": "Mandrill is an email application and email template service hosted by MailChimp. The Mandrill API allows developers to access and integrate the functionality of Mandrill with other applications and to create new applications. Some example API methods include managing account and user information, retrieving and sending messages, and sending templates.",
+      "original_categories": [
+        "email"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "current-weather",
+      "description": " A geolocation-aware mashup that shows current weather forecast along with recent social media feeds from Twitter, Flickr and Youtube. ",
+      "original_categories": [
+        "mapping",
+        "weather",
+        "mapping",
+        "photos"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "bing-traffic",
+      "description": "The Bing Traffic API provides information about traffic incidents and issues, such as construction sites and traffic congestion. Traffic incident information is currently available for the United States and Canada. Users can also get information about traffic issues that met the criteria specified in the URL request, such as map area, incident type and severity. The API uses RESTful calls and responses are formatted in XML and JSON.",
+      "original_categories": [
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    },
+    {
+      "mashup": "gpsies.com",
+      "description": " At GPSies.com, you can view and download tracks that have been recorded by a GPS device. Search for running, hiking, and biking routes. You can download all of the tracks. ",
+      "original_categories": [
+        "sports",
+        "mapping",
+        "mapping",
+        "sports",
+        "travel"
+      ],
+      "used_apis": [],
+      "label": 0
+    }
+  ]
+}

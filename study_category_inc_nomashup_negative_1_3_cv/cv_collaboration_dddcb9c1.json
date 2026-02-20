@@ -1,0 +1,26 @@
+{
+  "category": "collaboration",
+  "uid": "dddcb9c1",
+  "n_samples": 4,
+  "n_labels": 2,
+  "results": [
+    {
+      "lr": 2e-05,
+      "mean_val_loss": 0.2826933469623327,
+      "std_val_loss": 0.23532511481521537,
+      "mean_micro_f1": 1.0
+    },
+    {
+      "lr": 3e-05,
+      "mean_val_loss": 0.6129759210161865,
+      "std_val_loss": 0.6105585016732161,
+      "mean_micro_f1": 0.75
+    }
+  ],
+  "selected": {
+    "lr": 2e-05,
+    "mean_val_loss": 0.2826933469623327,
+    "std_val_loss": 0.23532511481521537,
+    "mean_micro_f1": 1.0
+  }
+}
