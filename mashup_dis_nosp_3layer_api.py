@@ -8,24 +8,104 @@ import pytorch_lightning as pl
 import os
 import csv
 import json
+import glob
+
+target = "16_4_3"
+_tokens = target.replace("-", "_").split("_")
+layer1_category_num = _tokens[0]
 
 
-EVALUATION_DATA_PATH = '/home/nakagawa/test_data_mashup_apis.json'
+def resolve_default_eval_path(target_name: str) -> str:
+    base = "/home/nakagawa/lab-MLMLC/codex/output/by_pattern"
+    t_dash = target_name.replace("_", "-")
+    t_us = target_name.replace("-", "_")
+    layer_tag = "layer3_" + t_us
+    aliases = [target_name, t_dash, t_us]
+    # Existing folder aliases in this repo
+    if t_us == "16_4_3":
+        aliases.append("16cluster")
+    if t_us == "4_4_8":
+        aliases.append("4cluster")
+    if t_us == "8_4_4":
+        aliases.append("8cluster")
+
+    # Global search by model-layer tag first.
+    global_candidates = sorted(glob.glob(f"{base}/*/test_data_mashup_apis_with_hierarchy_{layer_tag}_drop_unknown_samples.json"))
+    if global_candidates:
+        return global_candidates[0]
+    global_known = sorted(glob.glob(f"{base}/*/test_data_mashup_apis_with_hierarchy_{layer_tag}_known_only.json"))
+    if global_known:
+        return global_known[0]
+
+    seen = set()
+    for a in aliases:
+        d = f"{base}/{a}"
+        if d in seen or not os.path.isdir(d):
+            continue
+        seen.add(d)
+        candidates = [
+            f"{d}/test_data_mashup_apis_with_hierarchy_{layer_tag}_drop_unknown_samples.json",
+            f"{d}/test_data_mashup_apis_with_hierarchy_{layer_tag}_known_only.json",
+            f"{d}/test_data_mashup_apis_with_hierarchy_{a}_drop_unknown_samples.json",
+            f"{d}/test_data_mashup_apis_with_hierarchy_{a}_known_only.json",
+        ]
+        for p in candidates:
+            if os.path.exists(p):
+                return p
+        drops = sorted(glob.glob(f"{d}/test_data_mashup_apis_with_hierarchy_*_drop_unknown_samples.json"))
+        if drops:
+            return drops[0]
+
+    return "/home/nakagawa/lab-MLMLC/test_data_mashup_apis.json"
+
+
+EVALUATION_DATA_PATH = os.getenv("EVALUATION_DATA_PATH", resolve_default_eval_path(target))
 
 # Load evaluation data from 'mashup_data_new_test_data.json'
 with open(EVALUATION_DATA_PATH, 'r', encoding='utf-8') as f:
     mashup_data = json.load(f)
 
-# Extract evaluation texts and labels from mashup_data_new_test_data.json
 evaluation_texts = []
 evaluation_labels = []
+evaluation_layer1_labels = []
+evaluation_layer2_labels = []
+evaluation_layer3_labels = []
+_layer3_label_fix_warned = False
 
-# Extract categories and descriptions for evaluation
-for api_name,api_info in mashup_data.items():
-    description = api_info[1]  # Extract description as the text
-    used_api = api_info[2]
+
+def parse_eval_entry(api_info):
+    global _layer3_label_fix_warned
+    if isinstance(api_info, dict):
+        categories = [str(x) for x in api_info.get("categories", [])]
+        gt_layer3 = [str(x) for x in api_info.get("gt_layer3", [])]
+        # Old test-data variants sometimes store layer3 as path-like IDs (e.g. "5-1-0").
+        # For 3-layer evaluation, layer3 ground truth should be leaf category names.
+        if categories and (not gt_layer3 or any("-" in v for v in gt_layer3)):
+            if not _layer3_label_fix_warned:
+                logging.warning("gt_layer3 appears to be ID-style. Falling back to categories for layer3 evaluation.")
+                _layer3_label_fix_warned = True
+            gt_layer3 = categories
+        return (
+            str(api_info.get("description", "")),
+            [str(x) for x in api_info.get("apis", [])],
+            [str(x) for x in api_info.get("gt_layer1", [])],
+            [str(x) for x in api_info.get("gt_layer2", [])],
+            gt_layer3,
+        )
+    if isinstance(api_info, list):
+        desc = str(api_info[1]) if len(api_info) > 1 else ""
+        apis = [str(x) for x in api_info[2]] if len(api_info) > 2 and isinstance(api_info[2], list) else []
+        return desc, apis, [], [], []
+    return "", [], [], [], []
+
+
+for _, api_info in mashup_data.items():
+    description, used_api, gt_l1, gt_l2, gt_l3 = parse_eval_entry(api_info)
     evaluation_texts.append(description)
     evaluation_labels.append(used_api)
+    evaluation_layer1_labels.append(gt_l1)
+    evaluation_layer2_labels.append(gt_l2)
+    evaluation_layer3_labels.append(gt_l3)
 
 
 # Define the BERT model for multilabel classification
@@ -127,6 +207,18 @@ def calculate_metrics(true_set, predicted_set):
     print(f"False Positive: {false_positive}, False Negative: {false_negative}")
     return precision, recall, f_score, false_positive, false_negative
 
+
+def calculate_metrics_silent(true_set, predicted_set):
+    true_set = set(true_set)
+    predicted_set = set(predicted_set)
+    tp = len(true_set.intersection(predicted_set))
+    fp = len(predicted_set - true_set)
+    fn = len(true_set - predicted_set)
+    precision = tp / len(predicted_set) if predicted_set else 0
+    recall = tp / len(true_set) if true_set else 0
+    f_score = (2 * precision * recall) / (precision + recall) if (precision + recall) else 0
+    return precision, recall, f_score
+
 def average_metrics(metrics_list):
     
     """
@@ -201,23 +293,28 @@ def per_label_metrics(true_labels_list, pred_labels_list, all_labels):
 
 
 
-model_name = "/home/nakagawa/models/bert-base-uncased/"
+model_name = "/home/nakagawa/lab-MLMLC/models/bert-base-uncased/"
 tokenizer = BertTokenizer.from_pretrained(model_name)
-target = "12_6_2"
-layer1_category_num = "12"
 
 def main2():
     # CSV 出力先
-    out_csv_path = f"csvs/layer3_{target}_results.csv"
+    out_csv_path = f"lab-MLMLC/csvs/layer3_{target}_results.csv"
     os.makedirs(os.path.dirname(out_csv_path) or ".", exist_ok=True)
 
     # 追加：CSVヘッダ
-    fieldnames = ["idx","text", "inference_process", "pred_apis", "true_apis", "precision", "recall", "f1"]
+    fieldnames = [
+        "idx", "text",
+        "true_layer1", "pred_layer1", "layer1_precision", "layer1_recall", "layer1_f1",
+        "true_layer2", "pred_layer2", "layer2_precision", "layer2_recall", "layer2_f1",
+        "true_layer3", "pred_layer3", "layer3_precision", "layer3_recall", "layer3_f1",
+        "inference_process", "pred_apis", "true_apis", "precision", "recall", "f1"
+    ]
 
     metricslist = []
     true_labels_list = []
     pred_labels_list = []
 
+    layer_metrics_list = []
     with open(out_csv_path, "w", newline="", encoding="utf-8") as wf:
         writer = csv.DictWriter(wf, 
                                 fieldnames=fieldnames,
@@ -229,6 +326,9 @@ def main2():
 
         for idx, text in enumerate(evaluation_texts):
             allapirec = []
+            pred_layer1 = set()
+            pred_layer2 = set()
+            pred_layer3 = set()
 
             # 追加：推論過程を貯める入れ物（JSONで保存する前提）
             inference_process = {
@@ -242,8 +342,8 @@ def main2():
             print(text[:100])
 
             # --- layer1 ---
-            layer1_model_path   = f"/home/nakagawa/layer3_{target}/mashup_softfill_api_all_layer3_{layer1_category_num}_model_weights.pth"
-            layer1_apilist_path = f"/home/nakagawa/api_category_list/layer3_{target}/softfill_inc_categorylist_layer3_{layer1_category_num}.json"
+            layer1_model_path   = f"/home/nakagawa/lab-MLMLC/layer3_{target}/mashup_softfill_api_all_layer3_{layer1_category_num}_model_weights.pth"
+            layer1_apilist_path = f"/home/nakagawa/lab-MLMLC/api_category_list/layer3_{target}/softfill_inc_categorylist_layer3_{layer1_category_num}.json"
             try:
                 with open(layer1_apilist_path, "r", encoding="utf-8") as f:
                     layer1_apilist = json.load(f)
@@ -269,6 +369,7 @@ def main2():
                 tokenizer=tokenizer,
                 index_to_category=layer1_index_to_category,
             )
+            pred_layer1.update(str(cat) for cat, _ in layer1_results)
 
             # 追加：layer1推論過程を記録
             # layer1_results は [(cat, score), ...] を想定
@@ -276,8 +377,8 @@ def main2():
 
             for l1_cat, l1_val in layer1_results:
                 # --- layer2 ---
-                layer2_model_path   = f"/home/nakagawa/layer3_{target}/mashup_softfill_api_all_layer3_{layer1_category_num}_{l1_cat}_model_weights.pth"
-                layer2_apilist_path = f"/home/nakagawa/api_category_list/layer3_{target}/softfill_inc_categorylist_layer3_{layer1_category_num}_{l1_cat}.json"
+                layer2_model_path   = f"/home/nakagawa/lab-MLMLC/layer3_{target}/mashup_softfill_api_all_layer3_{layer1_category_num}_{l1_cat}_model_weights.pth"
+                layer2_apilist_path = f"/home/nakagawa/lab-MLMLC/api_category_list/layer3_{target}/softfill_inc_categorylist_layer3_{layer1_category_num}_{l1_cat}.json"
                 try:
                     with open(layer2_apilist_path, "r", encoding="utf-8") as f:
                         layer2_apilist = json.load(f)
@@ -303,6 +404,7 @@ def main2():
                     tokenizer=tokenizer,
                     index_to_category=layer2_index_to_category,
                 )
+                pred_layer2.update(str(cat) for cat, _ in layer2_results)
 
                 # 追加：layer2推論過程を記録（l1_cat ごと）
                 inference_process["layer2"].append({"l1": l1_cat, "results": layer2_results})
@@ -311,8 +413,8 @@ def main2():
                     l2_cat_norm = l2_cat.replace("-", "_")
 
                     # --- layer3 ---
-                    layer3_model_path   = f"/home/nakagawa/layer3_{target}/mashup_softfill_api_all_layer3_{layer1_category_num}_{l1_cat}_{l2_cat_norm}_model_weights.pth"
-                    layer3_apilist_path = f"/home/nakagawa/api_category_list/layer3_{target}/softfill_inc_categorylist_layer3_{layer1_category_num}_{l1_cat}_{l2_cat_norm}.json"
+                    layer3_model_path   = f"/home/nakagawa/lab-MLMLC/layer3_{target}/mashup_softfill_api_all_layer3_{layer1_category_num}_{l1_cat}_{l2_cat_norm}_model_weights.pth"
+                    layer3_apilist_path = f"/home/nakagawa/lab-MLMLC/api_category_list/layer3_{target}/softfill_inc_categorylist_layer3_{layer1_category_num}_{l1_cat}_{l2_cat_norm}.json"
                     try:
                         with open(layer3_apilist_path, "r", encoding="utf-8") as f:
                             layer3_apilist = json.load(f)
@@ -338,6 +440,7 @@ def main2():
                         tokenizer=tokenizer,
                         index_to_category=layer3_index_to_category,
                     )
+                    pred_layer3.update(str(cat) for cat, _ in layer3_results)
 
                     # 追加：layer3推論過程を記録（l1,l2 ごと）
                     inference_process["layer3"].append({"l1": l1_cat, "l2": l2_cat, "results": layer3_results})
@@ -345,8 +448,8 @@ def main2():
                     for cat, _score in layer3_results:
                         print(cat + "のAPI推薦")
 
-                        model_path   = f"/home/nakagawa/study_category_inc_nomashup_model_new_kfold/bert_multilabel_{cat}_model_weights.pth"
-                        apilist_path = f"/home/nakagawa/api_category_list/category_inc_nomashup_new_kfold/{cat}_api_labels.json"
+                        model_path   = f"/home/nakagawa/lab-MLMLC/study_category_inc_nomashup_model_new_kfold/bert_multilabel_{cat}_model_weights.pth"
+                        apilist_path = f"/home/nakagawa/lab-MLMLC/api_category_list/category_inc_nomashup_new_kfold/{cat}_api_labels.json"
 
                         try:
                             with open(apilist_path, "r", encoding="utf-8") as f:
@@ -383,6 +486,10 @@ def main2():
             # ここで1テキスト分の評価
             true_apis = evaluation_labels[idx]
             precision, recall, f1, fp, fn = calculate_metrics(true_apis, allapirec)
+            l1_p, l1_r, l1_f = calculate_metrics_silent(evaluation_layer1_labels[idx], pred_layer1)
+            l2_p, l2_r, l2_f = calculate_metrics_silent(evaluation_layer2_labels[idx], pred_layer2)
+            l3_p, l3_r, l3_f = calculate_metrics_silent(evaluation_layer3_labels[idx], pred_layer3)
+            layer_metrics_list.append((l1_p, l1_r, l1_f, l2_p, l2_r, l2_f, l3_p, l3_r, l3_f))
 
             metricslist.append((precision, recall, f1, fp, fn))
             true_labels_list.append(true_apis)
@@ -392,6 +499,21 @@ def main2():
             writer.writerow({
                 "idx": idx,
                 "text": text,
+                "true_layer1": json.dumps(evaluation_layer1_labels[idx], ensure_ascii=False),
+                "pred_layer1": json.dumps(sorted(pred_layer1), ensure_ascii=False),
+                "layer1_precision": l1_p,
+                "layer1_recall": l1_r,
+                "layer1_f1": l1_f,
+                "true_layer2": json.dumps(evaluation_layer2_labels[idx], ensure_ascii=False),
+                "pred_layer2": json.dumps(sorted(pred_layer2), ensure_ascii=False),
+                "layer2_precision": l2_p,
+                "layer2_recall": l2_r,
+                "layer2_f1": l2_f,
+                "true_layer3": json.dumps(evaluation_layer3_labels[idx], ensure_ascii=False),
+                "pred_layer3": json.dumps(sorted(pred_layer3), ensure_ascii=False),
+                "layer3_precision": l3_p,
+                "layer3_recall": l3_r,
+                "layer3_f1": l3_f,
                 "inference_process": json.dumps(inference_process, ensure_ascii=False),
                 "pred_apis": json.dumps(allapirec, ensure_ascii=False),
                 "true_apis": json.dumps(true_apis, ensure_ascii=False),
@@ -408,6 +530,20 @@ def main2():
         print(label, m)
     print("ラベルごと平均")
     print(average_label_metrics)
+    if layer_metrics_list:
+        l1p = sum(x[0] for x in layer_metrics_list) / len(layer_metrics_list)
+        l1r = sum(x[1] for x in layer_metrics_list) / len(layer_metrics_list)
+        l1f = sum(x[2] for x in layer_metrics_list) / len(layer_metrics_list)
+        l2p = sum(x[3] for x in layer_metrics_list) / len(layer_metrics_list)
+        l2r = sum(x[4] for x in layer_metrics_list) / len(layer_metrics_list)
+        l2f = sum(x[5] for x in layer_metrics_list) / len(layer_metrics_list)
+        l3p = sum(x[6] for x in layer_metrics_list) / len(layer_metrics_list)
+        l3r = sum(x[7] for x in layer_metrics_list) / len(layer_metrics_list)
+        l3f = sum(x[8] for x in layer_metrics_list) / len(layer_metrics_list)
+        print("[Layer Metrics Avg]")
+        print(f"layer1 -> P:{l1p:.4f} R:{l1r:.4f} F1:{l1f:.4f}")
+        print(f"layer2 -> P:{l2p:.4f} R:{l2r:.4f} F1:{l2f:.4f}")
+        print(f"layer3 -> P:{l3p:.4f} R:{l3r:.4f} F1:{l3f:.4f}")
 
     print(f"[OK] saved: {out_csv_path}")
 

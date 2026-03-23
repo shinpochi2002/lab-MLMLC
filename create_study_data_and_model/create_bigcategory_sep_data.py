@@ -1,8 +1,8 @@
 import json
 from collections import defaultdict
 
-# すでに bigcategory が付与された JSON ファイルを読み込む
-with open("/home/nakagawa/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_3layer_12a6a2.json", "r", encoding="utf-8") as f:
+# すでに midcategory が付与された JSON ファイルを読み込む
+with open("/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/split/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_4layer_8_3_2_3_inc_mid.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # bigcategory ごとに分類
@@ -16,7 +16,7 @@ for item in data:
 
 # 各 bigcategory ごとにファイル出力
 for bigcat, items in grouped.items():
-    filename = f"/home/nakagawa/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_3layer_12a6a2_{bigcat}.json"
+    filename = f"/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/split/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_4layer_8_3_2_3_{bigcat}.json"
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(items, f, indent=2, ensure_ascii=False)
     print(f"{filename} を出力しました（{len(items)} 件）")

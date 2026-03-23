@@ -3,37 +3,32 @@ import os
 import torch
 import pytorch_lightning as pl
 from torch.utils.data import DataLoader, Dataset
-from transformers import BertTokenizer, BertModel, AdamW
+from transformers import BertTokenizerFast, BertModel, AdamW
 from pytorch_lightning.callbacks import EarlyStopping
 
 
 class TextDataset(Dataset):
     def __init__(self, texts, labels, tokenizer, max_length=512):
-        self.texts = texts
-        self.labels = labels
-        self.tokenizer = tokenizer
-        self.max_length = max_length
+        encoding = tokenizer(
+            texts,
+            add_special_tokens=True,
+            max_length=max_length,
+            truncation=True,
+            padding="max_length",
+            return_attention_mask=True,
+        )
+        self.input_ids = encoding["input_ids"]
+        self.attention_masks = encoding["attention_mask"]
+        self.labels = [torch.tensor(label, dtype=torch.float) for label in labels]
 
     def __len__(self):
-        return len(self.texts)
+        return len(self.input_ids)
 
     def __getitem__(self, idx):
-        text = self.texts[idx]
-        labels = self.labels[idx]
-        encoding = self.tokenizer.encode_plus(
-            text,
-            add_special_tokens=True,
-            max_length=self.max_length,
-            return_token_type_ids=False,
-            padding="max_length",
-            truncation=True,
-            return_attention_mask=True,
-            return_tensors='pt',
-        )
         return {
-            'input_ids': encoding['input_ids'].flatten(),
-            'attention_mask': encoding['attention_mask'].flatten(),
-            'labels': torch.tensor(labels, dtype=torch.float)
+            'input_ids': torch.tensor(self.input_ids[idx], dtype=torch.long),
+            'attention_mask': torch.tensor(self.attention_masks[idx], dtype=torch.long),
+            'labels': self.labels[idx]
         }
 
 
@@ -85,14 +80,36 @@ def save_model(model: pl.LightningModule, out_path: str):
     state_dict = {k: v for k, v in state_dict.items() if "loss_fn" not in k}
     torch.save(state_dict, out_path)
 
-targetfolder = "12_2_2_3"
-layer1num = "12"
+BASE_ROOT = "/home/nakagawa/lab-MLMLC"
+TARGET_PATTERN = "8_3_2_3"
+LAYER1_NUM = "8"
+
+
+def resolve_input_file(base_path, a, b):
+    filename_us = (
+        f"softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_{TARGET_PATTERN}_{LAYER1_NUM}_{a}_{b}_study_data.json"
+    )
+    filename_dash = (
+        f"softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_{TARGET_PATTERN.replace('_', '-')}_{LAYER1_NUM}_{a}_{b}_study_data.json"
+    )
+    input_us = os.path.join(base_path, filename_us)
+    input_dash = os.path.join(base_path, filename_dash)
+    if os.path.exists(input_us):
+        return input_us
+    return input_dash
+
+
 def process_file(a, b):
-    base_path = f"/home/nakagawa/studydata/layer4/layer4_{targetfolder}"
-    filename = f"softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_{targetfolder.replace("_","-")}_{layer1num}_{a}_{b}_study_data.json"
-    input_file = os.path.join(base_path, filename)
-    output_model = os.makedirs(f"/home/nakagawa/layer4_{targetfolder}", exist_ok=True) or f"/home/nakagawa/layer4_{targetfolder}/mashup_softfill_api_all_layer4_{layer1num}_{a}_{a}_{b}_model_weights.pth"
-    category_list_output = os.makedirs(f"/home/nakagawa/api_category_list/layer4_{targetfolder}", exist_ok=True) or f"/home/nakagawa/api_category_list/layer4_{targetfolder}/softfill_inc_categorylist_layer4_{layer1num}_{a}_{a}_{b}.json"
+    base_path = f"{BASE_ROOT}/studydata/layer4/layer4_{TARGET_PATTERN}"
+    input_file = resolve_input_file(base_path, a, b)
+
+    model_dir = f"{BASE_ROOT}/layer4_{TARGET_PATTERN}"
+    os.makedirs(model_dir, exist_ok=True)
+    output_model = f"{model_dir}/mashup_softfill_api_all_layer4_{LAYER1_NUM}_{a}_{b}_model_weights.pth"
+
+    api_dir = f"{BASE_ROOT}/api_category_list/layer4_{TARGET_PATTERN}"
+    os.makedirs(api_dir, exist_ok=True)
+    category_list_output = f"{api_dir}/softfill_inc_categorylist_layer4_{LAYER1_NUM}_{a}_{b}.json"
     
     if not os.path.exists(input_file):
         print(f"[{a}-{b}] ファイルが存在しません。スキップします。")
@@ -122,8 +139,18 @@ def process_file(a, b):
     train_dataset = TextDataset(texts[:split], labels[:split], tokenizer)
     val_dataset = TextDataset(texts[split:], labels[split:], tokenizer)
 
-    train_loader = DataLoader(train_dataset, batch_size=8, shuffle=True, num_workers=2)
-    val_loader = DataLoader(val_dataset, batch_size=8, num_workers=2)
+    num_workers = min(8, os.cpu_count() or 1)
+    loader_kwargs = {
+        "batch_size": 8,
+        "num_workers": num_workers,
+        "pin_memory": torch.cuda.is_available(),
+    }
+    if num_workers > 0:
+        loader_kwargs["persistent_workers"] = True
+        loader_kwargs["prefetch_factor"] = 4
+
+    train_loader = DataLoader(train_dataset, shuffle=True, **loader_kwargs)
+    val_loader = DataLoader(val_dataset, shuffle=False, **loader_kwargs)
 
     model = BertForMultilabelClassification("bert-base-uncased", num_labels=len(all_categories), pos_weight=pos_weight)
 
@@ -133,7 +160,10 @@ def process_file(a, b):
         devices=1,
         callbacks=[EarlyStopping(monitor="val_loss", patience=3, mode="min")],
         logger=False,
-        enable_checkpointing=False
+        enable_checkpointing=False,
+        num_sanity_val_steps=0,
+        enable_progress_bar=False,
+        enable_model_summary=False,
     )
 
     trainer.fit(model, train_loader, val_loader)
@@ -146,7 +176,11 @@ def process_file(a, b):
 
 
 if __name__ == "__main__":
-    tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
+    torch.set_float32_matmul_precision("high")
+    if torch.cuda.is_available():
+        torch.backends.cudnn.benchmark = True
+
+    tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
     
     max_a = 20
     max_b = 20

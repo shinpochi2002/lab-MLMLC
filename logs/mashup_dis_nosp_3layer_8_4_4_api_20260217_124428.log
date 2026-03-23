@@ -1,0 +1,430 @@
+nohup: 入力を無視します
+/home/nakagawa/venvs/swallow-py312/lib/python3.12/site-packages/torch/cuda/__init__.py:435: UserWarning: 
+    Found GPU0 NVIDIA GB10 which is of cuda capability 12.1.
+    Minimum and Maximum cuda capability supported by this version of PyTorch is
+    (8.0) - (12.0)
+    
+  queued_call()
+Processing text 1/632
+ Breakout is the first-ever modern Workflow Management Software that automates step-by-step recurrin
+[(0, 0.9986059069633484)]
+[('0-3', 0.9896416068077087)]
+[('business', 0.7917950749397278), ('project-management', 0.5460625290870667)]
+businessのAPI推薦
+[('sap-anywhere', 0.5439393520355225), ('whatsapp-business', 0.5320253968238831)]
+project-managementのAPI推薦
+[('basecamp', 0.5059311389923096), ('clickup', 0.5745509266853333), ('harvest', 0.5840103030204773), ('intellinote', 0.5638533234596252), ('kanban-tool', 0.5848214030265808), ('lighthouse', 0.6399564743041992)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 8, False Negative: 4
+Processing text 2/632
+ EspoCRM is an open-source web application designed to build loyal relationships with customers and 
+[(1, 0.9817672371864319)]
+[('1-3', 0.9962879419326782)]
+[('enterprise', 0.9474663138389587)]
+enterpriseのAPI推薦
+[('restricted-party-screening', 0.627738893032074), ('servicem8', 0.6252734065055847), ('supportfu', 0.6178777813911438), ('tradegecko', 0.652546763420105), ('vcita', 0.5408821702003479)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 5, False Negative: 5
+Processing text 3/632
+ Email2Go is an online service that helps you create email templates and test them on dozens differe
+[(5, 0.9987738728523254)]
+[('5-1', 0.9958590865135193)]
+[('email', 0.9839598536491394)]
+emailのAPI推薦
+[('constantcontact', 0.617252767086029), ('google-apps-email-migration', 0.6162354350090027), ('google-gmail-oauth', 0.5945432186126709), ('mailjet', 0.6024124026298523)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 4, False Negative: 1
+Processing text 4/632
+ PEARL is a digital trade payables automation tool that streamlines an organisation’s “Procure to Pa
+[(0, 0.8927435874938965), (1, 0.8982287049293518), (5, 0.8677298426628113)]
+[('0-3', 0.9788084626197815)]
+[('business', 0.9715695381164551)]
+businessのAPI推薦
+[('whatsapp-business', 0.6633299589157104)]
+[('1-1', 0.990195095539093)]
+[('financial', 0.9877113699913025)]
+financialのAPI推薦
+[('coindesk', 0.5856988430023193), ('coinkite', 0.5701583027839661), ('exchange-rate', 0.5036817193031311), ('financial-modeling-prep', 0.5613000988960266), ('foxrate', 0.5440298318862915), ('freshbooks', 0.5619645118713379), ('myob-accountright-live', 0.5969685912132263), ('prosper', 0.6236553192138672), ('xero', 0.5687215924263)]
+[('5-0', 0.9882704019546509)]
+[('payments', 0.9891770482063293)]
+paymentsのAPI推薦
+[('amazon-flexible-payments-service', 0.5268795490264893), ('blockchain-receive-payments', 0.5420585870742798), ('moneybookers', 0.5388056635856628), ('payments-gateway', 0.6097705960273743), ('paypal', 0.6076887249946594), ('quickbooks-payments', 0.5403876304626465), ('stripe', 0.5293084383010864)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 17, False Negative: 1
+Processing text 5/632
+ DeployPlace is an automated deployment tool for easy deployment of complex applications to your ser
+[(2, 0.9052029252052307), (4, 0.851089596748352), (6, 0.8953137397766113)]
+[('2-3', 0.6981416940689087)]
+[('applications', 0.9438115954399109)]
+applicationsのAPI推薦
+[('contentful', 0.7242277264595032)]
+[('4-3', 0.9913259148597717)]
+[('storage', 0.9380497932434082)]
+storageのAPI推薦
+[('amazon-s3', 0.6849178671836853), ('rackspace-cloud-files', 0.5448886752128601)]
+[('6-2', 0.9909223914146423)]
+[('cloud', 0.9658234119415283)]
+cloudのAPI推薦
+[]
+Precision: 0.3333333333333333, Recall: 0.08333333333333333, F-Score: 0.13333333333333333
+False Positive: 2, False Negative: 11
+Processing text 6/632
+ Instantly Find and Embed Videos for all the products you sell, from all the major media websites in
+[(2, 0.9987431168556213), (5, 0.7168745398521423)]
+[('2-0', 0.9964130520820618)]
+[('video', 0.9909355044364929)]
+videoのAPI推薦
+[('brightcove', 0.6943094730377197), ('dailymotion', 0.8626517653465271), ('film-crave', 0.6397636532783508), ('iva-video', 0.689355194568634), ('justintv', 0.5224440097808838), ('stupeflix', 0.8439609408378601), ('vhx', 0.7486152052879333), ('vimeo', 0.8465175628662109), ('vzaar', 0.5269436836242676)]
+[('5-3', 0.9933249354362488)]
+[('ecommerce', 0.9463823437690735)]
+ecommerceのAPI推薦
+[('8coupons', 0.5134180784225464), ('amazon-product-advertising', 0.5950361490249634), ('best-buy-products', 0.5469271540641785), ('etsy', 0.5451399683952332), ('shopstyle', 0.5031067132949829), ('zappos', 0.5187191963195801)]
+Precision: 0.13333333333333333, Recall: 0.5, F-Score: 0.2105263157894737
+False Positive: 13, False Negative: 2
+Processing text 7/632
+ Here any one can develop voice apps for Amazon Echo, Google Assistant and Microsoft Cortana. We sup
+[(0, 0.9941142201423645), (1, 0.5527897477149963), (5, 0.9462398886680603), (6, 0.993683934211731)]
+[('0-3', 0.983070433139801)]
+[('other', 0.6440938711166382)]
+otherのAPI推薦
+[('google-contacts', 0.6128555536270142), ('google-visualization', 0.5297573804855347), ('itunes-and-itunes-connect', 0.5990242958068848)]
+[('1-3', 0.9963182210922241)]
+[('social', 0.7025266289710999)]
+socialのAPI推薦
+[('facebook', 0.6019698977470398), ('twitter', 0.5835691690444946)]
+[('5-0', 0.9915276169776917)]
+[('voice', 0.9959938526153564)]
+voiceのAPI推薦
+[('google-assistant', 0.5264829993247986)]
+[('6-3', 0.9900496006011963)]
+[('telephony', 0.777948260307312)]
+telephonyのAPI推薦
+[('twilio', 0.6156261563301086)]
+Precision: 0.14285714285714285, Recall: 0.14285714285714285, F-Score: 0.14285714285714285
+False Positive: 6, False Negative: 6
+Processing text 8/632
+ Datantify.com allows you build a list from any industries &amp; countries with verified data from m
+[(3, 0.7267671227455139), (4, 0.9943687319755554)]
+[('3-1', 0.9777917265892029)]
+[('data', 0.9724147915840149)]
+dataのAPI推薦
+[('bizvizz', 0.8050900101661682)]
+[('4-2', 0.9895915389060974)]
+[('database', 0.971056342124939)]
+databaseのAPI推薦
+[('amazon-dynamodb', 0.614526629447937), ('ckan', 0.5983516573905945), ('imsas', 0.5732491612434387), ('mongolab', 0.640082061290741), ('yahoo-query-language-graphql', 0.6253026723861694)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 6, False Negative: 4
+Processing text 9/632
+ Polux.fr is a site about dogs. Animated by enthusiasts, our advice will allow you to (better) love 
+[(2, 0.9709270596504211)]
+[('2-0', 0.8044630289077759), ('2-3', 0.7116771340370178)]
+[('entertainment', 0.9345248341560364)]
+entertainmentのAPI推薦
+[]
+[('messaging', 0.7889394164085388)]
+messagingのAPI推薦
+[('twilio-sms', 0.5159509778022766)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 1, False Negative: 1
+Processing text 10/632
+ Hvper is the official successor of Popurls (the mother of all news aggregators.) Hvper pulls headli
+[(0, 0.9975615739822388), (5, 0.6323809027671814)]
+[('0-2', 0.9942914247512817)]
+[('news-services', 0.9759870767593384)]
+news-servicesのAPI推薦
+[('reddit', 0.5447205305099487)]
+[('5-1', 0.9851571321487427)]
+[('photos', 0.972929060459137)]
+photosのAPI推薦
+[('flickr', 0.6593248844146729), ('instagram-graph', 0.5658700466156006)]
+Precision: 0.6666666666666666, Recall: 0.2, F-Score: 0.30769230769230765
+False Positive: 1, False Negative: 8
+Processing text 11/632
+ I2S is a state-of-the-art mobile OCR scanning software that practically turns almost any images wit
+[(2, 0.5729016661643982), (5, 0.9053672552108765)]
+[('2-2', 0.7983861565589905)]
+[('content', 0.5296138525009155), ('reference', 0.733554482460022)]
+contentのAPI推薦
+[('box', 0.5135757327079773)]
+referenceのAPI推薦
+[('abbreviations', 0.6130226254463196), ('avvo', 0.6979392766952515), ('bibliacom', 0.5338740944862366), ('db-direct', 0.5368190407752991), ('dbpedia-spotlight', 0.5050735473632812), ('edmundscom-vehicle', 0.5397405624389648), ('forvo', 0.5246732234954834), ('global-biodiversity-information-facility', 0.6032261252403259), ('localschooldirectory', 0.5444208979606628), ('oecd-open-data', 0.6600116491317749), ('plos-search', 0.5637601017951965), ('realtime-register', 0.5045443773269653), ('rubygems', 0.6138754487037659), ('sensis-business-search', 0.5059088468551636), ('shoutcast-radio', 0.5454597473144531)]
+[('5-0', 0.983669638633728)]
+[('voice', 0.9936845898628235)]
+voiceのAPI推薦
+[('google-assistant', 0.5515561103820801)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 17, False Negative: 1
+Processing text 12/632
+ Kosmos Central's eSync Dashboard is used to manage the eSync partner app marketplace by connecting 
+[(0, 0.9934266805648804)]
+[('0-3', 0.9890784621238708)]
+[('application-development', 0.9511379599571228)]
+application-developmentのAPI推薦
+[('ludei-cloud', 0.5179250836372375)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 1, False Negative: 6
+Processing text 13/632
+ The Dynamic Insights platform by Zrillo pulls data from small business apps to give accountants, ad
+[(0, 0.991078794002533)]
+[('0-3', 0.9910027980804443)]
+[('business', 0.8674381375312805)]
+businessのAPI推薦
+[('sap-anywhere', 0.5647296905517578)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 1, False Negative: 10
+Processing text 14/632
+ PulseMedic is the The UK’s Leading CPR, Medical and Industrial First Aid Training Provider. They ai
+[(2, 0.9970695972442627)]
+[('2-3', 0.9944032430648804)]
+[('medical', 0.8928630352020264)]
+medicalのAPI推薦
+[]
+Precision: 0, Recall: 0.0, F-Score: 0
+False Positive: 0, False Negative: 3
+Processing text 15/632
+ Virtual Classroom API offers integration with any LMS or CMS such as WordPress, Drupal and Moodle. 
+[(1, 0.9972802400588989)]
+[('1-3', 0.9963390827178955)]
+[('education', 0.9622818231582642)]
+educationのAPI推薦
+[('donorschoose', 0.5118272304534912), ('greatschools', 0.5055305361747742)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 2, False Negative: 2
+Processing text 16/632
+ TheTool is the first Performance-Based ASO (App Store Optimization) tool that allows app or game de
+[(2, 0.943597674369812), (7, 0.7856260538101196)]
+[('2-3', 0.9887781739234924)]
+[('applications', 0.9599564075469971), ('marketing', 0.5041223764419556)]
+applicationsのAPI推薦
+[('appfollow', 0.7444573640823364)]
+marketingのAPI推薦
+[('mozscape', 0.8947572708129883)]
+[('7-0', 0.9584476351737976)]
+[('analytics', 0.8759821057319641)]
+analyticsのAPI推薦
+[('google-analytics-managment', 0.5460058450698853), ('mixpanel', 0.5135283470153809)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 4, False Negative: 2
+Processing text 17/632
+ This mashup (script) identifies an emotion from an image with Microsoft’s Emotion API, then recomme
+[(7, 0.9913470149040222)]
+[]
+Precision: 0, Recall: 0.0, F-Score: 0
+False Positive: 0, False Negative: 2
+Processing text 18/632
+ Trip Republic is a travel planner, integrating 3rd party supply with user content to create a uniqu
+[(1, 0.7088029980659485), (3, 0.9999220371246338)]
+[('1-3', 0.8948934078216553)]
+[('social', 0.8252880573272705)]
+socialのAPI推薦
+[('facebook', 0.5358979105949402), ('twitter', 0.573094367980957)]
+[('3-0', 0.9956733584403992)]
+[('travel', 0.9823424220085144)]
+travelのAPI推薦
+[('allmyles', 0.5306136608123779), ('apartmentsapart', 0.5156672596931458), ('cleartrip', 0.5214092135429382), ('hotwire-travel-ticker-deals', 0.5164187550544739), ('i2space', 0.5773753523826599), ('sletohcom', 0.5163478255271912), ('travel-iq', 0.50227952003479)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 9, False Negative: 3
+Processing text 19/632
+ WeatherCheck uses the OpenWeatherMap API to provide the current weather and 10-day forecast for a g
+[(6, 0.9990139007568359)]
+[('6-1', 0.9953065514564514)]
+[('weather', 0.9702784419059753)]
+weatherのAPI推薦
+[('accuweather', 0.6069440841674805), ('api-hood-global-tides', 0.5777967572212219), ('metno-weather', 0.5807830691337585), ('noaa-national-weather-service-nws-ndfd-soap', 0.6652816534042358), ('openweathermap', 0.6872848272323608), ('weather-central', 0.5509032011032104), ('world-weather-online', 0.5414047241210938)]
+Precision: 0.14285714285714285, Recall: 1.0, F-Score: 0.25
+False Positive: 6, False Negative: 0
+Processing text 20/632
+ Synesica offers fragrance recommendations based on different attributes such as aquatic, spicy, and
+[(5, 0.9934491515159607)]
+[('5-1', 0.8098152279853821), ('5-3', 0.6820077896118164)]
+[('recommendations', 0.9915265440940857)]
+recommendationsのAPI推薦
+[('qype', 0.5691408514976501), ('rotten-tomatoes', 0.52268385887146), ('yelp-fusion', 0.5021874904632568)]
+[('ecommerce', 0.9331580996513367)]
+ecommerceのAPI推薦
+[('adility', 0.5140340924263), ('amazon-fulfillment-web-service', 0.5175601243972778), ('amazon-marketplace-web-service', 0.5972846150398254), ('best-buy-products', 0.5478485226631165), ('citygrid', 0.5988662242889404), ('cnet', 0.5156674981117249), ('commission-junction', 0.6204702854156494), ('dealsurf', 0.523186981678009), ('ebay-product-services', 0.5413298010826111), ('magento-soap', 0.5753458738327026), ('pinnaclecart-rest', 0.5508169531822205), ('retailmenotcom-community-ideas', 0.5381617546081543), ('shopify-admin', 0.5582141876220703), ('shopzilla', 0.5295091867446899), ('skimlinks-link-monetization', 0.6031206846237183), ('walmart-open', 0.5038669109344482), ('wishpot-shopping', 0.5551972389221191), ('yipit', 0.5319567322731018), ('zappos', 0.5108711123466492), ('zazzle', 0.5082561373710632)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 23, False Negative: 1
+Processing text 21/632
+ We do with WizIQ Virtual Classroom API: Integration with WizIQ Virtual Classroom API Custom Softwar
+[(1, 0.9967119693756104)]
+[('1-3', 0.9957463145256042)]
+[('education', 0.9770188927650452)]
+educationのAPI推薦
+[('donorschoose', 0.5571423172950745), ('science-museum', 0.5370305776596069), ('victoria-albert-museum', 0.5149546265602112), ('wiziq-virtual-classroom', 0.9112831950187683)]
+Precision: 0.25, Recall: 1.0, F-Score: 0.4
+False Positive: 3, False Negative: 0
+Processing text 22/632
+ GetSentiment Restaurant Reviews is a web application that collects and analyzes people's mentions o
+[(3, 0.902472972869873)]
+[('3-0', 0.9813600778579712)]
+[('travel', 0.9762117266654968)]
+travelのAPI推薦
+[('allmyles', 0.6773403286933899), ('bing-traffic', 0.52215576171875), ('easytobook', 0.6363872289657593), ('evature-travel-search', 0.5272469520568848), ('google-waze', 0.6137592792510986), ('hotwire-travel-ticker-deals', 0.5087191462516785), ('i2space', 0.5862893462181091), ('travel-portal', 0.5015603303909302)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 8, False Negative: 2
+Processing text 23/632
+ Yoke is a web application that brings information from all of user's cloud accounts to one instantl
+[(2, 0.9932680726051331)]
+[('2-2', 0.9109787940979004)]
+[('content', 0.591959536075592)]
+contentのAPI推薦
+[('box', 0.5286253690719604)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 1, False Negative: 1
+Processing text 24/632
+ Dinero.no is a Norwegian credit card, private loan and insurance comparing service using APIs to pi
+[(5, 0.99920254945755)]
+[('5-3', 0.9906294941902161)]
+[('ecommerce', 0.8685956001281738)]
+ecommerceのAPI推薦
+[('amazon-marketplace-web-service', 0.5564022064208984), ('best-buy-products', 0.5161312818527222), ('citygrid', 0.570114016532898), ('commission-junction', 0.57746422290802), ('dealsurf', 0.5097227096557617), ('magento-soap', 0.5430912971496582), ('retailmenotcom-community-ideas', 0.5306805372238159), ('shopify-admin', 0.5470383763313293), ('shopzilla', 0.5557665228843689), ('skimlinks-link-monetization', 0.5711360573768616), ('wishpot-shopping', 0.5666285753250122), ('yipit', 0.5234952569007874)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 12, False Negative: 2
+Processing text 25/632
+ The Open Data Companion (ODC) app for Android provides a unified access point to over 170 open data
+[(3, 0.9928337335586548)]
+[('3-1', 0.9840032458305359)]
+[('data', 0.9740951061248779)]
+dataのAPI推薦
+[('bizvizz', 0.7320049405097961)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 1, False Negative: 6
+Processing text 26/632
+ Kissmetrics is a solution for customer analytics and this integration is an easy and cost-effective
+[(7, 0.9660212993621826)]
+[('7-0', 0.9895608425140381)]
+[('analytics', 0.88902747631073)]
+analyticsのAPI推薦
+[('google-analytics-managment', 0.5721117258071899), ('kissmetrics', 0.7237218618392944), ('new-relic', 0.5952286720275879)]
+Precision: 0.3333333333333333, Recall: 0.5, F-Score: 0.4
+False Positive: 2, False Negative: 1
+Processing text 27/632
+ Swyft is a real-time transit app that leverages a community of riders working together to make the 
+[(3, 0.9986097812652588)]
+[('3-0', 0.9826174378395081)]
+[('transportation', 0.9839067459106445)]
+transportationのAPI推薦
+[('citysdk-mobility', 0.5379234552383423), ('gtfs-data-exchange', 0.6536603569984436), ('irail', 0.6542347073554993), ('public-transit-data-community', 0.5227504968643188), ('taxi-fare-finder', 0.6177168488502502)]
+Precision: 0.2, Recall: 1.0, F-Score: 0.33333333333333337
+False Positive: 4, False Negative: 0
+Processing text 28/632
+ Mixblast is an application that creates quick Youtube playlists out of text lists. It uses the Last
+[(2, 0.9985382556915283)]
+[('2-0', 0.9962527751922607)]
+[('music', 0.7652412056922913), ('video', 0.9389930367469788)]
+musicのAPI推薦
+[('dance-tunes', 0.5111703276634216), ('lastfm', 0.5398264527320862), ('musicbrainz', 0.5411441922187805), ('snocap', 0.5452373623847961), ('soundcloud', 0.5341203808784485)]
+videoのAPI推薦
+[('youtube', 0.8323420882225037)]
+Precision: 0.3333333333333333, Recall: 1.0, F-Score: 0.5
+False Positive: 4, False Negative: 0
+Processing text 29/632
+ imWallet is an application that lets users to transfer file a network location to another cloud. Th
+[(1, 0.5288081169128418), (4, 0.7238755822181702)]
+[('1-0', 0.9929666519165039)]
+[('file-sharing', 0.9931160807609558)]
+file-sharingのAPI推薦
+[('mediafire', 0.7787449359893799)]
+[('4-3', 0.969961941242218)]
+[('storage', 0.9540740251541138)]
+storageのAPI推薦
+[('amazon-s3', 0.6567163467407227), ('rackspace-cloud-files', 0.5595206022262573), ('sugarsync', 0.5008925199508667)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 4, False Negative: 1
+Processing text 30/632
+ AyeDeals allows users to search 100s of e-commerce sites in a matter of seconds. The application ut
+[(5, 0.9994919300079346)]
+[('5-3', 0.9962371587753296)]
+[('ecommerce', 0.9459717869758606)]
+ecommerceのAPI推薦
+[('8coupons', 0.5818418860435486), ('amazon-product-advertising', 0.5726271271705627), ('best-buy-products', 0.5400144457817078), ('commission-junction', 0.5026016235351562), ('ebay-product-services', 0.5293117761611938), ('ebay-shopping', 0.5217931866645813), ('etsy', 0.5433191061019897), ('gimmie', 0.5774665474891663), ('shopify-admin', 0.5562009811401367), ('wishpot-shopping', 0.5255070924758911), ('zappos', 0.5813766121864319)]
+Precision: 0.2727272727272727, Recall: 0.6, F-Score: 0.37499999999999994
+False Positive: 8, False Negative: 2
+Processing text 31/632
+ An Android app for the iFixit website. iFixit is an online repair manual repository with instructio
+[(2, 0.9969106316566467)]
+[('2-2', 0.9934497475624084)]
+[('reference', 0.9591051340103149)]
+referenceのAPI推薦
+[('abbreviations', 0.5932596921920776), ('avvo', 0.5747708678245544), ('barcelona-bicing', 0.5405960083007812), ('bibliacom', 0.5158393979072571), ('big-huge-thesaurus', 0.5139158368110657), ('dbpedia-spotlight', 0.5636987686157227), ('esv-bible-lookup', 0.5470940470695496), ('geonames', 0.5303322076797485), ('global-biodiversity-information-facility', 0.5223963856697083), ('google-books', 0.5112019181251526), ('ifixit', 0.5295425653457642), ('isbn-db', 0.5205931067466736), ('librarything', 0.5497624278068542), ('oecd-open-data', 0.5335489511489868), ('plos-search', 0.5193496346473694), ('strikeiron-reverse-phone-and-address-append', 0.5366929769515991), ('wordnik', 0.5124050974845886), ('worldcat-search', 0.5683198571205139)]
+Precision: 0.05555555555555555, Recall: 1.0, F-Score: 0.10526315789473684
+False Positive: 17, False Negative: 0
+Processing text 32/632
+ Jobjolly is a web application that lets users search for jobs across the U.S. This application uses
+[(5, 0.9982621073722839)]
+[('5-3', 0.9945105314254761)]
+[('jobs', 0.979690670967102)]
+jobsのAPI推薦
+[('indeed', 0.6017711758613586), ('resfly', 0.6085435152053833)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 2, False Negative: 1
+Processing text 33/632
+ Mashit is a tool to help webdesigners and webdevelopers find color and font combinations for a webs
+[(0, 0.5938366055488586), (2, 0.9271531105041504)]
+[('0-3', 0.873039960861206)]
+[('other', 0.8582257032394409)]
+otherのAPI推薦
+[('behance', 0.5282266736030579), ('css-mania', 0.5878481864929199), ('google-visualization', 0.6222662329673767), ('itunes-and-itunes-connect', 0.5866056680679321)]
+[('2-1', 0.9969160556793213)]
+[('design', 0.9789736866950989), ('tools', 0.6755982041358948)]
+designのAPI推薦
+[('99designs-tasks', 0.8227564692497253)]
+toolsのAPI推薦
+[('airbrake', 0.7314931154251099), ('apicultur-word-lemmatizer', 0.6648008227348328), ('circleci', 0.5925298929214478), ('context-voice', 0.6308956146240234), ('datadog', 0.7244992852210999), ('dns-tools', 0.5032463073730469), ('doodle', 0.5718814134597778), ('ecgridos-edi', 0.6276472210884094), ('github', 0.6868706345558167), ('google-app-engine', 0.5868224501609802), ('highcharts-highstock', 0.657947301864624), ('ip-apicom-geolocation', 0.5766393542289734), ('mocky', 0.5084664821624756), ('paymentwall', 0.5709680318832397), ('planning-center', 0.7146106958389282), ('safe-creative', 0.5071859359741211), ('slack-web', 0.6714811325073242), ('zapier', 0.728966474533081)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 23, False Negative: 1
+Processing text 34/632
+ Online Basketball Camp (also referred to as Hoop Alert) is a website for coaches to manage and comm
+[(2, 0.9824272990226746)]
+[('2-1', 0.9125634431838989), ('2-3', 0.7935489416122437)]
+[('sports', 0.990375816822052)]
+sportsのAPI推薦
+[('espn', 0.5651306509971619), ('motorsportregcom', 0.5645286440849304), ('teamsnap', 0.5245638489723206), ('yahoo-fantasy-sports', 0.565921425819397)]
+[('messaging', 0.8969658017158508)]
+messagingのAPI推薦
+[('att-app-messaging', 0.6845473647117615), ('notifo', 0.518417239189148), ('twilio-sms', 0.6022992730140686)]
+Precision: 0.14285714285714285, Recall: 0.2, F-Score: 0.16666666666666666
+False Positive: 6, False Negative: 4
+Processing text 35/632
+ FollowFly is a social media aggregator that can automatically bring up and display feeds from Twitt
+[(1, 0.9998326301574707)]
+[('1-3', 0.9962590932846069)]
+[('social', 0.9662943482398987)]
+socialのAPI推薦
+[('twitter', 0.6281492710113525)]
+Precision: 1.0, Recall: 0.16666666666666666, F-Score: 0.2857142857142857
+False Positive: 0, False Negative: 5
+Processing text 36/632
+ BagIQ automatically tracks the user's food purchases - including both grocery and restaurant purcha
+[(3, 0.9868054389953613)]
+[('3-1', 0.9610001444816589)]
+[('food', 0.9925891160964966)]
+foodのAPI推薦
+[('food', 0.5627459287643433), ('zomato-foodie-index', 0.6921486258506775)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 2, False Negative: 1
+Processing text 37/632
+ FindiLike Hotel Search is a hotel search and review analysis system that helps users find hotels ba
+[(3, 0.998043417930603)]
+[('3-0', 0.9459684491157532)]
+[('travel', 0.9773576855659485)]
+travelのAPI推薦
+[('allmyles', 0.5385680794715881), ('apartmentsapart', 0.5367488861083984), ('easytobook', 0.5211325883865356), ('i2space', 0.595912754535675), ('sletohcom', 0.5617192387580872), ('travel-iq', 0.5603378415107727)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 6, False Negative: 3
+Processing text 38/632
+ Streamboxr.com is a free Dropbox audio player application that can be used to stream content on any
+[(2, 0.9867239594459534)]
+[('2-0', 0.9971278309822083)]
+[('entertainment', 0.6954309344291687), ('music', 0.7755237221717834)]
+entertainmentのAPI推薦
+[('rovi-cloud-services', 0.6936795115470886)]
+musicのAPI推薦
+[('snocap', 0.5038154125213623), ('soundcloud', 0.5313514471054077)]
+Precision: 0.0, Recall: 0.0, F-Score: 0
+False Positive: 3, False Negative: 1
+Processing text 39/632
+ UsersThink can help developers and designers increase conversions from their landing pages. The ser
+[(0, 0.9788726568222046), (1, 0.6812881231307983), (7, 0.9310488700866699)]

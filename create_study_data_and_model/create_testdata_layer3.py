@@ -9,15 +9,15 @@ max_b = 6
 # テストデータの比率
 test_ratio = 0.20
 
-base_path = '/home/nakagawa/studydata/layer3/layer3_12a6a2/'
+base_path = '/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/'
 
 for a in range(max_a + 1):
     for b in range(max_b + 1):
-        input_filename = f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_3layer_12a6a2_{a}_{b}.json'
+        input_filename = f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_8_3_2_3_{a}_{b}.json'
         input_path = os.path.join(base_path, input_filename)
 
-        test_output_filename = f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_3layer_12a6a2_{a}_{b}_test_data.json'
-        train_output_filename = f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_3layer_12a6a2_{a}_{b}_study_data.json'
+        test_output_filename = f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_8_3_2_3_{a}_{b}_test_data.json'
+        train_output_filename = f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_8_3_2_3_{a}_{b}_study_data.json'
 
         test_output_path = os.path.join(base_path, test_output_filename)
         train_output_path = os.path.join(base_path, train_output_filename)

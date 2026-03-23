@@ -2,14 +2,14 @@ import json
 import os
 from collections import defaultdict
 
-# 処理したい a, b の最大値
-max_a = 12  # 例: 0〜4
-max_b = 1  # 例: 0〜3
+# 処理したい a, b, c の最大値（12_2_2_3）
+max_a = 11
+max_b = 1
 max_c = 1
 
 # パスのテンプレート
-input_template = "/home/nakagawa/studydata/layer4/12a2a2a3/split/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_4layer_12a2a2a3_{}_{}_{}.json"
-output_template = "/home/nakagawa/studydata/layer4/12a2a2a3/softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_12a2a2a3_{}_{}_{}.json"
+input_template = "/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_12_2_2_3/split/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_4layer_12_2_2_3_12_{}_{}_{}.json"
+output_template = "/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_12_2_2_3/softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_12_2_2_3_12_{}_{}_{}_study_data.json"
 
 for a in range(max_a + 1):
     for b in range(max_b + 1):

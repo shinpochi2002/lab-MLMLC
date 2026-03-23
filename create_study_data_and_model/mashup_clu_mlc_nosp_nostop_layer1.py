@@ -86,22 +86,20 @@ def save_model(model: pl.LightningModule, out_path: str):
     torch.save(state_dict, out_path)
 
 def process_file(index):
-    categorynum = "12"
-    target = "12_2_2_3"
-    base_path = f"/home/nakagawa/studydata/layer4/layer4_{target}/"
-    input_file = os.path.join(base_path, f"softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_{target.replace("_","-")}_{categorynum}_study_data.json")
-    output_model = os.makedirs(f"/home/nakagawa/layer4_{target}", exist_ok=True) or f"/home/nakagawa/layer4_{target}/mashup_softfill_api_all_layer4_{categorynum}_model_weights.pth"
-    category_list_output = os.makedirs(f"/home/nakagawa/api_category_list/layer4_{target}", exist_ok=True) or f"/home/nakagawa/api_category_list/layer4_{target}/softfill_inc_categorylist_layer4_{categorynum}.json"
+    
+    base_path = f"/home/nakagawa/lab-MLMLC/"
+    input_file = os.path.join(base_path, f"studydata/layer4/layer4_8_3_2_3/softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_8_3_2_3_study_data.json")
+    output_model = os.makedirs(f"/home/nakagawa/lab-MLMLC/layer4_8_3_2_3", exist_ok=True) or f"/home/nakagawa/lab-MLMLC/layer4_8_3_2_3/mashup_softfill_api_all_layer4_model_weights.pth"
+    category_list_output = os.makedirs(f"/home/nakagawa/lab-MLMLC/api_category_list/layer4_8_3_2_3", exist_ok=True) or f"/home/nakagawa/lab-MLMLC/api_category_list/layer4_8_3_2_3/softfill_inc_categorylist_layer4_8.json"
     target = "bigcategories"
-
-
+    
     if not os.path.exists(input_file):
         print(f"[{index}] ファイルが存在しません。スキップします。")
         return
 
     with open(input_file, "r", encoding="utf-8") as f:
         api_data = json.load(f)
-
+    
     texts = [item["description"] for item in api_data]
     raw_labels = [item[target] for item in api_data]
 

@@ -2,24 +2,24 @@ import json
 import random
 import os
 
-# 処理する a, b の最大値
-max_a = 12
-max_b = 2
-max_c = 2
+# 処理する a, b, c の最大値（12_2_2_3）
+max_a = 11
+max_b = 1
+max_c = 1
 
 # テストデータの比率
 test_ratio = 0.10
 
-base_path = '/home/nakagawa/studydata/layer4/12a2a2a3/'
+base_path = '/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_12_2_2_3/'
 
 for a in range(max_a + 1):
     for b in range(max_b + 1):
         for c in range(max_c + 1):
-            input_filename = f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_12a2a2a3_{a}_{b}_{c}.json'
+            input_filename = f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_12_2_2_3_12_{a}_{b}_{c}_study_data.json'
             input_path = os.path.join(base_path, input_filename)
 
-            test_output_filename = f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_12a2a2a3_{a}_{b}_{c}_test_data.json'
-            train_output_filename = f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_12a2a2a3_{a}_{b}_{c}_study_data.json'
+            test_output_filename = f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_12_2_2_3_12_{a}_{b}_{c}_test_data.json'
+            train_output_filename = f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_12_2_2_3_12_{a}_{b}_{c}_study_data.json'
 
             test_output_path = os.path.join(base_path, test_output_filename)
             train_output_path = os.path.join(base_path, train_output_filename)

@@ -15,18 +15,25 @@ import torch
 
 # カテゴリー名のリスト
 categories =  [
-            "security",
-            "messaging",
-            "food",
-            "books",
-            "travel",
-            "sports",
-            "addresses",
-            "events",
-            "content",
-            "text",
-            "healthcare",
-            "reporting"
+            "documents",
+            "images",
+            "sales",
+            "database",
+            "accounting",
+            "blogging",
+            "standards",
+            "translation",
+            "storage",
+            "geography",
+            "collaboration",
+            "chat",
+            "movies",
+            "search",
+            "games",
+            "hosting",
+            "politics",
+            "monitoring",
+            "tagging"
         ]
 # カテゴリーをWord2Vecでベクトル化
 def split_categories(categories):
@@ -76,7 +83,7 @@ def get_category_embeddings_list(categories, tokenizer, model):
     
     return np.array(embeddings)
 
-model1 = gensim.models.KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)
+model1 = gensim.models.KeyedVectors.load_word2vec_format('/home/nakagawa/lab-MLMLC/create_study_data_and_model/GoogleNews-vectors-negative300.bin', binary=True)
 
 category_vectors1 = get_category_vectors(categories, model1)
 
@@ -252,7 +259,7 @@ def load_clusters_from_json(json_path):
         data = json.load(f)
     return data["clusters"]
 
-cluster_json_path = "/home/nakagawa/category_soft_clu_balanced_balanced_kmeans+_results_12ver.json"  # ← ここをJSONのファイルパスに
+cluster_json_path = "/home/nakagawa/lab-MLMLC/cluster/8_3_2_3/category_soft_clu_balanced_balanced_kmeans+_results_8_7_layer4_8_3_2_3ver.json"  # ← ここをJSONのファイルパスに
 
 clusters_dict = load_clusters_from_json(cluster_json_path)
 
@@ -264,9 +271,9 @@ for cluster_id, category_list in clusters_dict.items():
     category_vectors = get_category_vectors(category_list, model1)  # Word2Vecでベクトル化
 
     # クラスタリング（例：Balanced KMeans）
-    labels = balanced_kmeans_clustering(category_vectors, num_clusters=6, random_state=42)
+    labels = balanced_kmeans_clustering(category_vectors, num_clusters=2, random_state=42)
 
     # 保存ファイル名にクラスタ番号をつける
-    filename = f"category_soft_clu_balanced_balanced_kmeans+_results_12_{cluster_id}_layer2_12a6a2ver.json"
+    filename = f"/home/nakagawa/lab-MLMLC/cluster/8_3_2_3/category_soft_clu_balanced_balanced_kmeans+_results_8_7_{cluster_id}_layer4_8_3_2_3ver.json"
     display_results_to_file(category_list, labels, filename)
 

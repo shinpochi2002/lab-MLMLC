@@ -5,7 +5,7 @@ from pathlib import Path
 # ===== 設定（必要に応じて変更） =====
 ROOT_DIR = Path("/home/nakagawa/out_by_category")  # 対象ディレクトリ
 GLOB_PATTERN = "*.json"         # 対象ファイルパターン（再帰なら "**/*.json"）
-TEST_RATIO = 0.10               # テスト比率
+TEST_RATIO = 0.20               # テスト比率
 SEED = 42                       # 再現性のためのシード（不要なら None に）
 ID_KEY = "mashup"               # 一意IDとして使うフィールド
 # ====================================

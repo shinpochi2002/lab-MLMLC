@@ -8,12 +8,12 @@ max_index = 12
 # 分割比率（20%がテストデータ）
 test_ratio = 0.20
 
-base_path = '/home/nakagawa/studydata/layer3/layer3_12a6a2/'
+base_path = '/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/'
 
 for i in range(max_index + 1):
-    input_path = os.path.join(base_path, f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_3layer_12a6a2_{i}.json')
-    test_output_path = os.path.join(base_path, f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_3layer_12a6a2_{i}_test_data.json')
-    train_output_path = os.path.join(base_path, f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_3layer_12a6a2_{i}_study_data.json')
+    input_path = os.path.join(base_path, f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_8_3_2_3_{i}.json')
+    test_output_path = os.path.join(base_path, f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_8_3_2_3_{i}_test_data.json')
+    train_output_path = os.path.join(base_path, f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_8_3_2_3_{i}_study_data.json')
 
     if not os.path.exists(input_path):
         print(f"[{i}] 入力ファイルが見つかりません: {input_path}")

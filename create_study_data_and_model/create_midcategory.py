@@ -2,14 +2,14 @@ import json
 import os
 
 # 入力ファイル（bigcategory付き）
-with open("/home/nakagawa/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_3layer_12a6a2.json", "r", encoding="utf-8") as f:
+with open("/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/split/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_4layer_8_3_2_3.json", "r", encoding="utf-8") as f:
     service_data = json.load(f)
 
 # middle定義ファイルをキャッシュする辞書（bigcategoryごとに読み込む）
 middle_maps = {}
 
 def load_middle_map(bigcategory):
-    filename = f"/home/nakagawa/category_soft_clu_balanced_balanced_kmeans+_results_12_{bigcategory}_layer2_12a6a2ver.json"
+    filename = f"/home/nakagawa/lab-MLMLC/cluster/8_3_2_3/category_soft_clu_balanced_balanced_kmeans+_results_8_{bigcategory}_layer4_8_3_2_3ver.json"
     if not os.path.exists(filename):
         print(f"[警告] middle cluster ファイルが存在しません: {filename}")
         return {}
@@ -50,5 +50,5 @@ for item in service_data:
     updated_data.append(item)
 
 # 保存ファイル
-with open("/home/nakagawa/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_3layer_12a6a2_a.json", "w", encoding="utf-8") as f:
+with open("/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/split/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_4layer_8_3_2_3_inc_mid.json", "w", encoding="utf-8") as f:
     json.dump(updated_data, f, indent=2, ensure_ascii=False)

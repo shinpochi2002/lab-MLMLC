@@ -85,13 +85,31 @@ def save_model(model: pl.LightningModule, out_path: str):
     state_dict = {k: v for k, v in state_dict.items() if "loss_fn" not in k}
     torch.save(state_dict, out_path)
 
+BASE_ROOT = "/home/nakagawa/lab-MLMLC"
+TARGET_PATTERN = "8_3_2_3"
+LAYER1_NUM = "8"
+
+
+def build_paths(index):
+    base_path = f"{BASE_ROOT}/studydata/layer4/layer4_{TARGET_PATTERN}"
+    input_file = os.path.join(
+        base_path,
+        f"softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_{TARGET_PATTERN}_{index}_study_data.json",
+    )
+
+    model_dir = f"{BASE_ROOT}/layer4_{TARGET_PATTERN}"
+    os.makedirs(model_dir, exist_ok=True)
+    output_model = f"{model_dir}/mashup_softfill_api_all_layer4_{LAYER1_NUM}_{index}_model_weights.pth"
+
+    api_dir = f"{BASE_ROOT}/api_category_list/layer4_{TARGET_PATTERN}"
+    os.makedirs(api_dir, exist_ok=True)
+    category_list_output = f"{api_dir}/softfill_inc_categorylist_layer4_{LAYER1_NUM}_{index}.json"
+
+    return input_file, output_model, category_list_output
+
+
 def process_file(index):
-    categorynum = "12_2_2_3"
-    layer1num = "12"
-    base_path = f"/home/nakagawa/studydata/layer4/layer4_{categorynum}/"
-    input_file = os.path.join(base_path, f"softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_{categorynum.replace("_","-")}_{layer1num}_{index}_study_data.json")
-    output_model = os.makedirs(f"/home/nakagawa/layer4_{categorynum}", exist_ok=True) or f"/home/nakagawa/layer4_{categorynum}/mashup_softfill_api_all_layer4_{layer1num}_{index}_model_weights.pth"
-    category_list_output = os.makedirs(f"/home/nakagawa/api_category_list/layer4_{categorynum}", exist_ok=True) or f"/home/nakagawa/api_category_list/layer4_{categorynum}/softfill_inc_categorylist_layer4_{layer1num}_{index}.json"
+    input_file, output_model, category_list_output = build_paths(index)
     target = "middlecategories"
 
     if not os.path.exists(input_file):

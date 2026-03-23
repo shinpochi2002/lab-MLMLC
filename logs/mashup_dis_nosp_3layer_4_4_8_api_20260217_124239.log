@@ -1,0 +1,6 @@
+nohup: 入力を無視します
+Traceback (most recent call last):
+  File "/home/nakagawa/lab-MLMLC/mashup_dis_nosp_3layer_api.py", line 16, in <module>
+    with open(EVALUATION_DATA_PATH, 'r', encoding='utf-8') as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/nakagawa/test_data_mashup_apis.json'

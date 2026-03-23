@@ -2,7 +2,7 @@ import json
 from collections import defaultdict
 
 # 入力ファイル（big + middle 混在データ）
-with open("/home/nakagawa/studydata/layer3/layer3_12a6a2/split/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_3layer_12a6a2.json", "r", encoding="utf-8") as f:
+with open("/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/split/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_4layer_8_3_2_3_inc_layer3.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # name ごとに統合
@@ -42,7 +42,7 @@ for entry in merged.values():
     final_data.append(output_entry)
 
 # 出力ファイル
-with open("/home/nakagawa/studydata/layer3/layer3_12a6a2/softfill_mashup_data_new_api_category_inclu_nomash_study_data_3layer_12a6a2.json", "w", encoding="utf-8") as f:
+with open("/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/split/softfill_mashup_data_new_api_category_inclu_nomash_all_study_data_4layer_8_3_2_3.json", "w", encoding="utf-8") as f:
     json.dump(final_data, f, indent=2, ensure_ascii=False)
 
 print(f"{len(final_data)} 件のサービスに統合完了（middlecategory 有無対応）")
