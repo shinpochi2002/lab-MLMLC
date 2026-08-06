@@ -7,6 +7,12 @@ from transformers import BertTokenizerFast, BertModel, AdamW
 from pytorch_lightning.callbacks import EarlyStopping
 
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import PROJECT_ROOT, legacy_path
+
 class TextDataset(Dataset):
     def __init__(self, texts, labels, tokenizer, max_length=512):
         encoding = tokenizer(
@@ -80,7 +86,7 @@ def save_model(model: pl.LightningModule, out_path: str):
     state_dict = {k: v for k, v in state_dict.items() if "loss_fn" not in k}
     torch.save(state_dict, out_path)
 
-BASE_ROOT = "/home/nakagawa/lab-MLMLC"
+BASE_ROOT = str(PROJECT_ROOT)
 TARGET_PATTERN = "8_3_2_3"
 LAYER1_NUM = "8"
 
@@ -100,14 +106,14 @@ def resolve_input_file(base_path, a, b):
 
 
 def process_file(a, b):
-    base_path = f"{BASE_ROOT}/studydata/layer4/layer4_{TARGET_PATTERN}"
+    base_path = legacy_path(f"{BASE_ROOT}/studydata/layer4/layer4_{TARGET_PATTERN}")
     input_file = resolve_input_file(base_path, a, b)
 
-    model_dir = f"{BASE_ROOT}/layer4_{TARGET_PATTERN}"
+    model_dir = legacy_path(f"{BASE_ROOT}/layer4_{TARGET_PATTERN}")
     os.makedirs(model_dir, exist_ok=True)
     output_model = f"{model_dir}/mashup_softfill_api_all_layer4_{LAYER1_NUM}_{a}_{b}_model_weights.pth"
 
-    api_dir = f"{BASE_ROOT}/api_category_list/layer4_{TARGET_PATTERN}"
+    api_dir = legacy_path(f"{BASE_ROOT}/api_category_list/layer4_{TARGET_PATTERN}")
     os.makedirs(api_dir, exist_ok=True)
     category_list_output = f"{api_dir}/softfill_inc_categorylist_layer4_{LAYER1_NUM}_{a}_{b}.json"
     

@@ -7,6 +7,12 @@ from collections import Counter, defaultdict
 from typing import Any, Dict, List, Optional, Tuple
 
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import HIERARCHY_RESULTS_DIR, legacy_path
+
 def extract_token_tuple(path: str) -> Optional[Tuple[str, ...]]:
     name = os.path.basename(path)
     m = re.search(r"_results_(.+?)(?:_layer|ver\.json$)", name)
@@ -365,7 +371,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Build category hierarchy JSON and enrich mashup test data with hierarchical labels.")
     parser.add_argument("--cluster-dir", required=True, help="Directory containing clustering result JSON files.")
     parser.add_argument("--mashup-json", required=True, help="Input mashup test JSON path.")
-    parser.add_argument("--out-base", default="/home/nakagawa/lab-MLMLC/codex/output", help="Base output directory.")
+    parser.add_argument("--out-base", default=str(HIERARCHY_RESULTS_DIR / "output"), help="Base output directory.")
     parser.add_argument("--out-hierarchy", default=None, help="Output hierarchy JSON path.")
     parser.add_argument("--out-test", default=None, help="Output enriched test JSON path.")
     parser.add_argument("--out-simple-hierarchy", default=None, help="Output simple hierarchy JSON path.")

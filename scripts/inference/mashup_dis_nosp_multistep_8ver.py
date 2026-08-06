@@ -9,26 +9,32 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 import pandas as pd
 
-M0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_8category_categorylist_mid0_new.json'
-M1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_8category_categorylist_mid1_new.json'
-M2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_8category_categorylist_mid2_new.json'
-M3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_8category_categorylist_mid3_new.json'
-M4API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_8category_categorylist_mid4_new.json'
-M5API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_8category_categorylist_mid5_new.json'
-M6API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_8category_categorylist_mid6_new.json'
-M7API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_8category_categorylist_mid7_new.json'
+from pathlib import Path
+import sys
 
-EVALUATION_DATA_PATH = '/home/nakagawa/softfill_mashup_data_new_api_category_inclu_nomash_all_inc_8big_test_data.json'
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
 
-BMODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_8category_all_big_new_model_weights_test.pth"
-M0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_8category_mid0_new_model_weights_test.pth"
-M1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_8category_mid1_new_model_weights_test.pth"
-M2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_8category_mid2_new_model_weights_test.pth"
-M3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_8category_mid3_new_model_weights_test.pth"
-M4MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_8category_mid4_new_model_weights_test.pth"
-M5MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_8category_mid5_new_model_weights_test.pth"
-M6MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_8category_mid6_new_model_weights_test.pth"
-M7MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_8category_mid7_new_model_weights_test.pth"
+M0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_8category_categorylist_mid0_new.json')
+M1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_8category_categorylist_mid1_new.json')
+M2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_8category_categorylist_mid2_new.json')
+M3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_8category_categorylist_mid3_new.json')
+M4API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_8category_categorylist_mid4_new.json')
+M5API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_8category_categorylist_mid5_new.json')
+M6API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_8category_categorylist_mid6_new.json')
+M7API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_8category_categorylist_mid7_new.json')
+
+EVALUATION_DATA_PATH = legacy_path('/home/nakagawa/softfill_mashup_data_new_api_category_inclu_nomash_all_inc_8big_test_data.json')
+
+BMODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_8category_all_big_new_model_weights_test.pth")
+M0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_8category_mid0_new_model_weights_test.pth")
+M1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_8category_mid1_new_model_weights_test.pth")
+M2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_8category_mid2_new_model_weights_test.pth")
+M3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_8category_mid3_new_model_weights_test.pth")
+M4MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_8category_mid4_new_model_weights_test.pth")
+M5MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_8category_mid5_new_model_weights_test.pth")
+M6MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_8category_mid6_new_model_weights_test.pth")
+M7MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_8category_mid7_new_model_weights_test.pth")
 
 
 DETAILED_PREDICTIONS_OUTPUT_PATH = "softfill_category_4bigcategory_allmiddle_new_detailed_predictions_test.json"

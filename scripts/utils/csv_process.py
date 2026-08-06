@@ -6,8 +6,13 @@ import re
 from pathlib import Path
 
 
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 DEFAULT_RESULTS_DIR = Path(
-    "/home/nakagawa/lab-MLMLC/codex/results/hierarchy_existing_models_condition_2x2"
+    legacy_path("/home/nakagawa/lab-MLMLC/codex/results/hierarchy_existing_models_condition_2x2")
 )
 DEFAULT_OUTPUT_DIR_NAME = "metric_summaries_by_test_data"
 METRIC_COLUMNS = ("precision", "recall", "f1")

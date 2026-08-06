@@ -1,3 +1,9 @@
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # -*- coding: utf-8 -*-
 # clusters.json を読み込み、カテゴリ名を GoogleNews ベクトルに変換して
 # Silhouette / Calinski–Harabasz / Davies–Bouldin を算出するシンプルスクリプト
@@ -12,8 +18,8 @@ import gensim
 # -----------------------------
 # 1) 入力
 # -----------------------------
-CLUSTERS_JSON = "/home/nakagawa/cluster/4cluster/category_soft_clu_balanced_balanced_kmeans+_results_4ver.json"  # あなたが貼った形式のJSON
-W2V_PATH = "GoogleNews-vectors-negative300.bin"  # GoogleNewsベクトル
+CLUSTERS_JSON = legacy_path("/home/nakagawa/cluster/4cluster/category_soft_clu_balanced_balanced_kmeans+_results_4ver.json")  # あなたが貼った形式のJSON
+W2V_PATH = legacy_path("GoogleNews-vectors-negative300.bin")  # GoogleNewsベクトル
 
 # -----------------------------
 # 2) カテゴリ名 -> ベクトル化（あなたの関数を少し堅牢化）

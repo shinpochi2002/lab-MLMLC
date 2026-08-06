@@ -6,6 +6,12 @@ import torch.nn as nn
 import numpy as np
 import pytorch_lightning as pl
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # Define the BERT model for multilabel classification
 class BertForMultilabelClassification(pl.LightningModule):
     def __init__(self, model_name, num_labels, lr=2e-5):
@@ -177,14 +183,14 @@ def per_label_metrics(true_labels_list, pred_labels_list, all_labels):
 
     return metrics, average_metrics
 
-model_name = "/home/nakagawa/models/bert-base-uncased/"
+model_name = legacy_path("/home/nakagawa/models/bert-base-uncased/")
 tokenizer = BertTokenizer.from_pretrained(model_name)
 layer1_category_num = "6"
 layer_num = "2"
 
 def main2():
     # 実行
-    EVALUATION_DATA_PATH = f'/home/nakagawa/collaboration_test_data_layer1_{layer1_category_num}.json'
+    EVALUATION_DATA_PATH = legacy_path(f'/home/nakagawa/collaboration_test_data_layer1_{layer1_category_num}.json')
 
     # Load evaluation data from 'mashup_data_new_test_data.json'
     with open(EVALUATION_DATA_PATH, 'r', encoding='utf-8') as f:
@@ -209,8 +215,8 @@ def main2():
         allapirec = []
         print(f"Processing text {idx + 1}/{len(evaluation_texts)}")
         print(text[:100])
-        layer1_model_path   = f"/home/nakagawa/layer{layer_num}_{layer1_category_num}/mashup_softfill_api_all_layer{layer_num}_{layer1_category_num}_model_weights.pth"
-        layer1_apilist_path = f"/home/nakagawa/api_category_list/layer{layer_num}_{layer1_category_num}/softfill_inc_categorylist_layer{layer_num}_{layer1_category_num}.json"
+        layer1_model_path   = legacy_path(f"/home/nakagawa/layer{layer_num}_{layer1_category_num}/mashup_softfill_api_all_layer{layer_num}_{layer1_category_num}_model_weights.pth")
+        layer1_apilist_path = legacy_path(f"/home/nakagawa/api_category_list/layer{layer_num}_{layer1_category_num}/softfill_inc_categorylist_layer{layer_num}_{layer1_category_num}.json")
         try:
             with open(layer1_apilist_path, "r", encoding="utf-8") as f:
                 layer1_apilist = json.load(f)

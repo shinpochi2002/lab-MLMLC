@@ -1,10 +1,16 @@
 import json
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # ファイル読み込み
-with open("/home/nakagawa/lab-MLMLC/studydata/original/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data.json", "r", encoding="utf-8") as f:
+with open(legacy_path("/home/nakagawa/lab-MLMLC/studydata/original/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data.json"), "r", encoding="utf-8") as f:
     service_data = json.load(f)
 
-with open("/home/nakagawa/lab-MLMLC/cluster/8cluster/category_soft_clu_balanced_balanced_kmeans+_results_8ver.json", "r", encoding="utf-8") as f:
+with open(legacy_path("/home/nakagawa/lab-MLMLC/cluster/8cluster/category_soft_clu_balanced_balanced_kmeans+_results_8ver.json"), "r", encoding="utf-8") as f:
     cluster_data = json.load(f)
 
 # サブカテゴリから大カテゴリ（クラスタ番号）を逆引きする辞書を作成

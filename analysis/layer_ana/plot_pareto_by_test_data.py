@@ -14,11 +14,14 @@ import pandas as pd
 from PIL import Image
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_SUMMARY_CSV = (
     PROJECT_ROOT
-    / "codex/results/hierarchy_existing_models_condition_2x2/"
-    / "metric_summaries_by_test_data/all_test_data_summary.csv"
+    / "results"
+    / "hierarchy"
+    / "hierarchy_existing_models_condition_2x2"
+    / "metric_summaries_by_test_data"
+    / "all_test_data_summary.csv"
 )
 DEFAULT_E_VALUES_CSV = Path(__file__).with_name("E_F1_layer_structure_for_paper.csv")
 DEFAULT_OUTPUT_DIR = Path(__file__).with_name("pareto_by_test_data")

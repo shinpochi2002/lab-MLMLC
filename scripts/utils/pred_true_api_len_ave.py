@@ -1,6 +1,12 @@
 import json
 
-jsonl_path = "/home/nakagawa/logs/mashup_dis_nosp_2layer_4_api_20251209_122857/mashup_dis_nosp_2layer_4_api_20251209_122857_records.jsonl"
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
+jsonl_path = legacy_path("/home/nakagawa/logs/mashup_dis_nosp_2layer_4_api_20251209_122857/mashup_dis_nosp_2layer_4_api_20251209_122857_records.jsonl")
 
 pred_counts = []
 true_counts = []

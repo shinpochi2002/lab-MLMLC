@@ -18,14 +18,15 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_TARGET = "16_4_3"
 DEFAULT_EVAL_PATH = (
     PROJECT_ROOT
-    / "codex"
+    / "results"
+    / "hierarchy"
     / "output"
     / "layer1_direct_api"
     / "test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json"
 )
-DEFAULT_API_CATALOG_PATH = PROJECT_ROOT / "api_dataset_like_manifest.json"
-DEFAULT_TRAIN_PATH = PROJECT_ROOT / "study_data_mashup_apis.json"
-DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "codex" / "baseline" / "results"
+DEFAULT_API_CATALOG_PATH = PROJECT_ROOT / "data" / "processed" / "root_json" / "api_dataset_like_manifest.json"
+DEFAULT_TRAIN_PATH = PROJECT_ROOT / "data" / "processed" / "root_json" / "study_data_mashup_apis.json"
+DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "results" / "baselines"
 
 
 @dataclass(frozen=True)
@@ -39,7 +40,7 @@ class MashupRecord:
 
 def resolve_default_eval_path(target_name: str = DEFAULT_TARGET) -> Path:
     """Match the active layer-3 script's default evaluation-data resolution."""
-    base = PROJECT_ROOT / "codex" / "output" / "by_pattern"
+    base = PROJECT_ROOT / "results" / "hierarchy" / "output" / "by_pattern"
     t_dash = target_name.replace("_", "-")
     t_us = target_name.replace("-", "_")
     layer_tag = "layer3_" + t_us

@@ -1,8 +1,14 @@
 import json
 import random
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # 元のJSONファイルを読み込む
-with open('/home/nakagawa/studydata/layer3/layer3_12a6a2/softfill_mashup_data_new_api_category_inclu_nomash_study_data_3layer_12a6a2.json', 'r') as file:
+with open(legacy_path('/home/nakagawa/studydata/layer3/layer3_12a6a2/softfill_mashup_data_new_api_category_inclu_nomash_study_data_3layer_12a6a2.json'), 'r') as file:
     data = json.load(file)
 
 # 全てのデータを取得
@@ -29,11 +35,11 @@ random_data = [api_info for api_info in all_data if api_info["name"] in random_i
 remaining_data = [api_info for api_info in all_data if api_info["name"] not in random_ids]
 
 # 抽出されたデータを新しいJSONファイルに保存
-with open('/home/nakagawa/studydata/layer3/layer3_12a6a2/softfill_mashup_data_new_api_category_inclu_nomash_study_data_3layer_12a6a2_test_data.json', 'w') as file:
+with open(legacy_path('/home/nakagawa/studydata/layer3/layer3_12a6a2/softfill_mashup_data_new_api_category_inclu_nomash_study_data_3layer_12a6a2_test_data.json'), 'w') as file:
     json.dump(random_data, file, indent=4, ensure_ascii=False)
 
 # 抽出されなかったデータを別のJSONファイルに保存
-with open('/home/nakagawa/studydata/layer3/layer3_12a6a2/softfill_mashup_data_new_api_category_inclu_nomash_study_data_3layer_12a6a2_study_data.json', 'w') as file:
+with open(legacy_path('/home/nakagawa/studydata/layer3/layer3_12a6a2/softfill_mashup_data_new_api_category_inclu_nomash_study_data_3layer_12a6a2_study_data.json'), 'w') as file:
     json.dump(remaining_data, file, indent=4, ensure_ascii=False)
 
 print(f"{test_size}件のテストデータと残りのデータがそれぞれJSONファイルに保存されました。")

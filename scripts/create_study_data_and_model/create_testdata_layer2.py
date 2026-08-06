@@ -2,13 +2,19 @@ import json
 import random
 import os
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # 分割対象のファイル数（0〜32）
 max_index = 12
 
 # 分割比率（20%がテストデータ）
 test_ratio = 0.20
 
-base_path = '/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/'
+base_path = legacy_path('/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/')
 
 for i in range(max_index + 1):
     input_path = os.path.join(base_path, f'softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_8_3_2_3_{i}.json')

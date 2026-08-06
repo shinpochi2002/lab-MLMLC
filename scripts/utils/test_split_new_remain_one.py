@@ -3,10 +3,15 @@ import random
 from pathlib import Path
 from collections import defaultdict
 
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # ===== 設定 =====
-SOURCE_DIR = Path("/home/nakagawa/out_by_category_inc_negative_1_10")
-TRAIN_DIR = Path("/home/nakagawa/train_by_category_inc_negative_1_10_new")
-TEST_DIR = Path("/home/nakagawa/test_by_category_inc_negative_1_10_new")
+SOURCE_DIR = Path(legacy_path("/home/nakagawa/out_by_category_inc_negative_1_10"))
+TRAIN_DIR = Path(legacy_path("/home/nakagawa/train_by_category_inc_negative_1_10_new"))
+TEST_DIR = Path(legacy_path("/home/nakagawa/test_by_category_inc_negative_1_10_new"))
 TEST_RATIO = 0.2
 random.seed(42)
 

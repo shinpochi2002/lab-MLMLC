@@ -1,11 +1,17 @@
 import json
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # クラスター情報を category_cluster.json から読み込む
-with open('/home/nakagawa/mashup_data/mashup_data_new.json', 'r') as f:
+with open(legacy_path('/home/nakagawa/mashup_data/mashup_data_new.json'), 'r') as f:
     mashupdata = json.load(f)
 
 # api_new_data.json のデータを読み込む
-with open('/home/nakagawa/softfill_mashup_data_new_api_category_inclu_nomash_all_inc_8big_test_data.json', 'r') as f:
+with open(legacy_path('/home/nakagawa/softfill_mashup_data_new_api_category_inclu_nomash_all_inc_8big_test_data.json'), 'r') as f:
     incnomashdata = json.load(f)
 
 mnamelist = []

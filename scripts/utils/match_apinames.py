@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # -*- coding: utf-8 -*-
 
 import json
@@ -6,8 +12,8 @@ from pathlib import Path
 from typing import Any, Dict, Iterable, Tuple, Set, Generator
 
 # ====== EDIT HERE: specify your file paths ======
-FILE1 = Path("/home/nakagawa/softfill_mashup_data_new_api/nocategory/softfill_mashup_new_data.json")
-FILE2 = Path("/home/nakagawa/mashup_api_merged_softfill.json")
+FILE1 = Path(legacy_path("/home/nakagawa/softfill_mashup_data_new_api/nocategory/softfill_mashup_new_data.json"))
+FILE2 = Path(legacy_path("/home/nakagawa/mashup_api_merged_softfill.json"))
 OUT_FOUND = Path("study_data_mashup_apis2.json")
 OUT_MISSING = Path("test_data_mashup_apis2.json")
 # ================================================

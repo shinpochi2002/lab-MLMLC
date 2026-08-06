@@ -2,8 +2,13 @@ import json
 import random
 from pathlib import Path
 
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # ===== 設定（必要に応じて変更） =====
-ROOT_DIR = Path("/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3")  # 対象ディレクトリ
+ROOT_DIR = Path(legacy_path("/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3"))  # 対象ディレクトリ
 GLOB_PATTERN = "*.json"         # 対象ファイルパターン（再帰なら "**/*.json"）
 TEST_RATIO = 0.20               # テスト比率
 SEED = 42                       # 再現性のためのシード（不要なら None に）

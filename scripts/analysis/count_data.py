@@ -3,8 +3,14 @@ from collections import Counter
 import matplotlib.pyplot as plt
 import pandas as pd
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # JSONファイルを読み込む
-with open('/home/nakagawa/softfill_mashup_data_new_api_category_inclu_nomash_all_inc_8big_study_data.json', 'r', encoding='utf-8') as file:
+with open(legacy_path('/home/nakagawa/softfill_mashup_data_new_api_category_inclu_nomash_all_inc_8big_study_data.json'), 'r', encoding='utf-8') as file:
     data = json.load(file)
 
 # # 件数をカウント

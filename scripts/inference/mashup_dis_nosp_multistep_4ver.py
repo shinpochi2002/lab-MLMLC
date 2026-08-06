@@ -8,16 +8,22 @@ from sklearn.metrics import precision_recall_curve, average_precision_score, f1_
 import matplotlib.pyplot as plt
 from matplotlib import cm
 
-M0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_category0_new.json'
-M1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_category1_new.json'
-M2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_category2_new.json'
-M3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_category3_new.json'
-EVALUATION_DATA_PATH = '/home/nakagawa/softfill_mashup_data_new_api_category_inclu_nomash_all_inc_4big_test_data.json'
-BMODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_new_model_weights_test.pth"
-M0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_0_new_model_weights_test.pth"
-M1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_1_new_model_weights_test.pth"
-M2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_2_new_model_weights_test.pth"
-M3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_3_new_model_weights_test.pth"
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
+M0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_category0_new.json')
+M1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_category1_new.json')
+M2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_category2_new.json')
+M3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_category3_new.json')
+EVALUATION_DATA_PATH = legacy_path('/home/nakagawa/softfill_mashup_data_new_api_category_inclu_nomash_all_inc_4big_test_data.json')
+BMODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_new_model_weights_test.pth")
+M0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_0_new_model_weights_test.pth")
+M1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_1_new_model_weights_test.pth")
+M2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_2_new_model_weights_test.pth")
+M3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_3_new_model_weights_test.pth")
 DETAILED_PREDICTIONS_OUTPUT_PATH = "softfill_category_4bigcategory_allmiddle_new_detailed_predictions_test.json"
 PRECISION_RECALL_CURVE_OUTPUT_PATH = "4bigcate_allmiddle_new_precision_recall_curve_with_colors_test.png"
 F1_SCORE_CURVE_OUTPUT_PATH = "softfill_mashup_4bigcategory_allmiddle_new_f1_score_curve_test.png"

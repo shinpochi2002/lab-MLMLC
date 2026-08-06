@@ -2,8 +2,14 @@
 import os
 import re
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # 対象ディレクトリ
-TARGET_DIR = "/home/nakagawa/studydata/layer3/layer3_8_4_4"
+TARGET_DIR = legacy_path("/home/nakagawa/studydata/layer3/layer3_8_4_4")
 
 # True の間は DRY-RUN（表示だけで実際にはリネームしない）
 DRY_RUN = False

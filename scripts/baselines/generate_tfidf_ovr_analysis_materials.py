@@ -2,8 +2,8 @@
 """Generate analysis materials for the strong TF-IDF OvR baseline.
 
 The script does not retrain models or modify existing result files. It reads
-saved outputs under codex/baseline/results and writes a compact analysis packet
-for a separate LLM under codex/baseline/analysis/tfidf_ovr_materials.
+saved outputs under results/baselines and writes a compact analysis packet
+for a separate LLM under analysis/baselines/tfidf_ovr_materials.
 """
 
 from __future__ import annotations

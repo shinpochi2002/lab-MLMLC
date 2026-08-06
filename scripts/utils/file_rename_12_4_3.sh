@@ -1,4 +1,9 @@
-cd ~/studied_model
+#!/usr/bin/env bash
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/../.." && pwd)"
+cd "$REPO_ROOT/models/checkpoints/hierarchy/layer3/layer3_12_4_3"
 
 for f in mashup_softfill_api_big12_mid4_big12*_model_weights.pth; do
   new=""

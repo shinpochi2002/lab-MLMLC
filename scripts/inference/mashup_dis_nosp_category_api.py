@@ -6,6 +6,12 @@ import pytorch_lightning as pl
 import torch.nn as nn
 from transformers import BertTokenizer, BertModel
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # ====== 中川さん提供のコア部分 (一切変更なし) ======
 
 class BertForMultilabelClassification(pl.LightningModule):
@@ -71,9 +77,9 @@ def average_metrics(metrics_list):
 
 # ====== ここからテスト部分 ======
 
-MODEL_DIR = "/home/nakagawa/study_category_inc_negative_1_10model_only_train"
-TEST_DIR = "/home/nakagawa/test_by_category_inc_negative_1_10"
-API_CATEGORY_DIR = "/home/nakagawa/api_category_list/category_inc_negative_1_10_only_train"
+MODEL_DIR = legacy_path("/home/nakagawa/study_category_inc_negative_1_10model_only_train")
+TEST_DIR = legacy_path("/home/nakagawa/test_by_category_inc_negative_1_10")
+API_CATEGORY_DIR = legacy_path("/home/nakagawa/api_category_list/category_inc_negative_1_10_only_train")
 MODEL_NAME = "bert-base-uncased"
 
 tokenizer = BertTokenizer.from_pretrained(MODEL_NAME)
@@ -145,7 +151,7 @@ for cat, res in results_summary.items():
     print(f"{cat:25s} | P: {res['precision']:.3f} | R: {res['recall']:.3f} | F1: {res['f1']:.3f}")
 
 # 結果をJSONで保存
-output_path = "/home/nakagawa/eval_results_summary_inc_negative_1_10.json"
+output_path = legacy_path("/home/nakagawa/eval_results_summary_inc_negative_1_10.json")
 with open(output_path, "w") as f:
     json.dump(results_summary, f, indent=2)
 

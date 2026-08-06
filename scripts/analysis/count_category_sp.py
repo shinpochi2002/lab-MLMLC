@@ -2,6 +2,12 @@ import json
 from collections import Counter
 import numpy as np
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # ジニ係数を計算する関数
 def gini_coefficient(values):
     """
@@ -22,7 +28,7 @@ def gini_coefficient(values):
     return gini
 
 # JSONファイルを読み込み
-with open('/home/nakagawa/softfill_mashup_data_new_api_category_4category_all_split.json', 'r', encoding='utf-8') as f:
+with open(legacy_path('/home/nakagawa/softfill_mashup_data_new_api_category_4category_all_split.json'), 'r', encoding='utf-8') as f:
     api_data = json.load(f)
 
 # カテゴリのリストを収集

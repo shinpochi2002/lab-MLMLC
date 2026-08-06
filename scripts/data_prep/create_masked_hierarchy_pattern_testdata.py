@@ -6,25 +6,26 @@ The source is the collaboration-category layer-1 test set.  Existing full-depth
 sample data and hierarchical ground-truth labels are rebuilt from the source
 and each pattern's ``category_hierarchy_*.json`` definition.
 """
-
 from __future__ import annotations
 
 import argparse
 import json
 import re
+import sys
 from pathlib import Path
 from typing import Any
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import HIERARCHY_RESULTS_DIR
 
-CODEX_ROOT = Path(__file__).resolve().parents[1]
+
 DEFAULT_SOURCE = (
-    CODEX_ROOT
-    / "output/layer1_direct_api/"
-    "test_data_mashup_apis_layer1_drop_unknown_samples_"
-    "categories_from_collaboration_api_name_masked.json"
+    HIERARCHY_RESULTS_DIR
+    / "output"
+    / "layer1_direct_api"
+    / "test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration_api_name_masked.json"
 )
-DEFAULT_PATTERN_DIR = CODEX_ROOT / "output/by_pattern"
-OUTPUT_SUFFIX = "_categories_from_collaboration_api_name_masked.json"
+DEFAULT_PATTERN_DIR = HIERARCHY_RESULTS_DIR / "output" / "by_pattern"
 GT_LAYER_RE = re.compile(r"^gt_layer(\d+)$")
 
 

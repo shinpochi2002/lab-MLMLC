@@ -2,12 +2,18 @@ import json
 import os
 from collections import defaultdict
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # 処理したいファイルの数（例：0〜32）
 max_index = 12
 
 for i in range(max_index + 1):
-    input_path = f"/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/split/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_4layer_8_3_2_3_{i}.json"
-    output_path = f"/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_8_3_2_3_{i}.json"
+    input_path = legacy_path(f"/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/split/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_4layer_8_3_2_3_{i}.json")
+    output_path = legacy_path(f"/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_8_3_2_3_{i}.json")
 
     if not os.path.exists(input_path):
         print(f"{input_path} は存在しません。スキップします。")

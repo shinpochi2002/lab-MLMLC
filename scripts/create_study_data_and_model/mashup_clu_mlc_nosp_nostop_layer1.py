@@ -7,6 +7,12 @@ from transformers import BertTokenizer, BertModel, AdamW
 from pytorch_lightning.callbacks import EarlyStopping
 
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import PROJECT_ROOT, legacy_path
+
 class TextDataset(Dataset):
     def __init__(self, texts, labels, tokenizer, max_length=512):
         self.texts = texts
@@ -87,10 +93,10 @@ def save_model(model: pl.LightningModule, out_path: str):
 
 def process_file(index):
     
-    base_path = f"/home/nakagawa/lab-MLMLC/"
-    input_file = os.path.join(base_path, f"studydata/layer4/layer4_8_3_2_3/softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_8_3_2_3_study_data.json")
-    output_model = os.makedirs(f"/home/nakagawa/lab-MLMLC/layer4_8_3_2_3", exist_ok=True) or f"/home/nakagawa/lab-MLMLC/layer4_8_3_2_3/mashup_softfill_api_all_layer4_model_weights.pth"
-    category_list_output = os.makedirs(f"/home/nakagawa/lab-MLMLC/api_category_list/layer4_8_3_2_3", exist_ok=True) or f"/home/nakagawa/lab-MLMLC/api_category_list/layer4_8_3_2_3/softfill_inc_categorylist_layer4_8.json"
+    base_path = str(PROJECT_ROOT)
+    input_file = os.path.join(base_path, legacy_path(f"studydata/layer4/layer4_8_3_2_3/softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_8_3_2_3_study_data.json"))
+    output_model = os.makedirs(legacy_path(f"/home/nakagawa/lab-MLMLC/layer4_8_3_2_3"), exist_ok=True) or legacy_path(f"/home/nakagawa/lab-MLMLC/layer4_8_3_2_3/mashup_softfill_api_all_layer4_model_weights.pth")
+    category_list_output = os.makedirs(legacy_path(f"/home/nakagawa/lab-MLMLC/api_category_list/layer4_8_3_2_3"), exist_ok=True) or legacy_path(f"/home/nakagawa/lab-MLMLC/api_category_list/layer4_8_3_2_3/softfill_inc_categorylist_layer4_8.json")
     target = "bigcategories"
     
     if not os.path.exists(input_file):

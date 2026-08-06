@@ -6,57 +6,63 @@ import numpy as np
 import pytorch_lightning as pl
 
 
-M0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_mid0clusters_new.json'
-M0_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small0-0clusters_new.json'
-M0_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small0-1clusters_new.json'
-M0_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small0-2clusters_new.json'
-M0_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small0-3clusters_new.json'
+from pathlib import Path
+import sys
 
-M1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_mid1clusters_new.json'
-M1_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small1-0clusters_new.json'
-M1_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small1-1clusters_new.json'
-M1_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small1-2clusters_new.json'
-M1_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small1-3clusters_new.json'
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
 
-M2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_mid2clusters_new.json'
-M2_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small2-0clusters_new.json'
-M2_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small2-1clusters_new.json'
-M2_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small2-2clusters_new.json'
-M2_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small2-3clusters_new.json'
+M0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_mid0clusters_new.json')
+M0_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small0-0clusters_new.json')
+M0_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small0-1clusters_new.json')
+M0_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small0-2clusters_new.json')
+M0_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small0-3clusters_new.json')
 
-M3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_mid3clusters_new.json'
-M3_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small3-0clusters_new.json'
-M3_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small3-1clusters_new.json'
-M3_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small3-2clusters_new.json'
-M3_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small3-3clusters_new.json'
+M1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_mid1clusters_new.json')
+M1_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small1-0clusters_new.json')
+M1_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small1-1clusters_new.json')
+M1_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small1-2clusters_new.json')
+M1_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small1-3clusters_new.json')
+
+M2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_mid2clusters_new.json')
+M2_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small2-0clusters_new.json')
+M2_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small2-1clusters_new.json')
+M2_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small2-2clusters_new.json')
+M2_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small2-3clusters_new.json')
+
+M3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_mid3clusters_new.json')
+M3_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small3-0clusters_new.json')
+M3_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small3-1clusters_new.json')
+M3_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small3-2clusters_new.json')
+M3_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_4category_categorylist_small3-3clusters_new.json')
 
 
-EVALUATION_DATA_PATH = '/home/nakagawa/collaboration_test_data.json'
+EVALUATION_DATA_PATH = legacy_path('/home/nakagawa/collaboration_test_data.json')
 
-BMODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_bigclusters_new_model_weights.pth"
-M0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_mid0clusters_new_model_weights.pth"
-M0_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_small0-0clusters_new_model_weights.pth"
-M0_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_small0-1clusters_new_model_weights.pth"
-M0_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_small0-2clusters_new_model_weights.pth"
-M0_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_small0-3clusters_new_model_weights.pth"
+BMODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_bigclusters_new_model_weights.pth")
+M0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_mid0clusters_new_model_weights.pth")
+M0_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_small0-0clusters_new_model_weights.pth")
+M0_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_small0-1clusters_new_model_weights.pth")
+M0_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_small0-2clusters_new_model_weights.pth")
+M0_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_small0-3clusters_new_model_weights.pth")
 
-M1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_mid1clusters_new_model_weights.pth"
-M1_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_small1-0clusters_new_model_weights.pth"
-M1_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_small1-1clusters_new_model_weights.pth"
-M1_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_small1-2clusters_new_model_weights.pth"
-M1_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_small1-3clusters_new_model_weights.pth"
+M1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_mid1clusters_new_model_weights.pth")
+M1_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_small1-0clusters_new_model_weights.pth")
+M1_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_small1-1clusters_new_model_weights.pth")
+M1_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_small1-2clusters_new_model_weights.pth")
+M1_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_small1-3clusters_new_model_weights.pth")
 
-M2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_mid2clusters_new_model_weights.pth"
-M2_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_small2-0clusters_new_model_weights.pth"
-M2_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_small2-1clusters_new_model_weights.pth"
-M2_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_small2-2clusters_new_model_weights.pth"
-M2_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_small2-3clusters_new_model_weights.pth"
+M2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_mid2clusters_new_model_weights.pth")
+M2_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_small2-0clusters_new_model_weights.pth")
+M2_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_small2-1clusters_new_model_weights.pth")
+M2_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_small2-2clusters_new_model_weights.pth")
+M2_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_small2-3clusters_new_model_weights.pth")
 
-M3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_mid3clusters_new_model_weights.pth"
-M3_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_small3-0clusters_new_model_weights.pth"
-M3_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_small3-1clusters_new_model_weights.pth"
-M3_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_small3-2clusters_new_model_weights.pth"
-M3_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_4category_small3-3clusters_new_model_weights.pth"
+M3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_mid3clusters_new_model_weights.pth")
+M3_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_small3-0clusters_new_model_weights.pth")
+M3_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_small3-1clusters_new_model_weights.pth")
+M3_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_small3-2clusters_new_model_weights.pth")
+M3_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_4category_small3-3clusters_new_model_weights.pth")
 
 
 # Load class list from 'apilist.json' (API names list)
@@ -550,7 +556,7 @@ def average_metrics(metrics_list):
 
 
 
-model_name = "/home/nakagawa/models/bert-base-uncased/"
+model_name = legacy_path("/home/nakagawa/models/bert-base-uncased/")
 tokenizer = BertTokenizer.from_pretrained(model_name)
 
 bigmodel = load_model(BertForMultilabelClassification, model_name, big_number_of_labels, path=BMODEL_WEIGHTS_PATH)

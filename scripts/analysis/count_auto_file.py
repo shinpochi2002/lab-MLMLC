@@ -2,8 +2,14 @@ import json
 import os
 import glob
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # ベースパス
-base_dir = "/home/nakagawa/studydata/layer3/layer3_16a4a3/"
+base_dir = legacy_path("/home/nakagawa/studydata/layer3/layer3_16a4a3/")
 
 # ファイルパターン（*はワイルドカード）
 pattern = os.path.join(base_dir, "softfill_mashup_data_new_api_category_inclu_nomash_study_data_3layer_16a4a3_*-*_study_data.json")

@@ -2,9 +2,14 @@ import os
 import re
 from pathlib import Path
 
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # ===== 設定 =====
 # リネームしたいディレクトリを指定
-TARGET_DIR = Path("/home/nakagawa/studydata/layer3/big12_mid4/")  # ★ここだけ自分のディレクトリに変えて
+TARGET_DIR = Path(legacy_path("/home/nakagawa/studydata/layer3/big12_mid4/"))  # ★ここだけ自分のディレクトリに変えて
 
 DRY_RUN = True  # 実際にリネームする時は False にする
 

@@ -10,13 +10,19 @@ import csv
 import json
 import glob
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 target = os.getenv("TARGET", "16_4_3")
 _tokens = target.replace("-", "_").split("_")
 layer1_category_num = os.getenv("LAYER1_CATEGORY_NUM") or _tokens[0]
 
 
 def resolve_default_eval_path(target_name: str) -> str:
-    base = "/home/nakagawa/lab-MLMLC/codex/output/by_pattern"
+    base = legacy_path("/home/nakagawa/lab-MLMLC/codex/output/by_pattern")
     t_dash = target_name.replace("_", "-")
     t_us = target_name.replace("-", "_")
     layer_tag = "layer3_" + t_us
@@ -56,7 +62,7 @@ def resolve_default_eval_path(target_name: str) -> str:
         if drops:
             return drops[0]
 
-    return "/home/nakagawa/lab-MLMLC/test_data_mashup_apis.json"
+    return legacy_path("/home/nakagawa/lab-MLMLC/test_data_mashup_apis.json")
 
 
 EVALUATION_DATA_PATH = os.getenv("EVALUATION_DATA_PATH", resolve_default_eval_path(target))
@@ -293,12 +299,12 @@ def per_label_metrics(true_labels_list, pred_labels_list, all_labels):
 
 
 
-model_name = "/home/nakagawa/lab-MLMLC/models/bert-base-uncased/"
+model_name = legacy_path("/home/nakagawa/lab-MLMLC/models/bert-base-uncased/")
 tokenizer = BertTokenizer.from_pretrained(model_name)
 
 def main2():
     # CSV 出力先
-    out_csv_path = os.getenv("OUT_CSV_PATH", f"lab-MLMLC/csvs/layer3_{target}_results.csv")
+    out_csv_path = os.getenv("OUT_CSV_PATH", legacy_path(f"lab-MLMLC/csvs/layer3_{target}_results.csv"))
     os.makedirs(os.path.dirname(out_csv_path) or ".", exist_ok=True)
 
     # 追加：CSVヘッダ
@@ -342,8 +348,8 @@ def main2():
             print(text[:100])
 
             # --- layer1 ---
-            layer1_model_path   = f"/home/nakagawa/lab-MLMLC/layer3_{target}/mashup_softfill_api_all_layer3_{layer1_category_num}_model_weights.pth"
-            layer1_apilist_path = f"/home/nakagawa/lab-MLMLC/api_category_list/layer3_{target}/softfill_inc_categorylist_layer3_{layer1_category_num}.json"
+            layer1_model_path   = legacy_path(f"/home/nakagawa/lab-MLMLC/layer3_{target}/mashup_softfill_api_all_layer3_{layer1_category_num}_model_weights.pth")
+            layer1_apilist_path = legacy_path(f"/home/nakagawa/lab-MLMLC/api_category_list/layer3_{target}/softfill_inc_categorylist_layer3_{layer1_category_num}.json")
             try:
                 with open(layer1_apilist_path, "r", encoding="utf-8") as f:
                     layer1_apilist = json.load(f)
@@ -377,8 +383,8 @@ def main2():
 
             for l1_cat, l1_val in layer1_results:
                 # --- layer2 ---
-                layer2_model_path   = f"/home/nakagawa/lab-MLMLC/layer3_{target}/mashup_softfill_api_all_layer3_{layer1_category_num}_{l1_cat}_model_weights.pth"
-                layer2_apilist_path = f"/home/nakagawa/lab-MLMLC/api_category_list/layer3_{target}/softfill_inc_categorylist_layer3_{layer1_category_num}_{l1_cat}.json"
+                layer2_model_path   = legacy_path(f"/home/nakagawa/lab-MLMLC/layer3_{target}/mashup_softfill_api_all_layer3_{layer1_category_num}_{l1_cat}_model_weights.pth")
+                layer2_apilist_path = legacy_path(f"/home/nakagawa/lab-MLMLC/api_category_list/layer3_{target}/softfill_inc_categorylist_layer3_{layer1_category_num}_{l1_cat}.json")
                 try:
                     with open(layer2_apilist_path, "r", encoding="utf-8") as f:
                         layer2_apilist = json.load(f)
@@ -413,8 +419,8 @@ def main2():
                     l2_cat_norm = l2_cat.replace("-", "_")
 
                     # --- layer3 ---
-                    layer3_model_path   = f"/home/nakagawa/lab-MLMLC/layer3_{target}/mashup_softfill_api_all_layer3_{layer1_category_num}_{l1_cat}_{l2_cat_norm}_model_weights.pth"
-                    layer3_apilist_path = f"/home/nakagawa/lab-MLMLC/api_category_list/layer3_{target}/softfill_inc_categorylist_layer3_{layer1_category_num}_{l1_cat}_{l2_cat_norm}.json"
+                    layer3_model_path   = legacy_path(f"/home/nakagawa/lab-MLMLC/layer3_{target}/mashup_softfill_api_all_layer3_{layer1_category_num}_{l1_cat}_{l2_cat_norm}_model_weights.pth")
+                    layer3_apilist_path = legacy_path(f"/home/nakagawa/lab-MLMLC/api_category_list/layer3_{target}/softfill_inc_categorylist_layer3_{layer1_category_num}_{l1_cat}_{l2_cat_norm}.json")
                     try:
                         with open(layer3_apilist_path, "r", encoding="utf-8") as f:
                             layer3_apilist = json.load(f)
@@ -448,8 +454,8 @@ def main2():
                     for cat, _score in layer3_results:
                         print(cat + "のAPI推薦")
 
-                        model_path   = f"/home/nakagawa/lab-MLMLC/study_category_inc_nomashup_model_new_kfold/bert_multilabel_{cat}_model_weights.pth"
-                        apilist_path = f"/home/nakagawa/lab-MLMLC/api_category_list/category_inc_nomashup_new_kfold/{cat}_api_labels.json"
+                        model_path   = legacy_path(f"/home/nakagawa/lab-MLMLC/study_category_inc_nomashup_model_new_kfold/bert_multilabel_{cat}_model_weights.pth")
+                        apilist_path = legacy_path(f"/home/nakagawa/lab-MLMLC/api_category_list/category_inc_nomashup_new_kfold/{cat}_api_labels.json")
 
                         try:
                             with open(apilist_path, "r", encoding="utf-8") as f:

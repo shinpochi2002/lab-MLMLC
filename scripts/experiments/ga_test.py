@@ -1,3 +1,9 @@
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # ----------------- 基本処理 -----------------
 import os
 import json
@@ -660,7 +666,7 @@ def evaluate_solution_hierarchical(
     return average_metrics(results)
 
 
-vector_model = KeyedVectors.load_word2vec_format('GoogleNews-vectors-negative300.bin', binary=True)
+vector_model = KeyedVectors.load_word2vec_format(legacy_path('GoogleNews-vectors-negative300.bin'), binary=True)
 
 def fitness_function(individual, categories, all_data, model_class, tokenizer, model_name, vector_model=vector_model):
     """
@@ -752,7 +758,7 @@ def fitness_function(individual, categories, all_data, model_class, tokenizer, m
 
                 
         # ステップ 4: モデル学習・評価（評価対象は最終層）
-        test_data = load_json("/home/nakagawa/collaboration_test_data.json")  # あなたの検証データ
+        test_data = load_json(legacy_path("/home/nakagawa/collaboration_test_data.json"))  # あなたの検証データ
 
         index_maps = build_index_maps(save_dir)  # モデル保存先にある label_map から自動構築
 
@@ -855,7 +861,7 @@ class DiskBudgetManager:
             finally:
                 fcntl.flock(lf, fcntl.LOCK_UN)
 
-with open("/home/nakagawa/studydata/original/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data.json", "r", encoding="utf-8") as f:
+with open(legacy_path("/home/nakagawa/studydata/original/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data.json"), "r", encoding="utf-8") as f:
     all_data = json.load(f)
 
 # unique なカテゴリを抽出

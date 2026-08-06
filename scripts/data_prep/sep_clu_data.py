@@ -1,7 +1,13 @@
 import json
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # クラスタ情報を読み込み
-with open('/home/nakagawa/softfill_mashup_data_new_api_category_inclu_nomash_split_all_inc_8big_7mid.json', 'r', encoding='utf-8') as f:
+with open(legacy_path('/home/nakagawa/softfill_mashup_data_new_api_category_inclu_nomash_split_all_inc_8big_7mid.json'), 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 # クラスタごとにデータを分ける関数

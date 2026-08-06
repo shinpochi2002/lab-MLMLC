@@ -1,9 +1,15 @@
 import json
 
-with open('/home/nakagawa/new_api_data/api_data_new.json', 'r', encoding='utf-8') as file:
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
+with open(legacy_path('/home/nakagawa/new_api_data/api_data_new.json'), 'r', encoding='utf-8') as file:
     apidata = json.load(file)
 
-with open('/home/nakagawa/mashup_data/mashup_data_new.json', 'r', encoding='utf-8') as file:
+with open(legacy_path('/home/nakagawa/mashup_data/mashup_data_new.json'), 'r', encoding='utf-8') as file:
     mashdata = json.load(file)
 
 apicategory = {}

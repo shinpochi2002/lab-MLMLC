@@ -1,5 +1,11 @@
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # ファイル名を指定
-input_file = "/home/nakagawa/8category_small_multi_log.txt"
+input_file = legacy_path("/home/nakagawa/8category_small_multi_log.txt")
 
 # ファイルからデータを読み込む
 with open(input_file, "r", encoding="utf-8") as file:

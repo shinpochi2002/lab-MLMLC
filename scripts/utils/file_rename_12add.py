@@ -2,8 +2,13 @@ import os
 import re
 from pathlib import Path
 
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # ===== 設定 =====
-TARGET_DIR = Path("/home/nakagawa/studydata/layer3/big12_mid4/")  # 必要なら変更
+TARGET_DIR = Path(legacy_path("/home/nakagawa/studydata/layer3/big12_mid4/"))  # 必要なら変更
 DRY_RUN = False  # 最初は True で確認。OKなら False にして実行
 
 BASE_PREFIX = "softfill_mashup_data_new_api_category_inclu_nomash"

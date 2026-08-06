@@ -2,6 +2,12 @@ import json
 from collections import Counter
 import numpy as np
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 def gini_index(counter_obj):
     total = sum(counter_obj.values())
     print(total)
@@ -103,7 +109,7 @@ def calculate_z_score_difference(counter_obj):
 
 
 # JSON ファイルを読み込む
-with open("/home/nakagawa/softfill_mashup_data_new_api_category_inclu_nomash_all_inc_8big_study_data.json", "r", encoding="utf-8") as f:
+with open(legacy_path("/home/nakagawa/softfill_mashup_data_new_api_category_inclu_nomash_all_inc_8big_study_data.json"), "r", encoding="utf-8") as f:
     data = json.load(f)  # data は「リスト」だと想定
 
 # カテゴリごとの出現数をカウントする

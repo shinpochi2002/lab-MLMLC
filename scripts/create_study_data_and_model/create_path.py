@@ -1,15 +1,21 @@
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import API_CATEGORY_LIST_DIR, hierarchy_checkpoint_dir
+
 def categorylist():
     for i in range(12):
         # 最上位カテゴリ (layer4)
-        print(f"M{i}API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_12a6a2_{i}.json'")
+        print(f"M{i}API_CATEGORY_LIST_PATH = str(API_CATEGORY_LIST_DIR / 'softfill_inc_categorylist_layer3_12a6a2_{i}.json')")
 
         # 中間カテゴリ (layer3)
         for j in range(6):
-            print(f"M{i}_{j}API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_12a6a2_{i}_{j}.json'")
+            print(f"M{i}_{j}API_CATEGORY_LIST_PATH = str(API_CATEGORY_LIST_DIR / 'softfill_inc_categorylist_layer3_12a6a2_{i}_{j}.json')")
 
             # 下位カテゴリ (layer2)
             for k in range(0):
-                print(f"M{i}_{j}_{k}API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer2_12a6_{i}_{j}_{k}.json'")
+                print(f"M{i}_{j}_{k}API_CATEGORY_LIST_PATH = str(API_CATEGORY_LIST_DIR / 'softfill_inc_categorylist_layer2_12a6_{i}_{j}_{k}.json')")
         
         print()  # 空行で見やすく
         
@@ -31,15 +37,15 @@ def categorylistopen():
 def modelpath():
     for i in range(12):
         # 最上位モデル（layer4）
-        print(f"M{i}MODEL_WEIGHTS_PATH = '/home/nakagawa/mashup_softfill_api_all_layer3_12a6a2_{i}_model_weights.pth'")
+        print(f"M{i}MODEL_WEIGHTS_PATH = str(hierarchy_checkpoint_dir(3, 'layer3_12_6_2') / 'mashup_softfill_api_all_layer3_12a6a2_{i}_model_weights.pth')")
 
         # 中間層モデル（layer3）
         for j in range(6):
-            print(f"M{i}_{j}MODEL_WEIGHTS_PATH = '/home/nakagawa/mashup_softfill_api_all_layer3_12a6a2_{i}_{j}_model_weights.pth'")
+            print(f"M{i}_{j}MODEL_WEIGHTS_PATH = str(hierarchy_checkpoint_dir(3, 'layer3_12_6_2') / 'mashup_softfill_api_all_layer3_12a6a2_{i}_{j}_model_weights.pth')")
 
             # 下位層モデル（layer2）
             for k in range(0):
-                print(f"M{i}_{j}_{k}MODEL_WEIGHTS_PATH = '/home/nakagawa/mashup_softfill_api_all_layer2_12a6_{i}_{j}_{k}_model_weights.pth'")
+                print(f"M{i}_{j}_{k}MODEL_WEIGHTS_PATH = str(hierarchy_checkpoint_dir(2, 'layer2_12') / 'mashup_softfill_api_all_layer2_12a6_{i}_{j}_{k}_model_weights.pth')")
         
         print()  # 空行でブロックを区切る
 

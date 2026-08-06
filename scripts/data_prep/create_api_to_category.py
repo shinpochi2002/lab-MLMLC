@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # -*- coding: utf-8 -*-
 
 from pathlib import Path
@@ -7,8 +13,8 @@ import csv
 from typing import Any, Dict, List, Tuple, Set
 
 # ========= ここだけ書き換えればOK（絶対パス/相対パスどちらでも可） =========
-MANIFEST_PATH = Path("/home/nakagawa/softfill_mashup_data_new_api/nocategory/softfill_mashup_new_data.json")            # 1つ目のJSON（使用APIが index=2）
-CATALOG_PATH  = Path("/home/nakagawa/new_api_data/api_data_new.json")                # 2つ目のJSON（カテゴリ配列が index=0）
+MANIFEST_PATH = Path(legacy_path("/home/nakagawa/softfill_mashup_data_new_api/nocategory/softfill_mashup_new_data.json"))            # 1つ目のJSON（使用APIが index=2）
+CATALOG_PATH  = Path(legacy_path("/home/nakagawa/new_api_data/api_data_new.json"))                # 2つ目のJSON（カテゴリ配列が index=0）
 OUT_CSV       = Path("./api_category_pairs.csv")   # 出力CSV
 OUT_JSON      = Path("./api_category_pairs.json")  # 出力JSON（{api: first_category}）
 # 構造が違う場合はインデックスを変更

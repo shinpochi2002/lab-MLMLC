@@ -1,6 +1,12 @@
 import json
 
-with open('/home/nakagawa/softfill_mashup_data_new_api_inclu_nomash/nocategory/softfill_mashup_data_new_api_category_inclu_nomash.json', 'r', encoding='utf-8') as f:
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
+with open(legacy_path('/home/nakagawa/softfill_mashup_data_new_api_inclu_nomash/nocategory/softfill_mashup_data_new_api_category_inclu_nomash.json'), 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 

@@ -2,10 +2,16 @@ import json, os, re, sys, random
 from collections import defaultdict
 from typing import Any, Dict, List, Tuple
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # ====== 設定（ここを書き換える） =========================================
-MASHUPS_JSON = "/home/nakagawa/study_data_mashup_nomashup_apis.json"  # 複合サービス（マッシュアップ）JSON
-API2CAT_JSON  = "/home/nakagawa/api_category_pairs.json"              # API→カテゴリ対応表JSON
-OUTDIR        = "./out_by_category_inc_nomashup_negative_1_20"                          # 出力ディレクトリ
+MASHUPS_JSON = legacy_path("/home/nakagawa/study_data_mashup_nomashup_apis.json")  # 複合サービス（マッシュアップ）JSON
+API2CAT_JSON  = legacy_path("/home/nakagawa/api_category_pairs.json")              # API→カテゴリ対応表JSON
+OUTDIR        = legacy_path("./out_by_category_inc_nomashup_negative_1_20")                          # 出力ディレクトリ
 
 MIN_APIS_PER_ITEM = 1     # 正例: そのカテゴリに属するAPIがこの数未満の項目は除外
 NEG_PER_POS       = 20     # 負例: 正例1に対して追加する負例の数（比率 1:NEG_PER_POS）

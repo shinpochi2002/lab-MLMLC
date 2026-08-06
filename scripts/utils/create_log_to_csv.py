@@ -2,6 +2,12 @@ import csv
 import re
 import ast
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 def safe_parse_literal(s):
     try:
         return ast.literal_eval(s)
@@ -90,4 +96,4 @@ def process_log_filtering_tuples(log_path, csv_output_path):
 
 # 使用例
 if __name__ == "__main__":
-    process_log_filtering_tuples("/home/nakagawa/small4_4_result_5_14.log", "small4_4_result_5_14.csv")
+    process_log_filtering_tuples(legacy_path("/home/nakagawa/small4_4_result_5_14.log"), "small4_4_result_5_14.csv")

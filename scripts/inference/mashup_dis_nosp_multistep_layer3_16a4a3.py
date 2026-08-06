@@ -5,201 +5,207 @@ import torch.nn as nn
 import numpy as np
 import pytorch_lightning as pl
 
-M0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_0.json'
-M0_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_0-0.json'
-M0_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_0-1.json'
-M0_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_0-2.json'
-M0_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_0-3.json'
+from pathlib import Path
+import sys
 
-M1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_1.json'
-M1_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_1-0.json'
-M1_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_1-1.json'
-M1_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_1-2.json'
-M1_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_1-3.json'
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
 
-M2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_2.json'
-M2_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_2-0.json'
-M2_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_2-1.json'
-M2_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_2-2.json'
-M2_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_2-3.json'
+M0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_0.json')
+M0_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_0-0.json')
+M0_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_0-1.json')
+M0_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_0-2.json')
+M0_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_0-3.json')
 
-M3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_3.json'
-M3_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_3-0.json'
-M3_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_3-1.json'
-M3_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_3-2.json'
-M3_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_3-3.json'
+M1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_1.json')
+M1_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_1-0.json')
+M1_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_1-1.json')
+M1_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_1-2.json')
+M1_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_1-3.json')
 
-M4API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_4.json'
-M4_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_4-0.json'
-M4_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_4-1.json'
-M4_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_4-2.json'
-M4_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_4-3.json'
+M2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_2.json')
+M2_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_2-0.json')
+M2_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_2-1.json')
+M2_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_2-2.json')
+M2_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_2-3.json')
 
-M5API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_5.json'
-M5_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_5-0.json'
-M5_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_5-1.json'
-M5_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_5-2.json'
-M5_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_5-3.json'
+M3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_3.json')
+M3_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_3-0.json')
+M3_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_3-1.json')
+M3_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_3-2.json')
+M3_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_3-3.json')
 
-M6API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_6.json'
-M6_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_6-0.json'
-M6_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_6-1.json'
-M6_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_6-2.json'
-M6_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_6-3.json'
+M4API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_4.json')
+M4_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_4-0.json')
+M4_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_4-1.json')
+M4_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_4-2.json')
+M4_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_4-3.json')
 
-M7API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_7.json'
-M7_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_7-0.json'
-M7_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_7-1.json'
-M7_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_7-2.json'
-M7_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_7-3.json'
+M5API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_5.json')
+M5_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_5-0.json')
+M5_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_5-1.json')
+M5_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_5-2.json')
+M5_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_5-3.json')
 
-M8API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_8.json'
-M8_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_8-0.json'
-M8_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_8-1.json'
-M8_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_8-2.json'
-M8_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_8-3.json'
+M6API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_6.json')
+M6_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_6-0.json')
+M6_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_6-1.json')
+M6_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_6-2.json')
+M6_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_6-3.json')
 
-M9API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_9.json'
-M9_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_9-0.json'
-M9_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_9-1.json'
-M9_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_9-2.json'
-M9_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_9-3.json'
+M7API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_7.json')
+M7_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_7-0.json')
+M7_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_7-1.json')
+M7_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_7-2.json')
+M7_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_7-3.json')
 
-M10API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_10.json'
-M10_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_10-0.json'
-M10_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_10-1.json'
-M10_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_10-2.json'
-M10_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_10-3.json'
+M8API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_8.json')
+M8_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_8-0.json')
+M8_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_8-1.json')
+M8_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_8-2.json')
+M8_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_8-3.json')
 
-M11API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_11.json'
-M11_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_11-0.json'
-M11_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_11-1.json'
-M11_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_11-2.json'
-M11_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_11-3.json'
+M9API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_9.json')
+M9_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_9-0.json')
+M9_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_9-1.json')
+M9_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_9-2.json')
+M9_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_9-3.json')
 
-M12API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_12.json'
-M12_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_12-0.json'
-M12_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_12-1.json'
-M12_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_12-2.json'
-M12_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_12-3.json'
+M10API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_10.json')
+M10_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_10-0.json')
+M10_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_10-1.json')
+M10_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_10-2.json')
+M10_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_10-3.json')
 
-M13API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_13.json'
-M13_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_13-0.json'
-M13_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_13-1.json'
-M13_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_13-2.json'
-M13_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_13-3.json'
+M11API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_11.json')
+M11_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_11-0.json')
+M11_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_11-1.json')
+M11_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_11-2.json')
+M11_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_11-3.json')
 
-M14API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_14.json'
-M14_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_14-0.json'
-M14_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_14-1.json'
-M14_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_14-2.json'
-M14_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_14-3.json'
+M12API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_12.json')
+M12_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_12-0.json')
+M12_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_12-1.json')
+M12_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_12-2.json')
+M12_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_12-3.json')
 
-M15API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_15.json'
-M15_0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_15-0.json'
-M15_1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_15-1.json'
-M15_2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_15-2.json'
-M15_3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_15-3.json'
+M13API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_13.json')
+M13_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_13-0.json')
+M13_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_13-1.json')
+M13_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_13-2.json')
+M13_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_13-3.json')
 
-EVALUATION_DATA_PATH = '/home/nakagawa/collaboration_test_data.json'
+M14API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_14.json')
+M14_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_14-0.json')
+M14_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_14-1.json')
+M14_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_14-2.json')
+M14_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_14-3.json')
 
-BMODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_model_weights.pth"
+M15API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_15.json')
+M15_0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_15-0.json')
+M15_1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_15-1.json')
+M15_2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_15-2.json')
+M15_3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer3_16a4a3_15-3.json')
 
-M0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_0_model_weights.pth"
-M0_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_0-0_model_weights.pth"
-M0_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_0-1_model_weights.pth"
-M0_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_0-2_model_weights.pth"
-M0_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_0-3_model_weights.pth"
+EVALUATION_DATA_PATH = legacy_path('/home/nakagawa/collaboration_test_data.json')
 
-M1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_1_model_weights.pth"
-M1_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_1-0_model_weights.pth"
-M1_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_1-1_model_weights.pth"
-M1_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_1-2_model_weights.pth"
-M1_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_1-3_model_weights.pth"
+BMODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_model_weights.pth")
 
-M2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_2_model_weights.pth"
-M2_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_2-0_model_weights.pth"
-M2_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_2-1_model_weights.pth"
-M2_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_2-2_model_weights.pth"
-M2_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_2-3_model_weights.pth"
+M0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_0_model_weights.pth")
+M0_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_0-0_model_weights.pth")
+M0_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_0-1_model_weights.pth")
+M0_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_0-2_model_weights.pth")
+M0_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_0-3_model_weights.pth")
 
-M3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_3_model_weights.pth"
-M3_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_3-0_model_weights.pth"
-M3_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_3-1_model_weights.pth"
-M3_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_3-2_model_weights.pth"
-M3_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_3-3_model_weights.pth"
+M1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_1_model_weights.pth")
+M1_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_1-0_model_weights.pth")
+M1_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_1-1_model_weights.pth")
+M1_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_1-2_model_weights.pth")
+M1_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_1-3_model_weights.pth")
 
-M4MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_4_model_weights.pth"
-M4_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_4-0_model_weights.pth"
-M4_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_4-1_model_weights.pth"
-M4_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_4-2_model_weights.pth"
-M4_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_4-3_model_weights.pth"
+M2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_2_model_weights.pth")
+M2_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_2-0_model_weights.pth")
+M2_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_2-1_model_weights.pth")
+M2_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_2-2_model_weights.pth")
+M2_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_2-3_model_weights.pth")
 
-M5MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_5_model_weights.pth"
-M5_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_5-0_model_weights.pth"
-M5_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_5-1_model_weights.pth"
-M5_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_5-2_model_weights.pth"
-M5_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_5-3_model_weights.pth"
+M3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_3_model_weights.pth")
+M3_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_3-0_model_weights.pth")
+M3_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_3-1_model_weights.pth")
+M3_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_3-2_model_weights.pth")
+M3_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_3-3_model_weights.pth")
 
-M6MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_6_model_weights.pth"
-M6_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_6-0_model_weights.pth"
-M6_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_6-1_model_weights.pth"
-M6_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_6-2_model_weights.pth"
-M6_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_6-3_model_weights.pth"
+M4MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_4_model_weights.pth")
+M4_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_4-0_model_weights.pth")
+M4_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_4-1_model_weights.pth")
+M4_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_4-2_model_weights.pth")
+M4_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_4-3_model_weights.pth")
 
-M7MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_7_model_weights.pth"
-M7_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_7-0_model_weights.pth"
-M7_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_7-1_model_weights.pth"
-M7_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_7-2_model_weights.pth"
-M7_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_7-3_model_weights.pth"
+M5MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_5_model_weights.pth")
+M5_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_5-0_model_weights.pth")
+M5_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_5-1_model_weights.pth")
+M5_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_5-2_model_weights.pth")
+M5_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_5-3_model_weights.pth")
 
-M8MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_8_model_weights.pth"
-M8_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_8-0_model_weights.pth"
-M8_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_8-1_model_weights.pth"
-M8_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_8-2_model_weights.pth"
-M8_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_8-3_model_weights.pth"
+M6MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_6_model_weights.pth")
+M6_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_6-0_model_weights.pth")
+M6_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_6-1_model_weights.pth")
+M6_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_6-2_model_weights.pth")
+M6_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_6-3_model_weights.pth")
 
-M9MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_9_model_weights.pth"
-M9_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_9-0_model_weights.pth"
-M9_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_9-1_model_weights.pth"
-M9_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_9-2_model_weights.pth"
-M9_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_9-3_model_weights.pth"
+M7MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_7_model_weights.pth")
+M7_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_7-0_model_weights.pth")
+M7_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_7-1_model_weights.pth")
+M7_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_7-2_model_weights.pth")
+M7_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_7-3_model_weights.pth")
 
-M10MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_10_model_weights.pth"
-M10_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_10-0_model_weights.pth"
-M10_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_10-1_model_weights.pth"
-M10_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_10-2_model_weights.pth"
-M10_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_10-3_model_weights.pth"
+M8MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_8_model_weights.pth")
+M8_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_8-0_model_weights.pth")
+M8_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_8-1_model_weights.pth")
+M8_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_8-2_model_weights.pth")
+M8_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_8-3_model_weights.pth")
 
-M11MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_11_model_weights.pth"
-M11_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_11-0_model_weights.pth"
-M11_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_11-1_model_weights.pth"
-M11_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_11-2_model_weights.pth"
-M11_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_11-3_model_weights.pth"
+M9MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_9_model_weights.pth")
+M9_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_9-0_model_weights.pth")
+M9_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_9-1_model_weights.pth")
+M9_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_9-2_model_weights.pth")
+M9_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_9-3_model_weights.pth")
 
-M12MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_12_model_weights.pth"
-M12_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_12-0_model_weights.pth"
-M12_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_12-1_model_weights.pth"
-M12_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_12-2_model_weights.pth"
-M12_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_12-3_model_weights.pth"
+M10MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_10_model_weights.pth")
+M10_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_10-0_model_weights.pth")
+M10_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_10-1_model_weights.pth")
+M10_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_10-2_model_weights.pth")
+M10_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_10-3_model_weights.pth")
 
-M13MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_13_model_weights.pth"
-M13_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_13-0_model_weights.pth"
-M13_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_13-1_model_weights.pth"
-M13_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_13-2_model_weights.pth"
-M13_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_13-3_model_weights.pth"
+M11MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_11_model_weights.pth")
+M11_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_11-0_model_weights.pth")
+M11_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_11-1_model_weights.pth")
+M11_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_11-2_model_weights.pth")
+M11_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_11-3_model_weights.pth")
 
-M14MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_14_model_weights.pth"
-M14_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_14-0_model_weights.pth"
-M14_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_14-1_model_weights.pth"
-M14_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_14-2_model_weights.pth"
-M14_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_14-3_model_weights.pth"
+M12MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_12_model_weights.pth")
+M12_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_12-0_model_weights.pth")
+M12_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_12-1_model_weights.pth")
+M12_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_12-2_model_weights.pth")
+M12_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_12-3_model_weights.pth")
 
-M15MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_15_model_weights.pth"
-M15_0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_15-0_model_weights.pth"
-M15_1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_15-1_model_weights.pth"
-M15_2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_15-2_model_weights.pth"
-M15_3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_15-3_model_weights.pth"
+M13MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_13_model_weights.pth")
+M13_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_13-0_model_weights.pth")
+M13_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_13-1_model_weights.pth")
+M13_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_13-2_model_weights.pth")
+M13_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_13-3_model_weights.pth")
+
+M14MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_14_model_weights.pth")
+M14_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_14-0_model_weights.pth")
+M14_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_14-1_model_weights.pth")
+M14_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_14-2_model_weights.pth")
+M14_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_14-3_model_weights.pth")
+
+M15MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_15_model_weights.pth")
+M15_0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_15-0_model_weights.pth")
+M15_1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_15-1_model_weights.pth")
+M15_2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_15-2_model_weights.pth")
+M15_3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer3_16a4a3_15-3_model_weights.pth")
 
 
 with open(M0API_CATEGORY_LIST_PATH, 'r', encoding='utf-8') as f:
@@ -1145,7 +1151,7 @@ def average_metrics(metrics_list):
 
 
 
-model_name = "/home/nakagawa/models/bert-base-uncased/"
+model_name = legacy_path("/home/nakagawa/models/bert-base-uncased/")
 tokenizer = BertTokenizer.from_pretrained(model_name)
 
 bigmodel = load_model(BertForMultilabelClassification, model_name, big_number_of_labels, path=BMODEL_WEIGHTS_PATH)

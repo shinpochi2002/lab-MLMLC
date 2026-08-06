@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # -*- coding: utf-8 -*-
 
 from pathlib import Path
@@ -7,8 +13,8 @@ import csv
 from typing import Any, Dict, List, Tuple, Set
 
 # ========= ここだけ書き換えればOK =========
-MANIFEST_PATH = Path("/home/nakagawa/softfill_mashup_data_new_api/nocategory/softfill_mashup_new_data.json")
-CATALOG_PATH  = Path("/home/nakagawa/new_api_data/api_data_new.json")
+MANIFEST_PATH = Path(legacy_path("/home/nakagawa/softfill_mashup_data_new_api/nocategory/softfill_mashup_new_data.json"))
+CATALOG_PATH  = Path(legacy_path("/home/nakagawa/new_api_data/api_data_new.json"))
 
 OUT_CSV            = Path("./api_category_pairs_with_desc.csv")          # (api, first_category, api_description)
 OUT_API_JSON       = Path("./api_dataset_like_manifest.json")            # APIのみ（softfill形式）

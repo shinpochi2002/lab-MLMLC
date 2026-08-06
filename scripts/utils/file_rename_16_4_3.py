@@ -1,9 +1,15 @@
 import os
 import re
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 DRY_RUN = False  # 実際にリネームするときは False にする
 
-BASE_DIR = "/home/nakagawa/studydata/layer3/layer3_16a4a3"
+BASE_DIR = legacy_path("/home/nakagawa/studydata/layer3/layer3_16a4a3")
 
 OLD_PREFIX = "softfill_mashup_data_new_api_category_inclu_nomash_study_data_3layer_16a4a3"
 NEW_PREFIX = "softfill_mashup_data_new_api_category_inclu_nomash_study_data_3layer_16-4-3_16"

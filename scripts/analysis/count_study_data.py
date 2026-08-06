@@ -1,8 +1,14 @@
 import json
 import os
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # ベースディレクトリとファイル名の共通部分
-base_path = "/home/nakagawa/studydata/layer3/big4_mid4/"
+base_path = legacy_path("/home/nakagawa/studydata/layer3/big4_mid4/")
 base_filename = "softfill_mashup_data_new_api_category_inclu_nomash_study_data_2layer_51_{}_study_data.json"
 
 # いくつのファイルを試すか（ここでは例として0〜9）

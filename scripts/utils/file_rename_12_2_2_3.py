@@ -1,8 +1,13 @@
 import os
 from pathlib import Path
 
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # 対象ディレクトリ
-BASE_DIR = Path("/home/nakagawa/studydata/layer4/layer4_12_2_2_3")
+BASE_DIR = Path(legacy_path("/home/nakagawa/studydata/layer4/layer4_12_2_2_3"))
 
 # 変更前・変更後の共通プレフィックス
 OLD_CORE = "softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_12a2a2a3"

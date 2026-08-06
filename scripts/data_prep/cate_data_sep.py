@@ -2,8 +2,14 @@ import json
 from collections import defaultdict
 
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # クラスタ情報を読み込み
-with open('/home/nakagawa/category_soft_clu_balanced_balanced_kmeans+_results_12ver.json', 'r', encoding='utf-8') as f:
+with open(legacy_path('/home/nakagawa/category_soft_clu_balanced_balanced_kmeans+_results_12ver.json'), 'r', encoding='utf-8') as f:
     categorized_clusters = json.load(f)
 
 # クラスタ情報を取得

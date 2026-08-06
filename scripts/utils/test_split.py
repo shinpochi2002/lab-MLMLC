@@ -2,10 +2,15 @@ import json
 import random
 from pathlib import Path
 
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # ===== 設定 =====
-SOURCE_DIR = Path("/home/nakagawa/out_by_category_inc_negative_1_10")
-TRAIN_DIR = Path("/home/nakagawa/train_by_category_inc_negative_1_10")
-TEST_DIR = Path("/home/nakagawa/test_by_category_inc_negative_1_10")
+SOURCE_DIR = Path(legacy_path("/home/nakagawa/out_by_category_inc_negative_1_10"))
+TRAIN_DIR = Path(legacy_path("/home/nakagawa/train_by_category_inc_negative_1_10"))
+TEST_DIR = Path(legacy_path("/home/nakagawa/test_by_category_inc_negative_1_10"))
 TEST_RATIO = 0.2
 random.seed(42)
 
@@ -65,7 +70,7 @@ def main():
     print(f"処理対象ファイル数: {len(files)}")
     for file in files:
         split_and_save_json(file)
-    print("✅ すべてのファイルを out_by_category_inc_negative_1_10/ と同形式で train/test に分割しました。")
+    print(legacy_path("✅ すべてのファイルを out_by_category_inc_negative_1_10/ と同形式で train/test に分割しました。"))
 
 
 if __name__ == "__main__":

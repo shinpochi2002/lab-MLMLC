@@ -9,9 +9,15 @@ import os
 import csv
 import json
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 EVALUATION_DATA_PATH = os.getenv(
     "EVALUATION_DATA_PATH",
-    '/home/nakagawa/lab-MLMLC/codex/output/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples.json'
+    legacy_path('/home/nakagawa/lab-MLMLC/codex/output/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples.json')
 )
 
 # Load evaluation data from 'mashup_data_new_test_data.json'
@@ -201,13 +207,13 @@ def per_label_metrics(true_labels_list, pred_labels_list, all_labels):
 
     return metrics, average_metrics
 
-model_name = "/home/nakagawa/lab-MLMLC/models/bert-base-uncased/"
+model_name = legacy_path("/home/nakagawa/lab-MLMLC/models/bert-base-uncased/")
 tokenizer = BertTokenizer.from_pretrained(model_name)
 
 def main2():
     # CSV 出力先
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    out_csv_path = os.getenv("OUT_CSV_PATH", os.path.join(script_dir, "csvs", "layer1_results.csv"))
+    out_csv_path = os.getenv("OUT_CSV_PATH", legacy_path("csvs/layer1_results.csv"))
     os.makedirs(os.path.dirname(out_csv_path) or ".", exist_ok=True)
 
     # 追加：CSVヘッダ
@@ -232,8 +238,8 @@ def main2():
             
             print(f"Processing text {idx + 1}/{len(evaluation_texts)}")
             print(text[:100])
-            layer1_model_path   = f"/home/nakagawa/lab-MLMLC/layer1/mashup_softfill_api_all_layer1_model_weights.pth"
-            layer1_apilist_path = f"/home/nakagawa/lab-MLMLC/api_category_list/layer1/softfill_inc_categorylist_layer1.json"
+            layer1_model_path   = legacy_path(f"/home/nakagawa/lab-MLMLC/layer1/mashup_softfill_api_all_layer1_model_weights.pth")
+            layer1_apilist_path = legacy_path(f"/home/nakagawa/lab-MLMLC/api_category_list/layer1/softfill_inc_categorylist_layer1.json")
             try:
                 with open(layer1_apilist_path, "r", encoding="utf-8") as f:
                     layer1_apilist = json.load(f)

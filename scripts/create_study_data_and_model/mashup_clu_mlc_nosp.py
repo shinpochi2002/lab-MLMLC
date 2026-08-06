@@ -9,7 +9,13 @@ from torch.utils.data import DataLoader, Dataset
 
 
 
-with open('/home/nakagawa/studydata/layer2/layer1_6/softfill_mashup_data_new_api_category_inclu_nomash_study_data_2layer_6_study_data.json', 'r', encoding='utf-8') as f:
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
+with open(legacy_path('/home/nakagawa/studydata/layer2/layer1_6/softfill_mashup_data_new_api_category_inclu_nomash_study_data_2layer_6_study_data.json'), 'r', encoding='utf-8') as f:
     api_data = json.load(f)
 
 # テキストとラベルの抽出
@@ -34,7 +40,7 @@ print(f"Number of labels after extraction: {len(labels)}")
 print(all_categories)
 
 # APIリストをJSON形式で保存
-with open("/home/nakagawa/api_category_list/layer2_6/oftfill_inc_categorylist_layer2_6.json", 'w', encoding='utf-8') as file:
+with open(legacy_path("/home/nakagawa/api_category_list/layer2_6/oftfill_inc_categorylist_layer2_6.json"), 'w', encoding='utf-8') as file:
     json.dump(list(all_categories), file, ensure_ascii=False, indent=4)
 
 # カテゴリをインデックスにマッピング
@@ -167,7 +173,7 @@ class BertForMultilabelClassification(pl.LightningModule):
         return {"optimizer": optimizer}
 
 
-def save_model(model, path="/home/nakagawa/layer2_6/mashup_softfill_api_all_layer2_6_model_weights.pth"):
+def save_model(model, path=legacy_path("/home/nakagawa/layer2_6/mashup_softfill_api_all_layer2_6_model_weights.pth")):
     
     # state_dict を取得
     state_dict = model.state_dict()

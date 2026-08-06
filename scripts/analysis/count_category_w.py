@@ -1,8 +1,14 @@
 import json
 import csv
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # JSONファイルからデータを読み込む
-with open('/home/nakagawa/softfill_mashup_data_new_api/nocategory/softfill_mashup_data_new_api_to_category.json', 'r', encoding='utf-8') as f:
+with open(legacy_path('/home/nakagawa/softfill_mashup_data_new_api/nocategory/softfill_mashup_data_new_api_to_category.json'), 'r', encoding='utf-8') as f:
     api_data = json.load(f)
 
 # カテゴリとAPIをラベルとして処理

@@ -2,13 +2,19 @@ import json
 import os
 from collections import defaultdict
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # 処理したい a, b の最大値
 max_a = 12  # 例: 0〜4
 max_b = 6  # 例: 0〜3
 
 # パスのテンプレート
-input_template = "/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/split/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_4layer_8_3_2_3_{}_{}.json"
-output_template = "/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_8_3_2_3_{}_{}.json"
+input_template = legacy_path("/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/split/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_4layer_8_3_2_3_{}_{}.json")
+output_template = legacy_path("/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/softfill_mashup_data_new_api_category_inclu_nomash_study_data_4layer_8_3_2_3_{}_{}.json")
 
 for a in range(max_a + 1):
     for b in range(max_b + 1):

@@ -2,6 +2,12 @@ import json
 import random
 import os
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # 処理する a, b の最大値
 max_a = 12
 max_b = 6
@@ -9,7 +15,7 @@ max_b = 6
 # テストデータの比率
 test_ratio = 0.20
 
-base_path = '/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/'
+base_path = legacy_path('/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/')
 
 for a in range(max_a + 1):
     for b in range(max_b + 1):

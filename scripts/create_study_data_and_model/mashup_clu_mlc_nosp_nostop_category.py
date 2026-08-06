@@ -8,10 +8,16 @@ from pytorch_lightning.callbacks import EarlyStopping
 from transformers import BertTokenizer, BertModel, AdamW
 from torch.utils.data import DataLoader, Dataset
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # ====== パス設定（必要に応じて変更） ======
-ROOT_DIR = "/home/nakagawa/out_by_category_inc_nomashup_negative_1_3"  # カテゴリ別のstudydataが入っているディレクトリ
-LABEL_OUT_DIR = "/home/nakagawa/api_category_list/category_inc_nomashup_negative_1_3_new"  # APIラベル一覧の出力先
-MODEL_OUT_DIR = "/home/nakagawa/study_category_inc_nomashup_negative_1_3_model_new"            # 学習済みモデルの出力先
+ROOT_DIR = legacy_path("/home/nakagawa/out_by_category_inc_nomashup_negative_1_3")  # カテゴリ別のstudydataが入っているディレクトリ
+LABEL_OUT_DIR = legacy_path("/home/nakagawa/api_category_list/category_inc_nomashup_negative_1_3_new")  # APIラベル一覧の出力先
+MODEL_OUT_DIR = legacy_path("/home/nakagawa/study_category_inc_nomashup_negative_1_3_model_new")            # 学習済みモデルの出力先
 os.makedirs(LABEL_OUT_DIR, exist_ok=True)
 os.makedirs(MODEL_OUT_DIR, exist_ok=True)
 

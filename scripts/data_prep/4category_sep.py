@@ -1,11 +1,17 @@
 import json
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # カテゴリーごとのAPI名リストを読み込み
 with open('8cluster_to_apis.json', 'r', encoding='utf-8') as f:
     categorized_apis = json.load(f)
 
 # 元のデータを読み込み
-with open('/home/nakagawa/softfill_mashup_data_new_api_inclu_nomash/softfill_mashup_data_new_api_category_inclu_nomash.json', 'r', encoding='utf-8') as f:
+with open(legacy_path('/home/nakagawa/softfill_mashup_data_new_api_inclu_nomash/softfill_mashup_data_new_api_category_inclu_nomash.json'), 'r', encoding='utf-8') as f:
     original_data = json.load(f)
 
 # カテゴリーごとにデータを抽出して保存

@@ -6,6 +6,12 @@ import torch.nn as nn
 import numpy as np
 import pytorch_lightning as pl
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/all_api_recommendation.json'
 # EVALUATION_DATA_PATH = '/home/nakagawa/test_data_mashup_apis.json'
 # MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_1layer_api_rec_model_weights.pth"
@@ -159,9 +165,9 @@ def average_metrics(metrics_list):
     print(f"Precision: {avg_precision}, Recall: {avg_recall}, F-Score: {avg_f_score}")
     return avg_precision, avg_recall, avg_f_score
 
-MODEL_DIR = "/home/nakagawa/study_category_inc_negative_1_10model_only_train"
-TEST_DIR = "/home/nakagawa/test_by_category_inc_negative_1_10"
-API_CATEGORY_DIR = "/home/nakagawa/api_category_list/category_inc_negative_1_10_only_train"
+MODEL_DIR = legacy_path("/home/nakagawa/study_category_inc_negative_1_10model_only_train")
+TEST_DIR = legacy_path("/home/nakagawa/test_by_category_inc_negative_1_10")
+API_CATEGORY_DIR = legacy_path("/home/nakagawa/api_category_list/category_inc_negative_1_10_only_train")
 
 def main():
     for model_file in sorted(os.listdir(MODEL_DIR)):
@@ -196,7 +202,7 @@ def main():
                 
         
         # Load the tokenizer
-        model_name = "/home/nakagawa/models/bert-base-uncased/"
+        model_name = legacy_path("/home/nakagawa/models/bert-base-uncased/")
         tokenizer = BertTokenizer.from_pretrained(model_name)
 
         # Load the saved model

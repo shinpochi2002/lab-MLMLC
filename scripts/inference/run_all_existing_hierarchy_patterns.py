@@ -10,14 +10,23 @@ import time
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import (
+    HIERARCHY_CHECKPOINTS_DIR,
+    HIERARCHY_RESULTS_DIR,
+    PROJECT_ROOT,
+    TEST_SUBSETS_DIR,
+    legacy_path,
+)
 
-LAB_ROOT = Path(__file__).resolve().parents[1]
-CODEX_ROOT = Path(__file__).resolve().parent
-BY_PATTERN_DIR = CODEX_ROOT / "output" / "by_pattern"
-DEFAULT_RESULTS_DIR = CODEX_ROOT / "results" / "hierarchy_existing_models"
-DEFAULT_MASKED_RESULTS_DIR = CODEX_ROOT / "results" / "hierarchy_existing_models_api_name_masked"
-DEFAULT_MODEL_PYTHON = Path("/home/nakagawa/venvs/swallow-py312/bin/python")
-DEFAULT_CONDITION_2X2_RESULTS_DIR = CODEX_ROOT / "results" / "hierarchy_existing_models_condition_2x2"
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+LAB_ROOT = PROJECT_ROOT
+BY_PATTERN_DIR = HIERARCHY_RESULTS_DIR / "output" / "by_pattern"
+DEFAULT_RESULTS_DIR = HIERARCHY_RESULTS_DIR / "hierarchy_existing_models"
+DEFAULT_MASKED_RESULTS_DIR = HIERARCHY_RESULTS_DIR / "hierarchy_existing_models_api_name_masked"
+DEFAULT_MODEL_PYTHON = Path(sys.executable)
+DEFAULT_CONDITION_2X2_RESULTS_DIR = HIERARCHY_RESULTS_DIR / "hierarchy_existing_models_condition_2x2"
 MASKED_DATASET = "masked"
 UNMASKED_DATASET = "unmasked"
 MASKED_SUFFIX = "_drop_unknown_samples_categories_from_collaboration_api_name_masked.json"
@@ -101,7 +110,7 @@ def make_task(
         target=target,
         subset_name=subset_name,
         layer1_category_num=layer1_category_num,
-        script_path=str(LAB_ROOT / script_name),
+        script_path=str(SCRIPT_DIR / script_name),
         evaluation_data_path=str(eval_path),
         out_csv_path=str(out_csv_path),
         log_path=str(log_path),
@@ -115,14 +124,13 @@ def first_match(pattern: str) -> Path | None:
 
 def condition_subset_root_for_task(task: EvalTask) -> Path:
     if task.layer == 1:
-        return CODEX_ROOT / "test_subsets" / "condition_analysis"
+        return TEST_SUBSETS_DIR / "condition_analysis"
 
     source_path = Path(task.evaluation_data_path)
     pattern_name = source_path.parent.name
     source_stem = source_path.stem
     return (
-        CODEX_ROOT
-        / "test_subsets"
+        TEST_SUBSETS_DIR
         / "condition_analysis_by_pattern"
         / pattern_name
         / source_stem
@@ -162,8 +170,8 @@ def discover_tasks(results_dir: Path, dataset: str = MASKED_DATASET) -> list[Eva
     eval_suffix = MASKED_SUFFIX if dataset == MASKED_DATASET else UNMASKED_SUFFIX
     layer1_file = MASKED_LAYER1_FILE if dataset == MASKED_DATASET else UNMASKED_LAYER1_FILE
 
-    layer1_eval = CODEX_ROOT / "output" / "layer1_direct_api" / layer1_file
-    if (LAB_ROOT / "layer1").is_dir() and layer1_eval.exists():
+    layer1_eval = HIERARCHY_RESULTS_DIR / "output" / "layer1_direct_api" / layer1_file
+    if (HIERARCHY_CHECKPOINTS_DIR / "layer1").is_dir() and layer1_eval.exists():
         tasks.append(
             make_task(
                 layer=1,
@@ -175,7 +183,7 @@ def discover_tasks(results_dir: Path, dataset: str = MASKED_DATASET) -> list[Eva
             )
         )
 
-    for model_dir in sorted(LAB_ROOT.glob("layer2_*"), key=lambda p: natural_key(p.name)):
+    for model_dir in sorted((HIERARCHY_CHECKPOINTS_DIR / "layer2").glob("layer2_*"), key=lambda p: natural_key(p.name)):
         layer1_num = model_dir.name.removeprefix("layer2_")
         eval_path = first_match(
             f"*/test_data_mashup_apis_with_hierarchy_layer2_{layer1_num}{eval_suffix}"
@@ -193,7 +201,7 @@ def discover_tasks(results_dir: Path, dataset: str = MASKED_DATASET) -> list[Eva
             )
         )
 
-    for model_dir in sorted(LAB_ROOT.glob("layer3_*"), key=lambda p: natural_key(p.name)):
+    for model_dir in sorted((HIERARCHY_CHECKPOINTS_DIR / "layer3").glob("layer3_*"), key=lambda p: natural_key(p.name)):
         target = model_dir.name.removeprefix("layer3_")
         eval_path = first_match(
             f"*/test_data_mashup_apis_with_hierarchy_layer3_{target}{eval_suffix}"
@@ -212,7 +220,7 @@ def discover_tasks(results_dir: Path, dataset: str = MASKED_DATASET) -> list[Eva
             )
         )
 
-    for model_dir in sorted(LAB_ROOT.glob("layer4_*"), key=lambda p: natural_key(p.name)):
+    for model_dir in sorted((HIERARCHY_CHECKPOINTS_DIR / "layer4").glob("layer4_*"), key=lambda p: natural_key(p.name)):
         target = model_dir.name.removeprefix("layer4_")
         eval_path = first_match(
             f"*/test_data_mashup_apis_with_hierarchy_layer4_{target}{eval_suffix}"
@@ -330,7 +338,7 @@ def run_task(task: EvalTask, python_cmd: str, skip_existing: bool) -> dict[str, 
         log_file.flush()
         proc = subprocess.run(
             [python_cmd, task.script_path],
-            cwd=str(LAB_ROOT.parent),
+            cwd=str(LAB_ROOT),
             env=env,
             stdout=log_file,
             stderr=subprocess.STDOUT,
@@ -351,7 +359,7 @@ def main() -> int:
         help="Evaluation dataset variant. Default: masked collaboration-category data.",
     )
     parser.add_argument("--results-dir", default=None, help="Directory for CSVs, logs, and manifests.")
-    parser.add_argument("--condition-2x2", action="store_true", help="Run codex/test_subsets condition_analysis subsets, excluding overall/all.")
+    parser.add_argument("--condition-2x2", action="store_true", help="Run data/test_subsets condition_analysis subsets, excluding overall/all.")
     parser.add_argument(
         "--python",
         default=os.getenv(

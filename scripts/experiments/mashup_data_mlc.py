@@ -7,7 +7,13 @@ from torch.utils.data import DataLoader, Dataset
 
 
 
-with open('/home/nakagawa/softfill_mashup_data_new_api_inclu_nomash/8category/softfill_mashup_data_new_api_8category_inclu_nomash_category0ver_study_data.json', 'r', encoding='utf-8') as f:
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
+with open(legacy_path('/home/nakagawa/softfill_mashup_data_new_api_inclu_nomash/8category/softfill_mashup_data_new_api_8category_inclu_nomash_category0ver_study_data.json'), 'r', encoding='utf-8') as f:
     api_data = json.load(f)
 
 # テキストとラベルの抽出

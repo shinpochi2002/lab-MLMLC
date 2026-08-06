@@ -2,7 +2,13 @@ from collections import defaultdict
 import json
 
 
-with open('/home/nakagawa/softfill_mashup_data_new_api_category_8category_mid7_7-3_split_new.json', 'r', encoding='utf-8') as f:
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
+with open(legacy_path('/home/nakagawa/softfill_mashup_data_new_api_category_8category_mid7_7-3_split_new.json'), 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 
@@ -37,5 +43,5 @@ def merge_data(data):
 merged_result = merge_data(data)
 
 
-with open('/home/nakagawa/softfill_mashup_data_new_api_category_8category_mid7_7-3_new.json', 'w', encoding='utf-8') as f:
+with open(legacy_path('/home/nakagawa/softfill_mashup_data_new_api_category_8category_mid7_7-3_new.json'), 'w', encoding='utf-8') as f:
     json.dump(merged_result, f, indent=4, ensure_ascii=False)

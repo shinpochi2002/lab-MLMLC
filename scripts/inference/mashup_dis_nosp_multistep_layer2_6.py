@@ -6,35 +6,41 @@ import numpy as np
 import pytorch_lightning as pl
 
 
-M0API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer2_6_0.json'
+from pathlib import Path
+import sys
 
-M1API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer2_6_1.json'
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
 
-M2API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer2_6_2.json'
+M0API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer2_6_0.json')
 
-M3API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer2_6_3.json'
+M1API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer2_6_1.json')
 
-M4API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer2_6_4.json'
+M2API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer2_6_2.json')
 
-M5API_CATEGORY_LIST_PATH = '/home/nakagawa/api_category_list/softfill_inc_categorylist_layer2_6_5.json'
+M3API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer2_6_3.json')
+
+M4API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer2_6_4.json')
+
+M5API_CATEGORY_LIST_PATH = legacy_path('/home/nakagawa/api_category_list/softfill_inc_categorylist_layer2_6_5.json')
 
 
-EVALUATION_DATA_PATH = '/home/nakagawa/collaboration_test_data.json'
+EVALUATION_DATA_PATH = legacy_path('/home/nakagawa/collaboration_test_data.json')
 
 
-BMODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer2_6_model_weights.pth"
+BMODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer2_6_model_weights.pth")
 
-M0MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer2_6_0_model_weights.pth"
+M0MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer2_6_0_model_weights.pth")
 
-M1MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer2_6_1_model_weights.pth"
+M1MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer2_6_1_model_weights.pth")
 
-M2MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer2_6_2_model_weights.pth"
+M2MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer2_6_2_model_weights.pth")
 
-M3MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer2_6_3_model_weights.pth"
+M3MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer2_6_3_model_weights.pth")
 
-M4MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer2_6_4_model_weights.pth"
+M4MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer2_6_4_model_weights.pth")
 
-M5MODEL_WEIGHTS_PATH = "/home/nakagawa/mashup_softfill_api_all_layer2_6_5_model_weights.pth"
+M5MODEL_WEIGHTS_PATH = legacy_path("/home/nakagawa/mashup_softfill_api_all_layer2_6_5_model_weights.pth")
 
 
 # Load class list from 'apilist.json' (API names list)
@@ -402,7 +408,7 @@ def average_metrics(metrics_list):
 
 
 
-model_name = "/home/nakagawa/models/bert-base-uncased/"
+model_name = legacy_path("/home/nakagawa/models/bert-base-uncased/")
 tokenizer = BertTokenizer.from_pretrained(model_name)
 
 bigmodel = load_model(BertForMultilabelClassification, model_name, big_number_of_labels, path=BMODEL_WEIGHTS_PATH)

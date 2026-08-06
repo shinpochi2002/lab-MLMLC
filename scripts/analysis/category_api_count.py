@@ -1,8 +1,14 @@
 import os
 import json
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # ====== パス設定 ======
-DIR_PATH = "/home/nakagawa/api_category_list/category_inc_negative_1_10"
+DIR_PATH = legacy_path("/home/nakagawa/api_category_list/category_inc_negative_1_10")
 
 # ====== 集計処理 ======
 lengths = {}

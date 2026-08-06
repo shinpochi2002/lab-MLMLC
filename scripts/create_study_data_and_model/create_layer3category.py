@@ -1,8 +1,14 @@
 import json
 import os
 
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.project_paths import legacy_path
+
 # 入力ファイル（midcategory付き）
-with open("/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/split/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_4layer_8_3_2_3_inc_mid.json", "r", encoding="utf-8") as f:
+with open(legacy_path("/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/split/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_4layer_8_3_2_3_inc_mid.json"), "r", encoding="utf-8") as f:
     service_data = json.load(f)
 
 # middle定義ファイルをキャッシュする辞書（bigcategoryごとに読み込む）
@@ -10,7 +16,7 @@ middle_maps = {}
 
 def load_middle_map(midcategory):
     new_mid = midcategory.replace("-", "_")
-    filename = f"/home/nakagawa/lab-MLMLC/cluster/8_3_2_3/category_soft_clu_balanced_balanced_kmeans+_results_8_{new_mid}_layer4_8_3_2_3ver.json"
+    filename = legacy_path(f"/home/nakagawa/lab-MLMLC/cluster/8_3_2_3/category_soft_clu_balanced_balanced_kmeans+_results_8_{new_mid}_layer4_8_3_2_3ver.json")
     if not os.path.exists(filename):
         print(f"[警告] middle cluster ファイルが存在しません: {filename}")
         return {}
@@ -51,5 +57,5 @@ for item in service_data:
     updated_data.append(item)
 
 # 保存ファイル
-with open("/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/split/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_4layer_8_3_2_3_inc_layer3.json", "w", encoding="utf-8") as f:
+with open(legacy_path("/home/nakagawa/lab-MLMLC/studydata/layer4/layer4_8_3_2_3/split/softfill_mashup_data_new_api_category_inclu_nomash_split_all_study_data_4layer_8_3_2_3_inc_layer3.json"), "w", encoding="utf-8") as f:
     json.dump(updated_data, f, indent=2, ensure_ascii=False)

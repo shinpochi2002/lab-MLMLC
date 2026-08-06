@@ -26,15 +26,21 @@ from typing import Any, Iterable, Sequence
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_INPUT = (
     ROOT
-    / "codex/output/layer1_direct_api/"
-    "test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json"
+    / "results"
+    / "hierarchy"
+    / "output"
+    / "layer1_direct_api"
+    / "test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json"
 )
 DEFAULT_OUTPUT = (
     ROOT
-    / "codex/output/layer1_direct_api/"
-    "test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration_api_name_masked.json"
+    / "results"
+    / "hierarchy"
+    / "output"
+    / "layer1_direct_api"
+    / "test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration_api_name_masked.json"
 )
-DEFAULT_CATALOG = ROOT / "api_dataset_like_manifest.json"
+DEFAULT_CATALOG = ROOT / "data" / "processed" / "root_json" / "api_dataset_like_manifest.json"
 DEFAULT_AUDIT = Path(__file__).resolve().parent / "api_name_masking_audit.json"
 DEFAULT_MASK_LOG_CSV = Path(__file__).resolve().parent / "api_name_masking_log.csv"
 DEFAULT_RESOLVED_DICTIONARY = (

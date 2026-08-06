@@ -2,19 +2,19 @@
 """Sentence-BERT + One-vs-Rest multi-label API classification baselines.
 
 Examples:
-  python codex/baseline/run_sbert_ovr_baseline.py \
-    --train_path study_data_mashup_apis.json \
-    --test_path codex/output/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json \
+  python scripts/baselines/run_sbert_ovr_baseline.py \
+    --train_path data/processed/root_json/study_data_mashup_apis.json \
+    --test_path results/hierarchy/output/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json \
     --model_type logistic \
     --threshold 0.5 \
-    --output_dir codex/baseline/results/sbert_ovr_logistic
+    --output_dir results/baselines/sbert_ovr_logistic
 
-  python codex/baseline/run_sbert_ovr_baseline.py \
-    --train_path study_data_mashup_apis.json \
-    --test_path codex/output/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json \
+  python scripts/baselines/run_sbert_ovr_baseline.py \
+    --train_path data/processed/root_json/study_data_mashup_apis.json \
+    --test_path results/hierarchy/output/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json \
     --model_type logistic \
     --tune_threshold \
-    --output_dir codex/baseline/results/sbert_ovr_logistic_tuned
+    --output_dir results/baselines/sbert_ovr_logistic_tuned
 """
 
 from __future__ import annotations
