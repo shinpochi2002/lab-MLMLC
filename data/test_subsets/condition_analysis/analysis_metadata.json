@@ -1,0 +1,119 @@
+{
+  "test_path": "/home/nakagawa/lab-MLMLC/codex/output/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json",
+  "train_path": "/home/nakagawa/lab-MLMLC/study_data_mashup_apis.json",
+  "api_category_path": "/home/nakagawa/lab-MLMLC/api_category_pairs.json",
+  "api_catalog_path": "/home/nakagawa/lab-MLMLC/api_dataset_like_manifest.json",
+  "hierarchy_paths": [
+    "/home/nakagawa/lab-MLMLC/codex/output/by_pattern/4cluster/category_hierarchy_4_4_8.json",
+    "/home/nakagawa/lab-MLMLC/codex/output/by_pattern/12_4_3/category_hierarchy_12_4_3.json",
+    "/home/nakagawa/lab-MLMLC/codex/output/by_pattern/51-3/category_hierarchy_51-3.json"
+  ],
+  "primary_hierarchy": "middle_e_12_4_3",
+  "total_samples": 336,
+  "missing_api_category_counts": {},
+  "api_frequency_quantiles": {
+    "q25": 1.0,
+    "q75": 2.0
+  },
+  "category_frequency_source": "train",
+  "category_frequency_quantiles": {
+    "q25": 1.0,
+    "q75": 16.25
+  },
+  "extended_analysis": {
+    "script": "/home/nakagawa/lab-MLMLC/codex/scripts/analyze_extended_test_subset_conditions.py",
+    "run_timestamp": "2026-06-02T15:26:36",
+    "oracle_category_candidate_quantiles": {
+      "q25": 40.0,
+      "q75": 73.0
+    },
+    "requirement_similarity_margin_max_quantiles": {
+      "q25": -0.10402275,
+      "q75": 0.022806999999999997
+    },
+    "requirement_similarity_margin_mean_quantiles": {
+      "q25": 0.01886225,
+      "q75": 0.14337525
+    },
+    "api_descriptions_loaded": 909,
+    "near_duplicate_threshold": 0.9,
+    "large_candidate_category_threshold": 50,
+    "has_train_novelty": true,
+    "hierarchy_labels": [
+      "low_e_4_4_8",
+      "middle_e_12_4_3",
+      "high_e_51-3"
+    ],
+    "missing_api_category_counts": {},
+    "category_frequency_source": "train"
+  },
+  "length_choice_subset_analysis": {
+    "script": "/home/nakagawa/lab-MLMLC/codex/scripts/create_length_choice_subsets.py",
+    "run_timestamp": "2026-06-02T17:23:35",
+    "sample_flags": "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/sample_condition_flags.csv",
+    "total_samples": 336,
+    "warnings": [],
+    "outputs": [
+      "length_choice_cross_table.csv",
+      "length_choice_cross_table_pivot.csv",
+      "length_choice_subset_summary.csv",
+      "length_choice_subset_report.md",
+      "subset_candidates/length_choice/"
+    ]
+  },
+  "condition_test_subset_creation": {
+    "script": "/home/nakagawa/lab-MLMLC/codex/scripts/create_condition_test_subsets.py",
+    "run_timestamp": "2026-06-02T18:01:59",
+    "sample_flags": "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/sample_condition_flags.csv",
+    "test_path": "/home/nakagawa/lab-MLMLC/codex/output/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json",
+    "output_dir": "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets",
+    "original_format": "dict",
+    "total_samples": 336,
+    "missing_id_count": 0,
+    "warnings": [],
+    "backups_created": [
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length/short_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length/short_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length/short_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length/short_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length/medium_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length/medium_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length/medium_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length/medium_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length/long_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length/long_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length/long_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length/long_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_choice/small_choice_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_choice/small_choice_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_choice/small_choice_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_choice/small_choice_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_choice/medium_choice_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_choice/medium_choice_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_choice/medium_choice_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_choice/medium_choice_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_choice/large_choice_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_choice/large_choice_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_choice/large_choice_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_choice/large_choice_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/short_small_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/short_small_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/short_small_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/short_small_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/short_medium_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/short_medium_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/short_medium_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/short_medium_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/short_large_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/short_large_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/short_large_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/short_large_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/medium_small_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/medium_small_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/medium_small_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/medium_small_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/medium_medium_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/medium_medium_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/medium_medium_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/medium_medium_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/medium_large_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/medium_large_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/medium_large_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/medium_large_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/long_small_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/long_small_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/long_small_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/long_small_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/long_medium_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/long_medium_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/long_medium_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/long_medium_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/long_large_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/long_large_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/long_large_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_3x3/long_large_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_2x2/info_limited_small_choice_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_2x2/info_limited_small_choice_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_2x2/info_limited_small_choice_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_2x2/info_limited_small_choice_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_2x2/info_limited_large_choice_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_2x2/info_limited_large_choice_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_2x2/info_limited_large_choice_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_2x2/info_limited_large_choice_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_2x2/info_rich_small_choice_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_2x2/info_rich_small_choice_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_2x2/info_rich_small_choice_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_2x2/info_rich_small_choice_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_2x2/info_rich_large_choice_test.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_2x2/info_rich_large_choice_test.json.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_2x2/info_rich_large_choice_ids.txt -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/by_length_choice_2x2/info_rich_large_choice_ids.txt.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/reports/test_subset_creation_summary.csv -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/reports/test_subset_creation_summary.csv.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/reports/test_subset_statistics.csv -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/reports/test_subset_statistics.csv.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/reports/test_subset_creation_report.md -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/test_subsets/reports/test_subset_creation_report.md.bak_20260602_180159",
+      "/home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/analysis_metadata.json -> /home/nakagawa/lab-MLMLC/codex/analysis_test_subset_conditions/analysis_metadata.json.bak_20260602_180159"
+    ]
+  }
+}

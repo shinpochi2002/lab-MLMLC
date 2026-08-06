@@ -1,952 +1,0 @@
-nohup: 入力を無視します
-/home/nakagawa/.pyenv/versions/3.12.10/lib/python3.12/site-packages/huggingface_hub/file_download.py:896: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-You are using a CUDA device ('NVIDIA GeForce RTX 4090') that has Tensor Cores. To properly utilize them, you should set `torch.set_float32_matmul_precision('medium' | 'high')` which will trade-off precision for performance. For more details, read https://pytorch.org/docs/stable/generated/torch.set_float32_matmul_precision.html#torch.set_float32_matmul_precision
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-/home/nakagawa/.pyenv/versions/3.12.10/lib/python3.12/site-packages/transformers/optimization.py:521: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
-  warnings.warn(
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 1.5 K 
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.935   Total estimated model params size (MB)
-[TRAIN] accounting: train=2 val=1 labels=2
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00,  5.18it/s]                                                                           Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s] Epoch 0: 100%|██████████| 1/1 [00:00<00:00,  7.35it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00,  7.34it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 115.20it/s][A
-                                                                       [AEpoch 0: 100%|██████████| 1/1 [00:00<00:00,  3.01it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00,  3.01it/s]Metric val_loss improved. New best score: 0.633
-Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  4.66it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  4.66it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 148.53it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 1/1 [00:00<00:00,  2.41it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  2.40it/s]Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  4.27it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  4.27it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 76.26it/s][A
-                                                                      [AEpoch 2: 100%|██████████| 1/1 [00:00<00:00,  2.40it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  2.40it/s]Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 3:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  5.16it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  5.15it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 156.23it/s][A
-                                                                       [AEpoch 3: 100%|██████████| 1/1 [00:00<00:00,  2.70it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  2.69it/s]Monitored metric val_loss did not improve in the last 3 records. Best score: 0.633. Signaling Trainer to stop.
-Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  2.69it/s]/home/nakagawa/.pyenv/versions/3.12.10/lib/python3.12/site-packages/huggingface_hub/file_download.py:896: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 769   
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.932   Total estimated model params size (MB)
-
-[DONE] accounting: model -> /home/nakagawa/study_category_inc_nomashup_model_new/bert_multilabel_accounting_model_weights.pth
-[DONE] accounting: labels -> /home/nakagawa/api_category_list/category_inc_nomashup_new/accounting_api_labels.json
-[TRAIN] addresses: train=1 val=1 labels=1
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 66.12it/s]                                                                           Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s] Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 22.05it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 21.97it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 146.32it/s][A
-                                                                       [AEpoch 0: 100%|██████████| 1/1 [00:00<00:00,  2.76it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00,  2.75it/s]Metric val_loss improved. New best score: 0.000
-Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  3.03it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  3.03it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 154.16it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 1/1 [00:00<00:00,  1.52it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  1.52it/s]Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  3.07it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  3.07it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 154.50it/s][A
-                                                                       [AEpoch 2: 100%|██████████| 1/1 [00:00<00:00,  1.59it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  1.58it/s]Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 3:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  2.96it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  2.96it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 152.94it/s][A
-                                                                       [AEpoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.51it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.51it/s]Monitored metric val_loss did not improve in the last 3 records. Best score: 0.000. Signaling Trainer to stop.
-Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.51it/s]GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 8.5 K 
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.963   Total estimated model params size (MB)
-
-[DONE] addresses: model -> /home/nakagawa/study_category_inc_nomashup_model_new/bert_multilabel_addresses_model_weights.pth
-[DONE] addresses: labels -> /home/nakagawa/api_category_list/category_inc_nomashup_new/addresses_api_labels.json
-[TRAIN] advertising: train=46 val=12 labels=11
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/2 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/2 [00:00<?, ?it/s]Sanity Checking DataLoader 0:  50%|█████     | 1/2 [00:00<00:00, 68.48it/s]Sanity Checking DataLoader 0: 100%|██████████| 2/2 [00:00<00:00, 22.59it/s]                                                                           Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/6 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/6 [00:00<?, ?it/s] Epoch 0:  17%|█▋        | 1/6 [00:00<00:00,  5.99it/s]Epoch 0:  17%|█▋        | 1/6 [00:00<00:00,  5.99it/s]Epoch 0:  33%|███▎      | 2/6 [00:00<00:00,  7.86it/s]Epoch 0:  33%|███▎      | 2/6 [00:00<00:00,  7.85it/s]Epoch 0:  50%|█████     | 3/6 [00:00<00:00,  8.64it/s]Epoch 0:  50%|█████     | 3/6 [00:00<00:00,  8.64it/s]Epoch 0:  67%|██████▋   | 4/6 [00:00<00:00,  9.17it/s]Epoch 0:  67%|██████▋   | 4/6 [00:00<00:00,  9.17it/s]Epoch 0:  83%|████████▎ | 5/6 [00:00<00:00,  9.42it/s]Epoch 0:  83%|████████▎ | 5/6 [00:00<00:00,  9.42it/s]Epoch 0: 100%|██████████| 6/6 [00:00<00:00,  9.91it/s]Epoch 0: 100%|██████████| 6/6 [00:00<00:00,  9.91it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/2 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/2 [00:00<?, ?it/s][A
-Validation DataLoader 0:  50%|█████     | 1/2 [00:00<00:00, 147.24it/s][A
-Validation DataLoader 0: 100%|██████████| 2/2 [00:00<00:00, 153.59it/s][A
-                                                                       [AEpoch 0: 100%|██████████| 6/6 [00:01<00:00,  5.93it/s]Epoch 0: 100%|██████████| 6/6 [00:01<00:00,  5.93it/s]Metric val_loss improved. New best score: 2.788
-Epoch 0:   0%|          | 0/6 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/6 [00:00<?, ?it/s]Epoch 1:  17%|█▋        | 1/6 [00:00<00:02,  2.08it/s]Epoch 1:  17%|█▋        | 1/6 [00:00<00:02,  2.08it/s]Epoch 1:  33%|███▎      | 2/6 [00:00<00:01,  3.51it/s]Epoch 1:  33%|███▎      | 2/6 [00:00<00:01,  3.51it/s]Epoch 1:  50%|█████     | 3/6 [00:00<00:00,  4.54it/s]Epoch 1:  50%|█████     | 3/6 [00:00<00:00,  4.54it/s]Epoch 1:  67%|██████▋   | 4/6 [00:00<00:00,  5.31it/s]Epoch 1:  67%|██████▋   | 4/6 [00:00<00:00,  5.31it/s]Epoch 1:  83%|████████▎ | 5/6 [00:00<00:00,  5.91it/s]Epoch 1:  83%|████████▎ | 5/6 [00:00<00:00,  5.91it/s]Epoch 1: 100%|██████████| 6/6 [00:00<00:00,  6.51it/s]Epoch 1: 100%|██████████| 6/6 [00:00<00:00,  6.51it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/2 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/2 [00:00<?, ?it/s][A
-Validation DataLoader 0:  50%|█████     | 1/2 [00:00<00:00, 148.63it/s][A
-Validation DataLoader 0: 100%|██████████| 2/2 [00:00<00:00, 151.17it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 6/6 [00:01<00:00,  4.50it/s]Epoch 1: 100%|██████████| 6/6 [00:01<00:00,  4.50it/s]Epoch 1:   0%|          | 0/6 [00:00<?, ?it/s]        Epoch 2:   0%|          | 0/6 [00:00<?, ?it/s]Epoch 2:  17%|█▋        | 1/6 [00:00<00:02,  2.03it/s]Epoch 2:  17%|█▋        | 1/6 [00:00<00:02,  2.03it/s]Epoch 2:  33%|███▎      | 2/6 [00:00<00:01,  3.41it/s]Epoch 2:  33%|███▎      | 2/6 [00:00<00:01,  3.41it/s]Epoch 2:  50%|█████     | 3/6 [00:00<00:00,  4.43it/s]Epoch 2:  50%|█████     | 3/6 [00:00<00:00,  4.43it/s]Epoch 2:  67%|██████▋   | 4/6 [00:00<00:00,  5.21it/s]Epoch 2:  67%|██████▋   | 4/6 [00:00<00:00,  5.21it/s]Epoch 2:  83%|████████▎ | 5/6 [00:00<00:00,  5.84it/s]Epoch 2:  83%|████████▎ | 5/6 [00:00<00:00,  5.84it/s]Epoch 2: 100%|██████████| 6/6 [00:00<00:00,  6.44it/s]Epoch 2: 100%|██████████| 6/6 [00:00<00:00,  6.44it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/2 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/2 [00:00<?, ?it/s][A
-Validation DataLoader 0:  50%|█████     | 1/2 [00:00<00:00, 147.39it/s][A
-Validation DataLoader 0: 100%|██████████| 2/2 [00:00<00:00, 133.91it/s][A
-                                                                       [AEpoch 2: 100%|██████████| 6/6 [00:01<00:00,  4.46it/s]Epoch 2: 100%|██████████| 6/6 [00:01<00:00,  4.45it/s]Epoch 2:   0%|          | 0/6 [00:00<?, ?it/s]        Epoch 3:   0%|          | 0/6 [00:00<?, ?it/s]Epoch 3:  17%|█▋        | 1/6 [00:00<00:02,  2.14it/s]Epoch 3:  17%|█▋        | 1/6 [00:00<00:02,  2.14it/s]Epoch 3:  33%|███▎      | 2/6 [00:00<00:01,  3.57it/s]Epoch 3:  33%|███▎      | 2/6 [00:00<00:01,  3.57it/s]Epoch 3:  50%|█████     | 3/6 [00:00<00:00,  4.62it/s]Epoch 3:  50%|█████     | 3/6 [00:00<00:00,  4.62it/s]Epoch 3:  67%|██████▋   | 4/6 [00:00<00:00,  5.43it/s]Epoch 3:  67%|██████▋   | 4/6 [00:00<00:00,  5.43it/s]Epoch 3:  83%|████████▎ | 5/6 [00:00<00:00,  6.03it/s]Epoch 3:  83%|████████▎ | 5/6 [00:00<00:00,  6.03it/s]Epoch 3: 100%|██████████| 6/6 [00:00<00:00,  6.64it/s]Epoch 3: 100%|██████████| 6/6 [00:00<00:00,  6.64it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/2 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/2 [00:00<?, ?it/s][A
-Validation DataLoader 0:  50%|█████     | 1/2 [00:00<00:00, 126.25it/s][A
-Validation DataLoader 0: 100%|██████████| 2/2 [00:00<00:00, 139.40it/s][A
-                                                                       [AEpoch 3: 100%|██████████| 6/6 [00:01<00:00,  4.58it/s]Epoch 3: 100%|██████████| 6/6 [00:01<00:00,  4.58it/s]Monitored metric val_loss did not improve in the last 3 records. Best score: 2.788. Signaling Trainer to stop.
-Epoch 3: 100%|██████████| 6/6 [00:01<00:00,  4.45it/s]GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 6.2 K 
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.954   Total estimated model params size (MB)
-
-[DONE] advertising: model -> /home/nakagawa/study_category_inc_nomashup_model_new/bert_multilabel_advertising_model_weights.pth
-[DONE] advertising: labels -> /home/nakagawa/api_category_list/category_inc_nomashup_new/advertising_api_labels.json
-[SKIP] air-travel: count=1
-[TRAIN] analytics: train=24 val=6 labels=8
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 116.29it/s]                                                                            Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/3 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/3 [00:00<?, ?it/s] Epoch 0:  33%|███▎      | 1/3 [00:00<00:00,  9.45it/s]Epoch 0:  33%|███▎      | 1/3 [00:00<00:00,  9.43it/s]Epoch 0:  67%|██████▋   | 2/3 [00:00<00:00, 10.43it/s]Epoch 0:  67%|██████▋   | 2/3 [00:00<00:00, 10.43it/s]Epoch 0: 100%|██████████| 3/3 [00:00<00:00, 10.57it/s]Epoch 0: 100%|██████████| 3/3 [00:00<00:00, 10.56it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 115.15it/s][A
-                                                                       [AEpoch 0: 100%|██████████| 3/3 [00:00<00:00,  3.64it/s]Epoch 0: 100%|██████████| 3/3 [00:00<00:00,  3.63it/s]Metric val_loss improved. New best score: 1.548
-Epoch 0:   0%|          | 0/3 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/3 [00:00<?, ?it/s]Epoch 1:  33%|███▎      | 1/3 [00:00<00:01,  1.59it/s]Epoch 1:  33%|███▎      | 1/3 [00:00<00:01,  1.59it/s]Epoch 1:  67%|██████▋   | 2/3 [00:00<00:00,  2.77it/s]Epoch 1:  67%|██████▋   | 2/3 [00:00<00:00,  2.77it/s]Epoch 1: 100%|██████████| 3/3 [00:00<00:00,  3.68it/s]Epoch 1: 100%|██████████| 3/3 [00:00<00:00,  3.68it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 146.11it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 3/3 [00:01<00:00,  2.19it/s]Epoch 1: 100%|██████████| 3/3 [00:01<00:00,  2.19it/s]Metric val_loss improved by 0.006 >= min_delta = 0.0. New best score: 1.542
-Epoch 1:   0%|          | 0/3 [00:00<?, ?it/s]        Epoch 2:   0%|          | 0/3 [00:00<?, ?it/s]Epoch 2:  33%|███▎      | 1/3 [00:00<00:01,  1.53it/s]Epoch 2:  33%|███▎      | 1/3 [00:00<00:01,  1.53it/s]Epoch 2:  67%|██████▋   | 2/3 [00:00<00:00,  2.68it/s]Epoch 2:  67%|██████▋   | 2/3 [00:00<00:00,  2.68it/s]Epoch 2: 100%|██████████| 3/3 [00:00<00:00,  3.60it/s]Epoch 2: 100%|██████████| 3/3 [00:00<00:00,  3.59it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 107.00it/s][A
-                                                                       [AEpoch 2: 100%|██████████| 3/3 [00:01<00:00,  2.08it/s]Epoch 2: 100%|██████████| 3/3 [00:01<00:00,  2.08it/s]Epoch 2:   0%|          | 0/3 [00:00<?, ?it/s]        Epoch 3:   0%|          | 0/3 [00:00<?, ?it/s]Epoch 3:  33%|███▎      | 1/3 [00:00<00:01,  1.62it/s]Epoch 3:  33%|███▎      | 1/3 [00:00<00:01,  1.62it/s]Epoch 3:  67%|██████▋   | 2/3 [00:00<00:00,  2.83it/s]Epoch 3:  67%|██████▋   | 2/3 [00:00<00:00,  2.83it/s]Epoch 3: 100%|██████████| 3/3 [00:00<00:00,  3.75it/s]Epoch 3: 100%|██████████| 3/3 [00:00<00:00,  3.75it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 144.10it/s][A
-                                                                       [AEpoch 3: 100%|██████████| 3/3 [00:01<00:00,  2.19it/s]Epoch 3: 100%|██████████| 3/3 [00:01<00:00,  2.19it/s]Epoch 3:   0%|          | 0/3 [00:00<?, ?it/s]        Epoch 4:   0%|          | 0/3 [00:00<?, ?it/s]Epoch 4:  33%|███▎      | 1/3 [00:00<00:01,  1.72it/s]Epoch 4:  33%|███▎      | 1/3 [00:00<00:01,  1.72it/s]Epoch 4:  67%|██████▋   | 2/3 [00:00<00:00,  2.95it/s]Epoch 4:  67%|██████▋   | 2/3 [00:00<00:00,  2.95it/s]Epoch 4: 100%|██████████| 3/3 [00:00<00:00,  3.91it/s]Epoch 4: 100%|██████████| 3/3 [00:00<00:00,  3.91it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 140.05it/s][A
-                                                                       [AEpoch 4: 100%|██████████| 3/3 [00:01<00:00,  2.28it/s]Epoch 4: 100%|██████████| 3/3 [00:01<00:00,  2.28it/s]Monitored metric val_loss did not improve in the last 3 records. Best score: 1.542. Signaling Trainer to stop.
-Epoch 4: 100%|██████████| 3/3 [00:01<00:00,  2.25it/s]GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 769   
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.932   Total estimated model params size (MB)
-
-[DONE] analytics: model -> /home/nakagawa/study_category_inc_nomashup_model_new/bert_multilabel_analytics_model_weights.pth
-[DONE] analytics: labels -> /home/nakagawa/api_category_list/category_inc_nomashup_new/analytics_api_labels.json
-[TRAIN] animals: train=1 val=1 labels=1
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 121.73it/s]                                                                            Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s] Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 23.47it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 23.38it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 57.51it/s][A
-                                                                      [AEpoch 0: 100%|██████████| 1/1 [00:00<00:00,  1.58it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00,  1.57it/s]Metric val_loss improved. New best score: 0.000
-Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  1.66it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  1.66it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 148.18it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.88it/s]Epoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.88it/s]Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  1.67it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  1.66it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 147.95it/s][A
-                                                                       [AEpoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.85it/s]Epoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.85it/s]Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 3:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.77it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.77it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 123.82it/s][A
-                                                                       [AEpoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.86it/s]Epoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.86it/s]Monitored metric val_loss did not improve in the last 3 records. Best score: 0.000. Signaling Trainer to stop.
-Epoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.86it/s]GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 1.5 K 
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.935   Total estimated model params size (MB)
-
-[DONE] animals: model -> /home/nakagawa/study_category_inc_nomashup_model_new/bert_multilabel_animals_model_weights.pth
-[DONE] animals: labels -> /home/nakagawa/api_category_list/category_inc_nomashup_new/animals_api_labels.json
-[TRAIN] api: train=5 val=2 labels=2
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 120.53it/s]                                                                            Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s] Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 13.38it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 13.35it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 151.21it/s][A
-                                                                       [AEpoch 0: 100%|██████████| 1/1 [00:00<00:00,  1.60it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00,  1.60it/s]Metric val_loss improved. New best score: 0.873
-Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  1.60it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  1.60it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 147.73it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.81it/s]Epoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.81it/s]Metric val_loss improved by 0.012 >= min_delta = 0.0. New best score: 0.861
-Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  1.64it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  1.64it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 145.46it/s][A
-                                                                       [AEpoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.85it/s]Epoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.85it/s]Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 3:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.60it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.60it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 148.12it/s][A
-                                                                       [AEpoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.82it/s]Epoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.82it/s]Epoch 3:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 4:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 4: 100%|██████████| 1/1 [00:00<00:00,  1.62it/s]Epoch 4: 100%|██████████| 1/1 [00:00<00:00,  1.62it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 150.11it/s][A
-                                                                       [AEpoch 4: 100%|██████████| 1/1 [00:01<00:00,  0.83it/s]Epoch 4: 100%|██████████| 1/1 [00:01<00:00,  0.83it/s]Monitored metric val_loss did not improve in the last 3 records. Best score: 0.861. Signaling Trainer to stop.
-Epoch 4: 100%|██████████| 1/1 [00:01<00:00,  0.83it/s]GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 2.3 K 
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.938   Total estimated model params size (MB)
-
-[DONE] api: model -> /home/nakagawa/study_category_inc_nomashup_model_new/bert_multilabel_api_model_weights.pth
-[DONE] api: labels -> /home/nakagawa/api_category_list/category_inc_nomashup_new/api_api_labels.json
-[SKIP] application-development: count=1
-[TRAIN] applications: train=4 val=1 labels=3
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 122.76it/s]                                                                            Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s] Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 15.24it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 15.20it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 151.80it/s][A
-                                                                       [AEpoch 0: 100%|██████████| 1/1 [00:00<00:00,  1.66it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00,  1.66it/s]Metric val_loss improved. New best score: 0.728
-Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  1.61it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  1.61it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 127.35it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.82it/s]Epoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.82it/s]Metric val_loss improved by 0.003 >= min_delta = 0.0. New best score: 0.724
-Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  1.54it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  1.54it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 149.54it/s][A
-                                                                       [AEpoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.82it/s]Epoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.82it/s]Metric val_loss improved by 0.011 >= min_delta = 0.0. New best score: 0.714
-Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 3:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.66it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.66it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 152.64it/s][A
-                                                                       [AEpoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.86it/s]Epoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.86it/s]Metric val_loss improved by 0.019 >= min_delta = 0.0. New best score: 0.695
-Epoch 3:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 4:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 4: 100%|██████████| 1/1 [00:00<00:00,  1.71it/s]Epoch 4: 100%|██████████| 1/1 [00:00<00:00,  1.71it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 151.06it/s][A
-                                                                       [AEpoch 4: 100%|██████████| 1/1 [00:01<00:00,  0.83it/s]Epoch 4: 100%|██████████| 1/1 [00:01<00:00,  0.83it/s]Metric val_loss improved by 0.014 >= min_delta = 0.0. New best score: 0.681
-Epoch 4:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 5:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 5: 100%|██████████| 1/1 [00:00<00:00,  1.66it/s]Epoch 5: 100%|██████████| 1/1 [00:00<00:00,  1.66it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 149.52it/s][A
-                                                                       [AEpoch 5: 100%|██████████| 1/1 [00:01<00:00,  0.86it/s]Epoch 5: 100%|██████████| 1/1 [00:01<00:00,  0.86it/s]Metric val_loss improved by 0.010 >= min_delta = 0.0. New best score: 0.671
-Epoch 5:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 6:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 6: 100%|██████████| 1/1 [00:00<00:00,  1.71it/s]Epoch 6: 100%|██████████| 1/1 [00:00<00:00,  1.71it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 156.57it/s][A
-                                                                       [AEpoch 6: 100%|██████████| 1/1 [00:01<00:00,  0.86it/s]Epoch 6: 100%|██████████| 1/1 [00:01<00:00,  0.86it/s]Metric val_loss improved by 0.009 >= min_delta = 0.0. New best score: 0.663
-Epoch 6:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 7:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 7: 100%|██████████| 1/1 [00:00<00:00,  1.68it/s]Epoch 7: 100%|██████████| 1/1 [00:00<00:00,  1.68it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 153.65it/s][A
-                                                                       [AEpoch 7: 100%|██████████| 1/1 [00:01<00:00,  0.85it/s]Epoch 7: 100%|██████████| 1/1 [00:01<00:00,  0.85it/s]Metric val_loss improved by 0.005 >= min_delta = 0.0. New best score: 0.658
-Epoch 7:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 8:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 8: 100%|██████████| 1/1 [00:00<00:00,  1.70it/s]Epoch 8: 100%|██████████| 1/1 [00:00<00:00,  1.70it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 151.05it/s][A
-                                                                       [AEpoch 8: 100%|██████████| 1/1 [00:01<00:00,  0.86it/s]Epoch 8: 100%|██████████| 1/1 [00:01<00:00,  0.86it/s]Metric val_loss improved by 0.005 >= min_delta = 0.0. New best score: 0.653
-Epoch 8:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 9:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 9: 100%|██████████| 1/1 [00:00<00:00,  1.64it/s]Epoch 9: 100%|██████████| 1/1 [00:00<00:00,  1.63it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 154.72it/s][A
-                                                                       [AEpoch 9: 100%|██████████| 1/1 [00:01<00:00,  0.86it/s]Epoch 9: 100%|██████████| 1/1 [00:01<00:00,  0.86it/s]Metric val_loss improved by 0.003 >= min_delta = 0.0. New best score: 0.650
-Epoch 9:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 10:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 10: 100%|██████████| 1/1 [00:00<00:00,  1.60it/s]Epoch 10: 100%|██████████| 1/1 [00:00<00:00,  1.60it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 150.13it/s][A
-                                                                       [AEpoch 10: 100%|██████████| 1/1 [00:01<00:00,  0.84it/s]Epoch 10: 100%|██████████| 1/1 [00:01<00:00,  0.84it/s]Metric val_loss improved by 0.001 >= min_delta = 0.0. New best score: 0.649
-Epoch 10:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 11:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 11: 100%|██████████| 1/1 [00:00<00:00,  1.65it/s]Epoch 11: 100%|██████████| 1/1 [00:00<00:00,  1.65it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 124.96it/s][A
-                                                                       [AEpoch 11: 100%|██████████| 1/1 [00:01<00:00,  0.85it/s]Epoch 11: 100%|██████████| 1/1 [00:01<00:00,  0.85it/s]Epoch 11:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 12:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 12: 100%|██████████| 1/1 [00:00<00:00,  1.68it/s]Epoch 12: 100%|██████████| 1/1 [00:00<00:00,  1.67it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 58.27it/s][A
-                                                                      [AEpoch 12: 100%|██████████| 1/1 [00:01<00:00,  0.81it/s]Epoch 12: 100%|██████████| 1/1 [00:01<00:00,  0.81it/s]Epoch 12:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 13:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 13: 100%|██████████| 1/1 [00:00<00:00,  1.67it/s]Epoch 13: 100%|██████████| 1/1 [00:00<00:00,  1.67it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 154.52it/s][A
-                                                                       [AEpoch 13: 100%|██████████| 1/1 [00:01<00:00,  0.87it/s]Epoch 13: 100%|██████████| 1/1 [00:01<00:00,  0.87it/s]Monitored metric val_loss did not improve in the last 3 records. Best score: 0.649. Signaling Trainer to stop.
-Epoch 13: 100%|██████████| 1/1 [00:01<00:00,  0.87it/s]GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 769   
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.932   Total estimated model params size (MB)
-
-[DONE] applications: model -> /home/nakagawa/study_category_inc_nomashup_model_new/bert_multilabel_applications_model_weights.pth
-[DONE] applications: labels -> /home/nakagawa/api_category_list/category_inc_nomashup_new/applications_api_labels.json
-[TRAIN] astronomy: train=1 val=1 labels=1
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 119.05it/s]                                                                            Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s] Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 21.47it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 21.40it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 141.83it/s][A
-                                                                       [AEpoch 0: 100%|██████████| 1/1 [00:00<00:00,  1.75it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00,  1.74it/s]Metric val_loss improved. New best score: 0.000
-Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  1.82it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  1.82it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 152.14it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.95it/s]Epoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.95it/s]Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  1.93it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  1.93it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 148.89it/s][A
-                                                                       [AEpoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.96it/s]Epoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.96it/s]Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 3:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.84it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.84it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 148.43it/s][A
-                                                                       [AEpoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.92it/s]Epoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.92it/s]Monitored metric val_loss did not improve in the last 3 records. Best score: 0.000. Signaling Trainer to stop.
-Epoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.92it/s]GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 1.5 K 
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.935   Total estimated model params size (MB)
-
-[DONE] astronomy: model -> /home/nakagawa/study_category_inc_nomashup_model_new/bert_multilabel_astronomy_model_weights.pth
-[DONE] astronomy: labels -> /home/nakagawa/api_category_list/category_inc_nomashup_new/astronomy_api_labels.json
-[SKIP] authentication: count=1
-[TRAIN] auto: train=2 val=1 labels=2
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 120.47it/s]                                                                            Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s] Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 20.49it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 20.42it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 143.74it/s][A
-                                                                       [AEpoch 0: 100%|██████████| 1/1 [00:00<00:00,  1.48it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00,  1.48it/s]Metric val_loss improved. New best score: 1.198
-Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  1.65it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  1.65it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 150.13it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.84it/s]Epoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.84it/s]Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  1.60it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  1.60it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 74.91it/s][A
-                                                                      [AEpoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.83it/s]Epoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.83it/s]Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 3:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.53it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.53it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 71.38it/s][A
-                                                                      [AEpoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.76it/s]Epoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.76it/s]Monitored metric val_loss did not improve in the last 3 records. Best score: 1.198. Signaling Trainer to stop.
-Epoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.76it/s]GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 3.8 K 
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.944   Total estimated model params size (MB)
-
-[DONE] auto: model -> /home/nakagawa/study_category_inc_nomashup_model_new/bert_multilabel_auto_model_weights.pth
-[DONE] auto: labels -> /home/nakagawa/api_category_list/category_inc_nomashup_new/auto_api_labels.json
-[TRAIN] backend: train=5 val=2 labels=5
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 115.34it/s]                                                                            Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s] Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 13.93it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 13.89it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 144.26it/s][A
-                                                                       [AEpoch 0: 100%|██████████| 1/1 [00:00<00:00,  1.33it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00,  1.33it/s]Metric val_loss improved. New best score: 0.840
-Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  1.33it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  1.33it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 122.66it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.70it/s]Epoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.70it/s]Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  1.31it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  1.31it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 145.28it/s][A
-                                                                       [AEpoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.68it/s]Epoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.68it/s]Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 3:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.25it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.25it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 147.25it/s][A
-                                                                       [AEpoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.65it/s]Epoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.65it/s]Monitored metric val_loss did not improve in the last 3 records. Best score: 0.840. Signaling Trainer to stop.
-Epoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.65it/s]GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 769   
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.932   Total estimated model params size (MB)
-
-[DONE] backend: model -> /home/nakagawa/study_category_inc_nomashup_model_new/bert_multilabel_backend_model_weights.pth
-[DONE] backend: labels -> /home/nakagawa/api_category_list/category_inc_nomashup_new/backend_api_labels.json
-[SKIP] barcodes: count=1
-[TRAIN] big-data: train=1 val=1 labels=1
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 115.36it/s]                                                                            Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s] Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 24.78it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 24.67it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 148.28it/s][A
-                                                                       [AEpoch 0: 100%|██████████| 1/1 [00:00<00:00,  1.08it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00,  1.08it/s]Metric val_loss improved. New best score: 0.000
-Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  1.14it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  1.14it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 153.13it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.59it/s]Epoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.59it/s]Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  1.17it/s]Epoch 2: 100%|██████████| 1/1 [00:00<00:00,  1.17it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 148.46it/s][A
-                                                                       [AEpoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.58it/s]Epoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.58it/s]Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 3:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.12it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.12it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 147.54it/s][A
-                                                                       [AEpoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.57it/s]Epoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.57it/s]Monitored metric val_loss did not improve in the last 3 records. Best score: 0.000. Signaling Trainer to stop.
-Epoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.57it/s]GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 1.5 K 
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.935   Total estimated model params size (MB)
-
-[DONE] big-data: model -> /home/nakagawa/study_category_inc_nomashup_model_new/bert_multilabel_big-data_model_weights.pth
-[DONE] big-data: labels -> /home/nakagawa/api_category_list/category_inc_nomashup_new/big-data_api_labels.json
-[SKIP] biometrics: count=1
-[TRAIN] bitcoin: train=2 val=1 labels=2
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 119.50it/s]                                                                            Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s] Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 21.44it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 21.36it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 146.11it/s][A
-                                                                       [AEpoch 0: 100%|██████████| 1/1 [00:01<00:00,  0.92it/s]Epoch 0: 100%|██████████| 1/1 [00:01<00:00,  0.92it/s]Metric val_loss improved. New best score: 0.561
-Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]Epoch 1: 100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 152.64it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.51it/s]Epoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.51it/s]Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.95it/s]Epoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.95it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 148.37it/s][A
-                                                                       [AEpoch 2: 100%|██████████| 1/1 [00:02<00:00,  0.48it/s]Epoch 2: 100%|██████████| 1/1 [00:02<00:00,  0.48it/s]Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 3:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.01it/s]Epoch 3: 100%|██████████| 1/1 [00:00<00:00,  1.01it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 152.47it/s][A
-                                                                       [AEpoch 3: 100%|██████████| 1/1 [00:02<00:00,  0.49it/s]Epoch 3: 100%|██████████| 1/1 [00:02<00:00,  0.49it/s]Monitored metric val_loss did not improve in the last 3 records. Best score: 0.561. Signaling Trainer to stop.
-Epoch 3: 100%|██████████| 1/1 [00:02<00:00,  0.49it/s]GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 6.9 K 
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.957   Total estimated model params size (MB)
-
-[DONE] bitcoin: model -> /home/nakagawa/study_category_inc_nomashup_model_new/bert_multilabel_bitcoin_model_weights.pth
-[DONE] bitcoin: labels -> /home/nakagawa/api_category_list/category_inc_nomashup_new/bitcoin_api_labels.json
-[SKIP] blockchain: count=1
-[TRAIN] blogging: train=25 val=7 labels=9
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 102.64it/s]                                                                            Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/4 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/4 [00:00<?, ?it/s] Epoch 0:  25%|██▌       | 1/4 [00:00<00:00,  9.16it/s]Epoch 0:  25%|██▌       | 1/4 [00:00<00:00,  9.14it/s]Epoch 0:  50%|█████     | 2/4 [00:00<00:00, 10.36it/s]Epoch 0:  50%|█████     | 2/4 [00:00<00:00, 10.35it/s]Epoch 0:  75%|███████▌  | 3/4 [00:00<00:00, 10.77it/s]Epoch 0:  75%|███████▌  | 3/4 [00:00<00:00, 10.76it/s]Epoch 0: 100%|██████████| 4/4 [00:00<00:00, 13.29it/s]Epoch 0: 100%|██████████| 4/4 [00:00<00:00, 13.28it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 142.19it/s][A
-                                                                       [AEpoch 0: 100%|██████████| 4/4 [00:01<00:00,  2.71it/s]Epoch 0: 100%|██████████| 4/4 [00:01<00:00,  2.71it/s]Metric val_loss improved. New best score: 1.412
-Epoch 0:   0%|          | 0/4 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/4 [00:00<?, ?it/s]Epoch 1:  25%|██▌       | 1/4 [00:01<00:03,  0.79it/s]Epoch 1:  25%|██▌       | 1/4 [00:01<00:03,  0.79it/s]Epoch 1:  50%|█████     | 2/4 [00:01<00:01,  1.48it/s]Epoch 1:  50%|█████     | 2/4 [00:01<00:01,  1.48it/s]Epoch 1:  75%|███████▌  | 3/4 [00:01<00:00,  2.09it/s]Epoch 1:  75%|███████▌  | 3/4 [00:01<00:00,  2.09it/s]Epoch 1: 100%|██████████| 4/4 [00:01<00:00,  2.75it/s]Epoch 1: 100%|██████████| 4/4 [00:01<00:00,  2.75it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 143.18it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 4/4 [00:02<00:00,  1.52it/s]Epoch 1: 100%|██████████| 4/4 [00:02<00:00,  1.52it/s]Epoch 1:   0%|          | 0/4 [00:00<?, ?it/s]        Epoch 2:   0%|          | 0/4 [00:00<?, ?it/s]Epoch 2:  25%|██▌       | 1/4 [00:01<00:03,  0.80it/s]Epoch 2:  25%|██▌       | 1/4 [00:01<00:03,  0.80it/s]Epoch 2:  50%|█████     | 2/4 [00:01<00:01,  1.49it/s]Epoch 2:  50%|█████     | 2/4 [00:01<00:01,  1.49it/s]Epoch 2:  75%|███████▌  | 3/4 [00:01<00:00,  2.10it/s]Epoch 2:  75%|███████▌  | 3/4 [00:01<00:00,  2.10it/s]Epoch 2: 100%|██████████| 4/4 [00:01<00:00,  2.76it/s]Epoch 2: 100%|██████████| 4/4 [00:01<00:00,  2.76it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 143.13it/s][A
-                                                                       [AEpoch 2: 100%|██████████| 4/4 [00:02<00:00,  1.53it/s]Epoch 2: 100%|██████████| 4/4 [00:02<00:00,  1.53it/s]Epoch 2:   0%|          | 0/4 [00:00<?, ?it/s]        Epoch 3:   0%|          | 0/4 [00:00<?, ?it/s]Epoch 3:  25%|██▌       | 1/4 [00:01<00:03,  0.90it/s]Epoch 3:  25%|██▌       | 1/4 [00:01<00:03,  0.90it/s]Epoch 3:  50%|█████     | 2/4 [00:01<00:01,  1.67it/s]Epoch 3:  50%|█████     | 2/4 [00:01<00:01,  1.67it/s]Epoch 3:  75%|███████▌  | 3/4 [00:01<00:00,  2.33it/s]Epoch 3:  75%|███████▌  | 3/4 [00:01<00:00,  2.33it/s]Epoch 3: 100%|██████████| 4/4 [00:01<00:00,  3.06it/s]Epoch 3: 100%|██████████| 4/4 [00:01<00:00,  3.06it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 145.55it/s][A
-                                                                       [AEpoch 3: 100%|██████████| 4/4 [00:02<00:00,  1.69it/s]Epoch 3: 100%|██████████| 4/4 [00:02<00:00,  1.69it/s]Monitored metric val_loss did not improve in the last 3 records. Best score: 1.412. Signaling Trainer to stop.
-Epoch 3: 100%|██████████| 4/4 [00:02<00:00,  1.68it/s]GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 3.8 K 
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.944   Total estimated model params size (MB)
-
-[DONE] blogging: model -> /home/nakagawa/study_category_inc_nomashup_model_new/bert_multilabel_blogging_model_weights.pth
-[DONE] blogging: labels -> /home/nakagawa/api_category_list/category_inc_nomashup_new/blogging_api_labels.json
-[TRAIN] bookmarks: train=37 val=10 labels=5
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/2 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/2 [00:00<?, ?it/s]Sanity Checking DataLoader 0:  50%|█████     | 1/2 [00:00<00:00, 87.55it/s]Sanity Checking DataLoader 0: 100%|██████████| 2/2 [00:00<00:00, 38.39it/s]                                                                           Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/5 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/5 [00:00<?, ?it/s] Epoch 0:  20%|██        | 1/5 [00:00<00:00, 10.86it/s]Epoch 0:  20%|██        | 1/5 [00:00<00:00, 10.83it/s]Epoch 0:  40%|████      | 2/5 [00:00<00:00, 11.11it/s]Epoch 0:  40%|████      | 2/5 [00:00<00:00, 11.10it/s]Epoch 0:  60%|██████    | 3/5 [00:00<00:00, 11.20it/s]Epoch 0:  60%|██████    | 3/5 [00:00<00:00, 11.19it/s]Epoch 0:  80%|████████  | 4/5 [00:00<00:00, 11.14it/s]Epoch 0:  80%|████████  | 4/5 [00:00<00:00, 11.13it/s]Epoch 0: 100%|██████████| 5/5 [00:00<00:00, 11.93it/s]Epoch 0: 100%|██████████| 5/5 [00:00<00:00, 11.92it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/2 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/2 [00:00<?, ?it/s][A
-Validation DataLoader 0:  50%|█████     | 1/2 [00:00<00:00, 147.20it/s][A
-Validation DataLoader 0: 100%|██████████| 2/2 [00:00<00:00, 150.17it/s][A
-                                                                       [AEpoch 0: 100%|██████████| 5/5 [00:01<00:00,  3.05it/s]Epoch 0: 100%|██████████| 5/5 [00:01<00:00,  3.04it/s]Metric val_loss improved. New best score: 1.096
-Epoch 0:   0%|          | 0/5 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/5 [00:00<?, ?it/s]Epoch 1:  20%|██        | 1/5 [00:01<00:04,  0.80it/s]Epoch 1:  20%|██        | 1/5 [00:01<00:04,  0.80it/s]Epoch 1:  40%|████      | 2/5 [00:01<00:02,  1.50it/s]Epoch 1:  40%|████      | 2/5 [00:01<00:02,  1.49it/s]Epoch 1:  60%|██████    | 3/5 [00:01<00:00,  2.10it/s]Epoch 1:  60%|██████    | 3/5 [00:01<00:00,  2.10it/s]Epoch 1:  80%|████████  | 4/5 [00:01<00:00,  2.64it/s]Epoch 1:  80%|████████  | 4/5 [00:01<00:00,  2.64it/s]Epoch 1: 100%|██████████| 5/5 [00:01<00:00,  3.17it/s]Epoch 1: 100%|██████████| 5/5 [00:01<00:00,  3.17it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/2 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/2 [00:00<?, ?it/s][A
-Validation DataLoader 0:  50%|█████     | 1/2 [00:00<00:00, 149.34it/s][A
-Validation DataLoader 0: 100%|██████████| 2/2 [00:00<00:00, 146.60it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 5/5 [00:02<00:00,  1.80it/s]Epoch 1: 100%|██████████| 5/5 [00:02<00:00,  1.80it/s]Epoch 1:   0%|          | 0/5 [00:00<?, ?it/s]        Epoch 2:   0%|          | 0/5 [00:00<?, ?it/s]Epoch 2:  20%|██        | 1/5 [00:01<00:05,  0.72it/s]Epoch 2:  20%|██        | 1/5 [00:01<00:05,  0.72it/s]Epoch 2:  40%|████      | 2/5 [00:01<00:02,  1.35it/s]Epoch 2:  40%|████      | 2/5 [00:01<00:02,  1.35it/s]Epoch 2:  60%|██████    | 3/5 [00:01<00:01,  1.91it/s]Epoch 2:  60%|██████    | 3/5 [00:01<00:01,  1.91it/s]Epoch 2:  80%|████████  | 4/5 [00:01<00:00,  2.40it/s]Epoch 2:  80%|████████  | 4/5 [00:01<00:00,  2.40it/s]Epoch 2: 100%|██████████| 5/5 [00:01<00:00,  2.90it/s]Epoch 2: 100%|██████████| 5/5 [00:01<00:00,  2.90it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/2 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/2 [00:00<?, ?it/s][A
-Validation DataLoader 0:  50%|█████     | 1/2 [00:00<00:00, 150.46it/s][A
-Validation DataLoader 0: 100%|██████████| 2/2 [00:00<00:00, 169.17it/s][A
-                                                                       [AEpoch 2: 100%|██████████| 5/5 [00:02<00:00,  1.70it/s]Epoch 2: 100%|██████████| 5/5 [00:02<00:00,  1.70it/s]Epoch 2:   0%|          | 0/5 [00:00<?, ?it/s]        Epoch 3:   0%|          | 0/5 [00:00<?, ?it/s]Epoch 3:  20%|██        | 1/5 [00:01<00:04,  0.80it/s]Epoch 3:  20%|██        | 1/5 [00:01<00:04,  0.80it/s]Epoch 3:  40%|████      | 2/5 [00:01<00:01,  1.50it/s]Epoch 3:  40%|████      | 2/5 [00:01<00:01,  1.50it/s]Epoch 3:  60%|██████    | 3/5 [00:01<00:00,  2.11it/s]Epoch 3:  60%|██████    | 3/5 [00:01<00:00,  2.11it/s]Epoch 3:  80%|████████  | 4/5 [00:01<00:00,  2.65it/s]Epoch 3:  80%|████████  | 4/5 [00:01<00:00,  2.65it/s]Epoch 3: 100%|██████████| 5/5 [00:01<00:00,  3.18it/s]Epoch 3: 100%|██████████| 5/5 [00:01<00:00,  3.18it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/2 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/2 [00:00<?, ?it/s][A
-Validation DataLoader 0:  50%|█████     | 1/2 [00:00<00:00, 152.17it/s][A
-Validation DataLoader 0: 100%|██████████| 2/2 [00:00<00:00, 170.39it/s][A
-                                                                       [AEpoch 3: 100%|██████████| 5/5 [00:02<00:00,  1.76it/s]Epoch 3: 100%|██████████| 5/5 [00:02<00:00,  1.75it/s]Monitored metric val_loss did not improve in the last 3 records. Best score: 1.096. Signaling Trainer to stop.
-Epoch 3: 100%|██████████| 5/5 [00:02<00:00,  1.74it/s]GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 769   
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.932   Total estimated model params size (MB)
-
-[DONE] bookmarks: model -> /home/nakagawa/study_category_inc_nomashup_model_new/bert_multilabel_bookmarks_model_weights.pth
-[DONE] bookmarks: labels -> /home/nakagawa/api_category_list/category_inc_nomashup_new/bookmarks_api_labels.json
-[TRAIN] books: train=4 val=2 labels=1
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 108.26it/s]                                                                            Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s] Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 14.12it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 14.09it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 145.40it/s][A
-                                                                       [AEpoch 0: 100%|██████████| 1/1 [00:01<00:00,  0.66it/s]Epoch 0: 100%|██████████| 1/1 [00:01<00:00,  0.66it/s]Metric val_loss improved. New best score: 0.000
-Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.67it/s]Epoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.67it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 147.01it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 1/1 [00:02<00:00,  0.35it/s]Epoch 1: 100%|██████████| 1/1 [00:02<00:00,  0.35it/s]Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.73it/s]Epoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.73it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 146.07it/s][A
-                                                                       [AEpoch 2: 100%|██████████| 1/1 [00:02<00:00,  0.38it/s]Epoch 2: 100%|██████████| 1/1 [00:02<00:00,  0.38it/s]Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 3:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.74it/s]Epoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.74it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 145.43it/s][A
-                                                                       [AEpoch 3: 100%|██████████| 1/1 [00:02<00:00,  0.36it/s]Epoch 3: 100%|██████████| 1/1 [00:02<00:00,  0.36it/s]Monitored metric val_loss did not improve in the last 3 records. Best score: 0.000. Signaling Trainer to stop.
-Epoch 3: 100%|██████████| 1/1 [00:02<00:00,  0.36it/s]GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 1.5 K 
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.935   Total estimated model params size (MB)
-
-[DONE] books: model -> /home/nakagawa/study_category_inc_nomashup_model_new/bert_multilabel_books_model_weights.pth
-[DONE] books: labels -> /home/nakagawa/api_category_list/category_inc_nomashup_new/books_api_labels.json
-[TRAIN] bots: train=3 val=1 labels=2
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 95.98it/s]                                                                           Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s] Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 16.38it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 16.32it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 121.20it/s][A
-                                                                       [AEpoch 0: 100%|██████████| 1/1 [00:01<00:00,  0.74it/s]Epoch 0: 100%|██████████| 1/1 [00:01<00:00,  0.74it/s]Metric val_loss improved. New best score: 0.538
-Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.84it/s]Epoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.84it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 143.76it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 1/1 [00:02<00:00,  0.43it/s]Epoch 1: 100%|██████████| 1/1 [00:02<00:00,  0.43it/s]Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.82it/s]Epoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.82it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 153.01it/s][A
-                                                                       [AEpoch 2: 100%|██████████| 1/1 [00:02<00:00,  0.42it/s]Epoch 2: 100%|██████████| 1/1 [00:02<00:00,  0.42it/s]Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 3:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.82it/s]Epoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.82it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 153.65it/s][A
-                                                                       [AEpoch 3: 100%|██████████| 1/1 [00:02<00:00,  0.42it/s]Epoch 3: 100%|██████████| 1/1 [00:02<00:00,  0.42it/s]Monitored metric val_loss did not improve in the last 3 records. Best score: 0.538. Signaling Trainer to stop.
-Epoch 3: 100%|██████████| 1/1 [00:02<00:00,  0.42it/s]GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 1.5 K 
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.935   Total estimated model params size (MB)
-
-[DONE] bots: model -> /home/nakagawa/study_category_inc_nomashup_model_new/bert_multilabel_bots_model_weights.pth
-[DONE] bots: labels -> /home/nakagawa/api_category_list/category_inc_nomashup_new/bots_api_labels.json
-[TRAIN] business: train=2 val=1 labels=2
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 125.48it/s]                                                                            Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s] Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 21.00it/s]Epoch 0: 100%|██████████| 1/1 [00:00<00:00, 20.93it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 143.79it/s][A
-                                                                       [AEpoch 0: 100%|██████████| 1/1 [00:01<00:00,  0.85it/s]Epoch 0: 100%|██████████| 1/1 [00:01<00:00,  0.85it/s]Metric val_loss improved. New best score: 0.534
-Epoch 0:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.87it/s]Epoch 1: 100%|██████████| 1/1 [00:01<00:00,  0.87it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 151.46it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 1/1 [00:02<00:00,  0.44it/s]Epoch 1: 100%|██████████| 1/1 [00:02<00:00,  0.44it/s]Metric val_loss improved by 0.023 >= min_delta = 0.0. New best score: 0.511
-Epoch 1:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.85it/s]Epoch 2: 100%|██████████| 1/1 [00:01<00:00,  0.85it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 154.34it/s][A
-                                                                       [AEpoch 2: 100%|██████████| 1/1 [00:02<00:00,  0.41it/s]Epoch 2: 100%|██████████| 1/1 [00:02<00:00,  0.41it/s]Metric val_loss improved by 0.060 >= min_delta = 0.0. New best score: 0.451
-Epoch 2:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 3:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.80it/s]Epoch 3: 100%|██████████| 1/1 [00:01<00:00,  0.80it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 152.57it/s][A
-                                                                       [AEpoch 3: 100%|██████████| 1/1 [00:02<00:00,  0.42it/s]Epoch 3: 100%|██████████| 1/1 [00:02<00:00,  0.42it/s]Metric val_loss improved by 0.021 >= min_delta = 0.0. New best score: 0.430
-Epoch 3:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 4:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 4: 100%|██████████| 1/1 [00:01<00:00,  0.87it/s]Epoch 4: 100%|██████████| 1/1 [00:01<00:00,  0.87it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 151.30it/s][A
-                                                                       [AEpoch 4: 100%|██████████| 1/1 [00:02<00:00,  0.43it/s]Epoch 4: 100%|██████████| 1/1 [00:02<00:00,  0.43it/s]Metric val_loss improved by 0.015 >= min_delta = 0.0. New best score: 0.415
-Epoch 4:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 5:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 5: 100%|██████████| 1/1 [00:01<00:00,  0.87it/s]Epoch 5: 100%|██████████| 1/1 [00:01<00:00,  0.87it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 154.59it/s][A
-                                                                       [AEpoch 5: 100%|██████████| 1/1 [00:02<00:00,  0.43it/s]Epoch 5: 100%|██████████| 1/1 [00:02<00:00,  0.43it/s]Metric val_loss improved by 0.005 >= min_delta = 0.0. New best score: 0.410
-Epoch 5:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 6:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 6: 100%|██████████| 1/1 [00:01<00:00,  0.83it/s]Epoch 6: 100%|██████████| 1/1 [00:01<00:00,  0.83it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 149.47it/s][A
-                                                                       [AEpoch 6: 100%|██████████| 1/1 [00:02<00:00,  0.41it/s]Epoch 6: 100%|██████████| 1/1 [00:02<00:00,  0.41it/s]Metric val_loss improved by 0.007 >= min_delta = 0.0. New best score: 0.404
-Epoch 6:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 7:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 7: 100%|██████████| 1/1 [00:01<00:00,  0.88it/s]Epoch 7: 100%|██████████| 1/1 [00:01<00:00,  0.88it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 136.32it/s][A
-                                                                       [AEpoch 7: 100%|██████████| 1/1 [00:02<00:00,  0.44it/s]Epoch 7: 100%|██████████| 1/1 [00:02<00:00,  0.44it/s]Metric val_loss improved by 0.010 >= min_delta = 0.0. New best score: 0.394
-Epoch 7:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 8:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 8: 100%|██████████| 1/1 [00:01<00:00,  0.90it/s]Epoch 8: 100%|██████████| 1/1 [00:01<00:00,  0.90it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 156.14it/s][A
-                                                                       [AEpoch 8: 100%|██████████| 1/1 [00:02<00:00,  0.45it/s]Epoch 8: 100%|██████████| 1/1 [00:02<00:00,  0.45it/s]Metric val_loss improved by 0.014 >= min_delta = 0.0. New best score: 0.379
-Epoch 8:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 9:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 9: 100%|██████████| 1/1 [00:01<00:00,  0.87it/s]Epoch 9: 100%|██████████| 1/1 [00:01<00:00,  0.87it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 58.50it/s][A
-                                                                      [AEpoch 9: 100%|██████████| 1/1 [00:02<00:00,  0.45it/s]Epoch 9: 100%|██████████| 1/1 [00:02<00:00,  0.44it/s]Metric val_loss improved by 0.016 >= min_delta = 0.0. New best score: 0.363
-Epoch 9:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 10:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 10: 100%|██████████| 1/1 [00:01<00:00,  0.87it/s]Epoch 10: 100%|██████████| 1/1 [00:01<00:00,  0.87it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 153.20it/s][A
-                                                                       [AEpoch 10: 100%|██████████| 1/1 [00:02<00:00,  0.42it/s]Epoch 10: 100%|██████████| 1/1 [00:02<00:00,  0.42it/s]Metric val_loss improved by 0.015 >= min_delta = 0.0. New best score: 0.349
-Epoch 10:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 11:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 11: 100%|██████████| 1/1 [00:01<00:00,  0.85it/s]Epoch 11: 100%|██████████| 1/1 [00:01<00:00,  0.85it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 156.84it/s][A
-                                                                       [AEpoch 11: 100%|██████████| 1/1 [00:02<00:00,  0.44it/s]Epoch 11: 100%|██████████| 1/1 [00:02<00:00,  0.44it/s]Metric val_loss improved by 0.017 >= min_delta = 0.0. New best score: 0.332
-Epoch 11:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 12:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 12: 100%|██████████| 1/1 [00:01<00:00,  0.89it/s]Epoch 12: 100%|██████████| 1/1 [00:01<00:00,  0.89it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 153.82it/s][A
-                                                                       [AEpoch 12: 100%|██████████| 1/1 [00:02<00:00,  0.43it/s]Epoch 12: 100%|██████████| 1/1 [00:02<00:00,  0.43it/s]Metric val_loss improved by 0.009 >= min_delta = 0.0. New best score: 0.323
-Epoch 12:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 13:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 13: 100%|██████████| 1/1 [00:01<00:00,  0.87it/s]Epoch 13: 100%|██████████| 1/1 [00:01<00:00,  0.87it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 152.01it/s][A
-                                                                       [AEpoch 13: 100%|██████████| 1/1 [00:02<00:00,  0.44it/s]Epoch 13: 100%|██████████| 1/1 [00:02<00:00,  0.44it/s]Epoch 13:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 14:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 14: 100%|██████████| 1/1 [00:01<00:00,  0.85it/s]Epoch 14: 100%|██████████| 1/1 [00:01<00:00,  0.85it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 151.78it/s][A
-                                                                       [AEpoch 14: 100%|██████████| 1/1 [00:02<00:00,  0.43it/s]Epoch 14: 100%|██████████| 1/1 [00:02<00:00,  0.43it/s]Epoch 14:   0%|          | 0/1 [00:00<?, ?it/s]        Epoch 15:   0%|          | 0/1 [00:00<?, ?it/s]Epoch 15: 100%|██████████| 1/1 [00:01<00:00,  0.84it/s]Epoch 15: 100%|██████████| 1/1 [00:01<00:00,  0.84it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 153.77it/s][A
-                                                                       [AEpoch 15: 100%|██████████| 1/1 [00:02<00:00,  0.41it/s]Epoch 15: 100%|██████████| 1/1 [00:02<00:00,  0.41it/s]Monitored metric val_loss did not improve in the last 3 records. Best score: 0.323. Signaling Trainer to stop.
-Epoch 15: 100%|██████████| 1/1 [00:02<00:00,  0.41it/s]GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 3.1 K 
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.941   Total estimated model params size (MB)
-
-[DONE] business: model -> /home/nakagawa/study_category_inc_nomashup_model_new/bert_multilabel_business_model_weights.pth
-[DONE] business: labels -> /home/nakagawa/api_category_list/category_inc_nomashup_new/business_api_labels.json
-[TRAIN] calendars: train=13 val=4 labels=4
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 115.61it/s]                                                                            Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/2 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/2 [00:00<?, ?it/s] Epoch 0:  50%|█████     | 1/2 [00:00<00:00,  9.89it/s]Epoch 0:  50%|█████     | 1/2 [00:00<00:00,  9.88it/s]Epoch 0: 100%|██████████| 2/2 [00:00<00:00, 12.44it/s]Epoch 0: 100%|██████████| 2/2 [00:00<00:00, 12.43it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 141.47it/s][A
-                                                                       [AEpoch 0: 100%|██████████| 2/2 [00:01<00:00,  1.60it/s]Epoch 0: 100%|██████████| 2/2 [00:01<00:00,  1.60it/s]Metric val_loss improved. New best score: 2.338
-Epoch 0:   0%|          | 0/2 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/2 [00:00<?, ?it/s]Epoch 1:  50%|█████     | 1/2 [00:01<00:01,  0.85it/s]Epoch 1:  50%|█████     | 1/2 [00:01<00:01,  0.85it/s]Epoch 1: 100%|██████████| 2/2 [00:01<00:00,  1.63it/s]Epoch 1: 100%|██████████| 2/2 [00:01<00:00,  1.63it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 131.01it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 2/2 [00:02<00:00,  0.85it/s]Epoch 1: 100%|██████████| 2/2 [00:02<00:00,  0.85it/s]Epoch 1:   0%|          | 0/2 [00:00<?, ?it/s]        Epoch 2:   0%|          | 0/2 [00:00<?, ?it/s]Epoch 2:  50%|█████     | 1/2 [00:01<00:01,  0.83it/s]Epoch 2:  50%|█████     | 1/2 [00:01<00:01,  0.83it/s]Epoch 2: 100%|██████████| 2/2 [00:01<00:00,  1.58it/s]Epoch 2: 100%|██████████| 2/2 [00:01<00:00,  1.58it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 146.03it/s][A
-                                                                       [AEpoch 2: 100%|██████████| 2/2 [00:02<00:00,  0.84it/s]Epoch 2: 100%|██████████| 2/2 [00:02<00:00,  0.84it/s]Epoch 2:   0%|          | 0/2 [00:00<?, ?it/s]        Epoch 3:   0%|          | 0/2 [00:00<?, ?it/s]Epoch 3:  50%|█████     | 1/2 [00:01<00:01,  0.84it/s]Epoch 3:  50%|█████     | 1/2 [00:01<00:01,  0.84it/s]Epoch 3: 100%|██████████| 2/2 [00:01<00:00,  1.61it/s]Epoch 3: 100%|██████████| 2/2 [00:01<00:00,  1.61it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 146.53it/s][A
-                                                                       [AEpoch 3: 100%|██████████| 2/2 [00:02<00:00,  0.82it/s]Epoch 3: 100%|██████████| 2/2 [00:02<00:00,  0.82it/s]Monitored metric val_loss did not improve in the last 3 records. Best score: 2.338. Signaling Trainer to stop.
-Epoch 3: 100%|██████████| 2/2 [00:02<00:00,  0.81it/s]GPU available: True (cuda), used: True
-TPU available: False, using: 0 TPU cores
-IPU available: False, using: 0 IPUs
-HPU available: False, using: 0 HPUs
-LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
-
-  | Name       | Type              | Params
--------------------------------------------------
-0 | bert       | BertModel         | 109 M 
-1 | classifier | Linear            | 5.4 K 
-2 | loss_fn    | BCEWithLogitsLoss | 0     
--------------------------------------------------
-109 M     Trainable params
-0         Non-trainable params
-109 M     Total params
-437.950   Total estimated model params size (MB)
-
-[DONE] calendars: model -> /home/nakagawa/study_category_inc_nomashup_model_new/bert_multilabel_calendars_model_weights.pth
-[DONE] calendars: labels -> /home/nakagawa/api_category_list/category_inc_nomashup_new/calendars_api_labels.json
-[TRAIN] chat: train=12 val=4 labels=7
-Sanity Checking: |          | 0/? [00:00<?, ?it/s]Sanity Checking:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s]Sanity Checking DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 114.57it/s]                                                                            Training: |          | 0/? [00:00<?, ?it/s]Training:   0%|          | 0/2 [00:00<?, ?it/s]Epoch 0:   0%|          | 0/2 [00:00<?, ?it/s] Epoch 0:  50%|█████     | 1/2 [00:00<00:00,  9.42it/s]Epoch 0:  50%|█████     | 1/2 [00:00<00:00,  9.41it/s]Epoch 0: 100%|██████████| 2/2 [00:00<00:00, 12.89it/s]Epoch 0: 100%|██████████| 2/2 [00:00<00:00, 12.88it/s]
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 147.45it/s][A
-                                                                       [AEpoch 0: 100%|██████████| 2/2 [00:01<00:00,  1.50it/s]Epoch 0: 100%|██████████| 2/2 [00:01<00:00,  1.50it/s]Metric val_loss improved. New best score: 1.615
-Epoch 0:   0%|          | 0/2 [00:00<?, ?it/s]        Epoch 1:   0%|          | 0/2 [00:00<?, ?it/s]Epoch 1:  50%|█████     | 1/2 [00:01<00:01,  0.83it/s]Epoch 1:  50%|█████     | 1/2 [00:01<00:01,  0.83it/s]Epoch 1: 100%|██████████| 2/2 [00:01<00:00,  1.60it/s]Epoch 1: 100%|██████████| 2/2 [00:01<00:00,  1.60it/s][rank: 0] Received SIGTERM: 15
-
-Validation: |          | 0/? [00:00<?, ?it/s][A
-Validation:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0:   0%|          | 0/1 [00:00<?, ?it/s][A
-Validation DataLoader 0: 100%|██████████| 1/1 [00:00<00:00, 147.77it/s][A
-                                                                       [AEpoch 1: 100%|██████████| 2/2 [00:02<00:00,  0.85it/s]Epoch 1: 100%|██████████| 2/2 [00:02<00:00,  0.85it/s]Epoch 1: 100%|██████████| 2/2 [00:03<00:00,  0.56it/s]

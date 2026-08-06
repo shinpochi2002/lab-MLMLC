@@ -1,0 +1,4563 @@
+{
+  "version": "official-api-name-only-v1",
+  "placeholder": "<API_NAME>",
+  "normalization": [
+    "HTML unescape",
+    "Unicode NFKC",
+    "lowercase",
+    "replace non-ASCII-alphanumeric characters with spaces",
+    "collapse repeated spaces",
+    "strip leading and trailing spaces"
+  ],
+  "matching_rule": "exact match against consecutive normalized tokens",
+  "manual_aliases_used": false,
+  "semantic_completion_used": false,
+  "entry_count": 909,
+  "entries": [
+    {
+      "official_api_id": "",
+      "official_api_name": "noaa-national-weather-service-nws-ndfd-soap",
+      "normalized_api_name": "noaa national weather service nws ndfd soap"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "eod-historical-data-liverealtime-stock-prices",
+      "normalized_api_name": "eod historical data liverealtime stock prices"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "eod-historical-data-stock-price-data",
+      "normalized_api_name": "eod historical data stock price data"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "microsoft-bot-framework-bot-direct-line",
+      "normalized_api_name": "microsoft bot framework bot direct line"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "rxnlp-cluster-sentences-and-short-texts",
+      "normalized_api_name": "rxnlp cluster sentences and short texts"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "strikeiron-reverse-phone-and-address-append",
+      "normalized_api_name": "strikeiron reverse phone and address append"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amazon-alexa-skill-voice-service",
+      "normalized_api_name": "amazon alexa skill voice service"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amazon-alexa-smart-home-skills",
+      "normalized_api_name": "amazon alexa smart home skills"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "central-bank-armenia-exchange-rates",
+      "normalized_api_name": "central bank armenia exchange rates"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "geobytes-ajax-autocomplete-cities-list",
+      "normalized_api_name": "geobytes ajax autocomplete cities list"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-book-search-book-viewability",
+      "normalized_api_name": "google book search book viewability"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "hpe-haven-ondemand-view-document",
+      "normalized_api_name": "hpe haven ondemand view document"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "new-york-times-article-search",
+      "normalized_api_name": "new york times article search"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "new-york-times-best-sellers",
+      "normalized_api_name": "new york times best sellers"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "new-york-times-movie-reviews",
+      "normalized_api_name": "new york times movie reviews"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "open-dining-network-food-ordering",
+      "normalized_api_name": "open dining network food ordering"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "adobe-air-bus-tour",
+      "normalized_api_name": "adobe air bus tour"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "alexa-web-information-service",
+      "normalized_api_name": "alexa web information service"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amazon-alexa-proactive-events",
+      "normalized_api_name": "amazon alexa proactive events"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amazon-flexible-payments-service",
+      "normalized_api_name": "amazon flexible payments service"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amazon-fulfillment-web-service",
+      "normalized_api_name": "amazon fulfillment web service"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amazon-marketplace-web-service",
+      "normalized_api_name": "amazon marketplace web service"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "api-hood-global-tides",
+      "normalized_api_name": "api hood global tides"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "australian-business-number-lookup",
+      "normalized_api_name": "australian business number lookup"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bank-russia-daily-info",
+      "normalized_api_name": "bank russia daily info"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bing-maps-geocode-dataflow",
+      "normalized_api_name": "bing maps geocode dataflow"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "block-avenue-neighborhood-reviews",
+      "normalized_api_name": "block avenue neighborhood reviews"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "daybreak-game-company-census",
+      "normalized_api_name": "daybreak game company census"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "global-biodiversity-information-facility",
+      "normalized_api_name": "global biodiversity information facility"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-analytics-core-reporting",
+      "normalized_api_name": "google analytics core reporting"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-apps-email-migration",
+      "normalized_api_name": "google apps email migration"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-apps-script-execution",
+      "normalized_api_name": "google apps script execution"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-page-speed-insights",
+      "normalized_api_name": "google page speed insights"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-street-view-image",
+      "normalized_api_name": "google street view image"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "hotwire-travel-ticker-deals",
+      "normalized_api_name": "hotwire travel ticker deals"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "infochimps-ip-intelligence-geolocation",
+      "normalized_api_name": "infochimps ip intelligence geolocation"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "intuit-quickbooks-online-accounting",
+      "normalized_api_name": "intuit quickbooks online accounting"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "itunes-and-itunes-connect",
+      "normalized_api_name": "itunes and itunes connect"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "itunes-app-store-search",
+      "normalized_api_name": "itunes app store search"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "library-congress-prints-photographs",
+      "normalized_api_name": "library congress prints photographs"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "microsoft-cognitive-services-emotion",
+      "normalized_api_name": "microsoft cognitive services emotion"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mochi-media-flash-games",
+      "normalized_api_name": "mochi media flash games"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "nasa-mars-rover-photos",
+      "normalized_api_name": "nasa mars rover photos"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "national-library-australia-trove",
+      "normalized_api_name": "national library australia trove"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "national-library-medicine-dirline",
+      "normalized_api_name": "national library medicine dirline"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "national-weather-service-ndfd",
+      "normalized_api_name": "national weather service ndfd"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "new-york-times-archive",
+      "normalized_api_name": "new york times archive"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "new-york-times-newswire",
+      "normalized_api_name": "new york times newswire"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "npr-one-station-finder",
+      "normalized_api_name": "npr one station finder"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "public-transit-data-community",
+      "normalized_api_name": "public transit data community"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "real-time-rank-tracker",
+      "normalized_api_name": "real time rank tracker"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "shopify-embedded-app-javascript",
+      "normalized_api_name": "shopify embedded app javascript"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "slack-real-time-messaging",
+      "normalized_api_name": "slack real time messaging"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "smart-ip-geo-ip",
+      "normalized_api_name": "smart ip geo ip"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "strikeiron-ip-address-lookup",
+      "normalized_api_name": "strikeiron ip address lookup"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "strikeiron-sms-mobile-marketing",
+      "normalized_api_name": "strikeiron sms mobile marketing"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "thomson-reuters-open-calais",
+      "normalized_api_name": "thomson reuters open calais"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "uk-street-level-crime",
+      "normalized_api_name": "uk street level crime"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "union-county-nc-gis",
+      "normalized_api_name": "union county nc gis"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "usgs-elevation-query-service",
+      "normalized_api_name": "usgs elevation query service"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "windshieldrepair-tech-auto-glass",
+      "normalized_api_name": "windshieldrepair tech auto glass"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yahoo-internet-location-platform",
+      "normalized_api_name": "yahoo internet location platform"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yahoo-query-language-graphql",
+      "normalized_api_name": "yahoo query language graphql"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "addthis-sharing-endpoints",
+      "normalized_api_name": "addthis sharing endpoints"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "aden-forshaws-cat",
+      "normalized_api_name": "aden forshaws cat"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "alexa-skill-management",
+      "normalized_api_name": "alexa skill management"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "alexa-top-sites",
+      "normalized_api_name": "alexa top sites"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amazon-mechanical-turk",
+      "normalized_api_name": "amazon mechanical turk"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amazon-product-advertising",
+      "normalized_api_name": "amazon product advertising"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amazon-queue-service",
+      "normalized_api_name": "amazon queue service"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "apicultur-word-lemmatizer",
+      "normalized_api_name": "apicultur word lemmatizer"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "are-you-watching",
+      "normalized_api_name": "are you watching"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "att-app-messaging",
+      "normalized_api_name": "att app messaging"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "automattic-wordpress-widgets",
+      "normalized_api_name": "automattic wordpress widgets"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "awardwallet-email-parsing",
+      "normalized_api_name": "awardwallet email parsing"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "aylien-text-analysis",
+      "normalized_api_name": "aylien text analysis"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "best-buy-products",
+      "normalized_api_name": "best buy products"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "big-huge-thesaurus",
+      "normalized_api_name": "big huge thesaurus"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bing-maps-locations",
+      "normalized_api_name": "bing maps locations"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bing-maps-routes",
+      "normalized_api_name": "bing maps routes"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bing-maps-search",
+      "normalized_api_name": "bing maps search"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bioid-web-services",
+      "normalized_api_name": "bioid web services"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "blockchain-receive-payments",
+      "normalized_api_name": "blockchain receive payments"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "brighter-planet-cm1",
+      "normalized_api_name": "brighter planet cm1"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "brown-paper-tickets",
+      "normalized_api_name": "brown paper tickets"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "canadian-bitcoin-index",
+      "normalized_api_name": "canadian bitcoin index"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ckan-czech-republic",
+      "normalized_api_name": "ckan czech republic"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "coupomated-coupon-datafeed",
+      "normalized_api_name": "coupomated coupon datafeed"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "design-n-buy",
+      "normalized_api_name": "design n buy"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "dialogflow-standard-webhooks",
+      "normalized_api_name": "dialogflow standard webhooks"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "dog-ceo-dog",
+      "normalized_api_name": "dog ceo dog"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ebay-product-services",
+      "normalized_api_name": "ebay product services"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "elcies-connected-services",
+      "normalized_api_name": "elcies connected services"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "epa-station-catalog",
+      "normalized_api_name": "epa station catalog"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "epa-watershed-summary",
+      "normalized_api_name": "epa watershed summary"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "esv-bible-lookup",
+      "normalized_api_name": "esv bible lookup"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "evature-travel-search",
+      "normalized_api_name": "evature travel search"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "financial-modeling-prep",
+      "normalized_api_name": "financial modeling prep"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "garmin-communicator-plugin",
+      "normalized_api_name": "garmin communicator plugin"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "gengo-human-translation",
+      "normalized_api_name": "gengo human translation"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "gomotext-sms-gateway",
+      "normalized_api_name": "gomotext sms gateway"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-ad-manager",
+      "normalized_api_name": "google ad manager"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-affiliate-network",
+      "normalized_api_name": "google affiliate network"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-analytics-managment",
+      "normalized_api_name": "google analytics managment"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-analytics-metadata",
+      "normalized_api_name": "google analytics metadata"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-app-engine",
+      "normalized_api_name": "google app engine"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-civic-information",
+      "normalized_api_name": "google civic information"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-closure-compiler",
+      "normalized_api_name": "google closure compiler"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-cloud-print",
+      "normalized_api_name": "google cloud print"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-cloud-translation",
+      "normalized_api_name": "google cloud translation"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-custom-search",
+      "normalized_api_name": "google custom search"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-distance-matrix",
+      "normalized_api_name": "google distance matrix"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-fusion-tables",
+      "normalized_api_name": "google fusion tables"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-gmail-oauth",
+      "normalized_api_name": "google gmail oauth"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-maps-android",
+      "normalized_api_name": "google maps android"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-maps-elevation",
+      "normalized_api_name": "google maps elevation"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-maps-geolocation",
+      "normalized_api_name": "google maps geolocation"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-maps-places",
+      "normalized_api_name": "google maps places"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-pagespeed-insights",
+      "normalized_api_name": "google pagespeed insights"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-play-developer",
+      "normalized_api_name": "google play developer"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-shopping-search",
+      "normalized_api_name": "google shopping search"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-single-signon",
+      "normalized_api_name": "google single signon"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-static-maps",
+      "normalized_api_name": "google static maps"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-web-authentication",
+      "normalized_api_name": "google web authentication"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "gtfs-data-exchange",
+      "normalized_api_name": "gtfs data exchange"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "huffington-post-pollster",
+      "normalized_api_name": "huffington post pollster"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "idescat-population-search",
+      "normalized_api_name": "idescat population search"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "instagram-real-time",
+      "normalized_api_name": "instagram real time"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ip-apicom-geolocation",
+      "normalized_api_name": "ip apicom geolocation"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ipinfoio-ip-geolocation",
+      "normalized_api_name": "ipinfoio ip geolocation"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "last-10k-company",
+      "normalized_api_name": "last 10k company"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "library-congress-srw",
+      "normalized_api_name": "library congress srw"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "maluuba-natural-language",
+      "normalized_api_name": "maluuba natural language"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mapquest-open-directions",
+      "normalized_api_name": "mapquest open directions"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mesibo-client-side",
+      "normalized_api_name": "mesibo client side"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mesibo-server-side",
+      "normalized_api_name": "mesibo server side"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "metro-transit-nextrip",
+      "normalized_api_name": "metro transit nextrip"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "microsoft-bing-maps",
+      "normalized_api_name": "microsoft bing maps"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "microsoft-silverlight-streaming",
+      "normalized_api_name": "microsoft silverlight streaming"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mindtouch-deki-wiki",
+      "normalized_api_name": "mindtouch deki wiki"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mnb-exchange-rate",
+      "normalized_api_name": "mnb exchange rate"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mobile-phone-megastore",
+      "normalized_api_name": "mobile phone megastore"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "movie-database-tmdb",
+      "normalized_api_name": "movie database tmdb"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "myob-accountright-live",
+      "normalized_api_name": "myob accountright live"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "myob-essentials-accounting",
+      "normalized_api_name": "myob essentials accounting"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "nyc-open-data",
+      "normalized_api_name": "nyc open data"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "oecd-open-data",
+      "normalized_api_name": "oecd open data"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "oipa-openaid-iati",
+      "normalized_api_name": "oipa openaid iati"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "open-library-books",
+      "normalized_api_name": "open library books"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "open-movie-database",
+      "normalized_api_name": "open movie database"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "open-patent-services",
+      "normalized_api_name": "open patent services"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ordnance-survey-maps",
+      "normalized_api_name": "ordnance survey maps"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "payment-vision-pay",
+      "normalized_api_name": "payment vision pay"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "peekyou-social-analytics",
+      "normalized_api_name": "peekyou social analytics"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "pixabay-free-images",
+      "normalized_api_name": "pixabay free images"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "pubnub-javascript-push",
+      "normalized_api_name": "pubnub javascript push"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "pyton-flight-portal",
+      "normalized_api_name": "pyton flight portal"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "rackspace-cloud-files",
+      "normalized_api_name": "rackspace cloud files"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "restricted-party-screening",
+      "normalized_api_name": "restricted party screening"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "retailmenotcom-community-ideas",
+      "normalized_api_name": "retailmenotcom community ideas"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "roku-web-service",
+      "normalized_api_name": "roku web service"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "rovi-cloud-services",
+      "normalized_api_name": "rovi cloud services"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "rxnlp-text-similarity",
+      "normalized_api_name": "rxnlp text similarity"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "salesforce-chatter-rest",
+      "normalized_api_name": "salesforce chatter rest"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "san-francisco-crimespotting",
+      "normalized_api_name": "san francisco crimespotting"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "semrush-traffic-analytics",
+      "normalized_api_name": "semrush traffic analytics"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "sensis-business-search",
+      "normalized_api_name": "sensis business search"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "serps-seo-rankings",
+      "normalized_api_name": "serps seo rankings"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "short-and-tweet",
+      "normalized_api_name": "short and tweet"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "skimlinks-link-monetization",
+      "normalized_api_name": "skimlinks link monetization"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "skyscanner-live-pricing",
+      "normalized_api_name": "skyscanner live pricing"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "slack-incoming-webhooks",
+      "normalized_api_name": "slack incoming webhooks"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "social-share-count",
+      "normalized_api_name": "social share count"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "stsoftware-job-track",
+      "normalized_api_name": "stsoftware job track"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "taxi-fare-finder",
+      "normalized_api_name": "taxi fare finder"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "team-popong-poodl",
+      "normalized_api_name": "team popong poodl"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "udacity-course-catalog",
+      "normalized_api_name": "udacity course catalog"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "us-census-bureau",
+      "normalized_api_name": "us census bureau"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "usps-trackconfirm-fields",
+      "normalized_api_name": "usps trackconfirm fields"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "victoria-albert-museum",
+      "normalized_api_name": "victoria albert museum"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "vonage-nexmo-sms",
+      "normalized_api_name": "vonage nexmo sms"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "walgreens-balance-rewards",
+      "normalized_api_name": "walgreens balance rewards"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "we-feel-fine",
+      "normalized_api_name": "we feel fine"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "web-api-biology",
+      "normalized_api_name": "web api biology"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "windows-live-contacts",
+      "normalized_api_name": "windows live contacts"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "wiziq-virtual-classroom",
+      "normalized_api_name": "wiziq virtual classroom"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "world-bank-indicators",
+      "normalized_api_name": "world bank indicators"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "world-weather-online",
+      "normalized_api_name": "world weather online"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yahoo-fantasy-sports",
+      "normalized_api_name": "yahoo fantasy sports"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yahoo-local-search",
+      "normalized_api_name": "yahoo local search"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yahoo-map-image",
+      "normalized_api_name": "yahoo map image"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yahoo-related-suggestions",
+      "normalized_api_name": "yahoo related suggestions"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yahoo-search-marketing",
+      "normalized_api_name": "yahoo search marketing"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yahoo-site-explorer",
+      "normalized_api_name": "yahoo site explorer"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yahoo-term-extraction",
+      "normalized_api_name": "yahoo term extraction"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yes-broadcast-db",
+      "normalized_api_name": "yes broadcast db"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "your-mapper-crimescore",
+      "normalized_api_name": "your mapper crimescore"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "zomato-foodie-index",
+      "normalized_api_name": "zomato foodie index"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "30-boxes",
+      "normalized_api_name": "30 boxes"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "99designs-tasks",
+      "normalized_api_name": "99designs tasks"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "abios-esports",
+      "normalized_api_name": "abios esports"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "activ-financial",
+      "normalized_api_name": "activ financial"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "actual-reports",
+      "normalized_api_name": "actual reports"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "addthis-analytics",
+      "normalized_api_name": "addthis analytics"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "addthis-services",
+      "normalized_api_name": "addthis services"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "agendize-action",
+      "normalized_api_name": "agendize action"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amazon-cloudwatch",
+      "normalized_api_name": "amazon cloudwatch"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amazon-dynamodb",
+      "normalized_api_name": "amazon dynamodb"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amazon-ec2",
+      "normalized_api_name": "amazon ec2"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amazon-s3",
+      "normalized_api_name": "amazon s3"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amazon-ses",
+      "normalized_api_name": "amazon ses"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amazon-simpledb",
+      "normalized_api_name": "amazon simpledb"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amazon-sns",
+      "normalized_api_name": "amazon sns"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "analytics-seo",
+      "normalized_api_name": "analytics seo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "authoritylabs-account",
+      "normalized_api_name": "authoritylabs account"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "authoritylabs-partner",
+      "normalized_api_name": "authoritylabs partner"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "aviary-effects",
+      "normalized_api_name": "aviary effects"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "barcelona-bicing",
+      "normalized_api_name": "barcelona bicing"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bbc-nitro",
+      "normalized_api_name": "bbc nitro"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bible-gateway",
+      "normalized_api_name": "bible gateway"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bike-index",
+      "normalized_api_name": "bike index"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bing-maps",
+      "normalized_api_name": "bing maps"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bing-traffic",
+      "normalized_api_name": "bing traffic"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bing-translator",
+      "normalized_api_name": "bing translator"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bitcoin-payment",
+      "normalized_api_name": "bitcoin payment"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "blockchain-wallet",
+      "normalized_api_name": "blockchain wallet"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bolcom-open",
+      "normalized_api_name": "bolcom open"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bookingcom-content",
+      "normalized_api_name": "bookingcom content"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bot-libre",
+      "normalized_api_name": "bot libre"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "brazil-ckan",
+      "normalized_api_name": "brazil ckan"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "broadsoft-xtended",
+      "normalized_api_name": "broadsoft xtended"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "business-alerts",
+      "normalized_api_name": "business alerts"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "business-profiles",
+      "normalized_api_name": "business profiles"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "c24-validation",
+      "normalized_api_name": "c24 validation"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "cafe-press",
+      "normalized_api_name": "cafe press"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "campaign-monitor",
+      "normalized_api_name": "campaign monitor"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "citysdk-mobility",
+      "normalized_api_name": "citysdk mobility"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ckan-ireland",
+      "normalized_api_name": "ckan ireland"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ckan-italy",
+      "normalized_api_name": "ckan italy"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ckan-norway",
+      "normalized_api_name": "ckan norway"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "clickatell-http",
+      "normalized_api_name": "clickatell http"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "clockwork-sms",
+      "normalized_api_name": "clockwork sms"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "commission-junction",
+      "normalized_api_name": "commission junction"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "context-voice",
+      "normalized_api_name": "context voice"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "css-mania",
+      "normalized_api_name": "css mania"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "dance-tunes",
+      "normalized_api_name": "dance tunes"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "dansk-supermarked",
+      "normalized_api_name": "dansk supermarked"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "db-direct",
+      "normalized_api_name": "db direct"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "dbpedia-spotlight",
+      "normalized_api_name": "dbpedia spotlight"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "delicious-0",
+      "normalized_api_name": "delicious 0"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "direct-textbook",
+      "normalized_api_name": "direct textbook"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "dns-tools",
+      "normalized_api_name": "dns tools"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "docusign-enterprise",
+      "normalized_api_name": "docusign enterprise"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "dog-gateway",
+      "normalized_api_name": "dog gateway"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "earth911-search",
+      "normalized_api_name": "earth911 search"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "easy-blockchain",
+      "normalized_api_name": "easy blockchain"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ebay-finding",
+      "normalized_api_name": "ebay finding"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ebay-shopping",
+      "normalized_api_name": "ebay shopping"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ecgridos-edi",
+      "normalized_api_name": "ecgridos edi"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "edmundscom-vehicle",
+      "normalized_api_name": "edmundscom vehicle"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "eea-discomap",
+      "normalized_api_name": "eea discomap"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "eldercare-locator",
+      "normalized_api_name": "eldercare locator"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "energystar-abs",
+      "normalized_api_name": "energystar abs"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "exchange-rate",
+      "normalized_api_name": "exchange rate"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "facebook-graph",
+      "normalized_api_name": "facebook graph"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "factual-v3",
+      "normalized_api_name": "factual v3"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "fatsecret-platform",
+      "normalized_api_name": "fatsecret platform"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "field-nation",
+      "normalized_api_name": "field nation"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "film-crave",
+      "normalized_api_name": "film crave"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "fire-eagle",
+      "normalized_api_name": "fire eagle"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "florist-one",
+      "normalized_api_name": "florist one"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "follow-money",
+      "normalized_api_name": "follow money"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "fullcontact-person",
+      "normalized_api_name": "fullcontact person"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "garmin-motionbased",
+      "normalized_api_name": "garmin motionbased"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "gecko-landmarks",
+      "normalized_api_name": "gecko landmarks"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-ads",
+      "normalized_api_name": "google ads"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-adsense",
+      "normalized_api_name": "google adsense"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-adwords",
+      "normalized_api_name": "google adwords"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-assistant",
+      "normalized_api_name": "google assistant"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-bigquery",
+      "normalized_api_name": "google bigquery"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-books",
+      "normalized_api_name": "google books"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-calendar",
+      "normalized_api_name": "google calendar"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-checkout",
+      "normalized_api_name": "google checkout"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-contacts",
+      "normalized_api_name": "google contacts"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-directions",
+      "normalized_api_name": "google directions"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-drive",
+      "normalized_api_name": "google drive"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-earth",
+      "normalized_api_name": "google earth"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-gadgets",
+      "normalized_api_name": "google gadgets"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-geocoding",
+      "normalized_api_name": "google geocoding"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-latitude",
+      "normalized_api_name": "google latitude"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-maps",
+      "normalized_api_name": "google maps"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-mirror",
+      "normalized_api_name": "google mirror"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-picasa",
+      "normalized_api_name": "google picasa"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-plus",
+      "normalized_api_name": "google plus"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-prediction",
+      "normalized_api_name": "google prediction"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-recaptcha",
+      "normalized_api_name": "google recaptcha"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-sheets",
+      "normalized_api_name": "google sheets"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-storage",
+      "normalized_api_name": "google storage"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-talk",
+      "normalized_api_name": "google talk"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-tasks",
+      "normalized_api_name": "google tasks"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-visualization",
+      "normalized_api_name": "google visualization"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "google-waze",
+      "normalized_api_name": "google waze"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "handset-detection",
+      "normalized_api_name": "handset detection"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "health-20",
+      "normalized_api_name": "health 20"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "hello-salut",
+      "normalized_api_name": "hello salut"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "highcharts-highstock",
+      "normalized_api_name": "highcharts highstock"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "hoiio-sms",
+      "normalized_api_name": "hoiio sms"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "hoiio-voice",
+      "normalized_api_name": "hoiio voice"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "impact-radius",
+      "normalized_api_name": "impact radius"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "infogroup-infoconnect",
+      "normalized_api_name": "infogroup infoconnect"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "information-machine",
+      "normalized_api_name": "information machine"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "instagram-graph",
+      "normalized_api_name": "instagram graph"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "internet-archive",
+      "normalized_api_name": "internet archive"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "isbn-db",
+      "normalized_api_name": "isbn db"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "iva-video",
+      "normalized_api_name": "iva video"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "janrain-engage",
+      "normalized_api_name": "janrain engage"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "json-tools",
+      "normalized_api_name": "json tools"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "kanban-tool",
+      "normalized_api_name": "kanban tool"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "lightspeed-retail",
+      "normalized_api_name": "lightspeed retail"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ludei-cloud",
+      "normalized_api_name": "ludei cloud"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "lulu-publishing",
+      "normalized_api_name": "lulu publishing"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "magento-soap",
+      "normalized_api_name": "magento soap"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mapquest-geocoding",
+      "normalized_api_name": "mapquest geocoding"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mera-caar",
+      "normalized_api_name": "mera caar"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "metno-weather",
+      "normalized_api_name": "metno weather"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "microsoft-bing",
+      "normalized_api_name": "microsoft bing"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "microsoft-mappoint",
+      "normalized_api_name": "microsoft mappoint"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "microsoft-translator",
+      "normalized_api_name": "microsoft translator"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "moonshadow-mobile",
+      "normalized_api_name": "moonshadow mobile"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "musikki-music",
+      "normalized_api_name": "musikki music"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "my-jam",
+      "normalized_api_name": "my jam"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ncbi-entrez",
+      "normalized_api_name": "ncbi entrez"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "new-relic",
+      "normalized_api_name": "new relic"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "nlp-tools",
+      "normalized_api_name": "nlp tools"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "noaa-erddap",
+      "normalized_api_name": "noaa erddap"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "norway-weather",
+      "normalized_api_name": "norway weather"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "open-garden",
+      "normalized_api_name": "open garden"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "openskyquery-skyportal",
+      "normalized_api_name": "openskyquery skyportal"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "oracle-netsuite",
+      "normalized_api_name": "oracle netsuite"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "payments-gateway",
+      "normalized_api_name": "payments gateway"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "pdf-generator",
+      "normalized_api_name": "pdf generator"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "pinnaclecart-rest",
+      "normalized_api_name": "pinnaclecart rest"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "pinterest-domain",
+      "normalized_api_name": "pinterest domain"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "planning-center",
+      "normalized_api_name": "planning center"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "plos-search",
+      "normalized_api_name": "plos search"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "plum-fuse",
+      "normalized_api_name": "plum fuse"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "product-hunt",
+      "normalized_api_name": "product hunt"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "pushover-message",
+      "normalized_api_name": "pushover message"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "quickbooks-payments",
+      "normalized_api_name": "quickbooks payments"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "quizlet-flashcards",
+      "normalized_api_name": "quizlet flashcards"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "realtime-register",
+      "normalized_api_name": "realtime register"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "realtybaron-answers",
+      "normalized_api_name": "realtybaron answers"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "refuge-restrooms",
+      "normalized_api_name": "refuge restrooms"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "retro-avatar",
+      "normalized_api_name": "retro avatar"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "reuters-spotlight",
+      "normalized_api_name": "reuters spotlight"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "revel-systems",
+      "normalized_api_name": "revel systems"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "rotten-tomatoes",
+      "normalized_api_name": "rotten tomatoes"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "sabre-0",
+      "normalized_api_name": "sabre 0"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "safe-creative",
+      "normalized_api_name": "safe creative"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "sap-anywhere",
+      "normalized_api_name": "sap anywhere"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "science-museum",
+      "normalized_api_name": "science museum"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "scribble-maps",
+      "normalized_api_name": "scribble maps"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "scribd-ipaper",
+      "normalized_api_name": "scribd ipaper"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "scribd-platform",
+      "normalized_api_name": "scribd platform"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "sdss-imgcutout",
+      "normalized_api_name": "sdss imgcutout"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "shopify-admin",
+      "normalized_api_name": "shopify admin"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "shopify-billing",
+      "normalized_api_name": "shopify billing"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "shopify-checkout",
+      "normalized_api_name": "shopify checkout"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "shoutcast-radio",
+      "normalized_api_name": "shoutcast radio"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "slack-web",
+      "normalized_api_name": "slack web"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "social-actions",
+      "normalized_api_name": "social actions"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "spotify-web",
+      "normalized_api_name": "spotify web"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "springer-metadata",
+      "normalized_api_name": "springer metadata"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "spy-dialer",
+      "normalized_api_name": "spy dialer"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "syndicate-plus",
+      "normalized_api_name": "syndicate plus"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "tec-mailing",
+      "normalized_api_name": "tec mailing"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "telegram-bot",
+      "normalized_api_name": "telegram bot"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "time-extractor",
+      "normalized_api_name": "time extractor"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "tomtom-geocoding",
+      "normalized_api_name": "tomtom geocoding"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "tourcms-marketplace",
+      "normalized_api_name": "tourcms marketplace"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "trailer-addict",
+      "normalized_api_name": "trailer addict"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "travel-iq",
+      "normalized_api_name": "travel iq"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "travel-portal",
+      "normalized_api_name": "travel portal"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "tropo-scripting",
+      "normalized_api_name": "tropo scripting"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "true-knowledge",
+      "normalized_api_name": "true knowledge"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "tutorials-garden",
+      "normalized_api_name": "tutorials garden"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "twilio-sms",
+      "normalized_api_name": "twilio sms"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "twitter-search",
+      "normalized_api_name": "twitter search"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "twitter-streaming",
+      "normalized_api_name": "twitter streaming"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "unity-scripting",
+      "normalized_api_name": "unity scripting"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "upc-database",
+      "normalized_api_name": "upc database"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ups-shipping",
+      "normalized_api_name": "ups shipping"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "walgreens-quickprints",
+      "normalized_api_name": "walgreens quickprints"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "walk-score",
+      "normalized_api_name": "walk score"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "walmart-open",
+      "normalized_api_name": "walmart open"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "weather-central",
+      "normalized_api_name": "weather central"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "weather-channel",
+      "normalized_api_name": "weather channel"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "webknox-keywords",
+      "normalized_api_name": "webknox keywords"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "what-trend",
+      "normalized_api_name": "what trend"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "whatsapp-business",
+      "normalized_api_name": "whatsapp business"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "wishpot-shopping",
+      "normalized_api_name": "wishpot shopping"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "wolfram-alpha",
+      "normalized_api_name": "wolfram alpha"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "worldcat-search",
+      "normalized_api_name": "worldcat search"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yahoo-ads",
+      "normalized_api_name": "yahoo ads"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yahoo-answers",
+      "normalized_api_name": "yahoo answers"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yahoo-bbauth",
+      "normalized_api_name": "yahoo bbauth"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yahoo-geoplanet",
+      "normalized_api_name": "yahoo geoplanet"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yahoo-mail",
+      "normalized_api_name": "yahoo mail"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yahoo-placemaker",
+      "normalized_api_name": "yahoo placemaker"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yahoo-traffic",
+      "normalized_api_name": "yahoo traffic"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yahoo-travel",
+      "normalized_api_name": "yahoo travel"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yahoo-yui",
+      "normalized_api_name": "yahoo yui"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yelp-fusion",
+      "normalized_api_name": "yelp fusion"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "your-mapper",
+      "normalized_api_name": "your mapper"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "zendesk-core",
+      "normalized_api_name": "zendesk core"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "zoho-crm",
+      "normalized_api_name": "zoho crm"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "23",
+      "normalized_api_name": "23"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "3dcart",
+      "normalized_api_name": "3dcart"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "4shared",
+      "normalized_api_name": "4shared"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "500px",
+      "normalized_api_name": "500px"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "7digital",
+      "normalized_api_name": "7digital"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "8coupons",
+      "normalized_api_name": "8coupons"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "abbreviations",
+      "normalized_api_name": "abbreviations"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "abebooks",
+      "normalized_api_name": "abebooks"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "accuweather",
+      "normalized_api_name": "accuweather"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "actblue",
+      "normalized_api_name": "actblue"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "active",
+      "normalized_api_name": "active"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "activecom",
+      "normalized_api_name": "activecom"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "adility",
+      "normalized_api_name": "adility"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "aerisweather",
+      "normalized_api_name": "aerisweather"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "agentrank",
+      "normalized_api_name": "agentrank"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ahrefs",
+      "normalized_api_name": "ahrefs"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "aiderss",
+      "normalized_api_name": "aiderss"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "airbrake",
+      "normalized_api_name": "airbrake"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "akismet",
+      "normalized_api_name": "akismet"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "allmyles",
+      "normalized_api_name": "allmyles"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "allogarage",
+      "normalized_api_name": "allogarage"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "alternativeto",
+      "normalized_api_name": "alternativeto"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "altmetric",
+      "normalized_api_name": "altmetric"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amadeus",
+      "normalized_api_name": "amadeus"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amazonca",
+      "normalized_api_name": "amazonca"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amee",
+      "normalized_api_name": "amee"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "americommerce",
+      "normalized_api_name": "americommerce"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "amplify",
+      "normalized_api_name": "amplify"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "antideo",
+      "normalized_api_name": "antideo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "anything2pdf",
+      "normalized_api_name": "anything2pdf"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "apartmentsapart",
+      "normalized_api_name": "apartmentsapart"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "appfollow",
+      "normalized_api_name": "appfollow"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "appharbor",
+      "normalized_api_name": "appharbor"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "appnet",
+      "normalized_api_name": "appnet"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "arcweb",
+      "normalized_api_name": "arcweb"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "artbeat",
+      "normalized_api_name": "artbeat"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "artistdata",
+      "normalized_api_name": "artistdata"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "authorizenet",
+      "normalized_api_name": "authorizenet"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "avantlink",
+      "normalized_api_name": "avantlink"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "avvo",
+      "normalized_api_name": "avvo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "awesm",
+      "normalized_api_name": "awesm"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bandcamp",
+      "normalized_api_name": "bandcamp"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bandsintown",
+      "normalized_api_name": "bandsintown"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "basecamp",
+      "normalized_api_name": "basecamp"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "batchbook",
+      "normalized_api_name": "batchbook"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bbc",
+      "normalized_api_name": "bbc"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "beatport",
+      "normalized_api_name": "beatport"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bebo",
+      "normalized_api_name": "bebo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "beebotte",
+      "normalized_api_name": "beebotte"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "beenverified",
+      "normalized_api_name": "beenverified"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "behance",
+      "normalized_api_name": "behance"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "betfair",
+      "normalized_api_name": "betfair"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bibliacom",
+      "normalized_api_name": "bibliacom"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bigcommerce",
+      "normalized_api_name": "bigcommerce"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "billomat",
+      "normalized_api_name": "billomat"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bing",
+      "normalized_api_name": "bing"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bitcoinaverage",
+      "normalized_api_name": "bitcoinaverage"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bitly",
+      "normalized_api_name": "bitly"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bizvizz",
+      "normalized_api_name": "bizvizz"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "blankslate",
+      "normalized_api_name": "blankslate"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "blekko",
+      "normalized_api_name": "blekko"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "blinksale",
+      "normalized_api_name": "blinksale"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "blipfm",
+      "normalized_api_name": "blipfm"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "blogger",
+      "normalized_api_name": "blogger"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bloglines",
+      "normalized_api_name": "bloglines"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bondora",
+      "normalized_api_name": "bondora"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bookmooch",
+      "normalized_api_name": "bookmooch"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "booli",
+      "normalized_api_name": "booli"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "box",
+      "normalized_api_name": "box"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "brandify",
+      "normalized_api_name": "brandify"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "brightcove",
+      "normalized_api_name": "brightcove"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "buffer",
+      "normalized_api_name": "buffer"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "bugsnag",
+      "normalized_api_name": "bugsnag"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "campfire",
+      "normalized_api_name": "campfire"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "captchacoin",
+      "normalized_api_name": "captchacoin"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "car2go",
+      "normalized_api_name": "car2go"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "careerbuilder",
+      "normalized_api_name": "careerbuilder"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "careerjet",
+      "normalized_api_name": "careerjet"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "caret",
+      "normalized_api_name": "caret"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "carma",
+      "normalized_api_name": "carma"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "cartodb",
+      "normalized_api_name": "cartodb"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "checkvist",
+      "normalized_api_name": "checkvist"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "cicero",
+      "normalized_api_name": "cicero"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "circleci",
+      "normalized_api_name": "circleci"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "citygrid",
+      "normalized_api_name": "citygrid"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ckan",
+      "normalized_api_name": "ckan"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "cleartrip",
+      "normalized_api_name": "cleartrip"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "clickup",
+      "normalized_api_name": "clickup"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "clicky",
+      "normalized_api_name": "clicky"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "cloudmine",
+      "normalized_api_name": "cloudmine"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "cnet",
+      "normalized_api_name": "cnet"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "cohuman",
+      "normalized_api_name": "cohuman"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "coincap",
+      "normalized_api_name": "coincap"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "coindesk",
+      "normalized_api_name": "coindesk"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "coinkite",
+      "normalized_api_name": "coinkite"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "coinpaprika",
+      "normalized_api_name": "coinpaprika"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "colourlovers",
+      "normalized_api_name": "colourlovers"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "compete",
+      "normalized_api_name": "compete"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "conceptshare",
+      "normalized_api_name": "conceptshare"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "concur",
+      "normalized_api_name": "concur"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "constantcontact",
+      "normalized_api_name": "constantcontact"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "contentful",
+      "normalized_api_name": "contentful"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "contextio",
+      "normalized_api_name": "contextio"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "coronatracker",
+      "normalized_api_name": "coronatracker"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "corpwatch",
+      "normalized_api_name": "corpwatch"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "crmtext",
+      "normalized_api_name": "crmtext"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "crowdflower",
+      "normalized_api_name": "crowdflower"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "crunchbase",
+      "normalized_api_name": "crunchbase"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "cryptoapis",
+      "normalized_api_name": "cryptoapis"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "csv2geo",
+      "normalized_api_name": "csv2geo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "cubesensors",
+      "normalized_api_name": "cubesensors"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "culture24",
+      "normalized_api_name": "culture24"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "dailymotion",
+      "normalized_api_name": "dailymotion"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "dandyid",
+      "normalized_api_name": "dandyid"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "datadog",
+      "normalized_api_name": "datadog"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "datagovuk",
+      "normalized_api_name": "datagovuk"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "datarella",
+      "normalized_api_name": "datarella"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "datumbox",
+      "normalized_api_name": "datumbox"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "daylife",
+      "normalized_api_name": "daylife"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "dbpedia",
+      "normalized_api_name": "dbpedia"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "dealsurf",
+      "normalized_api_name": "dealsurf"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "decarta",
+      "normalized_api_name": "decarta"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "deezer",
+      "normalized_api_name": "deezer"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "dhl",
+      "normalized_api_name": "dhl"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "digitalocean",
+      "normalized_api_name": "digitalocean"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "discogs",
+      "normalized_api_name": "discogs"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "disqus",
+      "normalized_api_name": "disqus"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "dnsimple",
+      "normalized_api_name": "dnsimple"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "domain",
+      "normalized_api_name": "domain"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "domaintools",
+      "normalized_api_name": "domaintools"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "donorschoose",
+      "normalized_api_name": "donorschoose"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "doodle",
+      "normalized_api_name": "doodle"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "drawloop",
+      "normalized_api_name": "drawloop"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "dribbble",
+      "normalized_api_name": "dribbble"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "dropbox",
+      "normalized_api_name": "dropbox"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "earthtools",
+      "normalized_api_name": "earthtools"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "easytobook",
+      "normalized_api_name": "easytobook"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "editgrid",
+      "normalized_api_name": "editgrid"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "eduroam",
+      "normalized_api_name": "eduroam"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "egnyte",
+      "normalized_api_name": "egnyte"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "elasticsearch",
+      "normalized_api_name": "elasticsearch"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "embedly",
+      "normalized_api_name": "embedly"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "enthusem",
+      "normalized_api_name": "enthusem"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ergast",
+      "normalized_api_name": "ergast"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "espn",
+      "normalized_api_name": "espn"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "etsy",
+      "normalized_api_name": "etsy"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "europass",
+      "normalized_api_name": "europass"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "eventbrite",
+      "normalized_api_name": "eventbrite"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "eventful",
+      "normalized_api_name": "eventful"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "evernote",
+      "normalized_api_name": "evernote"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "evoca",
+      "normalized_api_name": "evoca"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "exfm",
+      "normalized_api_name": "exfm"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "expono",
+      "normalized_api_name": "expono"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "facebook",
+      "normalized_api_name": "facebook"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "fakturoid",
+      "normalized_api_name": "fakturoid"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "fanbridge",
+      "normalized_api_name": "fanbridge"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "favqs",
+      "normalized_api_name": "favqs"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "fcc",
+      "normalized_api_name": "fcc"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "fedex",
+      "normalized_api_name": "fedex"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "feedly",
+      "normalized_api_name": "feedly"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "fenopy",
+      "normalized_api_name": "fenopy"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "filestube",
+      "normalized_api_name": "filestube"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "finalsite",
+      "normalized_api_name": "finalsite"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "finansportalen",
+      "normalized_api_name": "finansportalen"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "fitbit",
+      "normalized_api_name": "fitbit"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "flashgamedistribution",
+      "normalized_api_name": "flashgamedistribution"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "flickr",
+      "normalized_api_name": "flickr"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "food",
+      "normalized_api_name": "food"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "foodcare",
+      "normalized_api_name": "foodcare"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "formstack",
+      "normalized_api_name": "formstack"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "forvo",
+      "normalized_api_name": "forvo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "fotolia",
+      "normalized_api_name": "fotolia"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "foursquare",
+      "normalized_api_name": "foursquare"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "foxrate",
+      "normalized_api_name": "foxrate"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "framey",
+      "normalized_api_name": "framey"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "freshbooks",
+      "normalized_api_name": "freshbooks"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "friendfeed",
+      "normalized_api_name": "friendfeed"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "galileo",
+      "normalized_api_name": "galileo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "gatekrash",
+      "normalized_api_name": "gatekrash"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "genability",
+      "normalized_api_name": "genability"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "geoadmin",
+      "normalized_api_name": "geoadmin"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "geocoderca",
+      "normalized_api_name": "geocoderca"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "geograph",
+      "normalized_api_name": "geograph"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "geoloqi",
+      "normalized_api_name": "geoloqi"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "geonames",
+      "normalized_api_name": "geonames"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "geonb",
+      "normalized_api_name": "geonb"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "getglue",
+      "normalized_api_name": "getglue"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "gethealth",
+      "normalized_api_name": "gethealth"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "getsentiment",
+      "normalized_api_name": "getsentiment"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "gimmie",
+      "normalized_api_name": "gimmie"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "giphy",
+      "normalized_api_name": "giphy"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "github",
+      "normalized_api_name": "github"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "gitlab",
+      "normalized_api_name": "gitlab"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "gmail",
+      "normalized_api_name": "gmail"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "goodreads",
+      "normalized_api_name": "goodreads"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "govdata",
+      "normalized_api_name": "govdata"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "govtrackus",
+      "normalized_api_name": "govtrackus"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "gravatar",
+      "normalized_api_name": "gravatar"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "greatschools",
+      "normalized_api_name": "greatschools"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "groupdocs",
+      "normalized_api_name": "groupdocs"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "groupon",
+      "normalized_api_name": "groupon"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "gruvr",
+      "normalized_api_name": "gruvr"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "guardian",
+      "normalized_api_name": "guardian"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "hackerearth",
+      "normalized_api_name": "hackerearth"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "harvest",
+      "normalized_api_name": "harvest"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "hashedtags",
+      "normalized_api_name": "hashedtags"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "hasoffers",
+      "normalized_api_name": "hasoffers"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "healthfindergov",
+      "normalized_api_name": "healthfindergov"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "heroku",
+      "normalized_api_name": "heroku"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "hetzner",
+      "normalized_api_name": "hetzner"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "hi5",
+      "normalized_api_name": "hi5"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "highcharts",
+      "normalized_api_name": "highcharts"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "highrise",
+      "normalized_api_name": "highrise"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "hipchat",
+      "normalized_api_name": "hipchat"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "honjp",
+      "normalized_api_name": "honjp"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "hotukdeals",
+      "normalized_api_name": "hotukdeals"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "htm2pdf",
+      "normalized_api_name": "htm2pdf"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "hyves",
+      "normalized_api_name": "hyves"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "i2space",
+      "normalized_api_name": "i2space"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "idiomag",
+      "normalized_api_name": "idiomag"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ifixit",
+      "normalized_api_name": "ifixit"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "images",
+      "normalized_api_name": "images"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "imgur",
+      "normalized_api_name": "imgur"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "importio",
+      "normalized_api_name": "importio"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "impossiblefx",
+      "normalized_api_name": "impossiblefx"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "imsas",
+      "normalized_api_name": "imsas"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "indeed",
+      "normalized_api_name": "indeed"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "instapaper",
+      "normalized_api_name": "instapaper"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "intellinote",
+      "normalized_api_name": "intellinote"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "interfax",
+      "normalized_api_name": "interfax"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ip2location",
+      "normalized_api_name": "ip2location"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "irail",
+      "normalized_api_name": "irail"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "jambase",
+      "normalized_api_name": "jambase"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "jamendo",
+      "normalized_api_name": "jamendo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "jawbone",
+      "normalized_api_name": "jawbone"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "justintv",
+      "normalized_api_name": "justintv"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "kissmetrics",
+      "normalized_api_name": "kissmetrics"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "kiva",
+      "normalized_api_name": "kiva"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "kookoo",
+      "normalized_api_name": "kookoo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "kounta",
+      "normalized_api_name": "kounta"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "kuler",
+      "normalized_api_name": "kuler"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "laravel",
+      "normalized_api_name": "laravel"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "lastfm",
+      "normalized_api_name": "lastfm"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "launchbit",
+      "normalized_api_name": "launchbit"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "launchrock",
+      "normalized_api_name": "launchrock"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "levelup",
+      "normalized_api_name": "levelup"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "librarything",
+      "normalized_api_name": "librarything"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "lighthouse",
+      "normalized_api_name": "lighthouse"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "linkedin",
+      "normalized_api_name": "linkedin"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "liveconnect",
+      "normalized_api_name": "liveconnect"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "livejournal",
+      "normalized_api_name": "livejournal"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "localschooldirectory",
+      "normalized_api_name": "localschooldirectory"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "looker",
+      "normalized_api_name": "looker"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "lyft",
+      "normalized_api_name": "lyft"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "lyrdb",
+      "normalized_api_name": "lyrdb"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "maas2",
+      "normalized_api_name": "maas2"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mailchimp",
+      "normalized_api_name": "mailchimp"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mailgun",
+      "normalized_api_name": "mailgun"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mailjet",
+      "normalized_api_name": "mailjet"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mandrill",
+      "normalized_api_name": "mandrill"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mapbox",
+      "normalized_api_name": "mapbox"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "maplarge",
+      "normalized_api_name": "maplarge"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "maplight",
+      "normalized_api_name": "maplight"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mapmyfitness",
+      "normalized_api_name": "mapmyfitness"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "maponics",
+      "normalized_api_name": "maponics"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mapquest",
+      "normalized_api_name": "mapquest"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mediafire",
+      "normalized_api_name": "mediafire"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mediatemple",
+      "normalized_api_name": "mediatemple"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "meetup",
+      "normalized_api_name": "meetup"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mendeley",
+      "normalized_api_name": "mendeley"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "metacarta",
+      "normalized_api_name": "metacarta"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "metalocator",
+      "normalized_api_name": "metalocator"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mite",
+      "normalized_api_name": "mite"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mixpanel",
+      "normalized_api_name": "mixpanel"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mocky",
+      "normalized_api_name": "mocky"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mogreet",
+      "normalized_api_name": "mogreet"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "moneybookers",
+      "normalized_api_name": "moneybookers"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mongolab",
+      "normalized_api_name": "mongolab"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "moo",
+      "normalized_api_name": "moo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "moodle",
+      "normalized_api_name": "moodle"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "motorsportregcom",
+      "normalized_api_name": "motorsportregcom"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mozscape",
+      "normalized_api_name": "mozscape"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "multimap",
+      "normalized_api_name": "multimap"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "musicbrainz",
+      "normalized_api_name": "musicbrainz"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "musixmatch",
+      "normalized_api_name": "musixmatch"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mydigitalstructure",
+      "normalized_api_name": "mydigitalstructure"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "mymemory",
+      "normalized_api_name": "mymemory"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "myspace",
+      "normalized_api_name": "myspace"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "myvox",
+      "normalized_api_name": "myvox"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "nationbuilder",
+      "normalized_api_name": "nationbuilder"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "naver",
+      "normalized_api_name": "naver"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "nestoria",
+      "normalized_api_name": "nestoria"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "neto",
+      "normalized_api_name": "neto"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "netvibes",
+      "normalized_api_name": "netvibes"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "nhs",
+      "normalized_api_name": "nhs"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "ning",
+      "normalized_api_name": "ning"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "notifo",
+      "normalized_api_name": "notifo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "nozbe",
+      "normalized_api_name": "nozbe"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "numbers",
+      "normalized_api_name": "numbers"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "oodle",
+      "normalized_api_name": "oodle"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "opencnam",
+      "normalized_api_name": "opencnam"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "opendada",
+      "normalized_api_name": "opendada"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "opendoar",
+      "normalized_api_name": "opendoar"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "openlayers",
+      "normalized_api_name": "openlayers"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "opensecrets",
+      "normalized_api_name": "opensecrets"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "opensocial",
+      "normalized_api_name": "opensocial"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "openstreetmap",
+      "normalized_api_name": "openstreetmap"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "openweathermap",
+      "normalized_api_name": "openweathermap"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "orb",
+      "normalized_api_name": "orb"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "orkut",
+      "normalized_api_name": "orkut"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "otnettv",
+      "normalized_api_name": "otnettv"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "page2images",
+      "normalized_api_name": "page2images"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "panoramio",
+      "normalized_api_name": "panoramio"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "paris",
+      "normalized_api_name": "paris"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "parse",
+      "normalized_api_name": "parse"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "parsebot",
+      "normalized_api_name": "parsebot"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "paymentwall",
+      "normalized_api_name": "paymentwall"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "paypal",
+      "normalized_api_name": "paypal"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "pdxcouncilconnect",
+      "normalized_api_name": "pdxcouncilconnect"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "pebble",
+      "normalized_api_name": "pebble"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "peekacity",
+      "normalized_api_name": "peekacity"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "peerindex",
+      "normalized_api_name": "peerindex"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "petfinder",
+      "normalized_api_name": "petfinder"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "phishtank",
+      "normalized_api_name": "phishtank"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "photo",
+      "normalized_api_name": "photo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "photobucket",
+      "normalized_api_name": "photobucket"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "picplz",
+      "normalized_api_name": "picplz"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "pipl",
+      "normalized_api_name": "pipl"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "pixlab",
+      "normalized_api_name": "pixlab"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "plancast",
+      "normalized_api_name": "plancast"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "playme",
+      "normalized_api_name": "playme"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "plivo",
+      "normalized_api_name": "plivo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "plunker",
+      "normalized_api_name": "plunker"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "pocket",
+      "normalized_api_name": "pocket"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "popshops",
+      "normalized_api_name": "popshops"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "postalmethods",
+      "normalized_api_name": "postalmethods"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "pricespin",
+      "normalized_api_name": "pricespin"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "primal",
+      "normalized_api_name": "primal"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "printfection",
+      "normalized_api_name": "printfection"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "printr",
+      "normalized_api_name": "printr"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "prosper",
+      "normalized_api_name": "prosper"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "prosperent",
+      "normalized_api_name": "prosperent"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "pryv",
+      "normalized_api_name": "pryv"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "publicstuff",
+      "normalized_api_name": "publicstuff"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "pubnub",
+      "normalized_api_name": "pubnub"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "pusher",
+      "normalized_api_name": "pusher"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "quickblox",
+      "normalized_api_name": "quickblox"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "quora",
+      "normalized_api_name": "quora"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "quova",
+      "normalized_api_name": "quova"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "qype",
+      "normalized_api_name": "qype"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "rapleaf",
+      "normalized_api_name": "rapleaf"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "razorpay",
+      "normalized_api_name": "razorpay"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "readability",
+      "normalized_api_name": "readability"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "readsocial",
+      "normalized_api_name": "readsocial"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "recognizeim",
+      "normalized_api_name": "recognizeim"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "recurly",
+      "normalized_api_name": "recurly"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "redbooth",
+      "normalized_api_name": "redbooth"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "reddit",
+      "normalized_api_name": "reddit"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "rescuegroups",
+      "normalized_api_name": "rescuegroups"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "rescuetime",
+      "normalized_api_name": "rescuetime"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "resfly",
+      "normalized_api_name": "resfly"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "resgrid",
+      "normalized_api_name": "resgrid"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "rezgo",
+      "normalized_api_name": "rezgo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "rhapsody",
+      "normalized_api_name": "rhapsody"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "rubygems",
+      "normalized_api_name": "rubygems"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "s3bubble",
+      "normalized_api_name": "s3bubble"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "saasgrid",
+      "normalized_api_name": "saasgrid"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "scalarium",
+      "normalized_api_name": "scalarium"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "schoology",
+      "normalized_api_name": "schoology"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "scoopit",
+      "normalized_api_name": "scoopit"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "sears",
+      "normalized_api_name": "sears"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "secondlife",
+      "normalized_api_name": "secondlife"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "securenet",
+      "normalized_api_name": "securenet"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "semrush",
+      "normalized_api_name": "semrush"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "sendgrid",
+      "normalized_api_name": "sendgrid"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "seomoz",
+      "normalized_api_name": "seomoz"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "serpstat",
+      "normalized_api_name": "serpstat"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "servicem8",
+      "normalized_api_name": "servicem8"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "sharedbook",
+      "normalized_api_name": "sharedbook"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "shizzow",
+      "normalized_api_name": "shizzow"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "shoppingcom",
+      "normalized_api_name": "shoppingcom"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "shopstyle",
+      "normalized_api_name": "shopstyle"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "shopzilla",
+      "normalized_api_name": "shopzilla"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "shutterpoint",
+      "normalized_api_name": "shutterpoint"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "simpleapi",
+      "normalized_api_name": "simpleapi"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "singly",
+      "normalized_api_name": "singly"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "sitesummary",
+      "normalized_api_name": "sitesummary"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "slashdb",
+      "normalized_api_name": "slashdb"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "sletohcom",
+      "normalized_api_name": "sletohcom"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "slideshare",
+      "normalized_api_name": "slideshare"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "sms",
+      "normalized_api_name": "sms"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "smsmybus",
+      "normalized_api_name": "smsmybus"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "smugmug",
+      "normalized_api_name": "smugmug"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "snappyfingers",
+      "normalized_api_name": "snappyfingers"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "snipshot",
+      "normalized_api_name": "snipshot"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "snocap",
+      "normalized_api_name": "snocap"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "songkick",
+      "normalized_api_name": "songkick"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "sonicapicom",
+      "normalized_api_name": "sonicapicom"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "soundcloud",
+      "normalized_api_name": "soundcloud"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "spokenbuzz",
+      "normalized_api_name": "spokenbuzz"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "spore",
+      "normalized_api_name": "spore"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "sportradar",
+      "normalized_api_name": "sportradar"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "sqlify",
+      "normalized_api_name": "sqlify"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "statref",
+      "normalized_api_name": "statref"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "strava",
+      "normalized_api_name": "strava"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "stripe",
+      "normalized_api_name": "stripe"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "stupeflix",
+      "normalized_api_name": "stupeflix"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "subdb",
+      "normalized_api_name": "subdb"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "subj3ct",
+      "normalized_api_name": "subj3ct"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "sugarsync",
+      "normalized_api_name": "sugarsync"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "superfeedr",
+      "normalized_api_name": "superfeedr"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "supportfu",
+      "normalized_api_name": "supportfu"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "synonyms",
+      "normalized_api_name": "synonyms"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "tagalus",
+      "normalized_api_name": "tagalus"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "taglets",
+      "normalized_api_name": "taglets"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "tagoo",
+      "normalized_api_name": "tagoo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "tarpipe",
+      "normalized_api_name": "tarpipe"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "teamsnap",
+      "normalized_api_name": "teamsnap"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "telapi",
+      "normalized_api_name": "telapi"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "telize",
+      "normalized_api_name": "telize"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "thetvdbcom",
+      "normalized_api_name": "thetvdbcom"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "theyworkforyou",
+      "normalized_api_name": "theyworkforyou"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "thinknum",
+      "normalized_api_name": "thinknum"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "thrutu",
+      "normalized_api_name": "thrutu"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "timezonedb",
+      "normalized_api_name": "timezonedb"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "toodledo",
+      "normalized_api_name": "toodledo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "topsy",
+      "normalized_api_name": "topsy"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "touchnote",
+      "normalized_api_name": "touchnote"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "tradegecko",
+      "normalized_api_name": "tradegecko"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "tradeshift",
+      "normalized_api_name": "tradeshift"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "traitify",
+      "normalized_api_name": "traitify"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "trakttv",
+      "normalized_api_name": "trakttv"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "travelfusion",
+      "normalized_api_name": "travelfusion"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "trello",
+      "normalized_api_name": "trello"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "trendrr",
+      "normalized_api_name": "trendrr"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "tripit",
+      "normalized_api_name": "tripit"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "tumblr",
+      "normalized_api_name": "tumblr"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "tvrage",
+      "normalized_api_name": "tvrage"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "twilio",
+      "normalized_api_name": "twilio"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "twitpic",
+      "normalized_api_name": "twitpic"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "twitter",
+      "normalized_api_name": "twitter"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "uber",
+      "normalized_api_name": "uber"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "uclassify",
+      "normalized_api_name": "uclassify"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "unbounce",
+      "normalized_api_name": "unbounce"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "untappd",
+      "normalized_api_name": "untappd"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "uproc",
+      "normalized_api_name": "uproc"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "uservoice",
+      "normalized_api_name": "uservoice"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "uship",
+      "normalized_api_name": "uship"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "vast",
+      "normalized_api_name": "vast"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "vcita",
+      "normalized_api_name": "vcita"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "vhx",
+      "normalized_api_name": "vhx"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "viamichelin",
+      "normalized_api_name": "viamichelin"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "viator",
+      "normalized_api_name": "viator"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "vimeo",
+      "normalized_api_name": "vimeo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "vk",
+      "normalized_api_name": "vk"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "voo2do",
+      "normalized_api_name": "voo2do"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "voucherify",
+      "normalized_api_name": "voucherify"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "voxeo",
+      "normalized_api_name": "voxeo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "vzaar",
+      "normalized_api_name": "vzaar"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "waifuai",
+      "normalized_api_name": "waifuai"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "watchmouse",
+      "normalized_api_name": "watchmouse"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "webhoseio",
+      "normalized_api_name": "webhoseio"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "weblogs",
+      "normalized_api_name": "weblogs"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "whipplehill",
+      "normalized_api_name": "whipplehill"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "whois",
+      "normalized_api_name": "whois"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "widgetbox",
+      "normalized_api_name": "widgetbox"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "wikia",
+      "normalized_api_name": "wikia"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "wikilocation",
+      "normalized_api_name": "wikilocation"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "wikipedia",
+      "normalized_api_name": "wikipedia"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "wiserearth",
+      "normalized_api_name": "wiserearth"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "woocommerce",
+      "normalized_api_name": "woocommerce"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "wookmark",
+      "normalized_api_name": "wookmark"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "wordnik",
+      "normalized_api_name": "wordnik"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "wordpresscom",
+      "normalized_api_name": "wordpresscom"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "wordpressorg",
+      "normalized_api_name": "wordpressorg"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "workflowmax",
+      "normalized_api_name": "workflowmax"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "worksnaps",
+      "normalized_api_name": "worksnaps"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "xero",
+      "normalized_api_name": "xero"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yellow",
+      "normalized_api_name": "yellow"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yipit",
+      "normalized_api_name": "yipit"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yolink",
+      "normalized_api_name": "yolink"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "youtube",
+      "normalized_api_name": "youtube"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "youtxt",
+      "normalized_api_name": "youtxt"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "yummly",
+      "normalized_api_name": "yummly"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "zanox",
+      "normalized_api_name": "zanox"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "zapier",
+      "normalized_api_name": "zapier"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "zappos",
+      "normalized_api_name": "zappos"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "zazzle",
+      "normalized_api_name": "zazzle"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "zemanta",
+      "normalized_api_name": "zemanta"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "zillow",
+      "normalized_api_name": "zillow"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "zoominfo",
+      "normalized_api_name": "zoominfo"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "zoopla",
+      "normalized_api_name": "zoopla"
+    },
+    {
+      "official_api_id": "",
+      "official_api_name": "zotero",
+      "normalized_api_name": "zotero"
+    }
+  ]
+}

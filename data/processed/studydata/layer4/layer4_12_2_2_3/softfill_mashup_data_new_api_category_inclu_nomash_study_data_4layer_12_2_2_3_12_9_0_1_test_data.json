@@ -1,0 +1,146 @@
+[
+    {
+        "name": "platform-trust-access-control-list-acl",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The Access Control List (ACL) API provides a means for managing access control lists of identities.ACL API- allows generating a list of permissions on an identity. List contains all other identities that can access this identity and their access privileges (read, write, link, manage)- allows to check if an identity requesting permission to the current identity has specific privilege(s) on an identity- allows to check if an identity requesting permission has specific privilege(s) on a batch of identities- allows owner of identity to set permissions on giving the from identity read, write, link and/or manage access to the to target identityOwner of an Identity can delete permission given to other identities.",
+        "middlecategories": [
+            "9-0"
+        ],
+        "layer3categories": [
+            "9-0-1"
+        ]
+    },
+    {
+        "name": "shopify-media-graphql",
+        "categories": [
+            "merchants"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "Shopify Media applications use the GraphQL Admin API to manage the various types of media associated with merchants' products. It enables users to upload media to Shopify, add media to a product, retrieve media objects, etc. Shopify provides services for merchants, that want to sell online, in-store, or anywhere. It is ecommerce solutions, such as, integrating your service into the Shopify admin, customizing any website, and more.",
+        "middlecategories": [
+            "9-0"
+        ],
+        "layer3categories": [
+            "9-0-1"
+        ]
+    },
+    {
+        "name": "onename",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "Onename offers identity passcards to browse the web and receive bitcoin. Bitcoin can be sent to users who've displayed the passcard on Twitter, embedded it in a blog or on a linked it in an email signature. Users can share contact info privately, use stealth addresses for private payments. Search for &amp; register users with the API.Onename invites users to obtain a personal page with the goal to share private contact information either for private chat or private payments. Sign up for an API account to start integration. It requires App ID and Shared Secret to authenticate.",
+        "middlecategories": [
+            "9-0"
+        ],
+        "layer3categories": [
+            "9-0-1"
+        ]
+    },
+    {
+        "name": "ekata-find-person",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The Ekata Find Person API retrieves the name and addresses information of a user including landline phone numbers, associated people, and demographic information aiming to enrich customer data. Query parameters cover name, first name, last name, address, and alternate name.",
+        "middlecategories": [
+            "9-0"
+        ],
+        "layer3categories": [
+            "9-0-1"
+        ]
+    },
+    {
+        "name": "fusionauth",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "FusionAuth API provides authentication, login, SSO, MFA, and more, and is free for unlimited users. It provides secure, single-tenant, on-prem or private cloud identity for any codebase on macOS, Linux, Windows, Docker, AWS, and more.",
+        "middlecategories": [
+            "9-0"
+        ],
+        "layer3categories": [
+            "9-0-1"
+        ]
+    },
+    {
+        "name": "cmsonline",
+        "categories": [
+            "merchants"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The CMSOnline API in agreement with USAePay Solutions, integrate merchant payments into applications. Developers can access a SOAP interface with libraries in PHP, JavaScript, ColdFusion, Ruby, .NET, and Perl, requesting HTTP GET calls to receive XML responses in return.",
+        "middlecategories": [
+            "9-0"
+        ],
+        "layer3categories": [
+            "9-0-1"
+        ]
+    },
+    {
+        "name": "fusionauth-webhooks",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The FusionAuth Webhook API consumes JSON events that are produced by FusionAuth. It allows you to request FusionAuth JSON events and to specify where to recieve them. This Webhooks service provides a pub-sub type of integration with FusionAuth, to manage the ability to; Create a Webhook, Retrieve a Webhook, Update a Webhook and Delete a Webhook. FusionAuth provides a secure on-prem or private cloud identity platform for any codebase. It is a single-tenant solution that runs on any platform or box including; macOS, Linux, Windows, Docker, Kubernetes, Bare Metal and more.",
+        "middlecategories": [
+            "9-0"
+        ],
+        "layer3categories": [
+            "9-0-1"
+        ]
+    },
+    {
+        "name": "centrify",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "The Centrify API integrates identity verification features into user applications. It is available in JSON format with job flow, radius, and SaaS management as API references. Products aim to prevent cyberthreats found on cloud, mobile, and on-premises.",
+        "middlecategories": [
+            "9-0"
+        ],
+        "layer3categories": [
+            "9-0-1"
+        ]
+    },
+    {
+        "name": "fingerbank",
+        "categories": [
+            "identity"
+        ],
+        "bigcategories": [
+            "9"
+        ],
+        "description": "Fingerbank is a service that determines what type of device is connected to a network. It does this by exposing the device's MAC unique identifier address and analyzing the order of DHCP commands to determine device and operating system. This type of information can be utilized by Network Access Control administrators who want to target content to specialized devices, ignore features to certain devices, or use this data for web visitor analytics. Visitors to the site may either query the fingerprint database, download the database as an SQL database, or implement the Fingerbank API to make calls directly from applications. Users may register for API access with Fingerbank through their GitHub accounts.",
+        "middlecategories": [
+            "9-0"
+        ],
+        "layer3categories": [
+            "9-0-1"
+        ]
+    }
+]

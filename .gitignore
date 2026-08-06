@@ -1,125 +1,79 @@
-##############################
-# Python / PyTorch / Transformers
-##############################
+# Python / notebooks
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
 *.so
-*.egg
-*.egg-info/
+.ipynb_checkpoints/
+
+# Local environments and personal files
+venv/
+.venv/
+.env
+*.env
+!.env.example
+.envrc
+.conda/
+.pyenv/
+.cache/
+**/.cache/
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+/Desktop/
+.bash*
+.zsh*
+.profile
+.gitconfig
+.wget-hsts
+.lesshst
+.selected_editor
+.ssh/
+.vscode-server/
+venv_active.txt
+
+# Downloaded models and training checkpoints
+models/
+checkpoints/
+lightning_logs/
+ga_logs/
+model_weight/
+/layer1/
+/layer2_*/
+/layer3_*/
+/layer4_*/
+/study_category_inc_nomashup_model_new_kfold/
 *.pkl
 *.joblib
 *.pt
 *.pth
 *.ckpt
 *.onnx
+*.safetensors
+*.bin
 
-##############################
-# 仮想環境・環境変数・ツール
-##############################
-venv/
-.env
-.envrc
-.conda/
-pip-wheel-metadata/
-.pyenv/
-.conda/
-.cache/
-.config/
-.local/
-
-##############################
-# Hugging Face / Datasets / Cache
-##############################
-.cache/
-datasets_cache/
-huggingface/
-**/.cache/
-
-##############################
-# モデル・ログ・中間出力
-##############################
-checkpoints/
-lightning_logs/
-ga_logs/
-model_weight/
-models/
-api_category_list/
-
-##############################
-# 出力・予測・結果ファイル
-##############################
+# Generated outputs
+*.log
 *.out
 *.tmp
 *.bak
+*.bak_*
+*.orig
+*.zip
+*.png
+*.pdf
+*.xlsx
 *.csv
 *.tsv
 *.jsonl
 *.feather
 *.sqlite
 *.db
-
-# ファイル名ベースで除外（出力結果系）
-*_result_*.log
-*_result_*.csv
-*_output*.log
-*_out*.log
 *_pred*.json
 *_prediction*.json
-*_weights*.pth
-*_model_weights.pth
-ga_test_output_*.log
 nohup.out
-
-##############################
-# Jupyter / Emacs / Vim / Gedit などの編集一時ファイル
-##############################
-.ipynb_checkpoints/
-*~
-.~*
-*.swp
-*.swo
-*.tmp
-*.bak
-*.ipynb~
-
-##############################
-# VSCode / IDE
-##############################
-.vscode/
-.idea/
-*.code-workspace
-
-##############################
-# OS由来のゴミファイル
-##############################
-.DS_Store
-Thumbs.db
-*.desktop
-
-# ユーザー設定・キャッシュ・実行環境に依存
-.config/
-.cache/
-.dotnet/
-.local/
-.conda/
-.ssh
-.vscode-server
-
-# シェル設定ファイル
-.bashrc
-.bash_profile
-.bash_logout
-.bash_history
-.zshrc
-.zsh_history
-.profile
-.sudo_as_admin_successful
-
-# Git設定・個人設定
-.gitconfig
-.wget-hsts
-
-# 学習済みモデル（再ダウンロード可能）
-GoogleNews-vectors-negative300.bin
+codex/**/results/
+codex/**/output/
+codex/**/cache/
+/archive/
+/results/

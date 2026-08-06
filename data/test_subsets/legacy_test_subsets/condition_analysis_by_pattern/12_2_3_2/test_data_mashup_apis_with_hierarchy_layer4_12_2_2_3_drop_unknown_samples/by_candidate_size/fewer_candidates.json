@@ -1,0 +1,5362 @@
+{
+  "voice-apps": {
+    "categories": [
+      "voice"
+    ],
+    "description": " Here any one can develop voice apps for Amazon Echo, Google Assistant and Microsoft Cortana. We support proactive event notifications using scheduler and web hooks. Users can also develop Chatbots using NLP. ",
+    "gt_layer1": [
+      "8"
+    ],
+    "gt_layer2": [
+      "8-0"
+    ],
+    "gt_layer3": [
+      "8-0-1"
+    ],
+    "apis": [
+      "amazon-alexa-skill-voice-service",
+      "alexa-skill-management",
+      "amazon-alexa-proactive-events",
+      "amazon-alexa-smart-home-skills",
+      "google-assistant",
+      "dialogflow-standard-webhooks",
+      "nlp-tools"
+    ],
+    "id": 49,
+    "gt_layer4": [
+      "voice"
+    ]
+  },
+  "poluxfr": {
+    "categories": [
+      "animals",
+      "blogging"
+    ],
+    "description": " Polux.fr is a site about dogs. Animated by enthusiasts, our advice will allow you to (better) love your companion on all fours! The site uses Dog CEO's API to feature a random breed of dog each day, on the Polux.fr under the image of the day. ",
+    "gt_layer1": [
+      "5",
+      "9"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "9-0"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "9-0-0"
+    ],
+    "apis": [
+      "dog-ceo-dog"
+    ],
+    "id": 91,
+    "gt_layer4": [
+      "animals",
+      "blogging"
+    ]
+  },
+  "virtual-classroom-api-integration": {
+    "categories": [
+      "education"
+    ],
+    "description": " Virtual Classroom API offers integration with any LMS or CMS such as WordPress, Drupal and Moodle. Virtual Classroom APIs allow seamless integration across technologies so an integration using technologies like aSP.net, PHP, Node.Js websites or any standard CMS and LMS platform can be undertaken. While most open source Learning Management Systems (LMS) like Moodle offer all functionality required to deliver asynchronous or self paced courses, there is no good ready to use open source or free solution available for delivering instructor led live classes. While Big Blue Button (BBB) and Free Conference Call offer free solution, you still need an expert eLearning development team to integrate the solution with your website or LMS. Xornor Technologies, is a team of engineers who specialize in eLearning, LMS, Virtual Classroom and API integration offering expert solutions to integrate different Virtual Classroom APIs like WizIQ classroom API, Big Blue Button Virtual Classroom, Zoom or Free conference call webinar solution to conduct live classes. ",
+    "gt_layer1": [
+      "2"
+    ],
+    "gt_layer2": [
+      "2-1"
+    ],
+    "gt_layer3": [
+      "2-1-1"
+    ],
+    "apis": [
+      "wiziq-virtual-classroom",
+      "moodle"
+    ],
+    "id": 108,
+    "gt_layer4": [
+      "education"
+    ]
+  },
+  "spotify-mood-music": {
+    "categories": [
+      "music"
+    ],
+    "description": " This mashup (script) identifies an emotion from an image with Microsoft’s Emotion API, then recommends a musical playlist based on the emotion identified using Spotify's Public API. ",
+    "gt_layer1": [
+      "3"
+    ],
+    "gt_layer2": [
+      "3-0"
+    ],
+    "gt_layer3": [
+      "3-0-1"
+    ],
+    "apis": [
+      "microsoft-cognitive-services-emotion",
+      "spotify-web"
+    ],
+    "id": 110,
+    "gt_layer4": [
+      "music"
+    ]
+  },
+  "trip-republic": {
+    "categories": [
+      "travel"
+    ],
+    "description": " Trip Republic is a travel planner, integrating 3rd party supply with user content to create a unique suggestions application. Plan &amp; share trip ideas with co-travelers Search &amp; book flights, hotels, activities, restaurants, etc., Personalized travel recommendations from your travel buddy. ",
+    "gt_layer1": [
+      "4"
+    ],
+    "gt_layer2": [
+      "4-1"
+    ],
+    "gt_layer3": [
+      "4-1-1"
+    ],
+    "apis": [
+      "viator",
+      "bookingcom-content",
+      "skyscanner-live-pricing"
+    ],
+    "id": 133,
+    "gt_layer4": [
+      "travel"
+    ]
+  },
+  "weathercheck": {
+    "categories": [
+      "weather"
+    ],
+    "description": " WeatherCheck uses the OpenWeatherMap API to provide the current weather and 10-day forecast for a given city. ",
+    "gt_layer1": [
+      "9"
+    ],
+    "gt_layer2": [
+      "9-1"
+    ],
+    "gt_layer3": [
+      "9-1-1"
+    ],
+    "apis": [
+      "openweathermap"
+    ],
+    "id": 140,
+    "gt_layer4": [
+      "weather"
+    ]
+  },
+  "synesica": {
+    "categories": [
+      "recommendations",
+      "ecommerce"
+    ],
+    "description": " Synesica offers fragrance recommendations based on different attributes such as aquatic, spicy, and citric. Additionally, users can take a lifestyle test to obtain a list of recommendations. This Mashup uses the ScentSee API which is a perfume index service that compiles expert opinions, and customer reviews. ",
+    "gt_layer1": [
+      "8",
+      "9"
+    ],
+    "gt_layer2": [
+      "8-1",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "8-1-0",
+      "9-1-0"
+    ],
+    "apis": [
+      "scalarium"
+    ],
+    "id": 144,
+    "gt_layer4": [
+      "ecommerce",
+      "recommendations"
+    ]
+  },
+  "getsentiment-restaurant-reviews": {
+    "categories": [
+      "classification",
+      "sentiment"
+    ],
+    "description": " GetSentiment Restaurant Reviews is a web application that collects and analyzes people's mentions of visits to restaurants, on various social media sites, discussion forums, and travel sites. The application uses two API services: Webhose to collect relevant restaurant mentions, and GetSentiment to analyze them in terms of sentiment and topical categories. The system calls Webhose API several times a day, to retrieve freshly indexed mentions of restaurants, cafes, bars, bistros and pubs. Relevant text snippets are then extracted and submitted to GetSentiment API, which returns a list of domain topics found in a snippet as well as the sentiment score associated with each topic. ",
+    "gt_layer1": [
+      "7",
+      "11"
+    ],
+    "gt_layer2": [
+      "7-0",
+      "11-0"
+    ],
+    "gt_layer3": [
+      "7-0-1",
+      "11-0-1"
+    ],
+    "apis": [
+      "getsentiment",
+      "webhoseio"
+    ],
+    "id": 154,
+    "gt_layer4": [
+      "classification",
+      "sentiment"
+    ]
+  },
+  "open-data-companion-odc": {
+    "categories": [
+      "applications",
+      "tools"
+    ],
+    "description": " The Open Data Companion (ODC) app for Android provides a unified access point to over 170 open data portals and thousands of datasets from around the world; right from your mobile device. Crafted with mobile-optimized features and design, it is is an easy and convenient way to find, access and share open data. Open Data Companion provides a framework for all Private Sector, State, Regional, National and Worldwide open data portals to deliver open data to all mobile users. FEATURES: Browse datasets from over 170 data portals around the world by categories Download and view data records (resources) on your mobile device Preview dataset records and create data visualisations in app before download (as supported by the portal) Translate dataset details from various languages to your preferred language (as determined by user’s Google Account settings) Bookmark/save datasets for later viewing Favorite your data portals for future easy access Sync your app data (bookmarks, Favorite &amp; settings) securely to your Google Drive and restore it to any device at anytime Share links to datasets on social media, email, sms, etc. right from the app In-app tutorial videos designed to help you quickly get productive with the app. Tutorial videos are available offline once downloaded ",
+    "gt_layer1": [
+      "3"
+    ],
+    "gt_layer2": [
+      "3-1"
+    ],
+    "gt_layer3": [
+      "3-1-0"
+    ],
+    "apis": [
+      "ckan",
+      "ckan-ireland",
+      "brazil-ckan",
+      "ckan-czech-republic",
+      "ckan-italy",
+      "ckan-norway"
+    ],
+    "id": 177,
+    "gt_layer4": [
+      "applications",
+      "tools"
+    ]
+  },
+  "imwallet": {
+    "categories": [
+      "cloud"
+    ],
+    "description": " imWallet is an application that lets users to transfer file a network location to another cloud. This application uses the Dropbox API service. ",
+    "gt_layer1": [
+      "10"
+    ],
+    "gt_layer2": [
+      "10-0"
+    ],
+    "gt_layer3": [
+      "10-0-1"
+    ],
+    "apis": [
+      "dropbox"
+    ],
+    "id": 193,
+    "gt_layer4": [
+      "cloud"
+    ]
+  },
+  "jobjolly": {
+    "categories": [
+      "jobs"
+    ],
+    "description": " Jobjolly is a web application that lets users search for jobs across the U.S. This application uses the CareerBuilder API. ",
+    "gt_layer1": [
+      "9"
+    ],
+    "gt_layer2": [
+      "9-0"
+    ],
+    "gt_layer3": [
+      "9-0-0"
+    ],
+    "apis": [
+      "careerbuilder"
+    ],
+    "id": 204,
+    "gt_layer4": [
+      "jobs"
+    ]
+  },
+  "appbuilder-forms-docusign": {
+    "categories": [
+      "forms"
+    ],
+    "description": " AppBuilder Forms is a mobile application from Weever Apps that lets users create and manage a suite of mobile forms for business-related processes. Customers to this application can access and manage documents electronically. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-0"
+    ],
+    "gt_layer3": [
+      "5-0-1"
+    ],
+    "apis": [
+      "docusign-enterprise"
+    ],
+    "id": 277,
+    "gt_layer4": [
+      "forms"
+    ]
+  },
+  "smartcommunicator": {
+    "categories": [
+      "data",
+      "messaging"
+    ],
+    "description": " SmartCommunicator is a service that organizes data, distributes messages, and turns messages into actions. With SmartCommunicator, businesses are able to connect to their customers via various means (messages, phone calls, research, surveys, etc.) in order to get a better understanding of the customers/audience. SmartCommunicator works across multiple platforms. ",
+    "gt_layer1": [
+      "4",
+      "5"
+    ],
+    "gt_layer2": [
+      "4-1",
+      "5-0"
+    ],
+    "gt_layer3": [
+      "4-1-0",
+      "5-0-0"
+    ],
+    "apis": [
+      "nationbuilder"
+    ],
+    "id": 299,
+    "gt_layer4": [
+      "data",
+      "messaging"
+    ]
+  },
+  "targeted-engagement": {
+    "categories": [
+      "advertising",
+      "politics"
+    ],
+    "description": " Targeted Engagement is a self-service programmatic advertising platform in politics. Compatible with multiple screen types, Targeted Engagement lets organizations to customize, launch, and manage their campaigns at the level that works best for them. ",
+    "gt_layer1": [
+      "7"
+    ],
+    "gt_layer2": [
+      "7-0",
+      "7-1"
+    ],
+    "gt_layer3": [
+      "7-0-1",
+      "7-1-0"
+    ],
+    "apis": [
+      "nationbuilder"
+    ],
+    "id": 303,
+    "gt_layer4": [
+      "advertising",
+      "politics"
+    ]
+  },
+  "tirupatidarshan": {
+    "categories": [
+      "booking"
+    ],
+    "description": " Tirupatidarshan is an online booking company that allows customers to book buses prior to their travels. Customers can enter their departure and arrival destinations and times for a list of available buses and schedules. ",
+    "gt_layer1": [
+      "11"
+    ],
+    "gt_layer2": [
+      "11-0"
+    ],
+    "gt_layer3": [
+      "11-0-1"
+    ],
+    "apis": [
+      "i2space"
+    ],
+    "id": 337,
+    "gt_layer4": [
+      "booking"
+    ]
+  },
+  "getoutcast": {
+    "categories": [
+      "photos",
+      "astronomy",
+      "travel",
+      "weather"
+    ],
+    "description": " GetOutCast provides users with a customized forecast for the photographic potential for any location in the U.S. GetOutCast uses a mashup of atmospheric and weather data to analyze and get the most probable result. It helps photographers to determine when and where to capture their images. ",
+    "gt_layer1": [
+      "4",
+      "7",
+      "8",
+      "9"
+    ],
+    "gt_layer2": [
+      "4-1",
+      "7-0",
+      "8-0",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "4-1-1",
+      "7-0-0",
+      "8-0-0",
+      "9-1-1"
+    ],
+    "apis": [
+      "noaa-national-weather-service-nws-ndfd-soap"
+    ],
+    "id": 366,
+    "gt_layer4": [
+      "astronomy",
+      "photos",
+      "travel",
+      "weather"
+    ]
+  },
+  "youturn": {
+    "categories": [
+      "travel",
+      "entertainment"
+    ],
+    "description": " Similar to Hyperlapse, YouTurn allows users to capture video at specific frame rates ranging from one to five frames per second. This way, users are able to take videos of their drives or road-trips to relive and to share their moments with others. The application compresses the video to decrease file size, making it fast and easy for others to access. ",
+    "gt_layer1": [
+      "3",
+      "4"
+    ],
+    "gt_layer2": [
+      "3-1",
+      "4-1"
+    ],
+    "gt_layer3": [
+      "3-1-1",
+      "4-1-1"
+    ],
+    "apis": [
+      "soundcloud"
+    ],
+    "id": 371,
+    "gt_layer4": [
+      "entertainment",
+      "travel"
+    ]
+  },
+  "health-month-game": {
+    "categories": [
+      "games",
+      "entertainment",
+      "health"
+    ],
+    "description": " Health Month is a monthly game that is concerned with making small improvements to a person's health, one month at a time. Health Month helps users take the science of nutrition and behavior change to combine it with social gaming tools. Customers get to personalize their own health-improvement rules with this game designed to make workouts fun. ",
+    "gt_layer1": [
+      "2",
+      "3",
+      "7"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "3-1",
+      "7-0"
+    ],
+    "gt_layer3": [
+      "2-0-0",
+      "3-1-1",
+      "7-0-1"
+    ],
+    "apis": [
+      "fitbit"
+    ],
+    "id": 382,
+    "gt_layer4": [
+      "entertainment",
+      "games",
+      "health"
+    ]
+  },
+  "tictrac": {
+    "categories": [
+      "fitness"
+    ],
+    "description": " TicTrac is a web and mobile application that allows users to track their every activity by either syncing from other existing applications on their device, or by using available features on TicTrac. With TicTrac, customers will discover what works for them, and what makes them tick. FitTrack's goal is to help users to better understand their routines. The mashup deploys the FitBit, BBC, and Health 2.0 APIs. ",
+    "gt_layer1": [
+      "11"
+    ],
+    "gt_layer2": [
+      "11-1"
+    ],
+    "gt_layer3": [
+      "11-1-0"
+    ],
+    "apis": [
+      "fitbit",
+      "bbc",
+      "health-20"
+    ],
+    "id": 386,
+    "gt_layer4": [
+      "fitness"
+    ]
+  },
+  "starterpad": {
+    "categories": [
+      "social",
+      "business"
+    ],
+    "description": " StarterPad is a free social network for entrepreneurs. Startup users help one another to become more successful. In addition, Startup leverages the Facebook and Twitter APIs to allow users to log in using their respective username and passwords. ",
+    "gt_layer1": [
+      "1",
+      "2"
+    ],
+    "gt_layer2": [
+      "1-1",
+      "2-0"
+    ],
+    "gt_layer3": [
+      "1-1-0",
+      "2-0-1"
+    ],
+    "apis": [
+      "facebook",
+      "twitter"
+    ],
+    "id": 422,
+    "gt_layer4": [
+      "business",
+      "social"
+    ]
+  },
+  "premiumshared.com": {
+    "categories": [
+      "search",
+      "music"
+    ],
+    "description": " Premiumshared.com is mp3 search engine that leverages the 4shared and Last.fm APIs. ",
+    "gt_layer1": [
+      "3",
+      "6"
+    ],
+    "gt_layer2": [
+      "3-0",
+      "6-1"
+    ],
+    "gt_layer3": [
+      "3-0-1",
+      "6-1-0"
+    ],
+    "apis": [
+      "4shared",
+      "lastfm"
+    ],
+    "id": 425,
+    "gt_layer4": [
+      "music",
+      "search"
+    ]
+  },
+  "candid": {
+    "categories": [
+      "ecommerce",
+      "content"
+    ],
+    "description": " Powerful tools for integrating customer photos to improve engagement and conversion. ",
+    "gt_layer1": [
+      "4",
+      "9"
+    ],
+    "gt_layer2": [
+      "4-0",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "4-0-1",
+      "9-1-0"
+    ],
+    "apis": [
+      "instagram-graph",
+      "instagram-real-time"
+    ],
+    "id": 464,
+    "gt_layer4": [
+      "content",
+      "ecommerce"
+    ]
+  },
+  "mailmaps-email-marketing": {
+    "categories": [
+      "email",
+      "marketing",
+      "database"
+    ],
+    "description": " Mailmaps offers inexpensive marketing with email as well as bulk e-mail alternatives with regard to modest as well as large corporations. Marketing via email would be the excellent alternative with regard to company owners aiming to send email promotions as well as outre spenders to their prospects, contact lenses as well as customers. ",
+    "gt_layer1": [
+      "5",
+      "6",
+      "8"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "6-1",
+      "8-1"
+    ],
+    "gt_layer3": [
+      "5-1-0",
+      "6-1-0",
+      "8-1-1"
+    ],
+    "apis": [
+      "business-alerts",
+      "business-profiles"
+    ],
+    "id": 482,
+    "gt_layer4": [
+      "database",
+      "email",
+      "marketing"
+    ]
+  },
+  "cloud-elements-documents-hub": {
+    "categories": [
+      "documents",
+      "api"
+    ],
+    "description": " Cloud Elements is a cloud-to-cloud integration service that uses uniform APIs (â€œone-to-manyâ€) to connect your application with entire categories of services. Our Documents Hub connects you to Box, Dropbox, Google Drive, Microsoft SharePoint and Skydrive through a single API. ",
+    "gt_layer1": [
+      "7",
+      "9"
+    ],
+    "gt_layer2": [
+      "7-0",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "7-0-0",
+      "9-1-0"
+    ],
+    "apis": [
+      "box",
+      "dropbox",
+      "google-drive"
+    ],
+    "id": 496,
+    "gt_layer4": [
+      "api",
+      "documents"
+    ]
+  },
+  "website-screenshot-generator": {
+    "categories": [
+      "screenshots"
+    ],
+    "description": " This tool can allow user take a website screenshot of one URL. User can choose take it as on a desktop, tablet or smart phone. User also can crop, resize and add a frame after get the original screenshot. ",
+    "gt_layer1": [
+      "8"
+    ],
+    "gt_layer2": [
+      "8-0"
+    ],
+    "gt_layer3": [
+      "8-0-0"
+    ],
+    "apis": [
+      "page2images"
+    ],
+    "id": 497,
+    "gt_layer4": [
+      "screenshots"
+    ]
+  },
+  "svb-mapper": {
+    "categories": [
+      "mapping",
+      "mapping",
+      "search"
+    ],
+    "description": " Microsoft Excel Add in for Geocoding ",
+    "gt_layer1": [
+      "5",
+      "6"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "6-1"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "6-1-0"
+    ],
+    "apis": [
+      "bing-maps",
+      "bing-maps-locations",
+      "bing-maps-search"
+    ],
+    "id": 517,
+    "gt_layer4": [
+      "mapping",
+      "search"
+    ]
+  },
+  "job-finder-app-usa-jobs": {
+    "categories": [
+      "jobs"
+    ],
+    "description": " Description Job finder is a job aggregator application developed to bridge the employee &amp; employer community. Job finder is most comprehensive search engine for the Jobs. Through Job finder app , an employee can have access to millions of opening from thousands of organisations, recruitment websites, HR agencies and job boards in USA, Canada, UK, Ireland, India, South Africa, Hong Kong, New Zealand, Singapore and Australia. Job Finder makes it easy to keep up to date with the latest job opportunities. Some are the key features of the application, âˆž Simple, fast-loading job search âˆž Easily apply to select jobs using your Indeed Resume âˆž Apply from your phone or Apply from your tablet filter âˆž View new jobs added since your last search âˆž Preview page displays text of job posting âˆž Save or email your favourite jobs âˆž Share jobs with your friends ",
+    "gt_layer1": [
+      "9"
+    ],
+    "gt_layer2": [
+      "9-0"
+    ],
+    "gt_layer3": [
+      "9-0-0"
+    ],
+    "apis": [
+      "indeed"
+    ],
+    "id": 553,
+    "gt_layer4": [
+      "jobs"
+    ]
+  },
+  "axti.me": {
+    "categories": [
+      "sports",
+      "sports",
+      "tools",
+      "data"
+    ],
+    "description": " AXti.me is a complete autocross race management solution for timing, scoring and results. MotorsportReg.com users can populate their T&amp;S data with one click. ",
+    "gt_layer1": [
+      "3",
+      "4",
+      "5"
+    ],
+    "gt_layer2": [
+      "3-1",
+      "4-0",
+      "5-0"
+    ],
+    "gt_layer3": [
+      "3-1-0",
+      "4-0-1",
+      "5-0-0"
+    ],
+    "apis": [
+      "motorsportregcom"
+    ],
+    "id": 557,
+    "gt_layer4": [
+      "data",
+      "sports",
+      "tools"
+    ]
+  },
+  "your-taxi-meter": {
+    "categories": [
+      "mapping",
+      "search"
+    ],
+    "description": " YourTaximeter is a free online service that tells you exactly how much your taxi will cost before you get in it. The calculations are based on the fares set by the councils across the UK, taking every aspect of the tariff information into account: date, time, passengers, surcharges. ",
+    "gt_layer1": [
+      "5",
+      "6"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "6-1"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "6-1-0"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 567,
+    "gt_layer4": [
+      "mapping",
+      "search"
+    ]
+  },
+  "university-michigan-campus-map": {
+    "categories": [
+      "education",
+      "education",
+      "mapping"
+    ],
+    "description": " Mashup of the University of Michigan campus with Google Maps. You can search for a building on the map. ",
+    "gt_layer1": [
+      "2",
+      "5"
+    ],
+    "gt_layer2": [
+      "2-1",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "2-1-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 570,
+    "gt_layer4": [
+      "education",
+      "mapping"
+    ]
+  },
+  "indonesiajobfair.com": {
+    "categories": [
+      "jobs",
+      "search"
+    ],
+    "description": " Indonesia Jobs Real-time Search Engine. Using Indeed API, CareerJet API, Foursquare API, Facebook Open Graph API and built using Twitter Bootstrap. ",
+    "gt_layer1": [
+      "6",
+      "9"
+    ],
+    "gt_layer2": [
+      "6-1",
+      "9-0"
+    ],
+    "gt_layer3": [
+      "6-1-0",
+      "9-0-0"
+    ],
+    "apis": [
+      "indeed",
+      "careerjet"
+    ],
+    "id": 577,
+    "gt_layer4": [
+      "jobs",
+      "search"
+    ]
+  },
+  "university-south-florida-campus-map": {
+    "categories": [
+      "education",
+      "mapping"
+    ],
+    "description": " Mashup of the University of South Florida campus map with Google Maps. You can search for a building on the map. ",
+    "gt_layer1": [
+      "2",
+      "5"
+    ],
+    "gt_layer2": [
+      "2-1",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "2-1-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 590,
+    "gt_layer4": [
+      "education",
+      "mapping"
+    ]
+  },
+  "find-lakes": {
+    "categories": [
+      "mapping",
+      "search",
+      "tools"
+    ],
+    "description": " Find Lakes is an interactive search tool that helps users find lakes by region. The point are displayed on a map via the Google Maps API. ",
+    "gt_layer1": [
+      "3",
+      "5",
+      "6"
+    ],
+    "gt_layer2": [
+      "3-1",
+      "5-1",
+      "6-1"
+    ],
+    "gt_layer3": [
+      "3-1-0",
+      "5-1-1",
+      "6-1-0"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 604,
+    "gt_layer4": [
+      "mapping",
+      "search",
+      "tools"
+    ]
+  },
+  "coinmap": {
+    "categories": [
+      "financial",
+      "mapping",
+      "bitcoin"
+    ],
+    "description": " OpenStreetMap mashup that shows places where Bitcoin is accepted. Venues are added automatically (database is updated every 15 minutes). The map also tries to determine the type of the venue from OSM tags and assign the correct icon. ",
+    "gt_layer1": [
+      "0",
+      "2",
+      "5"
+    ],
+    "gt_layer2": [
+      "0-0",
+      "2-1",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "0-0-0",
+      "2-1-0",
+      "5-1-1"
+    ],
+    "apis": [
+      "openstreetmap"
+    ],
+    "id": 636,
+    "gt_layer4": [
+      "bitcoin",
+      "financial",
+      "mapping"
+    ]
+  },
+  "docusign-ink-ios": {
+    "categories": [
+      "printing"
+    ],
+    "description": " Sign virtually any documents sent to you via email or stored in any cloud service like Box.net or Dropbox.com--anytime, anywhere directly from your iPhone or iPad. ",
+    "gt_layer1": [
+      "9"
+    ],
+    "gt_layer2": [
+      "9-1"
+    ],
+    "gt_layer3": [
+      "9-1-0"
+    ],
+    "apis": [
+      "docusign-enterprise"
+    ],
+    "id": 737,
+    "gt_layer4": [
+      "printing"
+    ]
+  },
+  "metro-mapper": {
+    "categories": [
+      "mapping",
+      "statistics"
+    ],
+    "description": " Multiple maps of data for Metro Louisville KY from government sources. ",
+    "gt_layer1": [
+      "5",
+      "10"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "10-0"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "10-0-0"
+    ],
+    "apis": [
+      "google-maps",
+      "your-mapper"
+    ],
+    "id": 806,
+    "gt_layer4": [
+      "mapping",
+      "statistics"
+    ]
+  },
+  "domlia": {
+    "categories": [
+      "domains",
+      "seo",
+      "tools"
+    ],
+    "description": " Domlia combines smart algorithms and web services and enables it's users to analyze their websites and domains just in time. ",
+    "gt_layer1": [
+      "3",
+      "10"
+    ],
+    "gt_layer2": [
+      "3-1",
+      "10-0",
+      "10-1"
+    ],
+    "gt_layer3": [
+      "3-1-0",
+      "10-0-0",
+      "10-1-1"
+    ],
+    "apis": [
+      "domaintools",
+      "dnsimple",
+      "domain",
+      "dns-tools"
+    ],
+    "id": 888,
+    "gt_layer4": [
+      "domains",
+      "seo",
+      "tools"
+    ]
+  },
+  "bicicarm": {
+    "categories": [
+      "mapping",
+      "social",
+      "cycling",
+      "travel"
+    ],
+    "description": " Bicicarm is the bike portal of the Regional Province of Murcia. This mashup uses google maps and google maps elevation to display a visual reference of bike routes. ",
+    "gt_layer1": [
+      "2",
+      "4",
+      "5",
+      "10"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "4-1",
+      "5-1",
+      "10-1"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "4-1-1",
+      "5-1-1",
+      "10-1-0"
+    ],
+    "apis": [
+      "google-maps",
+      "google-maps-elevation"
+    ],
+    "id": 909,
+    "gt_layer4": [
+      "cycling",
+      "mapping",
+      "social",
+      "travel"
+    ]
+  },
+  "hycke": {
+    "categories": [
+      "music",
+      "movies",
+      "search",
+      "recommendations"
+    ],
+    "description": " Hycke helps you to discover what movie, tv show or music you should like, based on your tastes. With recommendations for movies, tv shows and music ",
+    "gt_layer1": [
+      "3",
+      "6",
+      "7",
+      "8"
+    ],
+    "gt_layer2": [
+      "3-0",
+      "6-1",
+      "7-1",
+      "8-1"
+    ],
+    "gt_layer3": [
+      "3-0-1",
+      "6-1-0",
+      "7-1-1",
+      "8-1-0"
+    ],
+    "apis": [
+      "lastfm",
+      "thetvdbcom"
+    ],
+    "id": 947,
+    "gt_layer4": [
+      "movies",
+      "music",
+      "recommendations",
+      "search"
+    ]
+  },
+  "ivy-fm-discover-new-music-every-day": {
+    "categories": [
+      "music",
+      "streaming"
+    ],
+    "description": " Discover new music every day with Ivy FM. It plays great songs continuously in each genre from the best artists in the world. Select your channel, listen great music, share it and enjoy. ",
+    "gt_layer1": [
+      "3",
+      "8"
+    ],
+    "gt_layer2": [
+      "3-0",
+      "8-1"
+    ],
+    "gt_layer3": [
+      "3-0-1",
+      "8-1-0"
+    ],
+    "apis": [
+      "youtube",
+      "lastfm"
+    ],
+    "id": 960,
+    "gt_layer4": [
+      "music",
+      "streaming"
+    ]
+  },
+  "computational-knowledge-engine": {
+    "categories": [
+      "search",
+      "tools"
+    ],
+    "description": " Wolfram|Alpha introduces a fundamentally new way to get knowledge and answersâ€” not by searching the web, but by doing dynamic computations based on a vast collection of built-in data, algorithms, and methods. ",
+    "gt_layer1": [
+      "3",
+      "6"
+    ],
+    "gt_layer2": [
+      "3-1",
+      "6-1"
+    ],
+    "gt_layer3": [
+      "3-1-0",
+      "6-1-0"
+    ],
+    "apis": [
+      "wolfram-alpha"
+    ],
+    "id": 991,
+    "gt_layer4": [
+      "search",
+      "tools"
+    ]
+  },
+  "twitatoo": {
+    "categories": [
+      "images"
+    ],
+    "description": " Twitatoo is a image uploader that allow you to post image directly onto your twitter timeline, upload or paste url in directly preview image and then add with tweet. ",
+    "gt_layer1": [
+      "6"
+    ],
+    "gt_layer2": [
+      "6-1"
+    ],
+    "gt_layer3": [
+      "6-1-1"
+    ],
+    "apis": [
+      "twitter"
+    ],
+    "id": 1020,
+    "gt_layer4": [
+      "images"
+    ]
+  },
+  "qmpeople-places": {
+    "categories": [
+      "mapping",
+      "search"
+    ],
+    "description": " Various places of the world can be geolocalizated on a google map depending on the box on the right side. By clicking on Next it is possible to draw other four places. ",
+    "gt_layer1": [
+      "5",
+      "6"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "6-1"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "6-1-0"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 1023,
+    "gt_layer4": [
+      "mapping",
+      "search"
+    ]
+  },
+  "storet-watershed-summary": {
+    "categories": [
+      "reference",
+      "environment"
+    ],
+    "description": " For a given watershed (identified by its 8-digit Hydrologic Unit Code [HUC]), STORET Watershed Summary shows the types of data available in the STORET Warehouse, who has entered the data, the period of record for the data, and how much data is available. Types of data can include metal, nutrient, or pesticide levels. Users can find the nearest HUC by entering their zip code in the Find Your Watershed data field in the middle of the main page. ",
+    "gt_layer1": [
+      "3"
+    ],
+    "gt_layer2": [
+      "3-1"
+    ],
+    "gt_layer3": [
+      "3-1-1"
+    ],
+    "apis": [
+      "epa-watershed-summary",
+      "epa-station-catalog"
+    ],
+    "id": 1059,
+    "gt_layer4": [
+      "environment",
+      "reference"
+    ]
+  },
+  "twitter-interesting-stuff-finder": {
+    "categories": [
+      "search",
+      "social"
+    ],
+    "description": " Find interesting people and retweets by following the retweet chain. ",
+    "gt_layer1": [
+      "2",
+      "6"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "6-1"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "6-1-0"
+    ],
+    "apis": [
+      "twitter"
+    ],
+    "id": 1061,
+    "gt_layer4": [
+      "search",
+      "social"
+    ]
+  },
+  "scupal": {
+    "categories": [
+      "ecommerce",
+      "social"
+    ],
+    "description": " Scupal is a social buying website that has been launched in India since November 2011. Scupalâ€™s unique concept is to bring the true power of social network based buying to end consumers. Scupal is not a daily discount or daily deal sites that have sprung up across the world. ",
+    "gt_layer1": [
+      "2",
+      "9"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "9-1-0"
+    ],
+    "apis": [
+      "facebook",
+      "google-plus"
+    ],
+    "id": 1119,
+    "gt_layer4": [
+      "ecommerce",
+      "social"
+    ]
+  },
+  "free-phone-chat": {
+    "categories": [
+      "telephony",
+      "chat"
+    ],
+    "description": " Using Twilio, qmpeople.com is the first social network which permits registered users to make free chats by using their cell phones. It is sufficient to click on Phone chat and our system will try to call two cell phones to establish a private channel among them. ",
+    "gt_layer1": [
+      "6",
+      "10"
+    ],
+    "gt_layer2": [
+      "6-0",
+      "10-0"
+    ],
+    "gt_layer3": [
+      "6-0-0",
+      "10-0-0"
+    ],
+    "apis": [
+      "twilio"
+    ],
+    "id": 1125,
+    "gt_layer4": [
+      "chat",
+      "telephony"
+    ]
+  },
+  "oakland-software": {
+    "categories": [
+      "enterprise"
+    ],
+    "description": " Oakland Software offers an Eclipse based EDI mapping and translation product called ODT. One of ODT's unique features is ESB based runtime translation. EDInow is Oakland's ECGridOS network management integration, creating a best in class product for creating managing EDI maps, running the live translations, ESB management of the data sources at runtime, and now, EDI network management. ",
+    "gt_layer1": [
+      "2"
+    ],
+    "gt_layer2": [
+      "2-1"
+    ],
+    "gt_layer3": [
+      "2-1-1"
+    ],
+    "apis": [
+      "ecgridos-edi"
+    ],
+    "id": 1144,
+    "gt_layer4": [
+      "enterprise"
+    ]
+  },
+  "google-maps-route-planner": {
+    "categories": [
+      "mapping",
+      "mapping",
+      "mapping"
+    ],
+    "description": " This application uses Google Maps to provide you with a way to set a lot of markers of all the places you need to stop at, then it will tell you which places to stop by in which order. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 1165,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "steve-jobs-journey-google-maps": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " Steve Jobs Journey Mapped out on Google Maps ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 1192,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "mapattack": {
+    "categories": [
+      "mapping",
+      "games",
+      "mapping",
+      "mapping"
+    ],
+    "description": " MapAttack is a game of real-time strategy built for real life. Virtual geofences are scattered onto the map and players must physically go to where they are on the map in order to capture them. ",
+    "gt_layer1": [
+      "5",
+      "7"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "7-0"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "7-0-1"
+    ],
+    "apis": [
+      "google-maps",
+      "geoloqi"
+    ],
+    "id": 1214,
+    "gt_layer4": [
+      "games",
+      "mapping"
+    ]
+  },
+  "emailambush": {
+    "categories": [
+      "email",
+      "messaging",
+      "security"
+    ],
+    "description": " EmailAmbush is a new kind of security tool designed to warn and protect you from hackers breaking into your inbox. If one is detected, it uses Twilio's SMS API to instantly send you a notice on your cell phone, allowing you log in, change your password, and boot the hacker out. ",
+    "gt_layer1": [
+      "4",
+      "8"
+    ],
+    "gt_layer2": [
+      "4-1",
+      "8-1"
+    ],
+    "gt_layer3": [
+      "4-1-0",
+      "4-1-1",
+      "8-1-1"
+    ],
+    "apis": [
+      "twilio",
+      "twilio-sms"
+    ],
+    "id": 1338,
+    "gt_layer4": [
+      "email",
+      "messaging",
+      "security"
+    ]
+  },
+  "asesor": {
+    "categories": [
+      "telephony",
+      "medical",
+      "voice"
+    ],
+    "description": " Asesor is an asynchronous, distributed medical question/translation/answer app. It brings together patients in rural areas of 3rd world countries, translators for those patients, and doctors to answer those patients' questions. Through the app, patients can simply use their telephone to call in and record their medical question. Translators from around the world can then see that question, and translate it into English. Doctors around the world then see the question in English and provide an answer. The original translator can then call the patient back straight from their browser and deliver the doctor's answer in the patient's native language. ",
+    "gt_layer1": [
+      "2",
+      "8",
+      "10"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "8-0",
+      "10-0"
+    ],
+    "gt_layer3": [
+      "2-0-0",
+      "8-0-1",
+      "10-0-0"
+    ],
+    "apis": [
+      "twilio",
+      "twilio-sms"
+    ],
+    "id": 1380,
+    "gt_layer4": [
+      "medical",
+      "telephony",
+      "voice"
+    ]
+  },
+  "springer-quotes": {
+    "categories": [
+      "reference",
+      "search"
+    ],
+    "description": " Springer Quotes lets you search more than 80,000 articles from Springer's open access journals. This application won the Springer API Challenge 1.0. ",
+    "gt_layer1": [
+      "3",
+      "6"
+    ],
+    "gt_layer2": [
+      "3-1",
+      "6-1"
+    ],
+    "gt_layer3": [
+      "3-1-1",
+      "6-1-0"
+    ],
+    "apis": [
+      "springer-metadata"
+    ],
+    "id": 1404,
+    "gt_layer4": [
+      "reference",
+      "search"
+    ]
+  },
+  "order-anywhere-beta": {
+    "categories": [
+      "food",
+      "reference"
+    ],
+    "description": " Order food online from over 30,000 menus. Place your order and Order Anywhere calls the restaurant for you. Your order's status is updated in real-time. ",
+    "gt_layer1": [
+      "3",
+      "4"
+    ],
+    "gt_layer2": [
+      "3-1",
+      "4-0"
+    ],
+    "gt_layer3": [
+      "3-1-1",
+      "4-0-0"
+    ],
+    "apis": [
+      "twilio",
+      "twilio-sms",
+      "open-dining-network-food-ordering"
+    ],
+    "id": 1409,
+    "gt_layer4": [
+      "food",
+      "reference"
+    ]
+  },
+  "court-reporting-services": {
+    "categories": [
+      "reference",
+      "ecommerce",
+      "search"
+    ],
+    "description": " Executive Reporting Service: court reporting services in Florida with offices in Tampa, Sarasota, St. Petersburg, Clearwater, Pinellas, Bradenton, Pasco, Manatee, New Port Richey, &amp; Hillsborough. ",
+    "gt_layer1": [
+      "3",
+      "6",
+      "9"
+    ],
+    "gt_layer2": [
+      "3-1",
+      "6-1",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "3-1-1",
+      "6-1-0",
+      "9-1-0"
+    ],
+    "apis": [
+      "activ-financial",
+      "active",
+      "actblue"
+    ],
+    "id": 1456,
+    "gt_layer4": [
+      "ecommerce",
+      "reference",
+      "search"
+    ]
+  },
+  "google-multilingual-voice-search": {
+    "categories": [
+      "search",
+      "language",
+      "voice"
+    ],
+    "description": " Google Voice Search in multiple languages. Features include Search-by-Voice, Real-time Search Suggestions, Did you say Speech-to-Text Corrections and 66 Speech-to-Text Languages. ",
+    "gt_layer1": [
+      "5",
+      "6",
+      "8"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "6-1",
+      "8-0"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "6-1-0",
+      "8-0-1"
+    ],
+    "apis": [
+      "google-app-engine"
+    ],
+    "id": 1465,
+    "gt_layer4": [
+      "language",
+      "search",
+      "voice"
+    ]
+  },
+  "contentbox": {
+    "categories": [
+      "email",
+      "email"
+    ],
+    "description": " Uses the Context.IO API to fetch emails and send attachments to Dropbox. ",
+    "gt_layer1": [
+      "8"
+    ],
+    "gt_layer2": [
+      "8-1"
+    ],
+    "gt_layer3": [
+      "8-1-1"
+    ],
+    "apis": [
+      "dropbox",
+      "contextio"
+    ],
+    "id": 1469,
+    "gt_layer4": [
+      "email"
+    ]
+  },
+  "alconost-nitro": {
+    "categories": [
+      "language",
+      "translation",
+      "tools"
+    ],
+    "description": " Alсonost Nitro is an online human translation system for small and mid-sized texts of various types: minor documents, emails, CV’s, blog entries, news, short press releases, tweets, etc.. ",
+    "gt_layer1": [
+      "3",
+      "5",
+      "7"
+    ],
+    "gt_layer2": [
+      "3-1",
+      "5-1",
+      "7-1"
+    ],
+    "gt_layer3": [
+      "3-1-0",
+      "5-1-1",
+      "7-1-1"
+    ],
+    "apis": [
+      "google-app-engine"
+    ],
+    "id": 1482,
+    "gt_layer4": [
+      "language",
+      "tools",
+      "translation"
+    ]
+  },
+  "trend-back-machine": {
+    "categories": [
+      "blogging",
+      "search",
+      "reference",
+      "social"
+    ],
+    "description": " Search Twitter trend statistics. Search worldwide or narrow your search to one of fifteen different countries. ",
+    "gt_layer1": [
+      "2",
+      "3",
+      "5",
+      "6"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "3-1",
+      "5-1",
+      "6-1"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "3-1-1",
+      "5-1-1",
+      "6-1-0"
+    ],
+    "apis": [
+      "twitter",
+      "what-trend"
+    ],
+    "id": 1488,
+    "gt_layer4": [
+      "blogging",
+      "reference",
+      "search",
+      "social"
+    ]
+  },
+  "sms-garage-door": {
+    "categories": [
+      "messaging",
+      "hardware",
+      "telephony"
+    ],
+    "description": " Using an Arduino with an ethernet shield and some electronic components I built a Twilio powered garage door. It can tell if the garage door is open or closed and it can also activate the garage door opener if desired. In addition I have a program that runs every 15 minutes and checks the garage door. If it is open past 8:00, it sends my wife and I a text message. We can simply reply to close it. ",
+    "gt_layer1": [
+      "3",
+      "4",
+      "10"
+    ],
+    "gt_layer2": [
+      "3-0",
+      "4-1",
+      "10-0"
+    ],
+    "gt_layer3": [
+      "3-0-0",
+      "4-1-0",
+      "10-0-0"
+    ],
+    "apis": [
+      "twilio",
+      "twilio-sms"
+    ],
+    "id": 1496,
+    "gt_layer4": [
+      "hardware",
+      "messaging",
+      "telephony"
+    ]
+  },
+  "context.iohighrise-integration": {
+    "categories": [
+      "email"
+    ],
+    "description": " Daily communication with clients happens mainly by email. Email clients donï¿½t do a good job at displaying a summary of information about contacts - CRM apps are much better at it. Getting emails into a CRM means adding an obscure address as BCC for every email address you send and forwarding incoming emails to that same address. Thatï¿½s just bad. What if emails and attachments magically appeared within the CRM? Our integration achieves this. ",
+    "gt_layer1": [
+      "8"
+    ],
+    "gt_layer2": [
+      "8-1"
+    ],
+    "gt_layer3": [
+      "8-1-1"
+    ],
+    "apis": [
+      "highrise",
+      "contextio"
+    ],
+    "id": 1510,
+    "gt_layer4": [
+      "email"
+    ]
+  },
+  "japan-earthquake-map": {
+    "categories": [
+      "events",
+      "mapping",
+      "reference",
+      "mapping"
+    ],
+    "description": " Map of the recent Japan Earthquake and Seismic Activity leading up to it. ",
+    "gt_layer1": [
+      "3",
+      "4",
+      "5"
+    ],
+    "gt_layer2": [
+      "3-1",
+      "4-0",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "3-1-1",
+      "4-0-0",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps",
+      "maplarge"
+    ],
+    "id": 1536,
+    "gt_layer4": [
+      "events",
+      "mapping",
+      "reference"
+    ]
+  },
+  "food-prints": {
+    "categories": [
+      "food",
+      "search",
+      "reference"
+    ],
+    "description": " Provides easy-to-use access to Nutrition Facts from food labels. Also includes the latest health news and product recalls to help you maintain a healthy diet. ",
+    "gt_layer1": [
+      "3",
+      "4",
+      "6"
+    ],
+    "gt_layer2": [
+      "3-1",
+      "4-0",
+      "6-1"
+    ],
+    "gt_layer3": [
+      "3-1-1",
+      "4-0-0",
+      "6-1-0"
+    ],
+    "apis": [
+      "google-app-engine"
+    ],
+    "id": 1539,
+    "gt_layer4": [
+      "food",
+      "reference",
+      "search"
+    ]
+  },
+  "google-maps-weather-mashup": {
+    "categories": [
+      "mapping",
+      "weather"
+    ],
+    "description": " Shows the UK weather forecast for the next five days using Google Maps to find the location. ",
+    "gt_layer1": [
+      "5",
+      "9"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "9-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 1559,
+    "gt_layer4": [
+      "mapping",
+      "weather"
+    ]
+  },
+  "real-estate-agents-android": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " See recent sales, client reviews, and market forecasts of real estate agents operating in your neighborhood. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "agentrank"
+    ],
+    "id": 1602,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "impact-dialing": {
+    "categories": [
+      "telephony",
+      "telephony"
+    ],
+    "description": " Predictive dialer. Callers dial into Impact Dialing, which then calls out to a list of phone numbers. By monitoring how many voters actually pick up, Impact Dialing dials multiple lines to ensure that someone will answer almost every call. Additionally, Impact Dialing tracks the length of each conversation, so they can deliver a new call shortly after you hang up the previous one. All you have to do is upload a list of phone numbers on the website. Political campaigns can even use platform phones only, with no computers. ",
+    "gt_layer1": [
+      "10"
+    ],
+    "gt_layer2": [
+      "10-0"
+    ],
+    "gt_layer3": [
+      "10-0-0"
+    ],
+    "apis": [
+      "amazon-ec2",
+      "twilio"
+    ],
+    "id": 1633,
+    "gt_layer4": [
+      "telephony"
+    ]
+  },
+  "textwhosnext": {
+    "categories": [
+      "telephony",
+      "messaging"
+    ],
+    "description": " A simple wait list management app. It's meant to replace the expensive pager systems typically found at restaurants and other businesses that make patrons wait. TextWhosNext sends patrons a text notification when they're up next. ",
+    "gt_layer1": [
+      "4",
+      "10"
+    ],
+    "gt_layer2": [
+      "4-1",
+      "10-0"
+    ],
+    "gt_layer3": [
+      "4-1-0",
+      "10-0-0"
+    ],
+    "apis": [
+      "twilio",
+      "twilio-sms"
+    ],
+    "id": 1668,
+    "gt_layer4": [
+      "messaging",
+      "telephony"
+    ]
+  },
+  "friendlynx": {
+    "categories": [
+      "blogging",
+      "social",
+      "search"
+    ],
+    "description": " FriendLynx enables you to find your Facebook friends on Twitter and follow them in a couple of clicks. You can also create Twitter lists with your Facebook friends and follow then through these lists. Also installing this application will help your Facebook friends to find you on Twitter. ",
+    "gt_layer1": [
+      "2",
+      "5",
+      "6"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "5-1",
+      "6-1"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "5-1-1",
+      "6-1-0"
+    ],
+    "apis": [
+      "facebook",
+      "amazon-ec2",
+      "twitter"
+    ],
+    "id": 1699,
+    "gt_layer4": [
+      "blogging",
+      "search",
+      "social"
+    ]
+  },
+  "youtube-instant": {
+    "categories": [
+      "video",
+      "search"
+    ],
+    "description": " Instant videos, instant classic. This mashup landed its creator a job offer over Twitter from YouTube co-founder Chad Hurley. ",
+    "gt_layer1": [
+      "3",
+      "6"
+    ],
+    "gt_layer2": [
+      "3-0",
+      "6-1"
+    ],
+    "gt_layer3": [
+      "3-0-0",
+      "6-1-0"
+    ],
+    "apis": [
+      "youtube"
+    ],
+    "id": 1736,
+    "gt_layer4": [
+      "search",
+      "video"
+    ]
+  },
+  "3d-guide-to-downtown-ferndale-michigan": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " An interactive guide to downtown Ferndale, Michigan built on the Google Earth Plug-In. It incorporates layered content from the business community, municipality and the local historical society. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps",
+      "google-earth"
+    ],
+    "id": 1739,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "itunes-instant": {
+    "categories": [
+      "search",
+      "ecommerce",
+      "search",
+      "music"
+    ],
+    "description": " iTunes Instant is a web-based iTunes search engine that delivers instant music results on a clean interface. ",
+    "gt_layer1": [
+      "3",
+      "6",
+      "9"
+    ],
+    "gt_layer2": [
+      "3-0",
+      "6-1",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "3-0-1",
+      "6-1-0",
+      "9-1-0"
+    ],
+    "apis": [
+      "itunes-and-itunes-connect"
+    ],
+    "id": 1740,
+    "gt_layer4": [
+      "ecommerce",
+      "music",
+      "search"
+    ]
+  },
+  "mapeas": {
+    "categories": [
+      "video",
+      "mapping"
+    ],
+    "description": " Mapeas enables users to browse video news by location on a world wide map, so they can read them easier and faster. Mapeas has no unnecessary menus and doesn't ask for user registration. From a technical point of view, it is mashup using Google Maps, Yahoo Pipes and various video news feeds. ",
+    "gt_layer1": [
+      "3",
+      "5"
+    ],
+    "gt_layer2": [
+      "3-0",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "3-0-0",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps",
+      "yahoo-placemaker"
+    ],
+    "id": 1765,
+    "gt_layer4": [
+      "mapping",
+      "video"
+    ]
+  },
+  "psykomatic": {
+    "categories": [
+      "search",
+      "search"
+    ],
+    "description": " Psykomatic is an instant search engine. No need to click, no need to browse. The top result webpage loads automatically, with other results shown as thumbnails. ",
+    "gt_layer1": [
+      "6"
+    ],
+    "gt_layer2": [
+      "6-1"
+    ],
+    "gt_layer3": [
+      "6-1-0"
+    ],
+    "apis": [
+      "google-analytics-managment"
+    ],
+    "id": 1776,
+    "gt_layer4": [
+      "search"
+    ]
+  },
+  "listen-and-write.com": {
+    "categories": [
+      "video",
+      "education"
+    ],
+    "description": " Improve your listening skills and hear about the news. Listen-and-write.com is free listening practice. This is a tool for practicing listening and writing through dictation. Practice listening and dictation skills using the news and youtube video. ",
+    "gt_layer1": [
+      "2",
+      "3"
+    ],
+    "gt_layer2": [
+      "2-1",
+      "3-0"
+    ],
+    "gt_layer3": [
+      "2-1-1",
+      "3-0-0"
+    ],
+    "apis": [
+      "youtube"
+    ],
+    "id": 1781,
+    "gt_layer4": [
+      "education",
+      "video"
+    ]
+  },
+  "motivation-mix": {
+    "categories": [
+      "music",
+      "sports",
+      "fitness"
+    ],
+    "description": " Motivation Mix harnesses the energy and enthusiasm of your friends and family by collecting their inspirational messages and injecting them into the music that you already have on your playlists. ",
+    "gt_layer1": [
+      "3",
+      "4",
+      "11"
+    ],
+    "gt_layer2": [
+      "3-0",
+      "4-0",
+      "11-1"
+    ],
+    "gt_layer3": [
+      "3-0-1",
+      "4-0-1",
+      "11-1-0"
+    ],
+    "apis": [
+      "amazon-flexible-payments-service",
+      "twilio",
+      "sendgrid",
+      "heroku"
+    ],
+    "id": 1822,
+    "gt_layer4": [
+      "fitness",
+      "music",
+      "sports"
+    ]
+  },
+  "box.net-and-live-documents": {
+    "categories": [
+      "documents",
+      "enterprise",
+      "business"
+    ],
+    "description": " This integration allows Box users to send documents directly to Live Documents, edit them, and save them back to Box. ",
+    "gt_layer1": [
+      "1",
+      "2",
+      "7"
+    ],
+    "gt_layer2": [
+      "1-1",
+      "2-1",
+      "7-0"
+    ],
+    "gt_layer3": [
+      "1-1-0",
+      "2-1-1",
+      "7-0-0"
+    ],
+    "apis": [
+      "box"
+    ],
+    "id": 1834,
+    "gt_layer4": [
+      "business",
+      "documents",
+      "enterprise"
+    ]
+  },
+  "worldcat-new-york-times": {
+    "categories": [
+      "library",
+      "books"
+    ],
+    "description": " Two mashups that link NYT bestseller lists to WorldCat libraries. ",
+    "gt_layer1": [
+      "4",
+      "6"
+    ],
+    "gt_layer2": [
+      "4-1",
+      "6-0"
+    ],
+    "gt_layer3": [
+      "4-1-1",
+      "6-0-0"
+    ],
+    "apis": [
+      "worldcat-search",
+      "new-york-times-best-sellers"
+    ],
+    "id": 1840,
+    "gt_layer4": [
+      "books",
+      "library"
+    ]
+  },
+  "netsuite-and-box.net": {
+    "categories": [
+      "enterprise",
+      "storage"
+    ],
+    "description": " Netsuite is a web-based business software suite, and it is integrated with Box.net so Netsuite users can access their content on Box from within the Netsuite environment. ",
+    "gt_layer1": [
+      "2",
+      "7"
+    ],
+    "gt_layer2": [
+      "2-1",
+      "7-1"
+    ],
+    "gt_layer3": [
+      "2-1-1",
+      "7-1-1"
+    ],
+    "apis": [
+      "box",
+      "oracle-netsuite"
+    ],
+    "id": 1860,
+    "gt_layer4": [
+      "enterprise",
+      "storage"
+    ]
+  },
+  "documents-to-go": {
+    "categories": [
+      "storage"
+    ],
+    "description": " Documents To Go is a mobile office application that is integrated with Box.net, so users can load and save files in their Box.net account from within Docs To Go. ",
+    "gt_layer1": [
+      "7"
+    ],
+    "gt_layer2": [
+      "7-1"
+    ],
+    "gt_layer3": [
+      "7-1-1"
+    ],
+    "apis": [
+      "box"
+    ],
+    "id": 1864,
+    "gt_layer4": [
+      "storage"
+    ]
+  },
+  "city-warfare": {
+    "categories": [
+      "games",
+      "mapping",
+      "mapping"
+    ],
+    "description": " City Warfare is a text-based game played in real world locations against other players, where the aim is to cause mayhem using waterbombs and waterpistols. Uses FourSquare to keep track of players in locations around you. ",
+    "gt_layer1": [
+      "5",
+      "7"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "7-0"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "7-0-1"
+    ],
+    "apis": [
+      "foursquare"
+    ],
+    "id": 1883,
+    "gt_layer4": [
+      "games",
+      "mapping"
+    ]
+  },
+  "us-home-care-finder-0": {
+    "categories": [
+      "healthcare",
+      "health",
+      "healthcare",
+      "mapping"
+    ],
+    "description": " US Home Care Finder is a place for people to find the best in-home care and home health agencies in their area. You can view detail information on over 10000 agencies and compare their quality with each other. ",
+    "gt_layer1": [
+      "2",
+      "4",
+      "5"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "4-0",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "2-0-0",
+      "4-0-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 1886,
+    "gt_layer4": [
+      "health",
+      "healthcare",
+      "mapping"
+    ]
+  },
+  "guess-winner-south-africa-2010": {
+    "categories": [
+      "sports",
+      "social",
+      "sports",
+      "sports",
+      "sports"
+    ],
+    "description": " Share your favorites for World Cup 2010 South Africa and see your friends favorites on Facebook. ",
+    "gt_layer1": [
+      "2",
+      "4"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "4-0"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "4-0-1"
+    ],
+    "apis": [
+      "facebook"
+    ],
+    "id": 1965,
+    "gt_layer4": [
+      "social",
+      "sports"
+    ]
+  },
+  "primecard-restaurants-reviews": {
+    "categories": [
+      "food",
+      "ecommerce"
+    ],
+    "description": " This application gets a list of restaurants in western Washington state from the Passport Discount site and shows them on a Google Map with the latest Yelp Reviews. ",
+    "gt_layer1": [
+      "4",
+      "9"
+    ],
+    "gt_layer2": [
+      "4-0",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "4-0-0",
+      "9-1-0"
+    ],
+    "apis": [
+      "yelp-fusion"
+    ],
+    "id": 1981,
+    "gt_layer4": [
+      "ecommerce",
+      "food"
+    ]
+  },
+  "locate-colleges-california-map": {
+    "categories": [
+      "mapping",
+      "education",
+      "education"
+    ],
+    "description": " Locate colleges on the map by city, county, etc. Includes: universities of California, state universities, private colleges, and community colleges. ",
+    "gt_layer1": [
+      "2",
+      "5"
+    ],
+    "gt_layer2": [
+      "2-1",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "2-1-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 2006,
+    "gt_layer4": [
+      "education",
+      "mapping"
+    ]
+  },
+  "listatlas": {
+    "categories": [
+      "social",
+      "search"
+    ],
+    "description": " A directory of Twitter lists, listatlas shows you what's popular, fast-growing and new. You can also search by keyword and find Twitter lists. ",
+    "gt_layer1": [
+      "2",
+      "6"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "6-1"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "6-1-0"
+    ],
+    "apis": [
+      "twitter"
+    ],
+    "id": 2044,
+    "gt_layer4": [
+      "search",
+      "social"
+    ]
+  },
+  "blog-posting-box.net": {
+    "categories": [
+      "blogging",
+      "storage"
+    ],
+    "description": " Allows users to create Blog posts on Blogger, LiveJournal, and WordPress directly from their Box.net accounts while sharing Box content. ",
+    "gt_layer1": [
+      "5",
+      "7"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "7-1"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "7-1-1"
+    ],
+    "apis": [
+      "blogger",
+      "livejournal",
+      "box"
+    ],
+    "id": 2097,
+    "gt_layer4": [
+      "blogging",
+      "storage"
+    ]
+  },
+  "aumio": {
+    "categories": [
+      "social",
+      "email",
+      "telephony",
+      "telephony"
+    ],
+    "description": " Aumio sends scheduled alerts to friends and coworkers by e-mail, text, and phone ",
+    "gt_layer1": [
+      "2",
+      "8",
+      "10"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "8-1",
+      "10-0"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "8-1-1",
+      "10-0-0"
+    ],
+    "apis": [
+      "twilio"
+    ],
+    "id": 2112,
+    "gt_layer4": [
+      "email",
+      "social",
+      "telephony"
+    ]
+  },
+  "tdash": {
+    "categories": [
+      "blogging"
+    ],
+    "description": " A full featured, browser based, Twitter Client. Designed with productivity in mind. Every tweet gets organized into folders automatically for easy navigation. Supports inline conversations, image uploads, trending topics. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "twitter",
+      "bitly",
+      "what-trend"
+    ],
+    "id": 2120,
+    "gt_layer4": [
+      "blogging"
+    ]
+  },
+  "better-talking": {
+    "categories": [
+      "social",
+      "jobs",
+      "telephony"
+    ],
+    "description": " Helps job seekers be better at interviewing. Job seekers can practice doing job interviews, share it with their network and get feedback. ",
+    "gt_layer1": [
+      "2",
+      "9",
+      "10"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "9-0",
+      "10-0"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "9-0-0",
+      "10-0-0"
+    ],
+    "apis": [
+      "twilio"
+    ],
+    "id": 2149,
+    "gt_layer4": [
+      "jobs",
+      "social",
+      "telephony"
+    ]
+  },
+  "redditpics": {
+    "categories": [
+      "photos",
+      "bookmarks"
+    ],
+    "description": " A tribute to Reddit. ",
+    "gt_layer1": [
+      "8",
+      "9"
+    ],
+    "gt_layer2": [
+      "8-0",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "8-0-0",
+      "9-1-1"
+    ],
+    "apis": [
+      "reddit"
+    ],
+    "id": 2176,
+    "gt_layer4": [
+      "bookmarks",
+      "photos"
+    ]
+  },
+  "tweetply": {
+    "categories": [
+      "social",
+      "blogging"
+    ],
+    "description": " Track popular tweets with the most replies to join hot conversations easily. ",
+    "gt_layer1": [
+      "2",
+      "5"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "twitter"
+    ],
+    "id": 2189,
+    "gt_layer4": [
+      "blogging",
+      "social"
+    ]
+  },
+  "repeaterstore-automated-tracking": {
+    "categories": [
+      "voice",
+      "ecommerce"
+    ],
+    "description": " Provides an automated order tracking system for customers of the e-commerce business, RepeaterStore.com. ",
+    "gt_layer1": [
+      "8",
+      "9"
+    ],
+    "gt_layer2": [
+      "8-0",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "8-0-1",
+      "9-1-0"
+    ],
+    "apis": [
+      "twilio"
+    ],
+    "id": 2195,
+    "gt_layer4": [
+      "ecommerce",
+      "voice"
+    ]
+  },
+  "normalisr": {
+    "categories": [
+      "music"
+    ],
+    "description": " A little application to rank your favourite artists and albums by an estimation of how long you have spent listening to them. ",
+    "gt_layer1": [
+      "3"
+    ],
+    "gt_layer2": [
+      "3-0"
+    ],
+    "gt_layer3": [
+      "3-0-1"
+    ],
+    "apis": [
+      "lastfm",
+      "musicbrainz"
+    ],
+    "id": 2218,
+    "gt_layer4": [
+      "music"
+    ]
+  },
+  "austin-property-search": {
+    "categories": [
+      "search",
+      "mapping"
+    ],
+    "description": " A search for homes in the Austin MLS using Google Maps and Google Earth. ",
+    "gt_layer1": [
+      "5",
+      "6"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "6-1"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "6-1-0"
+    ],
+    "apis": [
+      "google-maps",
+      "google-earth"
+    ],
+    "id": 2263,
+    "gt_layer4": [
+      "mapping",
+      "search"
+    ]
+  },
+  "localetrends": {
+    "categories": [
+      "education",
+      "mapping",
+      "education"
+    ],
+    "description": " Merging real estate data, public school test scores, demographics and employment data to create detailed heat maps. ",
+    "gt_layer1": [
+      "2",
+      "5"
+    ],
+    "gt_layer2": [
+      "2-1",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "2-1-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 2277,
+    "gt_layer4": [
+      "education",
+      "mapping"
+    ]
+  },
+  "online-singing-community": {
+    "categories": [
+      "social",
+      "music",
+      "video"
+    ],
+    "description": " Sing, make fans, and become famous. Add your YouTube videos singing and make fans that will take you to the top of our charts. ",
+    "gt_layer1": [
+      "2",
+      "3"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "3-0"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "3-0-0",
+      "3-0-1"
+    ],
+    "apis": [
+      "youtube"
+    ],
+    "id": 2292,
+    "gt_layer4": [
+      "music",
+      "social",
+      "video"
+    ]
+  },
+  "f1-standings-and-results-gadget": {
+    "categories": [
+      "widgets",
+      "auto",
+      "sports",
+      "sports",
+      "sports"
+    ],
+    "description": " A Google Gadget presenting F1 standings and results obtained from the Ergast Motor Racing Data API. You can add the gadget to your web pages or to your Google homepage here: http://ergast.com/mrd/gallery#gadget ",
+    "gt_layer1": [
+      "4",
+      "9",
+      "10"
+    ],
+    "gt_layer2": [
+      "4-0",
+      "9-0",
+      "10-0"
+    ],
+    "gt_layer3": [
+      "4-0-1",
+      "9-0-0",
+      "10-0-1"
+    ],
+    "apis": [
+      "google-gadgets",
+      "ergast"
+    ],
+    "id": 2463,
+    "gt_layer4": [
+      "auto",
+      "sports",
+      "widgets"
+    ]
+  },
+  "shizzeeps": {
+    "categories": [
+      "mapping",
+      "social",
+      "mapping"
+    ],
+    "description": " A shizzeep is a registered user of shizzow.com, a location-based social for helping you build relationships through sharing locations. This mashup lets you see where all the shizzeeps are hanging out. ",
+    "gt_layer1": [
+      "2",
+      "5"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "shizzow"
+    ],
+    "id": 2496,
+    "gt_layer4": [
+      "mapping",
+      "social"
+    ]
+  },
+  "flock-o-tweets": {
+    "categories": [
+      "feeds",
+      "messaging",
+      "blogging",
+      "social"
+    ],
+    "description": " Split your tweets into groups for your RSS reader, such as Friends or Celebrities. ",
+    "gt_layer1": [
+      "2",
+      "4",
+      "5",
+      "9"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "4-1",
+      "5-1",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "4-1-0",
+      "5-1-1",
+      "9-1-0"
+    ],
+    "apis": [
+      "twitter"
+    ],
+    "id": 2542,
+    "gt_layer4": [
+      "blogging",
+      "feeds",
+      "messaging",
+      "social"
+    ]
+  },
+  "inauguration-scrapbook": {
+    "categories": [
+      "government",
+      "government",
+      "photos",
+      "images",
+      "photos"
+    ],
+    "description": " It was built over a couple of days right after the inauguration by a group of Obama supporters. Millions of people wished to make it to D.C. but were unable. Now, anyone can share, view, and vote on images capturing that special series of days. ",
+    "gt_layer1": [
+      "2",
+      "6",
+      "8"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "6-1",
+      "8-0"
+    ],
+    "gt_layer3": [
+      "2-0-0",
+      "6-1-1",
+      "8-0-0"
+    ],
+    "apis": [
+      "flickr",
+      "google-picasa"
+    ],
+    "id": 2543,
+    "gt_layer4": [
+      "government",
+      "images",
+      "photos"
+    ]
+  },
+  "29-travels": {
+    "categories": [
+      "travel",
+      "mapping"
+    ],
+    "description": " Used to highlight countries you have visited. Supports Google Maps and Google Earth with a browser plugin. Provides an embeddable HTML code so bloggers and website owners can embed it into their site. No need to register. ",
+    "gt_layer1": [
+      "4",
+      "5"
+    ],
+    "gt_layer2": [
+      "4-1",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "4-1-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps",
+      "google-earth"
+    ],
+    "id": 2610,
+    "gt_layer4": [
+      "mapping",
+      "travel"
+    ]
+  },
+  "tubegotchi-movies": {
+    "categories": [
+      "movies",
+      "video"
+    ],
+    "description": " Top 10 box office movies this week. Has YouTube trailers and Hulu latest TV and movies. ",
+    "gt_layer1": [
+      "3",
+      "7"
+    ],
+    "gt_layer2": [
+      "3-0",
+      "7-1"
+    ],
+    "gt_layer3": [
+      "3-0-0",
+      "7-1-1"
+    ],
+    "apis": [
+      "youtube"
+    ],
+    "id": 2613,
+    "gt_layer4": [
+      "movies",
+      "video"
+    ]
+  },
+  "manhattan-real-estate-guide": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " A Manhattan real estate buyers guide from broker Elika Associates, with interactive neighborhood map. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 2645,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "akaber-continuous-video": {
+    "categories": [
+      "video"
+    ],
+    "description": " With Akaber.com, your YouTube search result clips keep playing for you as you watch them. ",
+    "gt_layer1": [
+      "3"
+    ],
+    "gt_layer2": [
+      "3-0"
+    ],
+    "gt_layer3": [
+      "3-0-0"
+    ],
+    "apis": [
+      "youtube"
+    ],
+    "id": 2693,
+    "gt_layer4": [
+      "video"
+    ]
+  },
+  "southwind-fan-and-light": {
+    "categories": [
+      "shipping",
+      "ecommerce"
+    ],
+    "description": " A retailer of ceiling fans and lighting products uses FedEx and UPS to track packages, as well as Authorize.Net customer information management. ",
+    "gt_layer1": [
+      "9"
+    ],
+    "gt_layer2": [
+      "9-0",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "9-0-0",
+      "9-1-0"
+    ],
+    "apis": [
+      "fedex",
+      "ups-shipping",
+      "authorizenet"
+    ],
+    "id": 2734,
+    "gt_layer4": [
+      "ecommerce",
+      "shipping"
+    ]
+  },
+  "wectar": {
+    "categories": [
+      "bookmarks"
+    ],
+    "description": " The idea of wectar is the fusion of two worlds, dmoz.org and del.icio.us. It combines these two rich ingredients by relating web pages to it according to a home brewed algorithm well-fed with del.icio.us tag information. Bone Appetit. ",
+    "gt_layer1": [
+      "9"
+    ],
+    "gt_layer2": [
+      "9-1"
+    ],
+    "gt_layer3": [
+      "9-1-1"
+    ],
+    "apis": [
+      "delicious-0"
+    ],
+    "id": 2742,
+    "gt_layer4": [
+      "bookmarks"
+    ]
+  },
+  "boston-universities-map": {
+    "categories": [
+      "education",
+      "mapping",
+      "education"
+    ],
+    "description": " Map of Boston colleges and universities. ",
+    "gt_layer1": [
+      "2",
+      "5"
+    ],
+    "gt_layer2": [
+      "2-1",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "2-1-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 2749,
+    "gt_layer4": [
+      "education",
+      "mapping"
+    ]
+  },
+  "arab-channel": {
+    "categories": [
+      "photos",
+      "video"
+    ],
+    "description": " Arabic entertainment website. Integrates photos from Flickr and videos from YouTube. ",
+    "gt_layer1": [
+      "3",
+      "8"
+    ],
+    "gt_layer2": [
+      "3-0",
+      "8-0"
+    ],
+    "gt_layer3": [
+      "3-0-0",
+      "8-0-0"
+    ],
+    "apis": [
+      "flickr",
+      "youtube"
+    ],
+    "id": 2754,
+    "gt_layer4": [
+      "photos",
+      "video"
+    ]
+  },
+  "money-saver-widget": {
+    "categories": [
+      "financial",
+      "widgets"
+    ],
+    "description": " Daily tips and advice along with quotes, facts, and websites to help you save money. Each day of the year contains a unique money-saving entry. ",
+    "gt_layer1": [
+      "2",
+      "10"
+    ],
+    "gt_layer2": [
+      "2-1",
+      "10-0"
+    ],
+    "gt_layer3": [
+      "2-1-0",
+      "10-0-1"
+    ],
+    "apis": [
+      "google-gadgets"
+    ],
+    "id": 2840,
+    "gt_layer4": [
+      "financial",
+      "widgets"
+    ]
+  },
+  "chromial": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " Online map of properties entering foreclosure across the U.S. by metro area. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 2879,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "twittermonkey": {
+    "categories": [
+      "messaging"
+    ],
+    "description": " Twitter XMPP mashup in Rails that adds tweets that are tracked via Jabber using a bot to a database. An experiment that is part of a larger project. ",
+    "gt_layer1": [
+      "4"
+    ],
+    "gt_layer2": [
+      "4-1"
+    ],
+    "gt_layer3": [
+      "4-1-0"
+    ],
+    "apis": [
+      "twitter"
+    ],
+    "id": 2891,
+    "gt_layer4": [
+      "messaging"
+    ]
+  },
+  "svraka": {
+    "categories": [
+      "sports",
+      "photos",
+      "video",
+      "sports"
+    ],
+    "description": " Paragliding pictures and videos from Croatia, archived by date. ",
+    "gt_layer1": [
+      "3",
+      "4",
+      "8"
+    ],
+    "gt_layer2": [
+      "3-0",
+      "4-0",
+      "8-0"
+    ],
+    "gt_layer3": [
+      "3-0-0",
+      "4-0-1",
+      "8-0-0"
+    ],
+    "apis": [
+      "youtube",
+      "google-picasa"
+    ],
+    "id": 2901,
+    "gt_layer4": [
+      "photos",
+      "sports",
+      "video"
+    ]
+  },
+  "spielpl%C3%A4tze-f%C3%BCr-klein-und-gro%C3%9F": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " Map for locating all kinds of playgrounds in Germany. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 2919,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "us-taxpayer-contribution-to-iraq-war": {
+    "categories": [
+      "mapping",
+      "mapping",
+      "government"
+    ],
+    "description": " Mashup that combines data from the Nation Priorities Project and Google Maps to show how many billions taxpayers in each US state are paying. And where that money might otherwise be spent. ",
+    "gt_layer1": [
+      "2",
+      "5"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "2-0-0",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 2949,
+    "gt_layer4": [
+      "government",
+      "mapping"
+    ]
+  },
+  "happytwitter": {
+    "categories": [
+      "messaging",
+      "social"
+    ],
+    "description": " This service displays contributed messages and contributor images from Twitter. It is possible to search by keyword, such as happy, sad, or interesting. ",
+    "gt_layer1": [
+      "2",
+      "4"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "4-1"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "4-1-0"
+    ],
+    "apis": [
+      "twitter"
+    ],
+    "id": 2957,
+    "gt_layer4": [
+      "messaging",
+      "social"
+    ]
+  },
+  "learnit-lists": {
+    "categories": [
+      "education",
+      "social",
+      "widgets",
+      "language"
+    ],
+    "description": " This mashup has now been replaced with our new rebranded version, you can find it at www.learn10.com ",
+    "gt_layer1": [
+      "2",
+      "5",
+      "10"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "2-1",
+      "5-1",
+      "10-0"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "2-1-1",
+      "5-1-1",
+      "10-0-1"
+    ],
+    "apis": [
+      "google-gadgets",
+      "facebook",
+      "opensocial",
+      "orkut",
+      "myspace"
+    ],
+    "id": 2977,
+    "gt_layer4": [
+      "education",
+      "language",
+      "social",
+      "widgets"
+    ]
+  },
+  "virtual-earth-mac-widget": {
+    "categories": [
+      "mapping",
+      "widgets"
+    ],
+    "description": " Mapping, search, and location functions in a handy OS X Tiger Dashboard widget. ",
+    "gt_layer1": [
+      "5",
+      "10"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "10-0"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "10-0-1"
+    ],
+    "apis": [
+      "microsoft-bing-maps"
+    ],
+    "id": 2988,
+    "gt_layer4": [
+      "mapping",
+      "widgets"
+    ]
+  },
+  "compare-maps": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " Compare the two mapping systems. As you move around one map, the other moves also. This site also contains a search as provided by our very own Dr. Neil. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps",
+      "microsoft-bing-maps"
+    ],
+    "id": 2989,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "distance-calculator": {
+    "categories": [
+      "travel",
+      "mapping",
+      "mapping"
+    ],
+    "description": " You can use the Google Maps Distance Calculator to find out the distance between two or more points anywhere on the earth. ",
+    "gt_layer1": [
+      "4",
+      "5"
+    ],
+    "gt_layer2": [
+      "4-1",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "4-1-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3029,
+    "gt_layer4": [
+      "mapping",
+      "travel"
+    ]
+  },
+  "wantmymedia": {
+    "categories": [
+      "video",
+      "music"
+    ],
+    "description": " Search, watch and download any YouTube video. ",
+    "gt_layer1": [
+      "3"
+    ],
+    "gt_layer2": [
+      "3-0"
+    ],
+    "gt_layer3": [
+      "3-0-0",
+      "3-0-1"
+    ],
+    "apis": [
+      "youtube"
+    ],
+    "id": 3040,
+    "gt_layer4": [
+      "music",
+      "video"
+    ]
+  },
+  "photo-feed-slideshow-wigdet": {
+    "categories": [
+      "photos",
+      "widgets",
+      "feeds"
+    ],
+    "description": " The gadget lets the users turn their RSS album of latest albums, all albums and others into an always updated photo slideshow. They can paste the code into their other web presence like their blog, or any social website they have. ",
+    "gt_layer1": [
+      "8",
+      "9",
+      "10"
+    ],
+    "gt_layer2": [
+      "8-0",
+      "9-1",
+      "10-0"
+    ],
+    "gt_layer3": [
+      "8-0-0",
+      "9-1-0",
+      "10-0-1"
+    ],
+    "apis": [
+      "flickr",
+      "google-gadgets"
+    ],
+    "id": 3043,
+    "gt_layer4": [
+      "feeds",
+      "photos",
+      "widgets"
+    ]
+  },
+  "imusix": {
+    "categories": [
+      "video",
+      "music"
+    ],
+    "description": " Mashup that aggregates music videos from YouTube with a search interface. ",
+    "gt_layer1": [
+      "3"
+    ],
+    "gt_layer2": [
+      "3-0"
+    ],
+    "gt_layer3": [
+      "3-0-0",
+      "3-0-1"
+    ],
+    "apis": [
+      "youtube"
+    ],
+    "id": 3095,
+    "gt_layer4": [
+      "music",
+      "video"
+    ]
+  },
+  "windfinder-conncted-to-wind": {
+    "categories": [
+      "widgets",
+      "sports",
+      "weather"
+    ],
+    "description": " The Windfinder iGoogle Gadget is a tiny piece of software, which displays wind, waves and weather from your favorite surfspot as observations and forecast. ",
+    "gt_layer1": [
+      "4",
+      "9",
+      "10"
+    ],
+    "gt_layer2": [
+      "4-0",
+      "9-1",
+      "10-0"
+    ],
+    "gt_layer3": [
+      "4-0-1",
+      "9-1-1",
+      "10-0-1"
+    ],
+    "apis": [
+      "google-gadgets"
+    ],
+    "id": 3105,
+    "gt_layer4": [
+      "sports",
+      "weather",
+      "widgets"
+    ]
+  },
+  "custom-igoogle-skins-v2": {
+    "categories": [
+      "photos",
+      "widgets"
+    ],
+    "description": " This new version of the skins gadget integrates Flickr and iGoogle to being you random images from a user specified Flickr group. ",
+    "gt_layer1": [
+      "8",
+      "10"
+    ],
+    "gt_layer2": [
+      "8-0",
+      "10-0"
+    ],
+    "gt_layer3": [
+      "8-0-0",
+      "10-0-1"
+    ],
+    "apis": [
+      "flickr",
+      "google-gadgets"
+    ],
+    "id": 3120,
+    "gt_layer4": [
+      "photos",
+      "widgets"
+    ]
+  },
+  "lyrics-and-clips": {
+    "categories": [
+      "music",
+      "video"
+    ],
+    "description": " Collection of songs and video clips with their lyrics. ",
+    "gt_layer1": [
+      "3"
+    ],
+    "gt_layer2": [
+      "3-0"
+    ],
+    "gt_layer3": [
+      "3-0-0",
+      "3-0-1"
+    ],
+    "apis": [
+      "youtube"
+    ],
+    "id": 3125,
+    "gt_layer4": [
+      "music",
+      "video"
+    ]
+  },
+  "online-encyclopedia": {
+    "categories": [
+      "search",
+      "reference"
+    ],
+    "description": " Searches Encarta, Wikipedia, Britannica and others using Google Custom Search. ",
+    "gt_layer1": [
+      "3",
+      "6"
+    ],
+    "gt_layer2": [
+      "3-1",
+      "6-1"
+    ],
+    "gt_layer3": [
+      "3-1-1",
+      "6-1-0"
+    ],
+    "apis": [
+      "google-custom-search"
+    ],
+    "id": 3136,
+    "gt_layer4": [
+      "reference",
+      "search"
+    ]
+  },
+  "twitterposter": {
+    "categories": [
+      "blogging",
+      "photos",
+      "messaging",
+      "social"
+    ],
+    "description": " Large interactive poster of photos of Twitter users, sized to their influence on Twitter. ",
+    "gt_layer1": [
+      "2",
+      "4",
+      "5",
+      "8"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "4-1",
+      "5-1",
+      "8-0"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "4-1-0",
+      "5-1-1",
+      "8-0-0"
+    ],
+    "apis": [
+      "twitter"
+    ],
+    "id": 3156,
+    "gt_layer4": [
+      "blogging",
+      "messaging",
+      "photos",
+      "social"
+    ]
+  },
+  "geography-quiz": {
+    "categories": [
+      "mapping",
+      "games"
+    ],
+    "description": " See how well you can pinpoint some major world cities. ",
+    "gt_layer1": [
+      "5",
+      "7"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "7-0"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "7-0-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3217,
+    "gt_layer4": [
+      "games",
+      "mapping"
+    ]
+  },
+  "silverlight-photo-carousel": {
+    "categories": [
+      "photos"
+    ],
+    "description": " A Silverlight 1.0-based photo carousel displaying interesting photos from Flickr. The application was implemented in Script#. ",
+    "gt_layer1": [
+      "8"
+    ],
+    "gt_layer2": [
+      "8-0"
+    ],
+    "gt_layer3": [
+      "8-0-0"
+    ],
+    "apis": [
+      "flickr"
+    ],
+    "id": 3220,
+    "gt_layer4": [
+      "photos"
+    ]
+  },
+  "byownerport.com": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " This is a mashup of craigslist and Google Maps. People can sell, rent, find houses or find roommates. Instead of entering a zip code, you actually fly there, and focus on the area you want to live in from a birds eye view.. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3224,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "do-my-sport": {
+    "categories": [
+      "social",
+      "mapping",
+      "cycling",
+      "sports",
+      "mapping",
+      "sports"
+    ],
+    "description": " Virtual Earth Mashup to help find sports location and event in your area. You can find out about the sports you are interested in and event arrange a meeting of your own at your favourite location. Make new friends who do the same sports as you. ",
+    "gt_layer1": [
+      "2",
+      "4",
+      "5",
+      "10"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "4-0",
+      "5-1",
+      "10-1"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "4-0-1",
+      "5-1-1",
+      "10-1-0"
+    ],
+    "apis": [
+      "microsoft-bing-maps"
+    ],
+    "id": 3271,
+    "gt_layer4": [
+      "cycling",
+      "mapping",
+      "social",
+      "sports"
+    ]
+  },
+  "two-degrees": {
+    "categories": [
+      "social"
+    ],
+    "description": " Search the friends lists of your friends to find people who should be on your own list. ",
+    "gt_layer1": [
+      "2"
+    ],
+    "gt_layer2": [
+      "2-0"
+    ],
+    "gt_layer3": [
+      "2-0-1"
+    ],
+    "apis": [
+      "facebook"
+    ],
+    "id": 3294,
+    "gt_layer4": [
+      "social"
+    ]
+  },
+  "placespotting": {
+    "categories": [
+      "games",
+      "mapping",
+      "search"
+    ],
+    "description": " Play a game based on Google Maps. You can create riddles and try to solve riddles created by other people. You get a picture of a place somewhere on Earth and have to find this place. ",
+    "gt_layer1": [
+      "5",
+      "6",
+      "7"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "6-1",
+      "7-0"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "6-1-0",
+      "7-0-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3324,
+    "gt_layer4": [
+      "games",
+      "mapping",
+      "search"
+    ]
+  },
+  "find-garage-sales-map": {
+    "categories": [
+      "ecommerce",
+      "mapping"
+    ],
+    "description": " Find garage sales, local estate sales, multi-family yard sales in your area by looking at a map. Plan your trip here by comparing garage sales by location. ",
+    "gt_layer1": [
+      "5",
+      "9"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "9-1-0"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3342,
+    "gt_layer4": [
+      "ecommerce",
+      "mapping"
+    ]
+  },
+  "taxiwiz": {
+    "categories": [
+      "mapping",
+      "transportation",
+      "transportation"
+    ],
+    "description": " Get the fare before you ride. This mashup calculates the approximate fare for taxi rides between two addresses. It uses Google Maps to plot and calculate the driving distance between two points and uses that information to calculate the fare. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-0",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3377,
+    "gt_layer4": [
+      "mapping",
+      "transportation"
+    ]
+  },
+  "rosetta": {
+    "categories": [
+      "social",
+      "language",
+      "jobs"
+    ],
+    "description": " Site combines the Ning.com platform with Ether.com to create a site where interpreters can find work. ",
+    "gt_layer1": [
+      "2",
+      "5",
+      "9"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "5-1",
+      "9-0"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "5-1-1",
+      "9-0-0"
+    ],
+    "apis": [
+      "ning"
+    ],
+    "id": 3389,
+    "gt_layer4": [
+      "jobs",
+      "language",
+      "social"
+    ]
+  },
+  "jagbox": {
+    "categories": [
+      "social",
+      "storage"
+    ],
+    "description": " Upload a file to Amazon S3 and share the link to that file with others. Recipients of the link can access and download the User File by clicking on the link. ",
+    "gt_layer1": [
+      "2",
+      "7"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "7-1"
+    ],
+    "gt_layer3": [
+      "2-0-1",
+      "7-1-1"
+    ],
+    "apis": [
+      "amazon-s3"
+    ],
+    "id": 3396,
+    "gt_layer4": [
+      "social",
+      "storage"
+    ]
+  },
+  "superpages": {
+    "categories": [
+      "telephony",
+      "wi-fi",
+      "ecommerce",
+      "mapping"
+    ],
+    "description": " Web-based version of the SuperPages. Uses Virtual Earth mapping technology to find businesses and services in your area. Driving directions, hours, and more are provided. Good wifi finder. ",
+    "gt_layer1": [
+      "5",
+      "6",
+      "9",
+      "10"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "6-1",
+      "9-1",
+      "10-0"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "6-1-1",
+      "9-1-0",
+      "10-0-0"
+    ],
+    "apis": [
+      "microsoft-bing-maps"
+    ],
+    "id": 3425,
+    "gt_layer4": [
+      "ecommerce",
+      "mapping",
+      "telephony",
+      "wi-fi"
+    ]
+  },
+  "abramex": {
+    "categories": [
+      "advertising",
+      "seo"
+    ],
+    "description": " This service uses Yahoo and other tools to come up with suggestions using meta-data to make documents easier to find. ",
+    "gt_layer1": [
+      "7",
+      "10"
+    ],
+    "gt_layer2": [
+      "7-0",
+      "10-1"
+    ],
+    "gt_layer3": [
+      "7-0-1",
+      "10-1-1"
+    ],
+    "apis": [
+      "yahoo-related-suggestions",
+      "yahoo-search-marketing"
+    ],
+    "id": 3444,
+    "gt_layer4": [
+      "advertising",
+      "seo"
+    ]
+  },
+  "used-cars-sale": {
+    "categories": [
+      "auto",
+      "ecommerce"
+    ],
+    "description": " More then 4 million used cars for sale. Data comes from the Vast API. ",
+    "gt_layer1": [
+      "9"
+    ],
+    "gt_layer2": [
+      "9-0",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "9-0-0",
+      "9-1-0"
+    ],
+    "apis": [
+      "vast"
+    ],
+    "id": 3448,
+    "gt_layer4": [
+      "auto",
+      "ecommerce"
+    ]
+  },
+  "map-runner": {
+    "categories": [
+      "sports",
+      "mapping",
+      "sports"
+    ],
+    "description": " Map Runner is a collection of runners routes, created by users. ",
+    "gt_layer1": [
+      "4",
+      "5"
+    ],
+    "gt_layer2": [
+      "4-0",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "4-0-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3482,
+    "gt_layer4": [
+      "mapping",
+      "sports"
+    ]
+  },
+  "salaryscout": {
+    "categories": [
+      "jobs",
+      "jobs",
+      "financial",
+      "mapping"
+    ],
+    "description": " SalaryScout is a network of users seeking fairness in compensation and benefits. Discover your true value in the marketplace and demand what you are worth. ",
+    "gt_layer1": [
+      "2",
+      "5",
+      "9"
+    ],
+    "gt_layer2": [
+      "2-1",
+      "5-1",
+      "9-0"
+    ],
+    "gt_layer3": [
+      "2-1-0",
+      "5-1-1",
+      "9-0-0"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3493,
+    "gt_layer4": [
+      "financial",
+      "jobs",
+      "mapping"
+    ]
+  },
+  "business-baseball-google-maps": {
+    "categories": [
+      "sports",
+      "mapping",
+      "sports"
+    ],
+    "description": " Google Maps Mashup of Forbes data on the Most valuable teams in MLB. Also includes Yahoo Sports MLB RSS feeds. ",
+    "gt_layer1": [
+      "4",
+      "5"
+    ],
+    "gt_layer2": [
+      "4-0",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "4-0-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3544,
+    "gt_layer4": [
+      "mapping",
+      "sports"
+    ]
+  },
+  "catalist-homes-california": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " Real estate search for Southern California. Search for properties meeting specific criteria. Hover over a specific property on the map to reveal address and price. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "microsoft-bing-maps"
+    ],
+    "id": 3569,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "alertnet": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " Display crisis hotspots on a world map and retrieve latest news on each crisis from Reuters. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "microsoft-bing-maps"
+    ],
+    "id": 3584,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "cyberandorra": {
+    "categories": [
+      "sports",
+      "mapping",
+      "sports",
+      "travel"
+    ],
+    "description": " Find Andorra hotels directly on a map, with photos and information. ",
+    "gt_layer1": [
+      "4",
+      "5"
+    ],
+    "gt_layer2": [
+      "4-0",
+      "4-1",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "4-0-1",
+      "4-1-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3663,
+    "gt_layer4": [
+      "mapping",
+      "sports",
+      "travel"
+    ]
+  },
+  "hipoqih.com": {
+    "categories": [
+      "mapping",
+      "mapping"
+    ],
+    "description": " hipoqih.com is a system composed of a Web and plugin for mobile devices that allow recording warnings and URL associated to any geopoint in the planet. These warnings can be show automatically in terminals with the plugin when approaching that geopoint. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3675,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "sofatube": {
+    "categories": [
+      "video",
+      "movies"
+    ],
+    "description": " SofaTube is a specially designed web application that lets you browse and watch videos from YouTube and Revver in your living room where viewers are usually sitting far away from their standard or high definition television. ",
+    "gt_layer1": [
+      "3",
+      "7"
+    ],
+    "gt_layer2": [
+      "3-0",
+      "7-1"
+    ],
+    "gt_layer3": [
+      "3-0-0",
+      "7-1-1"
+    ],
+    "apis": [
+      "youtube"
+    ],
+    "id": 3735,
+    "gt_layer4": [
+      "movies",
+      "video"
+    ]
+  },
+  "stumblevideo": {
+    "categories": [
+      "video"
+    ],
+    "description": " The terrific StumbleUpon service adds the ability for users to select, rate and discover videos from YouTube, Google Video and MySpace. ",
+    "gt_layer1": [
+      "3"
+    ],
+    "gt_layer2": [
+      "3-0"
+    ],
+    "gt_layer3": [
+      "3-0-0"
+    ],
+    "apis": [
+      "youtube"
+    ],
+    "id": 3741,
+    "gt_layer4": [
+      "video"
+    ]
+  },
+  "bank-anywhere.com": {
+    "categories": [
+      "financial",
+      "mapping"
+    ],
+    "description": " Combines FDIC Bank branch data with Google Maps. Includes flexible search by zip, city and address. ",
+    "gt_layer1": [
+      "2",
+      "5"
+    ],
+    "gt_layer2": [
+      "2-1",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "2-1-0",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3748,
+    "gt_layer4": [
+      "financial",
+      "mapping"
+    ]
+  },
+  "faunapolis": {
+    "categories": [
+      "animals",
+      "science",
+      "mapping"
+    ],
+    "description": " A place where you can share interesting photos and stories about animals that live in this new jungle we call town, city, backyard, or even our bodies. Faunapolis purpose is to document these wild creatures with geolocaion, visual, and time information. ",
+    "gt_layer1": [
+      "5",
+      "6",
+      "9"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "6-0",
+      "9-0"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "6-0-0",
+      "9-0-0"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3749,
+    "gt_layer4": [
+      "animals",
+      "mapping",
+      "science"
+    ]
+  },
+  "fishny": {
+    "categories": [
+      "sports",
+      "sports"
+    ],
+    "description": " FishNY is a website dedicated to sportfishing in New York State. Our goal is to map all of the best fishing locations in the State. ",
+    "gt_layer1": [
+      "4"
+    ],
+    "gt_layer2": [
+      "4-0"
+    ],
+    "gt_layer3": [
+      "4-0-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3752,
+    "gt_layer4": [
+      "sports"
+    ]
+  },
+  "slippymap": {
+    "categories": [
+      "mapping",
+      "ecommerce"
+    ],
+    "description": " Example of how to search by address to find points of interest in your area based on Where2GetIt that requires no javascript. ",
+    "gt_layer1": [
+      "5",
+      "9"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "9-1-0"
+    ],
+    "apis": [
+      "brandify"
+    ],
+    "id": 3760,
+    "gt_layer4": [
+      "ecommerce",
+      "mapping"
+    ]
+  },
+  "political-turkeys-year": {
+    "categories": [
+      "government",
+      "mapping"
+    ],
+    "description": " A look at Political Turkeys as reported by CNN. ",
+    "gt_layer1": [
+      "2",
+      "5"
+    ],
+    "gt_layer2": [
+      "2-0",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "2-0-0",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3766,
+    "gt_layer4": [
+      "government",
+      "mapping"
+    ]
+  },
+  "bicycle-portal": {
+    "categories": [
+      "cycling",
+      "mapping",
+      "sports",
+      "photos"
+    ],
+    "description": " Create and find bicycle routes for your area. Total distance and elevation graph are calculated as you create the route. Live traffic cams, photos from the ground, known routes, topo maps. Weather feeds for selected cities. ",
+    "gt_layer1": [
+      "4",
+      "5",
+      "8",
+      "10"
+    ],
+    "gt_layer2": [
+      "4-0",
+      "5-1",
+      "8-0",
+      "10-1"
+    ],
+    "gt_layer3": [
+      "4-0-1",
+      "5-1-1",
+      "8-0-0",
+      "10-1-0"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3768,
+    "gt_layer4": [
+      "cycling",
+      "mapping",
+      "photos",
+      "sports"
+    ]
+  },
+  "outdoorphotoop": {
+    "categories": [
+      "photos",
+      "mapping"
+    ],
+    "description": " A community-based website for finding and sharing outdoor photography locations such as landscapes, panoramas, wildlife, wildflowers, waterfalls, cityscapes, canyons, and others. ",
+    "gt_layer1": [
+      "5",
+      "8"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "8-0"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "8-0-0"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3781,
+    "gt_layer4": [
+      "mapping",
+      "photos"
+    ]
+  },
+  "top-10-paid-women": {
+    "categories": [
+      "financial",
+      "jobs",
+      "mapping"
+    ],
+    "description": " Map of the Top 10 paid women as reported by Fortune Magazine. ",
+    "gt_layer1": [
+      "2",
+      "5",
+      "9"
+    ],
+    "gt_layer2": [
+      "2-1",
+      "5-1",
+      "9-0"
+    ],
+    "gt_layer3": [
+      "2-1-0",
+      "5-1-1",
+      "9-0-0"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3827,
+    "gt_layer4": [
+      "financial",
+      "jobs",
+      "mapping"
+    ]
+  },
+  "global-weather-service": {
+    "categories": [
+      "weather",
+      "mapping"
+    ],
+    "description": " Dagbladet.no uses Google Maps, global geocoding, ajax and global geocoded weather forecast for this experimental weather service. ",
+    "gt_layer1": [
+      "5",
+      "9"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "9-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3841,
+    "gt_layer4": [
+      "mapping",
+      "weather"
+    ]
+  },
+  "gis-jobs-map": {
+    "categories": [
+      "jobs",
+      "mapping"
+    ],
+    "description": " GIS Jobs Clearinghouse and Google Maps comes together in GIS Jobs Listing Map. This map was developed by terra IMS in collaboration with the GIS Jobs Clearinghouse. Terra IMS geocodes job listings and displays them on a Google Map. ",
+    "gt_layer1": [
+      "5",
+      "9"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "9-0"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "9-0-0"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3843,
+    "gt_layer4": [
+      "jobs",
+      "mapping"
+    ]
+  },
+  "boomtrek": {
+    "categories": [
+      "mapping",
+      "travel",
+      "search"
+    ],
+    "description": " Local search resource for travellers. Enter your location and type of business or address. Covers wide variety of locations. ",
+    "gt_layer1": [
+      "4",
+      "5",
+      "6"
+    ],
+    "gt_layer2": [
+      "4-1",
+      "5-1",
+      "6-1"
+    ],
+    "gt_layer3": [
+      "4-1-1",
+      "5-1-1",
+      "6-1-0"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3845,
+    "gt_layer4": [
+      "mapping",
+      "search",
+      "travel"
+    ]
+  },
+  "divecenters.net": {
+    "categories": [
+      "sports",
+      "travel",
+      "sports",
+      "mapping"
+    ],
+    "description": " Database with dive centers, dive boats, dive shops around the world. ",
+    "gt_layer1": [
+      "4",
+      "5"
+    ],
+    "gt_layer2": [
+      "4-0",
+      "4-1",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "4-0-1",
+      "4-1-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3852,
+    "gt_layer4": [
+      "mapping",
+      "sports",
+      "travel"
+    ]
+  },
+  "virtual-van": {
+    "categories": [
+      "enterprise"
+    ],
+    "description": " B2B integration looking to deliver the benefits of a high-transaction-charge value-added-network, a VAN, without high on-going transaction fees. Built on Amazon Simple Queue and Storage services. ",
+    "gt_layer1": [
+      "2"
+    ],
+    "gt_layer2": [
+      "2-1"
+    ],
+    "gt_layer3": [
+      "2-1-1"
+    ],
+    "apis": [
+      "amazon-queue-service",
+      "amazon-s3"
+    ],
+    "id": 3882,
+    "gt_layer4": [
+      "enterprise"
+    ]
+  },
+  "neave.tv": {
+    "categories": [
+      "video",
+      "movies"
+    ],
+    "description": " A mash-up of the most creative videos found on Google Video, YouTube, Blip.tv and other video sharing sites. ",
+    "gt_layer1": [
+      "3",
+      "7"
+    ],
+    "gt_layer2": [
+      "3-0",
+      "7-1"
+    ],
+    "gt_layer3": [
+      "3-0-0",
+      "7-1-1"
+    ],
+    "apis": [
+      "youtube"
+    ],
+    "id": 3890,
+    "gt_layer4": [
+      "movies",
+      "video"
+    ]
+  },
+  "caddymap": {
+    "categories": [
+      "sports",
+      "sports",
+      "mapping"
+    ],
+    "description": " Google Maps mashup with searchable US Golf Courses, weather data and details golf course information. ",
+    "gt_layer1": [
+      "4",
+      "5"
+    ],
+    "gt_layer2": [
+      "4-0",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "4-0-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3894,
+    "gt_layer4": [
+      "mapping",
+      "sports"
+    ]
+  },
+  "nfl-fan-mapping-site": {
+    "categories": [
+      "mapping",
+      "sports",
+      "sports"
+    ],
+    "description": " Create and share maps to places near your favorite NFL stadium, including tailgates, restaurants, clubs, and seats. ",
+    "gt_layer1": [
+      "4",
+      "5"
+    ],
+    "gt_layer2": [
+      "4-0",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "4-0-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3925,
+    "gt_layer4": [
+      "mapping",
+      "sports"
+    ]
+  },
+  "gmapwiki.com": {
+    "categories": [
+      "wiki",
+      "mapping"
+    ],
+    "description": " GmapWiki is A MapWiki System On Google Maps and a library of interesting satellite-photographed places for google earth. ",
+    "gt_layer1": [
+      "5",
+      "8"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "8-1"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "8-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3950,
+    "gt_layer4": [
+      "mapping",
+      "wiki"
+    ]
+  },
+  "missing-kids-map": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " A mashup using data from the National Center for Missing and Exploited Children. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3967,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "skatespots.net": {
+    "categories": [
+      "mapping",
+      "sports"
+    ],
+    "description": " An simple, open skatespot database with searchable entries and locations plotted on Google maps. ",
+    "gt_layer1": [
+      "4",
+      "5"
+    ],
+    "gt_layer2": [
+      "4-0",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "4-0-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 3984,
+    "gt_layer4": [
+      "mapping",
+      "sports"
+    ]
+  },
+  "mapcruncher": {
+    "categories": [
+      "mapping",
+      "sports"
+    ],
+    "description": " Very interesting mashup technique from Microsoft Research, MSR. Shows how any type of map image data can be layered on top of a Virtual Earth map. This example with bike trail maps. ",
+    "gt_layer1": [
+      "4",
+      "5"
+    ],
+    "gt_layer2": [
+      "4-0",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "4-0-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "microsoft-bing-maps"
+    ],
+    "id": 4006,
+    "gt_layer4": [
+      "mapping",
+      "sports"
+    ]
+  },
+  "jigdo": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " JigDo combines Google Maps with the most popular trading website in the Netherlands: Marktplaats.nl. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 4024,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "live-mapping-2006-nfl-draft": {
+    "categories": [
+      "mapping",
+      "sports"
+    ],
+    "description": " Join MapGameDay.com on April 29th as we live map the NFL Draft. View drafted players by NFL Team, Hometown, and College. ",
+    "gt_layer1": [
+      "4",
+      "5"
+    ],
+    "gt_layer2": [
+      "4-0",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "4-0-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 4040,
+    "gt_layer4": [
+      "mapping",
+      "sports"
+    ]
+  },
+  "virtual-tourism": {
+    "categories": [
+      "travel",
+      "video",
+      "mapping"
+    ],
+    "description": " Google Maps and Google Video mashup. Select tourist sites from around the world on Google maps and see a video of the location. ",
+    "gt_layer1": [
+      "3",
+      "4",
+      "5"
+    ],
+    "gt_layer2": [
+      "3-0",
+      "4-1",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "3-0-0",
+      "4-1-1",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 4041,
+    "gt_layer4": [
+      "mapping",
+      "travel",
+      "video"
+    ]
+  },
+  "color-fields-colr-pickr": {
+    "categories": [
+      "search",
+      "photos"
+    ],
+    "description": " Great way to find Flickr photos by color. Select colors diretly or use the slider to adjust lightness and darkness. By Jim Bumgardner. ",
+    "gt_layer1": [
+      "6",
+      "8"
+    ],
+    "gt_layer2": [
+      "6-1",
+      "8-0"
+    ],
+    "gt_layer3": [
+      "6-1-0",
+      "8-0-0"
+    ],
+    "apis": [
+      "flickr"
+    ],
+    "id": 4054,
+    "gt_layer4": [
+      "photos",
+      "search"
+    ]
+  },
+  "pacific-northwest-venture-map": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " Map of Pacific Northwest venture capital funding including Seattle, Portland, etc. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 4066,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "waterloo-student-housing-map": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " Waterloo Student Housing to help college and university students find rental housing and sublets. Combines UW housing database with Google Maps. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 4083,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "popurls.com": {
+    "categories": [
+      "bookmarks",
+      "photos",
+      "video"
+    ],
+    "description": " Popular urls to the latest web buzz. Combines over 15 concensus filters into a one-page view. Good looking, Ajax-ish interface. Includes Digg, Flickr, BoingBoing, NewsVine, del.icio.us, Reddit and others. ",
+    "gt_layer1": [
+      "3",
+      "8",
+      "9"
+    ],
+    "gt_layer2": [
+      "3-0",
+      "8-0",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "3-0-0",
+      "8-0-0",
+      "9-1-1"
+    ],
+    "apis": [
+      "flickr",
+      "delicious-0",
+      "youtube"
+    ],
+    "id": 4091,
+    "gt_layer4": [
+      "bookmarks",
+      "photos",
+      "video"
+    ]
+  },
+  "joemap": {
+    "categories": [
+      "photos",
+      "mapping"
+    ],
+    "description": " A do-it-yourself Goolge Maps site. You can create maps, upload photos, add comments and ratings. Explore maps created by other users. ",
+    "gt_layer1": [
+      "5",
+      "8"
+    ],
+    "gt_layer2": [
+      "5-1",
+      "8-0"
+    ],
+    "gt_layer3": [
+      "5-1-1",
+      "8-0-0"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 4104,
+    "gt_layer4": [
+      "mapping",
+      "photos"
+    ]
+  },
+  "googlecloud": {
+    "categories": [
+      "search"
+    ],
+    "description": " Displays Google search terms in a tag cloud. Uses Yahoo Term Extraction API to group terms together. Greasemonkey script available. ",
+    "gt_layer1": [
+      "6"
+    ],
+    "gt_layer2": [
+      "6-1"
+    ],
+    "gt_layer3": [
+      "6-1-0"
+    ],
+    "apis": [
+      "yahoo-term-extraction"
+    ],
+    "id": 4112,
+    "gt_layer4": [
+      "search"
+    ]
+  },
+  "fortune-100-best-companies-map": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " A Google Map showing the headquarters of the 100 best US companies to work for as ranked by Fortune Magazine. Marker popups give details on each. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 4115,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "seetoronto-virtual-tour": {
+    "categories": [
+      "travel",
+      "photos",
+      "mapping"
+    ],
+    "description": " Take full 360 degree photo tours of popular Toronto landmarks like the Air Canada Centre, Rogers Centre, and CBC HQ. Good quality, large images. ",
+    "gt_layer1": [
+      "4",
+      "5",
+      "8"
+    ],
+    "gt_layer2": [
+      "4-1",
+      "5-1",
+      "8-0"
+    ],
+    "gt_layer3": [
+      "4-1-1",
+      "5-1-1",
+      "8-0-0"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 4116,
+    "gt_layer4": [
+      "mapping",
+      "photos",
+      "travel"
+    ]
+  },
+  "flickrscape": {
+    "categories": [
+      "photos"
+    ],
+    "description": " Enter a word and watch the flickr photo stream. Click to interrupt stream and try another word. ",
+    "gt_layer1": [
+      "8"
+    ],
+    "gt_layer2": [
+      "8-0"
+    ],
+    "gt_layer3": [
+      "8-0-0"
+    ],
+    "apis": [
+      "flickr"
+    ],
+    "id": 4122,
+    "gt_layer4": [
+      "photos"
+    ]
+  },
+  "fxfoto": {
+    "categories": [
+      "photos"
+    ],
+    "description": " Windows desktop application for managing photo scrapbooks. With photo service upload capabilities. ",
+    "gt_layer1": [
+      "8"
+    ],
+    "gt_layer2": [
+      "8-0"
+    ],
+    "gt_layer3": [
+      "8-0-0"
+    ],
+    "apis": [
+      "smugmug"
+    ],
+    "id": 4135,
+    "gt_layer4": [
+      "photos"
+    ]
+  },
+  "spell-flickr": {
+    "categories": [
+      "photos"
+    ],
+    "description": " Type a word or phrase into this fun Flickr application and it will return a set of images spelling-out that word, ransom-note style. ",
+    "gt_layer1": [
+      "8"
+    ],
+    "gt_layer2": [
+      "8-0"
+    ],
+    "gt_layer3": [
+      "8-0-0"
+    ],
+    "apis": [
+      "flickr"
+    ],
+    "id": 4160,
+    "gt_layer4": [
+      "photos"
+    ]
+  },
+  "rentslicer": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " Rental property statistics for major metropolitan areas. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 4172,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "platial": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " Platial enables people to find, create and use meaningful maps of Places that matter to them. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 4173,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "delancey": {
+    "categories": [
+      "bookmarks"
+    ],
+    "description": " This nice del.icio.us enhancement allows you to see which of your del.icio.us bookmarks are used most frequently. By DeWitt Clinton. ",
+    "gt_layer1": [
+      "9"
+    ],
+    "gt_layer2": [
+      "9-1"
+    ],
+    "gt_layer3": [
+      "9-1-1"
+    ],
+    "apis": [
+      "delicious-0"
+    ],
+    "id": 4174,
+    "gt_layer4": [
+      "bookmarks"
+    ]
+  },
+  "retrievr-search-sketch": {
+    "categories": [
+      "photos",
+      "search"
+    ],
+    "description": " retrievr is an experimental service which lets you search and explore in a selection of Flickr images by drawing a rough sketch. Very interesting. ",
+    "gt_layer1": [
+      "6",
+      "8"
+    ],
+    "gt_layer2": [
+      "6-1",
+      "8-0"
+    ],
+    "gt_layer3": [
+      "6-1-0",
+      "8-0-0"
+    ],
+    "apis": [
+      "flickr"
+    ],
+    "id": 4180,
+    "gt_layer4": [
+      "photos",
+      "search"
+    ]
+  },
+  "geoworldnews": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " The latest worldwide stories from the Washington Post plotted on a Google Maps satellite image. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 4217,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "maphistory.org": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " Google Map of historic locations in US cities. Initially in Philadelphia and Washington D.C. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 4218,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "esri-shapefile-viewer": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " Plots shapefiles on Virtual Earth maps. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "microsoft-bing-maps"
+    ],
+    "id": 4227,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "los-taco-trucks-unitos": {
+    "categories": [
+      "mapping",
+      "food"
+    ],
+    "description": " A Google Map for when you need to find a taco truck in Seattle. ",
+    "gt_layer1": [
+      "4",
+      "5"
+    ],
+    "gt_layer2": [
+      "4-0",
+      "5-1"
+    ],
+    "gt_layer3": [
+      "4-0-0",
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 4246,
+    "gt_layer4": [
+      "food",
+      "mapping"
+    ]
+  },
+  "seattle-real-estate-advisor": {
+    "categories": [
+      "mapping"
+    ],
+    "description": " Seattle real estate profiles plotted on Google Maps. ",
+    "gt_layer1": [
+      "5"
+    ],
+    "gt_layer2": [
+      "5-1"
+    ],
+    "gt_layer3": [
+      "5-1-1"
+    ],
+    "apis": [
+      "google-maps"
+    ],
+    "id": 4252,
+    "gt_layer4": [
+      "mapping"
+    ]
+  },
+  "daily-mashup": {
+    "categories": [
+      "photos",
+      "bookmarks"
+    ],
+    "description": " Combines popular items from Flickr, Del.icio.us, furl, and Yahoo News. ",
+    "gt_layer1": [
+      "8",
+      "9"
+    ],
+    "gt_layer2": [
+      "8-0",
+      "9-1"
+    ],
+    "gt_layer3": [
+      "8-0-0",
+      "9-1-1"
+    ],
+    "apis": [
+      "flickr",
+      "delicious-0"
+    ],
+    "id": 4270,
+    "gt_layer4": [
+      "bookmarks",
+      "photos"
+    ]
+  },
+  "del.icio.us-direc.tor": {
+    "categories": [
+      "bookmarks"
+    ],
+    "description": " Ajax-style prototype for an alternative web-based rich UI for del.icio.us ",
+    "gt_layer1": [
+      "9"
+    ],
+    "gt_layer2": [
+      "9-1"
+    ],
+    "gt_layer3": [
+      "9-1-1"
+    ],
+    "apis": [
+      "delicious-0"
+    ],
+    "id": 4278,
+    "gt_layer4": [
+      "bookmarks"
+    ]
+  }
+}

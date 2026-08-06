@@ -1,0 +1,291 @@
+{
+  "version": "simple-v1",
+  "description": "Simple API-name-only dictionary configuration. Match canonical candidate API names and verified surface aliases; do not use per-sample ground-truth labels.",
+  "candidate_catalog": "api_dataset_like_manifest.json",
+  "full_api_catalog": "new_api_data/api_data_new.json",
+  "excluded_canonical_names": [
+    "23",
+    "2",
+    "active",
+    "box",
+    "compete",
+    "domain",
+    "food",
+    "images",
+    "indeed",
+    "numbers",
+    "photo",
+    "sms",
+    "vast",
+    "vk"
+  ],
+  "case_sensitive_aliases": [
+    {
+      "alias": "Box",
+      "candidate_api_names": ["box"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Box.net",
+      "candidate_api_names": ["box"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Compete",
+      "candidate_api_names": ["compete"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Delicious",
+      "candidate_api_names": ["delicious-0"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Indeed",
+      "candidate_api_names": ["indeed"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Vast",
+      "candidate_api_names": ["vast"],
+      "source": "candidate_catalog"
+    }
+  ],
+  "aliases": [
+    {
+      "alias": "indeed",
+      "candidate_api_names": ["indeed"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "GBIF",
+      "candidate_api_names": ["global-biodiversity-information-facility"],
+      "source": "candidate_catalog_description:global-biodiversity-information-facility"
+    },
+    {
+      "alias": "OSM",
+      "candidate_api_names": ["openstreetmap"],
+      "source": "candidate_catalog_description:openstreetmap"
+    },
+    {
+      "alias": "Last.fm",
+      "candidate_api_names": ["lastfm"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Context.IO",
+      "candidate_api_names": ["contextio"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Shopping.com",
+      "candidate_api_names": ["shoppingcom"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Health 2.0",
+      "candidate_api_names": ["health-20"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "MotorsportReg.com",
+      "candidate_api_names": ["motorsportregcom"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Play.me",
+      "candidate_api_names": ["playme"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Authorize.Net",
+      "candidate_api_names": ["authorizenet"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Dog CEO",
+      "candidate_api_names": ["dog-ceo-dog"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Dog CEO Dog",
+      "candidate_api_names": ["dog-ceo-dog"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "New York Times Bestsellers",
+      "candidate_api_names": ["new-york-times-best-sellers"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "New York Times Best Sellers",
+      "candidate_api_names": ["new-york-times-best-sellers"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Google Map",
+      "candidate_api_names": ["google-maps"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Webhose",
+      "candidate_api_names": ["webhoseio"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Webhose.io",
+      "candidate_api_names": ["webhoseio"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "WizIQ",
+      "candidate_api_names": ["wiziq-virtual-classroom"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "WizIQ Classroom",
+      "candidate_api_names": ["wiziq-virtual-classroom"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Facebook Open Graph",
+      "candidate_api_names": ["facebook-graph"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Facebook Graph",
+      "candidate_api_names": ["facebook-graph"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Bol.com",
+      "candidate_api_names": ["bolcom-open"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Spotify",
+      "candidate_api_names": ["spotify-web"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Microsoft's Emotion API",
+      "candidate_api_names": ["microsoft-cognitive-services-emotion"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Microsoft Emotion API",
+      "candidate_api_names": ["microsoft-cognitive-services-emotion"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Google Search API",
+      "candidate_api_names": ["google-custom-search"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "AT&T In-App Messaging",
+      "candidate_api_names": ["att-app-messaging"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "AT& T In-App Messaging",
+      "candidate_api_names": ["att-app-messaging"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Bing Maps",
+      "candidate_api_names": ["bing-maps", "microsoft-bing-maps"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Google Analytics",
+      "candidate_api_names": ["google-analytics-core-reporting", "google-analytics-managment"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Instagram",
+      "candidate_api_names": ["instagram-graph", "instagram-real-time"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Picasa",
+      "candidate_api_names": ["google-picasa"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Google Gadget",
+      "candidate_api_names": ["google-gadgets"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Google Street View",
+      "candidate_api_names": ["google-street-view-image"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Open Library",
+      "candidate_api_names": ["open-library-books"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "WordPress.com",
+      "candidate_api_names": ["wordpresscom"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "TheTVDB.com",
+      "candidate_api_names": ["thetvdbcom"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Booking.com",
+      "candidate_api_names": ["bookingcom-content"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Yelp",
+      "candidate_api_names": ["yelp-fusion"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "G+",
+      "candidate_api_names": ["google-plus"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Del.icio.us",
+      "candidate_api_names": ["delicious-0"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Amazon API",
+      "candidate_api_names": ["amazon-marketplace-web-service", "amazon-product-advertising"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Amazon's API",
+      "candidate_api_names": ["amazon-marketplace-web-service", "amazon-product-advertising"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Amazon.com API",
+      "candidate_api_names": ["amazon-marketplace-web-service", "amazon-product-advertising"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Ebay API",
+      "candidate_api_names": ["ebay-finding", "ebay-product-services", "ebay-shopping"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "Springer API",
+      "candidate_api_names": ["springer-metadata"],
+      "source": "candidate_catalog"
+    },
+    {
+      "alias": "ScentSee",
+      "candidate_api_names": [],
+      "source": "full_api_catalog:scentsee"
+    }
+  ]
+}

@@ -1,8 +1,0 @@
-nohup: 入力を無視します
-Traceback (most recent call last):
-  File "/home/nakagawa/create_study_data_and_model/mashup_clu_mlc_nosp_nostop_category.py", line 231, in <module>
-    main()
-  File "/home/nakagawa/create_study_data_and_model/mashup_clu_mlc_nosp_nostop_category.py", line 217, in main
-    files = [os.path.join(ROOT_DIR, f) for f in os.listdir(ROOT_DIR) if f.endswith(".json")]
-                                                ^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: '/home/nakagawa/ train_by_category_inc_negative_1_10'

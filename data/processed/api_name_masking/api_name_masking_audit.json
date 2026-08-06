@@ -1,0 +1,39 @@
+{
+  "version": "official-api-name-only-v1",
+  "input": "/home/nakagawa/lab-MLMLC/codex/output/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json",
+  "output": "/home/nakagawa/lab-MLMLC/codex/output/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration_api_name_masked.json",
+  "api_catalog": "/home/nakagawa/lab-MLMLC/api_dataset_like_manifest.json",
+  "mask_log_csv": "/home/nakagawa/lab-MLMLC/codex/baseline/api_name_masking_log.csv",
+  "resolved_dictionary": "/home/nakagawa/lab-MLMLC/codex/baseline/api_name_masking_resolved_dictionary.json",
+  "placeholder": "<API_NAME>",
+  "normalization": [
+    "HTML unescape",
+    "Unicode NFKC",
+    "lowercase",
+    "replace non-ASCII-alphanumeric characters with spaces",
+    "collapse repeated spaces",
+    "strip leading and trailing spaces"
+  ],
+  "matching_rule": "exact match against consecutive normalized tokens",
+  "summary": {
+    "total_rows": 336,
+    "masked_rows": 168,
+    "unmasked_rows": 168,
+    "total_masked_api_mentions": 305,
+    "catalog_records": 909,
+    "normalized_api_name_entries": 909,
+    "duplicate_normalized_api_name_count": 0,
+    "manual_aliases_used": false,
+    "semantic_completion_used": false,
+    "text_column_overwritten": true,
+    "legacy_list_output": true
+  },
+  "duplicate_normalized_api_name_warnings": [],
+  "sha256": {
+    "input": "6c78aad686e8ea78d6ea6937ef933da36c18e1c341ff8ed54bbadbe1e242bdb3",
+    "output": "3322ec645391a0942f82e7e885f7dfdadfd5e0988f28106a206bc6ecc954f609",
+    "api_catalog": "c5d3bd19c19026e8380e24f01896650badf749ad5c57a5f6cc3a5b91aa6b2df9",
+    "mask_log_csv": "ef153629ad46622e9f42f3e93386bb57f556c011f9ce11019c38dd37cc88e2db",
+    "resolved_dictionary": "7c37cf187ffc0a1dccaa74272b0b7b5e0a3d3c5a92eb1739deaa8abee970208f"
+  }
+}
