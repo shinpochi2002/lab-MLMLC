@@ -8,22 +8,28 @@ import glob
 import json
 import os
 import re
+import sys
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable, Sequence
 
 
+SCRIPTS_DIR = Path(__file__).resolve().parents[1]
+if str(SCRIPTS_DIR) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_DIR))
+
+from common.evaluation_split import (
+    BASELINE_SOURCE,
+    DEFAULT_SPLIT_DIR,
+    SOURCE_ROOT,
+    resolve_split_path,
+)
+
+
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_TARGET = "16_4_3"
-DEFAULT_EVAL_PATH = (
-    PROJECT_ROOT
-    / "results"
-    / "hierarchy"
-    / "output"
-    / "layer1_direct_api"
-    / "test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json"
-)
+DEFAULT_EVAL_PATH = DEFAULT_SPLIT_DIR / "test" / BASELINE_SOURCE.relative_to(SOURCE_ROOT)
 DEFAULT_API_CATALOG_PATH = PROJECT_ROOT / "data" / "processed" / "root_json" / "api_dataset_like_manifest.json"
 DEFAULT_TRAIN_PATH = PROJECT_ROOT / "data" / "processed" / "root_json" / "study_data_mashup_apis.json"
 DEFAULT_OUTPUT_DIR = PROJECT_ROOT / "results" / "baselines"
@@ -354,7 +360,7 @@ def positive_int(value: str) -> int:
 
 def add_common_io_args(parser: Any) -> None:
     parser.add_argument("--target", default=DEFAULT_TARGET, help="Legacy target name used only when target resolution is requested.")
-    parser.add_argument("--eval-path", default=None, help="Evaluation/test JSON path. Defaults to layer1_direct_api collaboration-filtered test data.")
+    parser.add_argument("--eval-path", default=None, help="Evaluation/test JSON path. Defaults to the fixed 236-record test split of the layer1_direct_api collaboration-filtered data.")
     parser.add_argument("--api-catalog-path", default=str(DEFAULT_API_CATALOG_PATH), help="API catalog JSON path.")
     parser.add_argument("--output-dir", default=str(DEFAULT_OUTPUT_DIR), help="Directory for JSON/CSV outputs.")
     parser.add_argument("--top-k", type=positive_int, default=10, help="Number of APIs to recommend per requirement when --selection-mode topk.")
@@ -370,11 +376,10 @@ def add_common_io_args(parser: Any) -> None:
 
 
 def resolved_eval_path(args: Any) -> Path:
-    if args.eval_path:
-        return Path(args.eval_path)
+    eval_path = getattr(args, "eval_path", None)
+    if eval_path:
+        return Path(eval_path)
     env_path = os.getenv("EVALUATION_DATA_PATH")
     if env_path:
         return Path(env_path)
-    if DEFAULT_EVAL_PATH.exists():
-        return DEFAULT_EVAL_PATH
-    return resolve_default_eval_path(args.target)
+    return resolve_split_path(BASELINE_SOURCE, "test")

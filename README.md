@@ -41,7 +41,7 @@ The main dataset files are stored under `data/`.
 - Fixed test subsets:
   - `data/test_subsets/`
 
-The baseline experiments use a closed API catalog from `api_dataset_like_manifest.json`. Existing reports describe this catalog as 909 API candidates, with 3,651 training records and 336 test records for the main full-evaluation setup.
+The baseline experiments use a closed API catalog from `api_dataset_like_manifest.json`. Historical reports use 909 API candidates and 336 evaluation records. The current fixed split uses **100 validation records for hierarchy selection and the remaining 236 for test**, with seed 42 and the same mashups across all hierarchy/masking variants. The original 336-record files are retained. See [the split and selection workflow](docs/validation_test_split.md).
 
 ## Installation
 
@@ -96,23 +96,34 @@ These training scripts save model weights under `models/checkpoints/` through th
 
 ### Evaluation
 
-List available hierarchy evaluation tasks without running models:
+Model directory names follow the [inference-based naming rules](docs/hierarchy_model_naming.md); experiment identifiers and E-calculation labels are separate.
+
+Create (or verify) the fixed validation/test split:
+
+```bash
+python scripts/data_prep/create_validation_test_split.py
+```
+
+List the validation hierarchy tasks without running models:
 
 ```bash
 python scripts/inference/run_all_existing_hierarchy_patterns.py \
   --dataset masked \
-  --layers all \
+  --split validation \
+  --layers 2,3,4 \
   --dry-run
 ```
 
-Run all discovered hierarchy evaluation tasks:
+Evaluate the hierarchy candidates on validation:
 
 ```bash
 python scripts/inference/run_all_existing_hierarchy_patterns.py \
   --dataset masked \
-  --layers all \
-  --skip-existing
+  --split validation \
+  --layers 2,3,4
 ```
+
+Use `scripts/analysis/select_hierarchy_from_validation.py --results-dir results/hierarchy/hierarchy_existing_models_api_name_masked/validation` to save the best validation-F1 choice, then run `--split test --patterns SELECTED_PATTERN` for that choice. See the [complete workflow](docs/validation_test_split.md). The runner defaults to `--split test`; historical 336-record evaluations require `--split full`.
 
 Run a TF-IDF baseline:
 
@@ -127,10 +138,10 @@ Run a supervised TF-IDF One-vs-Rest baseline:
 ```bash
 python scripts/baselines/run_tfidf_ovr_baseline.py \
   --train_path data/processed/root_json/study_data_mashup_apis.json \
-  --test_path results/hierarchy/output/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json \
+  --test_path data/splits/model_selection/test/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration_api_name_masked.json \
   --model_type logistic \
   --threshold 0.5 \
-  --output_dir results/baselines/tfidf_ovr_logistic
+  --output_dir results/baselines/tfidf_ovr_logistic_test236_masked
 ```
 
 ## Experimental Settings
@@ -222,7 +233,7 @@ pip install -r requirements.txt
 - 固定テストサブセット:
   - `data/test_subsets/`
 
-baseline実験では、`api_dataset_like_manifest.json` に含まれるAPIカタログを閉じた候補集合として使います。既存レポートでは、主なfull evaluation設定として、909件のAPI候補、3,651件の学習レコード、336件のテストレコードが使われています。
+baseline実験では、`api_dataset_like_manifest.json` に含まれる909件のAPIカタログを閉じた候補集合として使います。現在は、従来の評価用336件を**階層構造選定用validation 100件と、残りのtest 236件**に分割しています。seedは42に固定し、全階層・マスク有無で同じサンプルを分割先に割り当てます。元の336件も保持しています。[分割と選定の手順](docs/validation_test_split.md)を参照してください。
 
 ## インストール
 
@@ -277,23 +288,34 @@ python scripts/create_study_data_and_model/mashup_clu_mlc_nosp_nostop_layer4.py
 
 ### 評価
 
-利用可能な階層評価タスクを、モデル実行なしで確認します。
+モデルフォルダ名は[推論コードに基づく命名ルール](docs/hierarchy_model_naming.md)に従います。既存の構成識別名とE計算用の表記は区別します。
+
+固定したvalidation/test分割を生成（または再確認）します。
+
+```bash
+python scripts/data_prep/create_validation_test_split.py
+```
+
+validation用の階層評価タスクを、モデル実行なしで確認します。
 
 ```bash
 python scripts/inference/run_all_existing_hierarchy_patterns.py \
   --dataset masked \
-  --layers all \
+  --split validation \
+  --layers 2,3,4 \
   --dry-run
 ```
 
-検出された階層評価タスクを実行します。
+階層構成の候補をvalidationで評価します。
 
 ```bash
 python scripts/inference/run_all_existing_hierarchy_patterns.py \
   --dataset masked \
-  --layers all \
-  --skip-existing
+  --split validation \
+  --layers 2,3,4
 ```
+
+`scripts/analysis/select_hierarchy_from_validation.py --results-dir results/hierarchy/hierarchy_existing_models_api_name_masked/validation`でvalidation F1が最大の構成を記録し、その構成を`--split test --patterns SELECTED_PATTERN`で評価します。[詳しい手順](docs/validation_test_split.md)を参照してください。ランナーの既定値は`--split test`で、旧336件を使う場合は`--split full`を明示します。
 
 TF-IDF baselineを実行します。
 
@@ -308,10 +330,10 @@ python scripts/baselines/run_tfidf_baseline.py \
 ```bash
 python scripts/baselines/run_tfidf_ovr_baseline.py \
   --train_path data/processed/root_json/study_data_mashup_apis.json \
-  --test_path results/hierarchy/output/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json \
+  --test_path data/splits/model_selection/test/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration_api_name_masked.json \
   --model_type logistic \
   --threshold 0.5 \
-  --output_dir results/baselines/tfidf_ovr_logistic
+  --output_dir results/baselines/tfidf_ovr_logistic_test236_masked
 ```
 
 ## 実験設定

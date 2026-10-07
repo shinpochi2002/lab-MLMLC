@@ -13,6 +13,15 @@ from PIL import Image, ImageDraw, ImageFont
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_E_VALUES_CSV = Path(__file__).with_name("E_F1_layer_structure_for_paper.csv")
 
+FIGURE_DPI = 300
+FIGURE_WIDTH_PX = 2967
+FIGURE_HEIGHT_PX = 1649
+AXIS_LABEL_FONT_SIZE_PX = 65
+TICK_FONT_SIZE_PX = 50
+LEGEND_FONT_SIZE_PX = 50
+LEGEND_TITLE_FONT_SIZE_PX = 52
+ANNOTATION_FONT_SIZE_PX = 50
+
 E_STRUCTURE_ALIASES = {
     "4-43": "4-38",
     "6-25": "6-26",
@@ -74,7 +83,20 @@ LABEL_OFFSETS = [
     (136, 26),
     (-136, -18),
     (-136, 26),
+    (180, -65),
+    (180, 65),
+    (-180, -65),
+    (-180, 65),
+    (240, -100),
+    (240, 100),
+    (-240, -100),
+    (-240, 100),
 ]
+
+PREFERRED_LABEL_OFFSETS = {
+    "layer3_4_4_8": (0, 36),
+    "layer3_12_2_6": (-44, -40),
+}
 
 SUMMARY_COLUMNS = [
     "test_data",
@@ -123,8 +145,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--e-values-csv", type=Path, default=DEFAULT_E_VALUES_CSV)
     parser.add_argument("--output-dir", type=Path)
     parser.add_argument("--test-data-name", default="overall_336")
-    parser.add_argument("--png-width", type=int, default=2967)
-    parser.add_argument("--png-height", type=int, default=1649)
+    parser.add_argument("--png-width", type=int, default=FIGURE_WIDTH_PX)
+    parser.add_argument("--png-height", type=int, default=FIGURE_HEIGHT_PX)
     parser.add_argument(
         "--e-smaller-is-better",
         action="store_true",
@@ -448,23 +470,35 @@ def draw_layer_pattern_labels(
 ) -> None:
     occupied: list[tuple[float, float, float, float]] = list(avoid_bboxes or [])
     for x, y in point_positions.values():
-        occupied.append((x - 42, y - 42, x + 42, y + 42))
+        occupied.append((x - 36, y - 36, x + 36, y + 36))
 
     center_x = (plot_bbox[0] + plot_bbox[2]) / 2
     center_y = (plot_bbox[1] + plot_bbox[3]) / 2
+
+    def placement_order(row: dict[str, Any]) -> tuple[int, float]:
+        x, y = point_positions[row["configuration"]]
+        priority = 0 if row["configuration"] in PREFERRED_LABEL_OFFSETS else 1
+        return priority, abs(x - center_x) + abs(y - center_y)
+
     ordered = sorted(
         rows,
-        key=lambda row: abs(point_positions[row["configuration"]][0] - center_x)
-        + abs(point_positions[row["configuration"]][1] - center_y),
+        key=placement_order,
     )
 
+    placements = []
     for row in ordered:
         x, y = point_positions[row["configuration"]]
         text = str(row["display_structure_plot"])
         text_width, text_height = text_size(draw, text, font)
         best = None
 
-        for dx, dy in LABEL_OFFSETS:
+        offsets = []
+        preferred_offset = PREFERRED_LABEL_OFFSETS.get(row["configuration"])
+        if preferred_offset is not None:
+            offsets.append(preferred_offset)
+        offsets.extend(LABEL_OFFSETS)
+
+        for dx, dy in offsets:
             anchor = choose_label_anchor(x, y, dx, dy, text_width, text_height)
             bbox = pad_bbox(
                 text_bbox(draw, anchor, text, font, stroke_width=3),
@@ -472,17 +506,34 @@ def draw_layer_pattern_labels(
             )
             overlap = sum(overlap_area(bbox, other) for other in occupied)
             outside = outside_plot_penalty(bbox, plot_bbox)
-            distance = abs(dx) + abs(dy)
-            score = (overlap, outside * 120.0, distance)
+            line_end_x = min(max(x, bbox[0]), bbox[2])
+            line_end_y = min(max(y, bbox[1]), bbox[3])
+            distance = math.hypot(line_end_x - x, line_end_y - y)
+            score = (outside, overlap, distance)
             if best is None or score < best[0]:
-                best = (score, anchor, bbox, dx, dy)
-            if overlap == 0 and outside == 0:
-                break
+                best = (score, anchor, bbox)
+        _, anchor, bbox = best
+        placements.append((x, y, anchor, bbox, text))
+        occupied.append(bbox)
 
-        _, anchor, bbox, dx, dy = best
-        if abs(dx) + abs(dy) >= 80:
-            label_center = ((bbox[0] + bbox[2]) / 2, (bbox[1] + bbox[3]) / 2)
-            draw.line((x, y, label_center[0], label_center[1]), fill="#666666", width=2)
+    for x, y, _, bbox, _ in placements:
+        line_end_x = min(max(x, bbox[0]), bbox[2])
+        line_end_y = min(max(y, bbox[1]), bbox[3])
+        dx = line_end_x - x
+        dy = line_end_y - y
+        distance = math.hypot(dx, dy)
+        if distance == 0:
+            continue
+        marker_clearance = min(36.0, distance * 0.45)
+        line_start_x = x + dx / distance * marker_clearance
+        line_start_y = y + dy / distance * marker_clearance
+        draw.line(
+            (line_start_x, line_start_y, line_end_x, line_end_y),
+            fill="#666666",
+            width=3,
+        )
+
+    for _, _, anchor, _, text in placements:
         draw.text(
             anchor,
             text,
@@ -491,7 +542,6 @@ def draw_layer_pattern_labels(
             stroke_width=3,
             stroke_fill="white",
         )
-        occupied.append(bbox)
 
 
 def draw_centered_text(
@@ -602,11 +652,11 @@ def plot_points(
     image = Image.new("RGB", (width, height), "white")
     draw = ImageDraw.Draw(image)
 
-    font_tick = load_font(34)
-    font_label = load_font(45)
-    font_legend = load_font(34)
-    font_legend_title = load_font(35, bold=True)
-    font_point_label = load_font(30, bold=True)
+    font_tick = load_font(TICK_FONT_SIZE_PX)
+    font_label = load_font(AXIS_LABEL_FONT_SIZE_PX)
+    font_legend = load_font(LEGEND_FONT_SIZE_PX)
+    font_legend_title = load_font(LEGEND_TITLE_FONT_SIZE_PX, bold=True)
+    font_point_label = load_font(ANNOTATION_FONT_SIZE_PX)
 
     left = 235
     right = width - 105
@@ -657,12 +707,13 @@ def plot_points(
 
     x_label = "Structural descriptor E"
     tw, th = text_size(draw, x_label, font_label)
-    draw.text((left + plot_width / 2 - tw / 2, height - 72), x_label, font=font_label, fill="#111111")
+    draw.text((left + plot_width / 2 - tw / 2, height - 82), x_label, font=font_label, fill="#111111")
 
     y_label = "Final API recommendation F1"
-    y_text = Image.new("RGBA", (720, 70), (255, 255, 255, 0))
+    y_width, y_height = text_size(draw, y_label, font_label)
+    y_text = Image.new("RGBA", (y_width + 12, y_height + 12), (255, 255, 255, 0))
     y_draw = ImageDraw.Draw(y_text)
-    y_draw.text((0, 0), y_label, font=font_label, fill="#111111")
+    y_draw.text((6, 6), y_label, font=font_label, fill="#111111")
     y_text = y_text.crop(y_text.getbbox()).rotate(90, expand=True)
     image.paste(y_text, (45, top + plot_height // 2 - y_text.height // 2), y_text)
 
@@ -698,12 +749,12 @@ def plot_points(
             MARKER_MAP.get(category_layers, "circle"),
         )
 
-    legend_width = 380
+    legend_width = 540
     legend_rows = []
     for category_layers in sorted({int(row["category_layers"]) for row in rows}):
         plot_stages = category_layers + 1
         legend_rows.append((category_layers, f"{plot_stages}-layers"))
-    legend_height = 60 + 50 * (len(legend_rows) + 1)
+    legend_height = 70 + 56 * (len(legend_rows) + 1)
     legend_x = right - legend_width - 35
     legend_y = top + 32
     legend_bbox = (legend_x - 20, legend_y - 18, legend_x + legend_width, legend_y + legend_height)
@@ -715,17 +766,17 @@ def plot_points(
         width=2,
     )
     draw.text((legend_x, legend_y), "Number of layers", font=font_legend_title, fill="#111111")
-    cy = legend_y + 58
+    cy = legend_y + 66
     for category_layers, label in legend_rows:
         marker = MARKER_MAP.get(category_layers, "circle")
         color = COLOR_MAP.get(category_layers, "#777777")
-        draw_marker(draw, legend_x + 22, cy + 13, marker, color, size=15)
+        draw_marker(draw, legend_x + 22, cy + 15, marker, color, size=15)
         draw.text((legend_x + 56, cy), label, font=font_legend, fill="#111111")
-        cy += 50
+        cy += 56
     draw_dashed_line(
         draw,
-        (legend_x + 5, cy + 16),
-        (legend_x + 42, cy + 16),
+        (legend_x + 5, cy + 18),
+        (legend_x + 42, cy + 18),
         fill="#222222",
         width=3,
         dash=9,
@@ -745,8 +796,8 @@ def plot_points(
     output_base.parent.mkdir(parents=True, exist_ok=True)
     png_path = output_base.with_suffix(".png")
     pdf_path = output_base.with_suffix(".pdf")
-    image.save(png_path)
-    image.save(pdf_path, "PDF", resolution=300.0)
+    image.save(png_path, dpi=(FIGURE_DPI, FIGURE_DPI))
+    image.save(pdf_path, "PDF", resolution=float(FIGURE_DPI))
 
 
 def write_outputs(

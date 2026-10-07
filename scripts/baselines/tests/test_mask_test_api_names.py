@@ -1,8 +1,15 @@
 import contextlib
 import io
+import sys
 import unittest
 
-from codex.baseline import mask_test_api_names as masker
+from pathlib import Path
+
+BASELINES_DIR = Path(__file__).resolve().parents[1]
+if str(BASELINES_DIR) not in sys.path:
+    sys.path.insert(0, str(BASELINES_DIR))
+
+import mask_test_api_names as masker
 
 
 class OfficialApiNameMaskingTest(unittest.TestCase):

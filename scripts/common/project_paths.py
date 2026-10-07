@@ -58,6 +58,13 @@ def _legacy_weight_path(raw: str) -> Path | None:
         return None
 
     layer = int(match.group(1))
+    # A supplied hierarchy directory identifies the trained configuration.
+    # Numbers in branch checkpoint filenames are category IDs, not the
+    # configuration (e.g. layer3_4_4_8 must not become layer3_4_3_3).
+    directory = Path(raw).parent.name
+    if re.fullmatch(rf"layer{layer}_\d+(?:[_a-]\d+)*", directory):
+        return hierarchy_checkpoint_dir(layer, directory) / name
+
     tokens = [token for token in re.split(r"[_-]", match.group(2).replace("a", "_")) if token]
     depth = {2: 1, 3: 3, 4: 4}[layer]
     if len(tokens) < depth or not all(token.isdigit() for token in tokens[:depth]):

@@ -7,10 +7,11 @@ import os
 import subprocess
 import sys
 import time
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, replace
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from common.evaluation_split import DEFAULT_SPLIT_DIR, resolve_split_path
 from common.project_paths import (
     HIERARCHY_CHECKPOINTS_DIR,
     HIERARCHY_RESULTS_DIR,
@@ -358,6 +359,18 @@ def main() -> int:
         default=MASKED_DATASET,
         help="Evaluation dataset variant. Default: masked collaboration-category data.",
     )
+    parser.add_argument(
+        "--split",
+        choices=["validation", "test", "full"],
+        default="test",
+        help="Use validation to select a hierarchy, test for final evaluation, or full for the legacy dataset.",
+    )
+    parser.add_argument("--split-dir", type=Path, default=DEFAULT_SPLIT_DIR, help="Directory containing the fixed validation/test split.")
+    parser.add_argument(
+        "--patterns",
+        default=None,
+        help="Comma-separated exact task names, e.g. layer3_12_4_3, to evaluate the selected hierarchy.",
+    )
     parser.add_argument("--results-dir", default=None, help="Directory for CSVs, logs, and manifests.")
     parser.add_argument("--condition-2x2", action="store_true", help="Run data/test_subsets condition_analysis subsets, excluding overall/all.")
     parser.add_argument(
@@ -373,6 +386,9 @@ def main() -> int:
     parser.add_argument("--continue-on-error", action="store_true", help="Continue running remaining tasks after a failure.")
     args = parser.parse_args()
 
+    if args.condition_2x2 and args.split != "full":
+        parser.error("--condition-2x2 requires --split full; existing condition subsets include both validation and test records")
+
     if args.condition_2x2 and args.dataset == MASKED_DATASET:
         parser.error(
             "--condition-2x2 currently has only unmasked subset files; "
@@ -385,12 +401,22 @@ def main() -> int:
         default_results_dir = DEFAULT_MASKED_RESULTS_DIR
     else:
         default_results_dir = DEFAULT_RESULTS_DIR
+    if args.split != "full":
+        default_results_dir = default_results_dir / args.split
     results_dir = Path(args.results_dir or default_results_dir).resolve()
     tasks = [
         task
         for task in discover_tasks(results_dir, dataset=args.dataset)
         if task.layer in args.layers
     ]
+    if args.patterns is not None:
+        patterns = {name.strip() for name in args.patterns.split(",") if name.strip()}
+        if not patterns:
+            parser.error("--patterns must contain at least one task name")
+        unknown = patterns - {task.name for task in tasks}
+        if unknown:
+            parser.error(f"unknown or unavailable pattern(s): {', '.join(sorted(unknown))}")
+        tasks = [task for task in tasks if task.name in patterns]
     if args.condition_2x2:
         tasks = expand_condition_2x2_tasks(tasks, results_dir)
 
@@ -399,13 +425,21 @@ def main() -> int:
         return 1
 
     try:
+        tasks = [
+            replace(
+                task,
+                evaluation_data_path=str(resolve_split_path(Path(task.evaluation_data_path), args.split, args.split_dir)),
+            )
+            for task in tasks
+        ]
         data_stats = validate_evaluation_data(tasks, args.dataset)
-    except ValueError as exc:
+    except (OSError, ValueError) as exc:
         print(str(exc), file=sys.stderr)
         return 1
 
     print(f"Found {len(tasks)} runnable task(s).")
     print(f"Dataset variant: {args.dataset}")
+    print(f"Dataset split: {args.split}")
     print(f"Results directory: {results_dir}")
     print(f"Model Python: {args.python}")
     if args.condition_2x2:
