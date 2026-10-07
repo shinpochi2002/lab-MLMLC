@@ -1,11 +1,13 @@
-# Baseline Results Summary
+# Historical Baseline Results Summary (336 samples)
 
 作成日: 2026-06-14
 更新日: 2026-06-14
 
+本書は2026年6月の旧336件・API名マスクなしの評価記録です。数値は当時の結果を保持しています。現在のtest236件での成績ではありません。現在の手順と事後分割の制約は[validation/test分割](../validation_test_split.md)を参照してください。以下の出力名は`results/baselines/`からの相対パスです。
+
 ## 概要
 
-`codex/baseline` では、API 推薦タスクに対して以下の baseline が実行されています。
+`scripts/baselines/` では、API 推薦タスクに対して以下の baseline が実行されています。
 
 - TF-IDF cosine similarity による Top-k / threshold 推薦
 - Sentence-BERT cosine similarity による Top-k 推薦
@@ -15,7 +17,7 @@
 
 主要な full evaluation はすべて同じ test data を使っています。
 
-- Test data: `codex/output/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json`
+- Test data: `results/hierarchy/output/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json`
 - Test records: 336
 - Test true API mentions: 717
 - Average true APIs per record: 2.134
@@ -31,16 +33,16 @@
 - Script: `run_tfidf_baseline.py`
 - Train: なし
 - Scoring: requirement text と API description の TF-IDF cosine similarity
-- API candidates: `api_dataset_like_manifest.json` の 909 API
+- API candidates: `data/processed/root_json/api_dataset_like_manifest.json` の 909 API
 - Vectorizer: unigram, `min_df=1`, `stop_words=none`
 - Selection: Top-1 / Top-5 / Top-10 / threshold 0 strict
 - `threshold 0 strict` は `score > 0` の API を全て推薦します。
 - Outputs:
-  - `results/tfidf_top1_909api.json`
-  - `results/tfidf_top5_909api.json`
-  - `results/tfidf_top10_909api.json`
-  - `results/tfidf_top10_default.json`
-  - `results/tfidf_threshold0_909api.json`
+  - `tfidf_top1_909api.json`
+  - `tfidf_top5_909api.json`
+  - `tfidf_top10_909api.json`
+  - `tfidf_top10_default.json`
+  - `tfidf_threshold0_909api.json`
 
 ### Sentence-BERT cosine Top-k
 
@@ -53,36 +55,36 @@
   - `sentence-transformers/all-mpnet-base-v2`
 - Selection: Top-1 / Top-5 / Top-10
 - Outputs:
-  - `results/sbert_top5_909api.json`
-  - `results/sbert_top10_909api.json`
-  - `results/sbert_top1_909api_mpnet.json`
-  - `results/sbert_top5_909api_mpnet.json`
-  - `results/sbert_top10_909api_mpnet.json`
+  - `sbert_top5_909api.json`
+  - `sbert_top10_909api.json`
+  - `sbert_top1_909api_mpnet.json`
+  - `sbert_top5_909api_mpnet.json`
+  - `sbert_top10_909api_mpnet.json`
 
 ### BERT cross-encoder
 
 - Script: `run_cross_encoder_baseline.py`
 - Base model: `bert-base-uncased`
-- Train data: `study_data_mashup_apis.json`
+- Train data: `data/processed/root_json/study_data_mashup_apis.json`
 - Fine-tuning: positive pair = used API, negative pair = unused API sampled from 909 candidates
 - Negative ratio: 4
 - Epochs: 1
-- Saved model: `models/cross_encoder_bert_base_uncased_909api_all`
+- Saved model: `models/baselines/cross_encoder_bert_base_uncased_909api_all`
 - Evaluation: all 909 APIs are scored per test record (`candidate_method=all`, `candidate_k=0`)
 - Score: sigmoid probability from cross-encoder
 - Selection:
   - Top-10 run trained the model in that run
   - Top-5 / Top-1 / threshold 0.5 reused the saved model
 - Outputs:
-  - `results/cross_encoder_all909_top1.json`
-  - `results/cross_encoder_all909_top5.json`
-  - `results/cross_encoder_all909_top10.json`
-  - `results/cross_encoder_all909_threshold05.json`
+  - `cross_encoder_all909_top1.json`
+  - `cross_encoder_all909_top5.json`
+  - `cross_encoder_all909_top10.json`
+  - `cross_encoder_all909_threshold05.json`
 
 ### TF-IDF + OvR classifier
 
 - Script: `run_tfidf_ovr_baseline.py`
-- Train data: `study_data_mashup_apis.json`
+- Train data: `data/processed/root_json/study_data_mashup_apis.json`
 - Train records loaded: 3651
 - Test records: 336
 - Labels: 754 train labels
@@ -92,21 +94,21 @@
   - `OneVsRestClassifier(LinearSVC)`
 - Selection: global threshold
 - Outputs:
-  - `results/tfidf_ovr_logistic/`
-  - `results/tfidf_ovr_logistic_unigram/`
-  - `results/tfidf_ovr_svm_unigram/`
+  - `tfidf_ovr_logistic/`
+  - `tfidf_ovr_logistic_unigram/`
+  - `tfidf_ovr_svm_unigram/`
 
 ### Sentence-BERT + OvR classifier
 
 - Script: `run_sbert_ovr_baseline.py`
-- Train data: `study_data_mashup_apis.json`
+- Train data: `data/processed/root_json/study_data_mashup_apis.json`
 - Train records loaded: 3651
 - Test records: 336
 - Labels: 754 train labels
 - Feature: fixed `sentence-transformers/all-MiniLM-L6-v2` embedding, 384 dimensions
 - Classifier: `OneVsRestClassifier(LogisticRegression)`
 - Selection: threshold 0.5
-- Output: `results/sbert_ovr_logistic/`
+- Output: `sbert_ovr_logistic/`
 
 ## Results
 
@@ -155,7 +157,7 @@ OvR runs also saved micro metrics:
 
 ## Smoke Runs
 
-`results/smoke/` は full evaluation ではなく動作確認用の少数サンプル実行です。
+`smoke/` は full evaluation ではなく動作確認用の少数サンプル実行です。
 
 | Run | Records | Selection | Precision | Recall | F1 |
 |---|---:|---|---:|---:|---:|

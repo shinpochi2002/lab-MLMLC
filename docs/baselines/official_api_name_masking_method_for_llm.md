@@ -1,10 +1,10 @@
 # Official API Name Masking Method for Test Inputs
 
-作成日: 2026-07-09  
-対象実装: `codex/baseline/mask_test_api_names.py`  
+作成日: 2026-07-09
+対象実装: `scripts/baselines/mask_test_api_names.py`
 方式名: `official-api-name-only-v1`
 
-この文書は、論文執筆および別LLMへの引き継ぎのために、テスト入力文中のAPI名マスク処理を自己完結的に説明するものである。ここで説明する現行方式は、APIカタログに登録された正式API名のみを用いる。手作業のalias辞書、意味的補完、略称展開、stemming、lemmatization、単複変換、サンプルごとの正解APIラベルは使用しない。
+この文書は、実験の再現のために、テスト入力文中のAPI名マスク処理を自己完結的に説明するものである。ここで説明する現行方式は、APIカタログに登録された正式API名のみを用いる。手作業のalias辞書、意味的補完、略称展開、stemming、lemmatization、単複変換、サンプルごとの正解APIラベルは使用しない。
 
 ## 1. 目的
 
@@ -19,13 +19,13 @@
 既定の入力ファイルは次である。
 
 ```text
-codex/output/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json
+results/hierarchy/output/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json
 ```
 
 既定のAPIカタログは次である。
 
 ```text
-api_dataset_like_manifest.json
+data/processed/root_json/api_dataset_like_manifest.json
 ```
 
 このAPIカタログはJSON objectであり、キーをAPIカタログ上の正式API名として扱う。今回の実験では909 APIが登録されている。
@@ -35,26 +35,23 @@ api_dataset_like_manifest.json
 既定のマスク済みデータ出力は次である。
 
 ```text
-codex/output/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration_api_name_masked.json
+results/hierarchy/output/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration_api_name_masked.json
 ```
 
 マスクログCSVは次である。
 
 ```text
-codex/baseline/api_name_masking_log.csv
+scripts/baselines/api_name_masking_log.csv
 ```
 
-正規化済み表現の集計一覧は次である。
+監査結果JSONと、カタログから生成した正規化済み辞書JSONも出力する。
 
 ```text
-codex/baseline/api_name_masked_normalized_expression_list.csv
+scripts/baselines/api_name_masking_audit.json
+scripts/baselines/api_name_masking_resolved_dictionary.json
 ```
 
-API単位の集計一覧は次である。
-
-```text
-codex/baseline/api_name_masked_api_list.csv
-```
+過去の集計CSVは実験記録であり、現行スクリプトの既定出力には含まれない。
 
 ## 3. マスク対象
 
@@ -166,7 +163,7 @@ Google Maps is used.
 元の入力文列は既定では上書きしない。ただし、既存の階層評価スクリプトが従来のlist形式データを期待するため、評価実行用には次のオプションを使って元の説明文スロットを上書きし、list形式を維持する。
 
 ```bash
-python3 codex/baseline/mask_test_api_names.py --overwrite-text-column --legacy-list-output
+python3 scripts/baselines/mask_test_api_names.py --overwrite-text-column --legacy-list-output
 ```
 
 ## 9. 正規化後API名の重複
@@ -217,10 +214,12 @@ sms
 
 ## 11. 階層構造パターン評価用データの生成
 
+以下は旧336件全体を再現する手順です。現在の構成選定・評価は[validation/test分割](../validation_test_split.md)に従って100件と236件を分離してください。第10節の集計も旧336件に対する記録です。
+
 階層構造パターンごとの評価データは、layer1のマスク済みデータをもとに再生成する。
 
 ```bash
-python3 codex/scripts/create_masked_hierarchy_pattern_testdata.py --overwrite
+python3 scripts/data_prep/create_masked_hierarchy_pattern_testdata.py --overwrite
 ```
 
 この処理では、各階層パターンの既存テンプレートからフィールド構造と階層ラベルを維持しつつ、descriptionだけをマスク済み入力文に置き換える。各パターンの出力は336サンプルを持つ。
@@ -228,18 +227,18 @@ python3 codex/scripts/create_masked_hierarchy_pattern_testdata.py --overwrite
 全階層パターンで評価を実行するコマンドは次である。
 
 ```bash
-python3 codex/run_all_existing_hierarchy_patterns.py \
-  --dataset masked \
-  --results-dir codex/results/hierarchy_existing_models_official_api_name_masked \
+python3 scripts/inference/run_all_existing_hierarchy_patterns.py \
+  --dataset masked --split full \
+  --results-dir results/hierarchy/hierarchy_existing_models_official_api_name_masked \
   --continue-on-error
 ```
 
 途中結果が存在する場合に再開するには、`--skip-existing` を付ける。
 
 ```bash
-python3 codex/run_all_existing_hierarchy_patterns.py \
-  --dataset masked \
-  --results-dir codex/results/hierarchy_existing_models_official_api_name_masked \
+python3 scripts/inference/run_all_existing_hierarchy_patterns.py \
+  --dataset masked --split full \
+  --results-dir results/hierarchy/hierarchy_existing_models_official_api_name_masked \
   --continue-on-error \
   --skip-existing
 ```
@@ -248,7 +247,7 @@ python3 codex/run_all_existing_hierarchy_patterns.py \
 
 本研究では、テスト入力文中にAPIカタログ上の正式API名が直接出現することによるラベルリークを抑制するため、評価用テストデータに対してAPI名マスク処理を適用した。マスク対象はAPIカタログに登録された正式API名のみに限定し、手作業のalias辞書、略称展開、同義語展開、stemming、lemmatization、単複変換、意味的補完、およびサンプルごとの正解APIラベルは使用しなかった。API正式名と入力文の双方に、HTMLエスケープの復元、Unicode NFKC正規化、小文字化、非英数字の空白化、空白の統一、前後空白の削除からなる同一の決定的正規化を適用した。そのうえで、正規化後のAPI正式名が正規化後入力文中の連続トークン列と完全一致した場合のみ、元入力文上の該当範囲を `<API_NAME>` に置換した。部分文字列一致や意味推論による一致は認めていない。各置換について、元入力文中の実表記、正規化後表記、対応する正式API名、開始・終了文字位置をログとして保存した。
 
-## 13. 別LLMへの注意事項
+## 13. 運用上の注意事項
 
 - 古い資料には `[API_NAME]` やalias辞書方式の記述が残っている場合があるが、現行方式は `<API_NAME>` を用いる `official-api-name-only-v1` である。
 - カタログ正式名のみを用いるため、`Dog CEO` のように人間には対応APIが推測できる表記でも、正式API名 `dog-ceo-dog` と正規化後に完全一致しなければマスクしない。
