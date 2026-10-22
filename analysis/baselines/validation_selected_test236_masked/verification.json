@@ -1,0 +1,455 @@
+{
+  "all_numerical_checks_passed": true,
+  "execution_fully_valid": false,
+  "execution_issues": [
+    {
+      "split": "validation",
+      "pattern": "layer3_4_4_8",
+      "skip_count": 1,
+      "missing_files": [
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/documents_api_labels.json"
+      ]
+    },
+    {
+      "split": "test",
+      "pattern": "layer2_4_43",
+      "skip_count": 1,
+      "missing_files": [
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/documents_api_labels.json"
+      ]
+    },
+    {
+      "split": "test",
+      "pattern": "layer2_6_25",
+      "skip_count": 1,
+      "missing_files": [
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/documents_api_labels.json"
+      ]
+    },
+    {
+      "split": "test",
+      "pattern": "layer2_8_19",
+      "skip_count": 1,
+      "missing_files": [
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/booking_api_labels.json"
+      ]
+    },
+    {
+      "split": "test",
+      "pattern": "layer2_12_13",
+      "skip_count": 3,
+      "missing_files": [
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/documents_api_labels.json"
+      ]
+    },
+    {
+      "split": "test",
+      "pattern": "layer2_15_10",
+      "skip_count": 4,
+      "missing_files": [
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/documents_api_labels.json"
+      ]
+    },
+    {
+      "split": "test",
+      "pattern": "layer2_24_7",
+      "skip_count": 5,
+      "missing_files": [
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/documents_api_labels.json",
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/spreadsheets_api_labels.json"
+      ]
+    },
+    {
+      "split": "test",
+      "pattern": "layer2_33_4",
+      "skip_count": 2,
+      "missing_files": [
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/documents_api_labels.json"
+      ]
+    },
+    {
+      "split": "test",
+      "pattern": "layer2_51_3",
+      "skip_count": 2,
+      "missing_files": [
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/documents_api_labels.json"
+      ]
+    },
+    {
+      "split": "test",
+      "pattern": "layer3_4_4_8",
+      "skip_count": 2,
+      "missing_files": [
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/documents_api_labels.json"
+      ]
+    },
+    {
+      "split": "test",
+      "pattern": "layer3_8_4_4",
+      "skip_count": 2,
+      "missing_files": [
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/documents_api_labels.json"
+      ]
+    },
+    {
+      "split": "test",
+      "pattern": "layer3_12_2_6",
+      "skip_count": 1,
+      "missing_files": [
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/documents_api_labels.json"
+      ]
+    },
+    {
+      "split": "test",
+      "pattern": "layer3_12_4_3",
+      "skip_count": 3,
+      "missing_files": [
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/documents_api_labels.json"
+      ]
+    },
+    {
+      "split": "test",
+      "pattern": "layer3_12_6_2",
+      "skip_count": 2,
+      "missing_files": [
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/documents_api_labels.json"
+      ]
+    },
+    {
+      "split": "test",
+      "pattern": "layer3_16_4_3",
+      "skip_count": 1,
+      "missing_files": [
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/documents_api_labels.json"
+      ]
+    },
+    {
+      "split": "test",
+      "pattern": "layer4_8_3_2_3",
+      "skip_count": 3,
+      "missing_files": [
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/booking_api_labels.json",
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/documents_api_labels.json"
+      ]
+    },
+    {
+      "split": "test",
+      "pattern": "layer4_12_2_2_3",
+      "skip_count": 1,
+      "missing_files": [
+        "/home/nakagawa/lab-MLMLC/data/api_category_list/category_inc_nomashup_new_kfold/documents_api_labels.json"
+      ]
+    }
+  ],
+  "selected_pattern_affected_records": [
+    {
+      "split": "test",
+      "idx": 97,
+      "sample": "box.net-and-live-documents",
+      "missing_categories": [
+        "documents"
+      ],
+      "true_apis": [
+        "box"
+      ],
+      "f1": 0.0
+    },
+    {
+      "split": "test",
+      "idx": 100,
+      "sample": "documents-to-go",
+      "missing_categories": [
+        "documents"
+      ],
+      "true_apis": [
+        "box"
+      ],
+      "f1": 0.0
+    },
+    {
+      "split": "test",
+      "idx": 126,
+      "sample": "photos-life",
+      "missing_categories": [
+        "documents"
+      ],
+      "true_apis": [
+        "flickr",
+        "global-biodiversity-information-facility"
+      ],
+      "f1": 0.0
+    }
+  ],
+  "all_44_dataset_variants_hash_verified": true,
+  "validation_test_disjoint": true,
+  "training_overlap": 0,
+  "validated_hierarchy_rows": 5376,
+  "validation_ranking": [
+    [
+      0.4378113344438797,
+      "layer3_12_4_3"
+    ],
+    [
+      0.41914253621319103,
+      "layer2_12_13"
+    ],
+    [
+      0.382818260343028,
+      "layer3_4_4_8"
+    ],
+    [
+      0.3762491637017953,
+      "layer3_16_4_3"
+    ],
+    [
+      0.3733888491371329,
+      "layer3_12_2_6"
+    ],
+    [
+      0.37055335677394496,
+      "layer3_8_4_4"
+    ],
+    [
+      0.36911446156625777,
+      "layer2_4_43"
+    ],
+    [
+      0.3654820572304727,
+      "layer2_6_25"
+    ],
+    [
+      0.36091945266635667,
+      "layer2_8_19"
+    ],
+    [
+      0.34953617600454656,
+      "layer3_12_6_2"
+    ],
+    [
+      0.34668757287968677,
+      "layer2_33_4"
+    ],
+    [
+      0.34053517904227837,
+      "layer4_8_3_2_3"
+    ],
+    [
+      0.33819294145904777,
+      "layer2_51_3"
+    ],
+    [
+      0.32537260478854635,
+      "layer4_12_2_2_3"
+    ],
+    [
+      0.3244786832984441,
+      "layer2_24_7"
+    ],
+    [
+      0.31136085773000616,
+      "layer2_15_10"
+    ]
+  ],
+  "selection_matches_saved": true,
+  "selected_hierarchy_log_checks": {
+    "validation": {
+      "processed": 100,
+      "missing_branch_skips": 0,
+      "no_traceback": true
+    },
+    "test": {
+      "processed": 236,
+      "missing_branch_skips": 3,
+      "no_traceback": true
+    }
+  },
+  "hierarchy_prediction_trace_matches": true,
+  "used_checkpoint_files_exist": 133,
+  "results": {
+    "hierarchy_layer3_12_4_3": {
+      "n": 236,
+      "precision": 0.3825018057424111,
+      "recall": 0.619963405238829,
+      "f1": 0.4003898937908562,
+      "micro_precision": 0.1336847149017729,
+      "micro_recall": 0.5234521575984991,
+      "micro_f1": 0.2129770992366412,
+      "mean_predicted_apis": 8.84322033898305,
+      "empty_predictions": 3,
+      "tp": 279,
+      "fp": 1808,
+      "fn": 254
+    },
+    "tfidf_ovr_logistic": {
+      "n": 236,
+      "precision": 0.48234463276836154,
+      "recall": 0.39860774818401934,
+      "f1": 0.40402542372881356,
+      "micro_precision": 0.7526315789473684,
+      "micro_recall": 0.2682926829268293,
+      "micro_f1": 0.39557399723374825,
+      "mean_predicted_apis": 0.8050847457627118,
+      "empty_predictions": 92,
+      "tp": 143,
+      "fp": 47,
+      "fn": 390
+    },
+    "sbert_ovr_logistic": {
+      "n": 236,
+      "precision": 0.32177158999192895,
+      "recall": 0.501957223567393,
+      "f1": 0.34562911194267126,
+      "micro_precision": 0.29017857142857145,
+      "micro_recall": 0.36585365853658536,
+      "micro_f1": 0.3236514522821577,
+      "mean_predicted_apis": 2.847457627118644,
+      "empty_predictions": 10,
+      "tp": 195,
+      "fp": 477,
+      "fn": 338
+    },
+    "cross_encoder_threshold05": {
+      "n": 236,
+      "precision": 0.11841587066814885,
+      "recall": 0.7398731565045126,
+      "f1": 0.19313015215210735,
+      "micro_precision": 0.11136968085106383,
+      "micro_recall": 0.6285178236397748,
+      "micro_f1": 0.1892120869810788,
+      "mean_predicted_apis": 12.745762711864407,
+      "empty_predictions": 0,
+      "tp": 335,
+      "fp": 2673,
+      "fn": 198
+    }
+  },
+  "pairwise_f1": [
+    {
+      "baseline": "tfidf_ovr_logistic",
+      "hierarchy_higher_f1": 81,
+      "baseline_higher_f1": 70,
+      "equal_f1": 85,
+      "hierarchy_minus_baseline_f1": -0.003635529937957406
+    },
+    {
+      "baseline": "sbert_ovr_logistic",
+      "hierarchy_higher_f1": 106,
+      "baseline_higher_f1": 72,
+      "equal_f1": 58,
+      "hierarchy_minus_baseline_f1": 0.054760781848184885
+    },
+    {
+      "baseline": "cross_encoder_threshold05",
+      "hierarchy_higher_f1": 134,
+      "baseline_higher_f1": 87,
+      "equal_f1": 15,
+      "hierarchy_minus_baseline_f1": 0.2072597416387488
+    }
+  ],
+  "dataset_hashes": {
+    "data/splits/model_selection/validation/by_pattern/12_13/test_data_mashup_apis_with_hierarchy_layer2_12_drop_unknown_samples.json": "be8682a3373086cf77cd6b4c5c1ba02469158f631108acb5eb513761af1deab2",
+    "data/splits/model_selection/test/by_pattern/12_13/test_data_mashup_apis_with_hierarchy_layer2_12_drop_unknown_samples.json": "ea0b7c2802d287868c95b9589151ce92ecb3c1c027f9898fa96aa780b6ca9ebd",
+    "data/splits/model_selection/validation/by_pattern/12_13/test_data_mashup_apis_with_hierarchy_layer2_12_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "4f1c158fa497f714637aa64d82b206ebbd4a33dc2cc768509151fa577f42bd4d",
+    "data/splits/model_selection/test/by_pattern/12_13/test_data_mashup_apis_with_hierarchy_layer2_12_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "9b57528c79116ad989038916ed91b6b9e3e2fad5c6b7c9274e7469d9b80c1565",
+    "data/splits/model_selection/validation/by_pattern/12_2_3_2/test_data_mashup_apis_layer1_12_drop_unknown_samples.json": "818041fcb7553409c6b2747eb4db0360ad91713586b9f2843fd1454af4b1229f",
+    "data/splits/model_selection/test/by_pattern/12_2_3_2/test_data_mashup_apis_layer1_12_drop_unknown_samples.json": "9d71e6f64937e2884663f6d037cc81a05df4a065266652e029025727460fd339",
+    "data/splits/model_selection/validation/by_pattern/12_2_3_2/test_data_mashup_apis_with_hierarchy_layer1_12_drop_unknown_samples.json": "818041fcb7553409c6b2747eb4db0360ad91713586b9f2843fd1454af4b1229f",
+    "data/splits/model_selection/test/by_pattern/12_2_3_2/test_data_mashup_apis_with_hierarchy_layer1_12_drop_unknown_samples.json": "9d71e6f64937e2884663f6d037cc81a05df4a065266652e029025727460fd339",
+    "data/splits/model_selection/validation/by_pattern/12_2_3_2/test_data_mashup_apis_with_hierarchy_layer4_12_2_2_3_drop_unknown_samples.json": "66319d16635df0660d2fde074426b14289092f5dac4ea23093fd90a3c305995d",
+    "data/splits/model_selection/test/by_pattern/12_2_3_2/test_data_mashup_apis_with_hierarchy_layer4_12_2_2_3_drop_unknown_samples.json": "108403ed953c8f334e0cf7bea684b411520227dafa9c0f72c7ffe547cfec5800",
+    "data/splits/model_selection/validation/by_pattern/12_2_3_2/test_data_mashup_apis_with_hierarchy_layer4_12_2_2_3_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "3402e8f5e76bc610a445ebaa91ba9a8bddcfbb47ab736ebe01668bcb3299a3a6",
+    "data/splits/model_selection/test/by_pattern/12_2_3_2/test_data_mashup_apis_with_hierarchy_layer4_12_2_2_3_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "184e475966206851a5c72578a52bb14dd2f4dad33eb68e5a2007df1ae35989c2",
+    "data/splits/model_selection/validation/by_pattern/12_2_6/test_data_mashup_apis_with_hierarchy_layer3_12_2_6_drop_unknown_samples.json": "71ea7125bbe4eefef207a4c304f3e2dd851ed0b79f10b1df23361a265fd3348e",
+    "data/splits/model_selection/test/by_pattern/12_2_6/test_data_mashup_apis_with_hierarchy_layer3_12_2_6_drop_unknown_samples.json": "b146832d3b565869d954cabb0294862a946e71618fbb0e6f7a86796033e30323",
+    "data/splits/model_selection/validation/by_pattern/12_2_6/test_data_mashup_apis_with_hierarchy_layer3_12_2_6_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "823eeadf5b3970f08e4b02f82206f3c818b1de5bc034124c9cce32e933c185d4",
+    "data/splits/model_selection/test/by_pattern/12_2_6/test_data_mashup_apis_with_hierarchy_layer3_12_2_6_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "5a9ecd71029530438e08030b57a4fb776b7474a4db0023c231c5f26232f82055",
+    "data/splits/model_selection/validation/by_pattern/12_4_3/test_data_mashup_apis_with_hierarchy_layer3_12_4_3_drop_unknown_samples.json": "e36c5c79ed039c32c0626dda6a3db1009db22fa278636c3987ecb9495c11b1fe",
+    "data/splits/model_selection/test/by_pattern/12_4_3/test_data_mashup_apis_with_hierarchy_layer3_12_4_3_drop_unknown_samples.json": "d4c6970a77950fdf7fb4d61b4a620ee40f455ac37171697d7f1497c094bea274",
+    "data/splits/model_selection/validation/by_pattern/12_4_3/test_data_mashup_apis_with_hierarchy_layer3_12_4_3_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "7b3605c76f896233a6c1e0e6413036fe5080492d56c678e4c6251ceecd3fc5ec",
+    "data/splits/model_selection/test/by_pattern/12_4_3/test_data_mashup_apis_with_hierarchy_layer3_12_4_3_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "2523448f638ff96d2e54d207a6d46aed0c86b1f727f4e1eada7ed10a8de56a73",
+    "data/splits/model_selection/validation/by_pattern/12_6_2/test_data_mashup_apis_with_hierarchy_layer3_12_6_2_drop_unknown_samples.json": "1eee563f452ff85811bb5d5e9c066900657b5824d5ec861920fd15b7f0f788e2",
+    "data/splits/model_selection/test/by_pattern/12_6_2/test_data_mashup_apis_with_hierarchy_layer3_12_6_2_drop_unknown_samples.json": "85f26667759c85db083f2a85db5bed482301ff8ba318e1d3dcf042fc28116790",
+    "data/splits/model_selection/validation/by_pattern/12_6_2/test_data_mashup_apis_with_hierarchy_layer3_12_6_2_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "79e7d1d153d7adf8b434b083199c1e0d965f30cbb0784d7d9fa1cc8ecc9b57f7",
+    "data/splits/model_selection/test/by_pattern/12_6_2/test_data_mashup_apis_with_hierarchy_layer3_12_6_2_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "5e0f7a673e1e9933ac9ffc6ca4ee0bb47bc0eb6ad63741d475ce927ef5cbb0cf",
+    "data/splits/model_selection/validation/by_pattern/15-10/test_data_mashup_apis_with_hierarchy_layer2_15_drop_unknown_samples.json": "17ebe575f2b50ea8d01cd042639fb9316974f3759202e3f95d6a9d1f82b36e6e",
+    "data/splits/model_selection/test/by_pattern/15-10/test_data_mashup_apis_with_hierarchy_layer2_15_drop_unknown_samples.json": "c55c7ade88d767a5a18e639e3d793abda8a4d03418e36e8abae0255333d087f0",
+    "data/splits/model_selection/validation/by_pattern/15-10/test_data_mashup_apis_with_hierarchy_layer2_15_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "b12e8d3b958bbff8ef1f2dbb056cd8834c1a4450864c32a190e9fab71a3803db",
+    "data/splits/model_selection/test/by_pattern/15-10/test_data_mashup_apis_with_hierarchy_layer2_15_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "80e444102a7a741ec96c6a90763d07b60fc45660e5cd3c560519f5681819923d",
+    "data/splits/model_selection/validation/by_pattern/16_2_4/test_data_mashup_apis_with_hierarchy_16_2_4_drop_unknown_samples.json": "cd7afa37f3f5ff5122ec914049228e1d3d0a219c788ea7eeaa4be43350d96034",
+    "data/splits/model_selection/test/by_pattern/16_2_4/test_data_mashup_apis_with_hierarchy_16_2_4_drop_unknown_samples.json": "bebdfd817789320b8b1458c40c9135a66140c36ca3242f4a7ff9acc1ed8e30a1",
+    "data/splits/model_selection/validation/by_pattern/16_2_4/test_data_mashup_apis_with_hierarchy_16_2_4_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "c4f18482cde4cfc8b1bd1147a1bd2a05966cdae92f15608d57fa2e1e8bab2405",
+    "data/splits/model_selection/test/by_pattern/16_2_4/test_data_mashup_apis_with_hierarchy_16_2_4_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "f8a54209037fe2648b7204b86000da2de0bedc3901c7e9595c49c8fb7d7fdbed",
+    "data/splits/model_selection/validation/by_pattern/16cluster/test_data_mashup_apis_with_hierarchy_layer3_16_4_3_drop_unknown_samples.json": "fd7ac005ba5e04989a8832275dd6e300806ef5eca265a4baffef62eb7a9c7889",
+    "data/splits/model_selection/test/by_pattern/16cluster/test_data_mashup_apis_with_hierarchy_layer3_16_4_3_drop_unknown_samples.json": "32980d73856fc98a1a5458ca160ca0a98f293428f88ed2dd139af9c382ea11bc",
+    "data/splits/model_selection/validation/by_pattern/16cluster/test_data_mashup_apis_with_hierarchy_layer3_16_4_3_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "25e2055a1e79cae25c74c508b1e11dc9e6c30cabd6f6937117034090d8a72114",
+    "data/splits/model_selection/test/by_pattern/16cluster/test_data_mashup_apis_with_hierarchy_layer3_16_4_3_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "6d752cae6e61a80f0f6477af20a4892fd798d39d944c7afcf76b52b9e80420a4",
+    "data/splits/model_selection/validation/by_pattern/2-76/test_data_mashup_apis_with_hierarchy_2-76_drop_unknown_samples.json": "3af4e4bda23ee1eb0b3deaebb8a78129dd2c3751263d565ace399f187dab5e5f",
+    "data/splits/model_selection/test/by_pattern/2-76/test_data_mashup_apis_with_hierarchy_2-76_drop_unknown_samples.json": "dc1c3c2179d7fb42f66e78302bb20d8f1851ee8aaf57d04a92b9711fba488f07",
+    "data/splits/model_selection/validation/by_pattern/2-76/test_data_mashup_apis_with_hierarchy_2-76_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "f0f68794431e4f4a95ba8ac8710d52f8280a397cdf85d828398ac15e62a2f871",
+    "data/splits/model_selection/test/by_pattern/2-76/test_data_mashup_apis_with_hierarchy_2-76_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "b38c11a3016f4d13e739b57cb2f89fdc3745bd83203a92578f0db7dcb95caf6c",
+    "data/splits/model_selection/validation/by_pattern/24-7/test_data_mashup_apis_with_hierarchy_layer2_24_drop_unknown_samples.json": "c25ec1e4955a12b9dad5a69f949b2ec216792d26f1d5a19263670efd0ee3f09d",
+    "data/splits/model_selection/test/by_pattern/24-7/test_data_mashup_apis_with_hierarchy_layer2_24_drop_unknown_samples.json": "efa7592d1a387d635232070b118d41d39e98f3fe84738c3633d772f3ad251522",
+    "data/splits/model_selection/validation/by_pattern/24-7/test_data_mashup_apis_with_hierarchy_layer2_24_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "faf9a03001aea3927185f75c0dfff7d07ef5285d662711c73da22bf10dd3c1df",
+    "data/splits/model_selection/test/by_pattern/24-7/test_data_mashup_apis_with_hierarchy_layer2_24_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "26d90658621c8882a83633b42de638088cdff91f161dfc9f23306374491e4940",
+    "data/splits/model_selection/validation/by_pattern/33-4/test_data_mashup_apis_with_hierarchy_layer2_33_drop_unknown_samples.json": "a6eed7f51c27d0e016f40e8d404aa0d2c4992af8552757b97e9bbd3e97bcbc28",
+    "data/splits/model_selection/test/by_pattern/33-4/test_data_mashup_apis_with_hierarchy_layer2_33_drop_unknown_samples.json": "5fb4bf2e33192eeaba109c623d0b09234ef97315f8d72ca1fe27b37b4704ea0c",
+    "data/splits/model_selection/validation/by_pattern/33-4/test_data_mashup_apis_with_hierarchy_layer2_33_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "47e751537b6fc7b7ffb09468f6f1eb1cf47fa1131bdc12f4d5a0d96ae59bcbc4",
+    "data/splits/model_selection/test/by_pattern/33-4/test_data_mashup_apis_with_hierarchy_layer2_33_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "ea00b440afd82675a0a7372d280fad278d09739242b752afb361486d28750cd2",
+    "data/splits/model_selection/validation/by_pattern/4-43/test_data_mashup_apis_with_hierarchy_layer2_4_drop_unknown_samples.json": "4365924083cba2ca7cfc011d85527ed389565517caf5b8caee8bdcbb22f6f423",
+    "data/splits/model_selection/test/by_pattern/4-43/test_data_mashup_apis_with_hierarchy_layer2_4_drop_unknown_samples.json": "80167c29998934967057003dfc52007a8592163adef214f05d12e94a6b80b23c",
+    "data/splits/model_selection/validation/by_pattern/4-43/test_data_mashup_apis_with_hierarchy_layer2_4_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "c22539031c2c8a0ad90d806549c712bcd251b0c12359eb20384ae6ab0191dcd8",
+    "data/splits/model_selection/test/by_pattern/4-43/test_data_mashup_apis_with_hierarchy_layer2_4_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "5a0f8b1866ad8a22f3be215aa61f7ca7e791d67e8b7910e10f141c29c17a5d90",
+    "data/splits/model_selection/validation/by_pattern/4cluster/test_data_mashup_apis_with_hierarchy_layer3_4_4_8_drop_unknown_samples.json": "7c384261848261f7b03509b19b323b484c2a879e73783c1dd1fc9328c8ab7462",
+    "data/splits/model_selection/test/by_pattern/4cluster/test_data_mashup_apis_with_hierarchy_layer3_4_4_8_drop_unknown_samples.json": "c4354d2debe028d3c3568423d0f0b28c01fb63d4ccbc896967ecf41ac38c0d52",
+    "data/splits/model_selection/validation/by_pattern/4cluster/test_data_mashup_apis_with_hierarchy_layer3_4_4_8_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "d4dce87d9f614f4220369b42d8792bf162305326124b581d3db06040ab7c9a43",
+    "data/splits/model_selection/test/by_pattern/4cluster/test_data_mashup_apis_with_hierarchy_layer3_4_4_8_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "a6577b8cd56728cd9714b152892642de582b08b35d94f6b768e6857f93b96bbe",
+    "data/splits/model_selection/validation/by_pattern/51-3/test_data_mashup_apis_with_hierarchy_layer2_51_drop_unknown_samples.json": "96bbc882d874950c926e916f1a178eddfe1466c91fee6e371661a9ec631af90c",
+    "data/splits/model_selection/test/by_pattern/51-3/test_data_mashup_apis_with_hierarchy_layer2_51_drop_unknown_samples.json": "eed82e749a20c37ebf843b90bbad0e6bffd7a175e11096a024f7b89dd66fb3f3",
+    "data/splits/model_selection/validation/by_pattern/51-3/test_data_mashup_apis_with_hierarchy_layer2_51_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "46fb278bc2a8b80898ad9de7f5348d4c4dd0912f0e2b07bb2e2fa45ae6efda9c",
+    "data/splits/model_selection/test/by_pattern/51-3/test_data_mashup_apis_with_hierarchy_layer2_51_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "9ee5d8fdb367f24a2ec7e8c0e4b7d4f383e2b50d558250da90ecf2ba576ce13c",
+    "data/splits/model_selection/validation/by_pattern/6-25/test_data_mashup_apis_with_hierarchy_layer2_6_drop_unknown_samples.json": "41f828a5d7c728f646357e55fa54d7ff1a773fb891737bbab31c4c5c609e2ccd",
+    "data/splits/model_selection/test/by_pattern/6-25/test_data_mashup_apis_with_hierarchy_layer2_6_drop_unknown_samples.json": "8b4fd946b8747e88fab013152dab88f8bcabc534e05c63b7bd59a990c236e934",
+    "data/splits/model_selection/validation/by_pattern/6-25/test_data_mashup_apis_with_hierarchy_layer2_6_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "985f7f529435a912ce23a86d944cf2b4d60cace8a0d0a7269574341e07504fcf",
+    "data/splits/model_selection/test/by_pattern/6-25/test_data_mashup_apis_with_hierarchy_layer2_6_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "678f981f76c7b23273da501a82435be47389d5a07a9dc7af477a66f16bc4b01b",
+    "data/splits/model_selection/validation/by_pattern/8-19/test_data_mashup_apis_with_hierarchy_layer2_8_drop_unknown_samples.json": "e4e3a21d7a83676dfd5dcf1beb5ba6756e4b308aa94e3e7bb1eb2deeee07a443",
+    "data/splits/model_selection/test/by_pattern/8-19/test_data_mashup_apis_with_hierarchy_layer2_8_drop_unknown_samples.json": "59dee907fd952c59409cced5cf6bb5b823fa12787aa83877e156b5b85b24a103",
+    "data/splits/model_selection/validation/by_pattern/8-19/test_data_mashup_apis_with_hierarchy_layer2_8_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "15532ab2b5e815a50bf0ae8f705f28e8c61af6f6092ef08a72e8da3850f00023",
+    "data/splits/model_selection/test/by_pattern/8-19/test_data_mashup_apis_with_hierarchy_layer2_8_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "1eead3d8a1d1632c4e59d69f994825bc8a795a6448062fb9897f5960b481efad",
+    "data/splits/model_selection/validation/by_pattern/8_3_2_3/test_data_mashup_apis_with_hierarchy_layer1_8_drop_unknown_samples.json": "818041fcb7553409c6b2747eb4db0360ad91713586b9f2843fd1454af4b1229f",
+    "data/splits/model_selection/test/by_pattern/8_3_2_3/test_data_mashup_apis_with_hierarchy_layer1_8_drop_unknown_samples.json": "9d71e6f64937e2884663f6d037cc81a05df4a065266652e029025727460fd339",
+    "data/splits/model_selection/validation/by_pattern/8_3_2_3/test_data_mashup_apis_with_hierarchy_layer4_8_3_2_3_drop_unknown_samples.json": "6a57ba378f86124d66f0c5d60798be64cf39e58f8e1ad2a4ed6658bbe2c2a49d",
+    "data/splits/model_selection/test/by_pattern/8_3_2_3/test_data_mashup_apis_with_hierarchy_layer4_8_3_2_3_drop_unknown_samples.json": "7cebb8809a9a53161039a531fae3e62a9bec7059e702cc8229e66e86e363d015",
+    "data/splits/model_selection/validation/by_pattern/8_3_2_3/test_data_mashup_apis_with_hierarchy_layer4_8_3_2_3_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "0bf86cc1ad8af3802d6e119e0d567386b96f6fc271ef50c9ced1c9d710ffeffe",
+    "data/splits/model_selection/test/by_pattern/8_3_2_3/test_data_mashup_apis_with_hierarchy_layer4_8_3_2_3_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "d8113a5442611e4c40b44fabca0f986b61c3e5ef735ad4bf1d7be309620b2a9e",
+    "data/splits/model_selection/validation/by_pattern/8_4_4/test_data_mashup_apis_with_hierarchy_layer3_8_4_4_drop_unknown_samples.json": "65695ae4175d34f3ea52ffcb1805f5133d78570a494cd9653574676d77f61a23",
+    "data/splits/model_selection/test/by_pattern/8_4_4/test_data_mashup_apis_with_hierarchy_layer3_8_4_4_drop_unknown_samples.json": "65278359b82568c4b0e4b9a02fc40ff3b2e2a4485517a905eac726eeb04138e0",
+    "data/splits/model_selection/validation/by_pattern/8_4_4/test_data_mashup_apis_with_hierarchy_layer3_8_4_4_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "c1a909be70367dc0d1e06ddd09ee6414449decaa785006c0625c313607f08698",
+    "data/splits/model_selection/test/by_pattern/8_4_4/test_data_mashup_apis_with_hierarchy_layer3_8_4_4_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "1e7831a75170902f495d13a574682af27eafedd4f1092ea5805e6a5b8b594ad2",
+    "data/splits/model_selection/validation/by_pattern/8_5_4/test_data_mashup_apis_with_hierarchy_8_5_4_drop_unknown_samples.json": "c6249173b4080b61ddd333248dc8388766c64f8d58da24555c4fe299eb950acc",
+    "data/splits/model_selection/test/by_pattern/8_5_4/test_data_mashup_apis_with_hierarchy_8_5_4_drop_unknown_samples.json": "d17a8dee13311ef1dd584275bd3fcf942cc4f089bfde09418c8b7c134156800d",
+    "data/splits/model_selection/validation/by_pattern/8_5_4/test_data_mashup_apis_with_hierarchy_8_5_4_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "856e9a634398296b97b69126162eeffc52806da6545997738d5394b35f4edb7a",
+    "data/splits/model_selection/test/by_pattern/8_5_4/test_data_mashup_apis_with_hierarchy_8_5_4_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "e328a70bc07d734921b4dcd76575939933ea07c2caa466a4246f4c80426c1d92",
+    "data/splits/model_selection/validation/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples.json": "818041fcb7553409c6b2747eb4db0360ad91713586b9f2843fd1454af4b1229f",
+    "data/splits/model_selection/test/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples.json": "9d71e6f64937e2884663f6d037cc81a05df4a065266652e029025727460fd339",
+    "data/splits/model_selection/validation/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json": "8d3a6afb231ec8680d5e76877c51c6d79bfe7af622e5385d67abe108d1106e7e",
+    "data/splits/model_selection/test/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration.json": "685cf7973121d810c486e2ce7218f4ac946402f503d46f8bb21e525e6688abb7",
+    "data/splits/model_selection/validation/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "cf81a3068a8f7725284c287419fe2653feef7512a207e8f5d65a35ac344d0b45",
+    "data/splits/model_selection/test/layer1_direct_api/test_data_mashup_apis_layer1_drop_unknown_samples_categories_from_collaboration_api_name_masked.json": "8696e2f9543fd2514798b3cc8431cad3dd71d9cddcbede4dd76a1b7e99bf7d73"
+  },
+  "source_prediction_hashes": {
+    "results/hierarchy/hierarchy_existing_models_api_name_masked/test/layer3_12_4_3_results.csv": "2939dead1431e1c6c95ce60b49808a1419c96d0fb4a0f85c6ad87354cead8e4b"
+  },
+  "limits": [
+    "Historical checkpoint hashes and complete launch arguments are not recorded; identical historical weights cannot be established from logs alone.",
+    "All 16 structures were evaluated on test; current comparison selects strictly by validation, but the historical order of selection is not established.",
+    "Cross-encoder training provenance is not fully recorded in its saved model directory."
+  ],
+  "validation_skip_selection_bound": {
+    "affected_pattern": "layer3_4_4_8",
+    "affected_samples": 1,
+    "current_mean_f1": 0.382818260343028,
+    "maximum_mean_f1_after_fix": 0.392818260343028,
+    "winner_mean_f1": 0.4378113344438797,
+    "cannot_overtake_winner_from_this_skip_alone": true
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "train_count": 3651,
+  "test_count": 236,
+  "name_overlap": [],
+  "id_overlap": [],
+  "exact_normalized_unmasked_text_overlap": [],
+  "similarity_counts": {
+    "0.8": 2,
+    "0.9": 1,
+    "0.95": 0,
+    "0.99": 0
+  },
+  "nearest_pairs": [
+    {
+      "test": "us-home-care-finder-0",
+      "train": "us-home-care-finder",
+      "cosine": 0.9366735184901415,
+      "test_f1": 1.0
+    },
+    {
+      "test": "google-multilingual-voice-search",
+      "train": "twitter-multilingual-voice-search",
+      "cosine": 0.8814460475300347,
+      "test_f1": 0.5
+    },
+    {
+      "test": "distance-calculator",
+      "train": "google-maps-distance-calculator",
+      "cosine": 0.7918593250063398,
+      "test_f1": 1.0
+    },
+    {
+      "test": "normalisr",
+      "train": "last.fm-rankings",
+      "cosine": 0.7077589586641786,
+      "test_f1": 1.0
+    },
+    {
+      "test": "metro-mapper",
+      "train": "nyc-big-maps",
+      "cosine": 0.6339004716861842,
+      "test_f1": 0.8
+    },
+    {
+      "test": "fortune-100-best-companies-map",
+      "train": "25-best-companies-to-work",
+      "cosine": 0.6028814257769621,
+      "test_f1": 1.0
+    },
+    {
+      "test": "map-deprivation-wales",
+      "train": "map-deprivation-scotland",
+      "cosine": 0.5571724488735265,
+      "test_f1": 1.0
+    },
+    {
+      "test": "fxfoto",
+      "train": "starexplorer",
+      "cosine": 0.5476289500301222,
+      "test_f1": 0.0
+    },
+    {
+      "test": "1-ordinateur",
+      "train": "une-robe-.com",
+      "cosine": 0.5380465263315083,
+      "test_f1": 1.0
+    },
+    {
+      "test": "spielpl%C3%A4tze-f%C3%BCr-klein-und-gro%C3%9F",
+      "train": "briefkasten-finden",
+      "cosine": 0.5340273712756533,
+      "test_f1": 1.0
+    },
+    {
+      "test": "esri-shapefile-viewer",
+      "train": "gpx-plotter",
+      "cosine": 0.5220873024161955,
+      "test_f1": 0.6666666666666666
+    },
+    {
+      "test": "ivy-fm-discover-new-music-every-day",
+      "train": "dj-acc",
+      "cosine": 0.5088122973419931,
+      "test_f1": 1.0
+    },
+    {
+      "test": "university-south-florida-campus-map",
+      "train": "usf-map",
+      "cosine": 0.5031037036211483,
+      "test_f1": 1.0
+    },
+    {
+      "test": "productdose",
+      "train": "hockey-shopper",
+      "cosine": 0.5025662933576776,
+      "test_f1": 0.6666666666666666
+    },
+    {
+      "test": "missing-kids-map",
+      "train": "have-you-seen-them",
+      "cosine": 0.48893508128274754,
+      "test_f1": 0.0
+    }
+  ],
+  "independent_train_refit": {
+    "vocabulary_matches": true,
+    "max_probability_difference": 0.0,
+    "all_236_prediction_sets_match": true
+  },
+  "top_true_positive_apis": [
+    {
+      "api": "google-maps",
+      "tp": 64,
+      "predicted": 75,
+      "true": 100
+    },
+    {
+      "api": "youtube",
+      "tp": 23,
+      "predicted": 30,
+      "true": 30
+    },
+    {
+      "api": "twitter",
+      "tp": 8,
+      "predicted": 9,
+      "true": 33
+    },
+    {
+      "api": "twilio",
+      "tp": 7,
+      "predicted": 9,
+      "true": 13
+    },
+    {
+      "api": "lastfm",
+      "tp": 6,
+      "predicted": 8,
+      "true": 8
+    },
+    {
+      "api": "amazon-product-advertising",
+      "tp": 6,
+      "predicted": 11,
+      "true": 14
+    },
+    {
+      "api": "microsoft-bing-maps",
+      "tp": 5,
+      "predicted": 8,
+      "true": 7
+    },
+    {
+      "api": "flickr",
+      "tp": 3,
+      "predicted": 7,
+      "true": 24
+    },
+    {
+      "api": "delicious-0",
+      "tp": 3,
+      "predicted": 3,
+      "true": 5
+    },
+    {
+      "api": "indeed",
+      "tp": 2,
+      "predicted": 5,
+      "true": 3
+    },
+    {
+      "api": "shoppingcom",
+      "tp": 2,
+      "predicted": 2,
+      "true": 2
+    },
+    {
+      "api": "box",
+      "tp": 2,
+      "predicted": 2,
+      "true": 4
+    }
+  ],
+  "total_tp": 143,
+  "perfect_f1_records": 58,
+  "zero_f1_records": 109,
+  "mean_f1": 0.40402542372881356,
+  "single_true_api": {
+    "n": 109,
+    "mean_f1": 0.5581039755351682
+  },
+  "multiple_true_apis": {
+    "n": 127,
+    "mean_f1": 0.2717847769028871
+  },
+  "high_similarity_ge_09": {
+    "n": 1,
+    "mean_f1": 1.0
+  },
+  "similarity_lt_09": {
+    "n": 235,
+    "mean_f1": 0.4014893617021276
+  },
+  "test_masked_text_count": 121,
+  "independent_mask_regeneration_all_236_match": true,
+  "top_two_apis_share_of_tp": 0.6083916083916084
+}

@@ -1,0 +1,21 @@
+{
+  "method": "FP32 payload from historical real Phase3 state_dict shapes + maximum observed torch serialization overhead (not a new GPU checkpoint measurement)",
+  "bert_payload_bytes": 437928960,
+  "head_bytes_per_output": 3076,
+  "serialization_overhead_upper_observed": 78633,
+  "final_bytes": {
+    "api": 66579950220,
+    "category": 286028398473
+  },
+  "selection_checkpoint_bytes": {
+    "api_selection": 559795684950,
+    "category_selection": 579065016866
+  },
+  "all_retained_bytes": 1491469050509,
+  "final_only_bytes": 352608348693,
+  "largest_serial_classifier_checkpoint_working_set_bytes": 13578902875,
+  "free_disk_bytes_at_check": 3087108235264,
+  "optimizer_state_saved": false,
+  "gpu_peak_vram_bytes": null,
+  "gpu_temp_disk_bytes": "not measured; no GPU run, trainer defines no separate GPU offload cache"
+}

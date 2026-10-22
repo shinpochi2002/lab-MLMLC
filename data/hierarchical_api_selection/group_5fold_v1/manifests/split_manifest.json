@@ -1,0 +1,81 @@
+{
+  "algorithm": "rarest_remaining_multilabel_group_deficit_v1",
+  "features": "per-group record support for 152 categories, 909 API labels, and source type",
+  "folds": {
+    "fold_01": {
+      "early_stopping_groups": 3501,
+      "outer_train_groups": 17507,
+      "train_groups": 14006,
+      "validation_groups": 4377
+    },
+    "fold_02": {
+      "early_stopping_groups": 3501,
+      "outer_train_groups": 17507,
+      "train_groups": 14006,
+      "validation_groups": 4377
+    },
+    "fold_03": {
+      "early_stopping_groups": 3501,
+      "outer_train_groups": 17507,
+      "train_groups": 14006,
+      "validation_groups": 4377
+    },
+    "fold_04": {
+      "early_stopping_groups": 3501,
+      "outer_train_groups": 17507,
+      "train_groups": 14006,
+      "validation_groups": 4377
+    },
+    "fold_05": {
+      "early_stopping_groups": 3502,
+      "outer_train_groups": 17508,
+      "train_groups": 14006,
+      "validation_groups": 4376
+    }
+  },
+  "forced_sample_moves": 0,
+  "generated_at_utc": "2026-10-16T08:34:56.777403+00:00",
+  "git_commit": "5b8c7f5251128843b313b88304c3f2d4261e1cf0",
+  "group_capacities": "largest remainder; hard group counts, no record splitting",
+  "group_count": 21884,
+  "implementation_sha256": {
+    "scripts/hierarchical_api_selection/create_group_folds.py": "9e525d65f4215f27814c5f74c437ab8809190c47df18d116992aeb139e381f7b",
+    "scripts/hierarchical_api_selection/pipeline.py": "1d0a03465aee7ffa53374377b3d409e866a6eb6dd246a646eba0d2678eadd90e",
+    "scripts/hierarchical_api_selection/prepare_training_dataset.py": "34a235543dfd01d9f54c6b0a26aaa69687953a20057de16bc28a0f6accf718b6",
+    "scripts/hierarchical_api_selection/summarize_data_usage.py": "5198bc4f35bb60e9e20edfb67de19b776fa1f75a841b8ef2a9de0fdfdf28f240",
+    "scripts/hierarchical_api_selection/tests/test_pipeline.py": "39a2040490276bf943af9e1db38a7ffde24a19a300e9d1581f5fef76ff4abb79",
+    "scripts/hierarchical_api_selection/validate_dataset.py": "3cd9380ad36a629523bc68a909fc36d15762fe4a4d34b8c1c164e4c851649768"
+  },
+  "inner_early_stopping_ratio": 0.2,
+  "n_folds": 5,
+  "role_definitions": {
+    "early_stopping": "inner validation only",
+    "outer_train": "train + early_stopping",
+    "train": "gradient-update subset only",
+    "validation": "outer held-out fold"
+  },
+  "schema_version": 1,
+  "seed": 42,
+  "service_count": 21907,
+  "shared_by": [
+    "layer2_4_43",
+    "layer2_6_25",
+    "layer2_8_19",
+    "layer2_12_13",
+    "layer2_15_10",
+    "layer2_24_7",
+    "layer2_33_4",
+    "layer2_51_3",
+    "layer3_4_4_8",
+    "layer3_8_4_4",
+    "layer3_12_2_6",
+    "layer3_12_4_3",
+    "layer3_12_6_2",
+    "layer3_16_4_3",
+    "layer4_8_3_2_3",
+    "layer4_12_2_2_3"
+  ],
+  "source_manifest": "manifests/source_manifest.json",
+  "tie_breaking": "sorted group IDs shuffled with random.Random(42), then deterministic deficit scores; same seed for each independent inner split",
+  "trained_models": 0
+}

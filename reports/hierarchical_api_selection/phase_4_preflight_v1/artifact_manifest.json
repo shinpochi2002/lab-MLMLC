@@ -1,0 +1,169 @@
+{
+  "scope": "new Phase4 artifacts only",
+  "files": {
+    "classifier_inventory.csv": {
+      "bytes": 64775,
+      "sha256": "55f7e79a31dc8dc0b7f9b1263f3b0878eb19a7b75876ef1c753659487ab0d3bd"
+    },
+    "selection_run_inventory.csv": {
+      "bytes": 332440,
+      "sha256": "00ae785f3df5f4cd33b364c66d58de3287f8faab5f15844b39b8fcf7c3038d42"
+    },
+    "final_batch_coefficients.json": {
+      "bytes": 226,
+      "sha256": "6632a8b9149dc80d1546d5fc7ae83377b2e747d8d44bf6e872f20cd41b770032"
+    },
+    "negative_ratio_report.md": {
+      "bytes": 3198,
+      "sha256": "baa6698b9551fec743a4a0625d11c97cf86479b34f0d74d926ba353e4bfccd44"
+    },
+    "build_preflight_reports.py": {
+      "bytes": 29716,
+      "sha256": "79c5fbf6a9f363596d43c22bbedfa9d2d4445b5f3f7ea23f042796b90d98b28b"
+    },
+    "collect_preflight.py": {
+      "bytes": 10086,
+      "sha256": "a462e98056ed7f74851f779a0ecd79e99a1fbb2bb69785b0e3f69c1888116308"
+    },
+    "environment_report.md": {
+      "bytes": 4292,
+      "sha256": "2b4e906527e921ad3847adbb6b288ee37f84b9532db88f83ee3a0164cad00a57"
+    },
+    "preflight_execution_report.md": {
+      "bytes": 8036,
+      "sha256": "3128663f9da25887fc39116b8d2a2235a3a72bcc3ee40fb1274c87b51cc5a9d5"
+    },
+    "training_cost_counts.json": {
+      "bytes": 1342,
+      "sha256": "e98c901bdec45bd8793933193cdbbe4057c9c0fd07ed120af2e316e2793e4e5c"
+    },
+    "negative_ratio_inventory.csv": {
+      "bytes": 122462,
+      "sha256": "63c70bc51ea1301296ac5faa1f8b98c49c632e980747640a764659ba446839d6"
+    },
+    "gpu_benchmark.csv": {
+      "bytes": 1823,
+      "sha256": "f82b728e22ff818615f5ef5d4f0d0d3a73061638104ab5cba144353e10d0089b"
+    },
+    "implementation_compatibility.md": {
+      "bytes": 6877,
+      "sha256": "c8b4ce5843bacc19d72357ec7887ea24d3d83191f5cb52a9ff5b56159172b809"
+    },
+    "negative_shortages.csv": {
+      "bytes": 879,
+      "sha256": "8640c5449fe63d39aff4a23e5d317a1f32147cd5a3b1c145d54402bdf09d94c1"
+    },
+    "storage_estimate.json": {
+      "bytes": 829,
+      "sha256": "47a1451f1612ca69e741e2c28534d2017b5f299317f8d61b184554b1829cc706"
+    },
+    "training_cost_estimate.md": {
+      "bytes": 5620,
+      "sha256": "0fe1dd49955fc1aea30f9138727a8681bc47d859ca70bc53df09b3ccfc794c60"
+    },
+    "configs/existing_file_snapshot.json": {
+      "bytes": 2350578,
+      "sha256": "18aa61979cb28dfb1b5a0cc94eb18e2a555b6a1800425612e5fb3085e3d04bc3"
+    },
+    "configs/representatives.json": {
+      "bytes": 557026,
+      "sha256": "af61bc261b13fe9e9def65402617ce416119a0701935ce8805535d97a0197b0d"
+    },
+    "configs/initial_context.json": {
+      "bytes": 558599,
+      "sha256": "2c7c3026e033940a6847fcd44f1c31ebc00947ec4924e11b3ef9c321e1484358"
+    },
+    "logs/git_head.log": {
+      "bytes": 154,
+      "sha256": "7db874394b05f5258d674a236da09c6aaa709e9b0da07865ce173b3e7d220f44"
+    },
+    "logs/selected_existing_tests.json": {
+      "bytes": 636,
+      "sha256": "c26717563d99331b79612ecfae5da5b2d6b38e08a3d421b960949154298ea2d0"
+    },
+    "logs/git_staged.log": {
+      "bytes": 125,
+      "sha256": "587d6294804857bfae5e042febfe12c91db8b0df1a75d1a714937a4200b551b1"
+    },
+    "logs/git_diff.log": {
+      "bytes": 109,
+      "sha256": "4bca16bee2cacb486e9d7e5c3d0d82053eb443cc754eac69727dc330ef08d331"
+    },
+    "logs/git_ignored.log": {
+      "bytes": 303803,
+      "sha256": "4fdb05c102839bb434ab0e3b9aa8e7cb247d3bdabc75158feff62255ddc0d8d7"
+    },
+    "logs/git_branch.log": {
+      "bytes": 125,
+      "sha256": "d77249de900f7ebe1b712340a9c1ad3b1a4515278930f339ea1bc0bfcb9382c4"
+    },
+    "logs/nvidia_devices.log": {
+      "bytes": 181,
+      "sha256": "26918390f678f7ad71f874d72e1b6db04e672d98f5d139d54074437a187c3c33"
+    },
+    "logs/existing_checkpoint_sizes.json": {
+      "bytes": 2852,
+      "sha256": "c329ade8c6653323a79c5424ac29f1a7d1f2a163cdbc5d345e8491ce86eadaed"
+    },
+    "logs/kernel.log": {
+      "bytes": 227,
+      "sha256": "4ba4492ec71565d84b1ab7b2198a48d37fc4a7cf123aefc75bb7827583167249"
+    },
+    "logs/memory.log": {
+      "bytes": 307,
+      "sha256": "2c1402fd2f08253089bb7895ee79645b07ca809027ab8f2add359db4a07015d0"
+    },
+    "logs/git_status.log": {
+      "bytes": 246608,
+      "sha256": "edb2b88d2f0cf3f8cdd694213385efa770a734bf89ee9e606dc6feb079ca0934"
+    },
+    "logs/selected_existing_tests.log": {
+      "bytes": 1426,
+      "sha256": "495a744cf2932dbcc8e7897fc5726a3c436df39dbf9ecc00459e55dced60ab7f"
+    },
+    "logs/git_root.log": {
+      "bytes": 149,
+      "sha256": "610af9e5e76c832991105ff7914d4b0feef6a541542e50d0c96e7e5370a48615"
+    },
+    "logs/kernel_driver.log": {
+      "bytes": 194,
+      "sha256": "cd8c144233131b42f54257a200218d37fafb40541bed987c0a731a487054b32b"
+    },
+    "logs/data_connection_checks.json": {
+      "bytes": 5793548,
+      "sha256": "d184f4697981c631295d07d5bf77768ade36af2add1e9e6a636a4b183c53124c"
+    },
+    "logs/modules.log": {
+      "bytes": 131,
+      "sha256": "3f32e6b202f4ef3688170e239ab791e9f4d54a7846d55c68e1ae8b75f1c9a0ff"
+    },
+    "logs/python_environment.json": {
+      "bytes": 2073,
+      "sha256": "72e7063dd007ebacd0cb1f202175bb0b205833cdb15367feb984ff84d148922c"
+    },
+    "logs/cpu.log": {
+      "bytes": 3528,
+      "sha256": "ded4c175a6bcfc0b9e07e18323dfb6fb600e754ef8a2d9ae7476e71e0efe7982"
+    },
+    "logs/nvidia_smi.log": {
+      "bytes": 237,
+      "sha256": "7e0a6aad5e57fca045f1b14efab5bcfd0e652d88f127a28c017c0116dcdebe21"
+    },
+    "logs/disk.log": {
+      "bytes": 328,
+      "sha256": "7dbe827422d2830283814cd0607b530f29c51cf1663a1c87ef5043cb554f6f2c"
+    },
+    "logs/final_protection_check.json": {
+      "bytes": 288,
+      "sha256": "d242d5b8abfdc978f35774c9e43874c9843ee85e904a2185e6347c29a5ede112"
+    },
+    "logs/gpu_pci.log": {
+      "bytes": 1350,
+      "sha256": "41b6d49e1862459e4ff5dd6efc6625d921b76e5932b0052e4cb28d7b694cf8b1"
+    }
+  },
+  "total_bytes_excluding_self": 10417183,
+  "gpu_benchmark_status": "SKIP_NO_CUDA",
+  "overall_status": "FAIL_GPU_UNAVAILABLE",
+  "time_estimate": "not requested after user clarification"
+}

@@ -1,0 +1,671 @@
+{
+  "checks": [
+    {
+      "check": "all_declared_input_and_code_sha256_unchanged",
+      "detail": 114,
+      "passed": true
+    },
+    {
+      "check": "all_preexisting_file_metadata_unchanged",
+      "detail": 13263,
+      "passed": true
+    },
+    {
+      "check": "entity_ids_unique",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "required_source_identity_present",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "no_empty_description",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_labels_in_fixed_catalog",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_labels_in_fixed_catalog",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_positive_exact_subset",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_exact_unified_records",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "source_text_labels_provenance_and_restoration_reconstruction",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "restored_entities_exact",
+      "detail": 61,
+      "passed": true
+    },
+    {
+      "check": "normalization_groups_exact",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "label_and_hierarchy_schema_exact",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "exclusion_evidence_exact",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "dataset_counts_exact",
+      "detail": {
+        "api_candidates": 909,
+        "api_positive_groups": 4849,
+        "api_positive_services": 4855,
+        "candidate_api_services": 909,
+        "categories": 152,
+        "category_services": 21907,
+        "excluded_empty_description": 1,
+        "excluded_evaluation_entities": 336,
+        "excluded_text_only": 1,
+        "groups": 21884,
+        "mashup_services": 3946,
+        "noncandidate_api_services": 17052,
+        "patterns": 16,
+        "restored_mashups": 61
+      },
+      "passed": true
+    },
+    {
+      "check": "fixed_evaluation_entity_and_text_overlap_zero",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "all_16_fixed_hierarchies_and_909_152_spaces",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "hierarchy_category_coverage/layer2_4_43",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "hierarchy_category_coverage/layer2_6_25",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "hierarchy_category_coverage/layer2_8_19",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "hierarchy_category_coverage/layer2_12_13",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "hierarchy_category_coverage/layer2_15_10",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "hierarchy_category_coverage/layer2_24_7",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "hierarchy_category_coverage/layer2_33_4",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "hierarchy_category_coverage/layer2_51_3",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "hierarchy_category_coverage/layer3_4_4_8",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "hierarchy_category_coverage/layer3_8_4_4",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "hierarchy_category_coverage/layer3_12_2_6",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "hierarchy_category_coverage/layer3_12_4_3",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "hierarchy_category_coverage/layer3_12_6_2",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "hierarchy_category_coverage/layer3_16_4_3",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "hierarchy_category_coverage/layer4_8_3_2_3",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "hierarchy_category_coverage/layer4_12_2_2_3",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "seed42_repeated_fold_assignment_identical",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "fold_assignment_independent_of_input_order",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "unique_group_lists/fold_01",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "disjoint_inner_and_outer_roles/fold_01",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "unique_group_lists/fold_02",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "disjoint_inner_and_outer_roles/fold_02",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "unique_group_lists/fold_03",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "disjoint_inner_and_outer_roles/fold_03",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "unique_group_lists/fold_04",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "disjoint_inner_and_outer_roles/fold_04",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "unique_group_lists/fold_05",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "disjoint_inner_and_outer_roles/fold_05",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "each_group_is_outer_validation_exactly_once",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "group_assignment_csv_unique_complete",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "group_assignment_csv_content",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "entity_fold_csv_exact",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "all_classifiers_share_fixed_schema_and_assignment",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "fold_distribution_complete",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_01/train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_01/early_stopping",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_01/validation",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_01/outer_train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_02/train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_02/early_stopping",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_02/validation",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_02/outer_train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_03/train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_03/early_stopping",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_03/validation",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_03/outer_train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_04/train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_04/early_stopping",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_04/validation",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_04/outer_train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_05/train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_05/early_stopping",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_05/validation",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "service_and_group_counts/fold_05/outer_train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_distribution_complete",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_01/train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_01/early_stopping",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_01/validation",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_01/outer_train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_02/train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_02/early_stopping",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_02/validation",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_02/outer_train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_03/train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_03/early_stopping",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_03/validation",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_03/outer_train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_04/train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_04/early_stopping",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_04/validation",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_04/outer_train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_05/train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_05/early_stopping",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_05/validation",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "category_label_supports/fold_05/outer_train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_distribution_complete",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_01/train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_01/early_stopping",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_01/validation",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_01/outer_train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_02/train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_02/early_stopping",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_02/validation",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_02/outer_train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_03/train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_03/early_stopping",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_03/validation",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_03/outer_train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_04/train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_04/early_stopping",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_04/validation",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_04/outer_train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_05/train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_05/early_stopping",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_05/validation",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "api_label_supports/fold_05/outer_train",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "complete_16_pattern_classifier_report",
+      "detail": null,
+      "passed": true
+    },
+    {
+      "check": "all_classifier_and_negative_candidate_counts",
+      "detail": [],
+      "passed": true
+    },
+    {
+      "check": "unavailable_classifier_list_exact",
+      "detail": null,
+      "passed": true
+    }
+  ],
+  "counts": {
+    "api_candidates": 909,
+    "api_positive_groups": 4849,
+    "api_positive_services": 4855,
+    "candidate_api_services": 909,
+    "categories": 152,
+    "category_services": 21907,
+    "excluded_empty_description": 1,
+    "excluded_evaluation_entities": 336,
+    "excluded_text_only": 1,
+    "groups": 21884,
+    "mashup_services": 3946,
+    "noncandidate_api_services": 17052,
+    "patterns": 16,
+    "restored_mashups": 61
+  },
+  "generated_artifact_sha256": {
+    "README.md": "a668e9938553034bb029afbdb664932ec94e627cf2069df73feb2d556b02e54f",
+    "manifests/classifier_manifest.json": "bb949871b34d83da40e3ed6e6d02c32d86925a75364a790ccd5a229b2e998759",
+    "manifests/dataset_manifest.json": "47d5692f8b824a4edd8aa571cbfdc7474c43f2fe15c2db2798659c88120c0a41",
+    "manifests/exclusion_manifest.json": "2ef20b2ef77d923ab8ce48f77f0ec32386d267a8f11db2e5e4389e3a6a5d2e8c",
+    "manifests/existing_file_snapshot.json": "75a120b7aa063bcac5dde8c7300687962f3156c4bbc7bb86a543c0883810aeda",
+    "manifests/label_schema.json": "e34c0f20ada096b12b6bb3b1d44be39bda217d1c71ef9356e81808a6bb711636",
+    "manifests/source_manifest.json": "50539e383fb2a6a8e7ccdbb17f1c36886175d50004d02d5100d5a065645011fe",
+    "manifests/split_manifest.json": "5610c18999c1b05738861987f7385edef21d90b1c7f46de45f66d1653915d9ae",
+    "reports/api_label_distribution.csv": "ca3d8fa2bb51afeb21e61357b1db0c8d922b178cc4e179f4c61356f8d0494c02",
+    "reports/category_label_distribution.csv": "7620c09c191b7a67cfa9f55978b4b807867f6cdb0739a93382051a0872d4950e",
+    "reports/classifier_sample_counts.csv": "ff685ad4b7d1267446175b9202f4b2790ced59724fb41450f903a2c90d776d1d",
+    "reports/data_leakage_audit.md": "3f0cbcedd5d1478f7207c3870588bd16dc4555d0c0be4f4b58ab83b593a4d249",
+    "reports/data_usage_summary.csv": "6db0787486585ead8df5c7e13e0bd494a92b8b02f758ac2f3596220129f6ed62",
+    "reports/fold_distribution.csv": "21f7497d9936e41b0f616233b86b8cb5e1d548a13500362bd4774b6d0774d724",
+    "reports/implementation_report.md": "294c704b0e462cf774414983d624c4819db92cfd214de99159e4c0f8c3bcd52c",
+    "reports/rare_classifier_summary.csv": "89fcb194b82dd0864c14991a7e5468f35b0148996874dadb0252a1090fe0ae51",
+    "reports/unavailable_classifiers.csv": "949d2a7db2956c506a4d5f9d718de0ccc3cf1916812d0bec9cf690462daf005e",
+    "source_records/api_classification_positive.json": "0dcc83ee2fa41598b38c97a289c6f6efd1effb5daae9d7a55171312aec2e2f33",
+    "source_records/category_classification.json": "b67caffa3fb947644f343b3bec2f23bdde886475801f1ce4ce05461fe712e8bd",
+    "source_records/groups.json": "d0cabccee2ef6cc28a8460e59dfac7d89b50b5fbd94702e59bc7931fbdfa19fd",
+    "source_records/restored_mashups.json": "6d5686b63b80b8289748df634d06592d2fb1be6a0fe2c5d8120d0788d6b906bc",
+    "source_records/unified_services.json": "b67caffa3fb947644f343b3bec2f23bdde886475801f1ce4ce05461fe712e8bd",
+    "splits/fold_01/early_stopping_groups.json": "d77d9319199d4d80e2992e40f5cfb54cf52bc7f3a34ce77abda075da4a60db37",
+    "splits/fold_01/outer_train_groups.json": "14967d42af19b7dbbc3d6ca1a45ecb203bbc5c6e85b93b5e1674720c9c0cb93b",
+    "splits/fold_01/train_groups.json": "d82a964745155796a728a1b72bc3560968b0e65fe0c60ed266385fe05bb89b02",
+    "splits/fold_01/validation_groups.json": "f4800734f2a30ffddf94f577d5f070b958914fb5e7c3b7b3ab73a25d441740a4",
+    "splits/fold_02/early_stopping_groups.json": "29afe7a5aa8ebd04f24a28b2e817a75f6d3346126508f68b218b9225ef2d6a69",
+    "splits/fold_02/outer_train_groups.json": "a47d7596eca7a62a19e425df73e721ae4e135339464e4047af38f7ddf8d1315e",
+    "splits/fold_02/train_groups.json": "80216d3b744c031a07c7fe092ab995ee6ea22ae40effd248cf209ab11238f08e",
+    "splits/fold_02/validation_groups.json": "06ca4d63fb63265e22d2f3a5ad3468c117a8630e8559bf37a560693b340feb9e",
+    "splits/fold_03/early_stopping_groups.json": "b8a3fd7e98fc28584f6ae24f05745fa1d580e2339f08a52b7f4e60d43da36c09",
+    "splits/fold_03/outer_train_groups.json": "21bbda6c874649d70b879d2ee39064a8598f40163918f0ca27ab90171f081399",
+    "splits/fold_03/train_groups.json": "58dd4db7e010c19fa0c03714f72d728ee1c4fbb5be739e1e61a3d4de4d5a35bc",
+    "splits/fold_03/validation_groups.json": "dbabe32d4f008594c56e92fd427ab1d96074a8f01e223937cfc1e60db312d5ad",
+    "splits/fold_04/early_stopping_groups.json": "f7c92403fb626200fbad04b3bbaab7edd1c813bec7faf1562e535a6fb808d361",
+    "splits/fold_04/outer_train_groups.json": "01ae54c3ee69f180b9f71e14bb085c3d184825dba6282e8316b47ff150943c71",
+    "splits/fold_04/train_groups.json": "60ba11771e5845dce87c89935fc3f7ee26fc126421f1a619cc484d03b572cf68",
+    "splits/fold_04/validation_groups.json": "57a458d72a385f4485106561090cf20d1478c588002a01315778861a2db1e8bf",
+    "splits/fold_05/early_stopping_groups.json": "85c13be19f7c938e2163e34fe734e6743359ab720d931de71ad52c8841eb5442",
+    "splits/fold_05/outer_train_groups.json": "97b3ae96141d11b5b2cd54253e25e51c7822cd505283cf1d40ad2ca5a2c16f07",
+    "splits/fold_05/train_groups.json": "2c0c52c96a27e68796e115fe9513ef38b929add4097c6779c2883a15962c0829",
+    "splits/fold_05/validation_groups.json": "e5f8868a2e73dc654445856f9b250dc1caeccb927d5809b62ab8c12d66beb4ab",
+    "splits/fold_assignments.csv": "0e47d07bcd35b364d140765c6ca6574a6a03b70b6606a5d6366cdc8f1397b920",
+    "splits/group_assignments.csv": "c57c66449e16995ad55610822b7bebce6ac5a352100386d4182d501d983c81ab"
+  },
+  "generated_at_utc": "2026-10-16T08:35:18.478194+00:00",
+  "passed": true,
+  "schema_version": 1,
+  "warnings": [
+    "Fixed category GT differs from original Mashup-derived categories for trackthis and rosetta; fixed data are unchanged.",
+    "Minority/no-positive/ES-empty cases are recorded, not repaired. No learning fallback was implemented.",
+    "Legacy pos_weight may be zero for all-positive labels; trainer changes belong to Phase 3.",
+    "Existing model contents were not hashed; all pre-existing file metadata and declared-input/code SHA-256 were verified.",
+    "Similar/paraphrased text and unknown aliases are outside exact normalized matching guarantees."
+  ]
+}

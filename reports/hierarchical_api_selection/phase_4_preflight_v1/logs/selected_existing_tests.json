@@ -1,0 +1,18 @@
+{
+  "tests": [
+    "test_weights_all_positive_all_negative_and_normal",
+    "test_weight_extremes_finite",
+    "test_empty_train_rejected",
+    "test_lr_loss_first_ratio_f1_first_median",
+    "test_ties_choose_smaller_ratio_and_lr",
+    "test_missing_duplicate_or_nonfinite_result_rejected",
+    "test_early_stopping_restores_earlier_best_epoch",
+    "test_single_output_loss_nonzero_gradient"
+  ],
+  "run": 8,
+  "successful": true,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "scope": "Existing CPU unit tests; mocked model/tokenizer/evaluation for early stopping; not GPU/BERT benchmarks; no splitter/generator tests executed"
+}

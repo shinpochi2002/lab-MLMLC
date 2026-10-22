@@ -1,0 +1,52 @@
+# validation選定構造とbaselineのtest数値比較
+
+API名マスクあり。validation 100件、16構造中の最良構造: layer3_12_4_3（サンプル平均F1=0.437811）。共通test 236件。
+
+P/R/F1はサンプル単位の算術平均。micro指標はTP/FP/FNを合算。推薦なしは0。
+
+| 手法 | Precision | Recall | F1 | micro P | micro R | micro F1 | 平均推薦数 | 推薦なし |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| hierarchy_layer3_12_4_3 | 0.382502 | 0.619963 | 0.400390 | 0.133685 | 0.523452 | 0.212977 | 8.843220 | 3 |
+| tfidf_ovr_logistic | 0.482345 | 0.398608 | 0.404025 | 0.752632 | 0.268293 | 0.395574 | 0.805085 | 92 |
+| sbert_ovr_logistic | 0.321772 | 0.501957 | 0.345629 | 0.290179 | 0.365854 | 0.323651 | 2.847458 | 10 |
+| cross_encoder_threshold05 | 0.118416 | 0.739873 | 0.193130 | 0.111370 | 0.628518 | 0.189212 | 12.745763 | 0 |
+
+| baseline | 階層F1が高い件数 | baseline F1が高い件数 | 同点 | 平均F1差（階層−baseline） |
+|---|---:|---:|---:|---:|
+| tfidf_ovr_logistic | 81 | 70 | 85 | -0.003636 |
+| sbert_ovr_logistic | 106 | 72 | 58 | +0.054761 |
+| cross_encoder_threshold05 | 134 | 87 | 15 | +0.207260 |
+
+236件の本文・正解APIの一致、保存済みP/R/F1との一致を検証。既存test推論結果の再集計。
+出典: results/hierarchy/hierarchy_existing_models_api_name_masked/validation/selection.json、test/layer3_12_4_3_results.csv、results/baselines/test236_masked/。
+TF-IDF OvRはunigram+bigram、SBERT OvRはall-MiniLM-L6-v2、cross-encoderはbert-base-uncased。各baseline閾値0.5。
+test236件は旧336件の事後分割。
+
+
+## 再検証で見つかった実行上の問題
+
+数値の再計算は一致したが、階層モデルはファイル欠落による分岐スキップを含む。現状の数値は保存済み実行結果として正しいが、完全に全分岐を実行した評価値としては確定しない。
+
+選定構造12-4-3のtestではdocuments_api_labels.jsonがなく、documentsカテゴリのAPI推薦を3件でスキップ。対応するbert_multilabel_documents_model_weights.pthも現在の保存先に存在しない。
+
+| idx（0始まり） | サンプル | 正解API | 保存済みF1 |
+|---:|---|---|---:|
+| 97 | box.net-and-live-documents | box | 0 |
+| 100 | documents-to-go | box | 0 |
+| 126 | photos-life | flickr / global-biodiversity-information-facility | 0 |
+
+12-4-3のvalidation100件にはスキップなし。ただし、選定候補4-4-8のvalidationではdocuments分岐を1件スキップしており、選定候補全ての正常実行を保証できない。終了コード0、run_summaryのokだけでは分岐欠落を検出できない。
+
+固定分割44形式のSHA-256、validation/test非重複、学習データとの重複0を確認。全16構造のvalidation/test計5,376行の本文・正解API・P/R/F1を検証。比較4手法の236件、micro指標、平均推薦数、推薦なし件数、ペア比較件数も再計算一致。既存の分割・選定・パス検証テスト28件が成功。
+
+baselineの設定・予測・ログの照合では不整合を検出しなかった。OvRは空本文1件を除いた3,651件で学習、閾値0.5固定、validationによる再学習なし。学習ラベル外78種は正解から除去せずFNとして集計。
+
+モデル推論コードを確認し、階層は予測した親カテゴリで分岐を選択し、正解ラベルは指標計算に使用している。保存された分岐と予測スコアは欠落箇所を含めて整合する。
+
+今回は階層・SBERT・cross-encoderの全件再推論は行っていない。履歴にはチェックポイントのハッシュや完全な起動引数がなく、過去と同一の重みの保証はできない。cross-encoderの詳細な学習来歴も保存先には残っていない。test全16構造が既に実行されているため、過去の実行が構造選定後だったかは確認できない。今回の選定処理はvalidationだけを使用。
+
+完全な実行として確定するには欠落したラベル定義とモデルを整備し、影響するvalidation候補を再評価してから構造を固定し、選定構造のtestを再評価する必要がある。
+
+選定への影響の上限: 4-4-8のvalidation F1は0.382818。スキップ1件をF1=1まで改善しても平均は最大0.392818で、12-4-3の0.437811を超えない。この欠落1件だけを修復しても選定構造は変わらない。
+
+保存済みTF-IDFモデルで236件を再推論し、全件の推薦API集合が一致。保存スコアとの差は最大0。

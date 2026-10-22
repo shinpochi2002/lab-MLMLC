@@ -1,0 +1,77 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "executable": "/home/nakagawa/venvs/swallow-py312/bin/python",
+  "architecture": "aarch64",
+  "modules": {
+    "torch": {
+      "available": true,
+      "version": "2.10.0+cu128"
+    },
+    "transformers": {
+      "available": true,
+      "version": "5.8.0"
+    },
+    "pytorch_lightning": {
+      "available": true,
+      "version": "2.2.1"
+    },
+    "huggingface_hub": {
+      "available": true,
+      "version": "1.14.0"
+    },
+    "numpy": {
+      "available": true,
+      "version": "1.26.4"
+    },
+    "sklearn": {
+      "available": true,
+      "version": "1.6.1"
+    },
+    "iterstrat": {
+      "available": true,
+      "version": "0.1.9"
+    },
+    "tokenizers": {
+      "available": true,
+      "version": "0.22.2"
+    },
+    "safetensors": {
+      "available": true,
+      "version": "0.5.3"
+    }
+  },
+  "cuda": {
+    "compiled_version": "12.8",
+    "is_available": false,
+    "device_count": 0,
+    "cudnn_version": 91002,
+    "initialization": "FAIL",
+    "error": "RuntimeError('No CUDA GPUs are available')",
+    "traceback": "Traceback (most recent call last):\n  File \"<stdin>\", line 10, in <module>\n  File \"/home/nakagawa/venvs/swallow-py312/lib/python3.12/site-packages/torch/cuda/__init__.py\", line 393, in init\n    _lazy_init()\n  File \"/home/nakagawa/venvs/swallow-py312/lib/python3.12/site-packages/torch/cuda/__init__.py\", line 424, in _lazy_init\n    torch._C._cuda_init()\nRuntimeError: No CUDA GPUs are available\n"
+  },
+  "bert_cache": {
+    "path": "/home/nakagawa/.cache/huggingface/hub/models--bert-base-uncased/snapshots/86b5e0934494bd15c9632b12f734a8a67f723594",
+    "files": [
+      {
+        "name": "vocab.txt",
+        "bytes": 231508
+      },
+      {
+        "name": "model.safetensors",
+        "bytes": 440449768
+      },
+      {
+        "name": "tokenizer_config.json",
+        "bytes": 48
+      },
+      {
+        "name": "config.json",
+        "bytes": 570
+      },
+      {
+        "name": "tokenizer.json",
+        "bytes": 466062
+      }
+    ]
+  }
+}

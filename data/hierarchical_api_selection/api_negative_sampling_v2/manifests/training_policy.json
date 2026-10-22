@@ -1,0 +1,46 @@
+{
+  "auxiliary_api_policy": "all own-category API positives and their complete groups are always Train; Validation is Mashup-only",
+  "early_stopping_patience": 3,
+  "epoch_selection": "median best epochs of selected ratio/lr, round half up, clamp 1..50",
+  "fallback_config": {
+    "epochs": 10,
+    "learning_rate": 2e-05,
+    "negative_ratio": 1,
+    "origin": "a priori conservative engineering default, not empirically optimal; not selected using any validation/test data"
+  },
+  "fallback_policy": "fewer than two nonanchored Mashup-positive groups: retain all positive groups in Train; negative-only diagnostic holdout; no per-classifier metric-based config selection",
+  "final_training": "reinitialize from local pretrained BERT; all positives plus selected-ratio negatives sampled from full development pool including former validation; no early stopping",
+  "fixed_evaluation_used": false,
+  "group_sampling": "retain all negatives sharing positive Train groups first; then seed42 classifier-specific SHA256 group ordering, take prefix until requested count reached; last whole group may overshoot; stop at availability; nested ratios",
+  "learning_rate_selection": [
+    "minimum mean best-epoch validation loss",
+    "maximum mean Mashup micro-F1",
+    "smaller learning rate"
+  ],
+  "learning_rates": [
+    2e-05,
+    3e-05
+  ],
+  "loss_weight": "Train-only neg/pos when both >0; otherwise 1.0; finite float32 clamp [1e-4,1e4]",
+  "maximum_epochs": 50,
+  "maximum_folds": 5,
+  "name": "api_negative_group_anchor_positive_threshold_v1",
+  "negative_interpretation": "unobserved in recorded used-API relation, not proof of intrinsic irrelevance",
+  "positive_cv_threshold_exclusive": 20,
+  "ratio_selection": [
+    "maximum mean Mashup micro-F1",
+    "maximum mean Mashup recall",
+    "maximum mean Mashup precision",
+    "smaller negative ratio"
+  ],
+  "ratios": [
+    1,
+    3,
+    5
+  ],
+  "seed": 42,
+  "selection_validation": "same local validation used for early stopping and tuning; scores are development metrics, not unbiased performance estimates",
+  "split_policy": "allocate positive-bearing and negative-only group strata separately, with >=1 validation positive group for selectable holdout; split all nonanchored Mashup groups before negative sampling; n_positive<20 and >=2 independent positive validation groups -> min(5,positive_groups)-fold; otherwise 80/20 group holdout when >=2 positive validation groups",
+  "threshold": 0.5,
+  "threshold_comparison": ">="
+}

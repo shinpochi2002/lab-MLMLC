@@ -1,0 +1,78 @@
+{
+  "algorithm": "classifier_local_rarest_remaining_label_group_deficit_v1",
+  "classifier_count": 805,
+  "conditions": {
+    "cv_learning_rate_candidates": [
+      2e-05,
+      3e-05
+    ],
+    "cv_selection_order": [
+      "minimum_mean_validation_loss",
+      "maximum_mean_micro_f1_on_loss_tie"
+    ],
+    "cv_threshold_exclusive": 20,
+    "early_stopping_monitor": "val_loss",
+    "early_stopping_patience": 3,
+    "final_cv_refit": "all classifier members, selected learning rate; legacy fixed 50 epochs without validation",
+    "fixed_evaluation_use": "neither fixed validation100 nor test236 may fit, select settings, or stop these classifiers",
+    "group_priority": "strict isolation before approximate multilabel balance; no post-split sample moves",
+    "holdout_learning_rate": 2e-05,
+    "learning_fallback_implemented": false,
+    "max_folds": 5,
+    "maximum_epochs": 50,
+    "negative_service_generation": false,
+    "policy": "classifier_local_threshold_20_v1",
+    "seed": 42,
+    "single_output_cv": "attempt when n<20 and at least two independent groups; report constant-target/loss failures separately",
+    "validation_purpose": "local hyperparameter selection and early stopping as in existing implementation, not full-hierarchy OOF evaluation"
+  },
+  "future_learning_reference": {
+    "cv_learning_rate_candidates": [
+      2e-05,
+      3e-05
+    ],
+    "cv_selection_order": [
+      "minimum_mean_validation_loss",
+      "maximum_mean_micro_f1_on_loss_tie"
+    ],
+    "cv_threshold_exclusive": 20,
+    "early_stopping_monitor": "val_loss",
+    "early_stopping_patience": 3,
+    "final_cv_refit": "all classifier members, selected learning rate; legacy fixed 50 epochs without validation",
+    "fixed_evaluation_use": "neither fixed validation100 nor test236 may fit, select settings, or stop these classifiers",
+    "group_priority": "strict isolation before approximate multilabel balance; no post-split sample moves",
+    "holdout_learning_rate": 2e-05,
+    "learning_fallback_implemented": false,
+    "max_folds": 5,
+    "maximum_epochs": 50,
+    "negative_service_generation": false,
+    "policy": "classifier_local_threshold_20_v1",
+    "seed": 42,
+    "single_output_cv": "attempt when n<20 and at least two independent groups; report constant-target/loss failures separately",
+    "validation_purpose": "local hyperparameter selection and early stopping as in existing implementation, not full-hierarchy OOF evaluation"
+  },
+  "generated_at_utc": "2026-10-16T09:08:01.561904+00:00",
+  "git_commit": "5b8c7f5251128843b313b88304c3f2d4261e1cf0",
+  "holdout_group_rule": "validation groups=max(1,min(G-1,floor(0.2*G+0.5))); strict group isolation; service ratio may deviate",
+  "implementation_sha256": {
+    "scripts/hierarchical_api_selection/classifier_cv/classifier_pipeline.py": "fe5c89aee42ed070d701e644880ed35b0175fe593df46648f5210e88d7f00e40",
+    "scripts/hierarchical_api_selection/classifier_cv/create_classifier_splits.py": "77e55fcc1de06823c073669825160835af23303ab264502f1c5e27d599ced937",
+    "scripts/hierarchical_api_selection/classifier_cv/summarize_classifier_splits.py": "4ecf69cc71fd228910c8cd19052393bbd546820fc1847bbe6baacd81a0bcebc9",
+    "scripts/hierarchical_api_selection/classifier_cv/tests/test_classifier_splits.py": "d0faee793332e2fd460b972240d6f68fb738375a9983bc353d8ba5353ac27d7d",
+    "scripts/hierarchical_api_selection/classifier_cv/validate_classifier_splits.py": "1d438ec7aa85ac962917a59cc95c1ee9fc89a5a70450e922348129be9326f7f1"
+  },
+  "kfold_rule": "n<20 and G>=2 -> min(5,G); output label cardinality does not disable attempts",
+  "method_counts": {
+    "holdout": 698,
+    "kfold": 97,
+    "unavailable": 10
+  },
+  "old_global_fold_mapping_used": false,
+  "post_partition_moves": 0,
+  "schema_file": "data/hierarchical_api_selection/group_5fold_v1/manifests/label_schema.json",
+  "schema_version": 1,
+  "scope": "independent partitions for each classifier; matching local fold_01 names have no cross-classifier alignment",
+  "seed": 42,
+  "single_output_stratification": "positive and negative binary supports when available, otherwise partition only with constant-target warnings",
+  "source_manifest": "manifests/source_manifest.json"
+}

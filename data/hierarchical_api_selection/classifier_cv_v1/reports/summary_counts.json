@@ -1,0 +1,58 @@
+{
+  "conditions": {
+    "cv_learning_rate_candidates": [
+      2e-05,
+      3e-05
+    ],
+    "cv_selection_order": [
+      "minimum_mean_validation_loss",
+      "maximum_mean_micro_f1_on_loss_tie"
+    ],
+    "cv_threshold_exclusive": 20,
+    "early_stopping_monitor": "val_loss",
+    "early_stopping_patience": 3,
+    "final_cv_refit": "all classifier members, selected learning rate; legacy fixed 50 epochs without validation",
+    "fixed_evaluation_use": "neither fixed validation100 nor test236 may fit, select settings, or stop these classifiers",
+    "group_priority": "strict isolation before approximate multilabel balance; no post-split sample moves",
+    "holdout_learning_rate": 2e-05,
+    "learning_fallback_implemented": false,
+    "max_folds": 5,
+    "maximum_epochs": 50,
+    "negative_service_generation": false,
+    "policy": "classifier_local_threshold_20_v1",
+    "seed": 42,
+    "single_output_cv": "attempt when n<20 and at least two independent groups; report constant-target/loss failures separately",
+    "validation_purpose": "local hyperparameter selection and early stopping as in existing implementation, not full-hierarchy OOF evaluation"
+  },
+  "counts": {
+    "api_classifier_count": 152,
+    "category_classifier_count": 653,
+    "classifier_count": 805,
+    "classifier_with_train_negative_zero_labels_count": 61,
+    "classifier_with_unseen_train_labels_count": 11,
+    "constant_target_classifier_count": 68,
+    "fivefold_partition_count": 32,
+    "holdout_partition_count": 698,
+    "independent_partition_unavailable_count": 10,
+    "kfold_needing_training_policy_decision": 95,
+    "kfold_partition_count": 97,
+    "reduced_fold_partition_count": 65,
+    "single_output_classifier_count": 68,
+    "single_output_cv_partition_count": 56,
+    "single_output_holdout_partition_count": 2,
+    "single_output_unavailable_count": 10,
+    "training_or_inference_runs": 0
+  },
+  "generated_at_utc": "2026-10-16T09:08:16.089493+00:00",
+  "git_commit": "5b8c7f5251128843b313b88304c3f2d4261e1cf0",
+  "implementation_sha256": {
+    "scripts/hierarchical_api_selection/classifier_cv/classifier_pipeline.py": "fe5c89aee42ed070d701e644880ed35b0175fe593df46648f5210e88d7f00e40",
+    "scripts/hierarchical_api_selection/classifier_cv/create_classifier_splits.py": "77e55fcc1de06823c073669825160835af23303ab264502f1c5e27d599ced937",
+    "scripts/hierarchical_api_selection/classifier_cv/summarize_classifier_splits.py": "4ecf69cc71fd228910c8cd19052393bbd546820fc1847bbe6baacd81a0bcebc9",
+    "scripts/hierarchical_api_selection/classifier_cv/tests/test_classifier_splits.py": "d0faee793332e2fd460b972240d6f68fb738375a9983bc353d8ba5353ac27d7d",
+    "scripts/hierarchical_api_selection/classifier_cv/validate_classifier_splits.py": "1d438ec7aa85ac962917a59cc95c1ee9fc89a5a70450e922348129be9326f7f1"
+  },
+  "schema_version": 1,
+  "seed": 42,
+  "source_manifest": "manifests/source_manifest.json"
+}

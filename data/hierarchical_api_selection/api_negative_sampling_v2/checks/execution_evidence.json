@@ -1,0 +1,40 @@
+{
+  "fresh_final_initialization_hashes_equal_fold_initialization": true,
+  "full_training_performed": false,
+  "initial_file_changes": [],
+  "initial_protected_files": 14138,
+  "libraries": {
+    "numpy": "1.26.4",
+    "pytorch-lightning": "2.2.1",
+    "torch": "2.10.0+cu128",
+    "transformers": "5.8.0"
+  },
+  "network_download_performed": false,
+  "passed": true,
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "python_executable": "/home/nakagawa/venvs/swallow-py312/bin/python",
+  "smoke_artifact_sha256": {
+    "few_positive_multi/api_labels.json": "8bde7120ef2dcb41345d921dc1ab45a17c03a9ef7349e8ac11de5b640e5f4141",
+    "few_positive_multi/best_ratio_1_fold_01_lr_2e-05.pth": "c87b9f12c23f2222512be279f0a296eaaee0a75a151fe837704e5705545a31e6",
+    "few_positive_multi/model_weights.pth": "136c94d52a266d0e98f35edfcd438687351ed4abe266bc1df6381825fadaa8ca",
+    "few_positive_multi/run_manifest.json": "f3c426bba9bc916af8d48e17719f023843bc4388dd4b72007ed2b850be6c47c7",
+    "few_positive_multi/training_results.json": "8f5e6741e2683f89509adc2d93d9e896407ce10f22cb6dea3f1aa7542d5143cb",
+    "one_positive/api_labels.json": "ac0a0ac456899cc613f860699a4976e68f5a494c310354edb6d51e7ae09b3711",
+    "one_positive/model_weights.pth": "fb910b8a886d217d7f2dc2d33219866769cc5e4864272506d1288e7aea3ee6ac",
+    "one_positive/run_manifest.json": "1586a62ff748e74d2deb571a24f880a9f134e2d0290af724376bf44d064b0479",
+    "one_positive/training_results.json": "c5d1896653804af1a5c0551cdcf3c2142c65bb712e8c6b837d6b7ec921375b4e",
+    "single_output/api_labels.json": "3ac3160f82c9c562f6893e41dbd07dc13e6b79ccd01a0a4f0dfd2febc44365db",
+    "single_output/best_ratio_1_fold_01_lr_2e-05.pth": "f81c4c07459b2703a0b8c613cb63c63c83958c04485bc92ca5c1f98120058342",
+    "single_output/model_weights.pth": "430ea7828ab1ec5ae258518e3af23d95dfc8f93f235a5fa1f8d2f5565c389610",
+    "single_output/run_manifest.json": "c9f4a686106e35a85d4871548afd51138f512b1c61a2dfacf93dea944fdd6577",
+    "single_output/training_results.json": "e18803c925962b65fca8a9aad46caa409e412e909da74d2f0f34a362360edf09",
+    "smoke_results.json": "182c30144cfb3c10497d445980ab3eb2f760b363358c2d7b9f27607181b59b62",
+    "sufficient_multi/api_labels.json": "72881c7c8a3bedc5c8daf682a664f03dc0993ca7a923857f5af63d709c5d2d7f",
+    "sufficient_multi/best_ratio_1_fold_01_lr_2e-05.pth": "ce9a2ce1fe8f6d50a607cf38d5cc7abe5c7d1bd6ac81b581c0b8494143efdf86",
+    "sufficient_multi/model_weights.pth": "17c8538996aa9c0bff0d0d9b697c05cdf046f7c073fb29e19ad9cd272e8a43ce",
+    "sufficient_multi/run_manifest.json": "15b95009b94ec8b142016be1246b481530f4b734ae6e04d980b9d49bc1b9d11f",
+    "sufficient_multi/training_results.json": "e433e4df395a9bb4fecab134b440ede988101c1971047cbab2bfdb44c21c10b0"
+  },
+  "smoke_device": "cpu",
+  "smoke_root": "results/hierarchical_api_selection/phase3_smoke_v1"
+}

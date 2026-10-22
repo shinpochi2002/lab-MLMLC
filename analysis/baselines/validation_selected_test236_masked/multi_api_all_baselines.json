@@ -1,0 +1,82 @@
+{
+  "previous_numbers_verified": true,
+  "test_count": 236,
+  "multi_api_sample_count": 127,
+  "all_methods_same_text_and_true_apis": true,
+  "definitions": {
+    "at_least_2_correct": "TP >= 2",
+    "all_correct_covered": "true set is subset of predicted set; extra APIs allowed",
+    "exact_set_match": "true set equals predicted set",
+    "mean_metrics": "arithmetic mean over 127 samples; empty predictions score zero"
+  },
+  "results": {
+    "hierarchy": {
+      "n": 127,
+      "at_least_2_correct": 54,
+      "all_correct_covered": 26,
+      "exact_set_match": 5,
+      "zero_correct": 26,
+      "mean_precision": 0.30227517494691525,
+      "mean_recall": 0.4906406585540444,
+      "mean_f1": 0.30134139755468964,
+      "mean_predicted": 10.937007874015748,
+      "total_tp": 195,
+      "total_fp": 1194,
+      "total_fn": 229,
+      "micro_precision": 0.14038876889848811,
+      "micro_recall": 0.45990566037735847,
+      "micro_f1": 0.2151130722559294
+    },
+    "tfidf": {
+      "n": 127,
+      "at_least_2_correct": 15,
+      "all_correct_covered": 9,
+      "exact_set_match": 7,
+      "zero_correct": 66,
+      "mean_precision": 0.43700787401574803,
+      "mean_recall": 0.22103487064116986,
+      "mean_f1": 0.2717847769028871,
+      "mean_predicted": 0.7637795275590551,
+      "total_tp": 77,
+      "total_fp": 20,
+      "total_fn": 347,
+      "micro_precision": 0.7938144329896907,
+      "micro_recall": 0.18160377358490565,
+      "micro_f1": 0.29558541266794625
+    },
+    "sbert": {
+      "n": 127,
+      "at_least_2_correct": 35,
+      "all_correct_covered": 17,
+      "exact_set_match": 4,
+      "zero_correct": 49,
+      "mean_precision": 0.3363142107236595,
+      "mean_recall": 0.33434570678665165,
+      "mean_f1": 0.30265762234266175,
+      "mean_predicted": 2.984251968503937,
+      "total_tp": 119,
+      "total_fp": 260,
+      "total_fn": 305,
+      "micro_precision": 0.31398416886543534,
+      "micro_recall": 0.2806603773584906,
+      "micro_f1": 0.29638854296388545
+    },
+    "cross_encoder": {
+      "n": 127,
+      "at_least_2_correct": 87,
+      "all_correct_covered": 46,
+      "exact_set_match": 0,
+      "zero_correct": 7,
+      "mean_precision": 0.14987112777894998,
+      "mean_recall": 0.6504729522446059,
+      "mean_f1": 0.23242164478196015,
+      "mean_predicted": 13.692913385826772,
+      "total_tp": 243,
+      "total_fp": 1496,
+      "total_fn": 181,
+      "micro_precision": 0.1397354801610121,
+      "micro_recall": 0.5731132075471698,
+      "micro_f1": 0.22468793342579751
+    }
+  }
+}

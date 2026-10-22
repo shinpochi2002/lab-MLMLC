@@ -1,0 +1,100 @@
+[
+  {
+    "path": "results/hierarchical_api_selection/phase3_smoke_v1/few_positive_multi/best_ratio_1_fold_01_lr_2e-05.pth",
+    "source": "historical_phase3_artifact_not_new_gpu_result",
+    "bytes": 438022957,
+    "payload_bytes": 437944340,
+    "serialization_overhead": 78617,
+    "bert_bytes": 437928960,
+    "classifier_shape": [
+      5,
+      768
+    ],
+    "dtype": "torch.float32",
+    "head_bytes": 15380
+  },
+  {
+    "path": "results/hierarchical_api_selection/phase3_smoke_v1/few_positive_multi/model_weights.pth",
+    "source": "historical_phase3_artifact_not_new_gpu_result",
+    "bytes": 438022957,
+    "payload_bytes": 437944340,
+    "serialization_overhead": 78617,
+    "bert_bytes": 437928960,
+    "classifier_shape": [
+      5,
+      768
+    ],
+    "dtype": "torch.float32",
+    "head_bytes": 15380
+  },
+  {
+    "path": "results/hierarchical_api_selection/phase3_smoke_v1/one_positive/model_weights.pth",
+    "source": "historical_phase3_artifact_not_new_gpu_result",
+    "bytes": 438010669,
+    "payload_bytes": 437932036,
+    "serialization_overhead": 78633,
+    "bert_bytes": 437928960,
+    "classifier_shape": [
+      1,
+      768
+    ],
+    "dtype": "torch.float32",
+    "head_bytes": 3076
+  },
+  {
+    "path": "results/hierarchical_api_selection/phase3_smoke_v1/single_output/best_ratio_1_fold_01_lr_2e-05.pth",
+    "source": "historical_phase3_artifact_not_new_gpu_result",
+    "bytes": 438010669,
+    "payload_bytes": 437932036,
+    "serialization_overhead": 78633,
+    "bert_bytes": 437928960,
+    "classifier_shape": [
+      1,
+      768
+    ],
+    "dtype": "torch.float32",
+    "head_bytes": 3076
+  },
+  {
+    "path": "results/hierarchical_api_selection/phase3_smoke_v1/single_output/model_weights.pth",
+    "source": "historical_phase3_artifact_not_new_gpu_result",
+    "bytes": 438010669,
+    "payload_bytes": 437932036,
+    "serialization_overhead": 78633,
+    "bert_bytes": 437928960,
+    "classifier_shape": [
+      1,
+      768
+    ],
+    "dtype": "torch.float32",
+    "head_bytes": 3076
+  },
+  {
+    "path": "results/hierarchical_api_selection/phase3_smoke_v1/sufficient_multi/best_ratio_1_fold_01_lr_2e-05.pth",
+    "source": "historical_phase3_artifact_not_new_gpu_result",
+    "bytes": 438167533,
+    "payload_bytes": 438088912,
+    "serialization_overhead": 78621,
+    "bert_bytes": 437928960,
+    "classifier_shape": [
+      52,
+      768
+    ],
+    "dtype": "torch.float32",
+    "head_bytes": 159952
+  },
+  {
+    "path": "results/hierarchical_api_selection/phase3_smoke_v1/sufficient_multi/model_weights.pth",
+    "source": "historical_phase3_artifact_not_new_gpu_result",
+    "bytes": 438167533,
+    "payload_bytes": 438088912,
+    "serialization_overhead": 78621,
+    "bert_bytes": 437928960,
+    "classifier_shape": [
+      52,
+      768
+    ],
+    "dtype": "torch.float32",
+    "head_bytes": 159952
+  }
+]

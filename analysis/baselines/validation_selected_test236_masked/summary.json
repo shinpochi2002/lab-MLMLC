@@ -1,0 +1,92 @@
+{
+  "selected_pattern": "layer3_12_4_3",
+  "validation_mean_f1": 0.43781133444387954,
+  "validation_count": 100,
+  "test_count": 236,
+  "verified_same_test_text_and_true_apis": true,
+  "results": [
+    {
+      "method": "hierarchy_layer3_12_4_3",
+      "n": 236,
+      "precision": 0.38250180574241094,
+      "recall": 0.619963405238829,
+      "f1": 0.40038989379085616,
+      "micro_precision": 0.1336847149017729,
+      "micro_recall": 0.5234521575984991,
+      "micro_f1": 0.2129770992366412,
+      "mean_predicted_apis": 8.84322033898305,
+      "empty_predictions": 3,
+      "tp": 279,
+      "fp": 1808,
+      "fn": 254
+    },
+    {
+      "method": "tfidf_ovr_logistic",
+      "n": 236,
+      "precision": 0.48234463276836154,
+      "recall": 0.39860774818401934,
+      "f1": 0.40402542372881356,
+      "micro_precision": 0.7526315789473684,
+      "micro_recall": 0.2682926829268293,
+      "micro_f1": 0.39557399723374825,
+      "mean_predicted_apis": 0.8050847457627118,
+      "empty_predictions": 92,
+      "tp": 143,
+      "fp": 47,
+      "fn": 390
+    },
+    {
+      "method": "sbert_ovr_logistic",
+      "n": 236,
+      "precision": 0.321771589991929,
+      "recall": 0.501957223567393,
+      "f1": 0.34562911194267126,
+      "micro_precision": 0.29017857142857145,
+      "micro_recall": 0.36585365853658536,
+      "micro_f1": 0.3236514522821577,
+      "mean_predicted_apis": 2.847457627118644,
+      "empty_predictions": 10,
+      "tp": 195,
+      "fp": 477,
+      "fn": 338
+    },
+    {
+      "method": "cross_encoder_threshold05",
+      "n": 236,
+      "precision": 0.1184158706681489,
+      "recall": 0.7398731565045125,
+      "f1": 0.19313015215210735,
+      "micro_precision": 0.11136968085106383,
+      "micro_recall": 0.6285178236397748,
+      "micro_f1": 0.1892120869810788,
+      "mean_predicted_apis": 12.745762711864407,
+      "empty_predictions": 0,
+      "tp": 335,
+      "fp": 2673,
+      "fn": 198
+    }
+  ],
+  "pairwise_f1": [
+    {
+      "baseline": "tfidf_ovr_logistic",
+      "hierarchy_higher_f1": 81,
+      "baseline_higher_f1": 70,
+      "equal_f1": 85,
+      "hierarchy_minus_baseline_f1": -0.003635529937957407
+    },
+    {
+      "baseline": "sbert_ovr_logistic",
+      "hierarchy_higher_f1": 106,
+      "baseline_higher_f1": 72,
+      "equal_f1": 58,
+      "hierarchy_minus_baseline_f1": 0.054760781848184885
+    },
+    {
+      "baseline": "cross_encoder_threshold05",
+      "hierarchy_higher_f1": 134,
+      "baseline_higher_f1": 87,
+      "equal_f1": 15,
+      "hierarchy_minus_baseline_f1": 0.20725974163874883
+    }
+  ]
+}

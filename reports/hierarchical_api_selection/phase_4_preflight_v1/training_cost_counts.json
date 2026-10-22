@@ -1,0 +1,68 @@
+{
+  "api_classifiers": 152,
+  "category_classifiers": 653,
+  "api_methods": {
+    "fixed_config": 55,
+    "holdout": 47,
+    "kfold": 50
+  },
+  "api_cv_fold_histogram": {
+    "5": 16,
+    "3": 10,
+    "2": 20,
+    "4": 4
+  },
+  "api_selection_fold_pairs": 213,
+  "category_selection_fold_pairs": 661,
+  "runs": {
+    "api_selection": 1278,
+    "category_selection": 1322
+  },
+  "api_final_runs": 152,
+  "category_final_runs": 653,
+  "learning_rates": [
+    2e-05,
+    3e-05
+  ],
+  "ratios": [
+    1,
+    3,
+    5
+  ],
+  "selection_epochs_unknown": true,
+  "gpu_hours": null,
+  "api_fixed_final_epochs": 10,
+  "ratio_shortages": {
+    "1": {
+      "fold_conditions": 0,
+      "final_conditions": 0,
+      "classifiers": []
+    },
+    "3": {
+      "fold_conditions": 1,
+      "final_conditions": 1,
+      "classifiers": [
+        "api_classification/category_mapping"
+      ]
+    },
+    "5": {
+      "fold_conditions": 2,
+      "final_conditions": 2,
+      "classifiers": [
+        "api_classification/category_mapping",
+        "api_classification/category_social"
+      ]
+    }
+  },
+  "selection_single_epoch_batches": {
+    "api_selection": {
+      "train_batches": 16896,
+      "validation_batches": 176322
+    },
+    "category_selection": {
+      "train_batches": 192424,
+      "validation_batches": 48560
+    }
+  },
+  "total_runs": 3405
+}
